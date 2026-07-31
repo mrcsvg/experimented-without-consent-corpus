@@ -1,0 +1,7 @@
+.vercel
+.DS_Store
+
+# O Finder/iCloud cria duplicatas " 2" (modo 600) ao resolver nome repetido.
+# São artefato do sistema, não do gerador — nunca versionar.
+*\ [0-9].*
+*\ [0-9]
