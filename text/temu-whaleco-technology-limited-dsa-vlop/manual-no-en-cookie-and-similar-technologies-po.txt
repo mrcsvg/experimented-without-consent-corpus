@@ -1,0 +1,120 @@
+==============================================================================
+FONTE      https://www.temu.com/no-en/cookie-and-similar-technologies-policy.html
+CAPTURADO  2026-07-31T20:21:32+00:00  ·  vantagem IT
+MÉTODO     captura manual pelo navegador (a página monta por JavaScript ou recusa cliente automatizado)
+SHA-256    05dd91580f2408f570b046c19ab69875f2c21bb57014aff82b148c531c14f183
+           (do texto abaixo da linha, sem este cabeçalho)
+------------------------------------------------------------------------------
+
+Temu | Cookies and Similar Technologies Policy
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+Support
+English
+Temu | Norway | Cookies and Similar Technologies Policy
+Last Updated: August 24, 2025
+This Cookies and Similar Technologies Policy (the " Cookie Policy ") supplements the Temu Privacy Policy (“ Privacy Policy ”) and describes how we use cookies and similar technologies, and handles personal information that we collect through cookies and similar technologies, on our digital properties that link to this Cookie Policy, including our website ( www.temu.com ) and Temu’s mobile application (“ App ”). Our App, digital properties, products, services, and website are collectively referred to in this Cookie Policy as the “ Service ”. Capitalised terms used in this Cookie Policy but not defined shall have the meaning set forth in our Privacy Policy.
+Introduction to Cookies and Similar Technologies
+Our Service uses cookies and other similar technologies and tools, such as local storage technologies, pixels, application programming interfaces (“ APIs ”), and software development kits (“ SDKs ”) (collectively referred to as " cookies " in this Cookie Policy).
+Cookies are usually small text files stored on your device that can store information. Cookies serve a number of important functions, including to remember you and your previous interactions with our Service.
+Local storage technologies are used to store information locally on your device. They are similar to cookies but can store more information and may be stored in different locations on your device. Local storage is typically used to enhance App and site functionality and remember user preferences. For example, HTML5 local storage is an equivalent service to cookies but can store large amounts of data related to a particular application on devices outside of your browser.
+A pixel is a piece of software code that allows an object, usually a pixel-sized image, to be embedded on a website. Pixels are used to demonstrate that a webpage or email has been accessed or opened, or that certain content has been viewed or clicked.
+An API is a set of protocols and tools that enable two or more software applications to communicate with each other. APIs are used to facilitate communication between us and our service providers. APIs that can store or access information on your device are considered to be cookies.
+SDK commonly refers to one or more code libraries which can distribute services to enable key functionality in apps. SDKs embedded in our App that can collect data about your device, access or store data on your device are considered to be cookies. Like cookies, they generally operate by assigning your device a unique number.
+Please see below for more information about the cookies and similar technologies that we use. The specific combination of technologies active at any time may vary based on your settings and how you use our Service.
+Categories of Cookies
+Cookies can either be “first-party” or “third-party”. First-party cookies refer to cookies that we set and use directly. Third-party cookies refer to cookies set by third parties (such as our advertising service providers). You can find a list of these third parties in our Third-Parties List .
+Purposes of Using Cookies
+Essential cookies . These cookies are necessary and required to provide our Service. For example, we use cookies to display products relevant to your language and country/region, to ensure the security of our Service, to differentiate users, and to support various functionalities of our website and App. More information can be found in the table below.
+Essential Cookies (including APIs, SDKs and similar technologies)
+Purpose
+First Party Cookies/Third-Party Cookies/Both
+Duration and other information
+We use cookies to determine and implement appropriate risk control and security strategies.
+The most up-to-date list of third-party cookies used for payments risk control and fraud prevention purposes is available here under the heading “Payments and Payments Risk Control”.
+Both
+These first-party cookies last for up to 365 days.
+The duration of these third-party cookies will be subject to third-party cookie policies.
+We use cookies to ensure that products relevant to your country/region and language are displayed and to enable us to understand where and in what language our Service is being used, so that we can effectively provide our Service.
+First-party cookies
+These cookies last for up to 365 days.
+We use cookies to remember your privacy settings, such as your choices regarding advertising cookies.
+First-party cookies
+The cookies used to remember your privacy settings last for up to 365 days.
+We use cookies to support various functionalities, such as login processes, page performance, and purchase function, and server-side processing necessary to operate our Service.
+The most up-to-date list of third-party cookies used to enable you to login through third-party operators and make payments through third-party payment providers is available here under the headings “Login/Share” and “Payments and Payments Risk Control”.
+Both
+Some of these first-party cookies are session cookies, and others are persistent, lasting either 1 day, 30 days, 100 days,180 days or up to 365 days.
+The duration of third-party cookies will be subject to third-party cookie policies.
+Advertising cookies . These cookies are non-essential and used to deliver you interest-based advertisements including those that are appropriate and relevant to your country/region and language. These cookies are also used to track the advertisements that are shown to you and to assist with advertising measurement and reporting. We use both first-party advertising cookies which we manage and control, and third-party cookies. Please note, we do not allow our third-party advertising partners to collect personal information for advertising purposes from the Temu App for iOS devices. The cookies you see in your preferences will be those that correspond to your operating system.
+Advertising cookies are optional. More information can be found in the table below. You can limit the use of cookies to process your information for interest-based advertising by using the options provided in Your Choices - Limit interest-based advertising section below.
+First-Party Advertising Cookies (including APIs, SDKs and similar technologies)
+Purpose
+Duration and other information
+These first-party cookies allow us to provide you with advertising that is appropriate and relevant to your country/region and language or used to track advertisements displayed to you.
+These cookies last for up to 365 days and can be enabled or disabled using the first-party advertising toggle here .
+Third-Party Advertising Cookies (including APIs, SDKs and similar technologies)
+Cookie Name
+Purpose
+Duration and other information
+The most up-to-date list of third-party advertising cookies used for advertising and advertising measurement is available here under the heading “Advertising and Advertising Measurement”.
+These third-party cookies allow third parties to show you Temu advertisements on other platforms and websites you visit, and allow us and third parties to measure and optimise the effectiveness of these advertisements, to ensure that the advertisements you see are as relevant as possible, and to promote our Service on the third-parties’ platforms and websites.
+The duration of third-party cookies will be subject to third-party cookie policies but can be enabled or disabled using the third-party advertising toggle and third-party advertising cookies can be customised here .
+Your Choices
+You have the right to decide whether to accept or reject cookies (except ‘essential’ cookies).
+Temu cookie settings . You can manage cookies by visiting our Cookie Preferences page. This includes both first-party and third-party cookies.
+Browser settings . You can also use the browser with which you are viewing this website to enable, disable or delete cookies. To do this, follow the instructions provided by your browser (usually located within the "Help", "Tools" or "Edit" settings). However, please note, if you set your browser to disable cookies, you may not be able to access secure areas of our Service. Also, if you disable cookies, other parts of our Service may not function properly. For more information about cookies, including how to see what cookies have been set on your browser and how to manage and delete them, visit https:// www.allaboutcookies.org .
+Third-party settings . You can control your preferences for other third-party services through the controls available on those third-party sites. You can find details of this in their own policies, which are linked to from our Third-Parties List . Please note that while we do our best to keep our Third-Parties List up to date for your convenience, you should contact the relevant third-party for current controls and further information.
+Limit interest-based advertising
+In addition to the settings above, you can limit the use of cookies to process your information for interest-based advertising in the following ways:
+Browser settings . Block third-party cookies in your browser settings.
+Privacy browser/plug-in . Allows you to block cookies by using privacy browsers or ad-blocking browser plug-ins.
+Opt out of Google Analytics Advertising Features . You can opt out of Google Analytics Advertising Features through Google Ad Settings: https://myadcenter.google.com/ .
+Change Facebook ad selections . You can prevent Facebook from using your information for interest-based advertising through Facebook Ad Settings: https://www.facebook.com/about/ads .
+Do not receive interest-based advertisements from certain third-party advertising partners. You can manage your advertising preferences for some of the third parties we work with to serve advertisements across the Internet using the options available at
+Online Advertising Initiative: https://thenai.org/opt-out/ .
+Digital Advertising Alliance: https://optout.aboutads.info/ , you can go to https://www.youronlinechoices.eu/ or https://www.youradchoices.com/appchoices , and download the AppChoices mobile app, which will allow you to opt-out of interest-based ads in mobile apps served by participating members of the Digital Advertising Alliance.
+We cannot offer any assurances as to whether the companies we work with participate in the opt-out programs described above.
+Change the settings of your mobile device. Use your mobile device settings to limit the use of the advertising ID associated with your mobile device for interest-based advertising purposes.
+For iOS 14.5 or Higher: Go to your Settings > Select Privacy > Select Tracking > Disable the "Allow Apps to Request to Track" setting.
+For Android devices with OS 2.2 or higher and Google Play Services version 4.0 or higher: Open your Google Settings app > Ads > Enable "Opt out of interest-based advertising."
+Do Not Track. Some Internet browsers may be configured to send “Do Not Track” signals to the online services that you visit. We currently do not respond to “Do Not Track” or similar signals.
+Changes to the Cookie Policy
+We reserve the right to modify this Cookie Policy at any time. If we make material changes to this Cookie Policy, we will notify you by updating the date of this Cookie Policy, posting it on our website and Temu’s App or providing any notice required by applicable laws. Any modifications to this Cookie Policy will be effective upon our posting the modified version (or as otherwise indicated at the time of posting). We recommend that you review the Cookie Policy each time you visit our Service to stay informed of our privacy practices.
+Get to know us
+About Temu
+Affiliate & Influencer Program: Join to Earn
+Contact us
+Company Details – Imprint
+Careers
+Press
+Temu's Tree Planting Program
+Customer service
+Return and refund policy
+Intellectual property policy
+Shipping info
+Product safety alerts
+Report suspicious activity
+Minimum Order Value
+Help
+Support center & FAQ
+Safety center
+Temu purchase protection
+Sitemap
+Partner with Temu
+Download the Temu App
+Price-drop alerts
+Track orders any time
+Faster & more secure checkout
+Low stock items alerts
+Exclusive offers
+Coupons & offers alerts
+Download on the
+App Store
+Get it on
+Google Play
+Connect with Temu
+Security certification
+We accept
+© 2022－2026 Whaleco Inc. Terms of use Privacy policy Your privacy choices Ad Choices
+Feedback
+Top

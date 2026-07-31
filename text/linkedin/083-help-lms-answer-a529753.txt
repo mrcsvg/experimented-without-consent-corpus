@@ -1,0 +1,104 @@
+==============================================================================
+FONTE      https://www.linkedin.com/help/lms/answer/a529753
+CAPTURADO  2026-07-31T01:15:08+00:00  ·  vantagem IT
+MÉTODO     captura automatizada (HTTP)
+SHA-256    93b5c0ee966fddc3b5983404a50e222949534971f41efedf6cd2012612e03c5e
+           (do texto abaixo da linha, sem este cabeçalho)
+------------------------------------------------------------------------------
+
+A/B Testing | Marketing Solutions Help
+Attention screen reader users, you are in a mobile optimized view and content may not appear where you expect it to be. To return the screen to its desktop view, please maximize your browser.
+Skip to content
+Skip to search
+Close jump menu
+Help
+LinkedIn Help
+Dropdown menu, expand to explore help for other LinkedIn products
+Close menu
+Get help with:
+LinkedIn
+Corporate Billing
+Learning
+Marketing Solutions
+Recruiter
+Sales Navigator
+Talent Insights
+Go to Marketing Solutions
+Sign in
+Sign in
+A/B Testing
+Last updated: 5 months ago
+As an advertiser, it’s important to achieve maximum value and return on investment (ROI) for your ad campaigns, understand what resonates with your audience, and optimize your campaigns based on statistically significant data. You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ by one variable.
+A/B Testing supports both Classic and Accelerate ad sets, which means you can test a Classic ad set against an AI-powered Accelerate ad set to determine ad set impact. A/B Testing for Accelerate is available for ad sets that meet our A/B test requirements.
+Important to know
+Due to privacy regulations, when targeting in the European Economic Area (EEA) or Switzerland, cost per paid conversion and cost per qualified lead metrics will only include data from members who have given explicit consent.
+Please note, A/B Testing temporarily restricted targeting members in the EEA and Switzerland. For any test targeting these regions between October 8, 2023 and February 5, 2024, we retroactively re-processed the test results and filtered out actions from members in the EEA and Switzerland who have chosen not to connect their Marketing Solutions services to their core LinkedIn experience. Learn more about member options for connecting to LinkedIn services .
+How A/B Testing works
+A/B Testing helps you to achieve a higher return on investment (ROI) by measuring the performance of each strategy on a cost-per-result basis, and as a result, guides you to meaningful next steps. Depending on the ROI and key performance indicators (KPI), for example, cost per click (CPC), Campaign Manager determines a winner or confirms that the difference between both ad sets is negligible.
+A/B tests cannot be activated the same day they are created. When the end date of an A/B test is reached, the campaign running the test will display the A/B test status. For example: Active, Paused, or Ended.
+Important to know
+Conclusive results aren't guaranteed.
+Examples of A/B tests for Classic and Accelerate ad sets
+Example one - Classic ad sets. You've two identical ad sets (ad set one and ad set two) except for the creative content (image A and image B) you want to test with your target audience.
+Example two - Classic versus Accelerate ad sets. You’ve created a Classic ad set with a brand awareness, website visits, engagement, video views, lead generation, or website conversions objective that you want to test with your target audience. But you also want to test how it performs against a similar AI-powered Accelerate ad set. The only difference between the ad sets is the creative content (image A and image B) you want to test with your target audience.
+For both examples, the audience is split evenly into two separate groups for the duration of the A/B test. Group one is only exposed to ad set one, and group two is only exposed to ad set two.
+Ad set one is only shown image A, and ad set two is only shown image B. The winning ad set is the ad set that drives the lowest cost per KPI.
+Important to know
+• Some members might appear in both the test and control groups, but our data and platform checks have shown that the effect is generally insignificant.
+• To maximize result reliability, an A/B test and a Brand Lift test can't run simultaneously in the same account.
+Related tasks
+Search for an A/B test
+View A/B test results
+Edit an A/B test
+Pause an A/B test
+Cancel an A/B test
+Learn more
+A/B Testing best practices
+A/B test results
+Compare Accelerate and Classic ad sets
+Learn how to create different types of A/B tests
+Create an A/B test using the ad variable in Campaign Manager
+Create an A/B test using the audience variable in Campaign Manager
+Create an A/B test using the placement variable in Campaign Manager
+Create an A/B test using the optimization variable in Campaign Manager
+Create an A/B test using the Accelerate vs Classic variable in Campaign Manager
+Create an A/B test to compare Classic and Accelerate ad sets
+Tagged in
+A/B Testing
+LinkedIn
+Contact us
+Select a language. The page will automatically refresh after a language has been selected.
+العربية (Arabic)
+Čeština (Czech)
+Dansk (Danish)
+Deutsch (German)
+English (English)
+Español (Spanish)
+Français (French)
+Bahasa Indonesia (Indonesian)
+Italiano (Italian)
+日本語 (Japanese)
+한국어 (Korean)
+Bahasa Malaysia (Malay)
+Nederlands (Dutch)
+Norsk (Norwegian)
+Polski (Polish)
+Português (Portuguese)
+Română (Romanian)
+Русский (Russian)
+Svenska (Swedish)
+ภาษาไทย (Thai)
+Türkçe (Turkish)
+简体中文 (Chinese (Simplified))
+正體中文 (Chinese (Traditional))
+LinkedIn Corporation © 2026
+About
+Transparency Center
+Privacy and Terms
+Cookies
+Copyright
+Terms
+Privacy
+Guest controls
+Dismiss Privacy and Terms menu
+LinkedIn Corporation © 2026

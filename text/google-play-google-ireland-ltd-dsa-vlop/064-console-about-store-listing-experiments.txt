@@ -1,0 +1,271 @@
+==============================================================================
+FONTE      https://play.google.com/console/about/store-listing-experiments/
+CAPTURADO  2026-07-31T01:14:20+00:00  ·  vantagem IT
+MÉTODO     captura automatizada (HTTP)
+SHA-256    4ebdadbefb3a072e736324f0ac5ac97d74ffaeb1c767e2cd7e9ab43afe5321bd
+           (do texto abaixo da linha, sem este cabeçalho)
+------------------------------------------------------------------------------
+
+Store listing experiments | Google Play Console
+Store listing experiments
+Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text.
+Go to Play Console
+Increase installs and conversion
+Optimize your install conversion rate by running free A/B tests on your store listing text and graphics
+Localized experiments for a global presence
+Run experiments to see how users respond differently around the world
+Metrics to help you optimize
+See acquisition and 1-day retention rates for each version of your store listing so you can make further improvements
+Best practices
+Get the biggest impact by testing icons, videos, and screenshots
+Get the clearest results by testing a single asset at a time
+Test for at least a week to account for weekday vs weekend traffic patterns
+Revisit assets over time to account for changes in users, locations, and seasonality
+Opt-in to email notifications to be alerted when a winning variant has been declared
+Find out more
+How to set up an experiment
+Visit the Play Console Help Center to learn how to set up a store listing experiment
+Learn more
+Get store listing certified
+Certify in store listing best practices on Google Play Academy
+Start training
+Best practices for better experiments
+Watch our team share their tips for running experiments at Google I/O 2019
+Watch video
+Translation services
+Localize your app experience for users around the world
+Learn more
+SGN games increases conversions using store listing experiments
+Watch video
+Tapps Games increases installs by more than 20% with store listing experiments
+Learn more
+Kongregate increases installs by 45% with store listing experiments
+Watch video
+Pincer Games increases conversions by 20%
+Watch Video
+1
+/
+More on growing your audience
+Accelerate your user growth with our reporting and optimization tools, including unique market insights exclusive to Google Play
+Learn more
+Console features
+Store listings
+Make a great first impression on potential users with a strong Play store listing
+Acquisition reporting
+Track acquisition trends and see which sources are driving the highest quality impressions
+Pre-registration
+Create excitement and awareness of your apps and games before they’re in production
+Translation services
+Localize your app experience for users around the world by translating your app's store listing page, app strings, and in-app products
+Additional Features
+Statistics
+App size
+Play Games Services
+Try Store listing experiments
+Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text.
+Go to Play Console
+Essentials
+Essentials
+Find the tools and guidance you need to accomplish your goals with Google Play.
+Explore all topics
+Find the tools and guidance you need to accomplish your goals with Google Play.
+Explore all topics
+Topics
+Get Started
+Monetize with Play Commerce
+Improving app quality
+Growing your audience
+Releasing with confidence
+Engaging and retaining users
+Getting featured on Google Play
+Building apps for families
+Resources
+Policy Center
+Policy Deadlines
+Brand and marketing resources
+Topics
+Get Started
+Monetize with Play Commerce
+Improving app quality
+Growing your audience
+Releasing with confidence
+Engaging and retaining users
+Getting featured on Google Play
+Building apps for families
+Resources
+Policy Center
+Policy Deadlines
+Brand and marketing resources
+Learning
+Learning
+Learn the skills and best practices to help every part of your business thrive.
+Learn the skills and best practices to help every part of your business thrive.
+Guides for every topic
+Find the right tools and resources for your goals.
+Learn more
+Play Academy
+Get online training, targeted for every stage of your business growth.
+Learn more
+Insights
+Find the most impactful reports and insights to drive your app growth.
+Learn more
+Case studies
+See real-world stories and businesses thriving on Google Play.
+Learn more
+#WeArePlay
+Learn about the global community building amazing apps on Google Play.
+Learn more
+Guides for every topic
+Play Academy
+Insights
+Case studies
+#WeArePlay
+Programs
+Programs
+Get involved with programs designed to support the needs of all types of businesses.
+Explore programs
+Get involved with programs designed to support the needs of all types of businesses.
+Explore programs
+For reaching new audiences
+Apps Accelerator
+Promotional content
+Google Play Pass
+Google Play Points
+For developing great games
+Level Up
+Indie Games
+New to Google Play
+For developing great apps
+Apps Experience
+Media Experience Program
+Engage SDK
+For children's apps
+Teacher Approved
+Billing programs
+Billing choice program
+User Choice Billing Pilot
+For reaching new audiences
+Apps Accelerator
+Promotional content
+Google Play Pass
+Google Play Points
+For developing great games
+Level Up
+Indie Games
+New to Google Play
+For developing great apps
+Apps Experience
+Media Experience Program
+Engage SDK
+For children's apps
+Teacher Approved
+Billing programs
+Billing choice program
+User Choice Billing Pilot
+Play Console
+Play Console
+Learn about Play Console features and leverage our best practices.
+See what's new How to use Console
+Learn about Play Console features and leverage our best practices.
+See what's new How to use Console
+Test
+Latest releases and bundles
+Closed testing
+Internal app sharing
+Internal testing
+Open testing
+Pre-launch reports
+Release
+Device catalog
+Integrity and signing
+Pre-registration
+Production
+Publishing overview
+Releases overview
+Grow
+Acquisition reporting
+Custom store listings
+Deep links
+Main store listing
+Statistics
+Store listing experiments
+Translation services
+Quality
+Android Performance Tuner
+Android vitals
+App size
+Ratings
+Reach and devices
+Reviews
+Monetize
+In-app products
+Price experiments
+Strategic guidance
+Subscription reporting
+Subscription setup
+Manage
+Policy status
+Team and user management
+Test
+Latest releases and bundles
+Closed testing
+Internal app sharing
+Internal testing
+Open testing
+Pre-launch reports
+Release
+Device catalog
+Integrity and signing
+Pre-registration
+Production
+Publishing overview
+Releases overview
+Grow
+Acquisition reporting
+Custom store listings
+Deep links
+Main store listing
+Statistics
+Store listing experiments
+Translation services
+Quality
+Android Performance Tuner
+Android vitals
+App size
+Ratings
+Reach and devices
+Reviews
+Monetize
+In-app products
+Price experiments
+Strategic guidance
+Subscription reporting
+Subscription setup
+Manage
+Policy status
+Team and user management
+Go to Play Console
+Go to Play Console
+Go to Play Console
+Sign up for Google Play developer updates
+Sign up
+Footer links
+Social Module
+Connect with us
+Tools
+Console
+APIs
+Learning & community resources
+Guides
+Case Studies
+#WeArePlay
+Programs
+Blog
+Apps, Games, & Insights Podcast
+Google Play Help
+About Google
+Google products
+Privacy
+Terms
+Cookies management controls
+Help

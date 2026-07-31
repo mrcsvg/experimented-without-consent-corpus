@@ -1,0 +1,84 @@
+==============================================================================
+FONTE      https://info.xnxx.com/dsa-data-catalogue
+CAPTURADO  2026-07-31T01:19:47+00:00  ·  vantagem IT
+MÉTODO     captura automatizada (HTTP)
+SHA-256    ec9f2d0db8386b15b613f4c936da86da0d2d36eae2b4d609e8ff8a4bb4a0d186
+           (do texto abaixo da linha, sem este cabeçalho)
+------------------------------------------------------------------------------
+
+DSA Data Catalogue - XNXX.COM
+DSA Data Catalogue
+This data dictionary describes the available data names.
+Video database
+Description: Video database.
+Purpose of research supported: Detection and understanding of systemic risks; assessment of mitigation measures.
+Data fields: aggregate and/or average number of videos created, category, description, duration, id, ids, model, model names, nb views, popularity, preview, publication date, score, sfw thumbnail, studio id, studio link, studio name, tags, thumbnail, title, trailer, uploader, url, video quality
+Data format: CSV
+Update frequency: Every 3 days
+Studio database
+Description: Professional profiles database.
+Purpose of research supported: Detection of discriminatory practices, identification and understanding of systemic risks; assessment of the adequacy, efficiency and impacts of risk mitigation measures.
+Data fields: active album count, active video count, number of followers, preview, registration date, studio id, studio name, thumbnail, video views
+Data format: CSV
+Update frequency: Every 3 days
+Model database
+Description: Model metadata database.
+Purpose of research supported: Detection of illegal content; verification of content and provided information; assessment of risks and/or impact of content.
+Data fields: active album count, active video count, age, description, gender, ids, main cats, model id, model name, nationality, number of followers, popularity, preview, scene ids, studio, tags, thumbnail, uploader video views
+Data format: CSV
+Update frequency: Every 3 days
+Deleted video feed
+Description: Last deleted video feed
+Purpose of research supported: Transparency of previous activity to detect any harmfull or ilegal content; scrutiny of content governance; assessment of efficiency.
+Data fields: url, website
+Data format: CSV
+Update frequency: Every 3 days
+Search video API
+Description: Query database to search public videos.
+Purpose of research supported: Identification of systemic risks and their evolution over time; detecting harmfull or illegal content; understanding of systemic risks.
+Data fields: video ids
+Data format: JSON
+Update frequency: Live
+Search profile API
+Description: Query database to search public profiles.
+Purpose of research supported: Identification of systemic risks and their evolution over time; detecting harmfull or illegal content; understanding of systemic risks.
+Data fields: profile names
+Data format: JSON
+Update frequency: Live
+Videos home exposure
+Description: Show for how long a video has been displayed on home listing for each Geographic zone.
+Purpose of research supported: Transparency of content; detection of harmfull, ilegal content; detection of potentional systemic risks.
+Data fields: geo zone, main category, number of clicks, timestart start, timestamp end, video id
+Data format: CSV
+Update frequency: Every week
+User interaction dataset (pseudonymised)
+Description: User-level interaction logs (likes, comments) to study amplification effects and exposure patterns.
+Purpose of research supported: Systemic risks related to recommender effects and engagement; mitigation assessment.
+Data fields: country, interaction_type, timestamp, user_id_hashed, video_id
+Data format: CSV
+Update frequency: Every week
+Search terms statistics API
+Description: Search engine statistics by country and main category.
+Purpose of research supported: Enable research on identified systemic risks and their evolution over time.
+Data fields: country, day, main category, page_view, term
+Data format: CSV
+Update frequency: Live
+Notices review
+Description: Pseudonymised reports and review result.
+Purpose of research supported: Scrutiny of content governance and fairness; systemic risk from illegal or harmfull content
+Data fields: appeal date, appeal result, content id reported, id report, review date, review result, submit date
+Data format: CSV
+Update frequency: Every week
+Content moderation data
+Description: Content moderation data.
+Purpose of research supported: Scrutiny of content governance and fairness; systemic risk from illegal content and fundamental rights impacts.
+Data fields: content publisher, content rejected, content removed, content uploader, uploader accounts approved, uploader accounts terminated
+Data format: JSON
+Update frequency: Every week
+Advertising moderation
+Description: Advertsing database.
+Purpose of research supported: Transparency of targeting; detection of discriminatory practices; detection of harmfull, illegal or risky practices.
+Data fields: ads clicked on, appeals against removal of ads, rejected advertising, removed ads., uploaded advertising
+Data format: JSON
+Update frequency: Every week
+Go back to XNXX info page
