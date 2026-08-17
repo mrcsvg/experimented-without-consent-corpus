@@ -1,6 +1,6 @@
 ==============================================================================
 FONTE      https://newsroom.tiktok.com/an-update-on-our-work-to-safeguard-and-diversify-recommendations
-CAPTURADO  2026-07-31T01:17:20+00:00  ·  vantagem IT
+CAPTURADO  2026-08-03T01:29:22+00:00  ·  vantagem IT
 MÉTODO     captura automatizada (HTTP)
 SHA-256    6ceb64b2af8b4a2ce85f10cb8fd17e3adf73875a883ed5e0ee8425437f0bbbb4
            (do texto abaixo da linha, sem este cabeçalho)

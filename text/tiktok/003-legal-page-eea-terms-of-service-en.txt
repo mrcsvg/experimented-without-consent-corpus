@@ -1,8 +1,8 @@
 ==============================================================================
-FONTE      https://web.archive.org/web/20260710010832id_/https://www.tiktok.com/legal/page/eea/terms-of-service/en
-CAPTURADO  2026-07-31T01:17:14+00:00  ·  vantagem IT
+FONTE      https://www.tiktok.com/legal/page/eea/terms-of-service/en
+CAPTURADO  2026-08-03T01:29:04+00:00  ·  vantagem IT
 MÉTODO     captura automatizada (HTTP)
-SHA-256    38fb874a304e9b903a9380314ee747b3b0aad059531c673775dac8260875799f
+SHA-256    1ab110d8f3f1e9816c5d7140cc2485efe6105c54877e5c99fddbca4812a389d2
            (do texto abaixo da linha, sem este cabeçalho)
 ------------------------------------------------------------------------------
 
@@ -10,7 +10,7 @@ Terms of Service | TikTok
 EEA/UK/CH
 Terms of Service
 (These terms apply if you live or have your principal place of business in the European Economic Area, Switzerland or the UK)
-Last updated: August 2025
+Last updated: July 2026
 Welcome to TikTok.
 These Terms of Service and the other additional terms and policies which may apply to you (see Section 3) (“ Terms ”) contain the agreement between you and TikTok in respect of the Platform (defined below). Please read them carefully. Please also read our Privacy Policy , Cookies Policy and Community Guidelines .
 You enter a contract with us when you accept these Terms or otherwise use the Platform. For users living in the Federal Republic of Germany, the Additional provisions for users residing in the Federal Republic of Germany also apply. For users living in the United Kingdom, additional terms apply to you - see here .
@@ -33,7 +33,7 @@ Rewards Policy : This governs the receipt of rewards from TikTok.
 Music Terms : These apply when you post content on the Platform that includes music from the TikTok music library or your personal device.
 Commercial Music Library Terms : These apply if you are a commercial entity or you post content on the Platform that includes music from the Commercial Music Library.
 Intellectual Property Policy : This applies to all content on the Platform protected by intellectual property rights.
-TikTok Shop Terms of Use: These apply when you use TikTok Shop (where available). These terms differ based on where you live: UK , Ireland , Spain , Germany , France and Italy .
+TikTok Shop Terms of Use : These apply when you use TikTok Shop (where available). These terms differ based on where you live.
 Branded Content Policy : This applies when you post content on the Platform promoting a third party brand or its products or services in exchange for payment or any other incentive.
 Business Terms : These apply if you use the Platform for the purposes of a trade, business, craft or profession. This includes administering an account on behalf of a business.
 If you live in the EEA and use our direct messaging service, please read this important contract information and contract summary . We recommend keeping a copy of these documents for your records.

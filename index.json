@@ -1,6 +1,6 @@
 {
- "built_at": "2026-07-31T22:10:56+00:00",
- "frozen_at": "2026-07-31T01:49:13+00:00",
+ "built_at": "2026-08-03T02:53:34+00:00",
+ "frozen_at": "2026-08-03T01:38:14+00:00",
  "vantage": "IT",
  "services": {
   "AliExpress": [
@@ -542,34 +542,34 @@
   "Pinterest": [
    {
     "url": "https://policy.pinterest.com/en/cookies",
-    "file": "text/pinterest/089-en-cookies.txt",
-    "chars": 14641,
-    "sha256": "91a33f870dbd633764af2986da1e27dac6cc181183b47c88099a96ce788c5848",
-    "captured_at": "2026-07-31T01:15:22+00:00",
+    "file": "text/pinterest/003-en-cookies.txt",
+    "chars": 7290,
+    "sha256": "60b9b9980335b65145c3e1e9530c401238661a4492c978f36ef3ba02ea5a5b1b",
+    "captured_at": "2026-08-03T01:28:06+00:00",
     "manual": false
    },
    {
     "url": "https://policy.pinterest.com/en/privacy-policy",
-    "file": "text/pinterest/087-en-privacy-policy.txt",
-    "chars": 29732,
-    "sha256": "94bb3ad9c3b185a6b15a86dd049282c60b93a664b1528a4f3ce80fe9fdf839e4",
-    "captured_at": "2026-07-31T01:15:18+00:00",
+    "file": "text/pinterest/001-en-privacy-policy.txt",
+    "chars": 48779,
+    "sha256": "4c3bd185ab851e217e3d4a06e5c3ab8d3a1ccdf704532bf9c7d0ccfb67866261",
+    "captured_at": "2026-08-03T01:28:02+00:00",
     "manual": false
    },
    {
     "url": "https://policy.pinterest.com/en/terms-of-service",
-    "file": "text/pinterest/088-en-terms-of-service.txt",
-    "chars": 21990,
-    "sha256": "b01711dbcace20488ea25d0adf121f2bb4c655a307a305c92d491f6e4ae4baf2",
-    "captured_at": "2026-07-31T01:15:19+00:00",
+    "file": "text/pinterest/002-en-terms-of-service.txt",
+    "chars": 30088,
+    "sha256": "31c5ef900d7ef33b7e374e6850ec1c357ae809b2f7ea43346f2c37afef0f8e5a",
+    "captured_at": "2026-08-03T01:28:04+00:00",
     "manual": false
    },
    {
     "url": "https://www.pinterest.com/public-beta/",
-    "file": "text/pinterest/090-public-beta.txt",
+    "file": "text/pinterest/004-public-beta.txt",
     "chars": 1791,
     "sha256": "e6a122c55814aa59ebd602f34c082a86491ffdf54d77429cd13fd01937da7af8",
-    "captured_at": "2026-07-31T01:15:25+00:00",
+    "captured_at": "2026-08-03T01:28:10+00:00",
     "manual": false
    }
   ],
@@ -818,66 +818,50 @@
   "TikTok": [
    {
     "url": "https://ads.tiktok.com/help/article/split-testing",
-    "file": "text/tiktok/138-help-article-split-testing.txt",
+    "file": "text/tiktok/009-help-article-split-testing.txt",
     "chars": 1854,
     "sha256": "61bc9eff37afb10203ac7df4a334809a768c1c62bf9cbcd9b0eb024fe6e06d94",
-    "captured_at": "2026-07-31T01:18:43+00:00",
+    "captured_at": "2026-08-03T01:29:33+00:00",
     "manual": false
    },
    {
     "url": "https://newsroom.tiktok.com/an-update-on-our-work-to-safeguard-and-diversify-recommendations",
-    "file": "text/tiktok/135-an-update-on-our-work-to-safeguard-and-d.txt",
+    "file": "text/tiktok/006-an-update-on-our-work-to-safeguard-and-d.txt",
     "chars": 5681,
     "sha256": "6ceb64b2af8b4a2ce85f10cb8fd17e3adf73875a883ed5e0ee8425437f0bbbb4",
-    "captured_at": "2026-07-31T01:17:20+00:00",
+    "captured_at": "2026-08-03T01:29:22+00:00",
     "manual": false
    },
    {
     "url": "https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you",
-    "file": "text/tiktok/136-en-us-how-tiktok-recommends-videos-for-y.txt",
+    "file": "text/tiktok/007-en-us-how-tiktok-recommends-videos-for-y.txt",
     "chars": 10030,
     "sha256": "16a5a0c756a41198faabbbf6709c5b1ce42abd92668510798fbf082063ac3c30",
-    "captured_at": "2026-07-31T01:17:22+00:00",
-    "manual": false
-   },
-   {
-    "url": "https://web.archive.org/web/20260710010832id_/https://www.tiktok.com/legal/page/eea/terms-of-service/en",
-    "file": "text/tiktok/133-web-20260710010832id-https-www-tiktok-co.txt",
-    "chars": 28454,
-    "sha256": "38fb874a304e9b903a9380314ee747b3b0aad059531c673775dac8260875799f",
-    "captured_at": "2026-07-31T01:17:14+00:00",
-    "manual": false
-   },
-   {
-    "url": "https://web.archive.org/web/20260713145902id_/https://www.tiktok.com/legal/page/eea/privacy-policy/en",
-    "file": "text/tiktok/131-web-20260713145902id-https-www-tiktok-co.txt",
-    "chars": 24105,
-    "sha256": "084fcb54dff02a39342164131c31fc3e4cf970246254efc790c4422a79ec0c94",
-    "captured_at": "2026-07-31T01:17:07+00:00",
+    "captured_at": "2026-08-03T01:29:25+00:00",
     "manual": false
    },
    {
     "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
-    "file": "text/tiktok/130-legal-page-eea-privacy-policy-en.txt",
+    "file": "text/tiktok/001-legal-page-eea-privacy-policy-en.txt",
     "chars": 46768,
     "sha256": "c3fac1a68c3457b4097f2869a1bedf6d76805f35da1ab7a43c678d44aed6d013",
-    "captured_at": "2026-07-31T01:17:05+00:00",
+    "captured_at": "2026-08-03T01:28:50+00:00",
     "manual": false
    },
    {
     "url": "https://www.tiktok.com/legal/page/eea/terms-of-service/en",
-    "file": "text/tiktok/132-legal-page-eea-terms-of-service-en.txt",
+    "file": "text/tiktok/003-legal-page-eea-terms-of-service-en.txt",
     "chars": 28401,
     "sha256": "1ab110d8f3f1e9816c5d7140cc2485efe6105c54877e5c99fddbca4812a389d2",
-    "captured_at": "2026-07-31T01:17:10+00:00",
+    "captured_at": "2026-08-03T01:29:04+00:00",
     "manual": false
    },
    {
     "url": "https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en",
-    "file": "text/tiktok/134-legal-page-global-tiktok-website-cookies.txt",
+    "file": "text/tiktok/005-legal-page-global-tiktok-website-cookies.txt",
     "chars": 10273,
     "sha256": "50dda8705bdcab04156c32eaf5cbf57a95ecdc5c17a2614658f20567362e80d6",
-    "captured_at": "2026-07-31T01:17:16+00:00",
+    "captured_at": "2026-08-03T01:29:18+00:00",
     "manual": false
    }
   ],
@@ -1167,35 +1151,43 @@
   ],
   "Zalando": [
    {
+    "url": "https://corporate.zalando.com/en/zalando-data-protection-statement",
+    "file": "text/zalando/008-en-zalando-data-protection-statement.txt",
+    "chars": 42945,
+    "sha256": "bfa3f68d3ac7cd654ade7d8b9b1e1c6cb68d0f363e4166f098bbb6220d36ffd2",
+    "captured_at": "2026-08-03T01:28:45+00:00",
+    "manual": false
+   },
+   {
     "url": "https://engineering.zalando.com/posts/2021/01/experimentation-platform-part1.html",
-    "file": "text/zalando/154-posts-2021-01-experimentation-platform-p.txt",
+    "file": "text/zalando/003-posts-2021-01-experimentation-platform-p.txt",
     "chars": 12520,
     "sha256": "086490f668722662a4e8ad3e02b3a79bd8cf10ebbc4c24f13ebb174482948004",
-    "captured_at": "2026-07-31T01:19:57+00:00",
+    "captured_at": "2026-08-03T01:28:36+00:00",
     "manual": false
    },
    {
     "url": "https://engineering.zalando.com/tags/experimentation.html",
-    "file": "text/zalando/155-tags-experimentation-html.txt",
+    "file": "text/zalando/004-tags-experimentation-html.txt",
     "chars": 1005,
     "sha256": "613b1934d449f227d9f6a2cdabdb3201a2b17b6e89fc41a51ce790590b40a8b1",
-    "captured_at": "2026-07-31T01:19:59+00:00",
+    "captured_at": "2026-08-03T01:28:38+00:00",
     "manual": false
    },
    {
     "url": "https://mosaic02.ztat.net/cnt/contentful-apps/uploads/6264a7fa-33a0-42b3-8021-da7a5fd85469.pdf",
-    "file": "text/zalando/152-cnt-contentful-apps-uploads-6264a7fa-33a.txt",
-    "chars": 542865,
-    "sha256": "e584144fb8c7c74fd3fae8094f0e80e758dbce49e1151e0f56c4e961d18349bd",
-    "captured_at": "2026-07-31T01:19:50+00:00",
+    "file": "text/zalando/001-cnt-contentful-apps-uploads-6264a7fa-33a.txt",
+    "chars": 137245,
+    "sha256": "3a341a6a0e03180bb4849e3d171ba51fa3066f10355ffbe11218258b59006dcd",
+    "captured_at": "2026-08-03T01:28:27+00:00",
     "manual": false
    },
    {
     "url": "https://mosaic02.ztat.net/cnt/contentful-apps/uploads/b8944e13-77d3-4b20-8abf-04c3bfb51d9a.pdf",
-    "file": "text/zalando/153-cnt-contentful-apps-uploads-b8944e13-77d.txt",
-    "chars": 129563,
-    "sha256": "79dbe5476896a69580e71f82b25099525290311b3c282e09ebf23d18f4d5f11c",
-    "captured_at": "2026-07-31T01:19:52+00:00",
+    "file": "text/zalando/002-cnt-contentful-apps-uploads-b8944e13-77d.txt",
+    "chars": 32704,
+    "sha256": "4fd76b2383438d78d6983f8fec717a0da9f5cc3803c914cd040014777a47fb20",
+    "captured_at": "2026-08-03T01:28:33+00:00",
     "manual": false
    }
   ]

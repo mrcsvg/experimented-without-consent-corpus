@@ -1,6 +1,6 @@
 ==============================================================================
 FONTE      https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en
-CAPTURADO  2026-07-31T01:17:16+00:00  ·  vantagem IT
+CAPTURADO  2026-08-03T01:29:18+00:00  ·  vantagem IT
 MÉTODO     captura automatizada (HTTP)
 SHA-256    50dda8705bdcab04156c32eaf5cbf57a95ecdc5c17a2614658f20567362e80d6
            (do texto abaixo da linha, sem este cabeçalho)

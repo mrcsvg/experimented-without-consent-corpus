@@ -1,6 +1,6 @@
 ==============================================================================
 FONTE      https://engineering.zalando.com/tags/experimentation.html
-CAPTURADO  2026-07-31T01:19:59+00:00  ·  vantagem IT
+CAPTURADO  2026-08-03T01:28:38+00:00  ·  vantagem IT
 MÉTODO     captura automatizada (HTTP)
 SHA-256    613b1934d449f227d9f6a2cdabdb3201a2b17b6e89fc41a51ce790590b40a8b1
            (do texto abaixo da linha, sem este cabeçalho)

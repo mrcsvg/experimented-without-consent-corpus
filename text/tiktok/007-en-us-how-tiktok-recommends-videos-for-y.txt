@@ -1,6 +1,6 @@
 ==============================================================================
 FONTE      https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you
-CAPTURADO  2026-07-31T01:17:22+00:00  ·  vantagem IT
+CAPTURADO  2026-08-03T01:29:25+00:00  ·  vantagem IT
 MÉTODO     captura automatizada (HTTP)
 SHA-256    16a5a0c756a41198faabbbf6709c5b1ce42abd92668510798fbf082063ac3c30
            (do texto abaixo da linha, sem este cabeçalho)

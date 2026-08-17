@@ -1,6 +1,6 @@
 ==============================================================================
 FONTE      https://ads.tiktok.com/help/article/split-testing
-CAPTURADO  2026-07-31T01:18:43+00:00  ·  vantagem IT
+CAPTURADO  2026-08-03T01:29:33+00:00  ·  vantagem IT
 MÉTODO     captura automatizada (HTTP)
 SHA-256    61bc9eff37afb10203ac7df4a334809a768c1c62bf9cbcd9b0eb024fe6e06d94
            (do texto abaixo da linha, sem este cabeçalho)

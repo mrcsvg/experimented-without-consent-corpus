@@ -1,6 +1,6 @@
 ==============================================================================
 FONTE      https://www.tiktok.com/legal/page/eea/privacy-policy/en
-CAPTURADO  2026-07-31T01:17:05+00:00  ·  vantagem IT
+CAPTURADO  2026-08-03T01:28:50+00:00  ·  vantagem IT
 MÉTODO     captura automatizada (HTTP)
 SHA-256    c3fac1a68c3457b4097f2869a1bedf6d76805f35da1ab7a43c678d44aed6d013
            (do texto abaixo da linha, sem este cabeçalho)

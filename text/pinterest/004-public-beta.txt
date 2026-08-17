@@ -1,6 +1,6 @@
 ==============================================================================
 FONTE      https://www.pinterest.com/public-beta/
-CAPTURADO  2026-07-31T01:15:25+00:00  ·  vantagem IT
+CAPTURADO  2026-08-03T01:28:10+00:00  ·  vantagem IT
 MÉTODO     captura automatizada (HTTP)
 SHA-256    e6a122c55814aa59ebd602f34c082a86491ffdf54d77429cd13fd01937da7af8
            (do texto abaixo da linha, sem este cabeçalho)
