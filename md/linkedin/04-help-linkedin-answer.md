@@ -1,0 +1,88 @@
+---
+service: "LinkedIn"
+service_slug: "linkedin"
+doc: 4
+role: "unknown"
+url: "https://www.linkedin.com/help/linkedin/answer/a1338610"
+final_url: "https://www.linkedin.com/help/linkedin/answer/a1338610"
+captured_at: "2026-07-31T01:15:03+00:00"
+vantage: "IT"
+sha256_text: "a4871dcbdb4f762918ceae112eeb639727199e079eb92c67088851042e375af5"
+chars: 2172
+wayback_url: null
+---
+
+Data Processing Restriction and Objection | LinkedIn Help
+Attention screen reader users, you are in a mobile optimized view and content may not appear where you expect it to be. To return the screen to its desktop view, please maximize your browser.
+Skip to content
+Skip to search
+Close jump menu
+Help
+LinkedIn Help
+Dropdown menu, expand to explore help for other LinkedIn products
+Close menu
+Get help with:
+LinkedIn
+Corporate Billing
+Learning
+Marketing Solutions
+Recruiter
+Sales Navigator
+Talent Insights
+Go to LinkedIn
+Sign in
+Sign in
+Data Processing Restriction and Objection
+Last updated: 2 years ago
+You can request LinkedIn to stop using all or some of your personal data (e.g., if you believe we have no legal right to keep using it) or to limit our use of it (e.g., if you believe your personal data is inaccurate or is being unlawfully held). In general, you can control and manage how we use your personal data by adjusting your privacy settings or your ads settings . For any other objections to or requests for the restriction of use of personal data, please fill out and submit the LinkedIn Data Processing Objection/Restriction form Thank you.
+Related information
+LinkedIn’s processing on the basis of legitimate interests
+LinkedIn
+Contact us
+Select a language. The page will automatically refresh after a language has been selected.
+العربية (Arabic)
+বাংলা (Bangla)
+Čeština (Czech)
+Dansk (Danish)
+Deutsch (German)
+Ελληνικά (Greek)
+English (English)
+Español (Spanish)
+فارسی (Persian)
+Suomi (Finnish)
+Français (French)
+हिंदी (Hindi)
+Magyar (Hungarian)
+Bahasa Indonesia (Indonesian)
+Italiano (Italian)
+עברית (Hebrew)
+日本語 (Japanese)
+한국어 (Korean)
+मराठी (Marathi)
+Bahasa Malaysia (Malay)
+Nederlands (Dutch)
+Norsk (Norwegian)
+ਪੰਜਾਬੀ (Punjabi)
+Polski (Polish)
+Português (Portuguese)
+Română (Romanian)
+Русский (Russian)
+Svenska (Swedish)
+తెలుగు (Telugu)
+ภาษาไทย (Thai)
+Türkçe (Turkish)
+Українська (Ukrainian)
+Tiếng Việt (Vietnamese)
+简体中文 (Chinese (Simplified))
+正體中文 (Chinese (Traditional))
+LinkedIn Corporation © 2026
+About
+Transparency Center
+Privacy and Terms
+Cookies
+Copyright
+Terms
+Privacy
+Guest controls
+Dismiss Privacy and Terms menu
+LinkedIn Corporation © 2026

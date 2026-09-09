@@ -1,0 +1,1590 @@
+{
+  "built_at": "2026-09-09T02:23:41+00:00",
+  "frozen_at": "2026-08-03T01:38:14+00:00",
+  "vantage": "IT",
+  "limiar_ilegivel": 0.02,
+  "services": [
+    {
+      "name": "AliExpress",
+      "slug": "aliexpress",
+      "docs": [
+        {
+          "n": 1,
+          "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+          "role": "unknown",
+          "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress201909171350_82407.html",
+          "chars": 72890,
+          "sha256_text": "d16a20040e49610d83c2c7785159cf87da62a79a159d2b534b9fd54c7a03c2a5",
+          "captured_at": "2026-07-31T01:12:46+00:00"
+        },
+        {
+          "n": 2,
+          "file": "aliexpress/02-terms-suit-bu1-aliexpress-aliexpress202204182115-660.md",
+          "role": "unknown",
+          "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress202204182115_66077.html",
+          "chars": 109147,
+          "sha256_text": "c313c80514c1c752468a4656fd43c0f337b7ba289879606189ba4d9ebb5f514a",
+          "captured_at": "2026-07-31T01:12:48+00:00"
+        },
+        {
+          "n": 3,
+          "file": "aliexpress/03-terms-c-platform-service-agreement-20240401172006520.md",
+          "role": "unknown",
+          "url": "https://terms.alicdn.com/legal-agreement/terms/c_platform_service_agreement/20240401172006520/20240401172006520.html",
+          "chars": 15730,
+          "sha256_text": "40a89e173ed34f1dfb7de04af1c6c38c5d3b3d30877f407b258fc3fb7d79d905",
+          "captured_at": "2026-07-31T01:12:50+00:00"
+        },
+        {
+          "n": 4,
+          "file": "aliexpress/04-p-transparencycenter.md",
+          "role": "unknown",
+          "url": "https://www.aliexpress.com/p/transparencycenter/policies.html",
+          "chars": 1160,
+          "sha256_text": "0db6725f30c94f8d7b6dd49af3c6d372227f59172147de38fa5d46fca5d5924b",
+          "captured_at": "2026-07-31T01:12:52+00:00"
+        },
+        {
+          "n": 5,
+          "file": "aliexpress/05-p-transparencycenter-dsa.md",
+          "role": "unknown",
+          "url": "https://www.aliexpress.com/p/transparencycenter/dsa.html",
+          "chars": 1160,
+          "sha256_text": "0db6725f30c94f8d7b6dd49af3c6d372227f59172147de38fa5d46fca5d5924b",
+          "captured_at": "2026-07-31T01:12:54+00:00"
+        },
+        {
+          "n": 6,
+          "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+          "role": "unknown",
+          "url": "https://cdn.contract.alibaba.com/terms/EU_EE_UK_platform_service_agreement/20250514112355975/20250514112355975.html?lng=en",
+          "chars": 64908,
+          "sha256_text": "d06700f8cc6cfbbd1563b38ce6dbebd1306421307f959b996d235bd12dbf11a1",
+          "captured_at": "2026-07-31T01:12:56+00:00"
+        }
+      ],
+      "n_binding": 0
+    },
+    {
+      "name": "Amazon Store",
+      "slug": "amazon-store",
+      "docs": [
+        {
+          "n": 1,
+          "file": "amazon-store/01-help-customer-display.md",
+          "role": "binding",
+          "url": "https://www.amazon.de/-/en/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ",
+          "chars": 38346,
+          "sha256_text": "2d5a1ed4d053428da8ef7c989f4f9f1005f7dba04600abd1b595ba93fece39dd",
+          "captured_at": "2026-07-31T01:13:23+00:00"
+        },
+        {
+          "n": 2,
+          "file": "amazon-store/02-blog-the-science-of-price-experiments-in-amazon-stor.md",
+          "role": "non-binding",
+          "url": "https://www.amazon.science/blog/the-science-of-price-experiments-in-the-amazon-store",
+          "chars": 47188,
+          "sha256_text": "eec89b7d5a15588aba49a194f271ce6329448f1871a879c3d86fe11a847790a5",
+          "captured_at": "2026-07-31T01:13:53+00:00"
+        },
+        {
+          "n": 3,
+          "file": "amazon-store/03-publications-science-of-price-experimentation-at-ama.md",
+          "role": "non-binding",
+          "url": "https://www.amazon.science/publications/science-of-price-experimentation-at-amazon",
+          "chars": 37628,
+          "sha256_text": "49e8dff33230fded35c80e33f3e4d92614ef0a3c1bf2c1a5fd82546badb14658",
+          "captured_at": "2026-07-31T01:49:48+00:00"
+        },
+        {
+          "n": 4,
+          "file": "amazon-store/04-help-customer-display-4.md",
+          "role": "unknown",
+          "url": "https://www.amazon.de/-/en/gp/help/customer/display.html?nodeId=TcxwSYJNmpQYGgNWkX",
+          "chars": 21643,
+          "sha256_text": "6e3fb0d2f8a4aac4facde1dada9a6ef7f6d9d0955513041c3d09d326fb703054",
+          "captured_at": "2026-07-31T01:13:25+00:00"
+        },
+        {
+          "n": 5,
+          "file": "amazon-store/05-help-customer-display-5.md",
+          "role": "unknown",
+          "url": "https://www.amazon.de/-/en/gp/help/customer/display.html?nodeId=GVASXV5UZ64R4Y25",
+          "chars": 8583,
+          "sha256_text": "f41e24ee89d1d5097d799852605081f488e0ad428df5813937cb3c3c8e9808f2",
+          "captured_at": "2026-07-31T01:13:27+00:00"
+        },
+        {
+          "n": 6,
+          "file": "amazon-store/06-help-customer-display-6.md",
+          "role": "unknown",
+          "url": "https://www.amazon.de/-/en/gp/help/customer/display.html?nodeId=201909000",
+          "chars": 57323,
+          "sha256_text": "5e489044b4681c8b7d09c79f05c777615ae67b27d1f42c32392b3d5514a8ee96",
+          "captured_at": "2026-07-31T01:13:30+00:00"
+        },
+        {
+          "n": 7,
+          "file": "amazon-store/07-tag-a-b-testing.md",
+          "role": "unknown",
+          "url": "https://www.amazon.science/tag/a-b-testing",
+          "chars": 40483,
+          "sha256_text": "8023994b91b0714218e7173a52d460e420d7795c888031f10a48e9aac23788c7",
+          "captured_at": "2026-07-31T01:14:02+00:00"
+        }
+      ],
+      "n_binding": 1
+    },
+    {
+      "name": "App Store",
+      "slug": "app-store",
+      "docs": [
+        {
+          "n": 1,
+          "file": "app-store/01-privacy-ww.md",
+          "role": "binding",
+          "url": "https://www.apple.com/legal/privacy/en-ww/",
+          "chars": 29704,
+          "sha256_text": "9109cc237869d8867c2b66a8bdeb4184ba3369943b3c53114c4aab858344b066",
+          "captured_at": "2026-07-31T01:12:29+00:00"
+        },
+        {
+          "n": 2,
+          "file": "app-store/02-data-app-store.md",
+          "role": "binding",
+          "url": "https://www.apple.com/legal/privacy/data/en/app-store/",
+          "chars": 19738,
+          "sha256_text": "5cc7b7bce2271ef163cd9a93ce31c0e38ab65f99b859d135f70fe42033d1a55f",
+          "captured_at": "2026-07-31T01:12:31+00:00"
+        },
+        {
+          "n": 3,
+          "file": "app-store/03-app-store-product-optimization.md",
+          "role": "non-binding",
+          "url": "https://developer.apple.com/app-store/product-page-optimization/",
+          "chars": 10672,
+          "sha256_text": "fdf8aac165d3f4d67fa5315cf5c491fa261bf2a753d8512736fb46b960e2ea7d",
+          "captured_at": "2026-07-31T01:12:38+00:00"
+        },
+        {
+          "n": 4,
+          "file": "app-store/04-itunes-ie-terms.md",
+          "role": "unknown",
+          "url": "https://www.apple.com/legal/internet-services/itunes/ie/terms.html",
+          "chars": 60370,
+          "sha256_text": "3d96cd925a92b2210c62f0c078e738a53e91602eccba7eaaed095305af491af0",
+          "captured_at": "2026-07-31T01:12:34+00:00"
+        },
+        {
+          "n": 5,
+          "file": "app-store/05-privacy-ww-cookies.md",
+          "role": "unknown",
+          "url": "https://www.apple.com/legal/privacy/en-ww/cookies/",
+          "chars": 4137,
+          "sha256_text": "219293b8def31cb06c8f3de318111cb06cad8079b6013ae6724271d4256f3529",
+          "captured_at": "2026-07-31T01:12:35+00:00"
+        },
+        {
+          "n": 6,
+          "file": "app-store/06-app-store-connect-create-product-optimization-tests.md",
+          "role": "unknown",
+          "url": "https://developer.apple.com/help/app-store-connect/create-product-page-optimization-tests/overview-of-product-page-optimization/",
+          "chars": 28542,
+          "sha256_text": "538c647dfa8eda75463ccdbce1886c5c667d92251ca66cf357d446ab752a9568",
+          "captured_at": "2026-07-31T01:12:40+00:00"
+        },
+        {
+          "n": 7,
+          "file": "app-store/07-app-store-connect-create-product-optimization-tests-7.md",
+          "role": "unknown",
+          "url": "https://developer.apple.com/help/app-store-connect/create-product-page-optimization-tests/configure-test-treatments/",
+          "chars": 29458,
+          "sha256_text": "f3eab89df4a5917cbd9c8ab2308314a646261daa666880e2c613a9ab9bca928a",
+          "captured_at": "2026-07-31T01:12:41+00:00"
+        },
+        {
+          "n": 8,
+          "file": "app-store/08-testflight.md",
+          "role": "unknown",
+          "url": "https://developer.apple.com/testflight/",
+          "chars": 8329,
+          "sha256_text": "897bdd39b200d6dab3de9e531e93b7abaf74ce00a77a6e54a2cdadc3d2840d45",
+          "captured_at": "2026-07-31T01:12:43+00:00"
+        }
+      ],
+      "n_binding": 2
+    },
+    {
+      "name": "Bing",
+      "slug": "bing",
+      "docs": [
+        {
+          "n": 1,
+          "file": "bing/01-gb-servicesagreement.md",
+          "role": "binding",
+          "url": "https://www.microsoft.com/en-gb/servicesagreement/",
+          "chars": 121376,
+          "sha256_text": "a1fff6be54db74db32b8bf6688bce6655ccf3dbbe78392d41eaf90f93f5522f9",
+          "captured_at": "2026-07-31T01:12:58+00:00"
+        },
+        {
+          "n": 2,
+          "file": "bing/02-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
+          "role": "non-binding",
+          "url": "https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3",
+          "chars": 48551,
+          "sha256_text": "bbabe386d81e2d67776057d5fe1f3460058769899f18e5dbb294c10d240120c2",
+          "captured_at": "2026-07-31T01:13:07+00:00"
+        },
+        {
+          "n": 3,
+          "file": "bing/03-gb-privacy-privacystatement.md",
+          "role": "unknown",
+          "url": "https://www.microsoft.com/en-gb/privacy/privacystatement",
+          "chars": 213640,
+          "sha256_text": "cb210fdbddd52e95e55d2b92812ad49450a64d71d1721acc28556b59c8ee9e2f",
+          "captured_at": "2026-07-31T01:13:00+00:00"
+        },
+        {
+          "n": 4,
+          "file": "bing/04-us-bing-about-microsoft-privacy-and-security-policy.md",
+          "role": "unknown",
+          "url": "https://support.microsoft.com/en-us/bing/about-microsoft-privacy-and-security-policy",
+          "chars": 3621,
+          "sha256_text": "611944df4f2fff32fb64d8f292e483cddfd65972172615ba6432aea59240d401",
+          "captured_at": "2026-07-31T01:13:02+00:00"
+        },
+        {
+          "n": 5,
+          "file": "bing/05-search-quality-insights-june-2013-experimentation-an.md",
+          "role": "unknown",
+          "url": "https://blogs.bing.com/search-quality-insights/June-2013/Experimentation-and-Continuous-Improvement-at-Bing/",
+          "chars": 10883,
+          "sha256_text": "d4938c950a1068ef54ae5a7ef7206c0d026e45e0fb868cd4414c3ac46a08374f",
+          "captured_at": "2026-07-31T01:13:09+00:00"
+        },
+        {
+          "n": 6,
+          "file": "bing/06-search-quality-insights-august-2013-large-scale-expe.md",
+          "role": "unknown",
+          "url": "https://blogs.bing.com/search-quality-insights/August-2013/Large-Scale-Experimentation-at-Bing",
+          "chars": 7651,
+          "sha256_text": "9da679c47e1e933efe2fa22e4e8341403bd62a293fd1684e2880267d61a87b95",
+          "captured_at": "2026-07-31T01:13:11+00:00"
+        }
+      ],
+      "n_binding": 1
+    },
+    {
+      "name": "Booking.com",
+      "slug": "booking-com",
+      "docs": [
+        {
+          "n": 1,
+          "file": "booking-com/01-content-privacy.md",
+          "role": "binding",
+          "url": "https://www.booking.com/content/privacy.html",
+          "chars": 69221,
+          "sha256_text": "a9c74693f01c99f34700a5d41ab65079c706c1603a56e6ee5a1315c9b9427f47",
+          "captured_at": "2026-07-31T01:11:42+00:00"
+        },
+        {
+          "n": 2,
+          "file": "booking-com/02-content-privacy-gb.md",
+          "role": "binding",
+          "url": "https://www.booking.com/content/privacy.en-gb.html",
+          "chars": 69221,
+          "sha256_text": "51a8b956e3e6cf39092825cb353649707ed0e7d77f6ebefb7b58133523bb4cdc",
+          "captured_at": "2026-07-31T01:11:45+00:00"
+        },
+        {
+          "n": 3,
+          "file": "booking-com/03-content-terms.md",
+          "role": "binding",
+          "url": "https://www.booking.com/content/terms.html",
+          "chars": 171188,
+          "sha256_text": "8438a79391fb528445db5a5e00ed8bb9bfdaad1a4c5556902cc39033269358b9",
+          "captured_at": "2026-07-31T01:11:49+00:00"
+        }
+      ],
+      "n_binding": 3
+    },
+    {
+      "name": "Facebook",
+      "slug": "facebook",
+      "docs": [
+        {
+          "n": 1,
+          "file": "facebook/01-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+          "role": "non-binding",
+          "url": "https://techcrunch.com/2021/04/22/facebook-launches-a-series-tests-to-inform-future-changes-to-its-news-feed-algorithms/",
+          "chars": 8184,
+          "sha256_text": "c90f836bb6338a582f4f967d1a45d1bb08619f4f6fd555657edc76f1eac5e101",
+          "captured_at": "2026-07-31T01:13:21+00:00"
+        },
+        {
+          "n": 2,
+          "file": "facebook/02-privacy-policy.md",
+          "role": "unknown",
+          "url": "https://www.facebook.com/privacy/policy/",
+          "chars": 107895,
+          "sha256_text": "0c783bab1bf83772df1973ed750b1b6744ba1570cebf5d0b669b01b863eb2ade",
+          "captured_at": "2026-07-31T01:49:35+00:00"
+        },
+        {
+          "n": 3,
+          "file": "facebook/03-privacy-policy-printable.md",
+          "role": "unknown",
+          "url": "https://mbasic.facebook.com/privacy/policy/printable/?locale=en_GB",
+          "chars": 196346,
+          "sha256_text": "d66f73387567133d88a3096e984a865e881f61148db0f7fb6371578f4fa3f188",
+          "captured_at": "2026-07-31T01:49:38+00:00"
+        },
+        {
+          "n": 4,
+          "file": "facebook/04-terms.md",
+          "role": "unknown",
+          "url": "https://www.facebook.com/legal/terms",
+          "chars": 35267,
+          "sha256_text": "385645c3806a98a7d5457ea45009e53556fdefbbd5219a39a3c8ee0a6178ba5d",
+          "captured_at": "2026-07-31T01:49:39+00:00"
+        },
+        {
+          "n": 5,
+          "file": "facebook/05-terms-5.md",
+          "role": "unknown",
+          "url": "https://www.facebook.com/terms.php?locale=en_GB",
+          "chars": 35267,
+          "sha256_text": "385645c3806a98a7d5457ea45009e53556fdefbbd5219a39a3c8ee0a6178ba5d",
+          "captured_at": "2026-07-31T01:49:41+00:00"
+        },
+        {
+          "n": 6,
+          "file": "facebook/06-cookies.md",
+          "role": "unknown",
+          "url": "https://www.facebook.com/policies/cookies/",
+          "chars": 3973,
+          "sha256_text": "1b33ff384ca8debc84252da8816a19c035ed6bcbd3d701261e5310e178d5ec32",
+          "captured_at": "2026-07-31T01:49:44+00:00"
+        }
+      ],
+      "n_binding": 0
+    },
+    {
+      "name": "Google Maps",
+      "slug": "google-maps",
+      "docs": [
+        {
+          "n": 1,
+          "file": "google-maps/01-privacy.md",
+          "role": "binding",
+          "url": "https://policies.google.com/privacy?hl=en&gl=IE",
+          "chars": 89981,
+          "sha256_text": "964eec9bfabd502512b72da05346215f75190393bff2c45b69a6005bedb4f263",
+          "captured_at": "2026-07-31T01:12:17+00:00"
+        },
+        {
+          "n": 2,
+          "file": "google-maps/02-terms.md",
+          "role": "binding",
+          "url": "https://policies.google.com/terms?hl=en&gl=IE",
+          "chars": 36174,
+          "sha256_text": "661d229629236a51bf23451b3ac030d6a8c63abfe4a623b9988dc6f92925de1e",
+          "captured_at": "2026-07-31T01:12:19+00:00"
+        },
+        {
+          "n": 3,
+          "file": "google-maps/03-maps-answer.md",
+          "role": "non-binding",
+          "url": "https://support.google.com/maps/answer/7006449?hl=en-GB",
+          "chars": 2857,
+          "sha256_text": "fd2847572780798c4139c1909d8503683eb9a331bbdd4a2ad538a2423774c8b2",
+          "captured_at": "2026-07-31T01:12:24+00:00"
+        },
+        {
+          "n": 4,
+          "file": "google-maps/04-technologies-cookies.md",
+          "role": "unknown",
+          "url": "https://policies.google.com/technologies/cookies?hl=en&gl=IE",
+          "chars": 14289,
+          "sha256_text": "5639b41a9299a6bebaa0f72d14cf9613e3f413d639d2a24841209a97ff9a560d",
+          "captured_at": "2026-07-31T01:12:20+00:00"
+        },
+        {
+          "n": 5,
+          "file": "google-maps/05-help-terms-maps.md",
+          "role": "unknown",
+          "url": "https://www.google.com/help/terms_maps/?hl=en",
+          "chars": 5659,
+          "sha256_text": "b503af685a613d772ef3becaf6f79e993033bf8f7f97b69f41bfe5e5efdf6d33",
+          "captured_at": "2026-07-31T01:12:22+00:00"
+        },
+        {
+          "n": 6,
+          "file": "google-maps/06-products-maps-google-generative-ai-local-guides.md",
+          "role": "unknown",
+          "url": "https://blog.google/products/maps/google-maps-generative-ai-local-guides/",
+          "chars": 7414,
+          "sha256_text": "acd15cd19747f8b5ee4cfe2875fc2e3ecad6c3c5ea3c04d68176c2808c0ff6b4",
+          "captured_at": "2026-07-31T01:12:27+00:00"
+        }
+      ],
+      "n_binding": 2
+    },
+    {
+      "name": "Google Play",
+      "slug": "google-play",
+      "docs": [
+        {
+          "n": 1,
+          "file": "google-play/01-about-play-terms.md",
+          "role": "binding",
+          "url": "https://play.google.com/intl/en-US/about/play-terms/index.html",
+          "chars": 24720,
+          "sha256_text": "8a745c3ba69a74e8c785a92835595ec5ccff9405d7bc4d09da9e0f57b3cd6d84",
+          "captured_at": "2026-07-31T01:14:12+00:00"
+        },
+        {
+          "n": 2,
+          "file": "google-play/02-console-about-store-listing-experiments.md",
+          "role": "non-binding",
+          "url": "https://play.google.com/console/about/store-listing-experiments/",
+          "chars": 6905,
+          "sha256_text": "4ebdadbefb3a072e736324f0ac5ac97d74ffaeb1c767e2cd7e9ab43afe5321bd",
+          "captured_at": "2026-07-31T01:14:20+00:00"
+        },
+        {
+          "n": 3,
+          "file": "google-play/03-privacy.md",
+          "role": "unknown",
+          "url": "https://policies.google.com/privacy?hl=en-IE&gl=IE",
+          "chars": 90678,
+          "sha256_text": "86b4c21ca07c1263d15b951f0d3b981cd70d11aad3a9a46eb48c356ed55f652c",
+          "captured_at": "2026-07-31T01:14:15+00:00"
+        },
+        {
+          "n": 4,
+          "file": "google-play/04-terms.md",
+          "role": "unknown",
+          "url": "https://policies.google.com/terms?hl=en-IE&gl=IE",
+          "chars": 36308,
+          "sha256_text": "e25b3ee04cd7941959a760a38c357b1229035408c287d1757032ee1330dc230f",
+          "captured_at": "2026-07-31T01:14:16+00:00"
+        },
+        {
+          "n": 5,
+          "file": "google-play/05-technologies-cookies.md",
+          "role": "unknown",
+          "url": "https://policies.google.com/technologies/cookies?hl=en-IE&gl=IE",
+          "chars": 14380,
+          "sha256_text": "0fb669d36645cf3f6affe2550a3a3b3eb81ddce54f3607f55c12cc2d9f073f0e",
+          "captured_at": "2026-07-31T01:14:18+00:00"
+        },
+        {
+          "n": 6,
+          "file": "google-play/06-googleplay-answer.md",
+          "role": "unknown",
+          "url": "https://support.google.com/googleplay/answer/7003180?hl=en",
+          "chars": 5031,
+          "sha256_text": "97bd764171d4c7c84b394fca7ff0cb71dd6315bfce2ae350c552fde53da231df",
+          "captured_at": "2026-07-31T01:14:22+00:00"
+        }
+      ],
+      "n_binding": 1
+    },
+    {
+      "name": "Google Search",
+      "slug": "google-search",
+      "docs": [
+        {
+          "n": 1,
+          "file": "google-search/01-websearch-answer.md",
+          "role": "non-binding",
+          "url": "https://support.google.com/websearch/answer/13572013",
+          "chars": 6169,
+          "sha256_text": "3ff3984b4cafb9f6bb62e90300f7c542843d04c3a368f44857e54738f860967e",
+          "captured_at": "2026-07-31T01:12:08+00:00"
+        },
+        {
+          "n": 2,
+          "file": "google-search/02-technologies-product-privacy.md",
+          "role": "unknown",
+          "url": "https://policies.google.com/technologies/product-privacy?hl=en",
+          "chars": 5532,
+          "sha256_text": "050429eaf32d8475be41ec9055269ca407babcd7dd42f484bc70164250802d57",
+          "captured_at": "2026-07-31T01:12:04+00:00"
+        }
+      ],
+      "n_binding": 0
+    },
+    {
+      "name": "Google Shopping",
+      "slug": "google-shopping",
+      "docs": [
+        {
+          "n": 1,
+          "file": "google-shopping/01-privacy.md",
+          "role": "binding",
+          "url": "https://policies.google.com/privacy?hl=en",
+          "chars": 89981,
+          "sha256_text": "964eec9bfabd502512b72da05346215f75190393bff2c45b69a6005bedb4f263",
+          "captured_at": "2026-07-31T01:14:04+00:00"
+        },
+        {
+          "n": 2,
+          "file": "google-shopping/02-terms.md",
+          "role": "binding",
+          "url": "https://policies.google.com/terms?hl=en",
+          "chars": 36439,
+          "sha256_text": "0781ae19ec6af5ff6013f38db64040424d6f915ad058f0239548410d456be68a",
+          "captured_at": "2026-07-31T01:14:06+00:00"
+        },
+        {
+          "n": 3,
+          "file": "google-shopping/03-privacy-google-services-shopping.md",
+          "role": "binding",
+          "url": "https://business.safety.google/privacy/google-services/shopping/",
+          "chars": 3568,
+          "sha256_text": "651184da7d8c96447610d8b4fa3816177c1985bd77e9e6a55be5ba430432a9e2",
+          "captured_at": "2026-07-31T01:14:08+00:00"
+        },
+        {
+          "n": 4,
+          "file": "google-shopping/04-howsearchworks-how-search-works-rigorous-testing.md",
+          "role": "non-binding",
+          "url": "https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing/",
+          "chars": 6327,
+          "sha256_text": "d2994f8140f4a6fd7d6c9a4c42ab1d159afecf52907ffbc2ad0406f1f0bb6abf",
+          "captured_at": "2026-07-31T01:14:11+00:00"
+        },
+        {
+          "n": 5,
+          "file": "google-shopping/05-technologies-cookies.md",
+          "role": "unknown",
+          "url": "https://policies.google.com/technologies/cookies?hl=en",
+          "chars": 14289,
+          "sha256_text": "5639b41a9299a6bebaa0f72d14cf9613e3f413d639d2a24841209a97ff9a560d",
+          "captured_at": "2026-07-31T01:14:10+00:00"
+        }
+      ],
+      "n_binding": 3
+    },
+    {
+      "name": "Instagram",
+      "slug": "instagram",
+      "docs": [
+        {
+          "n": 1,
+          "file": "instagram/01-policy-printable-version.md",
+          "role": "unknown",
+          "url": "https://mbasic.facebook.com/privacy/policy/printable/version/25862970456621906/",
+          "chars": 193942,
+          "sha256_text": "663d9b1fefad7a1b22e1395dc3992af997f3c9b62f27b7de115d36e6b227c1b4",
+          "captured_at": "2026-07-31T01:50:18+00:00"
+        },
+        {
+          "n": 2,
+          "file": "instagram/02-cookies.md",
+          "role": "unknown",
+          "url": "https://privacycenter.instagram.com/policies/cookies/",
+          "chars": 3973,
+          "sha256_text": "1b33ff384ca8debc84252da8816a19c035ed6bcbd3d701261e5310e178d5ec32",
+          "captured_at": "2026-07-31T01:50:23+00:00"
+        },
+        {
+          "n": 3,
+          "file": "instagram/03-cookies-printable.md",
+          "role": "unknown",
+          "url": "https://mbasic.facebook.com/privacy/policies/cookies/printable/",
+          "chars": 17087,
+          "sha256_text": "547da5f88c336ef3ff314c128f1f6ca67adb67d4e5e33d0ddd6bc38e3fe13c69",
+          "captured_at": "2026-07-31T01:50:26+00:00"
+        }
+      ],
+      "n_binding": 0
+    },
+    {
+      "name": "LinkedIn",
+      "slug": "linkedin",
+      "docs": [
+        {
+          "n": 1,
+          "file": "linkedin/01-privacy-policy.md",
+          "role": "binding",
+          "url": "https://www.linkedin.com/legal/privacy-policy",
+          "chars": 43895,
+          "sha256_text": "f922f9d2ad2d94d4e5c1d26367ffb0c4f1881cd15467f4e7b5243e12778563a5",
+          "captured_at": "2026-07-31T01:14:57+00:00"
+        },
+        {
+          "n": 2,
+          "file": "linkedin/02-user-agreement.md",
+          "role": "binding",
+          "url": "https://www.linkedin.com/legal/user-agreement",
+          "chars": 34467,
+          "sha256_text": "8d3a75c43872833e362f5d9b2e6e9fd3d637001f2a8c00820af185a4b9ab9f27",
+          "captured_at": "2026-07-31T01:14:59+00:00"
+        },
+        {
+          "n": 3,
+          "file": "linkedin/03-cookie-policy.md",
+          "role": "unknown",
+          "url": "https://www.linkedin.com/legal/cookie-policy",
+          "chars": 12150,
+          "sha256_text": "26f50d76db25f4fb2da2f1194126d8bcc7b2126786159b4efc3311a58b1882af",
+          "captured_at": "2026-07-31T01:15:02+00:00"
+        },
+        {
+          "n": 4,
+          "file": "linkedin/04-help-linkedin-answer.md",
+          "role": "unknown",
+          "url": "https://www.linkedin.com/help/linkedin/answer/a1338610",
+          "chars": 2172,
+          "sha256_text": "a4871dcbdb4f762918ceae112eeb639727199e079eb92c67088851042e375af5",
+          "captured_at": "2026-07-31T01:15:03+00:00"
+        },
+        {
+          "n": 5,
+          "file": "linkedin/05-help-linkedin-answer-5.md",
+          "role": "unknown",
+          "url": "https://www.linkedin.com/help/linkedin/answer/a1337820",
+          "chars": 3060,
+          "sha256_text": "56acf99a4112753e93d99bb93a18f2d1922678a7281d4e8eaa023f7a01ce815c",
+          "captured_at": "2026-07-31T01:15:05+00:00"
+        },
+        {
+          "n": 6,
+          "file": "linkedin/06-lms-answer-a529753.md",
+          "role": "unknown",
+          "url": "https://www.linkedin.com/help/lms/answer/a529753",
+          "chars": 5316,
+          "sha256_text": "93b5c0ee966fddc3b5983404a50e222949534971f41efedf6cd2012612e03c5e",
+          "captured_at": "2026-07-31T01:15:08+00:00"
+        }
+      ],
+      "n_binding": 2
+    },
+    {
+      "name": "Pinterest",
+      "slug": "pinterest",
+      "docs": [
+        {
+          "n": 1,
+          "file": "pinterest/01-privacy-policy.md",
+          "role": "binding",
+          "url": "https://policy.pinterest.com/en/privacy-policy",
+          "chars": 48779,
+          "sha256_text": "4c3bd185ab851e217e3d4a06e5c3ab8d3a1ccdf704532bf9c7d0ccfb67866261",
+          "captured_at": "2026-08-03T01:28:02+00:00"
+        },
+        {
+          "n": 2,
+          "file": "pinterest/02-terms-of-service.md",
+          "role": "binding",
+          "url": "https://policy.pinterest.com/en/terms-of-service",
+          "chars": 30088,
+          "sha256_text": "31c5ef900d7ef33b7e374e6850ec1c357ae809b2f7ea43346f2c37afef0f8e5a",
+          "captured_at": "2026-08-03T01:28:04+00:00"
+        },
+        {
+          "n": 3,
+          "file": "pinterest/03-public-beta.md",
+          "role": "non-binding",
+          "url": "https://www.pinterest.com/public-beta/",
+          "chars": 1791,
+          "sha256_text": "e6a122c55814aa59ebd602f34c082a86491ffdf54d77429cd13fd01937da7af8",
+          "captured_at": "2026-08-03T01:28:10+00:00"
+        },
+        {
+          "n": 4,
+          "file": "pinterest/04-cookies.md",
+          "role": "unknown",
+          "url": "https://policy.pinterest.com/en/cookies",
+          "chars": 7290,
+          "sha256_text": "60b9b9980335b65145c3e1e9530c401238661a4492c978f36ef3ba02ea5a5b1b",
+          "captured_at": "2026-08-03T01:28:06+00:00"
+        }
+      ],
+      "n_binding": 2
+    },
+    {
+      "name": "Pornhub",
+      "slug": "pornhub",
+      "docs": [
+        {
+          "n": 1,
+          "file": "pornhub/01-information-privacy.md",
+          "role": "unknown",
+          "url": "https://www.pornhub.com/information/privacy",
+          "chars": 45324,
+          "sha256_text": "5725b1713c4e0f0d62d17c91315644180046ad0fbe6f75ecbf19c2957446efcd",
+          "captured_at": "2026-07-31T01:15:29+00:00"
+        },
+        {
+          "n": 2,
+          "file": "pornhub/02-pornhub-information-privacy.md",
+          "role": "unknown",
+          "url": "http://web.archive.org/web/20260702023921/https://www.pornhub.com/information/privacy",
+          "chars": 45496,
+          "sha256_text": "74cafe369e09ff833880aca476b99d23e387717f809a3c06dbf13f37bb2df6e5",
+          "captured_at": "2026-07-31T01:15:33+00:00"
+        },
+        {
+          "n": 3,
+          "file": "pornhub/03-information-terms.md",
+          "role": "unknown",
+          "url": "https://www.pornhub.com/information/terms",
+          "chars": 111023,
+          "sha256_text": "0d02426f12cc1b938e71b561e1dc3da796e090a08521847011a6f04ea16df557",
+          "captured_at": "2026-07-31T01:15:37+00:00"
+        },
+        {
+          "n": 4,
+          "file": "pornhub/04-pornhub-information-terms.md",
+          "role": "unknown",
+          "url": "http://web.archive.org/web/20260630121901/https://www.pornhub.com/information/terms",
+          "chars": 110956,
+          "sha256_text": "d2ecb643104504b54e38dba6b1436cc0ffc9b57d2db70b6a8fa8a150e743407d",
+          "captured_at": "2026-07-31T01:15:41+00:00"
+        },
+        {
+          "n": 5,
+          "file": "pornhub/05-information-cookie-notice.md",
+          "role": "unknown",
+          "url": "https://www.pornhub.com/information/cookie-notice",
+          "chars": 34242,
+          "sha256_text": "54a487823c7fc82538fcce6bea59039b33be91a48063a860612d1594455e0664",
+          "captured_at": "2026-07-31T01:15:45+00:00"
+        },
+        {
+          "n": 6,
+          "file": "pornhub/06-pornhub-information-cookie-notice.md",
+          "role": "unknown",
+          "url": "http://web.archive.org/web/20260630121251/https://www.pornhub.com/information/cookie-notice",
+          "chars": 34503,
+          "sha256_text": "8342e9c635f244fce14f7b3dca488dce94f973fff49548a9871b72298ea90ac5",
+          "captured_at": "2026-07-31T01:15:48+00:00"
+        },
+        {
+          "n": 7,
+          "file": "pornhub/07-information-recommender.md",
+          "role": "unknown",
+          "url": "https://www.pornhub.com/information/recommender",
+          "chars": 14750,
+          "sha256_text": "9107fe5003f991f008ce16af9f6de5505ef28ec8f3efe4765d6946569c274600",
+          "captured_at": "2026-07-31T01:15:52+00:00"
+        },
+        {
+          "n": 8,
+          "file": "pornhub/08-pornhub-information-recommender.md",
+          "role": "unknown",
+          "url": "http://web.archive.org/web/20260602163932/https://www.pornhub.com/information/recommender",
+          "chars": 14702,
+          "sha256_text": "e586a616b9456295cc75f75763bbbeae0dc84e0cd564666c6b37565a61706d00",
+          "captured_at": "2026-07-31T01:15:56+00:00"
+        }
+      ],
+      "n_binding": 0
+    },
+    {
+      "name": "Shein",
+      "slug": "shein",
+      "docs": [
+        {
+          "n": 1,
+          "file": "shein/01-consumer-privacy-notice-s-101.md",
+          "role": "binding",
+          "url": "https://eur.shein.com/Consumer-Privacy-Notice-s-101.html",
+          "chars": 52011,
+          "sha256_text": "7de7b10f6ae88b77940a49ec422a205c27bcea6834c33d44653b4c3a0f1a32f1",
+          "captured_at": "2026-07-31T20:21:31+00:00"
+        },
+        {
+          "n": 2,
+          "file": "shein/02-terms-and-conditions-a-399.md",
+          "role": "binding",
+          "url": "https://eur.shein.com/Terms-and-Conditions-a-399.html",
+          "chars": 100766,
+          "sha256_text": "cc5763876a60d93951efa093f7f481ce0404edc06e444c214a75d9cbb9449c20",
+          "captured_at": "2026-07-31T20:21:31+00:00"
+        },
+        {
+          "n": 3,
+          "file": "shein/03-ranking-policy-a-1979.md",
+          "role": "non-binding",
+          "url": "https://eur.shein.com/ranking-policy-a-1979.html",
+          "chars": 12737,
+          "sha256_text": "7832c86ae1fdc347cfb3c5b1b3de6d82a41da8b5f92d452adfb1cac89ec886d4",
+          "captured_at": "2026-07-31T20:21:31+00:00"
+        }
+      ],
+      "n_binding": 2
+    },
+    {
+      "name": "Snapchat",
+      "slug": "snapchat",
+      "docs": [
+        {
+          "n": 1,
+          "file": "snapchat/01-privacy-policy.md",
+          "role": "binding",
+          "url": "https://values.snap.com/privacy/privacy-policy",
+          "chars": 36991,
+          "sha256_text": "0f486cac6ddd453e3d18e0019b8f0f478e875db8738075cbe325ecbd47f10c72",
+          "captured_at": "2026-07-31T01:14:25+00:00"
+        },
+        {
+          "n": 2,
+          "file": "snapchat/02-privacy-policy-eea-uk-notice.md",
+          "role": "binding",
+          "url": "https://values.snap.com/privacy/privacy-policy/eea-uk-privacy-notice",
+          "chars": 11268,
+          "sha256_text": "3240b771dc3038cb7a9d51dabd8f823e61a4eafdc6e7f81c4b8cbe91561fde29",
+          "captured_at": "2026-07-31T01:14:29+00:00"
+        },
+        {
+          "n": 3,
+          "file": "snapchat/03-snap-nvidia-gcp.md",
+          "role": "non-binding",
+          "url": "https://eng.snap.com/snap-nvidia-gcp",
+          "chars": 15748,
+          "sha256_text": "3d4ba61c1f5f39ef5aee3c5e94747b28b4ed08f8311aad73b9868c51a488231f",
+          "captured_at": "2026-07-31T01:14:47+00:00"
+        },
+        {
+          "n": 4,
+          "file": "snapchat/04-privacy-policy-eea-uk-notice-4.md",
+          "role": "unknown",
+          "url": "https://values.snap.com/en-GB/privacy/privacy-policy/eea-uk-privacy-notice",
+          "chars": 11268,
+          "sha256_text": "3240b771dc3038cb7a9d51dabd8f823e61a4eafdc6e7f81c4b8cbe91561fde29",
+          "captured_at": "2026-07-31T01:14:33+00:00"
+        },
+        {
+          "n": 5,
+          "file": "snapchat/05-gb-terms.md",
+          "role": "unknown",
+          "url": "https://snap.com/en-GB/terms",
+          "chars": 99108,
+          "sha256_text": "bd74bfc6356135a2cae418d6f117b58234e4139f26b5c0d050a7420b50fa27bc",
+          "captured_at": "2026-07-31T01:14:39+00:00"
+        },
+        {
+          "n": 6,
+          "file": "snapchat/06-cookie-policy.md",
+          "role": "unknown",
+          "url": "https://www.snap.com/cookie-policy",
+          "chars": 6377,
+          "sha256_text": "392f05c3bed5356f072f20e12e8ab8715f9e768b67951ebc3a7784646ee0f1d8",
+          "captured_at": "2026-07-31T01:14:41+00:00"
+        },
+        {
+          "n": 7,
+          "file": "snapchat/07-us-articles-22534988598676-learn-about-snap-s-data-p.md",
+          "role": "unknown",
+          "url": "https://help.snapchat.com/hc/en-us/articles/22534988598676-Learn-About-Snap-s-Data-Processing-and-How-to-Object",
+          "chars": 26102,
+          "sha256_text": "6ae24a6589e81bb842886c8b32fe826474a8f0c4bb454a334d14fb81ce58238a",
+          "captured_at": "2026-07-31T01:14:43+00:00"
+        },
+        {
+          "n": 8,
+          "file": "snapchat/08-machine-learning-snap-ad-ranking.md",
+          "role": "unknown",
+          "url": "https://eng.snap.com/machine-learning-snap-ad-ranking",
+          "chars": 19074,
+          "sha256_text": "794b21d86b2d8aa36d7e84e6f770ebd036d05bd9ee82f7941728cace631c5184",
+          "captured_at": "2026-07-31T01:14:50+00:00"
+        },
+        {
+          "n": 9,
+          "file": "snapchat/09-blog-snap-accelerated-data-processing.md",
+          "role": "unknown",
+          "url": "https://blogs.nvidia.com/blog/snap-accelerated-data-processing/",
+          "chars": 5685,
+          "sha256_text": "326f51d456a8ea1af2e1915a32e997169117f8dd55252ab14268a5dab0e45a9a",
+          "captured_at": "2026-07-31T01:14:52+00:00"
+        },
+        {
+          "n": 10,
+          "file": "snapchat/10-beta.md",
+          "role": "unknown",
+          "url": "https://www.snapchat.com/beta",
+          "chars": 3649,
+          "sha256_text": "eae9b8f2e13542c53a91886901b626895f2e0ea0c76b2648c8912355f9aeaede",
+          "captured_at": "2026-07-31T01:14:54+00:00"
+        }
+      ],
+      "n_binding": 2
+    },
+    {
+      "name": "Stripchat",
+      "slug": "stripchat",
+      "docs": [
+        {
+          "n": 1,
+          "file": "stripchat/01-privacy.md",
+          "role": "unknown",
+          "url": "https://stripchat.com/privacy",
+          "chars": 45571,
+          "sha256_text": "1d643c47d91b9e825650cecd9995eb25c8968d9134c752969f6377029d491e9b",
+          "captured_at": "2026-07-31T01:50:34+00:00"
+        },
+        {
+          "n": 2,
+          "file": "stripchat/02-terms.md",
+          "role": "unknown",
+          "url": "https://stripchat.com/terms",
+          "chars": 55506,
+          "sha256_text": "ff841b8e3752440aa4310eb6834ca09ac91afc6a7b5961e5fcf41f4c9bc1a72a",
+          "captured_at": "2026-07-31T01:50:36+00:00"
+        },
+        {
+          "n": 3,
+          "file": "stripchat/03-cookies-policy.md",
+          "role": "unknown",
+          "url": "https://stripchat.com/cookies-policy",
+          "chars": 15781,
+          "sha256_text": "fb92f242e20b569aa7ed0f68b3400f7c121a64868e4da39bc0f718dd49a4c27e",
+          "captured_at": "2026-07-31T01:50:38+00:00"
+        },
+        {
+          "n": 4,
+          "file": "stripchat/04-privacy-4.md",
+          "role": "unknown",
+          "url": "https://stripcash.company/privacy",
+          "chars": 38258,
+          "sha256_text": "1c4016a4ba54ce9557ef6e764bb93cd7a95a90de1200668d4602ed7e24a9a35e",
+          "captured_at": "2026-07-31T01:16:17+00:00"
+        }
+      ],
+      "n_binding": 0
+    },
+    {
+      "name": "Temu",
+      "slug": "temu",
+      "docs": [
+        {
+          "n": 1,
+          "file": "temu/01-no-cookie-and-similar-technologies-policy.md",
+          "role": "binding",
+          "url": "https://www.temu.com/no-en/cookie-and-similar-technologies-policy.html",
+          "chars": 12726,
+          "sha256_text": "05dd91580f2408f570b046c19ab69875f2c21bb57014aff82b148c531c14f183",
+          "captured_at": "2026-07-31T20:21:32+00:00"
+        },
+        {
+          "n": 2,
+          "file": "temu/02-no-privacy-and-cookie-policy.md",
+          "role": "binding",
+          "url": "https://www.temu.com/no-en/privacy-and-cookie-policy.html",
+          "chars": 58016,
+          "sha256_text": "dd5865bb99d630574279eca89ea76131d5b039f22d80ee01cbddfa807c00cc1c",
+          "captured_at": "2026-07-31T20:21:32+00:00"
+        },
+        {
+          "n": 3,
+          "file": "temu/03-no-terms-of-use.md",
+          "role": "binding",
+          "url": "https://www.temu.com/no-en/terms-of-use.html",
+          "chars": 47188,
+          "sha256_text": "54d9a9a6cdaaac89e7caa626543f92b75ca0c58120bef9625c850f1df7b9622e",
+          "captured_at": "2026-07-31T20:21:32+00:00"
+        },
+        {
+          "n": 4,
+          "file": "temu/04-support-c2-doc-in-f-55.md",
+          "role": "non-binding",
+          "url": "https://www.temu.com/support/c2/-in-f-55.html",
+          "chars": 2785,
+          "sha256_text": "816edb149d43c6e48a2420cc98d10f1aae1e7c0e8084856d8173d347bbb83063",
+          "captured_at": "2026-07-31T20:21:50+00:00"
+        }
+      ],
+      "n_binding": 3
+    },
+    {
+      "name": "TikTok",
+      "slug": "tiktok",
+      "docs": [
+        {
+          "n": 1,
+          "file": "tiktok/01-eea-privacy-policy.md",
+          "role": "binding",
+          "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
+          "chars": 46768,
+          "sha256_text": "c3fac1a68c3457b4097f2869a1bedf6d76805f35da1ab7a43c678d44aed6d013",
+          "captured_at": "2026-08-03T01:28:50+00:00"
+        },
+        {
+          "n": 2,
+          "file": "tiktok/02-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
+          "role": "non-binding",
+          "url": "https://newsroom.tiktok.com/an-update-on-our-work-to-safeguard-and-diversify-recommendations",
+          "chars": 5681,
+          "sha256_text": "6ceb64b2af8b4a2ce85f10cb8fd17e3adf73875a883ed5e0ee8425437f0bbbb4",
+          "captured_at": "2026-08-03T01:29:22+00:00"
+        },
+        {
+          "n": 3,
+          "file": "tiktok/03-eea-terms-of-service.md",
+          "role": "unknown",
+          "url": "https://www.tiktok.com/legal/page/eea/terms-of-service/en",
+          "chars": 28401,
+          "sha256_text": "1ab110d8f3f1e9816c5d7140cc2485efe6105c54877e5c99fddbca4812a389d2",
+          "captured_at": "2026-08-03T01:29:04+00:00"
+        },
+        {
+          "n": 4,
+          "file": "tiktok/04-global-tiktok-website-cookies-policy.md",
+          "role": "unknown",
+          "url": "https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en",
+          "chars": 10273,
+          "sha256_text": "50dda8705bdcab04156c32eaf5cbf57a95ecdc5c17a2614658f20567362e80d6",
+          "captured_at": "2026-08-03T01:29:18+00:00"
+        },
+        {
+          "n": 5,
+          "file": "tiktok/05-us-how-tiktok-recommends-videos-for-you.md",
+          "role": "unknown",
+          "url": "https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you",
+          "chars": 10030,
+          "sha256_text": "16a5a0c756a41198faabbbf6709c5b1ce42abd92668510798fbf082063ac3c30",
+          "captured_at": "2026-08-03T01:29:25+00:00"
+        },
+        {
+          "n": 6,
+          "file": "tiktok/06-help-article-split-testing.md",
+          "role": "unknown",
+          "url": "https://ads.tiktok.com/help/article/split-testing",
+          "chars": 1854,
+          "sha256_text": "61bc9eff37afb10203ac7df4a334809a768c1c62bf9cbcd9b0eb024fe6e06d94",
+          "captured_at": "2026-08-03T01:29:33+00:00"
+        }
+      ],
+      "n_binding": 1
+    },
+    {
+      "name": "WhatsApp",
+      "slug": "whatsapp",
+      "docs": [
+        {
+          "n": 1,
+          "file": "whatsapp/01-privacy-policy-eea.md",
+          "role": "binding",
+          "url": "https://www.whatsapp.com/legal/privacy-policy-eea",
+          "chars": 103364,
+          "sha256_text": "c988ee6b67f4446f6eab68d74367509ad1a34081b63c7ca4b413fa52fdb69632",
+          "captured_at": "2026-07-31T01:50:40+00:00"
+        },
+        {
+          "n": 2,
+          "file": "whatsapp/02-terms-of-service-eea.md",
+          "role": "binding",
+          "url": "https://www.whatsapp.com/legal/terms-of-service-eea",
+          "chars": 25421,
+          "sha256_text": "e5069e7180f331edf3b74d440af325e7e79aaad93add32f8489bd279b115fa5f",
+          "captured_at": "2026-07-31T01:50:42+00:00"
+        },
+        {
+          "n": 3,
+          "file": "whatsapp/03-testing-whatsapp-join.md",
+          "role": "non-binding",
+          "url": "https://play.google.com/apps/testing/com.whatsapp/join",
+          "chars": 1048,
+          "sha256_text": "d32b10ec5d5166a96454ba6f20ee6c50a318ba847b74e40ffc14ff34a3bb4fff",
+          "captured_at": "2026-07-31T01:16:45+00:00"
+        },
+        {
+          "n": 4,
+          "file": "whatsapp/04-cookies.md",
+          "role": "unknown",
+          "url": "https://www.whatsapp.com/legal/cookies",
+          "chars": 4160,
+          "sha256_text": "b2d8ec02976cfb446c3df90823fa2d11b2d8afde7b6ac57e694ba8c996695784",
+          "captured_at": "2026-07-31T01:50:43+00:00"
+        }
+      ],
+      "n_binding": 2
+    },
+    {
+      "name": "Wikipedia",
+      "slug": "wikipedia",
+      "docs": [
+        {
+          "n": 1,
+          "file": "wikipedia/01-wiki-policy-privacy-policy.md",
+          "role": "binding",
+          "url": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy",
+          "chars": 54842,
+          "sha256_text": "94f7dd550cfad0d74f1c577d41e34333e1bfe4cdf82388799ad963d0e99c98bd",
+          "captured_at": "2026-07-31T01:16:20+00:00"
+        },
+        {
+          "n": 2,
+          "file": "wikipedia/02-wiki-policy-terms-of-use.md",
+          "role": "binding",
+          "url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "chars": 52654,
+          "sha256_text": "2af0d378e028a8abda5254deabd020d0c139020f7703dc5be3481d17ee66473c",
+          "captured_at": "2026-07-31T01:16:22+00:00"
+        },
+        {
+          "n": 3,
+          "file": "wikipedia/03-wiki-a-b-testing.md",
+          "role": "non-binding",
+          "url": "https://wikitech.wikimedia.org/wiki/A/B_testing",
+          "chars": 4599,
+          "sha256_text": "006d03f3eda48a2470aca8a1bf7e6e7a25379eb952c9537cc4bce734d03dc49f",
+          "captured_at": "2026-07-31T01:16:29+00:00"
+        },
+        {
+          "n": 4,
+          "file": "wikipedia/04-wikipedia-experiments.md",
+          "role": "non-binding",
+          "url": "https://wikimediafoundation.org/wikipedia-experiments/",
+          "chars": 3871,
+          "sha256_text": "3f2ee9dc13b2f0d4773c02c59dfeb58e4c6c552d22ac06d52d16d5a2e041a80d",
+          "captured_at": "2026-07-31T01:16:33+00:00"
+        },
+        {
+          "n": 5,
+          "file": "wikipedia/05-wiki-policy-cookie-statement.md",
+          "role": "unknown",
+          "url": "https://foundation.wikimedia.org/wiki/Policy:Cookie_statement",
+          "chars": 15159,
+          "sha256_text": "62946f09c53a20f5a87f1e797aae68e6e3b7ceb382c786b2c1efa5c72aa4e06a",
+          "captured_at": "2026-07-31T01:16:25+00:00"
+        },
+        {
+          "n": 6,
+          "file": "wikipedia/06-wiki-policy-privacy-policy-frequently-asked-question.md",
+          "role": "unknown",
+          "url": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/Frequently_asked_questions",
+          "chars": 26562,
+          "sha256_text": "9b0e26fa95e1f2773fc7083367e73ea2065c334f21d2185cbfd72eb7c6bbb4ed",
+          "captured_at": "2026-07-31T01:16:27+00:00"
+        }
+      ],
+      "n_binding": 2
+    },
+    {
+      "name": "X",
+      "slug": "x",
+      "docs": [
+        {
+          "n": 1,
+          "file": "x/01-privacy.md",
+          "role": "binding",
+          "url": "https://x.com/en/privacy",
+          "chars": 38505,
+          "sha256_text": "8c43f2b535c763220ed157f274d8487e81990f455c7ac3fd1e7629de0d938f8d",
+          "captured_at": "2026-07-31T01:22:23+00:00"
+        },
+        {
+          "n": 2,
+          "file": "x/02-rules-and-data-processing-bases.md",
+          "role": "binding",
+          "url": "https://help.x.com/en/rules-and-policies/data-processing-legal-bases",
+          "chars": 36281,
+          "sha256_text": "93f46f931dd37f894f17c4ba715aa548fcfe40275274af44685250e8297d8f8a",
+          "captured_at": "2026-07-31T20:21:31+00:00"
+        },
+        {
+          "n": 3,
+          "file": "x/03-rules-and-x-cookies.md",
+          "role": "binding",
+          "url": "https://help.x.com/en/rules-and-policies/x-cookies",
+          "chars": 54455,
+          "sha256_text": "57ea8ab27f8b971754dfdb1838f232c9900736cb0ce6d678d1e556990dd4a9e7",
+          "captured_at": "2026-07-31T20:21:32+00:00"
+        },
+        {
+          "n": 4,
+          "file": "x/04-rules-and-x-beta-experiments-program.md",
+          "role": "non-binding",
+          "url": "https://help.x.com/en/rules-and-policies/x-beta-experiments-program",
+          "chars": 11947,
+          "sha256_text": "4726243fbe7d7e2a54b8d94d03315ec3e2c187876394ca0991d863c2c46eb6ff",
+          "captured_at": "2026-07-31T20:21:32+00:00"
+        },
+        {
+          "n": 5,
+          "file": "x/05-rules-and-x-user-research.md",
+          "role": "non-binding",
+          "url": "https://help.x.com/en/rules-and-policies/x-user-research",
+          "chars": 3981,
+          "sha256_text": "8b8d2dbb1aae96834d2fbf5a1fdd04d691774a3d1a883a306f7d4b472b679261",
+          "captured_at": "2026-07-31T20:21:32+00:00"
+        },
+        {
+          "n": 6,
+          "file": "x/06-rules-and.md",
+          "role": "non-binding",
+          "url": "https://help.x.com/en/rules-and-policies#research-and-experiments",
+          "chars": 6192,
+          "sha256_text": "3f8aa59c1be22fff1a292025a530e97564949a5bd44a865b760120688b050fb5",
+          "captured_at": "2026-07-31T20:21:31+00:00"
+        },
+        {
+          "n": 7,
+          "file": "x/07-a-2015-the-what-and-why-of-product-experimentation-a.md",
+          "role": "non-binding",
+          "url": "https://blog.x.com/engineering/en_us/a/2015/the-what-and-why-of-product-experimentation-at-twitter-0",
+          "chars": 13200,
+          "sha256_text": "e2080436bd7e25f7632e25d3bd4b0b8fa5716b286365cfd0c4208616cd5d9f76",
+          "captured_at": "2026-07-31T20:21:31+00:00"
+        },
+        {
+          "n": 8,
+          "file": "x/08-tos.md",
+          "role": "unknown",
+          "url": "https://x.com/en/tos",
+          "chars": 63893,
+          "sha256_text": "33c9c8256cc5b518c3388cb5051913e8ac2d7dd54c3c4d14d920eca0239248e6",
+          "captured_at": "2026-07-31T01:22:30+00:00"
+        }
+      ],
+      "n_binding": 3
+    },
+    {
+      "name": "XNXX",
+      "slug": "xnxx",
+      "docs": [
+        {
+          "n": 1,
+          "file": "xnxx/01-privacy.md",
+          "role": "unknown",
+          "url": "https://info.xnxx.com/legal/privacy",
+          "chars": 28632,
+          "sha256_text": "bfa6d1f7822118c5c2cbd520ac8ff79866ce82560fd2310b2ed89c03db7275ac",
+          "captured_at": "2026-07-31T01:19:41+00:00"
+        },
+        {
+          "n": 2,
+          "file": "xnxx/02-tos.md",
+          "role": "unknown",
+          "url": "https://info.xnxx.com/legal/tos",
+          "chars": 69614,
+          "sha256_text": "bbaed6346f5ef661cfe3dd7fc970a58ec8b42072ae48bae00d488964ba1338db",
+          "captured_at": "2026-07-31T01:19:43+00:00"
+        },
+        {
+          "n": 3,
+          "file": "xnxx/03-cookiepolicy.md",
+          "role": "unknown",
+          "url": "https://info.xnxx.com/legal/cookiepolicy",
+          "chars": 5576,
+          "sha256_text": "ac208325480e890a959fb360cbbf4f3a8584493c9d1b60351805ec09f8ced0ae",
+          "captured_at": "2026-07-31T01:19:45+00:00"
+        },
+        {
+          "n": 4,
+          "file": "xnxx/04-dsa-data-catalogue.md",
+          "role": "unknown",
+          "url": "https://info.xnxx.com/dsa-data-catalogue",
+          "chars": 4692,
+          "sha256_text": "ec9f2d0db8386b15b613f4c936da86da0d2d36eae2b4d609e8ff8a4bb4a0d186",
+          "captured_at": "2026-07-31T01:19:47+00:00"
+        }
+      ],
+      "n_binding": 0
+    },
+    {
+      "name": "XVideos",
+      "slug": "xvideos",
+      "docs": [
+        {
+          "n": 1,
+          "file": "xvideos/01-privacy.md",
+          "role": "unknown",
+          "url": "https://info.xvideos.com/legal/privacy",
+          "chars": 43183,
+          "sha256_text": "9fb99a3297a8dc46bb05c4cae156232d12e9a6fdd834d2d32763c1859abde2c5",
+          "captured_at": "2026-07-31T01:16:51+00:00"
+        },
+        {
+          "n": 2,
+          "file": "xvideos/02-privacynotice.md",
+          "role": "unknown",
+          "url": "https://info.xvideos.com/legal/privacynotice",
+          "chars": 20360,
+          "sha256_text": "4e0ac4efde3468746486bb475c67bbd64dbc0adbd3b88a995f2ce7895fe82200",
+          "captured_at": "2026-07-31T01:16:54+00:00"
+        },
+        {
+          "n": 3,
+          "file": "xvideos/03-tos.md",
+          "role": "unknown",
+          "url": "https://info.xvideos.com/legal/tos",
+          "chars": 69258,
+          "sha256_text": "41934410868b13f051e1b9422020c98fd6f5b4938e8a1fb32cc94fd7cb34a2c2",
+          "captured_at": "2026-07-31T01:16:57+00:00"
+        },
+        {
+          "n": 4,
+          "file": "xvideos/04-cookiepolicy.md",
+          "role": "unknown",
+          "url": "https://info.xvideos.com/legal/cookiepolicy",
+          "chars": 4736,
+          "sha256_text": "bc23def1feb345cd6f9ef1de54352820d189a713ffdb19753048197381019eab",
+          "captured_at": "2026-07-31T01:17:00+00:00"
+        }
+      ],
+      "n_binding": 0
+    },
+    {
+      "name": "YouTube",
+      "slug": "youtube",
+      "docs": [
+        {
+          "n": 1,
+          "file": "youtube/01-t-terms.md",
+          "role": "binding",
+          "url": "https://www.youtube.com/t/terms?gl=IE&hl=en-GB",
+          "chars": 28606,
+          "sha256_text": "f76fc9092d871304bb4da870e09f20422dc84979a1095329a454e1bc275360af",
+          "captured_at": "2026-07-31T01:18:45+00:00"
+        },
+        {
+          "n": 2,
+          "file": "youtube/02-howyoutubeworks.md",
+          "role": "non-binding",
+          "url": "https://www.youtube.com/howyoutubeworks/",
+          "chars": 3197,
+          "sha256_text": "370ff119ca0fa9d4f61d08cc89f744b6141cdc18683c086c536e005e4704d493",
+          "captured_at": "2026-07-31T01:19:15+00:00"
+        },
+        {
+          "n": 3,
+          "file": "youtube/03-t-terms-3.md",
+          "role": "unknown",
+          "url": "https://www.youtube.com/t/terms",
+          "chars": 29032,
+          "sha256_text": "a30d85ae6728bd96bf8efce6811df2a0a297d978c44f126a979145bf1190f02e",
+          "captured_at": "2026-07-31T01:18:52+00:00"
+        },
+        {
+          "n": 4,
+          "file": "youtube/04-privacy.md",
+          "role": "unknown",
+          "url": "https://policies.google.com/privacy",
+          "chars": 89981,
+          "sha256_text": "964eec9bfabd502512b72da05346215f75190393bff2c45b69a6005bedb4f263",
+          "captured_at": "2026-07-31T01:19:03+00:00"
+        },
+        {
+          "n": 5,
+          "file": "youtube/05-privacy-5.md",
+          "role": "unknown",
+          "url": "https://policies.google.com/privacy?gl=IE&hl=en-GB#europeanrequirements",
+          "chars": 90678,
+          "sha256_text": "86b4c21ca07c1263d15b951f0d3b981cd70d11aad3a9a46eb48c356ed55f652c",
+          "captured_at": "2026-07-31T01:19:06+00:00"
+        },
+        {
+          "n": 6,
+          "file": "youtube/06-technologies-cookies.md",
+          "role": "unknown",
+          "url": "https://policies.google.com/technologies/cookies",
+          "chars": 14289,
+          "sha256_text": "5639b41a9299a6bebaa0f72d14cf9613e3f413d639d2a24841209a97ff9a560d",
+          "captured_at": "2026-07-31T01:19:12+00:00"
+        },
+        {
+          "n": 7,
+          "file": "youtube/07-youtube-answer.md",
+          "role": "unknown",
+          "url": "https://support.google.com/youtube/answer/9227818",
+          "chars": 4916,
+          "sha256_text": "0ad3aaaa6d0846e81ad022e7476bf5dd5eef52494096ff7b9b653def65620482",
+          "captured_at": "2026-07-31T01:19:32+00:00"
+        },
+        {
+          "n": 8,
+          "file": "youtube/08-youtube-answer-8.md",
+          "role": "unknown",
+          "url": "https://support.google.com/youtube/answer/16391400",
+          "chars": 12040,
+          "sha256_text": "7732977de7384ad80cf95c6b2672550cf749cd8e21dde2fdd90d6ea6412510c5",
+          "captured_at": "2026-07-31T01:19:36+00:00"
+        }
+      ],
+      "n_binding": 1
+    },
+    {
+      "name": "Zalando",
+      "slug": "zalando",
+      "docs": [
+        {
+          "n": 1,
+          "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+          "role": "binding",
+          "url": "https://mosaic02.ztat.net/cnt/contentful-apps/uploads/6264a7fa-33a0-42b3-8021-da7a5fd85469.pdf",
+          "chars": 137245,
+          "sha256_text": "3a341a6a0e03180bb4849e3d171ba51fa3066f10355ffbe11218258b59006dcd",
+          "captured_at": "2026-08-03T01:28:27+00:00"
+        },
+        {
+          "n": 2,
+          "file": "zalando/02-2021-01-experimentation-platform-part1.md",
+          "role": "non-binding",
+          "url": "https://engineering.zalando.com/posts/2021/01/experimentation-platform-part1.html",
+          "chars": 12520,
+          "sha256_text": "086490f668722662a4e8ad3e02b3a79bd8cf10ebbc4c24f13ebb174482948004",
+          "captured_at": "2026-08-03T01:28:36+00:00"
+        },
+        {
+          "n": 3,
+          "file": "zalando/03-tags-experimentation.md",
+          "role": "non-binding",
+          "url": "https://engineering.zalando.com/tags/experimentation.html",
+          "chars": 1005,
+          "sha256_text": "613b1934d449f227d9f6a2cdabdb3201a2b17b6e89fc41a51ce790590b40a8b1",
+          "captured_at": "2026-08-03T01:28:38+00:00"
+        },
+        {
+          "n": 4,
+          "file": "zalando/04-contentful-apps-uploads-b8944e13-77d3-4b20-8abf-04c3.md",
+          "role": "unknown",
+          "url": "https://mosaic02.ztat.net/cnt/contentful-apps/uploads/b8944e13-77d3-4b20-8abf-04c3bfb51d9a.pdf",
+          "chars": 32704,
+          "sha256_text": "4fd76b2383438d78d6983f8fec717a0da9f5cc3803c914cd040014777a47fb20",
+          "captured_at": "2026-08-03T01:28:33+00:00"
+        },
+        {
+          "n": 5,
+          "file": "zalando/05-zalando-data-protection-statement.md",
+          "role": "unknown",
+          "url": "https://corporate.zalando.com/en/zalando-data-protection-statement",
+          "chars": 42945,
+          "sha256_text": "bfa3f68d3ac7cd654ade7d8b9b1e1c6cb68d0f363e4166f098bbb6220d36ffd2",
+          "captured_at": "2026-08-03T01:28:45+00:00"
+        }
+      ],
+      "n_binding": 1
+    }
+  ],
+  "excluidos": [
+    {
+      "servico": "Booking.com",
+      "url": "https://www.booking.com/content/cookie.html",
+      "role": "unknown",
+      "motivo": "captura falhou: HTTP 202"
+    },
+    {
+      "servico": "Booking.com",
+      "url": "https://booking.ai/",
+      "role": "non-binding",
+      "motivo": "captura falhou: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'booking.ai'. (_ssl.c:1129)>"
+    },
+    {
+      "servico": "Booking.com",
+      "url": "https://medium.com/booking-com-development",
+      "role": "non-binding",
+      "motivo": "captura falhou: HTTP 403"
+    },
+    {
+      "servico": "Google Search",
+      "url": "https://labs.google.com/search/",
+      "role": "unknown",
+      "motivo": "captura falhou: texto vazio (173 ch de 364550b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
+    },
+    {
+      "servico": "Facebook",
+      "url": "https://www.facebook.com/business/help/1738164643098669",
+      "role": "non-binding",
+      "motivo": "captura falhou: texto vazio (45 ch de 363415b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
+    },
+    {
+      "servico": "LinkedIn",
+      "url": "https://engineering.linkedin.com/ab-testing/xlnt-platform-driving-ab-testing-linkedin",
+      "role": "unknown",
+      "motivo": "captura falhou: HTTP 404"
+    },
+    {
+      "servico": "LinkedIn",
+      "url": "https://engineering.linkedin.com/ab-testing/evolution-ab-testing-platform-linkedin",
+      "role": "unknown",
+      "motivo": "captura falhou: HTTP 404"
+    },
+    {
+      "servico": "Pornhub",
+      "url": "https://www.aylo.com/assets/files/aylo_privacy_policy.pdf",
+      "role": "unknown",
+      "motivo": "captura falhou: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+    },
+    {
+      "servico": "Instagram",
+      "url": "https://privacycenter.instagram.com/policy/",
+      "role": "unknown",
+      "motivo": "captura falhou: texto vazio (58 ch de 1234541b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
+    },
+    {
+      "servico": "Instagram",
+      "url": "https://help.instagram.com/581066165581870",
+      "role": "unknown",
+      "motivo": "captura falhou: texto vazio (11 ch de 896583b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
+    },
+    {
+      "servico": "Instagram",
+      "url": "https://transparency.meta.com/features/explaining-ranking/ig-feed/",
+      "role": "unknown",
+      "motivo": "captura falhou: texto vazio (14 ch de 471392b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
+    },
+    {
+      "servico": "XVideos",
+      "url": "https://code.europa.eu/p2b/contrib-versions/-/blob/main/Xvideos/Terms%20of%20Service.md",
+      "role": "unknown",
+      "motivo": "captura falhou: texto vazio (328 ch de 39697b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
+    },
+    {
+      "servico": "YouTube",
+      "url": "https://support.google.com/youtube/thread/18138167",
+      "role": "unknown",
+      "motivo": "captura falhou: texto vazio (711 ch de 1786996b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
+    },
+    {
+      "servico": "Pinterest",
+      "url": "https://medium.com/pinterest-engineering/scalable-a-b-experiments-at-pinterest-1e28ddb7d22",
+      "role": "non-binding",
+      "motivo": "captura falhou: HTTP 403"
+    },
+    {
+      "servico": "Zalando",
+      "url": "https://en.zalando.de/zalando-privacy-policy/",
+      "role": "unknown",
+      "motivo": "captura falhou: HTTP 403"
+    },
+    {
+      "servico": "Zalando",
+      "url": "https://en.zalando.de/zalando-terms/",
+      "role": "unknown",
+      "motivo": "captura falhou: HTTP 403"
+    },
+    {
+      "servico": "Zalando",
+      "url": "https://accounts.zalando.com/terms-of-use",
+      "role": "unknown",
+      "motivo": "captura falhou: HTTP 403"
+    },
+    {
+      "servico": "TikTok",
+      "url": "https://web.archive.org/web/20260713145902id_/https://www.tiktok.com/legal/page/eea/privacy-policy/en",
+      "role": "unknown",
+      "motivo": "captura falhou: HTTP 429"
+    },
+    {
+      "servico": "TikTok",
+      "url": "https://web.archive.org/web/20260710010832id_/https://www.tiktok.com/legal/page/eea/terms-of-service/en",
+      "role": "unknown",
+      "motivo": "captura falhou: HTTP 429"
+    },
+    {
+      "servico": "TikTok",
+      "url": "https://www.tiktok.com/safety/en/policies-and-engagement/recommendation-system",
+      "role": "unknown",
+      "motivo": "captura falhou: texto vazio (72 ch de 4900094b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
+    }
+  ]
+}

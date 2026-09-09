@@ -1,0 +1,45 @@
+---
+service: "XVideos"
+service_slug: "xvideos"
+doc: 4
+role: "unknown"
+url: "https://info.xvideos.com/legal/cookiepolicy"
+final_url: "https://info.xvideos.net/legal/cookiepolicy"
+captured_at: "2026-07-31T01:17:00+00:00"
+vantage: "IT"
+sha256_text: "bc23def1feb345cd6f9ef1de54352820d189a713ffdb19753048197381019eab"
+chars: 4736
+wayback_url: null
+---
+
+Cookie policy - Xvideos.com
+Cookie policy
+Last Updated: 01/02/2023
+We, WebGroup Czech Republic, a.s. , a company registered and existing under the laws of the Czech Republic, with registration number 291 45 465, having its registered office at Krakovská 1366/25, 110 00 Prague 1, Czech Republic (hereinafter referred to as “ WebGroup ” or „ we “), the provider of the website www.xvideos.com (hereinafter referred to as the “ Website ”), use on our Website cookies and similar technologies (hereinafter collectively referred to as “ cookies ”) to distinguish you from other users of the Website and remember your preferences. This helps us to provide you with a good experience when you browse our Website and also allows us to improve the Website.
+1. What are cookies?
+Cookies are small text files that are placed on your computer, tablet, smart phone or other device (hereinafter collectively referred to as a “device”) by websites that you visit. Cookies contain information that is transferred to your device's hard drive. They are widely used in order to make websites work, or work more efficiently, as well as to provide information to the website operator. To learn more about cookies please visit www.allaboutcookies.org .
+We use HTML5 Web Storage, a technology similar to cookies, which store small amounts of data on your device. With web storage, data is stored locally within your browser and isn't sent to our web server. The web storage provides two storage options, local storage and session storage. The local storage stores data for the entire website on a permanent basis with no expiration date. The session storage stores data on a temporary basis, for a single browser window or tab.
+We do not use technologies that track your browsing history or monitor your behaviour on other websites, such as tracking cookies, tracking pixels or web beacons.
+2. How do we use cookies?
+On our Website we use the following cookies for the below mentioned purposes. These cookies are stored in your device for a predefined period of time. After the storage period expires, they are deleted.
+[dynamic cookies listing]
+3. Third parties
+We do not share the information collected by the cookies either with any third parties or outside the EEA (European Economic Area).
+4. Manage your preferences
+We use cookies which are not essential for operation of our Website, such as functionality cookies, only with your prior express consent. It is your choice whether to accept these cookies. You can manage your consent preferences or revoke your consent at any time using our cookie banner.
+You can also block cookies by activating the setting on your browser that allows you to refuse the setting of all or some cookies. To delete the data saved in the local storage of the browser you can delete your browsing history. However, if you set your browser to block all cookies (including essential cookies) you may not be able to access all or parts of our Website.
+Below are links to the ‘help pages’ of the most common browsers to learn more about the cookie settings, including the blocking of cookies and deleting the local storage, in each one:
+Chrome: https://support.google.com/chrome/answer/95647?hl=en
+Explorer: https://support.microsoft.com/en-us/windows/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d
+Microsoft Edge: https://privacy.microsoft.com/en-US/windows-10-microsoft-edge-and-privacy
+Firefox: https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop
+Safari: https://support.apple.com/kb/PH17191?viewlocale=en_US&locale=es_ES
+Safari for IOS: https://support.apple.com/en-us/HT201265
+Opera: https://www.opera.com/help/tutorials/security/cookies/
+5. Processing of Personal Data
+In connection with the use of cookies, some of your personal data may be processed. For more information about which personal data we process, how we process it and about your rights related to processing of personal data, please see our:
+Privacy Policy at https://info.xvideos.com/legal/privacy if you are a Website user who creates an user account; or our
+Privacy Notice at https://info.xvideos.com/legal/privacynotice if you are a Website user who does not create an user account, or if you visit our Website to submit an abuse reporting form, a copyright infringement takedown request or a copyright counter-notification, or to interact with us directly.
+6. Changes to this Cookie Policy
+We reserve the right to modify this Cookie Policy at any time in accordance with this provision. If we make changes to this Cokie Policy, we will post the revised Cookie Policy on the Website and update the “Last Updated” date at the top of this Cookie Policy.
+Go back to XVIDEOS.COM - Go back to XVideos info page

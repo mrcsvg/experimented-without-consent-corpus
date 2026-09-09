@@ -1,0 +1,36 @@
+{
+  "publicado_em": "2026-09-09T02:23:41+00:00",
+  "fonte": "github.com/mrcsvg/experimented-without-consent",
+  "arquivos": [
+    {
+      "file": "analysis/codebook.py",
+      "sha256": "e27b9daeb01167bc760fcae8dae6020045cc3069a7af88a97b8a482f59ab1dfb",
+      "bytes": 12711
+    },
+    {
+      "file": "analysis/coding_flow.py",
+      "sha256": "7fd3a43ba7e8d11474a160a87d2070e018d94affaaf85e7bfc8ab49745c7ab0f",
+      "bytes": 16781
+    },
+    {
+      "file": "analysis/patterns.py",
+      "sha256": "7f3de566b959708040f4970a363ec75e1157ca42b1f257ff1b119f5ff101352b",
+      "bytes": 8917
+    },
+    {
+      "file": "analysis/revisao.py",
+      "sha256": "fc724d8afbbcb8882703213d14fd1f320de0201e1b3c804ba15e2a73d549efd5",
+      "bytes": 29092
+    },
+    {
+      "file": "analysis/build-md-corpus.py",
+      "sha256": "1ca9ad6e18e0407d37ae34a6df98722a9d9f87201fc3a12c953bd6e8deab263a",
+      "bytes": 16206
+    },
+    {
+      "file": "index.html",
+      "sha256": "d07a9ae335c2c35aade0cbd15c515747202c180b673d0c9840243d0e91f2a7b3",
+      "bytes": 108002
+    }
+  ]
+}

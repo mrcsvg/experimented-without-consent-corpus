@@ -1,0 +1,103 @@
+---
+service: "Google Maps"
+service_slug: "google-maps"
+doc: 3
+role: "non-binding"
+url: "https://support.google.com/maps/answer/7006449?hl=en-GB"
+final_url: "https://support.google.com/maps/answer/7006449?hl=en-GB"
+captured_at: "2026-07-31T01:12:24+00:00"
+vantage: "IT"
+sha256_text: "fd2847572780798c4139c1909d8503683eb9a331bbdd4a2ad538a2423774c8b2"
+chars: 2857
+wayback_url: null
+---
+
+Beta test the Google Maps app on Android - Google Maps Help Skip to main content
+Google Maps Help
+Sign in
+Google Help
+Help Center
+Community
+Google Maps
+Privacy Policy
+Terms of Service
+Submit feedback
+Send feedback on…
+This help content & information
+General Help Centre experience
+Next
+Help Center
+Community
+Google Maps
+Beta test the Google Maps app on Android
+If you have an Android device and want to test upcoming features in the Google Maps app before they’re released, join the beta tester programme.
+Note : You can only have one version of the app installed on your phone or tablet. If a beta version isn’t available, you’ll get the regular version until the next beta version is available.
+Join the beta tester programme
+To become a beta tester, follow the steps below.
+Opt in to beta test the Maps app .
+Choose Become a tester .
+Important : We ask that you don’t publicize or share the features you’re testing until they’re publicly launched.
+To leave the beta tester programme, go to the opt-out page > Leave the programme
+Note : If you leave the programme, you might have to update the Google Maps app to use the latest regular version.
+Send us feedback
+By beta testing, you play an important part in the app’s development. Your participation and feedback will help us release a better version of the app.
+Was this helpful?
+How can we improve it?
+Yes No
+Submit
+Need more help?
+Try these next steps:
+Post to the Help Community Get answers from community members
+true
+Help
+1 of 12
+How to send us feedback in Google Maps
+2 of 12
+See system and browser requirements for Google Maps
+3 of 12
+Other versions of Google Maps on the web
+4 of 12
+Make Google Maps load faster
+5 of 12
+Report wrong directions in Google Maps
+6 of 12
+Report data or content errors on Google Maps
+7 of 12
+How to fix Maps when it crashes
+8 of 12
+Add or fix a road in Google Maps
+9 of 12
+End of support for outdated Google Maps versions
+10 of 12
+Identify scams on reviews and ratings
+11 of 12
+Beta test the Google Maps app on Android
+12 of 12
+Report a business on Google Maps
+©2026 Google
+Privacy Policy
+Terms of Service
+Language català‎ dansk‎ Deutsch‎ eesti‎ English‎ español‎ español (Latinoamérica)‎ Filipino‎ français‎ Gaeilge‎ hrvatski‎ Indonesia‎ italiano‎ latviešu‎ lietuvių‎ magyar‎ Malti‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ shqip‎ slovenčina‎ slovenščina‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ íslenska‎ čeština‎ Ελληνικά‎ български‎ македонски‎ русский‎ српски‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ বাংলা‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English (United Kingdom)‎
+Enable Dark Mode
+Send feedback on…
+This help content & information General Help Centre experience
+Search
+Clear search
+Close search
+Google apps
+Main menu
+4765934736339077892
+true
+Search Help Centre
+false
+true
+true
+true
+true
+true
+76697
+false
+false
+false
+false
+false

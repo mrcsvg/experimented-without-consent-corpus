@@ -1,0 +1,68 @@
+---
+service: "TikTok"
+service_slug: "tiktok"
+doc: 2
+role: "non-binding"
+url: "https://newsroom.tiktok.com/an-update-on-our-work-to-safeguard-and-diversify-recommendations"
+final_url: "https://newsroom.tiktok.com/an-update-on-our-work-to-safeguard-and-diversify-recommendations?lang=en"
+captured_at: "2026-08-03T01:29:22+00:00"
+vantage: "IT"
+sha256_text: "6ceb64b2af8b4a2ce85f10cb8fd17e3adf73875a883ed5e0ee8425437f0bbbb4"
+chars: 5681
+wayback_url: null
+---
+
+An update on our work to safeguard and diversify recommendations - Newsroom | TikTok
+About Newsroom Careers Contact
+Watch TikTok
+December 16, 2021 • Safety , Product
+An update on our work to safeguard and diversify recommendations
+TikTok is a place to create, discover, and watch entertaining videos, and we're proud to be a home where our diverse community of creators can express themselves. Our goal is to foster an environment where people feel safe and supported being exactly who they are, whether they're creating videos for our community or watching them.
+Our approach to the For You feed
+There are many ways to discover and view videos on TikTok , and the For You feed is part of what enables people to explore a diversity of ideas, creators, and interests. Our system considers a range of engagement signals, such as likes, follows, and videos watched, to show people other videos they might be interested in. This is similar to streaming services which suggest new artists or movies based on the songs someone has listened to or films they've watched.
+To keep people's For You feeds fresh – and interrupt repetitive patterns – our recommendation system works to intersperse diverse types of content along with those people already know they love. Our community tells us they love finding creators they wouldn't have known to follow, or learning about a new interest because it was recommended to them, along with enjoying content that already matches their taste.
+However, certain kinds of videos can sometimes inadvertently reinforce a negative personal experience for some viewers, like if someone who's recently ended a relationship comes across a breakup video. We want to share more about some of the work underway to address this and improve the experience for viewers on TikTok.
+Diversifying recommendations
+At TikTok, we recognize that too much of anything, whether it's animals, fitness tips, or personal well-being journeys, doesn't fit with the diverse discovery experience we aim to create. That's why our recommendation system works to intersperse recommendations that might fall outside people's expressed preferences, offering an opportunity to discover new categories of content. For example, our systems won't recommend two videos in a row made by the same creator or with the same sound. Doing so enriches the viewing experience and can help promote exposure to a range of ideas and perspectives on our platform.
+As we continue to develop new strategies to interrupt repetitive patterns, we're looking at how our system can better vary the kinds of content that may be recommended in a sequence. That's why we're testing ways to avoid recommending a series of similar content – such as around extreme dieting or fitness, sadness, or breakups – to protect against viewing too much of a content category that may be fine as a single video but problematic if viewed in clusters.
+We're also working to recognize if our system may inadvertently be recommending only very limited types of content that, though not violative of our policies, could have a negative effect if that's the majority of what someone watches, such as content about loneliness or weight loss. Our goal is for each person's For You feed to feature a breadth of content, creators, and topics.
+This work is being informed by ongoing conversations with experts across medicine, clinical psychology, and AI ethics, members of our Content Advisory Council, and our community.
+A new way to shape what you see
+As we build safeguards into TikTok by design, we also want to empower people with more choices to customize their experience to their own preferences and comfort. For example, we're working on a feature that would let people choose words or hashtags associated with content they don't want to see in their For You feed. We already enable people to tap any video and select "Not interested" to automatically skip future videos from that same creator or using the same audio. This new tool will offer another way to help people customize their feed – whether for a vegetarian who wants to see fewer meat recipes, or someone working on self-esteem who would rather see fewer beauty tutorials.
+Building safety into recommendations
+TikTok's For You feed is designed to help people discover original and entertaining content, and we have a number of safeguards in place to support this aim. In addition to removing content that violates our Community Guidelines, we try not to recommend certain categories of content that may not be appropriate for a general audience. Our safety team takes additional precautions to review videos as they rise in popularity to reduce the likelihood of content that may not be appropriate for a general audience entering our recommended system.
+Looking ahead
+Getting these systems and tools right will take time and iteration. We'll continue to look at how we can ensure our system is making a diversity of recommendations. And we're committed to bringing transparency to this work and how our system operates more broadly, including at our global Transparency and Accountability Centers where we dive even deeper into the mechanics of our recommendation engine. As we learn or make progress, we'll share updates along the way.
+Language
+English (US)
+Company
+About
+Newsroom
+Store
+Contact
+Careers
+ByteDance
+Programs
+TikTok For Good
+TikTok For Developers
+Effect House
+Advertise
+Browse
+Embed
+Rewards
+Scaled LIVE Rewards
+Resources
+Help Center
+Safety Center
+Privacy Center
+Creator Academy
+Community Guidelines
+Transparency
+Accessibility
+Social
+TikTok
+LinkedIn
+Youtube
+Instagram
+Terms of Service Privacy Intellectual Property Policy Law Enforcement
+© 2025 TikTok

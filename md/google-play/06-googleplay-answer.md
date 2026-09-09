@@ -1,0 +1,139 @@
+---
+service: "Google Play"
+service_slug: "google-play"
+doc: 6
+role: "unknown"
+url: "https://support.google.com/googleplay/answer/7003180?hl=en"
+final_url: "https://support.google.com/googleplay/answer/7003180?hl=en"
+captured_at: "2026-07-31T01:14:22+00:00"
+vantage: "IT"
+sha256_text: "97bd764171d4c7c84b394fca7ff0cb71dd6315bfce2ae350c552fde53da231df"
+chars: 5031
+wayback_url: null
+---
+
+Try new Android apps before their official release - Google Play Help Skip to main content
+Google Play Help
+Sign in
+Google Help
+Help Center
+Community
+Google Play
+Privacy Policy
+Google Play Terms of Service
+Submit feedback
+Send feedback on...
+This help content & information
+General Help Center experience
+Next
+Help Center
+Community
+Get started with Google Play
+Google Play
+Use Android apps and games
+Try new Android apps before their official release
+Notification
+Passkeys are the simplest and most secure way to sign in to your account. To sign in with just your fingerprint, face scan, or screen lock, create a passkey .
+Try new Android apps before their official release
+To get user feedback, some developers make new apps or features available before their official release. You can try these apps or features when you join early access or beta programs.
+Early access & beta apps
+Early access apps are apps that haven’t been released yet.
+Beta apps are newer and more experimental versions of apps that are already released.
+Early access and beta apps may be less stable than most apps. For example, the app might crash or some features might not work properly.
+Some apps limit how many users can join early access and beta programs. If it’s full, space may open later if current testers leave or if the developer lets more users join.
+Get early access to unreleased apps
+Open the Play Store .
+Go to the “For you” tab.
+Under “Apps in development,” tap the app you want to try.
+Tap Install .
+Follow the on-screen instructions.
+Tip: If you install an unreleased app, you may be automatically enrolled in the beta program when that app launches.
+Get early access to unreleased games
+Open the Play Store .
+Go to the “New” tab.
+Under “Be the first to play,” tap the game you want to try.
+Tap Install .
+Follow the on-screen instructions.
+Get beta versions of apps
+Important: To get the beta version of an app, the app must already be installed on your device.
+Open the Play Store .
+At the top right, tap the Profile icon .
+Tap Manage apps & devices Installed .
+Tap an app to open its detail page.
+Under “Join the beta,” tap Join Join .
+Tips:
+If you can’t find “Join the beta,” that means the developer doesn’t offer public betas for the app at this time.
+If you don’t want to use the beta version of an app, you can leave the app’s beta program and install the app’s public version. When you leave and uninstall a beta app, you may lose your progress and any customizations you made to the app.
+Provide feedback to the developer
+Open the Play Store .
+At the top right, tap the Profile icon .
+Tap Manage apps & devices Beta .
+Find the app you want to provide feedback for.
+To open the app's detail page, tap the app.
+Under “Private feedback to developer,” tap Write feedback .
+To rate the app, tap the stars.
+To describe your experience to the developer, use the box.
+To submit feedback, it requires you to rate and write feedback.
+Tap Post .
+Tip: When you review early access and beta apps, only the developer can view your feedback.
+Data shared with the developer
+Certain data on your use of the app (such as device information, app usage information, and user-triggered events) will be collected and shared with the developer to help improve their app.
+Related resources
+Understand app privacy and security practices with Google Play's Data safety section
+Leave an app’s beta program
+Need more help?
+Try these next steps:
+Post to the help community Get answers from community members
+true
+Use Android apps and games
+1 of 12
+Get Android apps & digital content from the Google Play Store
+2 of 12
+How to update apps on Android
+3 of 12
+App compatibility with Android and Chromebooks
+4 of 12
+Fix an installed Android app that isn't working
+5 of 12
+Use Google Play Protect to help keep your apps safe & your data private
+6 of 12
+Use Quick Share on your Android device
+7 of 12
+Use Dark theme in your apps
+8 of 12
+Google Play Games Mobile App
+9 of 12
+Try new Android apps before their official release
+10 of 12
+Change app permissions on your Android phone
+11 of 12
+Delete, disable & manage unused apps on Android
+12 of 12
+Leave an app's beta program
+©2026 Google
+Privacy Policy
+Google Play Terms of Service
+Language Afrikaans‎ azərbaycan‎ dansk‎ Deutsch‎ eesti‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ Filipino‎ français‎ français (Canada)‎ Gaeilge‎ hrvatski‎ Indonesia‎ italiano‎ latviešu‎ lietuvių‎ magyar‎ Malti‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ slovenčina‎ slovenščina‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ íslenska‎ čeština‎ Ελληνικά‎ български‎ русский‎ српски‎ українська‎ ‏ עברית ‏ اردو ‏ العربية ‏ فارسی मराठी‎ हिन्दी‎ বাংলা‎ ગુજરાતી‎ தமிழ்‎ తెలుగు‎ ಕನ್ನಡ‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 中文（香港）‎ 日本語‎ 한국어‎ English‎
+Enable Dark Mode
+Send feedback on...
+This help content & information General Help Center experience
+Search
+Clear search
+Close search
+Google apps
+Main menu
+8472682152314419504
+true
+Search Help Center
+false
+true
+true
+true
+true
+true
+84680
+false
+false
+false
+false
+false
