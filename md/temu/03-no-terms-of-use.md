@@ -2,7 +2,7 @@
 service: "Temu"
 service_slug: "temu"
 doc: 3
-role: "binding"
+role: "unknown"
 url: "https://www.temu.com/no-en/terms-of-use.html"
 final_url: "https://www.temu.com/no-en/terms-of-use.html"
 captured_at: "2026-07-31T20:21:32+00:00"

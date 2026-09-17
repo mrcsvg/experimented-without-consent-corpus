@@ -1,0 +1,360 @@
+---
+service: "Wikipedia"
+service_slug: "wikipedia"
+doc: 3
+role: "unknown"
+url: "https://foundation.wikimedia.org/wiki/Policy:Cookie_statement"
+final_url: "https://foundation.wikimedia.org/wiki/Policy:Cookie_statement"
+captured_at: "2026-07-31T01:16:25+00:00"
+vantage: "IT"
+sha256_text: "62946f09c53a20f5a87f1e797aae68e6e3b7ceb382c786b2c1efa5c72aa4e06a"
+chars: 15159
+wayback_url: null
+---
+
+Wikimedia Cookie Statement - Wikimedia Foundation Governance Wiki
+Jump to content
+Main menu
+Main menu
+move to sidebar
+hide
+About the Foundation
+Home
+Official website
+Contact us
+Wikimedia News
+Movement Blog
+Movement Calendar
+Questions for Wikimedia?
+Support Wikimedia
+Volunteering
+Wikimedia Endowment
+Wikimedia Enterprise
+Wikipedia Store
+Corporate
+Bylaws
+Values
+Policies
+Resolutions
+Board meetings
+Movement affiliates
+Documentation
+Annual report
+Financial reports and Form 990
+Fundraising reports
+Legal
+Memory Bank
+Security
+Transparency report
+Wikimedia Endowment
+Wikimedia Enterprise
+Wiki
+Give us your feedback
+Babel
+Help
+Recent changes
+Special pages
+Search
+Search
+English
+Appearance
+Donate
+Log in
+Personal tools
+Donate
+Log in
+Contents
+move to sidebar
+hide
+Beginning
+1
+What is a cookie?
+2
+What types of cookies does Wikimedia use and for what purposes?
+3
+What are my cookie options?
+4
+Where can I find more information?
+Toggle the table of contents
+Wikimedia Cookie Statement
+Add languages
+Add links
+Policy
+Discussion
+English
+Read
+View source
+View history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+Read
+View source
+View history
+General
+What links here
+Related changes
+Permanent link
+Page information
+Get shortened URL
+Print/export
+Create a book
+Download as PDF
+Printable version
+In other projects
+Appearance
+move to sidebar
+hide
+From Wikimedia Foundation Governance Wiki
+Translate this page
+Other languages:
+Bahasa Indonesia
+Bahasa Melayu
+Boarisch
+Bân-lâm-gí (Tâi-lô)
+Deutsch
+English
+Nederlands
+Tiếng Việt
+Türkçe
+català
+dansk
+español
+français
+kabuverdianu
+magyar
+norsk bokmål
+norsk nynorsk
+polski
+português
+português do Brasil
+română
+slovenščina
+čeština
+Ελληνικά
+беларуская (тарашкевіца)
+български
+кыргызча
+русский
+עברית
+العربية
+سنڌي
+فارسی
+नेपाली
+हिन्दी
+বাংলা
+ગુજરાતી
+മലയാളം
+සිංහල
+ไทย
+ລາວ
+မြန်မာဘာသာ
+ქართული
+አማርኛ
+中文
+日本語
+This policy is approved by the Wikimedia Foundation Board of Trustees .
+It may not be circumvented, eroded, or ignored by Wikimedia Foundation officers or staff nor local policies of any Wikimedia project .
+Please note that in the event of any differences in meaning or interpretation between the original English version of this content and a translation, the original English version takes precedence.
+Wikimedia policies
+Wikimedia projects
+Access to nonpublic personal data
+Underage exemptions
+Access to temporary account IP addresses
+API usage guidelines
+Code of conduct for Wikimedia technical spaces, including events
+Combating online child exploitation
+Commercial sales and contracts
+Cookie statement
+Data collection guidelines
+Data publication guidelines
+Data retention guidelines
+Digital Millennium Copyright Act (DMCA)
+Donor privacy
+SMS supplementary terms
+General disclaimer
+Human rights
+IP Information Tool
+Licensing
+Modifying CheckUser logs guidelines
+Office actions
+Privacy
+Non-wiki
+Terms of Use
+Wikimedia Maps
+Wikimedia Phabricator
+Terrorist and violent extremist content procedures and guidelines
+Trademarks
+Universal code of conduct
+Enforcement guidelines
+Use of Wikimedia sites for advocacy purposes
+Foundation Board and staff
+Board of Trustees candidate review process
+Code of Conduct
+Board of Trustees
+Conflict of interest
+Confidentiality agreement of the Board of Trustees
+Credit card usage
+Delegation of authority
+Duty entertainment
+Foreign Corrupt Practices Act (FCPA)
+Gifts
+Non-discrimination
+Policy and political association guideline
+Staff test account
+Staff userrights
+Travel and expense
+Whistleblower
+Other
+Expense reimbursement
+Feedback privacy statement
+Friendly space policy
+Investment policy
+Legal policies
+Open access policy
+Peering policy
+Purchasing and disbursements procedures
+Requests for user information
+Scholarship travel policy
+Service provider travel guidance
+v
+t
+e
+As stated in our Privacy Policy , Wikimedia believes strongly in the values of privacy and transparency. To that end, we have created this Cookie Statement as a clear reference guide to the use of cookies on Wikimedia Sites. This Cookie Statement explains how we use cookies (and other locally stored data technologies), how we use third-party cookies, and how you can manage your cookie options. For more information on our privacy practices, please visit our Privacy Policy .
+The Wikimedia Foundation, the non-profit organization that hosts the Wikimedia Sites, actively collects some types of information with a variety of commonly-used technologies. These generally include tracking pixels , JavaScript , and a variety of "locally stored data" technologies, such as cookies and local storage .
+What is a cookie?
+A "cookie" is a tiny data file that we transfer onto your computer, mobile phone, or any other device that you use to access the Wikimedia Sites, and is generally used for authentication and tracking. Every cookie expires after a certain period of time, but that period varies depending on what the cookie is used for and how your browser is configured.
+Cookies are often categorized based on how long they remain active before they expire. A "session" cookie is one that generally expires when you close your web browser or mobile application. A "persistent" cookie is one that remains in your device, even after you close your browser or mobile application. A persistent cookie expires according to the duration set by us, or when you delete it manually. You can learn more about cookies on Wikipedia .
+You may remove or disable cookies through your browser settings. For more information on how to manage your cookie options, please see Section 3 of this Cookie Statement below.
+For more information on this and other key terms that may be relevant, please read through our Privacy Policy Glossary .
+What types of cookies does Wikimedia use and for what purposes?
+Cookies are not required in order to read or edit the Wikimedia Sites. We use the information we receive from cookies and other locally stored data technologies to make your experience with the Wikimedia Sites safer and better, to gain a greater understanding of user preferences and interactions with the Wikimedia Sites, and to generally improve our services. Cookies are required in order to login and for your edits to be associated with a user account; without cookies, your edits will be unassociated with a standard account.
+We use cookies, JavaScript, tracking pixels, and other locally stored data technologies to accomplish different purposes. Below is a list of the categories of cookies we use and what they are used for.
+Functionality:
+These cookies help the Wikimedia Sites work and are essential in order to enable you to move around the Wikimedia site and use their features. These cookies are useful for remembering your username in the login field, maintaining your session and remembering previous actions, keeping you logged in (if selected), and more.
+Here are a few examples:
+Name
+Expires
+Category
+What does it do?
+centralauth_Token
+{$wgCookiePrefix}* Token
+365 days, if the user chooses 'Keep me logged in' or 90 days if the user edits using a temporary account. Otherwise omitted.
+Functionality
+Provides 'Keep me logged in' functionality (if editing from a standard account) or temporary account functionality (if editing without logging in).
+{$wgCookiePrefix}* UserID, UserName
+365 days, if the user chooses 'Keep me logged in' or 90 days if the user edits using a temporary account. Otherwise 30 days.
+Functionality
+Helps identify you to the wiki, and keeps you logged in.
+loginnotify_prevlogins
+180 days
+Functionality
+Verifies that you are logging in from a known device.
+This affects the threshold for how many unsuccessful login attempts trigger a notification to the user.
+centralauth_Session
+{$wgCookiePrefix}* Session
+When user exits browser
+Functionality
+Manage sessions. Provides functionality such as logging in to Wikimedia Projects.
+Preferences:
+These cookies store your preferences, so that they can be remembered the next time you use the Wikimedia Sites, for a more customized experience. These cookies are useful for recognizing and maintaining your language preference, remembering changes you have made to text size, fonts and other display preferences, so we can provide you with the look and feel that you want, and more.
+Here are a few examples:
+Name
+Expires
+Category
+What does it do?
+mwclientpreferences
+30 days
+Preferences
+Stores user preferences for client-side settings, such as font size, dark mode, and width (wide or standard). This cookie ensures a customized browsing experience for anonymous users. For more details, see the decision record .
+stopMobileRedirect
+30 days
+Preferences
+Tells us not to redirect to the mobile site if you do not like that.
+uls-preferences
+Local Storage, not a cookie
+Preferences
+Allows you to set preferences for the Universal Language Selector functionality.
+hidewatchlistmessage- [watchlistMessageId]
+● where watchlistMessageld is the Id of the message being hidden
+28 days
+Preferences
+Allows a user to hide a watchlist message.
+userFontSize
+Local Storage, not a cookie
+Preferences
+Keeps track of your preferred font size on the mobile site.
+preferredEditor
+Local Storage, not a cookie
+Preferences
+Keeps track of your preferred editor on the mobile site.
+Performance and Analysis:
+These cookies count the number of visitors and collect information about how you use the Wikimedia Sites. This allows us to better understand your user experience on the Wikimedia Sites and helps us improve them for you and other users — for instance, by making sure users are finding what they need easily. Other examples include:
+remembering pages visited, and actions taken on the Wikimedia sites so we can optimize the pages;
+remembering if users get error messages from web pages;
+storing your most recently read articles directly on your device, so they can be retrieved quickly;
+remembering the topics searched so that we can optimize the search results we deliver to you;
+remembering the list of articles you are following on your watchlist so that we can recommend similar articles that you may be interested in.
+Here are a few examples:
+Name
+Expires
+Category
+What does it do?
+centralnotice_bucket
+7 days
+Performance and Analysis
+Helps us understand the effectiveness of notices provided to users through the CentralNotice extension. For more details, see Extension:CentralNotice
+ext.popups.core.previewCount
+Local Storage, not a cookie
+Performance and Analysis
+Helps us understand the effectiveness of Hovercards.
+WMF-Last-Access
+30 days
+Performance and Analysis
+Helps us calculate Unique devices accessing our site. See: diff.wikimedia.org/2016/03/30/unique-devices-dataset/
+WMF-Uniq
+365 days, refreshed weekly
+Performance and Analysis
+Helps us count the number of site visitors, run A/B tests, and mitigate DDoS attacks. See: diff.wikimedia.org/2025/04/09/using-privacy-engineering-to-enable-modern-usability-testing-and-defend-against-network-attacks/
+Third-Party:
+We will never use third-party cookies on our wikis unless we get your permission to do so. These cookies would allow us to render services provided by third parties, such as "like" and "share" buttons. When a third party provides these kinds of services, they may require the use of a cookie in order to provide their services.
+If you ever come across a third-party cookie transferred to your device during your access of the Wikimedia wiki sites, where you did not take any action to authorize the use and/or transfer of that cookie (such as one that may have been mistakenly placed by another user or administrator), please report that cookie to us at privacy wikimedia.org .
+A note about Wikimedia Foundation non-wiki sites:
+Some non-wiki Wikimedia Foundation sites are hosted by a third-party service provider.
+Sites hosted by WordPress VIP may have the WordPress Stats module enabled. Stats is a service that allows us to understand how many visitors we get to our WordPress-hosted non-wiki sites, their location by country, and which pages, posts and links are the most popular. Only the Wikimedia Foundation and the service provider, Automattic/WordPress, have access to the raw Stats data, which is retained for a maximum of 30 days. For more information about Stats, see WordPress' support page on the module .
+The Wikipedia Store is hosted by Shopify and is integrated with our TikTok Shop. This integration includes a tracking pixel from TikTok that measures traffic and campaign performance. Our implementation includes TikTok's limited data use feature and the ability to opt-out of data sharing with TikTok through your cookie preferences. For information about how TikTok uses information, see their Partner Privacy Policy .
+Sites hosted by Civilized Discourse Construction Kit, Inc., known as Discourse forums, use cookies for functionality purposes and to store preferences. Only the Wikimedia Foundation and the service provider have access to the raw data. For more information about the cookies and their retention periods, see Discourse's information about cookies . Please note that the Wikimedia Foundation has not configured its Discourse forums to use Google Analytics, serve advertisements, or process donations; Discourse cookies related to those purposes are not used in our Sites.
+What are my cookie options?
+While this is not a comprehensive list, below are some of the things that you can do to limit use of cookies and other locally stored data technologies on your device. While cookies and other locally stored data technologies may not be necessary to use our sites, some features may not function properly if you disable them.
+You can:
+remove or disable specific locally stored data on your browser's settings (you can reset your web browser to refuse all cookies or to indicate when a cookie is being sent);
+use a browser that can block third-party cookies; or
+install a plug-in to block locally stored data, if one is available.
+Turning off the browser's cookies will prevent tracking pixels from tracking your specific activity. A tracking pixel may still record an anonymous visit from your IP address, but unique information will not be recorded. If you do not want to receive tracking pixels, you will need to disable HTML images in your browser-based email client, and that may affect your ability to view images in other emails that you receive.
+Where can I find more information?
+Please read through our Privacy Policy for more information. If you have any further questions, contact privacy wikimedia.org .
+Thanks!
+Please note that in the event of any differences in meaning or interpretation between the original English version of this content and a translation, the original English version takes precedence.
+Retrieved from " https://foundation.wikimedia.org/w/index.php?title=Policy:Cookie_statement&oldid=570736 "
+Category :
+Policies
+This page was last edited on 10 April 2026, at 19:51.
+Text is available under the Creative Commons Attribution-ShareAlike License ;
+additional terms may apply.
+See Terms of Use for details.
+Privacy policy
+About Wikimedia Foundation Governance Wiki
+Disclaimers
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+Search
+Search
+Toggle the table of contents
+Wikimedia Cookie Statement
+Add languages
+Add topic

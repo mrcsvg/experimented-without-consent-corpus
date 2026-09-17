@@ -31,9 +31,13 @@ Aqui o nome canônico é sempre o do roster do instrumento (`codebook.SERVICOS`)
 resolvido pela mesma regra do `coding_flow.resolver_servico`: exato, ou prefixo
 único, ou erro. Uma origem só para o nome, e ela não é o sistema de arquivos.
 
-POR QUE A ORDEM É binding → non-binding → unknown. O `01-` de cada serviço é o
+POR QUE A ORDEM É binding → unknown → non-binding. O `01-` de cada serviço é o
 documento que mais importa para a codificação. Quem abre só os primeiros abre
-os vinculantes, que é onde a alegação central do paper vive.
+os vinculantes, que é onde a alegação central do paper vive. `unknown` vem antes
+de `non-binding` porque o rótulo saiu do texto que antecedia a URL na passada 1,
+e 100 dos 162 documentos ficaram sem ele — inclusive a Privacy Policy e os
+Terms do Facebook. Na ordem anterior, o `01-` do Facebook era uma matéria do
+TechCrunch. `non-binding` é o único rótulo que afirma algo: PR, blog, ajuda.
 
 O PORTÃO DE ILEGIBILIDADE. Documento com mais de 2% de U+FFFD não entra: sai
 para `excluidos` no índice, com o motivo. É o mesmo limiar do
@@ -59,8 +63,22 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import codebook as C  # noqa: E402
 
+
+def _carregar_freeze_sources():
+    # Hífen no nome: não importa por `import`. A regra de pertença dos documentos
+    # vive lá e só lá — reescrevê-la aqui seria a segunda cópia que divergiria.
+    import importlib.util
+    caminho = Path(__file__).resolve().parent / "freeze-sources.py"
+    spec = importlib.util.spec_from_file_location("freeze_sources", caminho)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+FS = _carregar_freeze_sources()
+
 LIMIAR_ILEGIVEL = 0.02  # mesmo limiar do freeze-sources.py
-ORDEM_REGISTRO = {"binding": 0, "non-binding": 1, "unknown": 2, None: 2}
+ORDEM_REGISTRO = {"binding": 0, "unknown": 1, None: 1, "non-binding": 2}
 
 # Palavras que não distinguem um documento do outro e só alongam o nome.
 RUIDO_NO_NOME = {
@@ -185,21 +203,24 @@ def separar(markdown: str) -> tuple[dict, str]:
 
 # --------------------------------------------------------------------- build
 
-def carregar_manifesto(frozen: Path) -> tuple[dict, list[dict]]:
-    caminho = frozen / "manifest.json"
-    if not caminho.exists():
-        raise ErroDeEntrada(f"manifesto não encontrado em {caminho}")
-    m = json.loads(caminho.read_text(encoding="utf-8"))
-    docs = m.get("documents")
-    if isinstance(docs, dict):
-        docs = list(docs.values())
+def carregar_membros(frozen: Path) -> tuple[dict, list[dict]]:
+    """(manifesto, [documento com o serviço que o USA]) — um item por par serviço–URL.
+
+    Documento compartilhado aparece uma vez para cada serviço cuja lista da
+    passada 1 o inclui. Ver `membros` em `freeze-sources.py` para o porquê: agrupar
+    pelo `service` do manifesto tirava cinco documentos do Google Search.
+    """
+    if not (frozen / "manifest.json").exists():
+        raise ErroDeEntrada(f"manifesto não encontrado em {frozen / 'manifest.json'}")
+    manifesto, grupos = FS.carregar_membros(frozen)
+    docs = [d for entradas in grupos.values() for d in entradas]
     if not docs:
         raise ErroDeEntrada("manifesto sem documentos")
-    return m, docs
+    return manifesto, docs
 
 
 def construir(frozen: Path, saida: Path, verboso: bool = True) -> dict:
-    manifesto, docs = carregar_manifesto(frozen)
+    manifesto, docs = carregar_membros(frozen)
     vantagem = (manifesto.get("vantage") or {}).get("country")
 
     servicos: dict[str, list[dict]] = {}
@@ -213,7 +234,13 @@ def construir(frozen: Path, saida: Path, verboso: bool = True) -> dict:
                     "role": doc.get("role_hint")}
 
         if doc.get("error"):
-            excluidos.append({**registro, "motivo": f"captura falhou: {doc['error']}"})
+            # A nota de recaptura, quando existe, é o que o codificador precisa
+            # ler: o `error` é a medição da tentativa automatizada, e depois de
+            # uma recaptura manual ele pode ter virado conselho obsoleto.
+            motivo = f"captura falhou: {doc['error']}"
+            if doc.get("recapture_note"):
+                motivo += f" · {doc['recapture_note']}"
+            excluidos.append({**registro, "motivo": motivo})
             continue
         if not doc.get("text_path"):
             excluidos.append({**registro, "motivo": "sem texto extraído"})
@@ -302,9 +329,24 @@ def construir(frozen: Path, saida: Path, verboso: bool = True) -> dict:
             "n_binding": sum(1 for d in docs_indice if d["role"] == "binding"),
         })
 
+    # Resto de build anterior tem de sair. Uma recaptura renumera os documentos
+    # do serviço, e o arquivo com o nome velho continuaria em disco, fora do
+    # índice: quem navegasse a pasta em vez de ler o índice leria uma versão que
+    # o corpus já não declara. O `--check` acusa isso, e aqui é onde se resolve.
+    declarados = {saida / d["file"] for s in indice["services"] for d in s["docs"]}
+    sobraram = [p for p in saida.rglob("*.md") if p not in declarados]
+    for p in sobraram:
+        p.unlink()
+    for pasta in saida.iterdir():
+        if pasta.is_dir() and not any(pasta.iterdir()):
+            pasta.rmdir()
+
     (saida / "index.json").write_text(
         json.dumps(indice, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    if verboso and sobraram:
+        print(f"{len(sobraram)} arquivo(s) de build anterior removidos "
+              f"(ex.: {sobraram[0].relative_to(saida)})")
     if verboso:
         total = sum(len(s["docs"]) for s in indice["services"])
         print(f"{total} documentos · {len(indice['services'])} serviços · "
@@ -320,10 +362,25 @@ def construir(frozen: Path, saida: Path, verboso: bool = True) -> dict:
 
 # --------------------------------------------------------------------- check
 
-def checar(saida: Path) -> int:
-    """Afirma o que o corpus tem que satisfazer. Ruidoso de propósito."""
+def checar(saida: Path, frozen: Path | None = None) -> int:
+    """Afirma o que o corpus tem que satisfazer. Ruidoso de propósito.
+
+    Com `frozen`, confere também a pertença contra o inventário: todo par
+    serviço–URL da passada 1 com captura boa tem de estar no serviço dele. É o
+    teste que teria pego o Google Search com dois documentos em vez de sete.
+    """
     problemas: list[str] = []
     indice = json.loads((saida / "index.json").read_text(encoding="utf-8"))
+
+    if frozen is not None:
+        _, docs = carregar_membros(frozen)
+        publicados = {(s["name"], d["url"]) for s in indice["services"] for d in s["docs"]}
+        excluidos = {(e["servico"], e["url"]) for e in indice.get("excluidos", [])}
+        for d in docs:
+            par = (canonizar(d["service"]), d["url"])
+            if par not in publicados and par not in excluidos:
+                problemas.append(f"{par[0]}: {par[1][:70]} está no inventário "
+                                 "e sumiu do corpus sem ir para excluídos")
 
     declarados = set()
     for servico in indice["services"]:
@@ -375,7 +432,7 @@ def main() -> int:
     args = ap.parse_args()
 
     if args.check:
-        return checar(args.out)
+        return checar(args.out, args.frozen)
     if not args.frozen:
         ap.error("--frozen é obrigatório para construir")
     try:
@@ -383,7 +440,7 @@ def main() -> int:
     except ErroDeEntrada as e:
         print(f"erro: {e}", file=sys.stderr)
         return 2
-    return checar(args.out)
+    return checar(args.out, args.frozen)
 
 
 if __name__ == "__main__":

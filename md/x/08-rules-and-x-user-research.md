@@ -1,0 +1,169 @@
+---
+service: "X"
+service_slug: "x"
+doc: 8
+role: "non-binding"
+url: "https://help.x.com/en/rules-and-policies/x-user-research"
+final_url: "https://help.x.com/en/rules-and-policies/x-user-research"
+captured_at: "2026-07-31T20:21:32+00:00"
+vantage: "IT"
+sha256_text: "8b8d2dbb1aae96834d2fbf5a1fdd04d691774a3d1a883a306f7d4b472b679261"
+chars: 3981
+wayback_url: null
+---
+
+User research conducted by X | X Help
+Skip to main content
+Help Center
+Using X
+Managing your account
+Safety and security
+Rules and policies
+Resources
+New user FAQ
+Glossary
+A safer X
+Accessibility
+Our rules
+My privacy
+How we address misinformation on X
+Recommender Systems
+mrcsvg
+@mrcsvg
+Go to X
+Sign out
+Contact Us
+Help Center
+Research and Experiments
+About user research at X
+About user research at X
+Help Center
+Research and Experiments
+About user research at X
+We conduct research to better understand our users and to improve our products. There are many different types of users (including businesses, developers, and non-X users) in many different countries influencing our products through the feedback they provide in our studies.
+How are people selected to participate?
+To ensure the best fit for the topic of each study, we contact users of varying experience levels, interests, etc.
+How do I know it’s really X contacting me?
+We request participation in a few different ways:
+Email from us : You might receive an email from an @X.com address, e.g., research@info.X.com.
+Note : For some studies, a 3rd-party vendor may contact you on behalf of X to set something up. In these cases, a X email contact will be provided to allow you to verify the authenticity of the invitation.
+In the official X app for iOS or Android : You might see a prompt in your official X app.
+X.com : You might see a prompt on X.com.
+Where is survey.Xfeedback.com or X.decipherinc.com sending me?
+When we conduct a survey, we use a secure survey tool beginning with that URL.
+What does a study usually involve?
+We conduct many different types of studies. Here are a few examples:
+Onsite : A user researcher might invite you to come to a X office to ask you questions, show you something in development to get your feedback, etc. This type of study typically takes 1-2 hours.
+Remote : A user researcher might invite you to a phone call/web conference with screen sharing in order to walk through new designs with you, see how you use things currently, etc. (note: this requires an internet connection). This type of study typically takes 1-2 hours.
+Field study : Our user researchers might come visit you in your home/office. This type of study typically takes 1-2 hours.
+Survey : You might be invited to answer a short questionnaire to help improve our products. This typically takes 5-10 minutes.
+How can I opt out of hearing about research opportunities via email?
+Visit your email notification settings and uncheck Participation in X research surveys in the Updates from X section.
+Share this article
+Post
+X platform
+X.com
+Status
+Accessibility
+Embed a post
+Privacy Center
+Transparency Center
+Download the X app
+Try Grok.com
+X Corp.
+About the company
+Company news
+Brand toolkit
+Jobs and internships
+Investors
+Help
+Help Center
+Using X
+X for creators
+Ads Help Center
+Managing your account
+Email Preference Center
+Rules and policies
+Contact us
+Developer resources
+Developer home
+Documentation
+Forums
+Communities
+Developer blog
+Engineering blog
+Developer terms
+Business resources
+Advertise
+X for business
+Resources and guides
+X for marketers
+Marketing insights
+Brand inspiration
+X Ads Academy
+© 2026 X Corp.
+Cookies
+Privacy
+Terms and conditions
+English
+Help Center
+English
+Español
+日本語
+한국어
+Português
+Deutsch
+Türkçe
+Français
+Italiano
+العربية
+Nederlands
+Bahasa Indonesia
+Русский
+हिंदी
+தமிழ்
+עברית
+简体中文
+繁體中文
+ภาษาไทย
+Tiếng Việt
+Melayu
+বাংলা
+Filipino
+فارسی‌
+Dansk
+Suomi
+Svenska
+Norsk
+Polski
+Magyar
+Română
+Українська
+मराठी
+ગુજરાતી
+Български
+Català
+Hrvatski
+Српски
+Slovenčina
+ಕನ್ನಡ
+ಪಾಷ್ಟೋ
+Dari
+Oromo
+Tigrinya
+کوردی
+Lietuvių
+Latviešu
+Malti
+Slovenščina
+Gaeilge
+Lus Hmoob
+Հայերեն
+ខ្មែរ
+Did someone say … cookies?
+X and its partners use cookies to provide you with a better, safer and
+faster service and to support our business. Some cookies are necessary to use
+our services, improve our services, and make sure they work properly.
+Show more about your choices .
+Accept all cookies
+Refuse non-essential cookies

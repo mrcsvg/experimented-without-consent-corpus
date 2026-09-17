@@ -1,7 +1,7 @@
 # Corpus congelado — 2º passe de codificação
 
 Congelado em 2026-08-03, de vantagem IT (UE).
-142 documentos, 26 serviços.
+152 documentos, 26 serviços.
 
 ## Por que ler daqui e não do site
 

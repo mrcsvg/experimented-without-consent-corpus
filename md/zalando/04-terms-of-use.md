@@ -1,0 +1,180 @@
+---
+service: "Zalando"
+service_slug: "zalando"
+doc: 4
+role: "unknown"
+url: "https://accounts.zalando.com/terms-of-use"
+final_url: "https://accounts.zalando.com/terms-of-use"
+captured_at: "2026-09-17T23:42:30+00:00"
+vantage: "IT"
+sha256_text: "8241eff8c4d29cdb0ff23ae885eb5efe3fbaaf9862bc721a94a3f220f00fac80"
+chars: 16042
+wayback_url: null
+---
+
+Zalando
+Terms of Use
+(from 14.10.2025)
+Summary of the Terms of Use
+This summary gives you an overview of the most important points of our Terms of Use. It is not a complete
+representation of all the conditions that apply to the use of our services. The full Terms of Use can be found
+in the original text below.
+1. Scope and Purpose
+Our Terms of Use apply when you set up an account with us or use our services, such as websites, apps, and other
+services. The use of these services is free of charge unless otherwise stated. These terms govern how you can
+use the Zalando platform.
+2. Personalised Services
+Zalando strives to offer you a unique and engaging shopping experience. A key part of our service is the
+personalisation of our services to provide you with better, more convenient, and more secure services. To do
+this, we use the information stored in your customer account to determine your needs and interests. This allows
+us to present you with more relevant content and individual product recommendations that match your
+interests.
+3. Requirements and Fair Use
+To use our services, you must be at least 16 years of age. You are required to provide true and accurate
+information about yourself and to use the data of third parties only with their consent. The services may be
+used exclusively for personal purposes and not for commercial or professional activities. It is also prohibited
+to maintain multiple accounts or to use automated systems to access the services. Our goal is to provide all
+customers with a positive shopping experience. To ensure this and prevent fraud and misuse, we have established
+rules for the fair use of our services. These include prohibitions against fraud, illegal activities, harassment
+of employees, and the commercial use of our services. We also reserve the right to take action against customers
+with conspicuously high and unusual return behaviour. These rules do not limit your statutory consumer rights,
+such as the 14-day right of withdrawal or our 30-day return policy. If we have sufficient reason to believe that
+you are in breach of these rules, we may refuse or cancel your orders, temporarily pause, suspend or permanently
+close your account.
+4. Handling of Your Content
+As part of some services, Zalando offers you the opportunity to create and publish your own content, such as
+texts, photos or videos. Your content may be visible to third parties, which may enable interaction. For the
+creation and conduct on our platform, Zalando's Community Guidelines apply. We
+reserve the right to review and restrict your content to ensure that it complies with the Community Guidelines and legal
+provisions ("Moderation"). In the event of serious or repeated violations, we may temporarily or permanently
+exclude you from the respective service or delete your account. By creating content, you confirm that you are
+the author or owner and grant Zalando a non-exclusive, worldwide licence to use, reproduce, and distribute your
+content. You are solely responsible for the content you create.
+Terms of Use (full text)
+1. General
+1.1 These Terms of Use (“Terms”) apply when you set up an account with us, or otherwise shop
+with us or access all websites, apps, or make use of other benefits and services (“Services”) offered by Zalando
+SE and its group companies (“Zalando”). Use of our Services is free of charge, unless expressly stated
+otherwise.
+1.2 Please familiarise yourself with these Terms as they govern how you use our Services and
+shop with us. For more information on your rights when ordering items from our website please read our General Terms and Conditions and if you would
+like to understand how we collect and process your personal information you share with us via our Services
+please read our Privacy Policy . If you
+have any other questions please reach out to our customer care team.
+1.3 We reserve the right to terminate this agreement, should you be in breach of these Terms, or
+otherwise with 4 months prior notice. You have the right to terminate this agreement at any point in time by
+requesting deletion of your customer account.
+2. Access to and Use of Zalando Services
+At Zalando, our focus is to create unique and captivating fashion experiences tailored for you. In order to
+achieve this, we focus on development and provision of personalised functionalities and services to allow us to
+offer you better, more practical and more secure services. To this end we use the information you share with us
+and store on your customer account to determine your needs and interests. On this basis we can offer you more
+relevant content corresponding to your needs and interests. Personalisation allows you to see content, which is
+more relevant to you more quickly, or content is specially presented to you (e.g. in the form of individual
+product recommendations). Offering a personalised experience is therefore an integral part of Zalando’s service.
+If you would like to find out more details about how we use data stored on your customer account to provide
+personalised functionalities and services for you, please read our Privacy Notice.
+3. In order to set up an account, shop, or to access our websites, apps, benefits and services you need to:
+be at least 16 years of age.
+provide information or data which is correct and true about yourself and not provide data of third parties
+without their consent.
+use and access our Services exclusively for personal purposes which are not connected to any trade, business
+or professional activity.
+you are only entitled to have and use one customer account with Zalando at any time. We reserve the right to
+delete multiple registrations.
+ensure that no misuse of our websites or apps or other services takes place by knowingly introducing
+viruses, trojans, worms, logic bombs or other material which is malicious or technologically harmful when
+using our websites. You must not use automated systems, scripted behaviour or use third party services to
+create accounts, buy articles or browse, or otherwise use Zalando Services on your behalf. You must not
+download, install or otherwise use any of the software provided by Zalando, such as mobile apps, for any
+other than the intended purpose as set out above, especially not for the development of tools suitable to
+circumvent restrictions imposed upon the use of accounts, such as the restrictions set out in these Terms.
+4. Fair Use of Services
+Our goal is to provide all customers with a positive shopping experience. To ensure this, we have implemented the
+rules that govern the fair use of our services. These shall prevent fraud and protect against misuse so that all
+customers can shop with confidence. It includes the following behaviours and measures:
+4.1 Prohibited Conduct
+The following actions and behaviours are prohibited when using our services:
+Fraud or Illegal Activities: Any form of fraud or violation of applicable laws. This
+includes misrepresenting your identity or making false claims about lost products.
+Harassment of Employees: Customers may not threaten or pressure employees of Zalando or its
+service providers.
+Commercial Use: Customers may use and access our services for personal purposes only.
+Commercial use of the services, including buying items with the intent of reselling them, is not permitted.
+Conspicuously High Returns: We reserve the right to take measures against customers with
+conspicuously high and unusual product return behaviour. This shall apply, in particular, to repeated,
+disproportionally high numbers of returns (or instances of return behaviour considered to be ‘abusive’) that
+do not correspond to normal buyer behaviour.
+Please note that these rules in no way affect or limit your rights as a consumer, including the statutory 14-day
+right of withdrawal or our 30-day return policy.
+4.2 Potential Measures
+If we have sufficient reasons to believe that you are in violation of these rules, depending on the circumstances
+we may take the following measures:
+Refuse to accept your order or cancel a placed order.
+Temporarily pause your customer account (which remains active, but without the ability to make purchases).
+Temporarily or permanently suspend or close your customer account.
+Permanently prohibit you from opening a customer account and/or shopping with us.
+Our assessment is always based on different fair and non-discriminatory criteria, including systematic deviations
+in purchasing and return behaviour. This may involve analysing data such as purchase frequency, composition of
+orders, and return history to identify patterns that indicate a violation of these rules.
+5. Your own content and the publication of your own content
+5.1 Zalando gives you the opportunity, within the scope of some Services, to create your own
+content, such as texts, photos, voice or video recordings (“your content”), and, if applicable, to publish them
+to specific recipients, groups of recipients or third parties in general, for example (but not exclusively) by
+sharing the content with third parties on Zalando or externally.
+5.2 Please be aware, your content may be visible to third parties and may be subject to
+interactions with third parties, for example (but not exclusively) by third parties sharing your content with
+other third parties, marking it with a rating (e.g., through "likes") or following your content.
+5.3 Zalando has issued Community
+Guidelines , which provide Customers with binding legal frameworks and guidelines for content and behaviour
+on the Zalando platform. They serve to ensure legally compliant interaction characterised by mutual respect and
+apply accordingly to your content. By accepting these Terms of Use, you also declare your Agreement with these
+Community Guidelines .
+5.4 We reserve the right to review and restrict your content to ensure that it complies with our
+Community Guidelines and legal
+provisions ("Moderation"). If this is not the case, we may restrict or remove your content or ask you to adapt
+your content in accordance with the Community
+Guidelines and legal provisions.
+Further details on moderation can be found in our Community Guidelines as well as
+our Privacy Policy .
+5.5 If we have sufficient reason to believe that your content or your behaviour intentionally
+and/or abusively violates the Community
+Guidelines or legal provisions—for example, by repeatedly creating your content that violates the Community Guidelines or legal
+provisions or if your content or behaviour seriously violates the Community Guidelines or legal
+provisions—we reserve the right to temporarily or permanently block you from the respective service or to
+temporarily deactivate or permanently delete your customer account.
+5.6 Please note that the creation of ratings and reviews is subject to its own Terms
+of Use , and therefore the preceding regulations do not apply to them.
+6. Rights of Use to Your Content and Liability
+6.1 By creating your content, you confirm that you are the author or owner of your content
+and/or - if you are not the owner - have all the necessary licences, rights, consents and permissions to submit
+and/or publish your content, including from third persons appearing in your content. You also grant us a
+non-exclusive, royalty-free, perpetual, worldwide, transferable and free licence to use, reproduce, modify,
+adapt, alter or edit, publish, translate, distribute, and display your content in any form, medium, or
+technology.
+This licence includes, but is not limited to, the right to display the content, translate the content into other
+languages (including for marketing, advertising, promotional, and informational purposes and materials), and
+integrate the content into insights, reports, summaries, articles, or aggregated feedback, including the use of
+your username or profile name as well as to combine with other materials and content.
+You hereby confirm and acknowledge that you shall not be entitled to and waive accordingly any entitlement to any
+payment or the right to share in any revenue from any monetisation of your content.
+6.2 The licence may be sublicensed to Zalando service providers or partners with whom we work,
+for example, in the fields of content moderation, marketing, sales and/or security.
+6.3 You alone are responsible for the content you create. You are obligated to indemnify and
+hold harmless Zalando (and its officers, directors, appointees, representatives, employees, and service
+providers and partners) from all claims, damages, and consequential damages of any kind and form, whether known
+or unknown, including legal fees, resulting from non-compliance and/or infringement with the Community Guidelines , these
+Terms of Use, a violation of the law, and an infringement of third-party rights.
+Terms of Use
+(until 14.10.2025)
+These Terms of Use (“Terms”) apply when you set up an account with us, or otherwise shop with us or access all websites, apps, other benefits and services (“Services”) offered by Zalando SE and its group companies (“Zalando”). Use of our Services is free of charge, unless expressly stated otherwise.
+Please familiarize yourself with these Terms as they govern how you use our Services and shop with us. For more information on your rights when ordering items from our website please read our Standard Terms and Conditions and if you would like to understand how we collect and process your personal information you share with us via our Services please read our Privacy Policy. If you have any other questions please reach out to our customer care team.
+We reserve the right to terminate this agreement, should you be in breach with its Terms, or otherwise with 4 months prior notice. You have the right to terminate this agreement at any point in time by requesting deletion of your customer account.
+Access to and Use of Zalando Services
+At Zalando, our focus is to create unique and captivating fashion experiences tailored for you. In order to achieve this, we focus on development and provision of personalised functionalities and services to allow us to offer you better, more practical and more secure services. To this end we use the information you share with us and store on your customer account to determine your needs and interests. On this basis we can offer you more relevant content corresponding to your needs and interests. Personalisation allows you to see content, which is more relevant to you more quickly, or content is specially presented to you (e.g. in the form of individual product recommendations). Offering a personalised experience is therefore an integral part of Zalando’s service. If you would like to find out more details about how we use data stored on your customer account to provide personalised functionalities and services for you, please read our Privacy Notice.
+In order to set-up an account, shop, or to access our websites, apps, benefits and services you need to:
+be at least 16 years of age.
+provide information or data which is correct and true about yourself and not provide data of third parties without their consent.
+use and access our Services exclusively for personal purposes which are not connected to any trade, business or professional activity.
+you are only entitled to have and use one customer account with Zalando at any time. We reserve the right to delete multiple registrations.
+ensure that no misuse of our websites or apps or other services takes place by knowingly introducing viruses, trojans, worms, logic bombs or other material which is malicious or technologically harmful when using our websites. You must not use automated systems, scripted behaviour or use third party services to create accounts, buy articles or browse, or otherwise use Zalando Services on your behalf. You must not download, install or otherwise use any of the software provided by Zalando, such as mobile apps, for any other than the intended purpose as set out above, especially not for the development of tools suitable to circumvent restrictions imposed upon the use of accounts, such as the restrictions set out in these Terms.

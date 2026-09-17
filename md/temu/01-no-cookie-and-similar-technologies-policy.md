@@ -2,7 +2,7 @@
 service: "Temu"
 service_slug: "temu"
 doc: 1
-role: "binding"
+role: "unknown"
 url: "https://www.temu.com/no-en/cookie-and-similar-technologies-policy.html"
 final_url: "https://www.temu.com/no-en/cookie-and-similar-technologies-policy.html"
 captured_at: "2026-07-31T20:21:32+00:00"

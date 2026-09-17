@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09T02:23:41+00:00",
+  "built_at": "2026-09-17T23:51:30+00:00",
   "frozen_at": "2026-08-03T01:38:14+00:00",
   "vantage": "IT",
   "limiar_ilegivel": 0.02,
@@ -80,25 +80,7 @@
         },
         {
           "n": 2,
-          "file": "amazon-store/02-blog-the-science-of-price-experiments-in-amazon-stor.md",
-          "role": "non-binding",
-          "url": "https://www.amazon.science/blog/the-science-of-price-experiments-in-the-amazon-store",
-          "chars": 47188,
-          "sha256_text": "eec89b7d5a15588aba49a194f271ce6329448f1871a879c3d86fe11a847790a5",
-          "captured_at": "2026-07-31T01:13:53+00:00"
-        },
-        {
-          "n": 3,
-          "file": "amazon-store/03-publications-science-of-price-experimentation-at-ama.md",
-          "role": "non-binding",
-          "url": "https://www.amazon.science/publications/science-of-price-experimentation-at-amazon",
-          "chars": 37628,
-          "sha256_text": "49e8dff33230fded35c80e33f3e4d92614ef0a3c1bf2c1a5fd82546badb14658",
-          "captured_at": "2026-07-31T01:49:48+00:00"
-        },
-        {
-          "n": 4,
-          "file": "amazon-store/04-help-customer-display-4.md",
+          "file": "amazon-store/02-help-customer-display-2.md",
           "role": "unknown",
           "url": "https://www.amazon.de/-/en/gp/help/customer/display.html?nodeId=TcxwSYJNmpQYGgNWkX",
           "chars": 21643,
@@ -106,8 +88,8 @@
           "captured_at": "2026-07-31T01:13:25+00:00"
         },
         {
-          "n": 5,
-          "file": "amazon-store/05-help-customer-display-5.md",
+          "n": 3,
+          "file": "amazon-store/03-help-customer-display-3.md",
           "role": "unknown",
           "url": "https://www.amazon.de/-/en/gp/help/customer/display.html?nodeId=GVASXV5UZ64R4Y25",
           "chars": 8583,
@@ -115,8 +97,8 @@
           "captured_at": "2026-07-31T01:13:27+00:00"
         },
         {
-          "n": 6,
-          "file": "amazon-store/06-help-customer-display-6.md",
+          "n": 4,
+          "file": "amazon-store/04-help-customer-display-4.md",
           "role": "unknown",
           "url": "https://www.amazon.de/-/en/gp/help/customer/display.html?nodeId=201909000",
           "chars": 57323,
@@ -124,13 +106,31 @@
           "captured_at": "2026-07-31T01:13:30+00:00"
         },
         {
-          "n": 7,
-          "file": "amazon-store/07-tag-a-b-testing.md",
+          "n": 5,
+          "file": "amazon-store/05-tag-a-b-testing.md",
           "role": "unknown",
           "url": "https://www.amazon.science/tag/a-b-testing",
           "chars": 40483,
           "sha256_text": "8023994b91b0714218e7173a52d460e420d7795c888031f10a48e9aac23788c7",
           "captured_at": "2026-07-31T01:14:02+00:00"
+        },
+        {
+          "n": 6,
+          "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+          "role": "non-binding",
+          "url": "https://www.amazon.science/blog/the-science-of-price-experiments-in-the-amazon-store",
+          "chars": 47188,
+          "sha256_text": "eec89b7d5a15588aba49a194f271ce6329448f1871a879c3d86fe11a847790a5",
+          "captured_at": "2026-07-31T01:13:53+00:00"
+        },
+        {
+          "n": 7,
+          "file": "amazon-store/07-publications-science-of-price-experimentation-at-ama.md",
+          "role": "non-binding",
+          "url": "https://www.amazon.science/publications/science-of-price-experimentation-at-amazon",
+          "chars": 37628,
+          "sha256_text": "49e8dff33230fded35c80e33f3e4d92614ef0a3c1bf2c1a5fd82546badb14658",
+          "captured_at": "2026-07-31T01:49:48+00:00"
         }
       ],
       "n_binding": 1
@@ -159,16 +159,7 @@
         },
         {
           "n": 3,
-          "file": "app-store/03-app-store-product-optimization.md",
-          "role": "non-binding",
-          "url": "https://developer.apple.com/app-store/product-page-optimization/",
-          "chars": 10672,
-          "sha256_text": "fdf8aac165d3f4d67fa5315cf5c491fa261bf2a753d8512736fb46b960e2ea7d",
-          "captured_at": "2026-07-31T01:12:38+00:00"
-        },
-        {
-          "n": 4,
-          "file": "app-store/04-itunes-ie-terms.md",
+          "file": "app-store/03-itunes-ie-terms.md",
           "role": "unknown",
           "url": "https://www.apple.com/legal/internet-services/itunes/ie/terms.html",
           "chars": 60370,
@@ -176,8 +167,8 @@
           "captured_at": "2026-07-31T01:12:34+00:00"
         },
         {
-          "n": 5,
-          "file": "app-store/05-privacy-ww-cookies.md",
+          "n": 4,
+          "file": "app-store/04-privacy-ww-cookies.md",
           "role": "unknown",
           "url": "https://www.apple.com/legal/privacy/en-ww/cookies/",
           "chars": 4137,
@@ -185,8 +176,8 @@
           "captured_at": "2026-07-31T01:12:35+00:00"
         },
         {
-          "n": 6,
-          "file": "app-store/06-app-store-connect-create-product-optimization-tests.md",
+          "n": 5,
+          "file": "app-store/05-app-store-connect-create-product-optimization-tests.md",
           "role": "unknown",
           "url": "https://developer.apple.com/help/app-store-connect/create-product-page-optimization-tests/overview-of-product-page-optimization/",
           "chars": 28542,
@@ -194,8 +185,8 @@
           "captured_at": "2026-07-31T01:12:40+00:00"
         },
         {
-          "n": 7,
-          "file": "app-store/07-app-store-connect-create-product-optimization-tests-7.md",
+          "n": 6,
+          "file": "app-store/06-app-store-connect-create-product-optimization-tests-6.md",
           "role": "unknown",
           "url": "https://developer.apple.com/help/app-store-connect/create-product-page-optimization-tests/configure-test-treatments/",
           "chars": 29458,
@@ -203,13 +194,22 @@
           "captured_at": "2026-07-31T01:12:41+00:00"
         },
         {
-          "n": 8,
-          "file": "app-store/08-testflight.md",
+          "n": 7,
+          "file": "app-store/07-testflight.md",
           "role": "unknown",
           "url": "https://developer.apple.com/testflight/",
           "chars": 8329,
           "sha256_text": "897bdd39b200d6dab3de9e531e93b7abaf74ce00a77a6e54a2cdadc3d2840d45",
           "captured_at": "2026-07-31T01:12:43+00:00"
+        },
+        {
+          "n": 8,
+          "file": "app-store/08-app-store-product-optimization.md",
+          "role": "non-binding",
+          "url": "https://developer.apple.com/app-store/product-page-optimization/",
+          "chars": 10672,
+          "sha256_text": "fdf8aac165d3f4d67fa5315cf5c491fa261bf2a753d8512736fb46b960e2ea7d",
+          "captured_at": "2026-07-31T01:12:38+00:00"
         }
       ],
       "n_binding": 2
@@ -229,16 +229,7 @@
         },
         {
           "n": 2,
-          "file": "bing/02-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-          "role": "non-binding",
-          "url": "https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3",
-          "chars": 48551,
-          "sha256_text": "bbabe386d81e2d67776057d5fe1f3460058769899f18e5dbb294c10d240120c2",
-          "captured_at": "2026-07-31T01:13:07+00:00"
-        },
-        {
-          "n": 3,
-          "file": "bing/03-gb-privacy-privacystatement.md",
+          "file": "bing/02-gb-privacy-privacystatement.md",
           "role": "unknown",
           "url": "https://www.microsoft.com/en-gb/privacy/privacystatement",
           "chars": 213640,
@@ -246,8 +237,8 @@
           "captured_at": "2026-07-31T01:13:00+00:00"
         },
         {
-          "n": 4,
-          "file": "bing/04-us-bing-about-microsoft-privacy-and-security-policy.md",
+          "n": 3,
+          "file": "bing/03-us-bing-about-microsoft-privacy-and-security-policy.md",
           "role": "unknown",
           "url": "https://support.microsoft.com/en-us/bing/about-microsoft-privacy-and-security-policy",
           "chars": 3621,
@@ -255,8 +246,8 @@
           "captured_at": "2026-07-31T01:13:02+00:00"
         },
         {
-          "n": 5,
-          "file": "bing/05-search-quality-insights-june-2013-experimentation-an.md",
+          "n": 4,
+          "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
           "role": "unknown",
           "url": "https://blogs.bing.com/search-quality-insights/June-2013/Experimentation-and-Continuous-Improvement-at-Bing/",
           "chars": 10883,
@@ -264,13 +255,22 @@
           "captured_at": "2026-07-31T01:13:09+00:00"
         },
         {
-          "n": 6,
-          "file": "bing/06-search-quality-insights-august-2013-large-scale-expe.md",
+          "n": 5,
+          "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
           "role": "unknown",
           "url": "https://blogs.bing.com/search-quality-insights/August-2013/Large-Scale-Experimentation-at-Bing",
           "chars": 7651,
           "sha256_text": "9da679c47e1e933efe2fa22e4e8341403bd62a293fd1684e2880267d61a87b95",
           "captured_at": "2026-07-31T01:13:11+00:00"
+        },
+        {
+          "n": 6,
+          "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
+          "role": "non-binding",
+          "url": "https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3",
+          "chars": 48551,
+          "sha256_text": "bbabe386d81e2d67776057d5fe1f3460058769899f18e5dbb294c10d240120c2",
+          "captured_at": "2026-07-31T01:13:07+00:00"
         }
       ],
       "n_binding": 1
@@ -315,16 +315,7 @@
       "docs": [
         {
           "n": 1,
-          "file": "facebook/01-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
-          "role": "non-binding",
-          "url": "https://techcrunch.com/2021/04/22/facebook-launches-a-series-tests-to-inform-future-changes-to-its-news-feed-algorithms/",
-          "chars": 8184,
-          "sha256_text": "c90f836bb6338a582f4f967d1a45d1bb08619f4f6fd555657edc76f1eac5e101",
-          "captured_at": "2026-07-31T01:13:21+00:00"
-        },
-        {
-          "n": 2,
-          "file": "facebook/02-privacy-policy.md",
+          "file": "facebook/01-privacy-policy.md",
           "role": "unknown",
           "url": "https://www.facebook.com/privacy/policy/",
           "chars": 107895,
@@ -332,8 +323,8 @@
           "captured_at": "2026-07-31T01:49:35+00:00"
         },
         {
-          "n": 3,
-          "file": "facebook/03-privacy-policy-printable.md",
+          "n": 2,
+          "file": "facebook/02-privacy-policy-printable.md",
           "role": "unknown",
           "url": "https://mbasic.facebook.com/privacy/policy/printable/?locale=en_GB",
           "chars": 196346,
@@ -341,8 +332,8 @@
           "captured_at": "2026-07-31T01:49:38+00:00"
         },
         {
-          "n": 4,
-          "file": "facebook/04-terms.md",
+          "n": 3,
+          "file": "facebook/03-terms.md",
           "role": "unknown",
           "url": "https://www.facebook.com/legal/terms",
           "chars": 35267,
@@ -350,8 +341,8 @@
           "captured_at": "2026-07-31T01:49:39+00:00"
         },
         {
-          "n": 5,
-          "file": "facebook/05-terms-5.md",
+          "n": 4,
+          "file": "facebook/04-terms-4.md",
           "role": "unknown",
           "url": "https://www.facebook.com/terms.php?locale=en_GB",
           "chars": 35267,
@@ -359,13 +350,31 @@
           "captured_at": "2026-07-31T01:49:41+00:00"
         },
         {
-          "n": 6,
-          "file": "facebook/06-cookies.md",
+          "n": 5,
+          "file": "facebook/05-cookies.md",
           "role": "unknown",
           "url": "https://www.facebook.com/policies/cookies/",
           "chars": 3973,
           "sha256_text": "1b33ff384ca8debc84252da8816a19c035ed6bcbd3d701261e5310e178d5ec32",
           "captured_at": "2026-07-31T01:49:44+00:00"
+        },
+        {
+          "n": 6,
+          "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+          "role": "non-binding",
+          "url": "https://techcrunch.com/2021/04/22/facebook-launches-a-series-tests-to-inform-future-changes-to-its-news-feed-algorithms/",
+          "chars": 8184,
+          "sha256_text": "c90f836bb6338a582f4f967d1a45d1bb08619f4f6fd555657edc76f1eac5e101",
+          "captured_at": "2026-07-31T01:13:21+00:00"
+        },
+        {
+          "n": 7,
+          "file": "facebook/07-business-help.md",
+          "role": "non-binding",
+          "url": "https://www.facebook.com/business/help/1738164643098669",
+          "chars": 5033,
+          "sha256_text": "a8c3f9653013f4841c757f9ab370a40bdb26e8690629903ca4f1723c303620a6",
+          "captured_at": "2026-09-17T23:42:31+00:00"
         }
       ],
       "n_binding": 0
@@ -394,16 +403,7 @@
         },
         {
           "n": 3,
-          "file": "google-maps/03-maps-answer.md",
-          "role": "non-binding",
-          "url": "https://support.google.com/maps/answer/7006449?hl=en-GB",
-          "chars": 2857,
-          "sha256_text": "fd2847572780798c4139c1909d8503683eb9a331bbdd4a2ad538a2423774c8b2",
-          "captured_at": "2026-07-31T01:12:24+00:00"
-        },
-        {
-          "n": 4,
-          "file": "google-maps/04-technologies-cookies.md",
+          "file": "google-maps/03-technologies-cookies.md",
           "role": "unknown",
           "url": "https://policies.google.com/technologies/cookies?hl=en&gl=IE",
           "chars": 14289,
@@ -411,8 +411,8 @@
           "captured_at": "2026-07-31T01:12:20+00:00"
         },
         {
-          "n": 5,
-          "file": "google-maps/05-help-terms-maps.md",
+          "n": 4,
+          "file": "google-maps/04-help-terms-maps.md",
           "role": "unknown",
           "url": "https://www.google.com/help/terms_maps/?hl=en",
           "chars": 5659,
@@ -420,13 +420,22 @@
           "captured_at": "2026-07-31T01:12:22+00:00"
         },
         {
-          "n": 6,
-          "file": "google-maps/06-products-maps-google-generative-ai-local-guides.md",
+          "n": 5,
+          "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
           "role": "unknown",
           "url": "https://blog.google/products/maps/google-maps-generative-ai-local-guides/",
           "chars": 7414,
           "sha256_text": "acd15cd19747f8b5ee4cfe2875fc2e3ecad6c3c5ea3c04d68176c2808c0ff6b4",
           "captured_at": "2026-07-31T01:12:27+00:00"
+        },
+        {
+          "n": 6,
+          "file": "google-maps/06-maps-answer.md",
+          "role": "non-binding",
+          "url": "https://support.google.com/maps/answer/7006449?hl=en-GB",
+          "chars": 2857,
+          "sha256_text": "fd2847572780798c4139c1909d8503683eb9a331bbdd4a2ad538a2423774c8b2",
+          "captured_at": "2026-07-31T01:12:24+00:00"
         }
       ],
       "n_binding": 2
@@ -446,16 +455,7 @@
         },
         {
           "n": 2,
-          "file": "google-play/02-console-about-store-listing-experiments.md",
-          "role": "non-binding",
-          "url": "https://play.google.com/console/about/store-listing-experiments/",
-          "chars": 6905,
-          "sha256_text": "4ebdadbefb3a072e736324f0ac5ac97d74ffaeb1c767e2cd7e9ab43afe5321bd",
-          "captured_at": "2026-07-31T01:14:20+00:00"
-        },
-        {
-          "n": 3,
-          "file": "google-play/03-privacy.md",
+          "file": "google-play/02-privacy.md",
           "role": "unknown",
           "url": "https://policies.google.com/privacy?hl=en-IE&gl=IE",
           "chars": 90678,
@@ -463,8 +463,8 @@
           "captured_at": "2026-07-31T01:14:15+00:00"
         },
         {
-          "n": 4,
-          "file": "google-play/04-terms.md",
+          "n": 3,
+          "file": "google-play/03-terms.md",
           "role": "unknown",
           "url": "https://policies.google.com/terms?hl=en-IE&gl=IE",
           "chars": 36308,
@@ -472,8 +472,8 @@
           "captured_at": "2026-07-31T01:14:16+00:00"
         },
         {
-          "n": 5,
-          "file": "google-play/05-technologies-cookies.md",
+          "n": 4,
+          "file": "google-play/04-technologies-cookies.md",
           "role": "unknown",
           "url": "https://policies.google.com/technologies/cookies?hl=en-IE&gl=IE",
           "chars": 14380,
@@ -481,13 +481,22 @@
           "captured_at": "2026-07-31T01:14:18+00:00"
         },
         {
-          "n": 6,
-          "file": "google-play/06-googleplay-answer.md",
+          "n": 5,
+          "file": "google-play/05-googleplay-answer.md",
           "role": "unknown",
           "url": "https://support.google.com/googleplay/answer/7003180?hl=en",
           "chars": 5031,
           "sha256_text": "97bd764171d4c7c84b394fca7ff0cb71dd6315bfce2ae350c552fde53da231df",
           "captured_at": "2026-07-31T01:14:22+00:00"
+        },
+        {
+          "n": 6,
+          "file": "google-play/06-console-about-store-listing-experiments.md",
+          "role": "non-binding",
+          "url": "https://play.google.com/console/about/store-listing-experiments/",
+          "chars": 6905,
+          "sha256_text": "4ebdadbefb3a072e736324f0ac5ac97d74ffaeb1c767e2cd7e9ab43afe5321bd",
+          "captured_at": "2026-07-31T01:14:20+00:00"
         }
       ],
       "n_binding": 1
@@ -498,7 +507,52 @@
       "docs": [
         {
           "n": 1,
-          "file": "google-search/01-websearch-answer.md",
+          "file": "google-search/01-privacy.md",
+          "role": "binding",
+          "url": "https://policies.google.com/privacy?hl=en-IE&gl=IE",
+          "chars": 90678,
+          "sha256_text": "86b4c21ca07c1263d15b951f0d3b981cd70d11aad3a9a46eb48c356ed55f652c",
+          "captured_at": "2026-07-31T01:14:15+00:00"
+        },
+        {
+          "n": 2,
+          "file": "google-search/02-privacy-2.md",
+          "role": "binding",
+          "url": "https://policies.google.com/privacy?hl=en",
+          "chars": 89981,
+          "sha256_text": "964eec9bfabd502512b72da05346215f75190393bff2c45b69a6005bedb4f263",
+          "captured_at": "2026-07-31T01:14:04+00:00"
+        },
+        {
+          "n": 3,
+          "file": "google-search/03-terms.md",
+          "role": "binding",
+          "url": "https://policies.google.com/terms?hl=en",
+          "chars": 36439,
+          "sha256_text": "0781ae19ec6af5ff6013f38db64040424d6f915ad058f0239548410d456be68a",
+          "captured_at": "2026-07-31T01:14:06+00:00"
+        },
+        {
+          "n": 4,
+          "file": "google-search/04-technologies-product-privacy.md",
+          "role": "unknown",
+          "url": "https://policies.google.com/technologies/product-privacy?hl=en",
+          "chars": 5532,
+          "sha256_text": "050429eaf32d8475be41ec9055269ca407babcd7dd42f484bc70164250802d57",
+          "captured_at": "2026-07-31T01:12:04+00:00"
+        },
+        {
+          "n": 5,
+          "file": "google-search/05-technologies-cookies.md",
+          "role": "unknown",
+          "url": "https://policies.google.com/technologies/cookies?hl=en",
+          "chars": 14289,
+          "sha256_text": "5639b41a9299a6bebaa0f72d14cf9613e3f413d639d2a24841209a97ff9a560d",
+          "captured_at": "2026-07-31T01:14:10+00:00"
+        },
+        {
+          "n": 6,
+          "file": "google-search/06-websearch-answer.md",
           "role": "non-binding",
           "url": "https://support.google.com/websearch/answer/13572013",
           "chars": 6169,
@@ -506,16 +560,16 @@
           "captured_at": "2026-07-31T01:12:08+00:00"
         },
         {
-          "n": 2,
-          "file": "google-search/02-technologies-product-privacy.md",
-          "role": "unknown",
-          "url": "https://policies.google.com/technologies/product-privacy?hl=en",
-          "chars": 5532,
-          "sha256_text": "050429eaf32d8475be41ec9055269ca407babcd7dd42f484bc70164250802d57",
-          "captured_at": "2026-07-31T01:12:04+00:00"
+          "n": 7,
+          "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+          "role": "non-binding",
+          "url": "https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing/",
+          "chars": 6327,
+          "sha256_text": "d2994f8140f4a6fd7d6c9a4c42ab1d159afecf52907ffbc2ad0406f1f0bb6abf",
+          "captured_at": "2026-07-31T01:14:11+00:00"
         }
       ],
-      "n_binding": 0
+      "n_binding": 3
     },
     {
       "name": "Google Shopping",
@@ -550,21 +604,21 @@
         },
         {
           "n": 4,
-          "file": "google-shopping/04-howsearchworks-how-search-works-rigorous-testing.md",
-          "role": "non-binding",
-          "url": "https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing/",
-          "chars": 6327,
-          "sha256_text": "d2994f8140f4a6fd7d6c9a4c42ab1d159afecf52907ffbc2ad0406f1f0bb6abf",
-          "captured_at": "2026-07-31T01:14:11+00:00"
-        },
-        {
-          "n": 5,
-          "file": "google-shopping/05-technologies-cookies.md",
+          "file": "google-shopping/04-technologies-cookies.md",
           "role": "unknown",
           "url": "https://policies.google.com/technologies/cookies?hl=en",
           "chars": 14289,
           "sha256_text": "5639b41a9299a6bebaa0f72d14cf9613e3f413d639d2a24841209a97ff9a560d",
           "captured_at": "2026-07-31T01:14:10+00:00"
+        },
+        {
+          "n": 5,
+          "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
+          "role": "non-binding",
+          "url": "https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing/",
+          "chars": 6327,
+          "sha256_text": "d2994f8140f4a6fd7d6c9a4c42ab1d159afecf52907ffbc2ad0406f1f0bb6abf",
+          "captured_at": "2026-07-31T01:14:11+00:00"
         }
       ],
       "n_binding": 3
@@ -599,6 +653,33 @@
           "chars": 17087,
           "sha256_text": "547da5f88c336ef3ff314c128f1f6ca67adb67d4e5e33d0ddd6bc38e3fe13c69",
           "captured_at": "2026-07-31T01:50:26+00:00"
+        },
+        {
+          "n": 4,
+          "file": "instagram/04-help-instagram-com.md",
+          "role": "unknown",
+          "url": "https://help.instagram.com/581066165581870",
+          "chars": 26188,
+          "sha256_text": "4de509909ee1f78e165cdd0627d13d654c86356bd8bf2373f483c0de40c260a9",
+          "captured_at": "2026-09-17T23:42:31+00:00"
+        },
+        {
+          "n": 5,
+          "file": "instagram/05-features-explaining-ranking-ig-feed.md",
+          "role": "unknown",
+          "url": "https://transparency.meta.com/features/explaining-ranking/ig-feed/",
+          "chars": 13096,
+          "sha256_text": "5a331aaecd8e9c6b79d982bd6222c1d2d8fe8e1284cebb1571b2b2319f42dc57",
+          "captured_at": "2026-09-17T23:42:31+00:00"
+        },
+        {
+          "n": 6,
+          "file": "instagram/06-policy.md",
+          "role": "unknown",
+          "url": "https://privacycenter.instagram.com/policy/",
+          "chars": 108301,
+          "sha256_text": "d155fb0cc91cec071310b7ede989fc8347e91254ab1f15a28bb56d766720524f",
+          "captured_at": "2026-09-17T23:42:31+00:00"
         }
       ],
       "n_binding": 0
@@ -688,7 +769,16 @@
         },
         {
           "n": 3,
-          "file": "pinterest/03-public-beta.md",
+          "file": "pinterest/03-cookies.md",
+          "role": "unknown",
+          "url": "https://policy.pinterest.com/en/cookies",
+          "chars": 7290,
+          "sha256_text": "60b9b9980335b65145c3e1e9530c401238661a4492c978f36ef3ba02ea5a5b1b",
+          "captured_at": "2026-08-03T01:28:06+00:00"
+        },
+        {
+          "n": 4,
+          "file": "pinterest/04-public-beta.md",
           "role": "non-binding",
           "url": "https://www.pinterest.com/public-beta/",
           "chars": 1791,
@@ -696,13 +786,13 @@
           "captured_at": "2026-08-03T01:28:10+00:00"
         },
         {
-          "n": 4,
-          "file": "pinterest/04-cookies.md",
-          "role": "unknown",
-          "url": "https://policy.pinterest.com/en/cookies",
-          "chars": 7290,
-          "sha256_text": "60b9b9980335b65145c3e1e9530c401238661a4492c978f36ef3ba02ea5a5b1b",
-          "captured_at": "2026-08-03T01:28:06+00:00"
+          "n": 5,
+          "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+          "role": "non-binding",
+          "url": "https://medium.com/pinterest-engineering/scalable-a-b-experiments-at-pinterest-1e28ddb7d22",
+          "chars": 11360,
+          "sha256_text": "1d9171646392fd8f714b0d51ce00ab9701f8c5db4fc9ece9393475ee4b8ee828",
+          "captured_at": "2026-09-17T23:42:31+00:00"
         }
       ],
       "n_binding": 2
@@ -801,24 +891,24 @@
         },
         {
           "n": 2,
-          "file": "shein/02-terms-and-conditions-a-399.md",
-          "role": "binding",
-          "url": "https://eur.shein.com/Terms-and-Conditions-a-399.html",
-          "chars": 100766,
-          "sha256_text": "cc5763876a60d93951efa093f7f481ce0404edc06e444c214a75d9cbb9449c20",
-          "captured_at": "2026-07-31T20:21:31+00:00"
-        },
-        {
-          "n": 3,
-          "file": "shein/03-ranking-policy-a-1979.md",
-          "role": "non-binding",
+          "file": "shein/02-ranking-policy-a-1979.md",
+          "role": "unknown",
           "url": "https://eur.shein.com/ranking-policy-a-1979.html",
           "chars": 12737,
           "sha256_text": "7832c86ae1fdc347cfb3c5b1b3de6d82a41da8b5f92d452adfb1cac89ec886d4",
           "captured_at": "2026-07-31T20:21:31+00:00"
+        },
+        {
+          "n": 3,
+          "file": "shein/03-terms-and-conditions-a-399.md",
+          "role": "unknown",
+          "url": "https://eur.shein.com/Terms-and-Conditions-a-399.html",
+          "chars": 100766,
+          "sha256_text": "cc5763876a60d93951efa093f7f481ce0404edc06e444c214a75d9cbb9449c20",
+          "captured_at": "2026-07-31T20:21:31+00:00"
         }
       ],
-      "n_binding": 2
+      "n_binding": 1
     },
     {
       "name": "Snapchat",
@@ -844,16 +934,7 @@
         },
         {
           "n": 3,
-          "file": "snapchat/03-snap-nvidia-gcp.md",
-          "role": "non-binding",
-          "url": "https://eng.snap.com/snap-nvidia-gcp",
-          "chars": 15748,
-          "sha256_text": "3d4ba61c1f5f39ef5aee3c5e94747b28b4ed08f8311aad73b9868c51a488231f",
-          "captured_at": "2026-07-31T01:14:47+00:00"
-        },
-        {
-          "n": 4,
-          "file": "snapchat/04-privacy-policy-eea-uk-notice-4.md",
+          "file": "snapchat/03-privacy-policy-eea-uk-notice-3.md",
           "role": "unknown",
           "url": "https://values.snap.com/en-GB/privacy/privacy-policy/eea-uk-privacy-notice",
           "chars": 11268,
@@ -861,8 +942,8 @@
           "captured_at": "2026-07-31T01:14:33+00:00"
         },
         {
-          "n": 5,
-          "file": "snapchat/05-gb-terms.md",
+          "n": 4,
+          "file": "snapchat/04-gb-terms.md",
           "role": "unknown",
           "url": "https://snap.com/en-GB/terms",
           "chars": 99108,
@@ -870,8 +951,8 @@
           "captured_at": "2026-07-31T01:14:39+00:00"
         },
         {
-          "n": 6,
-          "file": "snapchat/06-cookie-policy.md",
+          "n": 5,
+          "file": "snapchat/05-cookie-policy.md",
           "role": "unknown",
           "url": "https://www.snap.com/cookie-policy",
           "chars": 6377,
@@ -879,8 +960,8 @@
           "captured_at": "2026-07-31T01:14:41+00:00"
         },
         {
-          "n": 7,
-          "file": "snapchat/07-us-articles-22534988598676-learn-about-snap-s-data-p.md",
+          "n": 6,
+          "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
           "role": "unknown",
           "url": "https://help.snapchat.com/hc/en-us/articles/22534988598676-Learn-About-Snap-s-Data-Processing-and-How-to-Object",
           "chars": 26102,
@@ -888,8 +969,8 @@
           "captured_at": "2026-07-31T01:14:43+00:00"
         },
         {
-          "n": 8,
-          "file": "snapchat/08-machine-learning-snap-ad-ranking.md",
+          "n": 7,
+          "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
           "role": "unknown",
           "url": "https://eng.snap.com/machine-learning-snap-ad-ranking",
           "chars": 19074,
@@ -897,8 +978,8 @@
           "captured_at": "2026-07-31T01:14:50+00:00"
         },
         {
-          "n": 9,
-          "file": "snapchat/09-blog-snap-accelerated-data-processing.md",
+          "n": 8,
+          "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
           "role": "unknown",
           "url": "https://blogs.nvidia.com/blog/snap-accelerated-data-processing/",
           "chars": 5685,
@@ -906,13 +987,22 @@
           "captured_at": "2026-07-31T01:14:52+00:00"
         },
         {
-          "n": 10,
-          "file": "snapchat/10-beta.md",
+          "n": 9,
+          "file": "snapchat/09-beta.md",
           "role": "unknown",
           "url": "https://www.snapchat.com/beta",
           "chars": 3649,
           "sha256_text": "eae9b8f2e13542c53a91886901b626895f2e0ea0c76b2648c8912355f9aeaede",
           "captured_at": "2026-07-31T01:14:54+00:00"
+        },
+        {
+          "n": 10,
+          "file": "snapchat/10-snap-nvidia-gcp.md",
+          "role": "non-binding",
+          "url": "https://eng.snap.com/snap-nvidia-gcp",
+          "chars": 15748,
+          "sha256_text": "3d4ba61c1f5f39ef5aee3c5e94747b28b4ed08f8311aad73b9868c51a488231f",
+          "captured_at": "2026-07-31T01:14:47+00:00"
         }
       ],
       "n_binding": 2
@@ -967,7 +1057,7 @@
         {
           "n": 1,
           "file": "temu/01-no-cookie-and-similar-technologies-policy.md",
-          "role": "binding",
+          "role": "unknown",
           "url": "https://www.temu.com/no-en/cookie-and-similar-technologies-policy.html",
           "chars": 12726,
           "sha256_text": "05dd91580f2408f570b046c19ab69875f2c21bb57014aff82b148c531c14f183",
@@ -976,7 +1066,7 @@
         {
           "n": 2,
           "file": "temu/02-no-privacy-and-cookie-policy.md",
-          "role": "binding",
+          "role": "unknown",
           "url": "https://www.temu.com/no-en/privacy-and-cookie-policy.html",
           "chars": 58016,
           "sha256_text": "dd5865bb99d630574279eca89ea76131d5b039f22d80ee01cbddfa807c00cc1c",
@@ -985,7 +1075,7 @@
         {
           "n": 3,
           "file": "temu/03-no-terms-of-use.md",
-          "role": "binding",
+          "role": "unknown",
           "url": "https://www.temu.com/no-en/terms-of-use.html",
           "chars": 47188,
           "sha256_text": "54d9a9a6cdaaac89e7caa626543f92b75ca0c58120bef9625c850f1df7b9622e",
@@ -1001,7 +1091,7 @@
           "captured_at": "2026-07-31T20:21:50+00:00"
         }
       ],
-      "n_binding": 3
+      "n_binding": 0
     },
     {
       "name": "TikTok",
@@ -1018,16 +1108,7 @@
         },
         {
           "n": 2,
-          "file": "tiktok/02-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
-          "role": "non-binding",
-          "url": "https://newsroom.tiktok.com/an-update-on-our-work-to-safeguard-and-diversify-recommendations",
-          "chars": 5681,
-          "sha256_text": "6ceb64b2af8b4a2ce85f10cb8fd17e3adf73875a883ed5e0ee8425437f0bbbb4",
-          "captured_at": "2026-08-03T01:29:22+00:00"
-        },
-        {
-          "n": 3,
-          "file": "tiktok/03-eea-terms-of-service.md",
+          "file": "tiktok/02-eea-terms-of-service.md",
           "role": "unknown",
           "url": "https://www.tiktok.com/legal/page/eea/terms-of-service/en",
           "chars": 28401,
@@ -1035,8 +1116,8 @@
           "captured_at": "2026-08-03T01:29:04+00:00"
         },
         {
-          "n": 4,
-          "file": "tiktok/04-global-tiktok-website-cookies-policy.md",
+          "n": 3,
+          "file": "tiktok/03-global-tiktok-website-cookies-policy.md",
           "role": "unknown",
           "url": "https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en",
           "chars": 10273,
@@ -1044,8 +1125,8 @@
           "captured_at": "2026-08-03T01:29:18+00:00"
         },
         {
-          "n": 5,
-          "file": "tiktok/05-us-how-tiktok-recommends-videos-for-you.md",
+          "n": 4,
+          "file": "tiktok/04-us-how-tiktok-recommends-videos-for-you.md",
           "role": "unknown",
           "url": "https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you",
           "chars": 10030,
@@ -1053,13 +1134,22 @@
           "captured_at": "2026-08-03T01:29:25+00:00"
         },
         {
-          "n": 6,
-          "file": "tiktok/06-help-article-split-testing.md",
+          "n": 5,
+          "file": "tiktok/05-help-article-split-testing.md",
           "role": "unknown",
           "url": "https://ads.tiktok.com/help/article/split-testing",
           "chars": 1854,
           "sha256_text": "61bc9eff37afb10203ac7df4a334809a768c1c62bf9cbcd9b0eb024fe6e06d94",
           "captured_at": "2026-08-03T01:29:33+00:00"
+        },
+        {
+          "n": 6,
+          "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
+          "role": "non-binding",
+          "url": "https://newsroom.tiktok.com/an-update-on-our-work-to-safeguard-and-diversify-recommendations",
+          "chars": 5681,
+          "sha256_text": "6ceb64b2af8b4a2ce85f10cb8fd17e3adf73875a883ed5e0ee8425437f0bbbb4",
+          "captured_at": "2026-08-03T01:29:22+00:00"
         }
       ],
       "n_binding": 1
@@ -1088,21 +1178,21 @@
         },
         {
           "n": 3,
-          "file": "whatsapp/03-testing-whatsapp-join.md",
-          "role": "non-binding",
-          "url": "https://play.google.com/apps/testing/com.whatsapp/join",
-          "chars": 1048,
-          "sha256_text": "d32b10ec5d5166a96454ba6f20ee6c50a318ba847b74e40ffc14ff34a3bb4fff",
-          "captured_at": "2026-07-31T01:16:45+00:00"
-        },
-        {
-          "n": 4,
-          "file": "whatsapp/04-cookies.md",
+          "file": "whatsapp/03-cookies.md",
           "role": "unknown",
           "url": "https://www.whatsapp.com/legal/cookies",
           "chars": 4160,
           "sha256_text": "b2d8ec02976cfb446c3df90823fa2d11b2d8afde7b6ac57e694ba8c996695784",
           "captured_at": "2026-07-31T01:50:43+00:00"
+        },
+        {
+          "n": 4,
+          "file": "whatsapp/04-testing-whatsapp-join.md",
+          "role": "non-binding",
+          "url": "https://play.google.com/apps/testing/com.whatsapp/join",
+          "chars": 1048,
+          "sha256_text": "d32b10ec5d5166a96454ba6f20ee6c50a318ba847b74e40ffc14ff34a3bb4fff",
+          "captured_at": "2026-07-31T01:16:45+00:00"
         }
       ],
       "n_binding": 2
@@ -1131,25 +1221,7 @@
         },
         {
           "n": 3,
-          "file": "wikipedia/03-wiki-a-b-testing.md",
-          "role": "non-binding",
-          "url": "https://wikitech.wikimedia.org/wiki/A/B_testing",
-          "chars": 4599,
-          "sha256_text": "006d03f3eda48a2470aca8a1bf7e6e7a25379eb952c9537cc4bce734d03dc49f",
-          "captured_at": "2026-07-31T01:16:29+00:00"
-        },
-        {
-          "n": 4,
-          "file": "wikipedia/04-wikipedia-experiments.md",
-          "role": "non-binding",
-          "url": "https://wikimediafoundation.org/wikipedia-experiments/",
-          "chars": 3871,
-          "sha256_text": "3f2ee9dc13b2f0d4773c02c59dfeb58e4c6c552d22ac06d52d16d5a2e041a80d",
-          "captured_at": "2026-07-31T01:16:33+00:00"
-        },
-        {
-          "n": 5,
-          "file": "wikipedia/05-wiki-policy-cookie-statement.md",
+          "file": "wikipedia/03-wiki-policy-cookie-statement.md",
           "role": "unknown",
           "url": "https://foundation.wikimedia.org/wiki/Policy:Cookie_statement",
           "chars": 15159,
@@ -1157,13 +1229,31 @@
           "captured_at": "2026-07-31T01:16:25+00:00"
         },
         {
-          "n": 6,
-          "file": "wikipedia/06-wiki-policy-privacy-policy-frequently-asked-question.md",
+          "n": 4,
+          "file": "wikipedia/04-wiki-policy-privacy-policy-frequently-asked-question.md",
           "role": "unknown",
           "url": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/Frequently_asked_questions",
           "chars": 26562,
           "sha256_text": "9b0e26fa95e1f2773fc7083367e73ea2065c334f21d2185cbfd72eb7c6bbb4ed",
           "captured_at": "2026-07-31T01:16:27+00:00"
+        },
+        {
+          "n": 5,
+          "file": "wikipedia/05-wiki-a-b-testing.md",
+          "role": "non-binding",
+          "url": "https://wikitech.wikimedia.org/wiki/A/B_testing",
+          "chars": 4599,
+          "sha256_text": "006d03f3eda48a2470aca8a1bf7e6e7a25379eb952c9537cc4bce734d03dc49f",
+          "captured_at": "2026-07-31T01:16:29+00:00"
+        },
+        {
+          "n": 6,
+          "file": "wikipedia/06-wikipedia-experiments.md",
+          "role": "non-binding",
+          "url": "https://wikimediafoundation.org/wikipedia-experiments/",
+          "chars": 3871,
+          "sha256_text": "3f2ee9dc13b2f0d4773c02c59dfeb58e4c6c552d22ac06d52d16d5a2e041a80d",
+          "captured_at": "2026-07-31T01:16:33+00:00"
         }
       ],
       "n_binding": 2
@@ -1183,25 +1273,52 @@
         },
         {
           "n": 2,
-          "file": "x/02-rules-and-data-processing-bases.md",
-          "role": "binding",
+          "file": "x/02-tos.md",
+          "role": "unknown",
+          "url": "https://x.com/en/tos",
+          "chars": 63893,
+          "sha256_text": "33c9c8256cc5b518c3388cb5051913e8ac2d7dd54c3c4d14d920eca0239248e6",
+          "captured_at": "2026-07-31T01:22:30+00:00"
+        },
+        {
+          "n": 3,
+          "file": "x/03-rules-and-data-processing-bases.md",
+          "role": "unknown",
           "url": "https://help.x.com/en/rules-and-policies/data-processing-legal-bases",
           "chars": 36281,
           "sha256_text": "93f46f931dd37f894f17c4ba715aa548fcfe40275274af44685250e8297d8f8a",
           "captured_at": "2026-07-31T20:21:31+00:00"
         },
         {
-          "n": 3,
-          "file": "x/03-rules-and-x-cookies.md",
-          "role": "binding",
+          "n": 4,
+          "file": "x/04-rules-and-x-cookies.md",
+          "role": "unknown",
           "url": "https://help.x.com/en/rules-and-policies/x-cookies",
           "chars": 54455,
           "sha256_text": "57ea8ab27f8b971754dfdb1838f232c9900736cb0ce6d678d1e556990dd4a9e7",
           "captured_at": "2026-07-31T20:21:32+00:00"
         },
         {
-          "n": 4,
-          "file": "x/04-rules-and-x-beta-experiments-program.md",
+          "n": 5,
+          "file": "x/05-rules-and.md",
+          "role": "unknown",
+          "url": "https://help.x.com/en/rules-and-policies#research-and-experiments",
+          "chars": 6192,
+          "sha256_text": "3f8aa59c1be22fff1a292025a530e97564949a5bd44a865b760120688b050fb5",
+          "captured_at": "2026-07-31T20:21:31+00:00"
+        },
+        {
+          "n": 6,
+          "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+          "role": "unknown",
+          "url": "https://blog.x.com/engineering/en_us/a/2015/the-what-and-why-of-product-experimentation-at-twitter-0",
+          "chars": 13200,
+          "sha256_text": "e2080436bd7e25f7632e25d3bd4b0b8fa5716b286365cfd0c4208616cd5d9f76",
+          "captured_at": "2026-07-31T20:21:31+00:00"
+        },
+        {
+          "n": 7,
+          "file": "x/07-rules-and-x-beta-experiments-program.md",
           "role": "non-binding",
           "url": "https://help.x.com/en/rules-and-policies/x-beta-experiments-program",
           "chars": 11947,
@@ -1209,43 +1326,16 @@
           "captured_at": "2026-07-31T20:21:32+00:00"
         },
         {
-          "n": 5,
-          "file": "x/05-rules-and-x-user-research.md",
+          "n": 8,
+          "file": "x/08-rules-and-x-user-research.md",
           "role": "non-binding",
           "url": "https://help.x.com/en/rules-and-policies/x-user-research",
           "chars": 3981,
           "sha256_text": "8b8d2dbb1aae96834d2fbf5a1fdd04d691774a3d1a883a306f7d4b472b679261",
           "captured_at": "2026-07-31T20:21:32+00:00"
-        },
-        {
-          "n": 6,
-          "file": "x/06-rules-and.md",
-          "role": "non-binding",
-          "url": "https://help.x.com/en/rules-and-policies#research-and-experiments",
-          "chars": 6192,
-          "sha256_text": "3f8aa59c1be22fff1a292025a530e97564949a5bd44a865b760120688b050fb5",
-          "captured_at": "2026-07-31T20:21:31+00:00"
-        },
-        {
-          "n": 7,
-          "file": "x/07-a-2015-the-what-and-why-of-product-experimentation-a.md",
-          "role": "non-binding",
-          "url": "https://blog.x.com/engineering/en_us/a/2015/the-what-and-why-of-product-experimentation-at-twitter-0",
-          "chars": 13200,
-          "sha256_text": "e2080436bd7e25f7632e25d3bd4b0b8fa5716b286365cfd0c4208616cd5d9f76",
-          "captured_at": "2026-07-31T20:21:31+00:00"
-        },
-        {
-          "n": 8,
-          "file": "x/08-tos.md",
-          "role": "unknown",
-          "url": "https://x.com/en/tos",
-          "chars": 63893,
-          "sha256_text": "33c9c8256cc5b518c3388cb5051913e8ac2d7dd54c3c4d14d920eca0239248e6",
-          "captured_at": "2026-07-31T01:22:30+00:00"
         }
       ],
-      "n_binding": 3
+      "n_binding": 1
     },
     {
       "name": "XNXX",
@@ -1329,6 +1419,15 @@
           "chars": 4736,
           "sha256_text": "bc23def1feb345cd6f9ef1de54352820d189a713ffdb19753048197381019eab",
           "captured_at": "2026-07-31T01:17:00+00:00"
+        },
+        {
+          "n": 5,
+          "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+          "role": "unknown",
+          "url": "https://code.europa.eu/p2b/contrib-versions/-/blob/main/Xvideos/Terms%20of%20Service.md",
+          "chars": 72760,
+          "sha256_text": "3b4954561527ee99b620b89daec68af63b28f25c5d3e5017de9bc8df13211730",
+          "captured_at": "2026-09-17T23:44:19+00:00"
         }
       ],
       "n_binding": 0
@@ -1348,16 +1447,7 @@
         },
         {
           "n": 2,
-          "file": "youtube/02-howyoutubeworks.md",
-          "role": "non-binding",
-          "url": "https://www.youtube.com/howyoutubeworks/",
-          "chars": 3197,
-          "sha256_text": "370ff119ca0fa9d4f61d08cc89f744b6141cdc18683c086c536e005e4704d493",
-          "captured_at": "2026-07-31T01:19:15+00:00"
-        },
-        {
-          "n": 3,
-          "file": "youtube/03-t-terms-3.md",
+          "file": "youtube/02-t-terms-2.md",
           "role": "unknown",
           "url": "https://www.youtube.com/t/terms",
           "chars": 29032,
@@ -1365,8 +1455,8 @@
           "captured_at": "2026-07-31T01:18:52+00:00"
         },
         {
-          "n": 4,
-          "file": "youtube/04-privacy.md",
+          "n": 3,
+          "file": "youtube/03-privacy.md",
           "role": "unknown",
           "url": "https://policies.google.com/privacy",
           "chars": 89981,
@@ -1374,8 +1464,8 @@
           "captured_at": "2026-07-31T01:19:03+00:00"
         },
         {
-          "n": 5,
-          "file": "youtube/05-privacy-5.md",
+          "n": 4,
+          "file": "youtube/04-privacy-4.md",
           "role": "unknown",
           "url": "https://policies.google.com/privacy?gl=IE&hl=en-GB#europeanrequirements",
           "chars": 90678,
@@ -1383,8 +1473,8 @@
           "captured_at": "2026-07-31T01:19:06+00:00"
         },
         {
-          "n": 6,
-          "file": "youtube/06-technologies-cookies.md",
+          "n": 5,
+          "file": "youtube/05-technologies-cookies.md",
           "role": "unknown",
           "url": "https://policies.google.com/technologies/cookies",
           "chars": 14289,
@@ -1392,8 +1482,8 @@
           "captured_at": "2026-07-31T01:19:12+00:00"
         },
         {
-          "n": 7,
-          "file": "youtube/07-youtube-answer.md",
+          "n": 6,
+          "file": "youtube/06-youtube-answer.md",
           "role": "unknown",
           "url": "https://support.google.com/youtube/answer/9227818",
           "chars": 4916,
@@ -1401,13 +1491,31 @@
           "captured_at": "2026-07-31T01:19:32+00:00"
         },
         {
-          "n": 8,
-          "file": "youtube/08-youtube-answer-8.md",
+          "n": 7,
+          "file": "youtube/07-youtube-answer-7.md",
           "role": "unknown",
           "url": "https://support.google.com/youtube/answer/16391400",
           "chars": 12040,
           "sha256_text": "7732977de7384ad80cf95c6b2672550cf749cd8e21dde2fdd90d6ea6412510c5",
           "captured_at": "2026-07-31T01:19:36+00:00"
+        },
+        {
+          "n": 8,
+          "file": "youtube/08-youtube-thread.md",
+          "role": "unknown",
+          "url": "https://support.google.com/youtube/thread/18138167",
+          "chars": 18479,
+          "sha256_text": "e6b1f1b6b1e92f7f61878a46e7f319dc2e5558f267195d26b84564c656562f4d",
+          "captured_at": "2026-09-17T23:42:31+00:00"
+        },
+        {
+          "n": 9,
+          "file": "youtube/09-howyoutubeworks.md",
+          "role": "non-binding",
+          "url": "https://www.youtube.com/howyoutubeworks/",
+          "chars": 3197,
+          "sha256_text": "370ff119ca0fa9d4f61d08cc89f744b6141cdc18683c086c536e005e4704d493",
+          "captured_at": "2026-07-31T01:19:15+00:00"
         }
       ],
       "n_binding": 1
@@ -1427,25 +1535,7 @@
         },
         {
           "n": 2,
-          "file": "zalando/02-2021-01-experimentation-platform-part1.md",
-          "role": "non-binding",
-          "url": "https://engineering.zalando.com/posts/2021/01/experimentation-platform-part1.html",
-          "chars": 12520,
-          "sha256_text": "086490f668722662a4e8ad3e02b3a79bd8cf10ebbc4c24f13ebb174482948004",
-          "captured_at": "2026-08-03T01:28:36+00:00"
-        },
-        {
-          "n": 3,
-          "file": "zalando/03-tags-experimentation.md",
-          "role": "non-binding",
-          "url": "https://engineering.zalando.com/tags/experimentation.html",
-          "chars": 1005,
-          "sha256_text": "613b1934d449f227d9f6a2cdabdb3201a2b17b6e89fc41a51ce790590b40a8b1",
-          "captured_at": "2026-08-03T01:28:38+00:00"
-        },
-        {
-          "n": 4,
-          "file": "zalando/04-contentful-apps-uploads-b8944e13-77d3-4b20-8abf-04c3.md",
+          "file": "zalando/02-contentful-apps-uploads-b8944e13-77d3-4b20-8abf-04c3.md",
           "role": "unknown",
           "url": "https://mosaic02.ztat.net/cnt/contentful-apps/uploads/b8944e13-77d3-4b20-8abf-04c3bfb51d9a.pdf",
           "chars": 32704,
@@ -1453,13 +1543,58 @@
           "captured_at": "2026-08-03T01:28:33+00:00"
         },
         {
-          "n": 5,
-          "file": "zalando/05-zalando-data-protection-statement.md",
+          "n": 3,
+          "file": "zalando/03-zalando-data-protection-statement.md",
           "role": "unknown",
           "url": "https://corporate.zalando.com/en/zalando-data-protection-statement",
           "chars": 42945,
           "sha256_text": "bfa3f68d3ac7cd654ade7d8b9b1e1c6cb68d0f363e4166f098bbb6220d36ffd2",
           "captured_at": "2026-08-03T01:28:45+00:00"
+        },
+        {
+          "n": 4,
+          "file": "zalando/04-terms-of-use.md",
+          "role": "unknown",
+          "url": "https://accounts.zalando.com/terms-of-use",
+          "chars": 16042,
+          "sha256_text": "8241eff8c4d29cdb0ff23ae885eb5efe3fbaaf9862bc721a94a3f220f00fac80",
+          "captured_at": "2026-09-17T23:42:30+00:00"
+        },
+        {
+          "n": 5,
+          "file": "zalando/05-zalando-privacy-policy.md",
+          "role": "unknown",
+          "url": "https://en.zalando.de/zalando-privacy-policy/",
+          "chars": 133437,
+          "sha256_text": "706b6b68cea394a93dd30679f26b30d531210950a03ca33468fb825639b17006",
+          "captured_at": "2026-09-17T23:42:30+00:00"
+        },
+        {
+          "n": 6,
+          "file": "zalando/06-zalando-terms.md",
+          "role": "unknown",
+          "url": "https://en.zalando.de/zalando-terms/",
+          "chars": 35744,
+          "sha256_text": "c444a443154b31dc9d4b926c286275dc345416d31a672d290d1ff1e02b68e946",
+          "captured_at": "2026-09-17T23:42:31+00:00"
+        },
+        {
+          "n": 7,
+          "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+          "role": "non-binding",
+          "url": "https://engineering.zalando.com/posts/2021/01/experimentation-platform-part1.html",
+          "chars": 12520,
+          "sha256_text": "086490f668722662a4e8ad3e02b3a79bd8cf10ebbc4c24f13ebb174482948004",
+          "captured_at": "2026-08-03T01:28:36+00:00"
+        },
+        {
+          "n": 8,
+          "file": "zalando/08-tags-experimentation.md",
+          "role": "non-binding",
+          "url": "https://engineering.zalando.com/tags/experimentation.html",
+          "chars": 1005,
+          "sha256_text": "613b1934d449f227d9f6a2cdabdb3201a2b17b6e89fc41a51ce790590b40a8b1",
+          "captured_at": "2026-08-03T01:28:38+00:00"
         }
       ],
       "n_binding": 1
@@ -1470,31 +1605,25 @@
       "servico": "Booking.com",
       "url": "https://www.booking.com/content/cookie.html",
       "role": "unknown",
-      "motivo": "captura falhou: HTTP 202"
+      "motivo": "captura falhou: HTTP 202 · recaptura 17/09/2026 (navegador, vantagem IT): a URL redireciona para a home da Booking. O conteúdo de cookies está dentro da Privacy Notice, que já está congelada."
     },
     {
       "servico": "Booking.com",
       "url": "https://booking.ai/",
       "role": "non-binding",
-      "motivo": "captura falhou: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'booking.ai'. (_ssl.c:1129)>"
+      "motivo": "captura falhou: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'booking.ai'. (_ssl.c:1129)> · recaptura 17/09/2026 (navegador, vantagem IT): índice de blog atrás do muro do Medium, 541 caracteres de conteúdo. É ponteiro para PR, não documento."
     },
     {
       "servico": "Booking.com",
       "url": "https://medium.com/booking-com-development",
       "role": "non-binding",
-      "motivo": "captura falhou: HTTP 403"
+      "motivo": "captura falhou: HTTP 403 · recaptura 17/09/2026 (navegador, vantagem IT): índice de blog atrás do muro do Medium, 446 caracteres de conteúdo. É ponteiro para PR, não documento."
     },
     {
       "servico": "Google Search",
       "url": "https://labs.google.com/search/",
       "role": "unknown",
-      "motivo": "captura falhou: texto vazio (173 ch de 364550b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
-    },
-    {
-      "servico": "Facebook",
-      "url": "https://www.facebook.com/business/help/1738164643098669",
-      "role": "non-binding",
-      "motivo": "captura falhou: texto vazio (45 ch de 363415b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
+      "motivo": "captura falhou: texto vazio (173 ch de 364550b) — provável render por JS; use `adopt` com o HTML salvo do navegador · recaptura 17/09/2026 (navegador, vantagem IT): consentimento de cookies recusado e o Labs responde 'Search Labs isn't available for your account right now' — indisponível sem conta elegível. Ausência relevante para a V6."
     },
     {
       "servico": "LinkedIn",
@@ -1515,60 +1644,6 @@
       "motivo": "captura falhou: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
     },
     {
-      "servico": "Instagram",
-      "url": "https://privacycenter.instagram.com/policy/",
-      "role": "unknown",
-      "motivo": "captura falhou: texto vazio (58 ch de 1234541b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
-    },
-    {
-      "servico": "Instagram",
-      "url": "https://help.instagram.com/581066165581870",
-      "role": "unknown",
-      "motivo": "captura falhou: texto vazio (11 ch de 896583b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
-    },
-    {
-      "servico": "Instagram",
-      "url": "https://transparency.meta.com/features/explaining-ranking/ig-feed/",
-      "role": "unknown",
-      "motivo": "captura falhou: texto vazio (14 ch de 471392b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
-    },
-    {
-      "servico": "XVideos",
-      "url": "https://code.europa.eu/p2b/contrib-versions/-/blob/main/Xvideos/Terms%20of%20Service.md",
-      "role": "unknown",
-      "motivo": "captura falhou: texto vazio (328 ch de 39697b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
-    },
-    {
-      "servico": "YouTube",
-      "url": "https://support.google.com/youtube/thread/18138167",
-      "role": "unknown",
-      "motivo": "captura falhou: texto vazio (711 ch de 1786996b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
-    },
-    {
-      "servico": "Pinterest",
-      "url": "https://medium.com/pinterest-engineering/scalable-a-b-experiments-at-pinterest-1e28ddb7d22",
-      "role": "non-binding",
-      "motivo": "captura falhou: HTTP 403"
-    },
-    {
-      "servico": "Zalando",
-      "url": "https://en.zalando.de/zalando-privacy-policy/",
-      "role": "unknown",
-      "motivo": "captura falhou: HTTP 403"
-    },
-    {
-      "servico": "Zalando",
-      "url": "https://en.zalando.de/zalando-terms/",
-      "role": "unknown",
-      "motivo": "captura falhou: HTTP 403"
-    },
-    {
-      "servico": "Zalando",
-      "url": "https://accounts.zalando.com/terms-of-use",
-      "role": "unknown",
-      "motivo": "captura falhou: HTTP 403"
-    },
-    {
       "servico": "TikTok",
       "url": "https://web.archive.org/web/20260713145902id_/https://www.tiktok.com/legal/page/eea/privacy-policy/en",
       "role": "unknown",
@@ -1584,7 +1659,7 @@
       "servico": "TikTok",
       "url": "https://www.tiktok.com/safety/en/policies-and-engagement/recommendation-system",
       "role": "unknown",
-      "motivo": "captura falhou: texto vazio (72 ch de 4900094b) — provável render por JS; use `adopt` com o HTML salvo do navegador"
+      "motivo": "captura falhou: texto vazio (72 ch de 4900094b) — provável render por JS; use `adopt` com o HTML salvo do navegador · recaptura 17/09/2026 (navegador, vantagem IT): a página renderiza só o rodapé (167 caracteres); o conteúdo não carrega neste ambiente. As outras 6 da TikTok estão no corpus."
     }
   ]
 }

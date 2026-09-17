@@ -1,5 +1,5 @@
 {
- "built_at": "2026-08-03T02:53:34+00:00",
+ "built_at": "2026-09-17T23:49:39+00:00",
  "frozen_at": "2026-08-03T01:38:14+00:00",
  "vantage": "IT",
  "services": {
@@ -271,6 +271,14 @@
     "manual": false
    },
    {
+    "url": "https://www.facebook.com/business/help/1738164643098669",
+    "file": "text/facebook-meta-platforms-ireland-limited-dsa-vlop/manual-business-help-1738164643098669.txt",
+    "chars": 5033,
+    "sha256": "a8c3f9653013f4841c757f9ab370a40bdb26e8690629903ca4f1723c303620a6",
+    "captured_at": "2026-09-17T23:42:31+00:00",
+    "manual": true
+   },
+   {
     "url": "https://www.facebook.com/legal/terms",
     "file": "text/facebook-meta-platforms-ireland-limited-dsa-vlop/043-legal-terms.txt",
     "chars": 35267,
@@ -405,6 +413,30 @@
   ],
   "Google Search (Google Ireland Ltd.; DSA VLOSE)": [
    {
+    "url": "https://policies.google.com/privacy?hl=en",
+    "file": "text/google-shopping-provider-google-ireland-ltd-dsa-type-vlop/055-privacy.txt",
+    "chars": 89981,
+    "sha256": "964eec9bfabd502512b72da05346215f75190393bff2c45b69a6005bedb4f263",
+    "captured_at": "2026-07-31T01:14:04+00:00",
+    "manual": false
+   },
+   {
+    "url": "https://policies.google.com/privacy?hl=en-IE&gl=IE",
+    "file": "text/google-play-google-ireland-ltd-dsa-vlop/061-privacy.txt",
+    "chars": 90678,
+    "sha256": "86b4c21ca07c1263d15b951f0d3b981cd70d11aad3a9a46eb48c356ed55f652c",
+    "captured_at": "2026-07-31T01:14:15+00:00",
+    "manual": false
+   },
+   {
+    "url": "https://policies.google.com/technologies/cookies?hl=en",
+    "file": "text/google-shopping-provider-google-ireland-ltd-dsa-type-vlop/058-technologies-cookies.txt",
+    "chars": 14289,
+    "sha256": "5639b41a9299a6bebaa0f72d14cf9613e3f413d639d2a24841209a97ff9a560d",
+    "captured_at": "2026-07-31T01:14:10+00:00",
+    "manual": false
+   },
+   {
     "url": "https://policies.google.com/technologies/product-privacy?hl=en",
     "file": "text/google-search-google-ireland-ltd-dsa-vlose/011-technologies-product-privacy.txt",
     "chars": 5532,
@@ -413,11 +445,27 @@
     "manual": false
    },
    {
+    "url": "https://policies.google.com/terms?hl=en",
+    "file": "text/google-shopping-provider-google-ireland-ltd-dsa-type-vlop/056-terms.txt",
+    "chars": 36439,
+    "sha256": "0781ae19ec6af5ff6013f38db64040424d6f915ad058f0239548410d456be68a",
+    "captured_at": "2026-07-31T01:14:06+00:00",
+    "manual": false
+   },
+   {
     "url": "https://support.google.com/websearch/answer/13572013",
     "file": "text/google-search-google-ireland-ltd-dsa-vlose/013-websearch-answer-13572013.txt",
     "chars": 6169,
     "sha256": "3ff3984b4cafb9f6bb62e90300f7c542843d04c3a368f44857e54738f860967e",
     "captured_at": "2026-07-31T01:12:08+00:00",
+    "manual": false
+   },
+   {
+    "url": "https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing/",
+    "file": "text/google-shopping-provider-google-ireland-ltd-dsa-type-vlop/059-search-howsearchworks-how-search-works-r.txt",
+    "chars": 6327,
+    "sha256": "d2994f8140f4a6fd7d6c9a4c42ab1d159afecf52907ffbc2ad0406f1f0bb6abf",
+    "captured_at": "2026-07-31T01:14:11+00:00",
     "manual": false
    }
   ],
@@ -465,6 +513,14 @@
   ],
   "Instagram": [
    {
+    "url": "https://help.instagram.com/581066165581870",
+    "file": "text/instagram/manual-581066165581870.txt",
+    "chars": 26188,
+    "sha256": "4de509909ee1f78e165cdd0627d13d654c86356bd8bf2373f483c0de40c260a9",
+    "captured_at": "2026-09-17T23:42:31+00:00",
+    "manual": true
+   },
+   {
     "url": "https://mbasic.facebook.com/privacy/policies/cookies/printable/",
     "file": "text/instagram/109-privacy-policies-cookies-printable.txt",
     "chars": 17087,
@@ -487,6 +543,22 @@
     "sha256": "1b33ff384ca8debc84252da8816a19c035ed6bcbd3d701261e5310e178d5ec32",
     "captured_at": "2026-07-31T01:50:23+00:00",
     "manual": false
+   },
+   {
+    "url": "https://privacycenter.instagram.com/policy/",
+    "file": "text/instagram/manual-policy.txt",
+    "chars": 108301,
+    "sha256": "d155fb0cc91cec071310b7ede989fc8347e91254ab1f15a28bb56d766720524f",
+    "captured_at": "2026-09-17T23:42:31+00:00",
+    "manual": true
+   },
+   {
+    "url": "https://transparency.meta.com/features/explaining-ranking/ig-feed/",
+    "file": "text/instagram/manual-features-explaining-ranking-ig-feed.txt",
+    "chars": 13096,
+    "sha256": "5a331aaecd8e9c6b79d982bd6222c1d2d8fe8e1284cebb1571b2b2319f42dc57",
+    "captured_at": "2026-09-17T23:42:31+00:00",
+    "manual": true
    }
   ],
   "LinkedIn": [
@@ -540,6 +612,14 @@
    }
   ],
   "Pinterest": [
+   {
+    "url": "https://medium.com/pinterest-engineering/scalable-a-b-experiments-at-pinterest-1e28ddb7d22",
+    "file": "text/pinterest/manual-pinterest-engineering-scalable-a-b-exper.txt",
+    "chars": 11360,
+    "sha256": "1d9171646392fd8f714b0d51ce00ab9701f8c5db4fc9ece9393475ee4b8ee828",
+    "captured_at": "2026-09-17T23:42:31+00:00",
+    "manual": true
+   },
    {
     "url": "https://policy.pinterest.com/en/cookies",
     "file": "text/pinterest/003-en-cookies.txt",
@@ -1051,6 +1131,14 @@
   ],
   "XVideos (WebGroup Czech Republic, a.s.; DSA VLOP)": [
    {
+    "url": "https://code.europa.eu/p2b/contrib-versions/-/blob/main/Xvideos/Terms%20of%20Service.md",
+    "file": "text/xvideos-webgroup-czech-republic-a-s-dsa-vlop/manual-p2b-contrib-versions-blob-main-xvideos-t.txt",
+    "chars": 72760,
+    "sha256": "3b4954561527ee99b620b89daec68af63b28f25c5d3e5017de9bc8df13211730",
+    "captured_at": "2026-09-17T23:44:19+00:00",
+    "manual": true
+   },
+   {
     "url": "https://info.xvideos.com/legal/cookiepolicy",
     "file": "text/xvideos-webgroup-czech-republic-a-s-dsa-vlop/128-legal-cookiepolicy.txt",
     "chars": 4736,
@@ -1125,6 +1213,14 @@
     "manual": false
    },
    {
+    "url": "https://support.google.com/youtube/thread/18138167",
+    "file": "text/youtube-provider-google-ireland-limited-dsa-type-vlop/manual-youtube-thread-18138167.txt",
+    "chars": 18479,
+    "sha256": "e6b1f1b6b1e92f7f61878a46e7f319dc2e5558f267195d26b84564c656562f4d",
+    "captured_at": "2026-09-17T23:42:31+00:00",
+    "manual": true
+   },
+   {
     "url": "https://www.youtube.com/howyoutubeworks/",
     "file": "text/youtube-provider-google-ireland-limited-dsa-type-vlop/144-howyoutubeworks.txt",
     "chars": 3197,
@@ -1151,12 +1247,36 @@
   ],
   "Zalando": [
    {
+    "url": "https://accounts.zalando.com/terms-of-use",
+    "file": "text/zalando/manual-terms-of-use.txt",
+    "chars": 16042,
+    "sha256": "8241eff8c4d29cdb0ff23ae885eb5efe3fbaaf9862bc721a94a3f220f00fac80",
+    "captured_at": "2026-09-17T23:42:30+00:00",
+    "manual": true
+   },
+   {
     "url": "https://corporate.zalando.com/en/zalando-data-protection-statement",
     "file": "text/zalando/008-en-zalando-data-protection-statement.txt",
     "chars": 42945,
     "sha256": "bfa3f68d3ac7cd654ade7d8b9b1e1c6cb68d0f363e4166f098bbb6220d36ffd2",
     "captured_at": "2026-08-03T01:28:45+00:00",
     "manual": false
+   },
+   {
+    "url": "https://en.zalando.de/zalando-privacy-policy/",
+    "file": "text/zalando/manual-zalando-privacy-policy.txt",
+    "chars": 133437,
+    "sha256": "706b6b68cea394a93dd30679f26b30d531210950a03ca33468fb825639b17006",
+    "captured_at": "2026-09-17T23:42:30+00:00",
+    "manual": true
+   },
+   {
+    "url": "https://en.zalando.de/zalando-terms/",
+    "file": "text/zalando/manual-zalando-terms.txt",
+    "chars": 35744,
+    "sha256": "c444a443154b31dc9d4b926c286275dc345416d31a672d290d1ff1e02b68e946",
+    "captured_at": "2026-09-17T23:42:31+00:00",
+    "manual": true
    },
    {
     "url": "https://engineering.zalando.com/posts/2021/01/experimentation-platform-part1.html",
