@@ -1,5 +1,5 @@
 {
-  "publicado_em": "2026-09-17T23:51:31+00:00",
+  "publicado_em": "2026-09-21T02:04:29+00:00",
   "fonte": "github.com/mrcsvg/experimented-without-consent",
   "arquivos": [
     {
@@ -24,8 +24,8 @@
     },
     {
       "file": "analysis/build-md-corpus.py",
-      "sha256": "3c0d3d63cb03370f1f03883bf3be3fdd6f38eaada2344c88fc65ad32fbc8a9ef",
-      "bytes": 19363
+      "sha256": "6a70d52eba62e165a47ceb64012be7e42b9d16e4293e9d86f55564c44c325f1c",
+      "bytes": 20166
     },
     {
       "file": "index.html",
