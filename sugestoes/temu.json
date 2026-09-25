@@ -1,0 +1,326 @@
+{
+ "formato": 1,
+ "servico": "Temu",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T02:34:00+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 2,
+    "verbatim": "In the course of providing and improving our Service, we collect your Personal Data for the purposes described in this Privacy Policy.",
+    "onde": "Doc 2, seção “What Information We Collect”, parágrafo de abertura",
+    "por_que": "Linguagem apenas de “melhorar o Serviço”, sem qualquer menção a testar usuários — sustenta o degrau 1 da escada.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Improve and optimise services, features, analyse performance metrics, and improve the Service and our business",
+    "onde": "Doc 2, seção “Legitimate Interests”, título da finalidade",
+    "por_que": "É a cláusula mais próxima de experimentação em todo o corpus vinculante; fala de otimizar e analisar métricas, mas não de testar/variantes.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We improve the Service, analyse performance, and maintain and improve our business. As part of these activities, we may create aggregated or otherwise deidentified data. We fix errors and ensure the Service works properly outside what is strictly contractually necessary to provide you with the Service.",
+    "onde": "Doc 2, seção “Legitimate Interests”, corpo da finalidade de melhoria",
+    "por_que": "Detalha a finalidade de melhoria: correção de erros e análise de desempenho; nenhuma referência a experimento, teste A/B, variantes ou grupos de controle (fronteira 1 vs 2).",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We use the Personal Data that we collect for various purposes, including to develop, improve, support and provide the Service, allowing you to use its features",
+    "onde": "Doc 2, abertura de “How and Why We Process Your Information and Our Legal Bases for Processing”",
+    "por_que": "Confirma que o vocabulário máximo do registro vinculante é “develop, improve, support”, sem “test”.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We reserve the right to make modifications to these Terms, including, to make these Terms clearer or easier to understand, to reflect any changes or enhancements we make to the Services",
+    "onde": "Doc 3, cláusula 1.5 dos Terms of Use",
+    "por_que": "Único ponto dos Termos que fala em “enhancements” ao Serviço; é mudança de serviço, não teste com usuários — ajuda a descartar degraus 2/3 no registro vinculante.",
+    "file": "temu/03-no-terms-of-use.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We may use your customer support activity and chats with merchandise partners data to optimise our customer service support activity, for example, to improve the responses provided by our virtual assistant.",
+    "onde": "Doc 2, seção “Legitimate Interests”, finalidade de melhoria/otimização",
+    "por_que": "Exemplo concreto de otimização de um sistema com dados do usuário — ainda enquadrado como “improve/optimise”, não como experimento.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 2,
+    "verbatim": "It is in our commercial interests to provide an effective Service that performs well and is updated regularly.",
+    "onde": "Doc 2, “Legitimate interest relied upon” sob a finalidade de melhoria do Serviço",
+    "por_que": "Enquadramento explícito de service improvement (interesse comercial em serviço eficaz e atualizado).",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "It is in the interests of users to receive a regularly updated service that performs well.",
+    "onde": "Doc 2, “Legitimate interest relied upon” sob a finalidade de melhoria do Serviço",
+    "por_que": "Benefício ao usuário formulado como qualidade de serviço — não é social-good/comunidade, é service improvement.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "In the course of providing and improving our Service, we collect your Personal Data for the purposes described in this Privacy Policy.",
+    "onde": "Doc 2, seção “What Information We Collect”",
+    "por_que": "Reforça o enquadramento de melhoria do serviço; nenhuma menção a “research”, “study” ou pesquisa com seres humanos em qualquer documento.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "It is in our interests to be able to provide a personalised experience for users of the Service.",
+    "onde": "Doc 2, “Legitimate interest relied upon” sob “Recommend content and products that you might be interested in”",
+    "por_que": "Personalização é enquadrada como benefício de experiência/serviço, não como pesquisa nem bem-estar da comunidade.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 2,
+    "verbatim": "Improve and optimise services, features, analyse performance metrics, and improve the Service and our business",
+    "onde": "Doc 2, título de finalidade sob “Legitimate Interests”",
+    "por_que": "Nomeia “features” e “performance metrics” como objeto de otimização — é o candidato mais forte para V3a, mas sem afirmar que são testadas.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "For example, when you browse the Service, we present product feeds that you might be interested in based on these information categories. Similarly, when you search for an item on Temu, we return the most relevant search and product matches based on these information categories.",
+    "onde": "Doc 2, “Recommend content and products that you might be interested in”",
+    "por_que": "Feeds e resultados de busca (ranking) aparecem como personalização declarada, não como alvo de experimento — caso típico da distinção exigida no critério.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We process your Personal Data to provide advertised products on the platform and for related analytics. Advertised products are products that are displayed more prominently on the platform.",
+    "onde": "Doc 2, “On-platform advertised products, which may be personalised”",
+    "por_que": "Superfície de exibição/ads e analytics nomeada; novamente personalização/medição, sem menção a variantes ou testes.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Information relating to products (e.g., pricing, product descriptions, availability, delivery options, and estimated delivery times) is available on the product listing page on Temu. While we strive to provide accurate information on Temu, typographical errors, inaccuracies, or omissions that relate to product information may occur.",
+    "onde": "Doc 3, cláusula 10.2",
+    "por_que": "Única aparição relevante de “pricing”: cláusula de erro de precificação, que o codebook exclui explicitamente de v3_pricing.",
+    "file": "temu/03-no-terms-of-use.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "abuse any promotions, discounts, or other benefits offered by us, or manipulate the price of any listed products or interfere with listings; or",
+    "onde": "Doc 3, cláusula 3.5, item (16)",
+    "por_que": "Outra menção a preço, dirigida à conduta do usuário — não é preço como alvo de experimento.",
+    "file": "temu/03-no-terms-of-use.md",
+    "role": "unknown"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 2,
+    "verbatim": "We use your Personal Data where this is necessary for the purposes of the legitimate interests pursued by us or a third party, provided these interests are not outweighed by your interests or fundamental rights and freedoms.",
+    "onde": "Doc 2, abertura da seção “Legitimate Interests”",
+    "por_que": "Base legal que cobre a finalidade de melhoria/otimização — a finalidade mapeável como cobrindo experimentação.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Improve and optimise services, features, analyse performance metrics, and improve the Service and our business",
+    "onde": "Doc 2, finalidade listada dentro de “Legitimate Interests”",
+    "por_que": "Mostra que a finalidade de melhoria está posicionada sob interesse legítimo, e não sob consentimento ou contrato.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "In the EU, EEA and Switzerland, we require a legal basis to process your Personal Data. We rely on different legal bases depending on why we are processing your Personal Data.",
+    "onde": "Doc 2, “How and Why We Process Your Information and Our Legal Bases for Processing”",
+    "por_que": "A tabela de bases por finalidade é apresentada como obrigação da UE/EEE/Suíça — evidência para v4_region_gated.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "This Privacy Policy describes how Whaleco Technology Limited, an Irish company (“Temu”, “we\", “us” or “our”) handles Personal Data relating to persons located in the European Economic Area (“EEA”) and Switzerland",
+    "onde": "Doc 2, parágrafo introdutório",
+    "por_que": "O documento inteiro é delimitado territorialmente (EEE/Suíça), confirmando o region-gating da divulgação de bases legais.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "With your consent, we, our service providers, and our third-party advertising partners process your Personal Data for interest-based advertising purposes off the platform.",
+    "onde": "Doc 2, seção “Your Consent”, “Off-platform interest-based advertising”",
+    "por_que": "Consentimento é reservado a publicidade off-platform e marketing direto — não à melhoria/otimização; ajuda a excluir “consent” para experimentação.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "When you register for, access or use the Service, we process Personal Data as necessary to perform the contracts you enter into with us (such as our Terms of Use ) if you have the legal capacity to enter into an enforceable contract.",
+    "onde": "Doc 2, seção “Contractual Necessity”",
+    "por_que": "Delimita o que é coberto por contrato (conta, pedidos, suporte), sem incluir melhoria/otimização — reforça que só interesse legítimo cobriria experimentação.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 2,
+    "verbatim": "You have the right to object, on grounds relating to your particular situation, at any time to our processing of Personal Data concerning you, including profiling, which is based on a task carried out by us in the public interest or on a legitimate interest.",
+    "onde": "Doc 2, seção “Your Rights and Choices”, “Right to Object”",
+    "por_que": "Direito genérico de objeção do Art. 21 — cobriria a finalidade de melhoria, mas não é controle específico de experimentação.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "You have the right to object to, and seek restriction of, processing of your Personal Data based on legitimate interests. To exercise your rights, please visit the “ Your Rights and Choices ” section of this Privacy Policy.",
+    "onde": "Doc 2, aviso dentro da seção “Legitimate Interests”",
+    "por_que": "Confirma que o único mecanismo ligado à base legal da melhoria é a objeção genérica do GDPR.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "You have the right to decide whether to accept or reject cookies (except ‘essential’ cookies).",
+    "onde": "Doc 1, seção “Your Choices”",
+    "por_que": "Controle de cookies existe, mas seu escopo é cookies (essenciais/publicidade), não experimentação.",
+    "file": "temu/01-no-cookie-and-similar-technologies-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "These cookies are non-essential and used to deliver you interest-based advertisements including those that are appropriate and relevant to your country/region and language.",
+    "onde": "Doc 1, seção “Purposes of Using Cookies”, “Advertising cookies”",
+    "por_que": "Mostra que o banner/preferências governam publicidade e medição — falso positivo clássico do V5.",
+    "file": "temu/01-no-cookie-and-similar-technologies-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "You can customise your cookie settings or withdraw your consent to non-essential cookies at any time in your privacy settings or by visiting our Cookie Preferences page.",
+    "onde": "Doc 2, “Change settings for cookies and similar technologies”",
+    "por_que": "O controle disponível é cookie/ads-only; não há toggle de opt-out de experimentos em nenhum documento.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "You can learn more about your opt-out choice for on-platform advertised products here .",
+    "onde": "Doc 2, “On-platform advertised products, which may be personalised”",
+    "por_que": "Único opt-out adicional mencionado, restrito a produtos anunciados na plataforma — não a experimentação.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   }
+  ],
+  "V6": [],
+  "V7": [
+   {
+    "doc": 2,
+    "verbatim": "Temu does not make decisions based solely on automated processing that produce a legal effect or that similarly significantly affect individuals.",
+    "onde": "Doc 2, “Right to object to/opt-out of automated individual decision making”",
+    "por_que": "Candidato a falso positivo explicitamente excluído pelo codebook: aviso sobre decisão automatizada não é debriefing pós-experimento.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We will provide reasonable prior notice to you of any material modifications via email or other channels in accordance with applicable laws to give you an opportunity to review them before they go into effect.",
+    "onde": "Doc 3, cláusula 1.5",
+    "por_que": "Aviso de mudança de serviço/termos — também excluído como debriefing; documenta que nenhum aviso posterior de participação em experimento é previsto.",
+    "file": "temu/03-no-terms-of-use.md",
+    "role": "unknown"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 2,
+    "verbatim": "We use appropriate technical and organisational measures to help protect your Personal Data from loss, theft, misuse, unauthorised access, disclosure, alteration, and/or destruction.",
+    "onde": "Doc 2, seção “Data Security and Retention”",
+    "por_que": "Única linguagem de salvaguarda: é segurança de dados, não revisão ética nem avaliação de risco de experimentos.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We are not responsible for third-party content that you may find offensive, indecent, or objectionable, although we may remove or restrict offensive or harmful content in accordance with our content moderation processes.",
+    "onde": "Doc 3, cláusula 2.1",
+    "por_que": "Menciona processos de moderação de conteúdo; nenhum comitê, board ou avaliação de risco vinculada a experimentação — evidência de ausência.",
+    "file": "temu/03-no-terms-of-use.md",
+    "role": "unknown"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 2,
+    "verbatim": "Improve and optimise services, features, analyse performance metrics, and improve the Service and our business",
+    "onde": "Doc 2 (Privacy Policy), seção “Legitimate Interests”",
+    "por_que": "A linguagem mais próxima de experimentação vive na política de privacidade — local de divulgação primário.",
+    "file": "temu/02-no-privacy-and-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "These Terms form a binding agreement between you and us.",
+    "onde": "Doc 3, preâmbulo dos Terms of Use",
+    "por_que": "O documento se declara parte do acordo com o usuário: registro vinculante.",
+    "file": "temu/03-no-terms-of-use.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Your use of, and participation in, certain Services are also subject to additional policies we may publish from time to time, including the Privacy Policy and Cookies and Similar Technologies Policy describing how we process your personal data (“Policies”).",
+    "onde": "Doc 3, cláusula 1.4",
+    "por_que": "Incorpora expressamente a Privacy Policy e a Cookie Policy ao acordo, tornando os Docs 1 e 2 registro vinculante.",
+    "file": "temu/03-no-terms-of-use.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "In connection with your use of the Services, you acknowledge that we may collect, access, use, preserve and disclose your personal information (including your Account and user information) as described in these Terms and in our Privacy Policy , which you acknowledge you have read.",
+    "onde": "Doc 3, cláusula 4.1",
+    "por_que": "Reforça a função vinculante da política de privacidade citada em V1/V2/V4.",
+    "file": "temu/03-no-terms-of-use.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "For other questions on our policies or other topics, we recommend that you browse our Support Center where we answer our customers' most common questions.",
+    "onde": "Doc 4 (Support center & FAQ), resposta “How can I get help before placing an order?”",
+    "por_que": "O help centre (registro não-vinculante) não contém nenhuma divulgação sobre testes/experimentos — ausência no registro não-vinculante.",
+    "file": "temu/04-support-c2-doc-in-f-55.md",
+    "role": "non-binding"
+   }
+  ]
+ },
+ "descartadas": 0,
+ "uso": {
+  "input": 40028,
+  "output": 10675
+ },
+ "geracao": {
+  "max_tokens": 16000,
+  "thinking": "adaptive",
+  "nota": "teto anterior; JSON completo, sem truncamento"
+ }
+}

@@ -1,0 +1,494 @@
+{
+ "formato": 1,
+ "servico": "X",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T02:59:18+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "geracao": {
+  "max_tokens": 64000,
+  "thinking": "adaptive"
+ },
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 6,
+    "verbatim": "Experimentation is at the heart of Twitter’s product development cycle.",
+    "onde": "Doc 6, blog de engenharia, primeiro parágrafo",
+    "por_que": "Nomeia experimentação explicitamente como prática central — candidato a nível 3, mas em registro não-vinculante (blog).",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "A/B testing is a way to make sure good ideas don’t die young, and are given the opportunity to develop fully.",
+    "onde": "Doc 6, seção 'The benefits of testing, and a little about incrementalism'",
+    "por_que": "Menção explícita a teste A/B — satisfaz o critério de nível 3 (método nomeado).",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Another practice we employ frequently is using “holdbacks” when possible — rolling out a feature to 99% (or some other high percentage) of users, and observing how key metrics diverge from the 1% that was held back over time.",
+    "onde": "Doc 6, seção 'Process'",
+    "por_que": "Descreve grupos de controle/variantes servidas a usuários distintos — evidência de nível 3.",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We use information you share with us, or that we collect to conduct research, surveys, product testing, and troubleshooting to help us operate and improve our products and services.",
+    "onde": "Doc 1, Privacy Policy, seção 2.5 Research",
+    "por_que": "Registro vinculante: reconhece 'product testing' com usuários, mas sem nomear A/B, variantes ou aleatorização — fronteira 2 vs 3.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We use the information we collect to measure and analyze the effectiveness of our products and services and to better understand how you use them in order to make them better.",
+    "onde": "Doc 1, Privacy Policy, seção 2.3",
+    "por_que": "Linguagem de melhoria no registro vinculante, relevante para fixar o nível do binding sozinho.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "X Corp. (\"X\") has designed and developed a \"X Mobile Application Testing Program\" (\"X Experiments Program\" which encompasses the programs previously known as the \"X for Android Experiment Alpha Program or \"X for Android Experiment Program\") to, among other things, allow a limited number of people to download test versions of X applications for mobile devices (the “Experimental Software”)",
+    "onde": "Doc 7, Terms and Conditions, parágrafo introdutório",
+    "por_que": "Uso do termo 'Experiments' em registro não-vinculante, porém em sentido de programa beta voluntário (relevante para distinguir V1 de V6).",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Research and experiments How X conducts research and experiments on the platform",
+    "onde": "Doc 5, índice de Rules and policies, categoria 'Research and experiments'",
+    "por_que": "Help centre nomeia 'experiments' como categoria de política — ajuda a localizar onde o teto vive.",
+    "file": "x/05-rules-and.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "We conduct research to better understand our users and to improve our products.",
+    "onde": "Doc 8, About user research at X, primeira linha",
+    "por_que": "Reconhecimento de pesquisa com usuários em registro não-vinculante, sem nomear método experimental.",
+    "file": "x/08-rules-and-x-user-research.md",
+    "role": "non-binding"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 1,
+    "verbatim": "We use information you share with us, or that we collect to conduct research, surveys, product testing, and troubleshooting to help us operate and improve our products and services.",
+    "onde": "Doc 1, Privacy Policy, seção 2.5 Research",
+    "por_que": "Co-ocorrência clara: research + service improvement na mesma frase.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We also use the information we collect to improve and personalize our products and services so that you have a better experience on X, including by showing you more relevant content and ads",
+    "onde": "Doc 1, Privacy Policy, seção 2.1",
+    "por_que": "Enquadramento de service improvement / personalização.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "We conduct research to better understand our users and to improve our products.",
+    "onde": "Doc 8, About user research at X",
+    "por_que": "Research + service improvement combinados em documento dedicado a pesquisa com usuários.",
+    "file": "x/08-rules-and-x-user-research.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Quickly iterating and measuring the effects of proposed changes lets our teams incorporate implicit user feedback into the product early on, as we work through various prototypes.",
+    "onde": "Doc 6, blog, seção sobre benefícios do teste",
+    "por_que": "Enquadramento de melhoria de produto via experimentação.",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "As ideas mature, we guide their evolution using well-established scientific principles — and experimentation is a key part of the process.",
+    "onde": "Doc 6, blog, seção 'A/B Testing, decision-making, and innovation'",
+    "por_que": "Enquadramento de pesquisa científica; avaliador julga se chega a 'human-subjects research'.",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "The X Experiments Program is designed to assist X in researching, analyzing and validating the usability and reliability of certain prospective product features",
+    "onde": "Doc 7, seção 3 Confidentiality, 'Confidential Information'",
+    "por_que": "Research + service improvement; linguagem de validação de usabilidade.",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "to help keep X more secure and respectful for everyone",
+    "onde": "Doc 1, Privacy Policy, seção 1.2 introdução",
+    "por_que": "Linguagem próxima de bem-estar coletivo/comunidade — candidata fraca a social-good; avaliador decide.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 1,
+    "verbatim": "We use information you share with us, or that we collect to conduct research, surveys, product testing, and troubleshooting to help us operate and improve our products and services.",
+    "onde": "Doc 1, Privacy Policy, seção 2.5",
+    "por_que": "V3a: 'product testing' nomeia atividade, mas sem superfícies específicas.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "The scale of Twitter experiments is vast both in quantity and variety — from subtle UI/UX changes, to new features, to improvements in machine learning models.",
+    "onde": "Doc 6, blog, primeiros parágrafos",
+    "por_que": "V3a: nomeia superfícies testadas (UI/UX, features, modelos de ML).",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "For example, Group DMs are not a feature to use in a plain A/B test, because chances are the lucky people who get the feature would want to message those who don’t have it, which makes the feature essentially useless.",
+    "onde": "Doc 6, blog, seção sobre limites do teste",
+    "por_que": "V3c: cita feature específica em relação a testes (embora como exemplo de não-testável).",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "At Twitter, it’s common for an experiment to collect hundreds of metrics, which can be broken down by a large number of dimensions (user attributes, device types, countries, etc.), resulting in thousands of observations",
+    "onde": "Doc 6, blog, seção 'Requiring a Hypothesis'",
+    "por_que": "V3b: descreve métricas e dimensões de experimento, sem nomear alvos como preço ou afeto.",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "By participating in this program, you’ll get access to experimental versions of X applications for mobile devices, such as the X for Android or X for iOS app.",
+    "onde": "Doc 7, Overview",
+    "por_que": "V3a/V3c: nomeia superfícies (apps móveis) objeto de versões experimentais.",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Content recommendations are made based on a combination of factors: how you engage with the Services, the topics you have indicated that you are interested in, and likes of other users with your similar interests.",
+    "onde": "Doc 2, ToS versão UE/EFTA/UK, seção 3",
+    "por_que": "Personalização algorítmica declarada como feature — o codebook manda distinguir isso de alvo de experimento (risco de falso positivo em V3b).",
+    "file": "x/02-tos.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Payment information. In order to purchase ads or other offerings provided as part of our paid products and services you will need to provide us payment information, including your credit or debit card number, card expiration date, CVV code, and billing address.",
+    "onde": "Doc 1, Privacy Policy, seção 1.1",
+    "por_que": "Única menção substantiva a preço/pagamento nos documentos; não descreve preço como alvo de experimento — relevante para V3-pricing = No.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 3,
+    "verbatim": "The table below contains a list of the general purposes for which we process personal data. For data from the European Union, EFTA States, and the United Kingdom, the third column in the table below contains the primary legal bases we rely on for such processing.",
+    "onde": "Doc 3, 'Data processing summary', parágrafo introdutório",
+    "por_que": "Mostra que a tabela de bases legais é explicitamente delimitada a UE/EFTA/UK — evidência direta para v4_region_gated.",
+    "file": "x/03-rules-and-data-processing-bases.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Processing purpose\nOperating our services, including:\nAccount creation",
+    "onde": "Doc 3, primeira linha da tabela de finalidades",
+    "por_que": "Finalidade 'Operating our services' tem base 'Contractual necessity'; candidata a cobrir experimentação por inferência.",
+    "file": "x/03-rules-and-data-processing-bases.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Primary legal basis/bases for processing personal data from the EU, EFTA States, and UK\nContractual necessity",
+    "onde": "Doc 3, célula da linha 'Operating our services'",
+    "por_que": "Base legal declarada para operação do serviço.",
+    "file": "x/03-rules-and-data-processing-bases.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Legitimate interests analysis summary – inferences about your account",
+    "onde": "Doc 3, título de seção após a tabela",
+    "por_que": "Interesse legítimo é a base invocada para inferências e melhoria — inferência plausível para experimentação.",
+    "file": "x/03-rules-and-data-processing-bases.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "This helps X offer better services and personalize the content X shows, including ads.",
+    "onde": "Doc 3, 'Legitimate interests analysis summary – inferences about your account'",
+    "por_que": "Finalidade de melhoria de serviço atrelada a interesse legítimo.",
+    "file": "x/03-rules-and-data-processing-bases.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "X has carefully considered the legal reasons it is permitted to collect, use, share and otherwise process your information.",
+    "onde": "Doc 1, Privacy Policy, seção 6.1",
+    "por_que": "Remissão genérica às bases legais, sem citar experimentação — sustenta 'not stated' para experimentação especificamente.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We use information you share with us, or that we collect to conduct research, surveys, product testing, and troubleshooting to help us operate and improve our products and services.",
+    "onde": "Doc 1, Privacy Policy, seção 2.5",
+    "por_que": "Finalidade declarada que o avaliador mapearia como cobrindo experimentação; nenhuma base legal é atribuída a ela no doc 3.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 1,
+    "verbatim": "You can manage your privacy settings and other account features here . If you change your settings it may take some time for your choices to be fully reflected throughout our systems.",
+    "onde": "Doc 1, Privacy Policy, seção 5.3 'Objecting to, restricting, or withdrawing your consent'",
+    "por_que": "Controle genérico de configurações; não menciona experimentação — sustenta ausência de opt-out dedicado.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "We're committed to giving you meaningful privacy options to control or limit how we, our partners, and other third-parties use cookies and cookie-related data:",
+    "onde": "Doc 4, seção 'What are my privacy options?'",
+    "por_que": "Controles oferecidos são de cookies/ads, não de experimentação — falso positivo clássico previsto no codebook.",
+    "file": "x/04-rules-and-x-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "Adjust your setting for use of off-X data by going to Settings and privacy > Privacy and safety > Ads preferences > Personalized ads .",
+    "onde": "Doc 4, seção 'What are my privacy options?', 'Personalized ads setting in X'",
+    "por_que": "Controle específico governa publicidade, não experimentos.",
+    "file": "x/04-rules-and-x-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "X also provides information and user controls to enable X users to opt out of their public post data being used to train an underlying generative model.",
+    "onde": "Doc 3, 'Legitimate interests analysis summary – processing public post data to train machine learning and artificial intelligence models'",
+    "por_que": "Opt-out existente é de treino de IA, não de experimentação — avaliador precisa ver para não confundir.",
+    "file": "x/03-rules-and-data-processing-bases.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Visit your email notification settings and uncheck Participation in X research surveys in the Updates from X section.",
+    "onde": "Doc 8, 'How can I opt out of hearing about research opportunities via email?'",
+    "por_que": "Opt-out é de receber convites para pesquisas por e-mail, não de ser incluído em experimentos — fronteira relevante.",
+    "file": "x/08-rules-and-x-user-research.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "You can control whether X shares your personal information with these partners by using the “Data sharing with business partners” option in your Privacy and Safety settings .",
+    "onde": "Doc 1, Privacy Policy, seção 3.1 'With partners'",
+    "por_que": "Outro controle de compartilhamento/ads, não de experimentação.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V6": [
+   {
+    "doc": 7,
+    "verbatim": "By participating in this program, you’ll get access to experimental versions of X applications for mobile devices, such as the X for Android or X for iOS app.",
+    "onde": "Doc 7, Overview",
+    "por_que": "Programa voluntário de acesso a versões experimentais — núcleo do V6.",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "In order to participate in the X Experiments Program, you may be required to register for third-party services, such as Apple’s TestFlight, Google Groups, or Crashlytics",
+    "onde": "Doc 7, seção 1 Third-Party Services",
+    "por_que": "Menciona TestFlight explicitamente, exemplo citado no critério do V6.",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "You may, in your sole discretion, discontinue your participation in the X Experiments Program at any time.",
+    "onde": "Doc 7, seção 5 Term and Termination",
+    "por_que": "Confirma natureza voluntária/opt-in do programa beta.",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "About the X Experiments Program",
+    "onde": "Doc 5, índice, seção 'Research and Experiments'",
+    "por_que": "Localiza o programa beta no help centre.",
+    "file": "x/05-rules-and.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "What is the X iOS Beta program?",
+    "onde": "Doc 5, índice, seção 'Research and Experiments'",
+    "por_que": "Indica existência de canal beta adicional de inscrição voluntária.",
+    "file": "x/05-rules-and.md",
+    "role": "unknown"
+   }
+  ],
+  "V7": [
+   {
+    "doc": 1,
+    "verbatim": "We use the information we collect to communicate with you about our products and services, including about product updates and changes to our policies and terms.",
+    "onde": "Doc 1, Privacy Policy, seção 2.4",
+    "por_que": "Aviso de mudança de serviço — explicitamente excluído como debriefing pelo codebook; avaliador precisa ver para descartar.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "In addition, every ad on X provides a dropdown “Why am I seeing this ad?” option to let the individual see the basis on which the ad was shown to them, such as inferred age, gender, and interests.",
+    "onde": "Doc 3, 'Legitimate interests analysis summary – advertising we show you on X'",
+    "por_que": "Transparência sobre publicidade, não aviso de participação em experimento — falso positivo a descartar.",
+    "file": "x/03-rules-and-data-processing-bases.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Learn: Examine the data collected in the experiment to see what we can learn from it, and share with other Twitter teams.",
+    "onde": "Doc 6, blog, lista do ciclo de experimentação",
+    "por_que": "Compartilhamento dos resultados é interno ('other Twitter teams'), não com participantes — sustenta ausência de debriefing.",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Collecting this data not only ensures that the experimenter considered these questions, but also allows us to build up a corpus of institutional learning — a formal record of what’s been tried, and what the outcomes were, including negative outcomes.",
+    "onde": "Doc 6, blog, seção 'Process'",
+    "por_que": "Documentação de experimentos é institucional/interna; nenhuma comunicação a participantes é prevista.",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 6,
+    "verbatim": "Experimenters can also take advantage of Experiment Shepherds. Experiment Shepherds are experienced engineers and data scientists who review experiment hypotheses and proposed metrics to minimize the chances of experiments going awry.",
+    "onde": "Doc 6, blog, seção 'Process'",
+    "por_que": "Mecanismo de revisão de experimentos — mas revisão metodológica por engenheiros, não ética; e em blog, não em documento ao usuário.",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "This is optional, and recommendations are non-binding.",
+    "onde": "Doc 6, blog, seção 'Process', logo após Experiment Shepherds",
+    "por_que": "Revisão é opcional e não vinculante — enfraquece qualquer leitura de comitê de revisão.",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Some teams also have weekly launch meetings, in which they review experimental results to determine what should and should not launch to a wider audience.",
+    "onde": "Doc 6, blog, seção 'Process'",
+    "por_que": "Revisão interna de resultados; avaliador decide se equivale a board — provavelmente não, e não está em doc ao usuário.",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "There are several practices one can implement to mitigate the risks.",
+    "onde": "Doc 6, blog, seção 'Experimenting responsibly'",
+    "por_que": "Linguagem de risco, mas risco metodológico (viés, má interpretação), não risco a sujeitos.",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We use information we collect to provide for the safety and security of our users, our products, services, and your account.",
+    "onde": "Doc 1, Privacy Policy, seção 2.2",
+    "por_que": "Linguagem de segurança sem qualquer avaliação de risco ética para experimentos — sustenta 'No' no registro vinculante.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 1,
+    "verbatim": "2.5 Research.\nWe use information you share with us, or that we collect to conduct research, surveys, product testing, and troubleshooting to help us operate and improve our products and services.",
+    "onde": "Doc 1, Privacy Policy (x.com/en/privacy), seção 2.5",
+    "por_que": "Divulgação em privacy policy — registro vinculante.",
+    "file": "x/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Please also note that these Terms incorporate our Privacy Policy ( https://x.com/privacy ) as well as other terms applicable to your use of the Services and your Content.",
+    "onde": "Doc 2, Summary of our Terms, último parágrafo",
+    "por_que": "Confirma que a Privacy Policy é incorporada ao acordo — determina o registro vinculante do doc 1.",
+    "file": "x/02-tos.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "If you live outside the European Union, EFTA States, or the United Kingdom, including if you live in the United States, the X User Agreement comprises these Terms of Service , our Privacy Policy , our Rules and Policies , and all incorporated policies.",
+    "onde": "Doc 2, após o sumário",
+    "por_que": "Define quais documentos são parte do User Agreement — inclui 'Rules and Policies', o que pode tornar vinculantes páginas do help centre (docs 3, 4, 5, 7).",
+    "file": "x/02-tos.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Research and experiments How X conducts research and experiments on the platform",
+    "onde": "Doc 5, help.x.com/en/rules-and-policies, categoria de índice",
+    "por_que": "Help centre como local de divulgação; e como 'Rules and Policies' é incorporado ao User Agreement, o registro é ambíguo.",
+    "file": "x/05-rules-and.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "These Terms, the X Terms of Service , the X Rules and our Privacy Policy are the entire and exclusive agreement of the parties regarding the subject matter of this Agreement",
+    "onde": "Doc 7, seção 9 Entire Agreement",
+    "por_que": "O documento do Experiments Program se declara acordo para quem participa — teste do codebook ('o documento se declara parte do acordo?').",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "The what and why of product experimentation at Twitter\nFriday, 23 October 2015",
+    "onde": "Doc 6, blog.x.com/engineering, cabeçalho",
+    "por_que": "Blog de engenharia — local de divulgação claramente não-vinculante, onde vive o conteúdo mais explícito sobre A/B testing.",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "We conduct research to better understand our users and to improve our products. There are many different types of users (including businesses, developers, and non-X users) in many different countries influencing our products through the feedback they provide in our studies.",
+    "onde": "Doc 8, help.x.com, 'About user research at X'",
+    "por_que": "Aviso de pesquisa em página dedicada do help centre — candidato a 'research notice separado'.",
+    "file": "x/08-rules-and-x-user-research.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "This supplements the X Privacy Policy to provide additional information about the types of data we collect, where we get it, and how we process and share it.",
+    "onde": "Doc 3, primeira linha",
+    "por_que": "Declara-se suplemento à Privacy Policy — relevante para decidir seu registro apesar de hospedado no help centre.",
+    "file": "x/03-rules-and-data-processing-bases.md",
+    "role": "unknown"
+   }
+  ]
+ },
+ "descartadas": 0,
+ "uso": {
+  "input": 82178,
+  "output": 7601
+ }
+}

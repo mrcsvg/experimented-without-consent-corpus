@@ -1,0 +1,461 @@
+{
+ "formato": 1,
+ "servico": "AliExpress",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T03:17:07+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "geracao": {
+  "max_tokens": 64000,
+  "thinking": "adaptive"
+ },
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 1,
+    "verbatim": "Conducting research and analytics to ensure the security of our Platform , to improve the content and layout of the Platform, and to improve our Platform, product offerings and services; and",
+    "onde": "Documento 1, Seção B. USE OF PERSONAL DATA, lista de finalidades",
+    "por_que": "Linguagem de 'research and analytics' + 'improve the content and layout of the Platform' — é o candidato mais forte a reconhecimento de testagem; não nomeia experimento, teste A/B ou grupos/variantes, o que delimita a fronteira entre nível 1 e 2.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Conducting research and analytics to ensure the security of our Platform , to ensure the security of our Platform, to improve the content and layout of the Platform, and to improve our Platform, product offerings and services.",
+    "onde": "Documento 1, Seção J (EEA/UK), tabela de finalidades e bases legais, linha 'Conducting research and analytics'",
+    "por_que": "Repetição da mesma finalidade dentro da tabela de bases legais do registro vinculante; mostra que o teto de linguagem no documento vinculante permanece em 'research/improve', sem menção a experimentos.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Questionnaire Information\nSuch as any response to questionnaires for market research/analytics which you choose to partake in which can include marital status, nationality, gender, date of birth, annual income and spending preferences.",
+    "onde": "Documento 1, Seção A, tabela de dados do Seller",
+    "por_que": "Única outra menção a 'research' — mas é pesquisa de mercado por questionário voluntário, não experimentação; relevante para o avaliador descartar falso positivo.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Certain uses of your personal data described above involve automated processing, including profiling, to personalize the products, content and advertising you see on the Platform.",
+    "onde": "Documento 1, Seção B, parágrafo sobre processamento automatizado",
+    "por_que": "Personalização algorítmica declarada como feature; o avaliador precisa decidir se isso é apenas personalização (não experimentação) conforme regra de fronteira do codebook.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "This criterion prioritises results of highest relevance, determined primarily by an algorithm that considers several factors, which may evolve over time.",
+    "onde": "Documento 6, Cláusula 6.3 'Ranking of products in search results', critério 'Best match'",
+    "por_que": "'may evolve over time' é a expressão mais próxima de variação de sistema em registro vinculante para consumidores UE/EEA/UK; não menciona testes, variantes ou grupos.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 1,
+    "verbatim": "Conducting research and analytics to ensure the security of our Platform , to improve the content and layout of the Platform, and to improve our Platform, product offerings and services; and",
+    "onde": "Documento 1, Seção B. USE OF PERSONAL DATA",
+    "por_que": "Co-ocorrência explícita de 'research' e 'improve our Platform, product offerings and services' na mesma cláusula — sustenta simultaneamente os enquadramentos research e service improvement.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "improving our Platform and our services, undertaking marketing, or for the purposes of ensuring the security of our Platform and services and detecting or preventing illegal activities such as fraud",
+    "onde": "Documento 1, Seção J, subseção 'Legal Basis for Data Processing', bullet 'Legitimate interests'",
+    "por_que": "Enquadramento de service improvement atrelado a interesse legítimo; é a formulação usada para justificar processamento.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Such as any response to questionnaires for market research/analytics which you choose to partake in",
+    "onde": "Documento 1, Seção A, tabela Seller, linha 'Questionnaire Information'",
+    "por_que": "Menção a 'market research' com participação voluntária — relevante para o avaliador decidir se há enquadramento de research e se chega ou não a human-subjects research.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We use cookies and similar tools (we refer to them collectively as “cookies”) to provide our services, understand how our customers use our service in order to make improvements, serve advertisements, including interest-based advertising, and share information about the use of our site with our analytics, advertising and social media partners.",
+    "onde": "Documento 3, seção 【About Cookies】",
+    "por_que": "Enquadramento de service improvement ('understand how our customers use our service in order to make improvements') em documento de cookies.",
+    "file": "aliexpress/03-terms-c-platform-service-agreement-20240401172006520.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "These Cookies collect information in aggregate form to help us determine and understand how users interact with and use our Platform. We use this information to help us to improve and optimize our Platform and its security.",
+    "onde": "Documento 3, seção Categories, Analytics Cookies",
+    "por_que": "Outra instância de service improvement; ausência de vocabulário de 'research' ou 'community well-being' ajuda a delimitar quais enquadramentos NÃO aparecem.",
+    "file": "aliexpress/03-terms-c-platform-service-agreement-20240401172006520.md",
+    "role": "unknown"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 1,
+    "verbatim": "to improve the content and layout of the Platform, and to improve our Platform, product offerings and services",
+    "onde": "Documento 1, Seção B. USE OF PERSONAL DATA, bullet 'Conducting research and analytics'",
+    "por_que": "Nomeia superfícies concretas ('content and layout of the Platform') associadas à finalidade de pesquisa/analytics — evidência central para V3a.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "This affects your experience by shaping the selection and order of products and the relevance of advertising displayed to you; without such processing, product recommendations would be non-personalized (e.g., based on popularity or recency) and advertising would be less tailored to your interests.",
+    "onde": "Documento 1, Seção B, parágrafo sobre processamento automatizado e profiling",
+    "por_que": "Nomeia ordenação de produtos e relevância de publicidade como superfícies afetadas; o avaliador deve julgar se é alvo de experimento ou mera personalização declarada.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "For detailed information about the parameters and logic of our recommendation and advertising systems, please refer to our Transparency Center .",
+    "onde": "Documento 1, Seção B, parágrafo sobre processamento automatizado",
+    "por_que": "Remete a documento externo para parâmetros — relevante para V3c (divulgação de experimento específico) e para o registro onde a especificidade mora.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Parameters prioritization and criteria: User behaviors (e.g., products clicked or purchased) and item statistics (e.g., click through rate, conversion rate) are weighted more heavily than static user and item profile (e.g., age range, product unique identifier) to prioritize real-time relevance and market responsiveness.",
+    "onde": "Documento 6, Cláusula 6.1 'Personalized recommendations'",
+    "por_que": "Descrição detalhada de parâmetros do sistema de recomendação — alta especificidade sobre ranking, mas apresentada como funcionamento do sistema, não como experimento.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "In the search result page, we may also feature promoted products, i.e., products which sellers pay to have displayed in certain search results. User's search keywords and seller's bids will generally have a higher weight in the ranking of ads shown compared to other parameters.",
+    "onde": "Documento 6, Cláusula 6.3, parágrafo final sobre produtos promovidos",
+    "por_que": "Ranking e leilão de anúncios descritos; relevante para V3b (ranking como superfície) e para avaliar se há alvo experimental nomeado.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "-“Price”: Products are ranked from the highest to the lowest price and vice versa.",
+    "onde": "Documento 6, Cláusula 6.3, lista de critérios de ordenação",
+    "por_que": "Única menção a preço como parâmetro de ordenação escolhido pelo usuário — NÃO é personalização de preço nem alvo de experimento de preço; central para decidir V3-pricing como No.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "information about your shopping behaviour on the platform (click, add to cart, add to wish list, purchased products with associated information such as payment method used and demonstrated purchasing power)",
+    "onde": "Documento 6, Cláusula 6.1, lista de informações usadas pelo recomendador",
+    "por_que": "'demonstrated purchasing power' é o item mais próximo de sinal econômico usado para personalização; o avaliador precisa julgar se isso toca preço (o texto o vincula a recomendação, não a precificação).",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "we will remind you before placing the order on potential existence of additional tax and costs that cannot be reasonably calculated in advance but may be payable by you (e.g. import duties, tax and handling fees for products imported from third countries into the EU)",
+    "onde": "Documento 6, Cláusula 3.1 e Cláusula 5.4",
+    "por_que": "Única outra ocorrência substantiva de preço/custo — é aviso de custos adicionais, não personalização de preço; útil para o avaliador descartar falso positivo em V3-pricing.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 1,
+    "verbatim": "Conducting research and analytics to ensure the security of our Platform , to ensure the security of our Platform, to improve the content and layout of the Platform, and to improve our Platform, product offerings and services.\nQuestionnaire Information\nPayment information\nOrder information and Logistics information\nGeneral Personal Information\n• Consent (where required under applicable law).\n• Otherwise our legitimate interests to operate and provide our Platform and improve our Platform.",
+    "onde": "Documento 1, Seção J, tabela 'Purpose / Type of Personal Information / Lawful Basis', linha de pesquisa e analytics",
+    "por_que": "Linha exata da tabela que mapeia a finalidade mais próxima de experimentação a bases legais: consentimento (onde exigido) e interesse legítimo. Evidência primária para V4.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "This processing is based on our legitimate interests in providing relevant and personalized experiences, subject to your right to object at any time.",
+    "onde": "Documento 1, Seção B, parágrafo sobre processamento automatizado e profiling",
+    "por_que": "Declara interesse legítimo como base para o processamento automatizado/profiling que molda a experiência do usuário.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "This section applies if you are based in the European Economic Area (“ EEA ”) and UK.",
+    "onde": "Documento 1, abertura da Seção J",
+    "por_que": "Evidência direta de que a tabela de bases legais por finalidade está condicionada à região do usuário (EEA/UK) — núcleo de v4_region_gated.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "This section of our Privacy Policy contains information required by certain U.S. state data privacy laws. If you reside in the United States, this section applies to you and supplements the rest of our Privacy Policy above.",
+    "onde": "Documento 1, abertura da Seção K. VISITORS FROM THE UNITED STATES",
+    "por_que": "Confirma a arquitetura por região: os regimes de base legal/direitos variam conforme jurisdição declarada do usuário.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Your consent is the basis for AliExpress to process your personal data, unless the processing is required by law. In that case your consent would not be required.",
+    "onde": "Documento 1, Seção M. VISITORS FROM MEXICO, 'Legal Basis for Data Processing'",
+    "por_que": "Base legal distinta (consentimento) para outra região — reforça o gating regional das bases declaradas.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We process personal information for the purposes set out in this Privacy Policy. Our legal basis to process for processing your personal information will depend on the personal information concerned and the specific context in which we collect it, but will rely on one of the following legal basis:",
+    "onde": "Documento 1, Seção J, 'Legal Basis for Data Processing'",
+    "por_que": "Enquadramento geral que precede a lista contract/legal obligation/legitimate interests/consent aplicável às finalidades incluindo pesquisa e analytics.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Advertisement\nProvide advertising services\nOAID\n●\nConsent\n●\nOr our legitimate interests to develop marketing activities and to promote our products and services to you",
+    "onde": "Documento 3, seção 【Third-party SDKs】, linha 'Advertisement' da tabela",
+    "por_que": "Mostra bases legais atribuídas por finalidade em documento de cookies/SDK; nenhuma linha atribui base a experimentação, o que ajuda a avaliar 'not stated' para experimentos.",
+    "file": "aliexpress/03-terms-c-platform-service-agreement-20240401172006520.md",
+    "role": "unknown"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 1,
+    "verbatim": "You can adjust your preferences or opt out of personalized recommendations and/or advertising via \"Settings\" > \"Privacy setting\".",
+    "onde": "Documento 1, Seção B, parágrafo sobre processamento automatizado",
+    "por_que": "Controle mais específico oferecido: opt-out de recomendações personalizadas e publicidade — não menciona experimentação; candidato a cookie/ads-only ou a fronteira com dedicated.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "The right to object to processing of your personal information when it is based on our legitimate interests.",
+    "onde": "Documento 1, Seção J, 'Your Rights'",
+    "por_que": "Direito genérico de objeção do GDPR, sem controle específico de experimento — âncora para o degrau GDPR-objection-only.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "You have the right to opt out of the processing of personal data for personalized advertising purposes at any time by changing your cookies choices via our Cookie Preferences on our Platform or by visiting our Privacy Center and opting out via the Advertising Preferences setting.",
+    "onde": "Documento 1, Seção K, 'Opt-out of Data Processing for purposes of Targeted Advertising and Data Sales to Third Parties'",
+    "por_que": "Opt-out explicitamente escopado a publicidade personalizada — falso positivo clássico descrito no codebook.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "You can manage your cookies through use of our Cookie Management Tool【 Cookie Preferences 】on our Platform.",
+    "onde": "Documento 3, seção 'How can I control Cookies?'",
+    "por_que": "Mecanismo de controle disponível é de cookies; nenhuma referência a experimentos.",
+    "file": "aliexpress/03-terms-c-platform-service-agreement-20240401172006520.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Essential Cookies cannot be disabled",
+    "onde": "Documento 3, tabela de Essential Cookies, coluna 'How to refuse'",
+    "por_que": "Delimita o escopo do controle de cookies; relevante para avaliar a abrangência real do opt-out.",
+    "file": "aliexpress/03-terms-c-platform-service-agreement-20240401172006520.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "When You first use the Sites and have not yet logged in, You will be asked to grant AliExpress the right to use cookies for our recommender system. If You refuse, AliExpress will not use your behavioural data and will not provide You with personalised recommendations.",
+    "onde": "Documento 6, Cláusula 6.2 'Canceling/modifying the content recommended to You'",
+    "por_que": "Consentimento prévio para cookies do sistema de recomendação — o controle mais próximo de opt-in, mas escopado a recomendação personalizada, não a experimentação.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "If you are logged in and want to choose which products or ads AliExpress should (or should not) recommend, You can modify or disable the main parameters described above by accessing your \"Privacy Settings\" in the \"Buyer Center\".",
+    "onde": "Documento 6, Cláusula 6.2",
+    "por_que": "Controle granular sobre parâmetros do recomendador; o avaliador deve decidir se isso cobre experimentação (o texto não a menciona).",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "These two alternative sorting options are not based on your profile.",
+    "onde": "Documento 6, Cláusula 6.3, parágrafo sobre filtros de ordenação",
+    "por_que": "Opção não-personalizada de ordenação (Orders/Price) — alternativa de escape da personalização, porém não de experimentação.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "You have the right to request human review of decisions based solely on automated processing.",
+    "onde": "Documento 1, Seção B, parágrafo sobre processamento automatizado",
+    "por_que": "Direito de revisão humana — não é opt-out de experimentação; útil para descartar falso positivo.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   }
+  ],
+  "V6": [],
+  "V7": [
+   {
+    "doc": 1,
+    "verbatim": "When we update our Privacy Policy, we will take appropriate measures to inform you, consistent with the significance of the changes we make and as required by applicable law, such as by posting an amended Privacy Policy on the Platform.",
+    "onde": "Documento 1, Seção I. CHANGES TO THIS PRIVACY POLICY",
+    "por_que": "Aviso de mudança de documento — explicitamente excluído como debriefing pelo codebook; incluído para que o avaliador confirme o falso positivo.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Upon becoming aware of a data breach, we will notify you and the regulatory authorities in accordance with the timescales and scope required by applicable data protection law.",
+    "onde": "Documento 1, Seção H. SECURITY MEASURES",
+    "por_que": "Notificação posterior, mas de incidente de segurança, não de participação em experimento — falso positivo a descartar.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Certain uses of your personal data described above involve automated processing, including profiling, to personalize the products, content and advertising you see on the Platform.",
+    "onde": "Documento 1, Seção B",
+    "por_que": "Aviso prévio/geral de processamento automatizado — o codebook exclui aviso de decisão automatizada como debriefing.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Where AliExpress becomes aware that an illegal product has been offered by a seller to you, AliExpress shall inform you of the fact that the product is illegal, of the identity of the seller and of the means of redress.",
+    "onde": "Documento 6, Cláusula 7 'Information on Product Conformity'",
+    "por_que": "Único mecanismo de notificação retroativa ao usuário encontrado nos documentos — refere-se a produto ilegal, não a experimento; evidência de ausência substantiva de debriefing.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "In such cases, and where the relevant electronic contact details are known to AliExpress, AliExpress will inform you with a statement of reasons and the possibilities for redress.",
+    "onde": "Documento 6, Cláusula 2.1, sobre suspensão por conteúdo ilegal",
+    "por_que": "Notificação posterior de medida tomada contra o usuário — de moderação, não de experimentação; falso positivo a descartar.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 1,
+    "verbatim": "We implement appropriate technical and organizational measures to prevent unauthorized access to our Platform, to maintain data accuracy and to ensure the correct use of the information we hold.",
+    "onde": "Documento 1, Seção H. SECURITY MEASURES",
+    "por_que": "Medidas técnicas/organizacionais de segurança — não é revisão ética nem avaliação de risco de experimento; falso positivo a descartar.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "In addition, we regularly assess the legal and regulatory frameworks of countries receiving the data to ensure the ongoing effectiveness of our transfer safeguards, particularly in cases where standard contractual clauses are used. These assessments help us determine whether supplementary measures are needed to ensure an essentially equivalent level of data protection as required by the GDPR.",
+    "onde": "Documento 1, Seção N. INTERNATIONAL TRANSFERS OF PERSONAL DATA",
+    "por_que": "Única linguagem de 'assessment' recorrente no policy — refere-se a transferências internacionais, não a risco de experimentos; borderline explícito para o avaliador.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "This profiling does not result in decisions that produce legal effects or similarly significant impacts (such as credit denial, employment screening, or insurance premium calculation).",
+    "onde": "Documento 1, Seção B, parágrafo sobre processamento automatizado",
+    "por_que": "Linguagem de 'significant impacts' — caso borderline de impacto previsto no codebook; é afirmação de não-impacto, não descrição de revisão ética ou comitê.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "For users identified as minors, we do not conduct behavioral profiling or serve targeted advertising.",
+    "onde": "Documento 1, Seção B, parágrafo sobre processamento automatizado",
+    "por_que": "Salvaguarda declarada para menores — proteção substantiva, mas não constitui revisão ética ou avaliação de risco para experimentos.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "When assessing, we may take into account all relevant facts and circumstances, including whether the conduct, content, or activity is unlawful or violates our policies",
+    "onde": "Documento 6, Cláusula 11 'Content Moderation'",
+    "por_que": "Avaliação descrita é de moderação de conteúdo de usuários, não de risco ético de experimentos — falso positivo a descartar.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 1,
+    "verbatim": "This Privacy Policy sets out the ways in which we collect, use and disclose information in connection with the operation of the Platform, including personal information about you, Platform users, visitors and representatives.",
+    "onde": "Documento 1, preâmbulo da AliExpress.com Privacy Policy",
+    "por_que": "Identifica o documento que hospeda a finalidade de 'research and analytics' como a Política de Privacidade.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Your access to and use of the Sites and AliExpress.com's services, software and products through the Sites, which shall include the platforms described in clause 7.1 (such services, software and products collectively referred to as the “ Services ” hereinafter) is subject to the terms and conditions contained in this document as well as the AliExpress.com Privacy Policy (defined in clause 3.3 below), the AliExpress Product Listing Policy and any other rules and policies of the Sites that AliExpress.com may publish from time to time.",
+    "onde": "Documento 2, cláusula 1.1 dos Terms of Use",
+    "por_que": "Prova textual de que a Privacy Policy é incorporada aos Terms como parte dos 'Terms' vinculantes — decisivo para v9_register.",
+    "file": "aliexpress/02-terms-suit-bu1-aliexpress-aliexpress202204182115-660.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "By accessing and use of the Sites and/or Services, you agree to accept and be bound by the Terms.",
+    "onde": "Documento 2, cláusula 1.1",
+    "por_que": "Declaração explícita de caráter vinculante do conjunto documental.",
+    "file": "aliexpress/02-terms-suit-bu1-aliexpress-aliexpress202204182115-660.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "This Contract incorporates by reference the documents, policies and rules listed below, as well as the related terms and agreements that may be provided by us and agreed by you when you engage with a feature of the Transaction Services, which you agree to comply with to the extent that they are applicable:\n- AliExpress.com Free Membership Agreement ﻿\n- AliExpress.com Terms of Use ﻿\n- AliExpress.com Privacy Policy (which includes our cookies policy) (\"Privacy Policy\")",
+    "onde": "Documento 6, Cláusula 1.4 'Entire Agreement'",
+    "por_que": "Confirma que Privacy Policy e Cookie Notice são incorporados ao contrato vinculante para consumidores UE/EEA/UK.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "This AliExpress Cookie Notice supplements the AliExpress.com Privacy Policy (\"Privacy Policy\") and describes how we use cookies and similar technologies, and handles personal information that we collect through cookies and similar technologies",
+    "onde": "Documento 3, preâmbulo do Cookie Notice",
+    "por_que": "Cookie Notice se declara suplemento da Privacy Policy — evidência para classificar seu registro.",
+    "file": "aliexpress/03-terms-c-platform-service-agreement-20240401172006520.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "For detailed information about the parameters and logic of our recommendation and advertising systems, please refer to our Transparency Center .",
+    "onde": "Documento 1, Seção B",
+    "por_que": "Aponta divulgação adicional em local distinto (Transparency Center), relevante para o multi-select de locais e para o registro onde a especificidade vive.",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "You can visit our Transparency Center portal for a more detailed description to our recommender systems in the \" policies \" section.",
+    "onde": "Documento 6, abertura da Cláusula 6 'Recommender Systems'",
+    "por_que": "Segunda remissão ao Transparency Center, desta vez a partir de documento contratual vinculante.",
+    "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "Intellectual Property Protection -\nPrivacy Policy -\nMappa del Sito -\nContratto di adesione gratuita ad AliExpress.com -\nInformazioni per i consumatori dell'UE -\nAccordo sui servizi di transazione per consumatori non UE/Regno Unito -\nTermini e Condizioni per i Consumatori UE/SEE/UK -\nUser Information Legal Enquiry Guide",
+    "onde": "Documento 4, rodapé da página do Transparency Center (policies.html)",
+    "por_que": "A página do Transparency Center capturada contém apenas navegação/rodapé — nenhum conteúdo substantivo sobre recomendação ou experimentos; registrar como conteúdo indisponível na captura.",
+    "file": "aliexpress/04-p-transparencycenter.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Informazioni DSA/OSA\n,\nRispetto dell'integrità\n,\nCentro di trasparenza ,\nInvio reclami (utenti non registrati) ,",
+    "onde": "Documento 5, bloco de navegação 'Supporto' (dsa.html)",
+    "por_que": "Página DSA do Transparency Center também sem corpo substantivo na captura — evidência de gap entre remissão e documento efetivamente disponível.",
+    "file": "aliexpress/05-p-transparencycenter-dsa.md",
+    "role": "unknown"
+   }
+  ]
+ },
+ "descartadas": 2,
+ "uso": {
+  "input": 91994,
+  "output": 9554
+ }
+}

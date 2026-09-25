@@ -1,0 +1,526 @@
+{
+ "formato": 1,
+ "servico": "Facebook",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T02:35:44+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 1,
+    "verbatim": "Build and test out new products and features to see if they work",
+    "onde": "Documento 1, secção \"Legal basis information\" > \"Performance of a contract\" > \"Providing Meta Products\" (lista de finalidades)",
+    "por_que": "Reconhece testar produtos/features com usuários, mas sem nomear método (grupos, variantes, aleatorização) — fronteira típica de nível 2 em registro vinculante.",
+    "file": "facebook/01-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We improve our Products by applying information about what you use them to do, and what else is happening on your device when our app crashes",
+    "onde": "Documento 2, secção \"How do we use your information?\" > Highlights",
+    "por_que": "Linguagem de melhoria do serviço (nível 1) no registro vinculante, útil para o piso da escada.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Build and test out new products and features to see if they work",
+    "onde": "Documento 2, secção \"How do we use your information?\" > \"How we use information to improve Meta Products\"",
+    "por_que": "Mesma fórmula de \"testar features\" sem método nomeado — evidência central para 2 vs 3 no registro vinculante.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Conduct research and analytics to evaluate the impact of new products and features,",
+    "onde": "Documento 2, \"Legal basis information\" > \"Legitimate interests\" > \"Improving Meta Products\"",
+    "por_que": "Avaliação de impacto de novas features — teste com usuários, ainda sem nomear desenho experimental.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We engage in research to develop, test and improve our Products. This includes analysing information that we have about our users and understanding how people use our Products, for example, by conducting surveys and testing and troubleshooting new features.",
+    "onde": "Documento 3, secção 1.1 \"Provide, personalise and improve our Products\"",
+    "por_que": "ToS (vinculante) reconhece pesquisa e teste de features com usuários; ainda sem menção a A/B, variantes ou grupos de controle.",
+    "file": "facebook/03-terms.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "the company announced this morning it will be rolling out a series of News Feed ranking tests that will ask users to provide feedback about the posts they’re seeing, which will later be incorporated into Facebook’s News Feed ranking process",
+    "onde": "Documento 6 (TechCrunch, não-vinculante), 1º parágrafo",
+    "por_que": "Registro não-vinculante descreve testes de ranking conduzidos com usuários.",
+    "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "The company tells TechCrunch the survey data will be collected from a small percentage of users who are placed into the test groups, which will then be used to train a machine learning model.",
+    "onde": "Documento 6 (TechCrunch), parágrafo final sobre coleta de dados",
+    "por_que": "Menciona explicitamente \"test groups\" — usuários distintos alocados a grupos de teste, indício de nível 3 fora do contrato.",
+    "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "This will be done through a series of global tests, one of which will involve a survey directly beneath the post itself",
+    "onde": "Documento 6 (TechCrunch), 2º parágrafo",
+    "por_que": "Confirma programa de testes globais em registro não-vinculante.",
+    "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "A/B testing lets you compare two versions of an ad strategy by changing variables such as ad images, ad text, audience or placement. We show each version to a segment of your audience and ensure that nobody sees both, then determine which version performs best.",
+    "onde": "Documento 7, Business Help Centre, secção \"About A/B testing\"",
+    "por_que": "Nomeia A/B testing e variantes servidas a segmentos distintos — nível 3 literal, porém em documento de ajuda para anunciantes (não-vinculante) e sobre testes feitos pelo anunciante, não pela Meta sobre usuários.",
+    "file": "facebook/07-business-help.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "You can create an A/B test in Meta Ads Manager or in the Experiments tool .",
+    "onde": "Documento 7, fim da secção \"When to use an A/B test\"",
+    "por_que": "Uso explícito de \"Experiments\" em sentido experimental, em registro não-vinculante — relevante para v1_register.",
+    "file": "facebook/07-business-help.md",
+    "role": "non-binding"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 1,
+    "verbatim": "To provide, personalise and improve our Products",
+    "onde": "Documento 1, secção \"How do we use your information?\", cabeçalho de finalidade",
+    "por_que": "Enquadramento de service improvement no registro vinculante.",
+    "file": "facebook/01-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "To research and innovate for social good\nWe use information we have, information from researchers and datasets from publicly available sources, professional groups and charitable groups to conduct and support research.",
+    "onde": "Documento 1, secção \"How do we use your information?\" > última finalidade",
+    "por_que": "Co-ocorrência explícita de research e social-good/community.",
+    "file": "facebook/01-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We research for the good of people around the world, for instance to advance technology or to help out in a crisis",
+    "onde": "Documento 2, \"How do we use your information?\" > Highlights",
+    "por_que": "Research + social-good no mesmo enunciado.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We carry out surveys and use information (including from researchers that we collaborate with) to conduct and support research and innovation on topics of general social welfare, technological advancement, public interest, health and well-being.",
+    "onde": "Documento 2, \"Legitimate interests\" > \"Undertaking research and innovation for social good\"",
+    "por_que": "Enquadramento de bem-estar social/ público — ecoa justificativa de pesquisa com sujeitos humanos.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We work with independent researchers to better understand the impact that social media might have on elections and democratic processes",
+    "onde": "Documento 2, \"Researching and innovating for social good\" > exemplos",
+    "por_que": "Pesquisa acadêmica sobre efeitos em pessoas — candidato a human-subjects research.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We provide information to external researchers. They use it to conduct research that advances scholarship and innovation, and to promote safety, security and integrity.",
+    "onde": "Documento 2, \"How do we share information with third parties?\" > \"External researchers\"",
+    "por_que": "Research framing com parceiros acadêmicos externos.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "such as sharing relevant research data with third parties such as international organisations and academics both in and outside the EEA. The public interest is required to be laid down in Union law or Member State law or other applicable law to which we are subject. In this case, we rely on Articles 168 and 179 of the Treaty on the Functioning of the European Union.",
+    "onde": "Documento 2, \"Tasks carried out in the public interest\" > \"Undertaking research for social good\"",
+    "por_que": "Research enquadrada como tarefa de interesse público com base em tratado — reforça social-good.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We engage in research to develop, test and improve our Products.",
+    "onde": "Documento 3, secção 1.1",
+    "por_que": "Co-ocorrência research + service improvement no ToS.",
+    "file": "facebook/03-terms.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Our mission is to give people the power to build community and bring the world closer together.",
+    "onde": "Documento 3, secção 1 \"The services we provide\"",
+    "por_que": "Linguagem de comunidade — possível social-good/community framing, embora não atada diretamente a experimentos.",
+    "file": "facebook/03-terms.md",
+    "role": "unknown"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 2,
+    "verbatim": "Personalising features, content and recommendations , such as your Facebook Feed , Instagram Feed , Meta AI, Stories and ads (if we show you ads).",
+    "onde": "Documento 2, \"How do we use your information?\" > \"To provide, personalise and improve our Products\"",
+    "por_que": "Nomeia superfícies (Feed, Stories, ads) mas como personalização declarada, não como alvo de experimento — distinção exigida por V3b.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Conduct surveys and other research on what we can do better for Meta Products and brands",
+    "onde": "Documento 2, \"How we use information to improve Meta Products\"",
+    "por_que": "Atividade de pesquisa nomeada genericamente (surveys), sem alvo experimental específico.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Please see our recommender systems' system cards for information on how our various recommender systems prioritise signals to determine which content and suggestions to show you, as well as options for customising your experience.",
+    "onde": "Documento 3, secção 1.1",
+    "por_que": "Ranking/recomendação nomeado como sistema, com remissão a system cards — relevante para V3a e para discutir se é alvo de experimento ou só personalização.",
+    "file": "facebook/03-terms.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Facebook will be looking to learn which content people find inspirational, what content they want to see less of (like politics), and what other topics they’re generally interested in, among other things.",
+    "onde": "Documento 6, 1º parágrafo",
+    "por_que": "Alvos concretos: ranking de conteúdo e reação afetiva (\"inspirational\") — evidência de V3b em registro não-vinculante.",
+    "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "one of which will involve a survey directly beneath the post itself which asks, “How much were you inspired by this post?,” with the goal of helping to show more people posts of an inspirational nature closer at the top of the News Feed.",
+    "onde": "Documento 6, 2º parágrafo",
+    "por_que": "Experimento específico e ativo descrito (V3c), mirando afeto e ordenação do Feed.",
+    "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Shortly after the Capitol attack, Facebook announced it would try clamping down on political content in the News Feed for a small percentage of people in the U.S., Canada, Brazil and Indonesia, for period of time during tests.",
+    "onde": "Documento 6, parágrafo sobre política",
+    "por_que": "Experimento específico com amostra parcial de usuários e alvo de ranking de conteúdo político.",
+    "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "It will also more prominently feature the option to hide posts you find “irrelevant, problematic or irritating.” Although this feature existed before, you’ll now be able to tap an X in the upper-right corner of a post to hide it from the News Feed, if in the test group, and see fewer like it in the future, for a more personalized experience.",
+    "onde": "Documento 6, parágrafo sobre controles",
+    "por_que": "Alvo de fricção/interface testado em grupo de teste — V3b e V3c.",
+    "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "The company says the tests will run over the next few months.",
+    "onde": "Documento 6, penúltimo parágrafo",
+    "por_que": "Indica experimentos ativos com janela temporal.",
+    "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "A/B testing lets you compare two versions of an ad strategy by changing variables such as ad images, ad text, audience or placement.",
+    "onde": "Documento 7, secção \"About A/B testing\"",
+    "por_que": "Alvos nomeados (copy/imagem/audiência/placement), mas em ferramenta de anunciante — avaliar se conta para V3b do serviço.",
+    "file": "facebook/07-business-help.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "If you choose to subscribe to use our Products without ads, you won't see ads from us and we do not use your data for ads. The details of price, currency and payment period for the subscription for no ads will be provided to you before you complete your purchase.",
+    "onde": "Documento 3, secção 2 \"How our services are funded\"",
+    "por_que": "Única menção a preço nos registros vinculantes; é preço de assinatura, não personalização/teste de preço — relevante para descartar V3-pricing.",
+    "file": "facebook/03-terms.md",
+    "role": "unknown"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 2,
+    "verbatim": "We also use information that we have to develop, research and test improvements to Meta Products. We use information that we collect to:\nDevelop and improve products and features\nBuild and test out new products and features to see if they work",
+    "onde": "Documento 2, \"Legitimate interests\" > \"Providing and improving Meta Products\" (usuários abaixo da maioridade)",
+    "por_que": "Testes de produto declarados sob legitimate interests — finalidade que mapeia experimentação.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Improve Meta Products by developing new features or updating existing features. We use information that we collect to:\nConduct research and analytics to evaluate the impact of new products and features,",
+    "onde": "Documento 2, \"Legitimate interests\" > \"Improving Meta Products\" (todos usuários registrados)",
+    "por_que": "Base legal explícita (interesse legítimo) para pesquisa/avaliação de novas features.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Build and test out new products and features to see if they work",
+    "onde": "Documento 2, \"Performance of a contract\" > \"Providing Meta Products\"",
+    "por_que": "A mesma atividade de teste também aparece sob execução de contrato — multi-seleção provável (contract + legitimate interest).",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We collect, store, combine, analyse and apply automatic processing techniques such as aggregation to information, as well as manual (human) review as necessary to undertake research and other tasks in the public interest",
+    "onde": "Documento 2, \"Tasks carried out in the public interest\" > \"Undertaking research for social good\"",
+    "por_que": "Base adicional (interesse público) para pesquisa — não listada entre os valores da v2, anotar em Notes.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We process information as described below when you have given us your consent to do so, which we may ask through in-product experiences, to enable particular features or to enable device-based settings.",
+    "onde": "Documento 2, \"Legal basis information\" > \"Consent\" (abertura)",
+    "por_que": "Consentimento existe, mas as finalidades listadas são ads/dados sensíveis/identidade — não experimentação; útil para negar consent como base.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Under applicable data protection law, companies must have a legal basis to process personal data. When we talk about \"processing personal data\", we mean the ways we collect, use and share your information, as we described in the other sections of this Policy above.",
+    "onde": "Documento 1, secção \"What is our legal basis for processing your information, and what are your rights?\"",
+    "por_que": "Contextualiza que a tabela de bases é enquadrada em direito de proteção de dados aplicável (UE/Irlanda).",
+    "file": "facebook/01-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "The data controller responsible for your information is Meta Platforms Ireland Limited, which you can contact online or by writing to:",
+    "onde": "Documento 1, \"How to contact Meta with questions\"",
+    "por_que": "Indica que o documento capturado é a versão UE (controlador irlandês) — evidência para avaliar v4_region_gated.",
+    "file": "facebook/01-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "This Policy describes the information that we, Meta Platforms Ireland Limited, process to provide Meta Products , which we also call \"Products\".",
+    "onde": "Documento 2, nota de rodapé 1 \"What Products does this Policy cover?\"",
+    "por_que": "Confirma versão UE do documento; não há como verificar, só com estes documentos, se a tabela de bases varia por IP/locale.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 2,
+    "verbatim": "You can object to our processing your information when we rely on legitimate interests or perform a task in the public interest. We will consider several factors when assessing an objection, including:",
+    "onde": "Documento 2, \"What is our legal basis...\" > \"Object\"",
+    "por_que": "Direito genérico de objeção do Art. 21, sem controle específico de experimentação — âncora para GDPR-objection-only.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "When we process your information as necessary to pursue our legitimate interests or those of a third party, you have the right to object to, and seek restriction of, such processing; to exercise your right, visit the Facebook settings and the Help Centre and Instagram settings .",
+    "onde": "Documento 1, fim da secção \"Legitimate interests\"",
+    "por_que": "Mesmo direito genérico no registro vinculante; note que a base que cobre testes é legitimate interests.",
+    "file": "facebook/01-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "You can control whether we show you ads and which information we use to show you ads in Ad preferences .",
+    "onde": "Documento 2, \"How we show ads (if we show you ads)\"",
+    "por_que": "Controle existente é de publicidade, não de experimentação — falso positivo clássico a ser descartado.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "We use cookies to help personalise and improve content and services, provide a safer experience and to show you useful and relevant ads on and off Meta Products. You can control how we use data to show you ads and more by using the tools described below.",
+    "onde": "Documento 5, secção \"How can you control your information?\"",
+    "por_que": "Controles de cookies governam ads/medição; não há opt-out de experimentação.",
+    "file": "facebook/05-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "You have control over the optional cookies that we use. Learn more about cookies and how we use them, and review or change your choices at any time in our Cookies Policy .",
+    "onde": "Documento 7, banner de cookies ao fim da página",
+    "por_que": "Banner de consentimento rege cookies/ads — não experimentação.",
+    "file": "facebook/07-business-help.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "It will also be exploring ways to give people more direct controls over what sort of content they see on the News Feed in the future.",
+    "onde": "Documento 6, penúltimo parágrafo",
+    "por_que": "Controles prospectivos sobre conteúdo, não sobre participação em testes — não é opt-out de experimentação.",
+    "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+    "role": "non-binding"
+   }
+  ],
+  "V6": [],
+  "V7": [
+   {
+    "doc": 1,
+    "verbatim": "We'll notify you before we make material changes to this Policy. You'll have the opportunity to review the revised Policy before you choose to continue using our products.",
+    "onde": "Documento 1, \"How will you know that the Policy has changed?\"",
+    "por_que": "Aviso de mudança de política — falso positivo explicitamente excluído pelo critério de V7.",
+    "file": "facebook/01-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We'll contact you via email or in-product notifications in relation to the Meta Products, product-related issues, research or to let you know about our terms and policies.",
+    "onde": "Documento 2, \"Legal basis information\" > \"Performance of a contract\" > \"Communicating with you\"",
+    "por_que": "Comunicação que menciona \"research\", mas é notificação de produto/pesquisa em geral, não aviso posterior de participação em experimento — avaliador precisa ler para decidir se é debriefing.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We may need to send you communications, such as emails or in-product notices, to respond to you or inform you about any product-related issues, research or our terms and policies.",
+    "onde": "Documento 3, secção 1.4 \"Communicating with you\"",
+    "por_que": "Mesma fórmula no ToS; nenhum mecanismo de informar que o usuário esteve em grupo de teste.",
+    "file": "facebook/03-terms.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "through ongoing research sessions where people are invited to talk about their News Feed experience",
+    "onde": "Documento 6, parágrafo sobre conteúdo negativo",
+    "por_que": "Convite para sessões de pesquisa é recrutamento, não debriefing posterior — útil para descartar.",
+    "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+    "role": "non-binding"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 2,
+    "verbatim": "Find and address violations of our terms or policies. In some cases, the decisions we make about violations are reviewed by the Oversight Board . They may use the information we have when they review our decisions.",
+    "onde": "Documento 2, \"Promoting safety, security and integrity\"",
+    "por_que": "Único \"board\" citado; revisa decisões de moderação, não experimentos — borderline a ser negado com nota.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "In our interest to develop and improve Meta Products while ensuring appropriate safeguards.",
+    "onde": "Documento 2, \"Legitimate interests\" > \"Improving Meta Products\"",
+    "por_que": "Linguagem vaga de \"safeguards\" sem descrever revisão ética ou avaliação de risco — borderline típico de V8.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "In our interest, and in the interests of users and third parties, to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.",
+    "onde": "Documento 2, \"Legitimate interests\" > \"Developing and improving AI at Meta\"",
+    "por_que": "Safeguards definidos como qualidade de resposta do modelo, não revisão ética de experimentos.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We will consider several factors when assessing an objection, including:\nOur users' reasonable expectations\nThe benefits and risks to you, us, other users or third parties",
+    "onde": "Documento 2, \"Object\"",
+    "por_que": "Linguagem de risco/benefício atada a avaliação de objeção, não a revisão de experimentos — falso positivo previsto no critério.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "When sharing information with external researchers, we ensure that the privacy of our users is protected. Learn more about the privacy-safe research that we support.",
+    "onde": "Documento 2, \"How do we share information with third parties?\" > \"External researchers\"",
+    "por_que": "Salvaguarda de privacidade em pesquisa externa; não é comitê de ética nem avaliação de risco de experimento — decisão do avaliador.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We provide specific protections for people below the age of majority to ensure that they are aware of the risks, consequences, safeguards and rights associated with the processing of their information.",
+    "onde": "Documento 2, parágrafo final da secção \"Legitimate interests\"",
+    "por_que": "Menção a riscos e salvaguardas para menores; ligada a processamento em geral, não a experimentos.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 1,
+    "verbatim": "Privacy Policy\nPolicy updated on 23 Jul 2026.",
+    "onde": "Documento 1, cabeçalho (facebook.com/privacy/policy/)",
+    "por_que": "Localiza a divulgação de testes/pesquisa na política de privacidade (vinculante).",
+    "file": "facebook/01-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "This Privacy Policy explains how we collect, use and share your information. It also describes how long we keep your information for and how we keep it safe when we transfer it.",
+    "onde": "Documento 2, \"What is the Privacy Policy and what does it cover?\" > Highlights",
+    "por_que": "Versão imprimível da mesma política — registro vinculante.",
+    "file": "facebook/02-privacy-policy-printable.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "These Terms (formerly known as the Statement of Rights and Responsibilities) make up the entire agreement between you and Meta Platforms Ireland Limited regarding your use of our Products.",
+    "onde": "Documento 3, Overview",
+    "por_que": "Documento se declara parte do acordo — critério de registro vinculante para o ToS, que contém a cláusula de research/test.",
+    "file": "facebook/03-terms.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "These Terms of Service (the \"Terms\") govern your access and use of Facebook, Messenger and the other products, websites, features, apps, services, technologies and software we offer",
+    "onde": "Documento 4, Overview",
+    "por_que": "Confirma função legal vinculante do ToS em segunda URL.",
+    "file": "facebook/04-terms-4.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "This policy explains how we use cookies and the choices you have. Except as otherwise stated in this policy, the Privacy Policy will apply to our processing of the data that we collect via cookies.",
+    "onde": "Documento 5, \"What are cookies and what does this policy cover?\"",
+    "por_que": "Cookies Policy vinculante, hospedada em /policies/ — local adicional de divulgação (sem menção a experimentação).",
+    "file": "facebook/05-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "About A/B testing | Meta Business Help Centre",
+    "onde": "Documento 7, título da página (facebook.com/business/help/...)",
+    "por_que": "A divulgação mais explícita de experimentação vive no help centre para empresas — registro não-vinculante.",
+    "file": "facebook/07-business-help.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Facebook launches a series tests to inform future changes to its News Feed algorithms",
+    "onde": "Documento 6, título (TechCrunch)",
+    "por_que": "Divulgação de experimentos específicos via imprensa/PR — registro não-vinculante.",
+    "file": "facebook/06-04-22-facebook-launches-a-series-tests-to-inform-fut.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Recommender systems' system cards : This link sets out information on the main parameters of our recommender systems, as well as options for customising your experience.",
+    "onde": "Documento 3, secção 5 \"Other Terms and Policies that may apply to you\"",
+    "por_que": "ToS remete a documento externo (system cards) — evidência de dispersão de locais de divulgação.",
+    "file": "facebook/03-terms.md",
+    "role": "unknown"
+   }
+  ]
+ },
+ "descartadas": 0,
+ "uso": {
+  "input": 111272,
+  "output": 8594
+ },
+ "geracao": {
+  "max_tokens": 16000,
+  "thinking": "adaptive",
+  "nota": "teto anterior; JSON completo, sem truncamento"
+ }
+}

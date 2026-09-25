@@ -1,0 +1,357 @@
+{
+ "formato": 1,
+ "servico": "Zalando",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T03:02:27+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "geracao": {
+  "max_tokens": 64000,
+  "thinking": "adaptive"
+ },
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 5,
+    "verbatim": "We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is an approach to comparing two versions of a website or app in order to find out which version performs better, is more popular or lets users find their desired content quicker. Producing version A and version B and testing both versions provides data which makes it easier and faster to make changes to services and content.",
+    "onde": "Privacy Notice, cap. 4 'Info on websites and apps', secção 4.5 'Usage analysis'",
+    "por_que": "Nomeia explicitamente 'A/B tests'/'split testing' e descreve duas versões servidas a usuários — corresponde ao degrau 3 da escada, e está num documento de registro vinculante (Privacy Notice do shop).",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We may also carry out so-called A/B tests in the course of usage analysis.",
+    "onde": "PDF do Privacy Notice (registro binding), secção 4.5 'Usage analysis', p. 26",
+    "por_que": "Confirma que a menção a A/B test está também no PDF marcado como registro vinculante no manifesto — relevante para v1_register.",
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "role": "binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Online controlled experimentation, aka A/B test, has been a golden standard for evaluating improvements in software systems. By changing one factor at a time, A/B test causally measures, from real users, whether one product variant is better than the other.",
+    "onde": "Blog de engenharia, primeiro parágrafo do post 'Experimentation Platform at Zalando: Part 1 - Evolution'",
+    "por_que": "Registro não-vinculante com reconhecimento explícito de experimentação controlada em usuários reais ('from real users', 'product variant') — degrau 3 também fora do contrato.",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "During these years, we have boosted the number of running A/B tests at Zalando.",
+    "onde": "Blog de engenharia, secção 'Phase two: walk (2016-2020)'",
+    "por_que": "Evidência de volume/rotina de experimentação, mas apenas no registro não-vinculante.",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "To ensure fairness and relevance, our recommender system is monitored and updated regularly. We conduct rigorous testing to identify potential biases and continuously improve the algorithm to align with your needs and expectations.",
+    "onde": "Terms & Conditions, secção 11.9.4 'Algorithmic Monitoring and Updates'",
+    "por_que": "Citação de fronteira: 'rigorous testing' em documento vinculante, mas sem menção a grupos, variantes ou aleatorização — isolada seria no máximo nível 2; o avaliador precisa vê-la para julgar o teto do registro vinculante.",
+    "file": "zalando/06-zalando-terms.md",
+    "role": "unknown"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 5,
+    "verbatim": "These cookies only contain anonymous or pseudonymous information and are only used to improve our website and to find out what our users are interested in, as well as to measure the effectiveness of our advertising.",
+    "onde": "Privacy Notice, secção 4.2, bloco 'Performance and analytics cookies'",
+    "por_que": "Enquadramento de 'service improvement' ligado à categoria de cookies que governa a usage analysis (onde os testes A/B ocorrem).",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "We also use your data within the framework of the strict German and European data protection law, but also for other purposes such as product development, scientific research (especially in the areas of machine learning, artificial intelligence and deep learning) and market research, for the optimisation of business processes, the needs-based design of our services and personalised advertising.",
+    "onde": "Privacy Notice, abertura do cap. 2 'What does Zalando use my data for?'",
+    "por_que": "Co-ocorrência clara de 'research' (scientific research, market research) com melhoria/design do serviço.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "We process the data collected on our customers for scientific research in the areas relevant to Zalando. As part of this we use combined insights about your preferences and interests to better understand your needs on a holistic level.",
+    "onde": "Privacy Notice, secção 2.3 'Research, machine learning and artificial intelligence'",
+    "por_que": "Enquadramento explícito de pesquisa científica sobre dados de clientes; ajuda a decidir entre 'research' e 'human-subjects research'.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Research at Zalando concentrates on solutions to real, everyday online shopping problems and is meant to serve the improvement and development of the existing services range.",
+    "onde": "Privacy Notice, secção 2.3",
+    "por_que": "Mostra a pesquisa sendo subordinada à melhoria do serviço (co-ocorrência research + service improvement), sem vocabulário de sujeitos humanos ou bem-estar comunitário.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "A/B tests are not always feasible for every use case. For example, comparing performance between two countries. In such cases, quasi-experimental methods are better suited.",
+    "onde": "Blog de engenharia, secção 'Phase two: walk (2016-2020)', item 'The right analysis tool'",
+    "por_que": "Enquadramento de pesquisa/metodologia causal, mas em registro não-vinculante.",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "role": "non-binding"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 5,
+    "verbatim": "A/B testing (also known as split testing) is an approach to comparing two versions of a website or app in order to find out which version performs better, is more popular or lets users find their desired content quicker.",
+    "onde": "Privacy Notice, secção 4.5 'Usage analysis'",
+    "por_que": "V3a: nomeia as superfícies testadas ('a website or app') e o critério de desempenho, mas de forma genérica.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Producing version A and version B and testing both versions provides data which makes it easier and faster to make changes to services and content.",
+    "onde": "Privacy Notice, secção 4.5 'Usage analysis'",
+    "por_que": "V3b: o alvo declarado é 'services and content' — não nomeia ranking, preço, afeto, fricção ou defaults como alvos de experimento.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Randomization engine latency . Some applications have strict requirements for latency. For example, a slightly higher loading times of product detail pages may cause customers to churn.",
+    "onde": "Blog de engenharia, secção 'Phase two: walk (2016-2020)'",
+    "por_que": "Superfície concreta (product detail pages) associada ao motor de randomização, mas em registro não-vinculante e sem descrever um experimento específico.",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "In other cases, several teams are working on a complex feature release and want to release the product at the same time. In general, such staged rollouts are called controlled rollouts. To support these use cases, Octopus created new features such as traffic ramp-up in experimentation and feature toggles .",
+    "onde": "Blog de engenharia, secção 'Phase two: walk (2016-2020)', item 'Controlled rollout'",
+    "por_que": "Descreve mecânica (ramp-up de tráfego, feature toggles) sem divulgar qualquer experimento específico ou ativo — relevante para V3c.",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Price: While all price ranges are represented, the system may highlight products that align with your historical preferences and/or current promotions.",
+    "onde": "Terms & Conditions, secção 11.9.1 'Key Parameters Influencing Rankings'",
+    "por_que": "Único lugar onde preço aparece como parâmetro de sistema; é parâmetro de ranking/recomendação, não alvo declarado de experimento — evidência para V3-pricing = No.",
+    "file": "zalando/06-zalando-terms.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "To improve the relevance of your shopping experience, we may connect information from your various activities across our services. For instance, if your browsing and purchase history shows a preference for a certain brand, we may use this insight to adjust the content and offers you see on our websites and in our apps.",
+    "onde": "Privacy Notice, secção 2.2 'Shopping personalisation'",
+    "por_que": "Personalização declarada (não é alvo de experimento pela regra do codebook) — incluída para o avaliador não confundir com V3b.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 5,
+    "verbatim": "You can keep your data from being collected for usage analysis through performance and analytics cookies by deselecting the respective cookie category.",
+    "onde": "Privacy Notice, final da secção 4.5 'Usage analysis'",
+    "por_que": "Liga os testes A/B (descritos como parte da usage analysis) à categoria de cookies de performance/analytics, cuja base legal é tratada noutro ponto.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Legal basis: The legal basis for the Web Performance and Analytics cookies is - unless otherwise stated - your consent according to Art. 6 (1) a GDPR.",
+    "onde": "Privacy Notice corporativo, secção 3.2, bloco 'Web Performance and Analytics'",
+    "por_que": "Declara consentimento (Art. 6(1)(a)) para analytics — mas este é o notice do site corporativo, não o do shop; o avaliador deve decidir se transfere para a experimentação do shop.",
+    "file": "zalando/03-zalando-data-protection-statement.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Legal basis: The legal basis for the processing of your data within the framework of the research purposes described above is Article 6 (1) f GDPR, whereby our legitimate interests are in the above purposes.",
+    "onde": "Privacy Notice, fim da secção 2.3 'Research, machine learning and artificial intelligence'",
+    "por_que": "Interesse legítimo declarado para a finalidade de pesquisa, a finalidade mais próxima de experimentação no documento vinculante.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Legal basis: The legal basis for the processing of your data for product and technology development purposes is Article 6 (1) f GDPR, whereby our legitimate interests are in the above purposes.",
+    "onde": "Privacy Notice, fim da secção 2.7 'Product and technology development'",
+    "por_que": "Segunda finalidade candidata a cobrir experimentação ('development and improvement of personalised services'), também sob interesse legítimo.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "This Privacy Notice therefore applies to all benefits and services which we offer our European customers.",
+    "onde": "Privacy Notice, introdução 'Which services and offers this Privacy Notice applies to'",
+    "por_que": "Relevante para v4_region_gated: o documento se declara aplicável a clientes europeus, sem tabela de bases legais condicionada a IP/locale — não há como verificar gating a partir do texto.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Another major data quality issue is the data tracking consent imposed by GDPR. As we process data only for visitors who provided their consent, we have been working on research to understand the selection bias for A/B tests and its solution.",
+    "onde": "Blog de engenharia, secção 'Phase three: run (2020-)', item 'Automating data quality indicators'",
+    "por_que": "Afirmação (não-vinculante) de que os dados de A/B test vêm só de visitantes que consentiram — sustenta 'consent' como base efetiva, mas fora do contrato.",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "role": "non-binding"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 5,
+    "verbatim": "You can keep your data from being collected for usage analysis through performance and analytics cookies by deselecting the respective cookie category. If you have previously selected this cookie category, you can deselect it at any time:",
+    "onde": "Privacy Notice, final da secção 4.5 'Usage analysis' (logo após o parágrafo sobre A/B tests)",
+    "por_que": "Controle mais próximo de um opt-out: é uma categoria de cookies (analytics), não um controle dedicado de experimentação — decide entre 'cookie/ads-only' e 'dedicated'.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "You can find these settings at the bottom of the Zalando website under “Data preferences” or on the Zalando Lounge website under “Data tracking”. In the app, you can make this change in “App settings” under “Data tracking”.",
+    "onde": "Privacy Notice, secção 4.5 'Usage analysis'",
+    "por_que": "Mostra que o mecanismo é o painel de preferências de cookies/tracking, não um switch de experimentação.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Performance and analytics cookies: these cookies collect device and access data in order to analyse how our website is used. This includes capturing which areas of the website are used (browsing habits), how fast content is loaded, and whether errors occur.",
+    "onde": "Privacy Notice, secção 4.2, 'Info on website cookies'",
+    "por_que": "Define o escopo da categoria: medição de uso; não menciona alocação a variantes — apoia a leitura 'cookie/ads-only'.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "You may object to the processing of your data for advertising purposes, including direct marketing (including in the form of data analysis) at any time without giving reasons.",
+    "onde": "Privacy Notice, cap. 11 'Which data protection rights do I have?', bloco 'Important information'",
+    "por_que": "Direito de objeção genérico (Art. 21) limitado a publicidade/marketing — não é opt-out de experimentação.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "If we are processing your data on the basis of balancing of interests according to Article 6 (1) f GDPR (e.g. the reporting of creditworthiness to an external credit agency), you may object to the processing.",
+    "onde": "Privacy Notice, cap. 11 'Which data protection rights do I have?'",
+    "por_que": "Objeção genérica ao interesse legítimo — cobre, em tese, pesquisa/desenvolvimento, mas sem controle específico de experimento (nível 'GDPR-objection-only').",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "You can update this information to influence the personalisation of our recommender systems, e.g. by selecting your preferences. You can do this under “Your account” > “Data and privacy” > “Recommendation preferences” > “Profile information”.",
+    "onde": "Privacy Notice, secção 3.5 'Your options'",
+    "por_que": "Falso positivo provável: é controle de personalização/recomendação, não de participação em experimentos.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   }
+  ],
+  "V6": [],
+  "V7": [
+   {
+    "doc": 5,
+    "verbatim": "Such measures (cancellation of orders, account deactivations and pause) may in individual cases be based on automated decisions, which you can request to be reviewed manually. At the same time, you can state your own position on this and contest the decision made by Zalando SE.",
+    "onde": "Privacy Notice, secção 2.4 'Fraud prevention, selection of payment methods and credit checks'",
+    "por_que": "Falso positivo a excluir explicitamente pelo codebook: é aviso de decisão automatizada, não debriefing sobre participação em experimento.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Non-promotional communication with you on technical, security-related and contractually relevant subjects (e.g. fraud warnings, account blocking or contractual changes).",
+    "onde": "Privacy Notice, secção 2.1, lista de finalidades",
+    "por_que": "Outro falso positivo a excluir: aviso de mudança de serviço/processamento, não notificação posterior de participação em teste.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "If you report a product or other content via the reporting function provided for this purpose, the content of your report will be recorded, used to review the product or content, and you will be informed of the review and decision.",
+    "onde": "Privacy Notice, secção 1.6 'Messages, conversation content'",
+    "por_que": "Único mecanismo de 'você será informado' encontrado — refere-se a denúncias de conteúdo, não a experimentos; sustenta ausência substantiva de debriefing.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 5,
+    "verbatim": "In doing this, we of course comply with recognised scientific data protection standards. This also means that we use your data for training purposes in connection with machine learning and artificial intelligence and only process it for research purposes in aggregated, anonymised or pseudonymised form, as far as reasonably possible and necessary, for example by replacing all identifiable data such as your name with other values.",
+    "onde": "Privacy Notice, secção 2.3 'Research, machine learning and artificial intelligence'",
+    "por_que": "Citação de fronteira: invoca 'scientific data protection standards', mas trata de anonimização/pseudonimização, não de revisão ética, comitê ou avaliação de risco de experimentos.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Participation in research communities and academic cooperation partners.",
+    "onde": "Privacy Notice, secção 2.3, lista de finalidades de pesquisa",
+    "por_que": "Menciona cooperação académica sem qualquer referência a comitê de ética ou aprovação — útil para negar V8 no registro vinculante.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "A/B test analysis method quality . To make our services trustworthy, we revisited our analysis methods rigorously in peer reviews with applied scientists from other teams. We documented analysis steps transparently.",
+    "onde": "Blog de engenharia, secção 'Phase two: walk (2016-2020)'",
+    "por_que": "Revisão por pares interna sobre métodos (não ética nem risco ao usuário) e fora dos documentos ao usuário — não deveria contar como Yes, mas o avaliador precisa ver.",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Since we found that A/B tests from different teams had various level of quality, we introduced an A/B test design audit process as well as weekly consultation hours.",
+    "onde": "Blog de engenharia, secção 'Phase two: walk (2016-2020)', item 'A/B test design quality'",
+    "por_que": "'Audit process' é o mais próximo de revisão formal, mas é de qualidade metodológica, em registro não-vinculante, e não é documento ao usuário.",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "role": "non-binding"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 5,
+    "verbatim": "This Privacy Notice gives you an overview of how Zalando processes your data. It applies to all websites, apps and other benefits and services offered by Zalando.",
+    "onde": "Privacy Notice (en.zalando.de), abertura",
+    "por_que": "Estabelece que o documento que contém a descrição de A/B tests é o Privacy Notice aplicável a todos os serviços — local 'privacy policy', registro vinculante.",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We may also carry out so-called A/B tests in the course of usage analysis.",
+    "onde": "PDF 'Zalando Privacy Notice As at: 09/2025' (manifesto: binding), secção 4.5",
+    "por_que": "Confirma a divulgação no registro vinculante e a hospedagem em PDF do próprio Privacy Notice.",
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "role": "binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "In this first post, we’ll introduce the evolution of experimentation platform at Zalando. Technical challenges and their solutions of experimentation engine, analysis system, data quality issues, and data visualization will follow in the upcoming posts.",
+    "onde": "Blog de engenharia (engineering.zalando.com), post de 12/01/2021",
+    "por_que": "Local adicional de divulgação: blog de engenharia, registro não-vinculante (não se declara parte do acordo com o usuário).",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Experimentation Platform at Zalando: Part 1 - Evolution\nChallenges and solutions of our experimentation platform at Zalando Read more...",
+    "onde": "Página de tag 'Experimentation' do blog de engenharia",
+    "por_que": "Mostra que a divulgação de experimentação tem uma secção própria no blog institucional — reforça o componente não-vinculante de v9_register.",
+    "file": "zalando/08-tags-experimentation.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "We would like to familiarise you below with our standard terms and conditions, which govern how we process and settle your purchases.",
+    "onde": "Terms & Conditions (en.zalando.de/zalando-terms), abertura dos T&Cs",
+    "por_que": "Documento que se declara regulador da relação contratual (registro vinculante) — útil para checar se ToS também carrega divulgação de experimentação (só 'rigorous testing' em 11.9.4).",
+    "file": "zalando/06-zalando-terms.md",
+    "role": "unknown"
+   }
+  ]
+ },
+ "descartadas": 0,
+ "uso": {
+  "input": 143554,
+  "output": 12462
+ }
+}

@@ -1,5 +1,5 @@
 {
-  "publicado_em": "2026-09-21T02:04:29+00:00",
+  "publicado_em": "2026-09-25T03:19:28+00:00",
   "fonte": "github.com/mrcsvg/experimented-without-consent",
   "arquivos": [
     {
@@ -14,13 +14,13 @@
     },
     {
       "file": "analysis/patterns.py",
-      "sha256": "7f3de566b959708040f4970a363ec75e1157ca42b1f257ff1b119f5ff101352b",
-      "bytes": 8917
+      "sha256": "84d67acd62a266bd1e6ee154cce78597d90fe9a7eb001c8c4a883a77788e4dc4",
+      "bytes": 9915
     },
     {
       "file": "analysis/revisao.py",
-      "sha256": "fc724d8afbbcb8882703213d14fd1f320de0201e1b3c804ba15e2a73d549efd5",
-      "bytes": 29092
+      "sha256": "c88afda1513fd86041d998909cacfae664ca1b3508b452056524181dacb34190",
+      "bytes": 43889
     },
     {
       "file": "analysis/build-md-corpus.py",

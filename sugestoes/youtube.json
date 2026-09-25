@@ -1,0 +1,599 @@
+{
+ "formato": 1,
+ "servico": "YouTube",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T02:37:33+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 1,
+    "verbatim": "YouTube is constantly changing and improving the Service. As part of this continual evolution of our digital content and services, we may make modifications or changes (to all or part of the Service) such as adding or removing features and functionalities, offering new digital content or services or discontinuing old ones.",
+    "onde": "Doc 1 (ToS IE), seção \"Develop, Improve and Update the Service\"",
+    "por_que": "Registro vinculante: só linguagem de melhoria/modificação do serviço, sem menção a teste ou experimento — evidência para o nível do registro vinculante sozinho (nível 1).",
+    "file": "youtube/01-t-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "YouTube is constantly changing and improving the Service. As part of this continual evolution of our digital content and services, we may make modifications or changes (to all or part of the Service) such as adding or removing features and functionalities, offering new digital content or services or discontinuing old ones.",
+    "onde": "Doc 2 (ToS IT), seção \"Develop, Improve and Update the Service\"",
+    "por_que": "Confirma que o ToS (vinculante) não nomeia experimentação, apenas melhoria contínua.",
+    "file": "youtube/02-t-terms-2.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We use the information we collect in existing services to help us develop new ones.",
+    "onde": "Doc 3 (Privacy Policy), seção \"Why Google collects data\" → \"Develop new services\"",
+    "por_que": "Política de privacidade (vinculante) usa linguagem de desenvolvimento/melhoria, sem nomear teste em usuários.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Perform research that improves our services for our users and benefits the public.",
+    "onde": "Doc 3 (Privacy Policy), \"European requirements\" → tabela de bases legais, \"To maintain and improve Google services\"",
+    "por_que": "Menciona \"research\" no registro vinculante, mas sem nomear experimento, variantes ou A/B — relevante para a fronteira 1 vs 2 vs 3.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "YouTube uses the `__Secure-ROLLOUT_TOKEN` cookie to launch new features and measure related impact when other existing cookies and identifiers cannot be used for the same purpose.",
+    "onde": "Doc 5 (How Google uses cookies), seção \"Analytics\"",
+    "por_que": "Documento de tecnologias vinculado à política: menciona lançamento de novas features e medição de impacto, sem nomear A/B ou grupos — candidato a nível 2.",
+    "file": "youtube/05-technologies-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Creators can test and compare up to 3 different titles and thumbnails. At the end of the test, the title or combination of title and thumbnail with the highest watch time will be shown to all viewers.",
+    "onde": "Doc 7 (Help Centre, \"A/B test titles & thumbnails\"), abertura",
+    "por_que": "Nomeia teste A/B com variantes servidas a espectadores — evidência direta de nível 3, em registro de help centre (não-vinculante).",
+    "file": "youtube/07-youtube-answer-7.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "We may maintain a small percentage of traffic as a control group of viewers that are excluded from the experiment. The control group will only see the default thumbnail and title. The video performance from the control group is excluded from the experiment calculations.",
+    "onde": "Doc 7, nota em \"Review or stop A/B tests\" e FAQ \"Control group\"",
+    "por_que": "Grupo de controle explícito e exclusão do experimento: teto 3 inequívoco, fora do registro vinculante.",
+    "file": "youtube/07-youtube-answer-7.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "YouTube’s A/B tests are true, concurrent A/B/C tests. This means all variations are shown to viewers at the same time.",
+    "onde": "Doc 7, FAQ \"Why am I getting different test results?\"",
+    "por_que": "Descreve randomização/variantes concorrentes servidas a usuários distintos — nível 3.",
+    "file": "youtube/07-youtube-answer-7.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "YouTube product teams are constantly testing out new tools and features to help you find, watch, share and create content more easily. These test features (sometimes also called “betas” or “experiments”) are usually available for a short period of time and only for a small group of people.",
+    "onde": "Doc 8 (Community thread \"YouTube test features and experiments\"), post original",
+    "por_que": "Uso explícito de \"experiments\" em sentido experimental, com subgrupo de usuários — nível 3 em registro não-vinculante (fórum de comunidade).",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "If you ever notice that YouTube looks a bit different for you than it does for your friend or family member, you’re likely seeing one of these experiments.",
+    "onde": "Doc 8, post original",
+    "por_que": "Descreve explicitamente variantes diferentes servidas a usuários diferentes.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "YouTube Premium members can learn and try multiple experimental YouTube features at youtube.com/new .",
+    "onde": "Doc 6 (Help Centre, \"Test feature experiments at Youtube.com/new\")",
+    "por_que": "Reconhecimento de experimentação em help centre (não-vinculante); relevante para o par teto/registro.",
+    "file": "youtube/06-youtube-answer.md",
+    "role": "unknown"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 1,
+    "verbatim": "YouTube is constantly changing and improving the Service.",
+    "onde": "Doc 1 (ToS IE), \"Develop, Improve and Update the Service\"",
+    "por_que": "Enquadramento de service improvement no registro vinculante.",
+    "file": "youtube/01-t-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We use your information to deliver our services , like processing the terms you search for in order to return results or helping you share content by suggesting recipients from your contacts.",
+    "onde": "Doc 3 (Privacy Policy), \"Why Google collects data\" → \"Provide our services\"",
+    "por_que": "Enquadramento de prestação/melhoria de serviço.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages.",
+    "onde": "Doc 3 (Privacy Policy), tabela de bases legais, \"To maintain and improve Google services\"",
+    "por_que": "Co-ocorrência clara: research + service improvement, com apelo a benefício público.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "Perform research that improves our services for our users and benefits the public.",
+    "onde": "Doc 4 (Privacy Policy en-GB), tabela de bases legais",
+    "por_que": "Confirma o enquadramento research + benefício público na versão IE/en-GB.",
+    "file": "youtube/04-privacy-4.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Our team is focused on improving our systems to make them accurate and useful for our creators.",
+    "onde": "Doc 7, FAQ \"How can I provide feedback?\"",
+    "por_que": "Experimentação A/B enquadrada como melhoria do serviço para criadores.",
+    "file": "youtube/07-youtube-answer-7.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "However, we believe that deciding a “winner” by watch time will best support creators’ growth.",
+    "onde": "Doc 7, FAQ \"Why am I getting different test results?\"",
+    "por_que": "Enquadramento de benefício ao criador/comunidade de criadores — borderline social-good.",
+    "file": "youtube/07-youtube-answer-7.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "YouTube product teams are constantly testing out new tools and features to help you find, watch, share and create content more easily.",
+    "onde": "Doc 8, post original",
+    "por_que": "Enquadramento de experimentação como melhoria de serviço/utilidade ao usuário.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Be sure to give YouTube feedback and report any potential technical issues – our teams use this information and experiment results to help us decide if, when, and how to release these features more broadly.",
+    "onde": "Doc 8, post original",
+    "por_que": "Resultados de experimento como insumo de decisão de produto — service improvement; não há linguagem de pesquisa com sujeitos humanos.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 9,
+    "verbatim": "Crediamo che tutti debbano avere la possibilità di esprimersi\ne che il mondo sia un luogo migliore quando ascoltiamo,\ncondividiamo e costruiamo community attraverso le nostre\nstorie.",
+    "onde": "Doc 9 (howyoutubeworks, não-vinculante), \"LA NOSTRA MISSION\"",
+    "por_que": "Linguagem de community/bem comum no site institucional, embora não atrelada explicitamente a experimentação — avaliar se sustenta social-good.",
+    "file": "youtube/09-howyoutubeworks.md",
+    "role": "non-binding"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 7,
+    "verbatim": "Creators can test and compare up to 3 different titles and thumbnails.",
+    "onde": "Doc 7, abertura",
+    "por_que": "V3a/V3b: nomeia superfície testada (títulos e miniaturas) e alvo do experimento (copy/apresentação).",
+    "file": "youtube/07-youtube-answer-7.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Select either Title only, Thumbnail only, or Title and thumbnail .",
+    "onde": "Doc 7, \"Run an A/B test\"",
+    "por_que": "Especificidade das variantes testadas.",
+    "file": "youtube/07-youtube-answer-7.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "To help your video get high quality engagement, we optimize tests for overall watch time over other metrics, like click-through-rate.",
+    "onde": "Doc 7, FAQ \"Why is the watch time used to determine the winner?\"",
+    "por_que": "Nomeia métrica-alvo de otimização do experimento (watch time / engajamento).",
+    "file": "youtube/07-youtube-answer-7.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "[April 29, 2026] Testing thumbnail & video sizes on the Home feed on mobile: We're testing new ways to make the Home feed more immersive on Android and iOS devices. To help content stand out on mobile screens, we’re currently running a limited experiment that would automatically adjust video and thumbnail sizes for your device.",
+    "onde": "Doc 8, post de 29/04/2026",
+    "por_que": "V3c: experimento específico e ativo divulgado, com superfície (Home feed) e alvo (layout/apresentação).",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "[May 7, 2026] Testing a new feed navigation experience on mobile: We're experimenting with new ways for you to navigate different feeds in the YouTube Mobile app, with the goal of making it easier to find the content you care about.",
+    "onde": "Doc 8, post de 07/05/2026",
+    "por_que": "Experimento específico sobre navegação/defaults de interface.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "[April 30, 2026] Testing a new comment search tool in Studio: We’re experimenting with a new tool in YouTube Studio that uses AI to help creators more easily find and moderate comments.",
+    "onde": "Doc 8, post de 30/04/2026",
+    "por_que": "Outro experimento específico e datado, com superfície nomeada.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "[September 2, 2026] Experimenting with alternative retailer options for tagged affiliate products: We’re running a small affiliate shopping experiment to show the exact same creator-tagged affiliate product, but sourced from a different eligible local retailer. This test helps us measure if we can improve shopping performance by auto-optimizing which local merchants to serve for a product.",
+    "onde": "Doc 8, post de 02/09/2026",
+    "por_que": "V3-pricing: experimento que varia o varejista servido para o mesmo produto — relevante para avaliar se preço/oferta comercial é alvo nomeado; aparece só em registro não-vinculante (fórum).",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "This experiment is currently available for YouTube Premium members 18+ in the US who opt-in via youtube.com/new .",
+    "onde": "Doc 8, post de 27/04/2026 (Ask YouTube)",
+    "por_que": "Experimento específico com população-alvo e mecanismo de adesão nomeados.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "we may make modifications or changes (to all or part of the Service) such as adding or removing features and functionalities",
+    "onde": "Doc 1 (ToS IE), \"Develop, Improve and Update the Service\"",
+    "por_que": "No registro vinculante, a única \"especificidade\" é genérica (features/funcionalidades), sem alvos de experimento.",
+    "file": "youtube/01-t-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Depending on your settings, we may also show you personalized ads based on your interests and activity across Google services.",
+    "onde": "Doc 3 (Privacy Policy), \"Provide personalized services, including content and ads\"",
+    "por_que": "Personalização declarada — segundo o critério, não conta como alvo de experimento; útil para o avaliador descartar falso positivo.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 3,
+    "verbatim": "We process your data for our legitimate interests and those of third parties while applying appropriate safeguards that protect your privacy.",
+    "onde": "Doc 3 (Privacy Policy), \"European requirements\" → \"Legal bases of processing\"",
+    "por_que": "Base de interesse legítimo declarada de forma geral; é a candidata para cobrir experimentação.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Provide, maintain, and improve services to meet the needs of our users. For example, analyzing which search terms are most frequently misspelled to help us improve spell-check features used across our services.",
+    "onde": "Doc 3, tabela de bases legais, \"To maintain and improve Google services\" → legitimate interests",
+    "por_que": "Finalidade declarada que mais plausivelmente cobre experimentação (\"improve services\") sob interesse legítimo.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages.",
+    "onde": "Doc 3, tabela de bases legais",
+    "por_que": "Research vinculado a interesse legítimo — não há base específica declarada para experimentos.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We ask for your consent to process your data for specific purposes and you have the right to withdraw your consent at any time.",
+    "onde": "Doc 3, \"Legal bases of processing\"",
+    "por_que": "Consentimento existe como base, mas associado a finalidades específicas (ads personalizados, áudio), não a experimentação.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "How you use Google services and your privacy settings will determine what data is processed, the purposes for which this data is processed, and the legal bases for processing data.",
+    "onde": "Doc 3, antes da tabela de bases legais",
+    "por_que": "Mostra que as bases variam por finalidade/configuração; relevante para avaliar se a tabela é acionada por região.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "If European Union (EU) or United Kingdom (UK) data protection law applies to the processing of your information, we provide the controls described in this policy so you can exercise your rights",
+    "onde": "Doc 3, \"European requirements\"",
+    "por_que": "V4_region_gated: a seção de bases legais é condicionada à aplicabilidade do direito da UE/UK, não a IP/locale explícito.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "If European Union (EU) or United Kingdom (UK) data protection law applies to the processing of your information, we provide the controls described in this policy so that you can exercise your rights to request access to, update, remove and restrict the processing of your information.",
+    "onde": "Doc 4 (Privacy Policy en-GB/IE), \"European requirements\"",
+    "por_que": "Confirma o mesmo gating jurídico na versão servida com gl=IE&hl=en-GB.",
+    "file": "youtube/04-privacy-4.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "To perform a contract with you, such as loading a YouTube video or processing, fulfilling and delivering your order when you purchase services or physical goods from us.",
+    "onde": "Doc 4, tabela de bases legais, \"To provide Google services, products and features\"",
+    "por_que": "Base contratual declarada para prestação do serviço; avaliador precisa julgar se cobre experimentação (aparentemente não).",
+    "file": "youtube/04-privacy-4.md",
+    "role": "unknown"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 3,
+    "verbatim": "You also have the right to object to the processing of your information or export your information to another service.",
+    "onde": "Doc 3 (Privacy Policy), \"European requirements\" → \"How to exercise your rights and contact Google\"",
+    "por_que": "Direito genérico de objeção (Art. 21), sem controle específico de experimentação — sustenta GDPR-objection-only.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Decide what types of activity you’d like saved in your account. For example, if you have YouTube History turned on, the videos you watch and the things you search for are saved in your account so you can get better recommendations and remember where you left off.",
+    "onde": "Doc 3, \"Your privacy controls\" → \"Activity Controls\"",
+    "por_que": "Controle de atividade/histórico, não de experimentação — falso positivo a descartar.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "To manage how cookies are used, including rejecting the use of cookies for certain purposes, you can visit g.co/privacytools .",
+    "onde": "Doc 5 (How Google uses cookies), \"Purposes of cookies and similar technologies used by Google\"",
+    "por_que": "Controle de cookies (funcionalidade, analytics, ads) — não é opt-out de experimentação; falso positivo clássico.",
+    "file": "youtube/05-technologies-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "YouTube uses the `__Secure-ROLLOUT_TOKEN` cookie to launch new features and measure related impact when other existing cookies and identifiers cannot be used for the same purpose.",
+    "onde": "Doc 5, \"Analytics\"",
+    "por_que": "Cookie ligado a lançamento/medição de features está na categoria Analytics, cujo controle é de cookies e não de experimentos.",
+    "file": "youtube/05-technologies-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "To leave an experiment:\nGo to youtube.com/new .\nClick Turn Off next to the experiment.",
+    "onde": "Doc 6 (Help Centre, youtube.com/new)",
+    "por_que": "Mecanismo de sair de experimentos, mas restrito aos experimentos opcionais de Premium — avaliador deve decidir se é dedicated ou apenas contraparte do opt-in (V6).",
+    "file": "youtube/06-youtube-answer.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "If you prefer not to have others react to your content, you can easily opt out: make sure to update your app and before you go live, change the \"React live\" setting in your mobile metadata editor from \"Allow eligible channels\" to \"No one\".",
+    "onde": "Doc 8, post de 03/09/2026 (Watch With)",
+    "por_que": "Opt-out de uma feature específica em experimento, não da experimentação em geral — borderline a ser julgado.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Before we change or stop offering any part of the Service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others.",
+    "onde": "Doc 1 (ToS IE), \"Develop, Improve and Update the Service\"",
+    "por_que": "O registro vinculante não oferece nenhum mecanismo de recusa de experimentos; esta é a cláusula mais próxima e não é opt-out.",
+    "file": "youtube/01-t-terms.md",
+    "role": "binding"
+   }
+  ],
+  "V6": [
+   {
+    "doc": 6,
+    "verbatim": "YouTube Premium members can learn and try multiple experimental YouTube features at youtube.com/new .",
+    "onde": "Doc 6 (Help Centre), abertura",
+    "por_que": "Canal de adesão voluntária a features experimentais — núcleo do V6.",
+    "file": "youtube/06-youtube-answer.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "To participate:\nGo to youtube.com/new .\nIf you see an experiment you want to try out, click Try it out .",
+    "onde": "Doc 6, \"How to try multiple experiments on YouTube as a Premium member\"",
+    "por_que": "Mecanismo explícito de inscrição voluntária em experimentos.",
+    "file": "youtube/06-youtube-answer.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Some experiments are available only for a limited time, may have limited spots, or are limited to select territories and devices.",
+    "onde": "Doc 6",
+    "por_que": "Confirma natureza de programa de acesso antecipado/beta com vagas limitadas.",
+    "file": "youtube/06-youtube-answer.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "This experiment is currently available for YouTube Premium members 18+ in the US who opt-in via youtube.com/new .",
+    "onde": "Doc 8, post de 27/04/2026 (Ask YouTube)",
+    "por_que": "Instância concreta de opt-in em beta via o mesmo canal.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Experiments requiring YouTube Premium can only be turned off while you're a Premium member.",
+    "onde": "Doc 6, Notes",
+    "por_que": "Detalha o escopo do programa de opt-in, restrito a assinantes.",
+    "file": "youtube/06-youtube-answer.md",
+    "role": "unknown"
+   }
+  ],
+  "V7": [
+   {
+    "doc": 7,
+    "verbatim": "You can view your test results on your video’s Details page or the Reach tab of your video’s Analytics page.",
+    "onde": "Doc 7, \"Understand A/B test results\"",
+    "por_que": "Resultados são informados ao criador que conduz o teste — não é debriefing do espectador exposto às variantes; avaliar como falso positivo.",
+    "file": "youtube/07-youtube-answer-7.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "If you ever notice that YouTube looks a bit different for you than it does for your friend or family member, you’re likely seeing one of these experiments.",
+    "onde": "Doc 8, post original",
+    "por_que": "Aviso genérico e prospectivo de que se pode estar em experimento; não há notificação posterior individualizada de participação.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "If you don’t leave in advance, the experimental feature will automatically disappear on the scheduled end date, and your YouTube experience will return to normal.",
+    "onde": "Doc 6, Notes",
+    "por_que": "Fim automático do experimento sem qualquer aviso posterior de participação — evidência de ausência substantiva de debriefing.",
+    "file": "youtube/06-youtube-answer.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "If a modification negatively affects your ability to access or use the Service, we’ll provide you with reasonable advance notice by email, including a description of the changes, when they’ll take place, and your right to end your contract with us",
+    "onde": "Doc 1 (ToS IE), \"Develop, Improve and Update the Service\"",
+    "por_que": "Aviso de mudança de serviço — explicitamente excluído do escopo de debriefing pelo codebook; incluído para o avaliador descartar.",
+    "file": "youtube/01-t-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We may let you know about upcoming changes or improvements to our services.",
+    "onde": "Doc 3 (Privacy Policy), \"Communicate with you\"",
+    "por_que": "Comunicação sobre mudanças de serviço, não sobre participação em experimento — falso positivo listado no critério.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 1,
+    "verbatim": "Before we change or stop offering any part of the Service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others. We only change or stop offering any part of the Service for valid reasons.",
+    "onde": "Doc 1 (ToS IE), \"Develop, Improve and Update the Service\"",
+    "por_que": "Linguagem borderline de \"impacto\" atada a mudança/descontinuação de serviço — pelo critério, No com nota.",
+    "file": "youtube/01-t-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Before we change or stop offering any part of the Service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others.",
+    "onde": "Doc 2 (ToS IT), mesma seção",
+    "por_que": "Mesma cláusula borderline no outro registro vinculante.",
+    "file": "youtube/02-t-terms-2.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We process your data for our legitimate interests and those of third parties while applying appropriate safeguards that protect your privacy.",
+    "onde": "Doc 3 (Privacy Policy), \"Legal bases of processing\"",
+    "por_que": "\"Appropriate safeguards\" refere-se a anonimização/criptografia, não a revisão ética ou comitê — útil para descartar.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "For example, we may anonymize data, or encrypt data to ensure it can’t be linked to other information about you.",
+    "onde": "Doc 3, Additional Context → \"appropriate safeguards\"",
+    "por_que": "Esclarece que a salvaguarda é técnica, não ética/de revisão.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Your content must follow our Community Guidelines or you may lose access to this feature.",
+    "onde": "Doc 7, abertura",
+    "por_que": "Única condição normativa associada ao recurso de A/B testing; não há menção a revisão ética ou avaliação de risco do experimento.",
+    "file": "youtube/07-youtube-answer-7.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "our teams use this information and experiment results to help us decide if, when, and how to release these features more broadly.",
+    "onde": "Doc 8, post original",
+    "por_que": "Processo decisório de produto descrito sem qualquer revisão ética, board ou avaliação de risco.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 1,
+    "verbatim": "Your use of the Service is subject to these terms, the YouTube Community Guidelines and the Policy, Safety and Copyright Policies (together, the \"Agreement\").",
+    "onde": "Doc 1 (ToS IE), \"Applicable Terms\"",
+    "por_que": "Define o perímetro do registro vinculante: ToS + guidelines + políticas; help centre e fórum ficam de fora.",
+    "file": "youtube/01-t-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Our Privacy Policy explains how we treat your personal data and protect your privacy when you use the Service.",
+    "onde": "Doc 1, \"Your Information\"",
+    "por_que": "Privacy Policy integrada ao conjunto de documentos do usuário — local de divulgação (privacy policy, vinculante).",
+    "file": "youtube/01-t-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "This Privacy Policy applies to all of the services offered by Google LLC and its affiliates , including YouTube, Android, and services offered on third-party sites, such as advertising services.",
+    "onde": "Doc 3 (Privacy Policy), \"About this policy\" → \"When this policy applies\"",
+    "por_que": "Confirma que a política de privacidade cobre o YouTube — registro vinculante onde vive a linguagem de melhoria/pesquisa.",
+    "file": "youtube/03-privacy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "This page describes the purposes for which Google uses cookies and similar technologies. It also explains how Google and our partners use cookies in advertising .",
+    "onde": "Doc 5 (How Google uses cookies), abertura",
+    "por_que": "Documento de technologies referenciado pela política; local adicional onde aparece medição de lançamento de features.",
+    "file": "youtube/05-technologies-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "A/B test titles & thumbnails\nCreators can test and compare up to 3 different titles and thumbnails.",
+    "onde": "Doc 7 (support.google.com/youtube/answer/16391400), título e abertura",
+    "por_que": "Divulgação de experimentação em help centre — registro não-vinculante.",
+    "file": "youtube/07-youtube-answer-7.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Test feature experiments at Youtube.com/new",
+    "onde": "Doc 6 (support.google.com/youtube/answer/9227818), título",
+    "por_que": "Segundo item de help centre sobre experimentos.",
+    "file": "youtube/06-youtube-answer.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "YouTube test features and experiments",
+    "onde": "Doc 8 (support.google.com/youtube/thread/18138167), título do post da comunidade",
+    "por_que": "Divulgação em fórum/comunidade mantido por funcionários — aproxima-se de blog/PR, não-vinculante.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Community content may not be verified or up-to-date. Learn more .",
+    "onde": "Doc 8, rodapé do post original",
+    "por_que": "Aviso de não-confiabilidade reforça o caráter não-vinculante do canal onde os experimentos são detalhados.",
+    "file": "youtube/08-youtube-thread.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 9,
+    "verbatim": "Come funziona YouTube\nAI\nCopyright\nCreator economy\nElezioni\nBambini e adolescenti\nApprendimento\nNotizie\nPrivacy",
+    "onde": "Doc 9 (howyoutubeworks), navegação",
+    "por_que": "Microsite institucional (não-vinculante) listado como possível local de divulgação; não contém menção a experimentos nos trechos fornecidos.",
+    "file": "youtube/09-howyoutubeworks.md",
+    "role": "non-binding"
+   }
+  ]
+ },
+ "descartadas": 1,
+ "uso": {
+  "input": 90185,
+  "output": 9905
+ },
+ "geracao": {
+  "max_tokens": 16000,
+  "thinking": "adaptive",
+  "nota": "teto anterior; JSON completo, sem truncamento"
+ }
+}

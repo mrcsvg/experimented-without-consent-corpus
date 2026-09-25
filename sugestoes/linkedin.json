@@ -1,0 +1,486 @@
+{
+ "formato": 1,
+ "servico": "LinkedIn",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T02:49:08+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 6,
+    "verbatim": "You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ by one variable.",
+    "onde": "Doc 6 (Help centre Marketing Solutions), parágrafo introdutório de \"A/B Testing\"",
+    "por_que": "Nomeia explicitamente o método (teste A/B com variável única) — corresponde ao nível 3 da escada, em registro de help centre (não-vinculante).",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "For both examples, the audience is split evenly into two separate groups for the duration of the A/B test. Group one is only exposed to ad set one, and group two is only exposed to ad set two.",
+    "onde": "Doc 6, seção \"Examples of A/B tests for Classic and Accelerate ad sets\"",
+    "por_que": "Descreve randomização/divisão de audiência em grupos com variantes distintas servidas a usuários diferentes — critério explícito de nível 3.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Some members might appear in both the test and control groups, but our data and platform checks have shown that the effect is generally insignificant.",
+    "onde": "Doc 6, caixa \"Important to know\" após os exemplos",
+    "por_que": "Menção literal a \"test and control groups\", i.e., grupo de controle — evidência forte de nível 3.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Please note, A/B Testing temporarily restricted targeting members in the EEA and Switzerland.",
+    "onde": "Doc 6, caixa \"Important to know\" no topo",
+    "por_que": "Confirma que os testes atingem membros (não só anunciantes), relevante para decidir se o teto 3 envolve usuários.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We may use your personal data to improve, develop, and provide products and Services, develop and train artificial intelligence (AI) models, develop, provide, and personalize our Services, and gain insights with the help of AI, automated systems, and inferences, so that our Services can be more relevant and useful to you and others.",
+    "onde": "Doc 1 (Privacy Policy, vinculante), abertura da Seção 2 \"How We Use Your Data\"",
+    "por_que": "Linguagem de \"melhorar/desenvolver\" sem qualquer menção a testar usuários — base para o nível do registro vinculante isolado.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We use data, including public feedback, to conduct research and development for our Services in order to provide you and others with a better, more intuitive and personalized experience, drive membership growth and engagement on our Services, and help connect professionals to each other and to economic opportunity.",
+    "onde": "Doc 1, Seção 2.6 \"Developing Services and Research\" — subitem Service Development",
+    "por_que": "Ponto mais alto do registro vinculante: \"research and development\" genérico, sem nomear teste, variantes ou aleatorização (fronteira 1 vs 2).",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Our Services are dynamic, and we often introduce new features, which may require the collection of new information.",
+    "onde": "Doc 1, Seção 1.9 \"Other\"",
+    "por_que": "Fala de novas features mas sem \"test\"/\"testing\" — ajuda a excluir o nível 2 no registro vinculante.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Polls and surveys are conducted by us and others through our Services.",
+    "onde": "Doc 1, Seção 2.6, subitem Surveys",
+    "por_que": "Pesquisa com usuários declarada em registro vinculante, mas por survey e não por experimento — evita confusão com nível 2/3.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We may change, suspend or discontinue any of our Services.",
+    "onde": "Doc 2 (User Agreement, vinculante), Seção 3.2 \"Service Availability\"",
+    "por_que": "Cláusula de mudança de serviço no contrato, sem linguagem de teste — evidência de ausência no registro vinculante.",
+    "file": "linkedin/02-user-agreement.md",
+    "role": "binding"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 1,
+    "verbatim": "We use data, including public feedback, to conduct research and development for our Services in order to provide you and others with a better, more intuitive and personalized experience, drive membership growth and engagement on our Services, and help connect professionals to each other and to economic opportunity.",
+    "onde": "Doc 1, Seção 2.6, subitem Service Development",
+    "por_que": "Co-ocorrência clássica: enquadramento de melhoria do serviço + research na mesma frase.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We seek to create economic opportunity for Members of the global workforce and to help them be more productive and successful. We use the personal data available to us to research social, economic and workplace trends, such as jobs availability and skills needed for these jobs and policies that help bridge the gap in various industries and geographic areas.",
+    "onde": "Doc 1, Seção 2.6, subitem Other Research",
+    "por_que": "Enquadramento de bem social/comunidade (\"economic opportunity\", \"bridge the gap\") somado a pesquisa sobre tendências sociais — candidato a social-good/community + research.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "In some cases, we work with trusted third parties to perform this research, under controls that are designed to protect your privacy.",
+    "onde": "Doc 1, Seção 2.6, subitem Other Research",
+    "por_que": "Pesquisa com terceiros sobre dados pessoais de membros — relevante para avaliar human-subjects research.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We may also make public data available to researchers to enable assessment of the safety and legal compliance of our Services.",
+    "onde": "Doc 1, Seção 2.6, subitem Other Research",
+    "por_que": "Menciona \"researchers\" externos — reforça o enquadramento de research.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We publish or allow others to publish economic insights, presented as aggregated data rather than personal data.",
+    "onde": "Doc 1, Seção 2.6, subitem Other Research",
+    "por_que": "Publicação de insights econômicos: enquadramento de pesquisa com verniz de interesse público.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "LinkedIn’s mission is to connect the world’s professionals to allow them to be more productive and successful. Central to this mission is our commitment to be transparent about the data we collect about you, how it is used and with whom it is shared.",
+    "onde": "Doc 1, seção \"Your Privacy Matters\"",
+    "por_que": "Enquadramento de missão/benefício coletivo que envolve o uso de dados; candidato fraco a social-good/community.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "As an advertiser, it’s important to achieve maximum value and return on investment (ROI) for your ad campaigns, understand what resonates with your audience, and optimize your campaigns based on statistically significant data.",
+    "onde": "Doc 6, primeiro parágrafo",
+    "por_que": "O único lugar que nomeia experimento enquadra-o como otimização comercial para anunciantes — nenhum dos quatro enquadramentos do codebook; registrar como achado.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 6,
+    "verbatim": "Example one - Classic ad sets. You've two identical ad sets (ad set one and ad set two) except for the creative content (image A and image B) you want to test with your target audience.",
+    "onde": "Doc 6, seção \"Examples of A/B tests for Classic and Accelerate ad sets\"",
+    "por_que": "Nomeia superfície testada (conteúdo criativo/imagem de anúncio) — V3a e alvo de experimento (creative/copy) para V3b.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Ad set one is only shown image A, and ad set two is only shown image B. The winning ad set is the ad set that drives the lowest cost per KPI.",
+    "onde": "Doc 6, fim da seção de exemplos",
+    "por_que": "Detalha variante servida por grupo e a métrica de decisão — especificidade operacional.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Create an A/B test using the ad variable in Campaign Manager",
+    "onde": "Doc 6, lista \"Learn how to create different types of A/B tests\"",
+    "por_que": "Lista de variáveis testáveis (ad, audience, placement, optimization) nomeia alvos de experimento explicitamente.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Create an A/B test using the placement variable in Campaign Manager",
+    "onde": "Doc 6, lista \"Learn how to create different types of A/B tests\"",
+    "por_que": "Placement como alvo de experimento — superfície de entrega, útil para V3b.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Create an A/B test using the optimization variable in Campaign Manager",
+    "onde": "Doc 6, lista \"Learn how to create different types of A/B tests\"",
+    "por_que": "Otimização (ranking/entrega algorítmica) como variável testada — candidato a alvo tipo ranking.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "A/B Testing supports both Classic and Accelerate ad sets, which means you can test a Classic ad set against an AI-powered Accelerate ad set to determine ad set impact.",
+    "onde": "Doc 6, segundo parágrafo",
+    "por_que": "Teste de sistema algorítmico (AI-powered) contra baseline — alvo de experimento, não mera personalização.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "For any test targeting these regions between October 8, 2023 and February 5, 2024, we retroactively re-processed the test results and filtered out actions from members in the EEA and Switzerland who have chosen not to connect their Marketing Solutions services to their core LinkedIn experience.",
+    "onde": "Doc 6, caixa \"Important to know\" no topo",
+    "por_que": "Referência a testes concretos com janela de datas — o mais próximo de divulgação de experimento específico/ativo (V3c).",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "In some instances, we rank content more highly in your LinkedIn feed if it relates to a subject that we infer interests you.",
+    "onde": "Doc 5 (Help: Inferences we make about you), parágrafo final antes das configurações",
+    "por_que": "Ranking descrito como personalização declarada, não como alvo de experimento — serve para o avaliador aplicar a distinção do codebook.",
+    "file": "linkedin/05-help-linkedin-answer-5.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Your purchase may be subject to foreign exchange fees or differences in prices based on location (e.g., exchange rates).",
+    "onde": "Doc 2, Seção 2.3 \"Payment\"",
+    "por_que": "Única menção a variação de preço por local; é câmbio/localização, não experimento de preço — candidato a falso positivo para V3-pricing.",
+    "file": "linkedin/02-user-agreement.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We may modify our prices effective prospectively upon reasonable notice to the extent allowed under the law.",
+    "onde": "Doc 2, Seção 2.3 \"Payment\"",
+    "por_que": "Alteração de preço prospectiva, sem linguagem de teste ou variantes — reforça V3-pricing = No.",
+    "file": "linkedin/02-user-agreement.md",
+    "role": "binding"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 1,
+    "verbatim": "We will only collect and process personal data about you where we have lawful bases. Lawful bases include consent (where you have given consent), contract (where processing is necessary for the performance of a contract with you (e.g., to deliver the LinkedIn Services you have requested) and “legitimate interests.”",
+    "onde": "Doc 1, Seção 5.3 \"Lawful Bases for Processing\"",
+    "por_que": "Enumera as bases legais gerais, mas não mapeia base alguma a experimentação — sustenta multi-seleção + \"not stated\" para experimentos.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Where we rely on your consent to process personal data, you have the right to withdraw or decline your consent at any time and where we rely on legitimate interests, you have the right to object.",
+    "onde": "Doc 1, Seção 5.3",
+    "por_que": "Confirma consentimento e interesse legítimo como bases operantes, com direito de objeção associado.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We will rely on legitimate interests as a basis for data processing where the processing of your data is not overridden by your interests or fundamental rights and freedoms.",
+    "onde": "Doc 1, Key Terms \"Consent\" ao final da política",
+    "por_que": "Interesse legítimo explicitado como base residual — a finalidade de R&D/melhoria cairia aqui.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "If you're located in one of the Designated Countries or the UK, you can learn more about our lawful bases for processing in our European Regional Privacy Notice",
+    "onde": "Doc 1, Seção 5.3, frase final",
+    "por_que": "Evidência de que o detalhamento de bases por finalidade é remetido a um aviso regional da UE/UK (v4_region_gated).",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Due to privacy regulations, when targeting in the European Economic Area (EEA) or Switzerland, cost per paid conversion and cost per qualified lead metrics will only include data from members who have given explicit consent.",
+    "onde": "Doc 6, caixa \"Important to know\" no topo",
+    "por_que": "Consentimento explícito exigido apenas para EEA/Suíça no contexto de testes/medição — evidência direta de region gating.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "LinkedIn’s processing on the basis of legitimate interests",
+    "onde": "Doc 4 (Help: Data Processing Restriction and Objection), bloco \"Related information\"",
+    "por_que": "Página de ajuda remete a documento sobre interesses legítimos; indica onde a base para usos não contratuais é justificada.",
+    "file": "linkedin/04-help-linkedin-answer.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "How we use your personal data will depend on which Services you use, how you use those Services and the choices you make in your settings .",
+    "onde": "Doc 1, abertura da Seção 2",
+    "por_que": "Finalidade declarada genérica; o avaliador precisa decidir se é ela que 'cobre' experimentação por inferência.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 1,
+    "verbatim": "Object to, or Limit or Restrict, Use of Data : You can ask us to stop using all or some of your personal data (e.g., if we have no legal right to keep using it) or to limit our use of it (e.g., if your personal data is inaccurate or unlawfully held).",
+    "onde": "Doc 1, Seção 4.2 \"Rights to Access and Control Your Personal Data\"",
+    "por_que": "Direito genérico de objeção/restrição, sem controle específico de experimento — candidato a GDPR-objection-only.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "You can request LinkedIn to stop using all or some of your personal data (e.g., if you believe we have no legal right to keep using it) or to limit our use of it (e.g., if you believe your personal data is inaccurate or is being unlawfully held).",
+    "onde": "Doc 4, parágrafo único",
+    "por_que": "Operacionaliza a objeção via formulário; continua sendo direito genérico, não opt-out de experimentação.",
+    "file": "linkedin/04-help-linkedin-answer.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "In general, you can control and manage how we use your personal data by adjusting your privacy settings or your ads settings .",
+    "onde": "Doc 4, parágrafo único",
+    "por_que": "Os controles oferecidos são de privacidade/anúncios — nenhum dedicado a experimentos.",
+    "file": "linkedin/04-help-linkedin-answer.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Select Accept to consent or Reject to decline non-essential cookies for this use. You can update your choices at any time in your settings .",
+    "onde": "Doc 1, banner de cookies no topo da página",
+    "por_que": "Banner de consentimento que rege cookies/ads — falso positivo clássico apontado no codebook; sustenta cookie/ads-only.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "You have choices regarding our uses of certain categories of data to show you more relevant ads.",
+    "onde": "Doc 1, Seção 2.4, bloco \"Ad Choices\"",
+    "por_que": "Opt-out existente é de publicidade personalizada, não de experimentação.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "You have choices on how LinkedIn uses cookies and similar technologies. Please note that if you limit the ability of LinkedIn to set cookies and similar technologies, you may worsen your overall user experience, since it may no longer be personalized to you.",
+    "onde": "Doc 3 (Cookie Policy), seção \"Your Choices\"",
+    "por_que": "Escopo dos controles: cookies/personalização — não alcança participação em experimentos.",
+    "file": "linkedin/03-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "we retroactively re-processed the test results and filtered out actions from members in the EEA and Switzerland who have chosen not to connect their Marketing Solutions services to their core LinkedIn experience.",
+    "onde": "Doc 6, caixa \"Important to know\" no topo",
+    "por_que": "Único controle que altera a inclusão de membros em resultados de teste; é uma configuração de conexão de serviços, não um opt-out de experimentação — avaliar se é near-miss.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "You can view and adjust key interests that we have inferred about you using this setting .",
+    "onde": "Doc 5, penúltimo parágrafo",
+    "por_que": "Controle sobre inferências/personalização, não sobre participação em experimentos.",
+    "file": "linkedin/05-help-linkedin-answer-5.md",
+    "role": "unknown"
+   }
+  ],
+  "V6": [],
+  "V7": [
+   {
+    "doc": 1,
+    "verbatim": "If we collect materially different personal data or materially change how we collect, use or share your data, we will notify you and may also modify this Privacy Policy.",
+    "onde": "Doc 1, Seção 1.9 \"Other\"",
+    "por_que": "Aviso de mudança de política/processamento — explicitamente excluído como debriefing pelo codebook; incluído para o avaliador descartar.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "If we materially change these terms or if we are legally required to provide notice, we will provide you notice through our Services, or by other means, to provide you the opportunity to review the changes before they become effective.",
+    "onde": "Doc 2, Seção 1.3 \"Changes\"",
+    "por_que": "Aviso de mudança contratual, outro falso positivo listado no codebook; nenhum documento menciona aviso posterior de participação em experimento.",
+    "file": "linkedin/02-user-agreement.md",
+    "role": "binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "When the end date of an A/B test is reached, the campaign running the test will display the A/B test status.",
+    "onde": "Doc 6, seção \"How A/B Testing works\"",
+    "por_que": "O único 'aviso pós-teste' é dirigido ao anunciante no Campaign Manager, não aos membros expostos — sustenta 'No' substantivo.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 1,
+    "verbatim": "In some cases, we work with trusted third parties to perform this research, under controls that are designed to protect your privacy.",
+    "onde": "Doc 1, Seção 2.6, subitem Other Research",
+    "por_que": "Menção a \"controls\" de privacidade em pesquisa — borderline; não é comitê de ética nem avaliação de risco de experimento.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "You can review LinkedIn's Responsible AI principles here",
+    "onde": "Doc 1, abertura da Seção 2 \"How We Use Your Data\"",
+    "por_que": "Referência a princípios de IA responsável (documento externo, não reproduzido) — borderline para revisão ética; provável No com nota.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We may also make public data available to researchers to enable assessment of the safety and legal compliance of our Services.",
+    "onde": "Doc 1, Seção 2.6, subitem Other Research",
+    "por_que": "Avaliação de segurança/conformidade por pesquisadores externos (contexto regulatório), não revisão ética de experimentos com usuários.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Due to privacy regulations, when targeting in the European Economic Area (EEA) or Switzerland, cost per paid conversion and cost per qualified lead metrics will only include data from members who have given explicit consent.",
+    "onde": "Doc 6, caixa \"Important to know\" no topo",
+    "por_que": "Única salvaguarda associada a testes é conformidade regulatória de dados, sem menção a comitê, revisão ética ou avaliação de risco.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 2,
+    "verbatim": "By creating a LinkedIn account or accessing or using our Services (described below), you are agreeing to enter into a legally binding contract with LinkedIn (even if you are using third party credentials or using our Services on behalf of a company).",
+    "onde": "Doc 2, Seção 1.1 \"Contract\"",
+    "por_que": "Estabelece o User Agreement como registro vinculante (ToS/conditions).",
+    "file": "linkedin/02-user-agreement.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Your use of our Services is also subject to our Cookie Policy and our Privacy Policy, which covers how we collect, use, share, and store your personal information.",
+    "onde": "Doc 2, Seção 1.1 \"Contract\"",
+    "por_que": "Incorpora Privacy Policy e Cookie Policy ao contrato — ambas contam como registro vinculante.",
+    "file": "linkedin/02-user-agreement.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "This Privacy Policy applies when you use our Services (described below). We offer our users choices about the data we collect, use and share as described in this Privacy Policy, Cookie Policy , Settings and our Help Center.",
+    "onde": "Doc 1, seção \"Your Privacy Matters\"",
+    "por_que": "Privacy Policy como local de divulgação vinculante; também aponta o Help Center como local complementar.",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "By continuing to visit or use our Services, you are agreeing to the use of cookies and similar technologies for the purposes described in this policy.",
+    "onde": "Doc 3, segundo parágrafo introdutório",
+    "por_que": "Cookie Policy se declara aceita pelo uso — relevante para classificar seu registro.",
+    "file": "linkedin/03-cookie-policy.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "A/B Testing | Marketing Solutions Help",
+    "onde": "Doc 6, título da página",
+    "por_que": "O único conteúdo que nomeia experimentação vive em help centre de produto publicitário — local e registro (não-vinculante) do teto.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Last updated: 5 months ago",
+    "onde": "Doc 6, sob o título \"A/B Testing\"",
+    "por_que": "Página de ajuda sem data efetiva nem declaração de integração ao contrato — indício de registro não-vinculante.",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "We draw inferences about you based on your profile and interactions with our Services. We use these inferences to personalize our Services for you, such as serving you more relevant content, jobs, and ads.",
+    "onde": "Doc 5, primeiro parágrafo",
+    "por_que": "Outro conteúdo substantivo hospedado no help centre e apenas linkado pela política — exemplo de divulgação em registro não-vinculante.",
+    "file": "linkedin/05-help-linkedin-answer-5.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Effective November 3, 2025",
+    "onde": "Doc 1, logo abaixo do título \"Privacy Policy\"",
+    "por_que": "Data efetiva formal, marca típica de documento vinculante (contraste com as páginas de ajuda).",
+    "file": "linkedin/01-privacy-policy.md",
+    "role": "binding"
+   }
+  ]
+ },
+ "descartadas": 0,
+ "uso": {
+  "input": 35708,
+  "output": 15584
+ },
+ "geracao": {
+  "max_tokens": 16000,
+  "thinking": "adaptive",
+  "nota": "teto anterior; JSON completo, sem truncamento"
+ }
+}

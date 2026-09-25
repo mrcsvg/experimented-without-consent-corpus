@@ -1,0 +1,406 @@
+{
+ "formato": 1,
+ "servico": "Amazon Store",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T02:46:40+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 1,
+    "verbatim": "We collect your personal information in order to provide and continually improve our\nproducts and services.",
+    "onde": "Doc 1, Privacy Notice, seção 'What Personal Information About Customers Does Amazon Europe Collect?'",
+    "por_que": "Linguagem de 'melhorar' no registro vinculante, sem menção a teste/experimento — sustenta nível 1 no binding.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Provide, troubleshoot, and improve Amazon Services. We use your personal information to provide functionality, analyze performance, fix\nerrors, and improve usability and effectiveness of the Amazon Services.",
+    "onde": "Doc 1, Privacy Notice, 'For What Purposes Does Amazon Europe Use Your Personal Information?'",
+    "por_que": "Finalidade declarada de melhoria/troubleshooting no registro vinculante; não nomeia teste com usuários nem método.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We also use cookies to understand how customers use our services so we can make improvements.\nFor example, we use cookies to conduct research and diagnostics to improve Amazon's\ncontent, products, and services, and to measure and understand the performance of\nour services.",
+    "onde": "Doc 3, Cookies notice, seção 'Operational Cookies'",
+    "por_que": "Menciona 'research and diagnostics' para melhoria, mas sem nomear experimento/A-B — relevante para a fronteira 1 vs 2.",
+    "file": "amazon-store/03-help-customer-display-3.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "With the Amazon Pricing Labs, we can conduct a range of online A/B experiments to evaluate new pricing policies.",
+    "onde": "Doc 6, blog Amazon Science, corpo do texto",
+    "por_que": "Nomeia explicitamente experimentos A/B com usuários — teto nível 3, em registro não-vinculante.",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "The most straightforward switchback experiment is the random-days experiments, in which, each day, each product is randomly assigned to either the control group or the treatment group.",
+    "onde": "Doc 6, blog Amazon Science, seção sobre switchback",
+    "por_que": "Randomização e grupos de controle explicitados; confirma nível 3 fora do contrato.",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "In order to improve prices at Amazon, we created Pricing Labs, a price experimentation platform. Since we do not price discriminate, we must run product-randomized experiments.",
+    "onde": "Doc 7, página de publicação Amazon Science, resumo",
+    "por_que": "Plataforma de experimentação e randomização nomeadas — nível 3 em registro não-vinculante.",
+    "file": "amazon-store/07-publications-science-of-price-experimentation-at-ama.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Traditional online A/B experimentation limits the number of treatments that can be evaluated concurrently.",
+    "onde": "Doc 5, listagem de tag A/B testing, resumo TSMOO",
+    "por_que": "Reforça presença de linguagem explícita de A/B testing no site de pesquisa (não-vinculante).",
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "role": "unknown"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 1,
+    "verbatim": "We use your personal information to operate, provide, and improve the Amazon Services\nthat we offer our customers.",
+    "onde": "Doc 1, Privacy Notice, 'For What Purposes Does Amazon Europe Use Your Personal Information?'",
+    "por_que": "Enquadramento de service improvement no registro vinculante.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "we use cookies to conduct research and diagnostics to improve Amazon's\ncontent, products, and services",
+    "onde": "Doc 3, Cookies notice, seção 'Operational Cookies'",
+    "por_que": "Co-ocorrência de research + service improvement em documento de privacidade/cookies.",
+    "file": "amazon-store/03-help-customer-display-3.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "The prices of products in the Amazon Store reflect a range of factors, such as demand, seasonality, and general economic trends.",
+    "onde": "Doc 6, blog Amazon Science, abertura",
+    "por_que": "Contexto do enquadramento de pesquisa econômica aplicada a preços.",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "In a paper we published in the Journal of Business Economics in March and presented at the American Economics Association’s annual conference in January (AEA), we described some of the experiments we can conduct to prevent spillovers, improve precision, and control for demand trends and differences in treatment groups when evaluating new pricing policies.",
+    "onde": "Doc 6, blog Amazon Science, corpo",
+    "por_que": "Enquadramento explícito de research (publicação acadêmica, conferência) para os experimentos.",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "In order to improve prices at Amazon, we created Pricing Labs, a price experimentation platform.",
+    "onde": "Doc 7, resumo da publicação",
+    "por_que": "Combina research com service/price improvement.",
+    "file": "amazon-store/07-publications-science-of-price-experimentation-at-ama.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Estimating spillover effect, however, is not as good as eliminating it. One way to do that is to treat substitutable products as a single product class and assign them to treatment or control groups en masse. This does reduce the power of our experiments, but it gives our business partners confidence that the results aren’t tainted by spillover.",
+    "onde": "Doc 6, blog, seção 'Spillover effect'",
+    "por_que": "Mostra que a justificativa é negócio/precisão científica, não bem-estar comunitário — útil para descartar social-good.",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "role": "non-binding"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 6,
+    "verbatim": "Because we practice nondiscriminatory pricing — all visitors to the Amazon Store at the same time see the same prices for all products — we need to apply experimental treatments to product prices over time, rather than testing different price points simultaneously on different customers.",
+    "onde": "Doc 6, blog Amazon Science, corpo",
+    "por_que": "Nomeia preço como alvo de experimento (V3-pricing) e descreve a superfície testada; registro não-vinculante.",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "We discuss how we randomize to prevent spillovers, run different experimental designs (i.e., crossovers) to improve precision, and control for demand trends and differences in treatment groups to get more precise treatment effect estimates.",
+    "onde": "Doc 7, resumo da publicação",
+    "por_que": "Detalha desenho experimental específico sobre preços — sustenta V3a/V3b e possivelmente V3c.",
+    "file": "amazon-store/07-publications-science-of-price-experimentation-at-ama.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "For instance, if a new pricing policy increases demand for, say, a particular kitchen chair, more customers will view that chair’s product page.",
+    "onde": "Doc 6, blog, seção 'Spillover effect'",
+    "por_que": "Exemplo concreto de experimento de preço afetando comportamento de compra.",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "In simulations, we found that this clustering process can reduce spillover bias by 37%.",
+    "onde": "Doc 6, blog, final da seção 'Spillover effect'",
+    "por_que": "Resultados quantitativos de experimentos concretos — relevante para V3c (experimento específico divulgado).",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Recommendations and personalization. We use your personal information to recommend features, products, and services that\nmight be of interest to you, identify your preferences, and personalize your experience\nwith Amazon Services.",
+    "onde": "Doc 1, Privacy Notice, finalidades",
+    "por_que": "Personalização declarada como feature no registro vinculante — segundo o codebook NÃO conta como alvo de experimento; citação necessária para o avaliador aplicar a distinção.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "Despite our best efforts, a small number of the items in our catalogue may be mispriced.\nWe will verify pricing when processing your order and before we take payment.",
+    "onde": "Doc 4, Conditions of Sale, seção 4 PRICING",
+    "por_que": "Cláusula de erro de precificação — falso positivo explicitamente excluído pelo codebook para V3-pricing.",
+    "file": "amazon-store/04-help-customer-display-4.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "As part of the Amazon Services, we will recommend features, products, and services,\nincluding third part ads that might be of interest to you, identify your preferences,\nand personalise your experience.",
+    "onde": "Doc 4, Conditions of Use, seção 2 RECOMMENDATIONS AND PERSONALISATION",
+    "por_que": "Personalização no registro vinculante sem menção a teste — contraponto ao alvo de experimento.",
+    "file": "amazon-store/04-help-customer-display-4.md",
+    "role": "unknown"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 2,
+    "verbatim": "Our legitimate interests, such as when we fix bugs on our websites or in devices\nwe offer",
+    "onde": "Doc 2, tabela, linha 'Troubleshooting and improving Amazon Services' — coluna Legal Basis",
+    "por_que": "Base legal mais próxima que cobre a finalidade de melhoria/troubleshooting, da qual a experimentação seria inferida.",
+    "file": "amazon-store/02-help-customer-display-2.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Our legitimate interest, such as when we show you new or different products or services\nwe think you might be interested in based on your prior shopping on Amazon",
+    "onde": "Doc 2, tabela, linha 'Recommendations and personalization' — Legal Basis",
+    "por_que": "Interesse legítimo para personalização; relevante se avaliador mapear personalização como cobertura de experimentação.",
+    "file": "amazon-store/02-help-customer-display-2.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Your consent, such as selecting personalised ads for you based on your past interactions\nwith Amazon Services and other personal information we process acting as controller",
+    "onde": "Doc 2, tabela, linha 'Advertising' — Legal Basis",
+    "por_que": "Consentimento aparece apenas para publicidade personalizada, não para experimentação.",
+    "file": "amazon-store/02-help-customer-display-2.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "As explained in the section For What Purposes Does Amazon Europe Use Your Personal Information? , we process your personal information to operate, provide, and improve the Amazon\nServices that we offer our customers. To help you better understand each purpose,\nplease click here to see the categories of personal information we typically use for each purpose and\nthe legal bases we rely on.",
+    "onde": "Doc 1, Privacy Notice, 'Data Use Purposes, Data Categories and Legal Bases'",
+    "por_que": "Mostra que a tabela de bases legais é vinculada à seção de finalidades; nenhuma finalidade nomeia experimentação.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Information for Customers in the European Union and United Kingdom",
+    "onde": "Doc 1, Privacy Notice, título de seção",
+    "por_que": "Indica seção específica para UE/RU — relevante para avaliar region-gating dos direitos e bases.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Amazon Europe Data Use Purposes, Data Categories and Legal Bases",
+    "onde": "Doc 2, título da página",
+    "por_que": "A tabela de bases legais é apresentada como 'Amazon Europe', sugerindo escopo regional (UE) — evidência para v4_region_gated.",
+    "file": "amazon-store/02-help-customer-display-2.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Purposes for which we seek your consent. We may also ask for your consent to use your personal information for a specific\npurpose that we communicate to you.",
+    "onde": "Doc 1, Privacy Notice, finalidades",
+    "por_que": "Cláusula genérica de consentimento; não menciona experimentação especificamente.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 1,
+    "verbatim": "Objection and restriction. To object to or ask that we restrict the use of your personal information, contact\nCustomer Service.",
+    "onde": "Doc 1, Privacy Notice, 'What Rights Do I Have?' (UE/RU)",
+    "por_que": "Direito genérico de objeção (Art. 21), sem controle específico de experimentação.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "You can consent or withdraw your consent to our use of personal information to personalize\nthe ads we show you on the Cookies and Advertising Choices page. You can also adjust your Advertising Preferences .",
+    "onde": "Doc 1, Privacy Notice, 'What Choices Do I Have?'",
+    "por_que": "Controle existente governa publicidade, não experimentação — falso positivo clássico que o codebook alerta.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "You can manage cookies by visiting our Cookies and advertising choices page . We will apply your cookie preferences to the Amazon service and the browser on which\nyou made your choice and on any other browser where you are signed in.",
+    "onde": "Doc 3, Cookies notice, 'Additional Information'",
+    "por_que": "Gestão de cookies é o único controle granular oferecido; não cobre experimentos de preço/feature.",
+    "file": "amazon-store/03-help-customer-display-3.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "If you have any question or objection as to how we collect and process your personal\ninformation, please contact our Customer Service . Many Amazon Services also include settings that provide you with options as to how\nyour personal information is being used.",
+    "onde": "Doc 1, Privacy Notice, 'What Choices Do I Have?'",
+    "por_que": "Mecanismo genérico de objeção via atendimento; nenhuma menção a experimentos.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Because we practice nondiscriminatory pricing — all visitors to the Amazon Store at the same time see the same prices for all products — we need to apply experimental treatments to product prices over time",
+    "onde": "Doc 6, blog Amazon Science",
+    "por_que": "Indica que a exposição ao tratamento é por período/produto, não por usuário — contexto para inexistência de opt-out individual.",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "role": "non-binding"
+   }
+  ],
+  "V6": [],
+  "V7": [
+   {
+    "doc": 1,
+    "verbatim": "We may use your personal information to make fully-automated decisions that have a\nlegal or similarly significant effect on you. If we do so, we will communicate this\nto you.",
+    "onde": "Doc 1, Privacy Notice, final da seção 'Data Use Purposes, Data Categories and Legal Bases'",
+    "por_que": "Aviso de decisão automatizada — explicitamente excluído como debriefing pelo codebook; falso positivo a descartar.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Other than as set out above, you will receive notice when personal information about\nyou might be shared with third parties and you will have an opportunity to choose\nnot to share the information.",
+    "onde": "Doc 1, Privacy Notice, 'Does Amazon Europe Share Your Personal Information?'",
+    "por_que": "Aviso de processamento/compartilhamento, não de participação em experimento — excluído pelo codebook.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "If we make changes, we will inform you in due time and remind you of your rights.",
+    "onde": "Doc 4, Conditions of Use, seção 15",
+    "por_que": "Aviso de mudança de serviço/termos — excluído explicitamente como debriefing.",
+    "file": "amazon-store/04-help-customer-display-4.md",
+    "role": "unknown"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 1,
+    "verbatim": "We design our systems and devices with your security and privacy in mind.",
+    "onde": "Doc 1, Privacy Notice, 'How Secure is Information About Me?'",
+    "por_que": "Linguagem borderline de cuidado/design; não é revisão ética nem avaliação de risco de experimento.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We maintain physical, electronic, and procedural safeguards in connection with the\ncollection, storage, and disclosure of personal customer information.",
+    "onde": "Doc 1, Privacy Notice, 'How Secure is Information About Me?'",
+    "por_que": "Salvaguardas de segurança, não comitê de ética ou avaliação de risco experimental.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Fraud prevention and credit risks. We use personal information to prevent and detect fraud and abuse in order to protect\nthe security of our customers, Amazon Europe, and others. We may also use scoring\nmethods to assess and manage credit risks.",
+    "onde": "Doc 1, Privacy Notice, finalidades",
+    "por_que": "Única menção a 'risk' no registro vinculante, mas é risco de crédito/fraude — não risco de experimento.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "This does reduce the power of our experiments, but it gives our business partners confidence that the results aren’t tainted by spillover.",
+    "onde": "Doc 6, blog, seção 'Spillover effect'",
+    "por_que": "A única forma de 'revisão' citada é validação metodológica interna com parceiros de negócio, não ética.",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "role": "non-binding"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 1,
+    "verbatim": "Amazon.de Privacy Notice\nLast Updated: 22.12.2025",
+    "onde": "Doc 1, cabeçalho da página de ajuda (Legal Policies)",
+    "por_que": "Documento de política de privacidade, hospedado no help centre, com função legal vinculante.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Amazon Europe Core SARL, Amazon EU SARL and Amazon Media EU SARL, all three at 38\navenue John F. Kennedy L-1855, Luxembourg, and Amazon Digital Germany GmbH, at Anni-Albers-Str.\n21, 80807 Munich (together ”Amazon Europe”) are data controllers of personal information\ncollected and used through Amazon Services.",
+    "onde": "Doc 1, 'Controllers of Personal Information'",
+    "por_que": "Confirma caráter de aviso legal vinculante do documento apesar da URL /help/.",
+    "file": "amazon-store/01-help-customer-display.md",
+    "role": "binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "Please read these conditions carefully before using Amazon Services. By using Amazon\nServices, you signify your agreement to be bound by these conditions.",
+    "onde": "Doc 4, Conditions of Use, abertura",
+    "por_que": "Documento se declara parte do acordo com o usuário — registro vinculante (ToS/conditions).",
+    "file": "amazon-store/04-help-customer-display-4.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We use cookies and similar tools (collectively, \"cookies\") for the purposes described\nbelow.",
+    "onde": "Doc 3, Cookies notice, abertura",
+    "por_que": "Aviso de cookies no help centre, referenciado pela Privacy Notice; local adicional de divulgação.",
+    "file": "amazon-store/03-help-customer-display-3.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "As explained in the section of our\nPrivacy Notice called\nFor What Purposes Does Amazon Europe Process Your Personal Information? , we process your personal information to operate, provide, and improve the Amazon\nServices that we offer our customers.",
+    "onde": "Doc 2, abertura da página de bases legais",
+    "por_que": "Página de help centre incorporada por referência à Privacy Notice — relevante para classificar registro.",
+    "file": "amazon-store/02-help-customer-display-2.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "The science of price experiments in the Amazon Store",
+    "onde": "Doc 6, título do post no Amazon Science",
+    "por_que": "Divulgação de experimentação em blog/site de pesquisa — registro não-vinculante.",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Science of price experimentation at Amazon",
+    "onde": "Doc 7, título da publicação no Amazon Science",
+    "por_que": "Segunda divulgação em site de pesquisa; confirma local blog/PR/site de pesquisa.",
+    "file": "amazon-store/07-publications-science-of-price-experimentation-at-ama.md",
+    "role": "non-binding"
+   }
+  ]
+ },
+ "descartadas": 0,
+ "uso": {
+  "input": 85090,
+  "output": 6659
+ },
+ "geracao": {
+  "max_tokens": 16000,
+  "thinking": "adaptive",
+  "nota": "teto anterior; JSON completo, sem truncamento"
+ }
+}

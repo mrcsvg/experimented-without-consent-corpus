@@ -1,0 +1,240 @@
+{
+ "formato": 1,
+ "gerado_em": "2026-09-25T03:17:07+00:00",
+ "arquivos": [
+  {
+   "file": "aliexpress.json",
+   "servico": "AliExpress",
+   "sha256": "511a0e5ff413ac841a06525310e2ffec7b1382dbdd88d5787a4b58f55a0146dd",
+   "citacoes": 53,
+   "gerado_em": "2026-09-25T03:17:07+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "amazon-store.json",
+   "servico": "Amazon Store",
+   "sha256": "2f6c7c41ec379f946bcc22113965ecc27725b6bce1f08bfd490215e45045030b",
+   "citacoes": 46,
+   "gerado_em": "2026-09-25T02:46:40+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "app-store.json",
+   "servico": "App Store",
+   "sha256": "dd6be73b234a015e75d0c4b9da6e29e79da94f1117c69038fb23e3720c96b961",
+   "citacoes": 66,
+   "gerado_em": "2026-09-25T03:07:00+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "bing.json",
+   "servico": "Bing",
+   "sha256": "7158d8e3261e2f7b3ea22aa70e939213f936aa29c5f562b423a4980e42c7b217",
+   "citacoes": 67,
+   "gerado_em": "2026-09-25T02:55:29+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "booking-com.json",
+   "servico": "Booking.com",
+   "sha256": "94645a0251d47418d28c1921665312ad1e0212369ecb6d75366f2bcdbf79ece6",
+   "citacoes": 49,
+   "gerado_em": "2026-09-25T02:41:52+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "facebook.json",
+   "servico": "Facebook",
+   "sha256": "43fca54601d4303aec3d3ed55909e91b5a93bdfd24670787aec560372bbc0a78",
+   "citacoes": 61,
+   "gerado_em": "2026-09-25T02:35:44+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "google-maps.json",
+   "servico": "Google Maps",
+   "sha256": "cd1fe3fa9142320069a4aa1146059734a4f1075aa93931b9f87bf2287ee96ae1",
+   "citacoes": 60,
+   "gerado_em": "2026-09-25T02:44:05+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "google-play.json",
+   "servico": "Google Play",
+   "sha256": "6117669cf3e8f40e26db41eb5e54fdad82a76a586f761a90baaef66d0d842ddf",
+   "citacoes": 66,
+   "gerado_em": "2026-09-25T03:10:06+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "google-search.json",
+   "servico": "Google Search",
+   "sha256": "13b501527fef2f932dc1fe38163045528c197e72b4ca36e99ece23232bcdfe10",
+   "citacoes": 73,
+   "gerado_em": "2026-09-25T02:39:13+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "google-shopping.json",
+   "servico": "Google Shopping",
+   "sha256": "fa1ef7f6d66210d857f11b5e76afc0dfac9a0788313c883c51e8f1989bfaf3db",
+   "citacoes": 53,
+   "gerado_em": "2026-09-25T03:13:31+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "instagram.json",
+   "servico": "Instagram",
+   "sha256": "677374e00818179fb9c5aca657b4fbff5d726d0eefdd7c378a95c471fbb7d203",
+   "citacoes": 75,
+   "gerado_em": "2026-09-25T03:08:39+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "linkedin.json",
+   "servico": "LinkedIn",
+   "sha256": "a1be547b2e1ea5f46485eb7339cdfa4ebb4c537cc8d42febeaf245c7c0ef6341",
+   "citacoes": 56,
+   "gerado_em": "2026-09-25T02:49:08+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "pinterest.json",
+   "servico": "Pinterest",
+   "sha256": "4851d0219814e90b33e7fcd77afeb79db7c7a8326e5bfac8df89825bd90bafd8",
+   "citacoes": 54,
+   "gerado_em": "2026-09-25T03:11:23+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "pornhub.json",
+   "servico": "Pornhub",
+   "sha256": "02e297cace2194480f5f00f94d690f8bd96778d73e290620d7414965bbc74e53",
+   "citacoes": 66,
+   "gerado_em": "2026-09-25T02:45:35+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "shein.json",
+   "servico": "Shein",
+   "sha256": "497883e752036ed948a5f1641802ebe5269118b2d152526757be4b5bb65e05ef",
+   "citacoes": 46,
+   "gerado_em": "2026-09-25T02:58:05+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "snapchat.json",
+   "servico": "Snapchat",
+   "sha256": "c504e07bdabf1f3256cf4bf595b4b336856891d1d0e107f7febd1812ead78518",
+   "citacoes": 73,
+   "gerado_em": "2026-09-25T03:04:03+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "stripchat.json",
+   "servico": "Stripchat",
+   "sha256": "c6490ba170cbaa89271cb5ef48d1073c4ccad53e8fedd7d3c0eeedd8dbfd8099",
+   "citacoes": 37,
+   "gerado_em": "2026-09-25T03:05:35+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "temu.json",
+   "servico": "Temu",
+   "sha256": "a622fe294b9be18a587f3acfda39621773d800af70b8b78a057ed22f5fbf2afa",
+   "citacoes": 36,
+   "gerado_em": "2026-09-25T02:34:00+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "tiktok.json",
+   "servico": "TikTok",
+   "sha256": "6ececc191828566d2414f17761e0c1cbced7c4f0c75c68f482b5d060207f36ab",
+   "citacoes": 50,
+   "gerado_em": "2026-09-25T03:15:32+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "whatsapp.json",
+   "servico": "WhatsApp",
+   "sha256": "2fc248ff2254976f76c9ad22c92eb906fdefe58da0d1d3841b5b13d05dc1f54b",
+   "citacoes": 50,
+   "gerado_em": "2026-09-25T02:40:32+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "wikipedia.json",
+   "servico": "Wikipedia",
+   "sha256": "3cb4618b3a7b475f7822e74fd34d4a81607d83a56644fd54b94d750d3b763d86",
+   "citacoes": 53,
+   "gerado_em": "2026-09-25T02:32:16+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "x.json",
+   "servico": "X",
+   "sha256": "e5e52c1888c76ea8a635cba36f13aa001c7f07faf071d17f1f07642c131fb694",
+   "citacoes": 57,
+   "gerado_em": "2026-09-25T02:59:18+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "xnxx.json",
+   "servico": "XNXX",
+   "sha256": "bce06559f501802b2b7bad6eeaa02edd9604ae3786974b5ec0c7923d6bc1e356",
+   "citacoes": 43,
+   "gerado_em": "2026-09-25T03:00:22+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "xvideos.json",
+   "servico": "XVideos",
+   "sha256": "061351ab4d7a8bcb5a8a7da7c9d7d6e22959bf088d0f1cfea17b03d3559db20d",
+   "citacoes": 40,
+   "gerado_em": "2026-09-25T02:56:37+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "youtube.json",
+   "servico": "YouTube",
+   "sha256": "a9ac542fb1593bc10a9f771abbbbb9d7e6c0f645a6e762b8a9665289e480e589",
+   "citacoes": 70,
+   "gerado_em": "2026-09-25T02:37:33+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  },
+  {
+   "file": "zalando.json",
+   "servico": "Zalando",
+   "sha256": "e4b95c6ebbb9de031a9d8dc1e389b693fa8c2fea96ceefce34d225a7e356ee0d",
+   "citacoes": 40,
+   "gerado_em": "2026-09-25T03:02:27+00:00",
+   "modelo": "claude-opus-5",
+   "corpus_frozen_at": "2026-08-03T01:38:14+00:00"
+  }
+ ]
+}

@@ -1,0 +1,519 @@
+{
+ "formato": 1,
+ "servico": "Google Maps",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T02:44:05+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 2,
+    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others.",
+    "onde": "Doc 2 (Google Terms of Service), seção \"What you can expect from us\" > \"Develop, improve, and update Google services\"",
+    "por_que": "Única menção no registro vinculante a um \"product research program\"; não nomeia teste com usuários nem método — relevante para decidir se o registro vinculante fica em 1 ou 2.",
+    "file": "google-maps/02-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We’re constantly developing new technologies and features to improve our services. For example, we use artificial intelligence and machine learning to provide you with simultaneous translations, and to better detect and block spam and malware.",
+    "onde": "Doc 2 (ToS), \"Develop, improve, and update Google services\"",
+    "por_que": "Linguagem pura de \"melhorar o serviço\" no registro vinculante, sem qualquer referência a testar usuários (nível 1).",
+    "file": "google-maps/02-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "jailbreaking, adversarial prompting, or prompt injection, except as part of our safety and bug testing programs",
+    "onde": "Doc 2 (ToS), \"Don’t abuse our services\"",
+    "por_que": "Menção vinculante a \"safety and bug testing programs\", mas em cláusula de conduta proibida e sem descrever teste de features com usuários — fronteira 1 vs 2.",
+    "file": "google-maps/02-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We log users’ interactions with buttons on apps like Google Maps and Search to help understand if they are functioning as intended.",
+    "onde": "Doc 1 (Privacy Policy), tabela de bases legais, linha \"To maintain and improve Google services, products, and features\"",
+    "por_que": "Monitoramento/instrumentação de Maps no registro vinculante; é debug/medição, não teste declarado — evidência de que o vinculante não sobe de nível.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "If you have an Android device and want to test upcoming features in the Google Maps app before they’re released, join the beta tester programme.",
+    "onde": "Doc 6 (Help Centre, \"Beta test the Google Maps app on Android\"), abertura",
+    "por_que": "Reconhecimento explícito de testar features com usuários, sem nomear método (grupos, variantes, aleatorização) — sustenta nível 2 em registro não-vinculante.",
+    "file": "google-maps/06-maps-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Starting in the U.S., this early access experiment launches this week to select Local Guides , who are some of the most active and passionate members of the Maps community.",
+    "onde": "Doc 5 (blog.google, \"A new way to discover places with generative AI in Maps\"), 3º parágrafo",
+    "por_que": "Uso literal da palavra \"experiment\" com feature servida a um subconjunto selecionado de usuários — candidato a teto 3, mas em registro não-vinculante (blog).",
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "This experimental capability introduces a whole new way for people to more easily discover places and explore the world with Maps.",
+    "onde": "Doc 5 (blog), parágrafo final",
+    "por_que": "Reforça o vocabulário \"experimental\" no registro não-vinculante; ajuda o avaliador a julgar se é experimento em sentido metodológico ou apenas lançamento piloto.",
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "YouTube uses the `__Secure-ROLLOUT_TOKEN` cookie to launch new features and measure related impact when other existing cookies and identifiers cannot be used for the same purpose.",
+    "onde": "Doc 3 (How Google uses cookies), seção \"Analytics\"",
+    "por_que": "Descreve infraestrutura de lançamento gradual de features e medição de impacto — mais próximo de variantes servidas a usuários distintos que qualquer trecho vinculante (embora seja sobre YouTube, não Maps).",
+    "file": "google-maps/03-technologies-cookies.md",
+    "role": "unknown"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 1,
+    "verbatim": "And we use your information to make improvements to our services",
+    "onde": "Doc 1 (Privacy Policy), \"Why Google collects data\" > \"Maintain & improve our services\"",
+    "por_que": "Enquadramento canônico de service improvement no registro vinculante.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We use the information we collect in existing services to help us develop new ones.",
+    "onde": "Doc 1 (Privacy Policy), \"Develop new services\"",
+    "por_que": "Service improvement / desenvolvimento de produto como justificativa do uso de dados.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages.",
+    "onde": "Doc 1 (Privacy Policy), bases legais, \"To maintain and improve Google services\" > legitimate interests",
+    "por_que": "Co-ocorrência explícita de research + service improvement + benefício público (social-good).",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, processing information about requests to remove content from our services to educate the public, facilitate research, and provide transparency about these requests.",
+    "onde": "Doc 1 (Privacy Policy), bases legais, \"To protect Google, our users, and the public\" > legitimate interests",
+    "por_que": "Segunda ocorrência do enquadramento de pesquisa com benefício público; nenhuma referência a sujeitos humanos.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others.",
+    "onde": "Doc 2 (ToS), \"Develop, improve, and update Google services\"",
+    "por_que": "Enquadramento de research dentro do registro vinculante, atado à melhoria/descontinuação de serviço.",
+    "file": "google-maps/02-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Their insights and valuable feedback will help us shape this feature so we can bring it to everyone over time.",
+    "onde": "Doc 5 (blog), 3º parágrafo",
+    "por_que": "Enquadramento de melhoria de produto via comunidade de contribuidores; ajuda a testar se há linguagem de community/social-good.",
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "By beta testing, you play an important part in the app’s development. Your participation and feedback will help us release a better version of the app.",
+    "onde": "Doc 6 (Help Centre, beta), seção \"Send us feedback\"",
+    "por_que": "Enquadramento de contribuição do usuário para melhoria do app — service improvement com apelo participativo, sem linguagem de pesquisa com sujeitos humanos.",
+    "file": "google-maps/06-maps-answer.md",
+    "role": "non-binding"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 6,
+    "verbatim": "If you have an Android device and want to test upcoming features in the Google Maps app before they’re released, join the beta tester programme.",
+    "onde": "Doc 6 (Help Centre, beta), abertura",
+    "por_que": "V3a: nomeia a superfície testada (\"features\" do app Google Maps no Android).",
+    "file": "google-maps/06-maps-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Important : We ask that you don’t publicize or share the features you’re testing until they’re publicly launched.",
+    "onde": "Doc 6 (Help Centre, beta), \"Join the beta tester programme\"",
+    "por_que": "V3a: confirma que o objeto de teste são features pré-lançamento; nenhuma menção a ranking, preço, fricção ou afeto.",
+    "file": "google-maps/06-maps-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We log users’ interactions with buttons on apps like Google Maps and Search to help understand if they are functioning as intended.",
+    "onde": "Doc 1 (Privacy Policy), tabela de bases legais, \"To maintain and improve Google services\"",
+    "por_que": "V3a: superfície nomeada (botões em Maps e Search), mas como debugging/medição — o avaliador precisa decidir se isso é \"atividade testada\" ou mera instrumentação.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We analyze data about your interactions with our services to help us build better products. For example, it may help us discover that it’s taking people too long to complete a certain task or that they have trouble finishing steps at all. We can then redesign that feature and improve the product for everyone.",
+    "onde": "Doc 1 (Privacy Policy), \"To maintain and improve Google services\", exemplos de atividades de processamento",
+    "por_que": "V3b: fala em tempo de conclusão de tarefa e redesenho de feature (proximidade de fricção/fluxo), mas sem declarar isso como alvo de experimento.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Simply say what you’re looking for and our large-language models (LLMs) will analyze Maps’ detailed information about more than 250 million places and trusted insights from our community of over 300 million contributors to quickly make suggestions for where to go.",
+    "onde": "Doc 5 (blog), 2º parágrafo",
+    "por_que": "V3b: recomendação algorítmica descrita como feature — segundo o codebook, personalização declarada NÃO é alvo de experimento; citação serve para afastar falso positivo.",
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Today, we're introducing a new way to discover places with generative AI to help you do just that — no matter how specific, niche or broad your needs might be.",
+    "onde": "Doc 5 (blog), 2º parágrafo",
+    "por_que": "V3c: divulgação de um experimento/feature específico e ativo (IA generativa no Maps) em registro não-vinculante.",
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "You’ll see results organized into helpful categories — like clothing stores, vinyl shops and flea markets — along with photo carousels and review summaries that highlight why a place might be interesting for you to visit.",
+    "onde": "Doc 5 (blog), seção \"A new way to discover places with generative AI\"",
+    "por_que": "V3b/V3c: descreve organização/apresentação de resultados na feature experimental — o mais próximo de \"ranking/layout\" como superfície, ainda que não declarado como alvo de teste.",
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We process your payment information when you buy extra storage for Google Drive.",
+    "onde": "Doc 1 (Privacy Policy), bases legais, \"To provide Google services, products, and features\"",
+    "por_que": "V3-pricing: preço aparece apenas como processamento de pagamento; não há preço nem personalização de preço nomeados como alvo de experimento em nenhum documento.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 1,
+    "verbatim": "We process your information for the purposes described in this policy, based on the following legal grounds:",
+    "onde": "Doc 1 (Privacy Policy), \"European requirements\" > \"Legal bases of processing\"",
+    "por_que": "Abre a tabela de bases legais por finalidade; nenhuma finalidade chamada \"experimentação\" aparece na lista.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We process your data for our legitimate interests and those of third parties while applying appropriate safeguards that protect your privacy.",
+    "onde": "Doc 1 (Privacy Policy), \"Legal bases of processing\"",
+    "por_que": "Base de legítimo interesse declarada de forma genérica — a que mais plausivelmente cobriria experimentação.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Provide, maintain, and improve services to meet the needs of our users. For example, analyzing which search terms are most frequently misspelled to help us improve spell-check features used across our services.",
+    "onde": "Doc 1 (Privacy Policy), tabela de bases legais, linha \"To maintain and improve Google services, products, and features\" > legitimate interests",
+    "por_que": "Finalidade declarada que o avaliador provavelmente mapeará como cobrindo experimentação (cláusula de melhoria), sob legítimo interesse.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Understand how people use our services to ensure and improve the performance of our services. For example, analyzing usage of Google Translate to improve translation quality and increase the availability of Translate in more languages.",
+    "onde": "Doc 1 (Privacy Policy), tabela de bases legais, linha \"To measure performance\" > legitimate interests",
+    "por_que": "Segunda finalidade candidata a cobrir teste/medição, também sob legítimo interesse.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "To perform a contract with you, such as using logs of interactions with Google apps to ensure they are working as intended.",
+    "onde": "Doc 1 (Privacy Policy), tabela de bases legais, \"To maintain and improve Google services\"",
+    "por_que": "Base contratual explicitamente ligada a logs de interação com apps (inclui Maps) — multi-seleção possível.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We ask for your consent to process your data for specific purposes and you have the right to withdraw your consent at any time.",
+    "onde": "Doc 1 (Privacy Policy), \"Legal bases of processing\"",
+    "por_que": "Consentimento consta como base, mas atado a finalidades específicas (ex.: gravações de voz, ads personalizados), não a experimentação.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "With your consent , such as saving audio recordings of voice interactions with Google Search, Assistant, Maps, and Gboard to develop and improve Google audio technologies.",
+    "onde": "Doc 1 (Privacy Policy), tabela de bases legais, \"To develop new Google services, products and features\"",
+    "por_que": "Único uso de consentimento associado a Maps e a desenvolvimento/melhoria de tecnologia — relevante para checar se cobre experimentação.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "If European Union (EU) or United Kingdom (UK) data protection law applies to the processing of your information, we provide the controls described in this policy so you can exercise your rights to request access to, update, remove , and restrict the processing of your information.",
+    "onde": "Doc 1 (Privacy Policy), \"European requirements\"",
+    "por_que": "V4_region_gated: toda a tabela de bases legais está condicionada à aplicabilidade do direito da UE/UK, indicando gating regional do conteúdo.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Google Ireland Limited for users of Google services based in the European Economic Area or Switzerland, located at Gordon House, Barrow Street, Dublin 4, Ireland.",
+    "onde": "Doc 1 (Privacy Policy), \"European requirements\" > \"Data controller\"",
+    "por_que": "Confirma que o documento servido (gl=IE) é a versão UE; útil para avaliar se as bases legais só aparecem nessa versão.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 1,
+    "verbatim": "You also have the right to object to the processing of your information or export your information to another service.",
+    "onde": "Doc 1 (Privacy Policy), \"European requirements\" > \"How to exercise your rights and contact Google\"",
+    "por_que": "Direito genérico de objeção do GDPR, sem qualquer controle específico de experimentação — sustenta \"GDPR-objection-only\".",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "And across our services, you can adjust your privacy settings to control whether we collect some types of data and how we use it.",
+    "onde": "Doc 1 (Privacy Policy), Introdução",
+    "por_que": "Controle genérico de coleta/uso de dados; não menciona participação em testes — o avaliador precisa ver que não há opt-out dedicado.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Decide what types of activity you’d like saved in your account.",
+    "onde": "Doc 1 (Privacy Policy), \"Your privacy controls\" > \"Activity Controls\"",
+    "por_que": "Controles de atividade governam armazenamento de histórico, não alocação em experimentos — falso positivo a afastar.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Manage your preferences about the ads shown to you on Google and on sites and apps that partner with Google to show ads. You can modify your interests, choose whether your personal information is used to make ads more relevant to you, and turn on or off certain advertising services.",
+    "onde": "Doc 1 (Privacy Policy), \"Your privacy controls\" > \"Ad settings\"",
+    "por_que": "Controle existente cobre publicidade/personalização, não experimentação — o clássico falso positivo de opt-out.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "To manage how cookies are used, including rejecting the use of cookies for certain purposes, you can visit g.co/privacytools",
+    "onde": "Doc 3 (How Google uses cookies), \"Purposes of cookies and similar technologies used by Google\"",
+    "por_que": "Mecanismo de rejeição existe mas é escopado a cookies (funcionalidade, segurança, analytics, ads, personalização), não a experimentos.",
+    "file": "google-maps/03-technologies-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Most browsers allow you to manage how cookies are set and used as you’re browsing, and to clear cookies and browsing data.",
+    "onde": "Doc 3 (How Google uses cookies), \"Managing cookies in your browser\"",
+    "por_que": "Confirma que o controle disponível é cookie/ads-only; nenhum trecho oferece recusa de participação em testes de produto.",
+    "file": "google-maps/03-technologies-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Of course, you’re always free to stop using our services at any time.",
+    "onde": "Doc 2 (ToS), \"Suspending or terminating your access to Google services\"",
+    "por_que": "A única \"saída\" oferecida no registro vinculante é deixar de usar o serviço — evidência de ausência de opt-out dedicado.",
+    "file": "google-maps/02-terms.md",
+    "role": "binding"
+   }
+  ],
+  "V6": [
+   {
+    "doc": 6,
+    "verbatim": "If you have an Android device and want to test upcoming features in the Google Maps app before they’re released, join the beta tester programme.",
+    "onde": "Doc 6 (Help Centre, \"Beta test the Google Maps app on Android\"), abertura",
+    "por_que": "Programa voluntário de acesso antecipado a features do Maps — núcleo do V6.",
+    "file": "google-maps/06-maps-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "To become a beta tester, follow the steps below.\nOpt in to beta test the Maps app .\nChoose Become a tester .",
+    "onde": "Doc 6 (Help Centre, beta), \"Join the beta tester programme\"",
+    "por_que": "Mecânica explícita de opt-in (\"Opt in to beta test the Maps app\", \"Become a tester\").",
+    "file": "google-maps/06-maps-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "To leave the beta tester programme, go to the opt-out page > Leave the programme",
+    "onde": "Doc 6 (Help Centre, beta), nota final da seção de adesão",
+    "por_que": "Confirma reversibilidade da adesão voluntária; note que o opt-out é do programa beta, não dos experimentos de rotina (não mitiga V5).",
+    "file": "google-maps/06-maps-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Starting in the U.S., this early access experiment launches this week to select Local Guides , who are some of the most active and passionate members of the Maps community.",
+    "onde": "Doc 5 (blog), 3º parágrafo",
+    "por_que": "Segundo canal de acesso antecipado (Local Guides selecionados), embora por seleção e não por inscrição aberta.",
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "role": "unknown"
+   }
+  ],
+  "V7": [
+   {
+    "doc": 2,
+    "verbatim": "If a modification negatively affects your ability to access or use our digital content or services, or if we stop offering a service altogether, we’ll provide you with reasonable advance notice by email — including a description of the changes, when they’ll take place, and your right to end your contract with us if our modifications create more than a minor negative impact",
+    "onde": "Doc 2 (ToS), \"Develop, improve, and update Google services\"",
+    "por_que": "Falso positivo a excluir: é aviso PRÉVIO de mudança de serviço, não aviso posterior de participação em experimento.",
+    "file": "google-maps/02-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We may let you know about upcoming changes or improvements to our services.",
+    "onde": "Doc 1 (Privacy Policy), \"Communicate with you\"",
+    "por_que": "Falso positivo a excluir: comunicação sobre mudanças de produto, não debriefing experimental.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "You can visit your Google Account to find and manage activity information that’s saved by your activity controls.",
+    "onde": "Doc 1 (Privacy Policy), \"Your activity\"",
+    "por_que": "Transparência retrospectiva sobre dados salvos, não sobre alocação a experimentos — nenhum documento informa depois que a pessoa participou de um teste.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Their insights and valuable feedback will help us shape this feature so we can bring it to everyone over time.",
+    "onde": "Doc 5 (blog), 3º parágrafo",
+    "por_que": "Mesmo no registro não-vinculante, o único retorno mencionado é feedback dos participantes para a Google — não há devolutiva de resultados aos usuários.",
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "role": "unknown"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 2,
+    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others. We only change or stop offering services for valid reasons.",
+    "onde": "Doc 2 (ToS), \"Develop, improve, and update Google services\"",
+    "por_que": "Linguagem borderline de \"impacto\" atada a mudança/descontinuação de serviço — pelo codebook = No com nota; não há comitê, revisão ética ou avaliação de risco de experimento.",
+    "file": "google-maps/02-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We process your data for our legitimate interests and those of third parties while applying appropriate safeguards that protect your privacy.",
+    "onde": "Doc 1 (Privacy Policy), \"Legal bases of processing\"",
+    "por_que": "\"appropriate safeguards\" é a menção mais próxima de avaliação de risco, mas refere-se a anonimização/criptografia, não a revisão ética de experimentos.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "For example, we may anonymize data, or encrypt data to ensure it can’t be linked to other information about you.",
+    "onde": "Doc 1 (Privacy Policy), \"Additional Context\" > \"appropriate safeguards\"",
+    "por_que": "Define os safeguards como medidas técnicas de privacidade — afasta a leitura de que haja revisão ética ou comitê.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We review our information collection, storage, and processing practices, including physical security measures, to prevent unauthorized access to our systems",
+    "onde": "Doc 1 (Privacy Policy), \"Keeping your information secure\"",
+    "por_que": "Revisão interna citada é de segurança da informação, não de ética em pesquisa — falso positivo a afastar.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "Actual Conditions; Assumption of Risk. When you use Google Maps map data, traffic, directions, and other content, you may find that actual conditions differ from the map results and content, so exercise your independent judgment and use Google Maps at your own risk.",
+    "onde": "Doc 4 (Google Maps Additional Terms of Service), cláusula 3",
+    "por_que": "Único uso de \"risk\" nos termos específicos do Maps: transfere risco ao usuário, não descreve avaliação de risco de experimentos.",
+    "file": "google-maps/04-help-terms-maps.md",
+    "role": "unknown"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 1,
+    "verbatim": "This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information.",
+    "onde": "Doc 1 (policies.google.com/privacy), abertura",
+    "por_que": "Localiza a divulgação de finalidades de melhoria/pesquisa na Privacy Policy (registro vinculante).",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "This Privacy Policy applies to all of the services offered by Google LLC and its affiliates , including YouTube, Android, and services offered on third-party sites, such as advertising services.",
+    "onde": "Doc 1 (Privacy Policy), \"About this policy\" > \"When this policy applies\"",
+    "por_que": "O documento se declara aplicável a todos os serviços — confirma função vinculante e cobertura do Maps.",
+    "file": "google-maps/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Understanding these terms is important because, to use our services, you must accept these terms.",
+    "onde": "Doc 2 (policies.google.com/terms), \"What’s covered in these terms\"",
+    "por_que": "Autodeclaração de que o ToS é parte do acordo com o usuário — registro vinculante.",
+    "file": "google-maps/02-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "By using Google Maps, or any third party products or services that integrate Google Maps Platform Services, you, as an end user, must accept (1) the Google Terms of Service , and (2) these Google Maps Additional Terms of Service (the “ Maps Additional Terms ”).",
+    "onde": "Doc 4 (google.com/help/terms_maps), abertura",
+    "por_que": "Termos adicionais específicos do Maps: hospedados sob /help/ mas funcionalmente vinculantes — exemplo direto da regra \"registro ≠ hospedagem\".",
+    "file": "google-maps/04-help-terms-maps.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Google Maps Help\nSign in\nGoogle Help\nHelp Center\nCommunity\nGoogle Maps",
+    "onde": "Doc 6 (support.google.com/maps), cabeçalho",
+    "por_que": "Identifica o local \"help centre\" onde vive a divulgação do programa beta (não-vinculante).",
+    "file": "google-maps/06-maps-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "If you have an Android device and want to test upcoming features in the Google Maps app before they’re released, join the beta tester programme.",
+    "onde": "Doc 6 (Help Centre, beta), abertura",
+    "por_que": "Conteúdo sobre teste com usuários localizado no help centre — teto de reconhecimento fora do contrato.",
+    "file": "google-maps/06-maps-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Here’s a look at how we’re bringing generative AI to Maps — rolling out this week to select Local Guides in the U.S.",
+    "onde": "Doc 5 (blog.google/products/maps/...), subtítulo",
+    "por_que": "Localiza a divulgação do \"experiment\" em blog/PR corporativo — registro não-vinculante.",
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Besides these terms, we also publish a Privacy Policy . Although it’s not part of these terms, we encourage you to read it to better understand how you can update, manage, export, and delete your information .",
+    "onde": "Doc 2 (ToS), \"What’s covered in these terms\"",
+    "por_que": "Mostra a arquitetura documental (ToS + Privacy Policy + termos específicos), útil para agregar o registro em V9.",
+    "file": "google-maps/02-terms.md",
+    "role": "binding"
+   }
+  ]
+ },
+ "descartadas": 0,
+ "uso": {
+  "input": 50488,
+  "output": 13566
+ },
+ "geracao": {
+  "max_tokens": 16000,
+  "thinking": "adaptive",
+  "nota": "teto anterior; JSON completo, sem truncamento"
+ }
+}

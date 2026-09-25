@@ -1,0 +1,470 @@
+{
+ "formato": 1,
+ "servico": "Pinterest",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T03:11:23+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "geracao": {
+  "max_tokens": 64000,
+  "thinking": "adaptive"
+ },
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 1,
+    "verbatim": "Conduct analytics and research on who is using our Services and what they are doing. For example, by logging how often people use two different versions of a feature on Pinterest, we can understand which version is better.",
+    "onde": "Doc 1, Privacy Policy, seção \"How we use the info we collect\", bloco sobre melhorar serviços e segurança",
+    "por_que": "Descreve variantes distintas de uma feature servidas a usuários e comparação entre elas — isso vai além de \"testar features\" genérico e aproxima-se de experimento A/B, ainda que sem nomear o método. Fronteira 2 vs 3.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Conduct analytics and research on who is using Pinterest and what they are doing. For example, by logging how often people use two different versions of a feature on Pinterest, we can understand which version is better.",
+    "onde": "Doc 1, Privacy Policy, seção de bases legais EEA/UK, subitem \"To improve, innovate and develop our Services\"",
+    "por_que": "Repetição da mesma formulação no registro vinculante, agora atrelada a legítimo interesse; confirma que o teto do registro vinculante está nessa linguagem de \"duas versões\".",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Improve the products and services of our family of companies and offer new features.",
+    "onde": "Doc 1, Privacy Policy, \"How we use the info we collect\"",
+    "por_que": "Linguagem pura de melhoria (nível 1), útil para o avaliador contrastar com a formulação de duas versões.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We may make changes to Pinterest for various reasons. We will have no liability for any change to Pinterest or any suspension or termination of your access to, or use of Pinterest.",
+    "onde": "Doc 2, ToS, seção 9 Disclaimers",
+    "por_que": "Única referência do ToS a mudanças no serviço; não reconhece experimentação — relevante para estabelecer o que o ToS não diz.",
+    "file": "pinterest/02-terms-of-service.md",
+    "role": "binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "This programme gives you early access to upcoming versions of the Pinterest app and will allow Pinterest to collect valuable feedback to help improve the experience for everyone.",
+    "onde": "Doc 4, página Beta programme, bloco \"Be a Pinterest beta tester\"",
+    "por_que": "Registro não-vinculante: teste com usuários voluntários, mas sem nomear experimento/A-B nem grupos aleatorizados.",
+    "file": "pinterest/04-public-beta.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "We have hundreds of A/B experiments running at anytime, as we launch new products and improve the quality of the user experience.",
+    "onde": "Doc 5, blog de engenharia, abertura do artigo",
+    "por_que": "Nomeia explicitamente experimentos A/B em execução contínua — nível 3 — mas em registro não-vinculante (blog de engenharia no Medium).",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "To determine users’ experiment (feature) group, whenever a request comes through to the application server, we hash by experimentid and userid/requestid to assign the user the right bucket based on group size configurations",
+    "onde": "Doc 5, seção \"Lightweight logging\"",
+    "por_que": "Descreve alocação de usuários a grupos de experimento — variantes servidas a usuários distintos, confirmando nível 3 no não-vinculante.",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "The null hypothesis was that the mean values of control and treatment groups were the same.",
+    "onde": "Doc 5, seção \"Powering data driven decisions\", item Statistical significance",
+    "por_que": "Menciona grupos de controle e tratamento explicitamente — evidência forte de experimentação em sentido técnico.",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "role": "non-binding"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 1,
+    "verbatim": "Conduct analytics and research on who is using our Services and what they are doing.",
+    "onde": "Doc 1, Privacy Policy, \"How we use the info we collect\"",
+    "por_que": "Co-ocorrência de \"research\" com finalidade de análise de usuários — sustenta enquadramento research.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We use your information in our efforts to improve our Services, keep our users and the public safe, and to protect legal interests.",
+    "onde": "Doc 1, Privacy Policy, cabeçalho do segundo bloco de \"How we use the info we collect\"",
+    "por_que": "Enquadramento de service improvement combinado com segurança de usuários e do público — possível leitura de social-good/community.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "It is in our interest and in the interest of Pinterest users to secure Pinterest systems and fight spam, threats, abuse or infringement activities and promote safety and security on Pinterest.",
+    "onde": "Doc 1, Privacy Policy, bases legais EEA/UK, \"To make and keep Pinterest safe\"",
+    "por_que": "Linguagem de interesse da comunidade e segurança coletiva — candidata a social-good/community, embora atada a segurança e não a experimentação.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "It is in our interest and the interests of Pinterest’s users that we improve, promote and develop the Service in an informed way.",
+    "onde": "Doc 1, Privacy Policy, bases legais, \"To improve, innovate and develop our Services\" — Legitimate interests relied on",
+    "por_que": "Service improvement enquadrado também como benefício aos usuários; é a justificativa mais próxima da experimentação no registro vinculante.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We may share your publicly accessible information with independent researchers who meet certain criteria, to combat societal harms.",
+    "onde": "Doc 1, Privacy Policy, \"How and when we share information\"",
+    "por_que": "Co-ocorrência explícita de research com finalidade social (\"societal harms\"); note que trata de compartilhamento com pesquisadores externos, não de experimentação própria.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We may get requests for account information from law enforcement authorities like the police or courts, or from researchers to study activity on Pinterest.",
+    "onde": "Doc 1, Privacy Policy, bases legais, \"To make and keep Pinterest safe\"",
+    "por_que": "Menção a pesquisadores estudando atividade na plataforma — relevante ao enquadramento research/human-subjects.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "This experimentation framework powers all types of data driven decisions at Pinterest, and has helped us to understand hundreds of A/B experimental results and deciding the launch of new features.",
+    "onde": "Doc 5, seção final \"Powering data driven decisions\"",
+    "por_que": "Enquadramento de melhoria de produto/decisão orientada a dados no registro não-vinculante.",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "role": "non-binding"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 1,
+    "verbatim": "by logging how often people use two different versions of a feature on Pinterest, we can understand which version is better",
+    "onde": "Doc 1, Privacy Policy, \"How we use the info we collect\" e repetido nas bases legais EEA/UK",
+    "por_que": "V3a: nomeia \"feature\" como superfície testada e o uso de duas versões — atividade testada declarada.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "As part of improving the existing search feature, Pinterest uses machine learning technology to categorise images in Pins into different body types . For this purpose, Pinterest uses any Pins on Pinterest.",
+    "onde": "Doc 1, Privacy Policy, bases legais EEA/UK, \"To improve, innovate and develop our Services\"",
+    "por_que": "Superfície específica nomeada (busca, tecnologia de tipo corporal); avaliador deve decidir se é alvo de experimento ou apenas desenvolvimento de modelo/personalização.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Content recommendations on Pinterest are made based on a combination of factors. Your recommendations are mainly influenced by how you engage with our Service, the topics we think you’re interested in and how interested you are in them, and what other users who share your similar characteristics and interests like.",
+    "onde": "Doc 2, ToS, seção 3(b)",
+    "por_que": "Recomendação algorítmica descrita como feature — o critério manda distinguir isso de alvo de experimento; citação necessária para o avaliador aplicar a exclusão.",
+    "file": "pinterest/02-terms-of-service.md",
+    "role": "binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "we have around 50 jobs running to do all the calculations and transforms of data",
+    "onde": "Doc 5, seção \"Batch-processing MapReduce workflow\"",
+    "por_que": "Detalha infraestrutura de experimentação, mas sem nomear alvo substantivo (preço, afeto, fricção); relevante para V3b como ausência.",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "To support segmented analysis of features’ impact on a particular group, e.g. iPhone activity of male active users located in United Kingdom, we categorize users into different fully denormalized attribute groups (cohorts).",
+    "onde": "Doc 5, seção \"Batch-processing MapReduce workflow\"",
+    "por_que": "Nomeia segmentos e superfícies (atividade por app/gênero/país) sob teste; candidato a V3a/V3b no registro não-vinculante.",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "To account for novelty decay effect of features, for each user in the experiment, we first figure out the earliest date when the user was first seen in the experiment group",
+    "onde": "Doc 5, seção \"Batch-processing MapReduce workflow\"",
+    "por_que": "Descreve efeito comportamental medido (novelty decay) como objeto de análise experimental — possível alvo de experimento.",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "we used unpaired t-test for num_active and num_actions test",
+    "onde": "Doc 5, item Statistical significance",
+    "por_que": "Nomeia as métricas de resultado dos experimentos (atividade e ações), mas nenhum experimento específico ou ativo é identificado — relevante para V3c.",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "role": "non-binding"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 1,
+    "verbatim": "To improve, innovate and develop our Services, we:\nConduct analytics and research on who is using Pinterest and what they are doing. For example, by logging how often people use two different versions of a feature on Pinterest, we can understand which version is better.",
+    "onde": "Doc 1, Privacy Policy, seção \"Additional Info for EEA, Swiss and UK Data Subjects: Legal bases we rely on where we use your information\"",
+    "por_que": "Esta é a finalidade declarada que cobre experimentação; está listada sob a rubrica de legítimo interesse.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We use info based on legitimate interests\nWe rely on our legitimate interests or those of a third party where they are not outweighed by your interests and fundamental rights.",
+    "onde": "Doc 1, Privacy Policy, abertura da seção de bases legais",
+    "por_que": "Declara a base legal de legítimo interesse que enquadra o bloco de melhoria/pesquisa.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "The below section only applies for residents in the EEA, Switzerland, and UK. Under applicable data protection law in the European Region (such as the GDPR), companies must have a legal justification to process your information for the various purposes described in this Privacy Policy.",
+    "onde": "Doc 1, Privacy Policy, cabeçalho da seção de bases legais",
+    "por_que": "Evidência direta de region-gating: a tabela de bases por finalidade só se aplica a residentes do EEE/Suíça/UK.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We have highlighted below where a particular section applies to you based on where you live.",
+    "onde": "Doc 1, Privacy Policy, \"Scope of the Privacy Policy\"",
+    "por_que": "Confirma a arquitetura de disclosure segmentada por região, apoiando v4_region_gated.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We use info where you give us consent",
+    "onde": "Doc 1, Privacy Policy, seção de bases legais",
+    "por_que": "Consentimento aparece como base legal, mas para busca por foto, ads offsite, lead ads e promoção de creators — não para experimentação; o avaliador precisa ver a lista para confirmar a exclusão.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "It is in our interest and the interests of Pinterest’s users that we improve, promote and develop the Service in an informed way.",
+    "onde": "Doc 1, Privacy Policy, \"To improve, innovate and develop our Services\" — Legitimate interests relied on",
+    "por_que": "Formulação exata do interesse legítimo invocado para a finalidade que cobre experimentação.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 1,
+    "verbatim": "Right to object or restrict processing : You can object to direct marketing from us or where we rely on legitimate interests to process your information, such as where features supported by generative artificial intelligence are based on legitimate interests. You can object through this form .",
+    "onde": "Doc 1, Privacy Policy, \"Additional rights in the EEA, Switzerland, and the UK\"",
+    "por_que": "Direito genérico de objeção do Art. 21 aplicável a processamentos baseados em legítimo interesse — a base que cobre experimentação. Sem controle específico de experimento.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "You can control how we use this information to personalize your experience and the ads you see on Pinterest in your Privacy and Data Settings .",
+    "onde": "Doc 1, Privacy Policy, fim da seção \"Our partners and advertisers share information with us\"",
+    "por_que": "Controle disponível é de personalização/ads, não de experimentação — falso positivo clássico que o avaliador precisa descartar.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Opt out of “targeted advertising” “sharing” or “sale” : As explained above some of our activities may constitute “targeted advertising,” “sharing,” or “selling” as those terms are defined under certain state privacy laws in the U.S. You may opt out at any time by following the instructions in your Privacy and Data Settings menu.",
+    "onde": "Doc 1, Privacy Policy, \"Your Rights and Choices\"",
+    "por_que": "Opt-out existente é estritamente publicitário; escopo não alcança experimentação.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Analytics cookies which are used for internal analytics and include cookies from providers like Google Analytics .",
+    "onde": "Doc 3, Cookies, \"How we use cookies\"",
+    "por_que": "Categoria de cookies de analytics; o critério exclui explicitamente controle de cookies de analytics como opt-out de experimento.",
+    "file": "pinterest/03-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "If you’re located in the EU or UK you can adjust your cookie preferences at any time by visiting your Privacy settings and editing your Cookies Preferences. If you’ve consented to a category of non-essential cookies and later change your mind, you can immediately revoke consent by turning off that cookie category in your settings.",
+    "onde": "Doc 3, Cookies, seção \"Your options\"",
+    "por_que": "Banner/preferências de cookie existem mas governam cookies (incl. analytics e marketing), não alocação a experimentos.",
+    "file": "pinterest/03-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "You can adjust how recommendations are made in your Privacy and Data Settings, and through your Home Feed Tuner.",
+    "onde": "Doc 2, ToS, seção 3(b)",
+    "por_que": "Controle sobre recomendações, não sobre participação em experimentos; relevante para descartar como opt-out dedicado.",
+    "file": "pinterest/02-terms-of-service.md",
+    "role": "binding"
+   }
+  ],
+  "V6": [
+   {
+    "doc": 4,
+    "verbatim": "Be a Pinterest beta tester",
+    "onde": "Doc 4, título da página do programa beta",
+    "por_que": "Programa beta nomeado e aberto a inscrição voluntária.",
+    "file": "pinterest/04-public-beta.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "There are two steps to becoming an iOS beta tester:\n1\nInstall the TestFlight",
+    "onde": "Doc 4, bloco \"Things you need to know about Pinterest iOS beta\"",
+    "por_que": "TestFlight explicitamente citado — exemplo canônico do critério V6.",
+    "file": "pinterest/04-public-beta.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "Pinterest has invited you to a testing program.\nJoin Android beta",
+    "onde": "Doc 4, bloco Android",
+    "por_que": "Canal beta Android com adesão voluntária, confirmando opt-in em acesso antecipado.",
+    "file": "pinterest/04-public-beta.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "As a tester, you'll receive an update that includes a testing version of the Pinterest app, which may also include unreleased versions of its instant app.",
+    "onde": "Doc 4, bloco \"Things to know about Pinterest Android beta\"",
+    "por_que": "Descreve o que o voluntário recebe — acesso antecipado a features, não mitigação dos experimentos de rotina.",
+    "file": "pinterest/04-public-beta.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 4,
+    "verbatim": "Is my personal data collected?",
+    "onde": "Doc 4, seção FAQ",
+    "por_que": "FAQ do programa lista a pergunta sobre coleta de dados, mas o documento congelado não traz a resposta — gap relevante a anotar.",
+    "file": "pinterest/04-public-beta.md",
+    "role": "non-binding"
+   }
+  ],
+  "V7": [
+   {
+    "doc": 1,
+    "verbatim": "We may change this policy from time to time and if we do, we’ll post any changes on this page. If you continue to use Pinterest after those changes are in effect, the new policy applies to you. If the changes are significant, we may provide a more prominent notice, such as by sending you an email.",
+    "onde": "Doc 1, Privacy Policy, \"How we make changes to this policy\"",
+    "por_que": "Aviso de mudança de política — explicitamente excluído como debriefing pelo critério; citação necessária para o avaliador descartar.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Unless otherwise required by law, we’ll notify you of any material changes to these Terms before any update enters into effect.",
+    "onde": "Doc 2, ToS, seção 13(a)",
+    "por_que": "Aviso de mudança de serviço/termos, não debriefing de participação em experimento — falso positivo a excluir.",
+    "file": "pinterest/02-terms-of-service.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Send you updates, including by email, push notification, SMS, or phone.",
+    "onde": "Doc 1, Privacy Policy, \"How we use the info we collect\"",
+    "por_que": "Único canal de notificação descrito; não há qualquer menção a informar o usuário de que participou de um teste.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "We rendered experiment results through an experiment dashboard, which is constituted by many useful tools to make the experiment results easily accessible.",
+    "onde": "Doc 5, seção \"Powering data driven decisions\"",
+    "por_que": "Os resultados de experimentos são acessíveis a donos de experimento internos, não aos participantes — ausência de debriefing também no registro não-vinculante.",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "role": "non-binding"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 1,
+    "verbatim": "Regulatory matters: to comply with regulatory obligations like under privacy laws (GDPR) and the Digital Services Act (DSA).",
+    "onde": "Doc 1, Privacy Policy, \"We use info to comply with our legal obligations\"",
+    "por_que": "Única menção ao DSA nos documentos ao usuário; não descreve avaliação de risco sistêmico nem revisão ética — nota de gap regulatório-vs-documento.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We rely on our legitimate interests or those of a third party where they are not outweighed by your interests and fundamental rights.",
+    "onde": "Doc 1, Privacy Policy, abertura de \"We use info based on legitimate interests\"",
+    "por_que": "Linguagem de ponderação de interesses (balancing) é borderline: não é revisão ética nem comitê; avaliador deve considerar se conta como avaliação de risco.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We also identify and use additional protections as appropriate for each data transfer. For example, we use:\ntechnical protections, such as encryption and pseudonymisation; and\npolicies and processes to challenge disproportionate or unlawful government authority requests.",
+    "onde": "Doc 1, Privacy Policy, \"Additional steps for data transfers in the EEA, Switzerland, and the UK\"",
+    "por_que": "Processos de avaliação existem mas são sobre transferências internacionais, não sobre experimentos — falso positivo a descartar.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Group validation : To help experiment launches successfully, we also support automated group allocation test to ensure that users of each segmentation are allocated as expected.",
+    "onde": "Doc 5, seção \"Powering data driven decisions\"",
+    "por_que": "Única forma de \"revisão\" associada a experimentos é validação estatística de alocação, não revisão ética ou de risco a participantes.",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "role": "non-binding"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 1,
+    "verbatim": "Conduct analytics and research on who is using our Services and what they are doing. For example, by logging how often people use two different versions of a feature on Pinterest, we can understand which version is better.",
+    "onde": "Doc 1, Privacy Policy (policy.pinterest.com/en/privacy-policy), \"How we use the info we collect\"",
+    "por_que": "Localiza a divulgação mais próxima de experimentação na política de privacidade — registro vinculante.",
+    "file": "pinterest/01-privacy-policy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "These Terms of Service (\"Terms\") govern your access to and use of any website, app, service, technology, API, widget, platform, channel or any other products or features owned, operated, branded or offered by Pinterest",
+    "onde": "Doc 2, ToS, abertura \"Thank you for using Pinterest!\"",
+    "por_que": "O ToS se declara governante do uso — estabelece o caráter vinculante do documento, critério de v9_register.",
+    "file": "pinterest/02-terms-of-service.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "For clarity, these Terms include, and incorporate by reference, the following policies:",
+    "onde": "Doc 2, ToS, abertura",
+    "por_que": "Mostra quais documentos são incorporados ao contrato (guidelines listados); útil para decidir o registro de cada local de divulgação.",
+    "file": "pinterest/02-terms-of-service.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Our privacy policy describes how we collect and use information, and what choices you have. One way we collect information is through the use of a technology called “cookies\", and similar technologies, such as pixels, local storage and software development kits (SDKs).",
+    "onde": "Doc 3, Cookies, seção \"Cookies on Pinterest\"",
+    "por_que": "Política de cookies se apresenta como desdobramento da política de privacidade; registro ambíguo (marcado unknown no manifesto) — o avaliador decide.",
+    "file": "pinterest/03-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We use analytics cookies to make Pinterest better. For example, these cookies tell us how many people use a certain feature and how popular it is, or whether people open an email we send.",
+    "onde": "Doc 3, Cookies, \"Analytics cookies\"",
+    "por_que": "Conteúdo mais próximo de teste/medição nesse documento, localizando a política de cookies como possível local de divulgação.",
+    "file": "pinterest/03-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "This programme gives you early access to upcoming versions of the Pinterest app and will allow Pinterest to collect valuable feedback to help improve the experience for everyone.",
+    "onde": "Doc 4, pinterest.com/public-beta/, bloco principal",
+    "por_que": "Página de produto/marketing do programa beta — local de divulgação em registro não-vinculante.",
+    "file": "pinterest/04-public-beta.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "We have hundreds of A/B experiments running at anytime, as we launch new products and improve the quality of the user experience.",
+    "onde": "Doc 5, blog de engenharia no Medium",
+    "por_que": "A divulgação mais explícita de experimentação vive em blog/PR — registro não-vinculante, ponto central para v9_register.",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "role": "non-binding"
+   }
+  ]
+ },
+ "descartadas": 0,
+ "uso": {
+  "input": 34099,
+  "output": 8248
+ }
+}

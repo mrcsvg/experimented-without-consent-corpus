@@ -1,0 +1,430 @@
+{
+ "formato": 1,
+ "servico": "Booking.com",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T02:41:52+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 1,
+    "verbatim": "In addition to the statistics we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features.",
+    "onde": "Privacy Notice → Purposes of collecting and processing your personal data → Improving our services",
+    "por_que": "Nomeia explicitamente 'experiments' e 'A/B tests' — nível de teto 3 — e está em documento de registro vinculante (Privacy Notice).",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "The main goal here is to get insights into how our services perform, how they are used, and ultimately how to optimise and customise our website and mobile apps, in an effort to make them easier and more meaningful to use. In order to achieve this purpose, we may combine personal data we collect from you during different visits to our platform or visits on different devices or different websites of ours, even when you are not logged in.",
+    "onde": "Privacy Notice → Improving our services (parágrafo seguinte ao de A/B tests)",
+    "por_que": "Contextualiza a finalidade dos experimentos e confirma que envolvem usuários identificados/combinados entre visitas.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "In addition to the statistics we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features.",
+    "onde": "Privacy Notice (en-gb) → Purposes of collecting and processing your personal data → Improving our services",
+    "por_que": "Confirma a mesma menção explícita a experimentos/A-B tests na segunda URL vinculante.",
+    "file": "booking-com/02-content-privacy-gb.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We’re always working to improve our customers’ experience with Booking.com. So, sometimes, we show different people different designs, phrasings, products, etc., to find out how they react. As a result, you might not come across some services or conditions when you visit our Platform.",
+    "onde": "Terms of Service → A. All Travel Experiences → A6. Your experience with our Platform, item 2",
+    "por_que": "Descrição de variantes servidas a usuários distintos ('different people different designs') em documento contratual — sustenta nível 3 no registro vinculante mesmo sem a palavra 'experiment'.",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We’re always working to improve our customers’ experience with Booking.com. So sometimes, we show different people different designs, phrasings, products, etc. to find out how they react. As a result, you might not come across some services or conditions when you visit our Platform.",
+    "onde": "Terms of Service → versão anterior (reservas entre 31/10/2023 e 15/09/2025) → A4. Our Platform, item 2",
+    "por_que": "Mostra que a mesma cláusula de variantes existe também na versão anterior dos Termos, reforçando presença no registro vinculante.",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We may use your personal data to develop and enhance our machine learning models and artificial intelligence systems. This is a necessary part of our ongoing commitment to make our services better and enhance our travellers’ experience.",
+    "onde": "Privacy Notice → Improving our services",
+    "por_que": "Linguagem de 'melhorar' que acompanha o reconhecimento de experimentação; útil para o avaliador separar nível 1 de nível 3.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 1,
+    "verbatim": "We use personal data about travellers using our platform for analytical purposes, including for analysing how you or travellers like you with similar interests use our platform, understanding customer sentiment and satisfaction, measuring our operating performance and improving trip services.",
+    "onde": "Privacy Notice → Purposes → Improving our services",
+    "por_que": "Enquadramento de service improvement combinado com análise de sentimento/satisfação.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We sometimes invite our customers to participate in market research. Please see the information that accompanies this kind of invitation to understand what personal data will be collected and how that data is used.",
+    "onde": "Privacy Notice → Purposes → Market research",
+    "por_que": "Enquadramento explícito de 'research' (pesquisa de mercado), com convite e participação — relevante para marcar research.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "To send you personalised marketing messages including promotions, Genius related benefits and other rewards, travel experiences, surveys and other updates about Booking.com related products and services.",
+    "onde": "Privacy Notice → Purposes → Marketing activities",
+    "por_que": "Menciona 'surveys', outra forma de coleta de pesquisa junto a usuários.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "This is necessary to maintain our platform as a trustworthy environment as well as for the safety of all travellers.",
+    "onde": "Privacy Notice → Purposes → Promotion of a safe and trustworthy service and prevention of fraud",
+    "por_que": "Linguagem próxima de bem-estar coletivo/comunidade ('safety of all travellers'), candidata fraca a social-good; avaliador decide se atinge o critério.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We offer a personalised experience based on how you use our Platform (including what you tell us) so you can book your ideal Accommodation with us.",
+    "onde": "Terms of Service → B3. What we will do, item 1",
+    "por_que": "Enquadramento de melhoria/benefício ao usuário associado à customização, em registro vinculante.",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "This is a necessary part of our ongoing commitment to make our services better and enhance our travellers’ experience.",
+    "onde": "Privacy Notice → Improving our services",
+    "por_que": "Frase-síntese do enquadramento de service improvement.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 1,
+    "verbatim": "we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features",
+    "onde": "Privacy Notice → Improving our services",
+    "por_que": "V3a: nomeia a superfície testada ('platform features'), embora de forma genérica.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "we show different people different designs, phrasings, products, etc., to find out how they react",
+    "onde": "Terms of Service → A6.2",
+    "por_que": "V3b: nomeia alvos concretos de experimento — design (layout), phrasing (mensagem/copy) e produtos exibidos.",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "how to optimise and customise our website and mobile apps",
+    "onde": "Privacy Notice → Improving our services",
+    "por_que": "V3a: superfícies (site e apps) nomeadas como objeto de otimização.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "When you search our websites or mobile apps, for example to find an accommodation, a rental car or a flight, the pricing you see may depend on a number of factors, such as whether you are in the European Economic Area (EEA) or in another region or country outside of the EEA.",
+    "onde": "Privacy Notice → Purposes → Showing the pricing applicable to you",
+    "por_que": "V3-pricing: preço variável por usuário/localização declarado em registro vinculante; avaliador decide se é alvo de experimento ou apenas diferenciação regional.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "In order to display the pricing applicable to you, we use personal data such as your IP address, the type of device you are using and which site you came from.",
+    "onde": "Privacy Notice → Showing the pricing applicable to you",
+    "por_que": "Detalha que preço mostrado depende de dados pessoais do usuário — evidência central para a flag de pricing.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Obvious errors and obvious misprints are not binding. For example, if you book a premium car or a night in a luxury suite mistakenly offered for €1, your booking may be cancelled, and we’ll refund anything you’ve paid.",
+    "onde": "Terms of Service → A7. Prices, item 3",
+    "por_que": "Cláusula de mispricing que, pelo codebook, NÃO conta para V3-pricing — incluída para evitar falso positivo.",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We use AI to predict the optimal/most relevant category of products or services for you and to bring the best options to your attention. This may include showing you details of a trip we think would interest you, displaying tailored complementary trips offerings on our platform and ranking search results to put the best matches to the top of your feed.",
+    "onde": "Privacy Notice → How we use artificial intelligence and make automated decisions → Showing you the most relevant content",
+    "por_que": "Ranking/personalização descrita como feature declarada, não como alvo de experimento — fronteira relevante para V3b.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Based on your interaction with our Platform and your personalisation preferences (which you can access in your account settings under the ‘Customisation preferences’ section), we may enable features intended to make your experience more convenient and offer you tailored services (including personalised marketing messages) to enhance your experience",
+    "onde": "Terms of Service → A6.1",
+    "por_que": "Personalização declarada como feature, útil para distinguir de alvo experimental.",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 1,
+    "verbatim": "G. Improving our services",
+    "onde": "Privacy Notice → Legal bases for personal data processing (tabela de finalidades)",
+    "por_que": "Identifica a finalidade declarada ('Improving our services') que cobre os experimentos/A-B tests.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "K. Promotion of safe and trustworthy service and prevention of fraud Unless provided otherwise in this overview, collecting and processing of your personal data for these purposes is based on the legitimate interests of Booking.com or a third party.",
+    "onde": "Privacy Notice → Legal bases (linha que encerra o bloco C a K)",
+    "por_que": "Atribui interesse legítimo ao bloco de finalidades que inclui G (Improving our services) — base legal aplicável aos experimentos.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "The legitimate interests include, for example, under certain circumstances using AI systems to avoid financial harm from online fraud, maintain the safety of our platform, customers and trip providers and staff, share people’s experiences with prospective travellers and keep people informed about offers we think might be of interest, reduce our operating costs, improve the efficiency and quality of our data processing models and privacy-enhancing technologies, and provide better products to our customers.",
+    "onde": "Privacy Notice → Legal bases",
+    "por_que": "Enumera os interesses legítimos invocados, incluindo 'provide better products' — leitura mais próxima da experimentação.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "All purpose categories Finally, where needed under applicable law, Booking.com will obtain your consent prior to processing your personal data, including for direct marketing purposes, for use of AI Systems or technology or where otherwise required by law.",
+    "onde": "Privacy Notice → Legal bases (última linha da tabela)",
+    "por_que": "Consentimento aparece como base subsidiária condicionada à lei aplicável, sem menção específica a experimentos.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "B. Customer service Here, Booking.com relies on the legal basis that the processing of personal data is necessary for the performance of a contract involving you, specifically to finalise and administer your trip reservation.",
+    "onde": "Privacy Notice → Legal bases",
+    "por_que": "Mostra que 'contract' cobre apenas A e B, não a finalidade de melhoria/experimentação.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "In particular, if you are in the European Economic Area (EEA) and your personal data is transferred to third-party service providers in countries not considered adequate by the European Commission (EC), we establish and implement appropriate contractual, organisational and technical measures with these third-party companies.",
+    "onde": "Privacy Notice → Safeguards for international transfers of personal data",
+    "por_que": "Evidência sobre condicionamento regional; o texto de bases legais não indica gating por IP/locale, apenas referências ao EEA/UK em transferências e preços.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Where required, we offer you the option to decline analytical and marketing cookies (through, for example, a cookie banner).",
+    "onde": "Privacy Notice → How we use cookies & other tracking technologies → What are your choices?",
+    "por_que": "'Where required' sinaliza possível diferenciação por jurisdição em controles — relevante para v4_region_gated.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 1,
+    "verbatim": "If you wish to object to the processing set out under C to K and the use of AI systems and no opt-out mechanism is available to you directly (for example, in your account settings), please contact us as described in the section Your rights .",
+    "onde": "Privacy Notice → Legal bases (fecho da seção)",
+    "por_que": "Única via de oposição aplicável ao bloco que inclui 'Improving our services' — é direito genérico de objeção, sem controle dedicado a experimentos.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Objection Where we process your personal data based on legitimate interest or the public interest, you have the right to object to that use of your personal data at any time, subject to applicable law.",
+    "onde": "Privacy Notice → Your rights (tabela)",
+    "por_que": "Formulação do direito genérico de objeção (Art. 21), base para GDPR-objection-only.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Where required, we offer you the option to decline analytical and marketing cookies (through, for example, a cookie banner). Most browsers will also allow you to choose which cookies to accept and which to reject.",
+    "onde": "Privacy Notice → How we use cookies → What are your choices?",
+    "por_que": "Controle existente governa cookies analíticos/marketing, não experimentação — falso positivo clássico a ser descartado.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "You remain in full control. Through your privacy settings, you can view, manage, and delete your AI Memories, and you can also withdraw your consent for this feature at any time.",
+    "onde": "Privacy Notice → How we use artificial intelligence → AI Memory",
+    "por_que": "Controle dedicado existe para AI Memories, não para experimentos A/B — delimita o escopo do opt-out disponível.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Based on your interaction with our Platform and your personalisation preferences (which you can access in your account settings under the ‘Customisation preferences’ section), we may enable features intended to make your experience more convenient",
+    "onde": "Terms of Service → A6.1",
+    "por_que": "Preferências de personalização acessíveis na conta; avaliador decide se cobre experimentação (o texto não diz que cobre).",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Manage personalised recommendations",
+    "onde": "Rodapé do Privacy Notice (links)",
+    "por_que": "Link de gerenciamento de recomendações personalizadas; não descrito como opt-out de experimentos.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V6": [],
+  "V7": [
+   {
+    "doc": 3,
+    "verbatim": "As a result, you might not come across some services or conditions when you visit our Platform.",
+    "onde": "Terms of Service → A6.2",
+    "por_que": "O documento aborda o tema da exposição a variantes mas não prevê qualquer aviso posterior de participação — sustenta 'No' substantivo.",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Even if you don’t have an upcoming trip, we may still need to send you other administrative messages, which could include security alerts.",
+    "onde": "Privacy Notice → Purposes → Communicating with you",
+    "por_que": "Comunicações administrativas/alertas não são debriefing — incluído para evitar falso positivo.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We do not currently use solely automated systems, including those using AI, to make a decision about you which would result in a legal or similarly significant effect on you.",
+    "onde": "Privacy Notice → How we use AI and make automated decisions",
+    "por_que": "Aviso sobre decisão automatizada, explicitamente excluído do critério de debriefing.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Booking.com amends its privacy notices from time to time and recommends that you visit this privacy notice occasionally to stay informed. If Booking.com makes updates to a privacy notice that could impact persons significantly, it will take steps to inform these persons about such changes before they take effect.",
+    "onde": "Privacy Notice → About this privacy notice",
+    "por_que": "Aviso de mudança de documento/serviço, também excluído do critério — útil para o avaliador descartar.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 1,
+    "verbatim": "Our use of AI closely follows data protection laws. We assess our AI systems against data protection principles, such as minimisation, accuracy, and purpose limitation. We mitigate potential harm and biases from our use of AI, for example, by:",
+    "onde": "Privacy Notice → How we use artificial intelligence and make automated decisions",
+    "por_que": "Menção a avaliação e mitigação de risco/viés, porém referida a sistemas de IA e não a experimentos — fronteira a decidir.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Re-assessing our use of AI systems to ensure risks continue to be adequately mitigated",
+    "onde": "Privacy Notice → How we use AI (lista de mitigações)",
+    "por_que": "Linguagem de reavaliação de risco recorrente; não vinculada a experimentos nem a comitê/board.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Before we process personal data to serve the legitimate interests of Booking.com or a third party, Booking.com balances your rights and interests in the protection of personal data with the rights and interests of Booking.com or those of the third party.",
+    "onde": "Privacy Notice → Legal bases",
+    "por_que": "Teste de balanceamento de interesse legítimo — avaliação de tipo jurídico, não revisão ética de experimento; borderline explicitado.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "High-risk items are flagged for human review and may be hidden or removed.",
+    "onde": "Privacy Notice → How we use AI → Promotion of a safe and trustworthy service and prevention of fraud",
+    "por_que": "Revisão humana aplicada a moderação/fraude, não a desenho de experimentos — evita falso positivo de 'review board'.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Where personal data of minors is provided, we may in limited circumstances retain and use this personal data to test, train and improve our AI systems to meet our legal obligations or legitimate interests to ensure measures taken to detect and address violations of our content integrity and moderation policies remain proportionate and effective.",
+    "onde": "Privacy Notice → How we treat personal data belonging to minors",
+    "por_que": "Linguagem de proporcionalidade aplicada a testes de sistemas de IA com dados de menores; avaliador decide se configura avaliação de risco relevante.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 1,
+    "verbatim": "Privacy Notice for Travellers\nUpdated May 2026",
+    "onde": "Documento 1 — cabeçalho (URL booking.com/content/privacy.html)",
+    "por_que": "Identifica o local: política de privacidade, onde vive a menção a experiments/A-B tests.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "This privacy notice describes how we collect and otherwise process your personal data when you visit our websites, use our mobile apps or buy a travel-related product or service through us. It details your rights related to your personal data and how you can contact us.",
+    "onde": "Privacy Notice → About this privacy notice",
+    "por_que": "Confirma função do documento como aviso de privacidade aplicável aos usuários (registro vinculante).",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Terms of Service\nCustomer terms of service\nUpdated 15 September 2025",
+    "onde": "Documento 3 — cabeçalho (URL booking.com/content/terms.html)",
+    "por_que": "Identifica o segundo local: ToS, onde vive a cláusula de variantes (A6.2).",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "By agreeing to our Terms, you agree to everything in all three documents. If you don’t accept any of these Terms, please do not use our Platform.",
+    "onde": "Terms of Service → Summary of these Terms",
+    "por_que": "Declara natureza contratual/vinculante do documento e incorpora outros documentos ao acordo.",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Our How we Work page helps you use our Platform and understand our reviews, rankings, recommendations, how we make money, and more.",
+    "onde": "Terms of Service → Summary of these Terms",
+    "por_que": "Aponta um terceiro local ('How we Work') incorporado aos Termos, mas cujo conteúdo não foi fornecido no manifesto — registrar como não verificável.",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "1. If you book a Travel Experience, please refer to our Privacy Notice for more information on privacy, cookies, how we might contact you and how we process personal data.",
+    "onde": "Terms of Service → A10. Privacy and cookies",
+    "por_que": "Liga os dois documentos vinculantes, sustentando v9_register = binding para ambos os locais.",
+    "file": "booking-com/03-content-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Our How we work pages contain more information on our recommendation systems and personalisation.",
+    "onde": "Privacy Notice → How we use AI → Showing you the most relevant content",
+    "por_que": "Referência a página institucional adicional (não fornecida) que poderia hospedar divulgação complementar.",
+    "file": "booking-com/01-content-privacy.md",
+    "role": "binding"
+   }
+  ]
+ },
+ "descartadas": 0,
+ "uso": {
+  "input": 98075,
+  "output": 7397
+ },
+ "geracao": {
+  "max_tokens": 16000,
+  "thinking": "adaptive",
+  "nota": "teto anterior; JSON completo, sem truncamento"
+ }
+}

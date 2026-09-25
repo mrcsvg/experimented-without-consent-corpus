@@ -1,0 +1,623 @@
+{
+ "formato": 1,
+ "servico": "Google Search",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T02:39:13+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 7,
+    "verbatim": "We put all possible changes to Search through a rigorous evaluation process to analyze metrics and decide whether to implement a proposed change. Data from these search evaluations and experiments go through a thorough review by experienced engineers and search analysts, as well as other legal and privacy experts, who then determine if the change is approved to launch. In 2023, we ran over 700,000 experiments that resulted in more than 4,000 improvements to Search.",
+    "onde": "Doc 7, seção 'Testing for usefulness'",
+    "por_que": "Nomeia explicitamente 'experiments' em sentido experimental, com contagem — teto candidato a nível 3, em registro não-vinculante (microsite How Search Works).",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "We conduct live traffic experiments to see how real people interact with a feature before launching it to everyone.",
+    "onde": "Doc 7, seção '16,871 live traffic experiments'",
+    "por_que": "Experimentos em tráfego real com usuários, fora do registro vinculante.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "First, we enable the feature in question to just a small percentage of people, usually starting at 0.1%. We then compare the experiment group to a control group that did not have the feature enabled.",
+    "onde": "Doc 7, subseção 'Running experiments'",
+    "por_que": "Descreve grupo de experimento e grupo de controle — critério explícito de nível 3 (variantes/controle).",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "In a side-by-side experiment, we show Raters two different sets of Search results: one with the proposed change already implemented and one without. We ask them which results they prefer and why.",
+    "onde": "Doc 7, seção '124,942 side-by-side experiments'",
+    "por_que": "Duas variantes servidas para comparação; reforça nível 3, ainda que com raters.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Labs is a program for people to experiment with early-stage Google Search experiences and share feedback.",
+    "onde": "Doc 6, abertura do artigo de Help Center",
+    "por_que": "Usa 'experiment' mas em sentido de acesso antecipado voluntário; relevante para distinguir V1 de V6.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Experiments may change how Google Search appears. For example, you might get an AI Overview at the top of search results. Also, you might get different design layouts than you’re used to.",
+    "onde": "Doc 6, seção 'How experiments work'",
+    "por_que": "Variação de layout entre usuários dentro de programa opt-in; evidência de teste com usuários em registro não-vinculante.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We also use your information to ensure our services are working as intended , such as tracking outages or troubleshooting issues that you report to us. And we use your information to make improvements to our services — for example, understanding which search terms are most frequently misspelled helps us improve spell-check features used across our services.",
+    "onde": "Doc 2, 'Why Google collects data' > 'Maintain & improve our services'",
+    "por_que": "No registro vinculante a linguagem é de melhoria/manutenção, sem 'testar' ou 'experimento' — sustenta nível 1 para o binding sozinho.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others.",
+    "onde": "Doc 3, ToS, 'Develop, improve, and update Google services'",
+    "por_que": "Única menção a 'product research program' no registro vinculante; não nomeia experimento, teste A/B nem grupos — fronteira entre 1 e 2.",
+    "file": "google-search/03-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "jailbreaking, adversarial prompting, or prompt injection, except as part of our safety and bug testing programs",
+    "onde": "Doc 3, ToS, 'Don’t abuse our services'",
+    "por_que": "Menção a 'testing programs' no vinculante, mas sobre testes de segurança/bugs com terceiros, não experimentação com usuários — possível falso positivo.",
+    "file": "google-search/03-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "YouTube uses the `__Secure-ROLLOUT_TOKEN` cookie to launch new features and measure related impact when other existing cookies and identifiers cannot be used for the same purpose.",
+    "onde": "Doc 5, seção 'Analytics'",
+    "por_que": "Lançamento progressivo de features com medição de impacto; sugere teste de features, em documento de registro indeterminado/não-vinculante.",
+    "file": "google-search/05-technologies-cookies.md",
+    "role": "unknown"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 7,
+    "verbatim": "Our goal is always to provide you with the most useful and relevant information. Any changes we make to Search are always to improve the usefulness of results you see.",
+    "onde": "Doc 7, abertura 'Improving Search with rigorous testing'",
+    "por_que": "Enquadramento de service improvement explícito para a experimentação.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Finally, we use these results to measure whether engagement with the new feature is positive, to ensure that the changes we make are increasing the relevance and usefulness of our results for everyone.",
+    "onde": "Doc 7, subseção 'Measuring engagement'",
+    "por_que": "Reforça service improvement como justificativa dos experimentos de tráfego real.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others.",
+    "onde": "Doc 3, ToS, 'Develop, improve, and update Google services'",
+    "por_que": "Uso do termo 'research' em registro vinculante, atrelado a mudanças de serviço.",
+    "file": "google-search/03-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages.",
+    "onde": "Doc 2, tabela de bases legais, linha 'To maintain and improve Google services, products, and features'",
+    "por_que": "Co-ocorrência clássica: research + service improvement + benefício público (social-good).",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, processing information about requests to remove content from our services to educate the public, facilitate research and provide transparency about these requests.",
+    "onde": "Doc 1, tabela de bases legais, linha 'To protect Google, our users and the public'",
+    "por_que": "Research explicitamente ligada a benefício público — candidato a social-good/community.",
+    "file": "google-search/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "For example, to prevent abuse and increase transparency and accountability over our online content moderation practices, Google shares data about requests for removal of content from our services with Lumen, which collects and analyzes these requests to facilitate research to help Internet users understand their rights.",
+    "onde": "Doc 2, Key terms / Additional Context, verbete 'our users'",
+    "por_que": "Research com finalidade de interesse dos usuários e transparência; enquadramento social-good.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We use information to help improve the safety and reliability of our services. This includes detecting, preventing, and responding to fraud, abuse, security risks, and technical issues that could harm Google, our users, or the public .",
+    "onde": "Doc 2, 'Why Google collects data' > 'Protect Google, our users, and the public'",
+    "por_que": "Enquadramento de proteção/bem-estar coletivo, adjacente a social-good/community.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Labs is a program for people to experiment with early-stage Google Search experiences and share feedback. If you’re eligible and interested in Labs, you can access it through the Labs icon .",
+    "onde": "Doc 6, abertura",
+    "por_que": "Enquadramento de melhoria via feedback voluntário, sem linguagem de pesquisa com sujeitos humanos.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "We work with external Search Quality Raters to measure the quality of Search results on an ongoing basis. Raters assess how well website content fulfills a search request, and evaluate the quality of results based on the expertise, authoritativeness, and trustworthiness of the content.",
+    "onde": "Doc 7, seção '719,326 search quality tests'",
+    "por_que": "Avaliação com pessoas contratadas; ajuda o avaliador a decidir se há enquadramento de human-subjects research (provavelmente não).",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 6,
+    "verbatim": "Experiments may change how Google Search appears. For example, you might get an AI Overview at the top of search results. Also, you might get different design layouts than you’re used to.",
+    "onde": "Doc 6, seção 'How experiments work'",
+    "por_que": "Atividades/superfícies testadas explicitamente: apresentação da SERP e design layouts — V3a Yes.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Next, we look at a very long list of metrics, such as what people click on, how many queries were done, whether queries were abandoned, or how long it took for people to click on a result.",
+    "onde": "Doc 7, subseção 'Analyzing metrics'",
+    "por_que": "Detalha métricas medidas nos experimentos de tráfego real; especificidade de método.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "In a side-by-side experiment, we show Raters two different sets of Search results: one with the proposed change already implemented and one without.",
+    "onde": "Doc 7, seção '124,942 side-by-side experiments'",
+    "por_que": "Alvo do experimento = conjuntos de resultados de busca (ranking/apresentação) — relevante a V3b.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "In 2023, we ran:\n4,781 launches\n16,871 live traffic experiments\n719,326 search quality tests\n124,942 side-by-side experiments",
+    "onde": "Doc 7, bloco de números após 'We evaluate Search in multiple ways'",
+    "por_que": "Divulgação agregada de volume de experimentos, mas não de um experimento específico/ativo identificado — pesa contra V3c.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "You can find the end date of an experiment on its card on the Labs page, though these may change over time.",
+    "onde": "Doc 6, FAQ 'How long will experiments be available?'",
+    "por_que": "Aponta divulgação de experimentos individuais via cards do Labs, embora o documento não os liste.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "What happened to Code Tips?\nWhile the Code Tips experiment has ended, we took what we learned from the experiment and applied it to AI Overviews. That means you can now find responses to your coding queries directly in AI Overviews.",
+    "onde": "Doc 6, FAQ",
+    "por_que": "Nomeia um experimento específico ('Code Tips') e seu desfecho — evidência direta para V3c, em registro não-vinculante.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "That is why, while advertisers can pay and be displayed in clearly marked ad sections, no one can buy better placement in the Search results .",
+    "onde": "Doc 7, seção 'Testing for usefulness'",
+    "por_que": "Única menção a pagamento/anúncios nesse contexto; não caracteriza preço como alvo de experimento — pesa contra V3-pricing.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "YouTube uses the `__Secure-ROLLOUT_TOKEN` cookie to launch new features and measure related impact when other existing cookies and identifiers cannot be used for the same purpose.",
+    "onde": "Doc 5, seção 'Analytics'",
+    "por_que": "Nomeia mecanismo técnico de lançamento e medição de features — apoio a V3a fora do binding.",
+    "file": "google-search/05-technologies-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We analyze queries on Google Shopping in order to determine which products, merchants, and brands are relevant to different kinds of queries.",
+    "onde": "Doc 2, tabela, 'To maintain and improve Google services, products, and features'",
+    "por_que": "Análise de queries comerciais; avaliador deve decidir se toca preço (aparentemente não) — relevante a V3-pricing.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 2,
+    "verbatim": "We process your data for our legitimate interests and those of third parties while applying appropriate safeguards that protect your privacy.",
+    "onde": "Doc 2, 'European requirements' > 'Legal bases of processing'",
+    "por_que": "Base de interesse legítimo declarada de forma geral; é a candidata a cobrir experimentação.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages.",
+    "onde": "Doc 2, coluna 'Legal grounds', linha 'To maintain and improve Google services, products, and features'",
+    "por_que": "Mapeia 'research'/melhoria sob interesse legítimo — finalidade declarada que cobriria experimentação.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Understand how people use our services to ensure and improve the performance of our services. For example, analysing usage of Google Translate to improve translation quality and increase the availability of Translate in more languages.",
+    "onde": "Doc 1, coluna 'Legal grounds', linha 'To measure performance'",
+    "por_que": "Interesse legítimo aplicado a medição/desempenho — finalidade que absorveria testes.",
+    "file": "google-search/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "How you use Google services and your privacy settings will determine what data is processed, the purposes for which this data is processed and the legal bases for processing data. The table below explains these processing purposes, the kinds of data processed and the legal grounds for processing this data, in more detail.",
+    "onde": "Doc 1, introdução da tabela em 'Legal bases of processing'",
+    "por_que": "Mostra que a tabela de bases por finalidade existe; nenhuma linha nomeia experimentação.",
+    "file": "google-search/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "If European Union (EU) or United Kingdom (UK) data protection law applies to the processing of your information, we provide the controls described in this policy so that you can exercise your rights to request access to, update, remove and restrict the processing of your information.",
+    "onde": "Doc 1, 'European requirements'",
+    "por_que": "Condiciona a seção de bases legais à aplicabilidade do direito UE/UK — evidência sobre region-gating (por lei aplicável, não visivelmente por IP).",
+    "file": "google-search/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "If European Union or United Kingdom data protection law applies to the processing of your information, you can review the European requirements section below to learn more about your rights and Google’s compliance with these laws.",
+    "onde": "Doc 2, Introdução",
+    "por_que": "A versão en (global) contém a mesma tabela de bases legais, indicando que o conteúdo não é servido apenas a IPs da UE.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We ask for your consent to process your data for specific purposes and you have the right to withdraw your consent at any time.",
+    "onde": "Doc 2, 'Legal bases of processing'",
+    "por_que": "Consentimento existe como base, mas os exemplos ligados a ele são ads personalizados/gravações de voz, não experimentação.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We process your data in order to provide a service you’ve asked for under a contract.",
+    "onde": "Doc 2, 'Legal bases of processing'",
+    "por_que": "Base contratual listada; avaliador deve verificar se alguma finalidade de teste é atrelada a ela.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "To perform a contract with you, such as using logs of interactions with Google apps to ensure that they are working as intended.",
+    "onde": "Doc 1, coluna 'Legal grounds', linha 'To maintain and improve Google services'",
+    "por_que": "Contrato invocado para logs de interação/monitoramento de funcionamento — fronteira com experimentação.",
+    "file": "google-search/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "In the European Economic Area (EEA) and Switzerland, Google services are provided by, and you’re contracting with:\nGoogle Ireland Limited",
+    "onde": "Doc 3, ToS, 'Service provider'",
+    "por_que": "Confirma versão de país (Italy) dos ToS; útil para avaliar gating regional dos documentos vinculantes.",
+    "file": "google-search/03-terms.md",
+    "role": "binding"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 2,
+    "verbatim": "You also have the right to object to the processing of your information or export your information to another service.",
+    "onde": "Doc 2, 'European requirements' > 'How to exercise your rights and contact Google'",
+    "por_que": "Direito genérico de objeção do GDPR, sem controle específico de experimentação — sustenta 'GDPR-objection-only'.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "If European Union (EU) or United Kingdom (UK) data protection law applies to the processing of your information, we provide the controls described in this policy so that you can exercise your rights to request access to, update, remove and restrict the processing of your information. You also have the right to object to the processing of your information or export your information to another service.",
+    "onde": "Doc 1, 'European requirements'",
+    "por_que": "Mesma objeção genérica na versão IE; nenhuma menção a recusar participação em testes.",
+    "file": "google-search/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Decide what types of activity you’d like saved in your account. For example, if you have YouTube History turned on, the videos you watch and the things you search for are saved in your account so you can get better recommendations and remember where you left off.",
+    "onde": "Doc 2, 'Your privacy controls' > 'Activity Controls'",
+    "por_que": "Controle de atividade/personalização, não de experimentação — falso positivo a evitar.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Signed-out search personalization: Choose whether your search activity is used to offer you more relevant results and recommendations.",
+    "onde": "Doc 2, 'Ways to review & update your information' (signed out)",
+    "por_que": "Opt-out de personalização de resultados; não cobre alocação a experimentos.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Google may store or use some or all of the cookies or similar technologies in your browser, app, or device for the purposes described below. To manage how cookies are used, including rejecting the use of cookies for certain purposes, you can visit g.co/privacytools .",
+    "onde": "Doc 5, 'Purposes of cookies and similar technologies used by Google'",
+    "por_que": "Controle de cookies (funcionalidade, analytics, ads) — candidato a 'cookie/ads-only', mas não governa experimentação.",
+    "file": "google-search/05-technologies-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Google uses cookies and similar technologies for advertising purposes, including serving and rendering ads, and personalizing ads (depending on your choices and settings at myadcenter.google.com , and adssettings.google.com/partnerads ).",
+    "onde": "Doc 5, seção 'Advertising'",
+    "por_que": "Confirma que os controles disponíveis regem publicidade/medição, não testes de produto.",
+    "file": "google-search/05-technologies-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Find the experiment you want to turn off.\nToggle the experiment off .",
+    "onde": "Doc 6, 'Turn an experiment off'",
+    "por_que": "Controle existe apenas para experimentos Labs em que o usuário optou por entrar — pertence a V6, não mitiga V5.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "First, we enable the feature in question to just a small percentage of people, usually starting at 0.1%. We then compare the experiment group to a control group that did not have the feature enabled.",
+    "onde": "Doc 7, subseção 'Running experiments'",
+    "por_que": "Alocação a experimentos de tráfego real descrita sem qualquer mecanismo de recusa — apoia 'none/objection-only'.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   }
+  ],
+  "V6": [
+   {
+    "doc": 6,
+    "verbatim": "Labs is a program for people to experiment with early-stage Google Search experiences and share feedback. If you’re eligible and interested in Labs, you can access it through the Labs icon . There you can learn about the experiments that are available.",
+    "onde": "Doc 6, abertura",
+    "por_que": "Programa de acesso antecipado opt-in nomeado (Search Labs) — evidência direta de V6.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Find an experiment that interests you and click Turn on .",
+    "onde": "Doc 6, 'Turn an experiment on'",
+    "por_que": "Ativação voluntária por experimento — característica definidora do opt-in beta.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "You may need to join the waitlist to access an experiment. If so, click Join Waitlist .",
+    "onde": "Doc 6, 'Turn an experiment on'",
+    "por_que": "Lista de espera para acesso antecipado; confirma natureza voluntária.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Labs experiments, including AI-powered experiences, are in development, and their quality and availability may vary. You can leave feedback to help us improve the overall experience.",
+    "onde": "Doc 6, abertura",
+    "por_que": "Descreve features em desenvolvimento oferecidas a voluntários.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Be 18 or older.\nA personal Google Account that you manage on your own. For now, Labs and its experiments are not available to Google Workspace accounts, including Google Workspace for Education accounts.",
+    "onde": "Doc 6, 'What you need'",
+    "por_que": "Requisitos de elegibilidade para inscrição — confirma programa de inscrição, não alocação automática.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "When relevant, you may be asked to review and accept terms of service specific to an experiment. These also apply:\nGoogle Privacy Policy\nTerms of Service",
+    "onde": "Doc 6, FAQ 'What terms of service apply to Labs?'",
+    "por_que": "Mostra termos adicionais por experimento no programa opt-in.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   }
+  ],
+  "V7": [
+   {
+    "doc": 6,
+    "verbatim": "If you’re on the waitlist for an experiment and it's ready for you, we’ll notify you by email if you opted in to receive email updates about Labs.",
+    "onde": "Doc 6, FAQ 'What happens after I join the waitlist for an experiment?'",
+    "por_que": "Aviso prévio de disponibilidade, não aviso posterior de participação — falso positivo típico de debriefing.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "While the Code Tips experiment has ended, we took what we learned from the experiment and applied it to AI Overviews.",
+    "onde": "Doc 6, FAQ 'What happened to Code Tips?'",
+    "por_que": "Comunicação pública do fim de um experimento, sem notificação individualizada aos participantes — avaliar se atinge debriefing (provável No).",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "If a modification negatively affects your ability to access or use our digital content or services, or if we stop offering a service altogether, we’ll provide you with reasonable advance notice by email — including a description of the changes, when they’ll take place, and your right to end your contract with us if our modifications create more than a minor negative impact",
+    "onde": "Doc 3, ToS, 'Develop, improve, and update Google services'",
+    "por_que": "Aviso de mudança de serviço, explicitamente excluído do escopo de debriefing pelo codebook.",
+    "file": "google-search/03-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We use information we collect, like your email address, to interact with you directly. For example, we may send you a notification if we detect suspicious activity, like an attempt to sign in to your Google Account from an unusual location. Or we may let you know about upcoming changes or improvements to our services.",
+    "onde": "Doc 2, 'Why Google collects data' > 'Communicate with you'",
+    "por_que": "Comunicações listadas são de segurança e de mudanças — nenhuma é aviso de participação em experimento.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "We conduct live traffic experiments to see how real people interact with a feature before launching it to everyone.",
+    "onde": "Doc 7, seção '16,871 live traffic experiments'",
+    "por_que": "Experimentos com usuários reais descritos sem qualquer menção a notificação posterior aos participantes.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 7,
+    "verbatim": "Data from these search evaluations and experiments go through a thorough review by experienced engineers and search analysts, as well as other legal and privacy experts, who then determine if the change is approved to launch.",
+    "onde": "Doc 7, seção 'Testing for usefulness'",
+    "por_que": "Revisão por especialistas jurídicos e de privacidade antes do lançamento — mais próximo de revisão interna que de comitê de ética; decisão de fronteira.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Every single proposed change to Search goes through a review by our most experienced engineers and data scientists, who carefully review the data from all the different experiments to decide if the change is approved to launch. If we can’t show that a change actually makes things better for people, we don’t launch it.",
+    "onde": "Doc 7, seção '4,781 launches'",
+    "por_que": "Processo de aprovação descrito, mas sem comitê de ética ou avaliação de risco a sujeitos.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others. We only change or stop offering services for valid reasons.",
+    "onde": "Doc 3, ToS, 'Develop, improve, and update Google services'",
+    "por_que": "Linguagem borderline de 'impact on you and others' atada a descontinuação de serviço — o codebook manda codificar No com nota.",
+    "file": "google-search/03-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "to address legal, regulatory, safety, or security issues",
+    "onde": "Doc 3, ToS, lista de razões para mudar serviços",
+    "por_que": "Menção a segurança/regulatório sem avaliação de risco de experimentos.",
+    "file": "google-search/03-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We review our information collection, storage, and processing practices, including physical security measures, to prevent unauthorized access to our systems",
+    "onde": "Doc 2, 'Keeping your information secure'",
+    "por_que": "Revisão de práticas de segurança, não revisão ética de experimentos — falso positivo a descartar.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "To ensure a consistent approach, we publish Search Quality Rater Guidelines to give these Raters guidance and examples for appropriate website ratings.",
+    "onde": "Doc 7, seção '719,326 search quality tests'",
+    "por_que": "Governança metodológica de raters; não constitui revisão ética ou de risco para sujeitos.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 2,
+    "verbatim": "This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information.",
+    "onde": "Doc 2, Introdução da Privacy Policy (policies.google.com/privacy?hl=en)",
+    "por_que": "Documento de privacidade vinculante; local 'privacy policy' onde vive apenas linguagem de melhoria.",
+    "file": "google-search/02-privacy-2.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Effective 2 April 2026 | Archived versions | Download PDF",
+    "onde": "Doc 1, cabeçalho da Privacy Policy (versão IE)",
+    "por_que": "Identifica a versão/regime do documento vinculante de privacidade servido para a Irlanda.",
+    "file": "google-search/01-privacy.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Understanding these terms is important because, to use our services, you must accept these terms.",
+    "onde": "Doc 3, 'What’s covered in these terms'",
+    "por_que": "Declara função contratual — confirma registro vinculante dos ToS, local 'ToS/conditions'.",
+    "file": "google-search/03-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Besides these terms, we also publish a Privacy Policy . Although it’s not part of these terms, we encourage you to read it to better understand how you can update, manage, export, and delete your information .",
+    "onde": "Doc 3, 'What’s covered in these terms'",
+    "por_que": "Mapeia a relação entre os dois documentos vinculantes.",
+    "file": "google-search/03-terms.md",
+    "role": "binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Google Search Help\nSign in\nGoogle Help\nHelp Center\nCommunity\nGoogle Search",
+    "onde": "Doc 6, cabeçalho da página de Help Center",
+    "por_que": "Confirma hospedagem em help centre (support.google.com), registro não-vinculante.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "When relevant, you may be asked to review and accept terms of service specific to an experiment. These also apply:\nGoogle Privacy Policy\nTerms of Service",
+    "onde": "Doc 6, FAQ 'What terms of service apply to Labs?'",
+    "por_que": "O próprio artigo de help remete aos documentos vinculantes, indicando que ele não é o contrato.",
+    "file": "google-search/06-websearch-answer.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "We put all possible changes to Search through a rigorous evaluation process to analyze metrics and decide whether to implement a proposed change.",
+    "onde": "Doc 7, microsite 'How Search Works' > 'Rigorous testing'",
+    "por_que": "Divulgação de experimentação em site institucional/PR — local 'blog/PR/site de pesquisa', não-vinculante.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Resources\nSearch essentials\nYour data in Search\nRater Guidelines overview\nWhen (and why) we remove content from search results",
+    "onde": "Doc 7, rodapé",
+    "por_que": "Estrutura de microsite institucional com links de recursos, reforçando caráter não-vinculante.",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "This page describes the purposes for which Google uses cookies and similar technologies. It also explains how Google and our partners use cookies in advertising .",
+    "onde": "Doc 5, abertura de 'How Google uses cookies'",
+    "por_que": "Página de tecnologias vinculada à Privacy Policy; registro ambíguo a ser julgado pelo avaliador.",
+    "file": "google-search/05-technologies-cookies.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "Welcome! The articles in this guide will give you more information about how Google's products work and how you can manage your privacy.",
+    "onde": "Doc 4, abertura do Product Privacy Guide",
+    "por_que": "Guia de produto meramente informativo, sem conteúdo sobre experimentação; útil para mapear onde o tema não aparece.",
+    "file": "google-search/04-technologies-product-privacy.md",
+    "role": "unknown"
+   }
+  ]
+ },
+ "descartadas": 1,
+ "uso": {
+  "input": 75663,
+  "output": 10593
+ },
+ "geracao": {
+  "max_tokens": 16000,
+  "thinking": "adaptive",
+  "nota": "teto anterior; JSON completo, sem truncamento"
+ }
+}

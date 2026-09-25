@@ -1,0 +1,566 @@
+{
+ "formato": 1,
+ "servico": "App Store",
+ "modelo": "claude-opus-5",
+ "prompt": "d45b11e32988",
+ "gerado_em": "2026-09-25T03:07:00+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-09-21T02:04:29+00:00",
+ "geracao": {
+  "max_tokens": 64000,
+  "thinking": "adaptive"
+ },
+ "citacoes": {
+  "V1": [
+   {
+    "doc": 2,
+    "verbatim": "To find ways to improve the stores, we use information about your browsing, purchases, searches, and downloads.",
+    "onde": "Doc 2, App Store & Privacy, seção introdutória (parágrafo sobre melhoria da loja)",
+    "por_que": "Linguagem de 'improve' no registro vinculante — nível 1 se nada mais alto existir no binding.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "To improve and optimize the experience in the App Store and other Apple apps, and services, we collect information about your usage of the App Store, including when you open or close the App Store, what content you search for, the content you view and download, and your interactions with App Store push notifications and badges, as well as messages from the App Store within apps.",
+    "onde": "Doc 2, seção 'Improving the Store'",
+    "por_que": "Teto do registro vinculante: melhoria/otimização, sem menção a teste, variantes ou aleatorização.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We may also use your ratings and reviews of apps on the App Store and what you search for to improve models that power the App Store. For example, app reviews and aggregated search queries from you and other App Store users are used to provide review summaries and to fine-tune the App Store search model.",
+    "onde": "Doc 2, seção 'Improving the Store'",
+    "por_que": "Ainda linguagem de melhoria de modelos; não nomeia experimento nem teste A/B.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Apple collects personal data necessary to power our services, which may include personal data collected to improve our offerings, for internal purposes such as auditing or data analysis, or for troubleshooting.",
+    "onde": "Doc 1, Privacy Policy, seção 'Apple’s Use of Personal Data' — 'Power Our Services'",
+    "por_que": "Registro vinculante: apenas 'improve'/'data analysis'; nenhum vocabulário experimental.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Compare different app icons, screenshots, and app previews on your App Store product page to find out which resonate with people most. Test up to three alternate product page versions against your original, view the results in App Analytics, and set the best performing version to display to everyone on the App Store.",
+    "onde": "Doc 8, developer.apple.com, seção 'Product page optimization'",
+    "por_que": "Variantes servidas a usuários distintos e comparadas — candidato a nível 3 em registro não-vinculante.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "These will be shown to a percentage of randomly selected people on the App Store in iOS and iPadOS 15 or later, who will see the same treatment for the duration of your test.",
+    "onde": "Doc 8, seção 'Overview' (product page optimization)",
+    "por_que": "Aleatorização explícita de usuários entre tratamentos — evidência mais forte de nível 3, fora do registro vinculante.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Choose your traffic proportion. Select the percentage of people who will be selected at random to be shown a treatment instead of your original App Store product page. For example, if you allocate 40% of your traffic to your test and have two treatments, each treatment receives 20% of your total traffic and your original product page receives the remaining 60% of your total traffic.",
+    "onde": "Doc 8, seção 'Configure your test'",
+    "por_que": "Desenho experimental com grupo de controle (página original) e alocação randômica de tráfego.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "You can also see the number of impressions, conversion rate, percent improvement, and confidence level for each treatment compared to the chosen baseline (by default, this is set as your original product page).",
+    "onde": "Doc 8, seção 'Monitor your test'",
+    "por_que": "Vocabulário estatístico de experimento (baseline, confidence level) reforça nível 3 no não-vinculante.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 5,
+    "verbatim": "Optimize your iOS or iPadOS app's product page on the App Store by testing up to three different app icons, screenshots, and previews to see which resonate best with customers. Each variant will be randomly shown to a user group you define, and can be localized in any language your app supports.",
+    "onde": "Doc 5, App Store Connect Help, 'Overview of product page optimization'",
+    "por_que": "Variantes atribuídas aleatoriamente a grupos de usuários — documentação de ajuda para desenvolvedores, registro não-vinculante para o usuário final.",
+    "file": "app-store/05-app-store-connect-create-product-optimization-tests.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "The methodology for determining the treatment that’s best at driving app engagement is based on the estimated lift in conversion rate, as well as algorithms that provide confidence in the reliability of the test results.",
+    "onde": "Doc 5, 'Overview of product page optimization'",
+    "por_que": "Método experimental nomeado (lift, confiabilidade dos resultados de teste).",
+    "file": "app-store/05-app-store-connect-create-product-optimization-tests.md",
+    "role": "unknown"
+   }
+  ],
+  "V2": [
+   {
+    "doc": 2,
+    "verbatim": "To improve and optimize the experience in the App Store and other Apple apps, and services, we collect information about your usage of the App Store",
+    "onde": "Doc 2, seção 'Improving the Store'",
+    "por_que": "Enquadramento explícito de service improvement no registro vinculante.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "To find ways to improve the stores, we use information about your browsing, purchases, searches, and downloads.",
+    "onde": "Doc 2, introdução",
+    "por_que": "Reforça service improvement.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "For research and development purposes, we may use datasets such as those that contain images, voices, or other data that could be associated with an identifiable person.",
+    "onde": "Doc 1, seção 'Personal Data Apple Receives from Other Sources'",
+    "por_que": "Menção a 'research and development' — candidato ao enquadramento research (sobre datasets, não sobre usuários da loja).",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "If you participate in a study using an Apple Health Research Study app, the policy governing the privacy of your personal data is described in the Apple Health Study Apps Privacy Policy .",
+    "onde": "Doc 1, seção 'Personal Data Apple Collects from You' — item Health Information",
+    "por_que": "Única referência a estudo com participantes humanos; fora do escopo App Store, mas é o candidato a human-subjects research.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Use product page optimization to test different elements of your App Store product page (or pre-order page) — including app icons, screenshots, and app preview videos — to understand which results in the most engagement.",
+    "onde": "Doc 8, 'Overview'",
+    "por_que": "Enquadramento de otimização/engajamento comercial, não de pesquisa nem de bem-estar comunitário.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "We also collect personal data to prevent fraud and other malicious activity in the App Store and other Apple online stores, and other Apple apps and services.",
+    "onde": "Doc 2, 'Preventing Fraud and Other Malicious Activity'",
+    "por_que": "Finalidade de segurança/antifraude; útil para o avaliador checar se há enquadramento tipo social-good (aparentemente ausente).",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   }
+  ],
+  "V3": [
+   {
+    "doc": 2,
+    "verbatim": "To offer trending searches and personalized features like More Games You Might Like",
+    "onde": "Doc 2, 'Improving the Store', lista de exemplos",
+    "por_que": "Superfície nomeada, mas como personalização declarada — o codebook manda distinguir de alvo de experimento.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "app reviews and aggregated search queries from you and other App Store users are used to provide review summaries and to fine-tune the App Store search model",
+    "onde": "Doc 2, 'Improving the Store'",
+    "por_que": "Superfície nomeada (modelo de busca) sendo ajustada com dados de usuários.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Compare different app icons, screenshots, and app previews on your App Store product page to find out which resonate with people most.",
+    "onde": "Doc 8, 'Product page optimization'",
+    "por_que": "V3a: atividades/superfícies testadas nomeadas explicitamente (ícone, screenshots, preview) — em registro não-vinculante.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Showcasing a certain character or value proposition gets better results.",
+    "onde": "Doc 8, 'Overview', lista de exemplos",
+    "por_que": "Alvo de experimento tipo mensagem/copy/proposta de valor.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Changing your app icon to a different style or color improves your conversion rate.",
+    "onde": "Doc 8, 'Overview', lista de exemplos",
+    "por_que": "Alvo de experimento concreto (design/ícone) ligado a taxa de conversão.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Hypothesis: Adding an app preview video as the first asset on the product page will result in higher conversion compared to only screenshots.\nTest details:\nDuration: 12 days\nAssets tested: App preview video\nNumber of treatments: 1\nResults: The original product page without an app preview video outperformed the treatment, contrary to the developer’s hypothesis.",
+    "onde": "Doc 8, 'Developer story — Simply Piano'",
+    "por_que": "V3c: experimento específico divulgado, com hipótese, duração e resultado.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Hypothesis: App icons with a robot design will convert better than other icon designs.\nTest details:\nDuration: 44 days\nAssets tested: App icons\nNumber of treatments: 3",
+    "onde": "Doc 8, 'Developer story — Peak Brain Training'",
+    "por_que": "Segundo experimento específico divulgado, com número de tratamentos.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "By default, test treatments are copies of your app’s original App Store product page. You can edit the app icon, screenshots, and previews of each treatment.",
+    "onde": "Doc 6, 'Configure test treatments'",
+    "por_que": "Confirma quais elementos são manipulados nos testes.",
+    "file": "app-store/06-app-store-connect-create-product-optimization-tests-6.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "When determining how to order the Apps in search results, the main parameters considered are the metadata provided by App Providers, how customers have engaged with the Apps and the App Store, and the popularity of the Apps in the App Store.",
+    "onde": "Doc 3, Apple Media Services T&C, seção P — 'SEARCH RESULTS AND RANKINGS'",
+    "por_que": "Ranking descrito como parâmetro de ordenação, não como alvo de teste — relevante para a distinção alvo-de-experimento vs. descrição de sistema.",
+    "file": "app-store/03-itunes-ie-terms.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Content prices may change at any time.",
+    "onde": "Doc 3, seção B 'PAYMENTS, TAXES, AND REFUNDS'",
+    "por_que": "Única menção próxima a variação de preço; não nomeia preço como alvo de experimento nem personalização de preço — relevante para V3-pricing.",
+    "file": "app-store/03-itunes-ie-terms.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Including seasonal content leads to more downloads.",
+    "onde": "Doc 8, 'Overview', lista de exemplos",
+    "por_que": "Outro alvo de teste (conteúdo sazonal); nenhum item da lista menciona preço.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   }
+  ],
+  "V4": [
+   {
+    "doc": 2,
+    "verbatim": "We process your personal data in the App Store generally for performance of your contract with Apple, as necessary for providing the service, and to comply with our legal obligations. Where consent is the appropriate legal basis, we seek it in accordance with applicable local law.",
+    "onde": "Doc 2, 'Applicable Legal Basis for Processing Personal Data'",
+    "por_que": "Declaração central de bases legais no registro vinculante (contrato, obrigação legal, consentimento).",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Where applicable local law provides, we process personal data as necessary for purposes of our legitimate interests or those of a third party in order to:",
+    "onde": "Doc 2, 'Applicable Legal Basis for Processing Personal Data'",
+    "por_que": "Introduz legitimate interest, condicionado a 'applicable local law' — evidência para v4_region_gated.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Help improve and optimize the App Store and other Apple products and services for you and others",
+    "onde": "Doc 2, lista de finalidades sob legitimate interest",
+    "por_que": "Finalidade declarada que o avaliador provavelmente mapeará como cobrindo experimentação; a base legal para experimentação não é nomeada como tal.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Apple uses your personal data only when we have a valid legal basis to do so. Depending on the circumstance, Apple may rely on your consent or the fact that the processing is necessary to fulfill a contract with you, protect your vital interests or those of other persons, or to comply with law. We may also process your personal data where we believe it is in our or others’ legitimate interests, taking into consideration your interests, rights, and expectations.",
+    "onde": "Doc 1, 'Apple’s Use of Personal Data'",
+    "por_que": "Bases legais gerais na política vinculante, sem vincular explicitamente a experimentos.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Personal data relating to individuals in the European Economic Area, the United Kingdom, and Switzerland is controlled by Apple Distribution International Limited in Ireland.",
+    "onde": "Doc 1, 'Transfer of Personal Data Between Countries'",
+    "por_que": "Mostra estrutura regional do tratamento; relevante para avaliar se a tabela de bases é gated por região/entidade.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Your use of our Services is subject to Apple’s Privacy Policy, which is available at https://www.apple.com/legal/privacy/ .",
+    "onde": "Doc 3, seção D 'PRIVACY'",
+    "por_que": "Liga o contrato de serviços à política de privacidade, onde vivem as bases legais.",
+    "file": "app-store/03-itunes-ie-terms.md",
+    "role": "unknown"
+   }
+  ],
+  "V5": [
+   {
+    "doc": 2,
+    "verbatim": "You can turn off personalization features in the App Store, Apple Books, the iTunes Store, Apple TV, Podcasts, and for subscriptions from Apple by turning off Personalized Recommendations for your Apple Account.",
+    "onde": "Doc 2, 'Personalizing the Store'",
+    "por_que": "Controle de personalização — não é opt-out de experimentação; falso positivo a checar.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "To reset the identifier associated with the information about your usage of the App Store on your iOS, iPadOS, or visionOS device, go to Settings > Apps > App Store > Reset Identifier.",
+    "onde": "Doc 2, 'Improving the Store'",
+    "por_que": "Único controle ligado à seção de melhoria da loja; é reset de identificador, não exclusão de experimentos.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "If the Personalized Ads setting is turned on, Apple’s advertising platform may use your information to serve ads that are more relevant to you. Turning off Personalized Ads will prevent Apple from using this information for ad personalization.",
+    "onde": "Doc 2, 'Advertising'",
+    "por_que": "Opt-out existente governa publicidade — candidato ao nível cookie/ads-only, não experimentação.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "If you do not want to receive ads targeted to your interests from Apple's advertising platform in those apps, you can choose to disable Personalized Ads, which will opt your Apple Account out of receiving such ads regardless of what device you are using.",
+    "onde": "Doc 1, 'Cookies and Other Technologies'",
+    "por_que": "Confirma que o mecanismo de opt-out documentado é publicitário.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "If you prefer that Apple not use cookies, we provide you with the means to disable their use.",
+    "onde": "Doc 1, 'Cookies and Other Technologies'",
+    "por_que": "Controle de cookies; explicitamente excluído como opt-out de experimentação pelo codebook.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Where you are requested to consent to the processing of your personal data by Apple, you have the right to withdraw your consent at any time.",
+    "onde": "Doc 1, 'Your Privacy Rights at Apple'",
+    "por_que": "Direito genérico de retirada de consentimento; não há controle específico de experimento.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "At Apple, we respect your ability to know, access, correct, transfer, restrict the processing of, and delete your personal data.",
+    "onde": "Doc 1, 'Your Privacy Rights at Apple'",
+    "por_que": "Direito genérico de restrição de processamento — avaliar se equivale a GDPR-objection-only; nenhum opt-out dedicado a experimentos aparece.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "These will be shown to a percentage of randomly selected people on the App Store in iOS and iPadOS 15 or later, who will see the same treatment for the duration of your test.",
+    "onde": "Doc 8, 'Overview'",
+    "por_que": "Descrição da exposição a tratamentos sem qualquer menção a como o usuário poderia recusar participação.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   }
+  ],
+  "V6": [
+   {
+    "doc": 7,
+    "verbatim": "TestFlight makes it easy for testers to give feedback on your apps, games, and App Clips across Apple platforms before you publish. Share your beta with just your team, or the public.",
+    "onde": "Doc 7, TestFlight, seção inicial",
+    "por_que": "Canal beta formal para acesso antecipado — evidência direta de V6.",
+    "file": "app-store/07-testflight.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Testers use the TestFlight app to view your invite and install your beta.",
+    "onde": "Doc 7, 'Find testers'",
+    "por_que": "Participação por convite e instalação voluntária.",
+    "file": "app-store/07-testflight.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "You can also invite up to 10,000 external testers to join your beta program.",
+    "onde": "Doc 7, 'Invite external testers'",
+    "por_que": "Inscrição voluntária de usuários externos em programa beta.",
+    "file": "app-store/07-testflight.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Public links. Include a public link in your marketing communications — such as email, social media, and more — to invite people to test your beta build.",
+    "onde": "Doc 7, 'Invite external testers'",
+    "por_que": "Mecanismo de auto-inscrição do usuário — caráter opt-in.",
+    "file": "app-store/07-testflight.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 1,
+    "verbatim": "TestFlight Terms and Conditions",
+    "onde": "Doc 1, rodapé, seção 'Internet Services'",
+    "por_que": "Confirma que TestFlight tem termos próprios referenciados no rodapé legal da Apple.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   }
+  ],
+  "V7": [
+   {
+    "doc": 8,
+    "verbatim": "These will be shown to a percentage of randomly selected people on the App Store in iOS and iPadOS 15 or later, who will see the same treatment for the duration of your test. If a treatment includes an alternate app icon, this icon will display on the App Store as well as on their device (if they’ve downloaded your app).",
+    "onde": "Doc 8, 'Overview'",
+    "por_que": "Descreve a exposição do usuário ao experimento sem prever qualquer aviso posterior a ele — base para 'No' substantivo.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "From time to time, we may use your personal data to send important notices, such as communications about purchases and changes to our terms, conditions, and policies. Because this information is important to your interaction with Apple, you may not opt out of receiving these important notices.",
+    "onde": "Doc 1, 'Apple’s Use of Personal Data' — 'Communicate with You'",
+    "por_que": "Aviso de mudança de termos — explicitamente excluído como debriefing pelo codebook; falso positivo a descartar.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "Apple does not use algorithms or profiling to make any decision that would significantly affect you without the opportunity for human review.",
+    "onde": "Doc 1, 'Apple’s Use of Personal Data'",
+    "por_que": "Aviso sobre decisão automatizada — também excluído como debriefing.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "Apple may also use information about your activity within the App Store to send you communications about new features, content, and offers available on the App Store.",
+    "onde": "Doc 2, 'Communicating with You'",
+    "por_que": "Comunicações de marketing/novidades; não é notificação de participação em experimento.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "When there is a material change to this Privacy Policy, we’ll post a notice on this website at least a week in advance of doing so and contact you directly about the change if we have your data on file.",
+    "onde": "Doc 1, final da política",
+    "por_que": "Aviso de mudança de política — falso positivo típico a ser descartado.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   }
+  ],
+  "V8": [
+   {
+    "doc": 1,
+    "verbatim": "In the event that a privacy issue has resulted in a negative impact on you or another person, we will take steps to address that with you or that other person.",
+    "onde": "Doc 1, 'Privacy Questions'",
+    "por_que": "Linguagem borderline de 'impacto' ligada a reclamação de privacidade, não a revisão ética de experimentos — codebook manda codificar No com nota.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "To make sure your personal data is secure, we communicate our privacy and security guidelines to Apple employees and strictly enforce privacy safeguards within the company.",
+    "onde": "Doc 1, 'Our Companywide Commitment to Your Privacy'",
+    "por_que": "Governança interna de privacidade; não é comitê de ética nem avaliação de risco de experimento.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "We use administrative, technical, and physical safeguards to protect your personal data, taking into account the nature of the personal data and the processing, and the threats posed.",
+    "onde": "Doc 1, 'Protection of Personal Data at Apple'",
+    "por_que": "Avaliação de risco de segurança, não de experimentação com usuários.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "When using such datasets for research and development, we do not attempt to reidentify individuals who may appear therein.",
+    "onde": "Doc 1, 'Personal Data Apple Receives from Other Sources'",
+    "por_que": "Salvaguarda declarada em contexto de pesquisa com datasets — o mais próximo de linguagem ética, sem comitê ou revisão.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 8,
+    "verbatim": "We recommend waiting to apply a treatment or stop a test until at least one treatment has been declared to be performing better or worse than the baseline with at least 90% confidence.",
+    "onde": "Doc 8, 'Applying a treatment'",
+    "por_que": "Rigor estatístico recomendado, mas nenhuma revisão ética ou avaliação de risco para participantes.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 6,
+    "verbatim": "Before testing, ensure all metadata in your test treatments is approved. You can submit this metadata without submitting a new version of your app.",
+    "onde": "Doc 6, 'Configure test treatments'",
+    "por_que": "Revisão existente é de conteúdo/App Review, não ética — distinção relevante para o avaliador.",
+    "file": "app-store/06-app-store-connect-create-product-optimization-tests-6.md",
+    "role": "unknown"
+   }
+  ],
+  "V9": [
+   {
+    "doc": 1,
+    "verbatim": "Apple Privacy Policy\nUpdated July 30, 2025\nApple’s Privacy Policy describes how Apple collects, uses, and shares your personal data.",
+    "onde": "Doc 1, cabeçalho",
+    "por_que": "Identifica o documento como política de privacidade — registro vinculante.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 2,
+    "verbatim": "App Store & Privacy\nYour searches, browsing, purchases, and device trust score may be used to personalize your experience on the App Store, send you marketing emails and notifications, improve the store, and prevent fraud.",
+    "onde": "Doc 2, cabeçalho",
+    "por_que": "Aviso de privacidade específico do serviço (product-specific), hospedado em /legal/privacy/data/ — registro vinculante.",
+    "file": "app-store/02-data-app-store.md",
+    "role": "binding"
+   },
+   {
+    "doc": 1,
+    "verbatim": "In addition to this Privacy Policy, we provide data and privacy information embedded in our products and certain features that ask to use your personal data. This product-specific information is accompanied by our Data & Privacy Icon.",
+    "onde": "Doc 1, introdução",
+    "por_que": "Estabelece que os avisos product-specific (como o Doc 2) integram o regime de privacidade da Apple.",
+    "file": "app-store/01-privacy-ww.md",
+    "role": "binding"
+   },
+   {
+    "doc": 3,
+    "verbatim": "These terms and conditions create a contract between you and Apple (the “Agreement”). Please read the Agreement carefully.",
+    "onde": "Doc 3, abertura dos Apple Media Services T&C",
+    "por_que": "O documento se declara parte do acordo com o usuário — teste de registro vinculante do codebook (ToS/conditions).",
+    "file": "app-store/03-itunes-ie-terms.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 3,
+    "verbatim": "Your use of our Services is subject to Apple’s Privacy Policy, which is available at https://www.apple.com/legal/privacy/ .",
+    "onde": "Doc 3, seção D 'PRIVACY'",
+    "por_que": "Incorpora a política de privacidade ao contrato.",
+    "file": "app-store/03-itunes-ie-terms.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 5,
+    "verbatim": "App Store Connect Help\nApp Store Connect\n/\nCreate product page optimization tests\n/\nOverview of product page optimization",
+    "onde": "Doc 5, breadcrumb da página",
+    "por_que": "Documento de help centre voltado a desenvolvedores — registro não-vinculante para o usuário final.",
+    "file": "app-store/05-app-store-connect-create-product-optimization-tests.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 8,
+    "verbatim": "Product Page Optimization - App Store - Apple Developer",
+    "onde": "Doc 8, título da página",
+    "por_que": "Microsite de marketing/documentação para desenvolvedores onde vive a divulgação de experimentos — não-vinculante.",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "role": "non-binding"
+   },
+   {
+    "doc": 7,
+    "verbatim": "Beta testing made simple with TestFlight",
+    "onde": "Doc 7, título de seção",
+    "por_que": "Página institucional de desenvolvedor sobre o canal beta — registro não-vinculante.",
+    "file": "app-store/07-testflight.md",
+    "role": "unknown"
+   },
+   {
+    "doc": 4,
+    "verbatim": "Apple’s Use of Cookies\nApple’s websites and online services may use “cookies.”",
+    "onde": "Doc 4, cabeçalho",
+    "por_que": "Página de cookies sob o guarda-chuva /legal/privacy/ — relevante para o inventário de locais de divulgação.",
+    "file": "app-store/04-privacy-ww-cookies.md",
+    "role": "unknown"
+   }
+  ]
+ },
+ "descartadas": 0,
+ "uso": {
+  "input": 66412,
+  "output": 9020
+ }
+}
