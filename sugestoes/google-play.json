@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Google Play",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -14,547 +14,481 @@
   "V1": [
    {
     "doc": 6,
-    "verbatim": "Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text.",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
     "onde": "Doc 6 (Play Console – Store listing experiments), título/abertura da página",
-    "por_que": "Nomeia explicitamente teste A/B e 'experiments' em sentido experimental — nível 3 — mas em página institucional do Play Console (registro não-vinculante, voltada a desenvolvedores).",
-    "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text."
    },
    {
     "doc": 6,
-    "verbatim": "Run experiments to see how users respond differently around the world",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
     "onde": "Doc 6, seção 'Localized experiments for a global presence'",
-    "por_que": "'experiments' com usuários servidos a variantes distintas: confirma teto 3 fora do contrato.",
-    "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Run experiments to see how users respond differently around the world"
    },
    {
     "doc": 6,
-    "verbatim": "Opt-in to email notifications to be alerted when a winning variant has been declared",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
     "onde": "Doc 6, 'Best practices'",
-    "por_que": "Menciona variante vencedora — vocabulário de A/B test, reforçando nível 3 no registro não-vinculante.",
-    "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Opt-in to email notifications to be alerted when a winning variant has been declared"
    },
    {
     "doc": 6,
-    "verbatim": "Price experiments",
-    "onde": "Doc 6, menu 'Play Console' > Monetize",
-    "por_que": "Nomeia experimentos de preço como funcionalidade do Console; relevante para teto de reconhecimento e para V3-pricing.",
     "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "onde": "Doc 6, menu 'Play Console' > Monetize",
+    "role": "non-binding",
+    "verbatim": "Price experiments"
    },
    {
     "doc": 3,
-    "verbatim": "We maintain a rigorous product research programme, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others.",
-    "onde": "Doc 3 (Google ToS), 'Develop, improve and update Google services'",
-    "por_que": "Registro vinculante: fala em 'product research programme' e melhoria, mas não nomeia experimento/A-B nem descreve teste de usuários com variantes — evidência para decidir entre 1 e 2 no vinculante.",
     "file": "google-play/03-terms.md",
-    "role": "unknown"
+    "onde": "Doc 3 (Google ToS), 'Develop, improve and update Google services'",
+    "role": "unknown",
+    "verbatim": "We maintain a rigorous product research programme, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others."
    },
    {
     "doc": 2,
-    "verbatim": "Perform research that improves our services for our users and benefits the public.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2 (Privacy Policy), tabela de bases legais, 'To maintain and improve Google services...'",
-    "por_que": "Linguagem de pesquisa/melhoria em registro de política de privacidade; sem método experimental nomeado.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Perform research that improves our services for our users and benefits the public."
    },
    {
     "doc": 2,
-    "verbatim": "We analyse data about your interactions with our services to help us build better products. For example, it may help us to discover that it’s taking people too long to complete a certain task or that they have trouble finishing steps at all. We can then redesign that feature and improve the product for everyone.",
-    "onde": "Doc 2, 'To maintain and improve Google services, products and features'",
-    "por_que": "Análise de interação para redesenhar features: melhoria/análise, sem menção a grupos ou variantes — ajuda a fixar o nível do registro vinculante.",
     "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 2, 'To maintain and improve Google services, products and features'",
+    "role": "unknown",
+    "verbatim": "We analyse data about your interactions with our services to help us build better products. For example, it may help us to discover that it’s taking people too long to complete a certain task or that they have trouble finishing steps at all. We can then redesign that feature and improve the product for everyone."
    },
    {
     "doc": 4,
-    "verbatim": "YouTube uses the '__Secure-ROLLOUT_TOKEN' cookie to launch new features and measure related impact when other existing cookies and identifiers cannot be used for the same purpose.",
-    "onde": "Doc 4 (How Google uses cookies), seção 'Analytics'",
-    "por_que": "Lançamento de novas features e medição de impacto via token de rollout — borderline entre 2 e 3; não nomeia A/B nem grupos de controle.",
     "file": "google-play/04-technologies-cookies.md",
-    "role": "unknown"
+    "onde": "Doc 4 (How Google uses cookies), seção 'Analytics'",
+    "role": "unknown",
+    "verbatim": "YouTube uses the '__Secure-ROLLOUT_TOKEN' cookie to launch new features and measure related impact when other existing cookies and identifiers cannot be used for the same purpose."
    },
    {
     "doc": 5,
-    "verbatim": "To get user feedback, some developers make new apps or features available before their official release. You can try these apps or features when you join early access or beta programs.",
-    "onde": "Doc 5 (Help Center, 'Try new Android apps before their official release'), introdução",
-    "por_que": "Testagem com usuários nomeada (beta/early access) em centro de ajuda; relevante para o teto e para V6, sem linguagem de variantes/aleatorização.",
     "file": "google-play/05-googleplay-answer.md",
-    "role": "unknown"
+    "onde": "Doc 5 (Help Center, 'Try new Android apps before their official release'), introdução",
+    "role": "unknown",
+    "verbatim": "To get user feedback, some developers make new apps or features available before their official release. You can try these apps or features when you join early access or beta programs."
    }
   ],
   "V2": [
    {
     "doc": 3,
-    "verbatim": "We’re constantly developing new technologies and features to improve our services.",
-    "onde": "Doc 3 (ToS), 'Develop, improve and update Google services'",
-    "por_que": "Enquadramento de melhoria do serviço em registro vinculante.",
     "file": "google-play/03-terms.md",
-    "role": "unknown"
+    "onde": "Doc 3 (ToS), 'Develop, improve and update Google services'",
+    "role": "unknown",
+    "verbatim": "We’re constantly developing new technologies and features to improve our services."
    },
    {
     "doc": 2,
-    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2 (Privacy Policy), bases legais — interesses legítimos",
-    "por_que": "Co-ocorrência explícita: 'research' + 'improves our services' + 'benefits the public' (potencial social-good).",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages."
    },
    {
     "doc": 2,
-    "verbatim": "We use data to build better services",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, cabeçalho de 'Why Google collects data'",
-    "por_que": "Enquadramento canônico de service improvement.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We use data to build better services"
    },
    {
     "doc": 2,
-    "verbatim": "We also use service providers to help review YouTube video content for public safety, and analyse and listen to samples of saved user audio to help improve Google’s audio recognition technologies.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'For external processing'",
-    "por_que": "Mistura segurança pública e melhoria técnica; possível leitura de social-good.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We also use service providers to help review YouTube video content for public safety, and analyse and listen to samples of saved user audio to help improve Google’s audio recognition technologies."
    },
    {
     "doc": 2,
-    "verbatim": "Protect Google, our users and the public",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'Why Google collects data'",
-    "por_que": "Linguagem de proteção do público — candidata fraca a social-good/community, não ligada a experimentação.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Protect Google, our users and the public"
    },
    {
     "doc": 2,
-    "verbatim": "For example, we process information about requests to remove content from our services to educate the public, facilitate research and provide transparency about these requests.",
-    "onde": "Doc 2, 'Additional Context' — 'benefits the public'",
-    "por_que": "'facilitate research' e 'educate the public': research + social-good, embora sobre remoção de conteúdo, não experimentos.",
     "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 2, 'Additional Context' — 'benefits the public'",
+    "role": "unknown",
+    "verbatim": "For example, we process information about requests to remove content from our services to educate the public, facilitate research and provide transparency about these requests."
    },
    {
     "doc": 6,
-    "verbatim": "Optimize your install conversion rate by running free A/B tests on your store listing text and graphics",
-    "onde": "Doc 6, 'Increase installs and conversion'",
-    "por_que": "Enquadramento comercial/otimização de conversão — relevante para avaliar se algum framing de research ou service improvement cobre os experimentos reais.",
     "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "onde": "Doc 6, 'Increase installs and conversion'",
+    "role": "non-binding",
+    "verbatim": "Optimize your install conversion rate by running free A/B tests on your store listing text and graphics"
    },
    {
     "doc": 5,
-    "verbatim": "Certain data on your use of the app (such as device information, app usage information, and user-triggered events) will be collected and shared with the developer to help improve their app.",
-    "onde": "Doc 5, 'Data shared with the developer'",
-    "por_que": "Enquadramento de melhoria do app para testes beta.",
     "file": "google-play/05-googleplay-answer.md",
-    "role": "unknown"
+    "onde": "Doc 5, 'Data shared with the developer'",
+    "role": "unknown",
+    "verbatim": "Certain data on your use of the app (such as device information, app usage information, and user-triggered events) will be collected and shared with the developer to help improve their app."
    }
   ],
   "V3": [
    {
     "doc": 6,
-    "verbatim": "Get the biggest impact by testing icons, videos, and screenshots",
-    "onde": "Doc 6, 'Best practices'",
-    "por_que": "Nomeia superfícies testadas (ícones, vídeos, screenshots) — V3a Yes no registro não-vinculante.",
     "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "onde": "Doc 6, 'Best practices'",
+    "role": "non-binding",
+    "verbatim": "Get the biggest impact by testing icons, videos, and screenshots"
    },
    {
     "doc": 6,
-    "verbatim": "See acquisition and 1-day retention rates for each version of your store listing so you can make further improvements",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
     "onde": "Doc 6, 'Metrics to help you optimize'",
-    "por_que": "Descreve versões distintas da ficha da loja e métricas comparadas: alvo de experimento (copy/gráficos) e desenho A/B.",
-    "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "See acquisition and 1-day retention rates for each version of your store listing so you can make further improvements"
    },
    {
     "doc": 6,
-    "verbatim": "Price experiments",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
     "onde": "Doc 6, menu lateral 'Monetize'",
-    "por_que": "Preço nomeado como alvo de experimento, apenas em registro não-vinculante — decisivo para V3-pricing e para a nota de registro.",
-    "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Price experiments"
    },
    {
     "doc": 6,
-    "verbatim": "Tapps Games increases installs by more than 20% with store listing experiments",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
     "onde": "Doc 6, blocos de casos",
-    "por_que": "Estudos de caso de experimentos concretos de terceiros; avaliar se conta como 'experimento específico/ativo' divulgado.",
-    "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Tapps Games increases installs by more than 20% with store listing experiments"
    },
    {
     "doc": 6,
-    "verbatim": "Test for at least a week to account for weekday vs weekend traffic patterns",
-    "onde": "Doc 6, 'Best practices'",
-    "por_que": "Detalhe operacional do desenho experimental (duração), reforça especificidade.",
     "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "onde": "Doc 6, 'Best practices'",
+    "role": "non-binding",
+    "verbatim": "Test for at least a week to account for weekday vs weekend traffic patterns"
    },
    {
     "doc": 1,
-    "verbatim": "Pricing and availability of all Content displayed through Google Play are subject to change at any time prior to purchase.",
-    "onde": "Doc 1 (Play ToS), seção 3 'Pricing'",
-    "por_que": "Única menção a preço no registro vinculante: variação de preço genérica, sem enquadramento experimental ou personalização — provável não-contagem para V3-pricing no vinculante.",
     "file": "google-play/01-about-play-terms.md",
-    "role": "binding"
+    "onde": "Doc 1 (Play ToS), seção 3 'Pricing'",
+    "role": "binding",
+    "verbatim": "Pricing and availability of all Content displayed through Google Play are subject to change at any time prior to purchase."
    },
    {
     "doc": 2,
-    "verbatim": "We log users’ interactions with buttons on apps like Google Maps and Search to help us understand if they are functioning as intended.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'To maintain and improve Google services...'",
-    "por_que": "Nomeia superfícies (botões em apps) monitoradas — V3a possível, mas é logging/monitoramento, não experimento.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We log users’ interactions with buttons on apps like Google Maps and Search to help us understand if they are functioning as intended."
    },
    {
     "doc": 2,
-    "verbatim": "Google Play uses information like apps that you’ve already installed and videos that you’ve watched on YouTube to suggest new apps that you might like.",
-    "onde": "Doc 2, 'To provide personalised services, including content and ads'",
-    "por_que": "Personalização declarada como feature — pelo critério, não conta como alvo de experimento (checar falso positivo).",
     "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 2, 'To provide personalised services, including content and ads'",
+    "role": "unknown",
+    "verbatim": "Google Play uses information like apps that you’ve already installed and videos that you’ve watched on YouTube to suggest new apps that you might like."
    },
    {
     "doc": 4,
-    "verbatim": "YouTube uses the '__Secure-ROLLOUT_TOKEN' cookie to launch new features and measure related impact when other existing cookies and identifiers cannot be used for the same purpose.",
-    "onde": "Doc 4, 'Analytics'",
-    "por_que": "Mecanismo concreto de rollout/medição de features nomeado em documento ao usuário; avaliar se é 'experimento específico'.",
     "file": "google-play/04-technologies-cookies.md",
-    "role": "unknown"
+    "onde": "Doc 4, 'Analytics'",
+    "role": "unknown",
+    "verbatim": "YouTube uses the '__Secure-ROLLOUT_TOKEN' cookie to launch new features and measure related impact when other existing cookies and identifiers cannot be used for the same purpose."
    },
    {
     "doc": 5,
-    "verbatim": "Beta apps are newer and more experimental versions of apps that are already released.",
-    "onde": "Doc 5, 'Early access & beta apps'",
-    "por_que": "Versões experimentais de apps nomeadas; especificidade sobre o que é testado (apps/features).",
     "file": "google-play/05-googleplay-answer.md",
-    "role": "unknown"
+    "onde": "Doc 5, 'Early access & beta apps'",
+    "role": "unknown",
+    "verbatim": "Beta apps are newer and more experimental versions of apps that are already released."
    }
   ],
   "V4": [
    {
     "doc": 2,
-    "verbatim": "We process your data for our legitimate interests and those of third parties while applying appropriate safeguards that protect your privacy.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'European requirements' > 'Legal bases of processing'",
-    "por_que": "Base de interesse legítimo declarada de forma geral; é a base que cobriria melhoria/pesquisa.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We process your data for our legitimate interests and those of third parties while applying appropriate safeguards that protect your privacy."
    },
    {
     "doc": 2,
-    "verbatim": "Provide, maintain and improve services to meet the needs of our users . For example, using contact info (like names and email addresses) of people that you interact with in Google products to make it easier to find who you’re looking for when you want to share and communicate with these people in other Google services like Gmail, Photos and Assistant.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, tabela de bases legais — 'To provide Google services'",
-    "por_que": "Finalidade declarada ('improve services') mapeável como cobertura implícita de experimentação, sob interesse legítimo.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Provide, maintain and improve services to meet the needs of our users . For example, using contact info (like names and email addresses) of people that you interact with in Google products to make it easier to find who you’re looking for when you want to share and communicate with these people in other Google services like Gmail, Photos and Assistant."
    },
    {
     "doc": 2,
-    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, tabela — 'To maintain and improve Google services, products and features'",
-    "por_que": "É a linha da tabela mais próxima de pesquisa/experimentação, ancorada em legitimate interest.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages."
    },
    {
     "doc": 2,
-    "verbatim": "We ask for your consent to process your data for specific purposes and you have the right to withdraw your consent at any time.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'Legal bases of processing'",
-    "por_que": "Consentimento listado como base, mas exemplificado para localização/áudio/ads personalizados, não para experimentos.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We ask for your consent to process your data for specific purposes and you have the right to withdraw your consent at any time."
    },
    {
     "doc": 2,
-    "verbatim": "We process your data in order to provide a service that you’ve asked for under a contract.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'Legal bases of processing'",
-    "por_que": "Base contratual declarada; 'To perform a contract with you, such as using logs of interactions with Google apps to ensure that they are working as intended' aparece na mesma tabela.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We process your data in order to provide a service that you’ve asked for under a contract."
    },
    {
     "doc": 2,
-    "verbatim": "If European Union or United Kingdom data protection law applies to the processing of your information, you can review the European requirements section below to find out more about your rights and Google’s compliance with these laws.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, introdução",
-    "por_que": "Indica que a tabela de bases legais é condicionada à aplicabilidade do direito da UE/UK — evidência central para v4_region_gated.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "If European Union or United Kingdom data protection law applies to the processing of your information, you can review the European requirements section below to find out more about your rights and Google’s compliance with these laws."
    },
    {
     "doc": 2,
-    "verbatim": "Google Ireland Limited for users of Google services based in the European Economic Area or Switzerland, located at Gordon House, Barrow Street, Dublin 4, Ireland.",
-    "onde": "Doc 2, 'Data controller'",
-    "por_que": "Confirma gating por localização/versão de país do documento (URL hl=en-IE&gl=IE).",
     "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 2, 'Data controller'",
+    "role": "unknown",
+    "verbatim": "Google Ireland Limited for users of Google services based in the European Economic Area or Switzerland, located at Gordon House, Barrow Street, Dublin 4, Ireland."
    },
    {
     "doc": 3,
-    "verbatim": "Country version: Ireland",
-    "onde": "Doc 3 (ToS), cabeçalho",
-    "por_que": "Documento servido em versão de país; sustenta avaliação de region-gating da tabela de bases.",
     "file": "google-play/03-terms.md",
-    "role": "unknown"
+    "onde": "Doc 3 (ToS), cabeçalho",
+    "role": "unknown",
+    "verbatim": "Country version: Ireland"
    }
   ],
   "V5": [
    {
     "doc": 2,
-    "verbatim": "If European Union (EU) or United Kingdom (UK) data protection law applies to the processing of your information, we provide the controls described in this policy so that you can exercise your rights to request access to, update, remove and restrict the processing of your information. You also have the right to object to the processing of your information or export your information to another service.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'European requirements'",
-    "por_que": "Direito genérico de objeção (Art. 21) sem controle específico de experimentação — âncora do nível 'GDPR-objection-only'.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "If European Union (EU) or United Kingdom (UK) data protection law applies to the processing of your information, we provide the controls described in this policy so that you can exercise your rights to request access to, update, remove and restrict the processing of your information. You also have the right to object to the processing of your information or export your information to another service."
    },
    {
     "doc": 2,
-    "verbatim": "Web & App Activity also has a subsetting that lets you control whether some information about your activity on other sites, apps and devices that use Google services , such as apps that you install and use on Android, is saved in your Google Account and used to improve Google services.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'Your privacy controls' > 'Activity Controls'",
-    "por_que": "Controle sobre salvamento de atividade usada para 'improve Google services' — mais próximo de controle de dados que de opt-out de experimento; avaliar falso positivo.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Web & App Activity also has a subsetting that lets you control whether some information about your activity on other sites, apps and devices that use Google services , such as apps that you install and use on Android, is saved in your Google Account and used to improve Google services."
    },
    {
     "doc": 2,
-    "verbatim": "Manage your preferences about the ads shown to you on Google and on sites and apps that partner with Google to show ads. You can modify your interests, choose whether your personal information is used to make ads more relevant to you, and turn on or off certain advertising services.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'Ad settings'",
-    "por_que": "Controle existente governa publicidade, não experimentação — falso positivo clássico descrito no critério.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Manage your preferences about the ads shown to you on Google and on sites and apps that partner with Google to show ads. You can modify your interests, choose whether your personal information is used to make ads more relevant to you, and turn on or off certain advertising services."
    },
    {
     "doc": 4,
-    "verbatim": "To manage how cookies are used, including rejecting the use of cookies for certain purposes, you can visit g.co/privacytools . You can also manage cookies in your browser (though browsers for mobile devices may not offer this visibility).",
+    "file": "google-play/04-technologies-cookies.md",
     "onde": "Doc 4, 'Purposes of cookies and similar technologies used by Google'",
-    "por_que": "Controle de cookies (incl. analytics e personalização), não de experimentação — evidência para 'cookie/ads-only' vs 'dedicated'.",
-    "file": "google-play/04-technologies-cookies.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "To manage how cookies are used, including rejecting the use of cookies for certain purposes, you can visit g.co/privacytools . You can also manage cookies in your browser (though browsers for mobile devices may not offer this visibility)."
    },
    {
     "doc": 4,
-    "verbatim": "Google uses cookies and similar technologies for analytical purposes to understand how you interact with a particular service.",
-    "onde": "Doc 4, 'Analytics'",
-    "por_que": "Confirma que o escopo do controle de cookies é analytics/ads, não participação em experimentos.",
     "file": "google-play/04-technologies-cookies.md",
-    "role": "unknown"
+    "onde": "Doc 4, 'Analytics'",
+    "role": "unknown",
+    "verbatim": "Google uses cookies and similar technologies for analytical purposes to understand how you interact with a particular service."
    },
    {
     "doc": 2,
-    "verbatim": "We’ll ask for your consent before using your information for a purpose that isn’t covered in this Privacy Policy.",
-    "onde": "Doc 2, fim de 'Why Google collects data'",
-    "por_que": "Promessa genérica de consentimento para finalidades novas; não é opt-out dedicado de experimentação.",
     "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 2, fim de 'Why Google collects data'",
+    "role": "unknown",
+    "verbatim": "We’ll ask for your consent before using your information for a purpose that isn’t covered in this Privacy Policy."
    },
    {
     "doc": 6,
-    "verbatim": "Run experiments to see how users respond differently around the world",
-    "onde": "Doc 6",
-    "por_que": "Experimentos descritos sem qualquer menção a mecanismo de recusa pelo usuário — sustenta ausência de opt-out dedicado.",
     "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "onde": "Doc 6",
+    "role": "non-binding",
+    "verbatim": "Run experiments to see how users respond differently around the world"
    }
   ],
   "V6": [
    {
     "doc": 5,
-    "verbatim": "To get user feedback, some developers make new apps or features available before their official release. You can try these apps or features when you join early access or beta programs.",
+    "file": "google-play/05-googleplay-answer.md",
     "onde": "Doc 5, introdução",
-    "por_que": "Programa voluntário de acesso antecipado/beta — núcleo do V6.",
-    "file": "google-play/05-googleplay-answer.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "To get user feedback, some developers make new apps or features available before their official release. You can try these apps or features when you join early access or beta programs."
    },
    {
     "doc": 5,
-    "verbatim": "Under “Join the beta,” tap Join Join .",
+    "file": "google-play/05-googleplay-answer.md",
     "onde": "Doc 5, 'Get beta versions of apps'",
-    "por_que": "Ação explícita de adesão (opt-in) ao canal beta.",
-    "file": "google-play/05-googleplay-answer.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Under “Join the beta,” tap Join Join ."
    },
    {
     "doc": 5,
-    "verbatim": "If you don’t want to use the beta version of an app, you can leave the app’s beta program and install the app’s public version.",
+    "file": "google-play/05-googleplay-answer.md",
     "onde": "Doc 5, 'Tips'",
-    "por_que": "Confirma reversibilidade do opt-in beta, distinto do opt-out de experimentos de rotina.",
-    "file": "google-play/05-googleplay-answer.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "If you don’t want to use the beta version of an app, you can leave the app’s beta program and install the app’s public version."
    },
    {
     "doc": 5,
-    "verbatim": "Tip: If you install an unreleased app, you may be automatically enrolled in the beta program when that app launches.",
-    "onde": "Doc 5, 'Get early access to unreleased apps'",
-    "por_que": "Inscrição automática em beta após lançamento — nuance relevante para descrever o caráter do opt-in.",
     "file": "google-play/05-googleplay-answer.md",
-    "role": "unknown"
+    "onde": "Doc 5, 'Get early access to unreleased apps'",
+    "role": "unknown",
+    "verbatim": "Tip: If you install an unreleased app, you may be automatically enrolled in the beta program when that app launches."
    },
    {
     "doc": 1,
-    "verbatim": "Access to and Use of Content. You may use Google Play to browse, locate, view, stream, or download Content for your mobile, computer, tv, watch, or other supported device ( “Device” ).",
-    "onde": "Doc 1 (Play ToS), seção 2",
-    "por_que": "O ToS vinculante não menciona programas beta/early access; citação de contexto para registrar onde o mecanismo vive (apenas help centre).",
     "file": "google-play/01-about-play-terms.md",
-    "role": "binding"
+    "onde": "Doc 1 (Play ToS), seção 2",
+    "role": "binding",
+    "verbatim": "Access to and Use of Content. You may use Google Play to browse, locate, view, stream, or download Content for your mobile, computer, tv, watch, or other supported device ( “Device” )."
    },
    {
     "doc": 6,
-    "verbatim": "Open testing",
-    "onde": "Doc 6, menu 'Play Console' > Test",
-    "por_que": "Confirma existência de canal de teste aberto na infraestrutura do Play, lado desenvolvedor.",
     "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "onde": "Doc 6, menu 'Play Console' > Test",
+    "role": "non-binding",
+    "verbatim": "Open testing"
    }
   ],
   "V7": [
    {
     "doc": 2,
-    "verbatim": "We use information that we collect, such as your email address, to interact with you directly. For example, we may send you a notification if we detect suspicious activity, such as an attempt to sign in to your Google Account from an unusual location. Or we may let you know about upcoming changes or improvements to our services.",
-    "onde": "Doc 2, 'Communicate with you'",
-    "por_que": "Aviso de mudança de serviço e de segurança — explicitamente excluído como debriefing pelo critério; é o falso positivo a descartar.",
     "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 2, 'Communicate with you'",
+    "role": "unknown",
+    "verbatim": "We use information that we collect, such as your email address, to interact with you directly. For example, we may send you a notification if we detect suspicious activity, such as an attempt to sign in to your Google Account from an unusual location. Or we may let you know about upcoming changes or improvements to our services."
    },
    {
     "doc": 3,
-    "verbatim": "If a modification negatively affects your ability to access or use our digital content or services, or if we stop offering a service altogether, we’ll provide you with reasonable advance notice by email – including a description of the changes, when they’ll take place and your right to end your contract with us if our modifications create more than a minor negative impact – except in urgent situations such as preventing abuse or harm, responding to legal requirements or addressing security and operability issues.",
-    "onde": "Doc 3 (ToS), 'Develop, improve and update Google services'",
-    "por_que": "Notificação prévia sobre mudanças de serviço, não aviso posterior de participação em experimento — excluído.",
     "file": "google-play/03-terms.md",
-    "role": "unknown"
+    "onde": "Doc 3 (ToS), 'Develop, improve and update Google services'",
+    "role": "unknown",
+    "verbatim": "If a modification negatively affects your ability to access or use our digital content or services, or if we stop offering a service altogether, we’ll provide you with reasonable advance notice by email – including a description of the changes, when they’ll take place and your right to end your contract with us if our modifications create more than a minor negative impact – except in urgent situations such as preventing abuse or harm, responding to legal requirements or addressing security and operability issues."
    },
    {
     "doc": 5,
-    "verbatim": "Tip: When you review early access and beta apps, only the developer can view your feedback.",
-    "onde": "Doc 5, 'Provide feedback to the developer'",
-    "por_que": "Fluxo de feedback no beta; não há comunicação posterior informando participação em experimento — ausência substantiva mesmo no documento que trata de teste.",
     "file": "google-play/05-googleplay-answer.md",
-    "role": "unknown"
+    "onde": "Doc 5, 'Provide feedback to the developer'",
+    "role": "unknown",
+    "verbatim": "Tip: When you review early access and beta apps, only the developer can view your feedback."
    },
    {
     "doc": 6,
-    "verbatim": "Opt-in to email notifications to be alerted when a winning variant has been declared",
-    "onde": "Doc 6, 'Best practices'",
-    "por_que": "A notificação de resultado do experimento vai ao desenvolvedor, não ao usuário exposto — evidência de que não existe debriefing ao usuário final.",
     "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "onde": "Doc 6, 'Best practices'",
+    "role": "non-binding",
+    "verbatim": "Opt-in to email notifications to be alerted when a winning variant has been declared"
    }
   ],
   "V8": [
    {
     "doc": 3,
-    "verbatim": "We maintain a rigorous product research programme, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others. We only change or stop offering services for valid reasons.",
-    "onde": "Doc 3 (ToS), 'Develop, improve and update Google services'",
-    "por_que": "Linguagem borderline de 'impact on you and others' atada à descontinuação de serviço — pelo critério, No com nota.",
     "file": "google-play/03-terms.md",
-    "role": "unknown"
+    "onde": "Doc 3 (ToS), 'Develop, improve and update Google services'",
+    "role": "unknown",
+    "verbatim": "We maintain a rigorous product research programme, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others. We only change or stop offering services for valid reasons."
    },
    {
     "doc": 2,
-    "verbatim": "We regularly review this Privacy Policy and make sure that we process your information in ways that comply with it.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'Compliance & cooperation with regulators'",
-    "por_que": "Revisão de conformidade documental, não revisão ética nem avaliação de risco de experimentos.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We regularly review this Privacy Policy and make sure that we process your information in ways that comply with it."
    },
    {
     "doc": 2,
-    "verbatim": "We review our information collection, storage and processing practices, including physical security measures, to prevent unauthorised access to our systems",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'Keeping your information secure'",
-    "por_que": "Revisão de práticas de segurança — falso positivo potencial; não é comitê de ética nem avaliação de risco experimental.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We review our information collection, storage and processing practices, including physical security measures, to prevent unauthorised access to our systems"
    },
    {
     "doc": 2,
-    "verbatim": "We process your data for our legitimate interests and those of third parties while applying appropriate safeguards that protect your privacy.",
+    "file": "google-play/02-privacy.md",
     "onde": "Doc 2, 'Legal bases of processing'",
-    "por_que": "'appropriate safeguards' (anonimização/criptografia, conforme nota) é salvaguarda de dados, não revisão ética de experimentos.",
-    "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We process your data for our legitimate interests and those of third parties while applying appropriate safeguards that protect your privacy."
    },
    {
     "doc": 2,
-    "verbatim": "Certain laws require us to share information with regulators and third parties, such as researchers and authorised out-of-court dispute bodies.",
-    "onde": "Doc 2, 'To protect Google, our users and the public'",
-    "por_que": "Única menção a pesquisadores/reguladores; não descreve board de ética nem avaliação de risco divulgada ao usuário.",
     "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 2, 'To protect Google, our users and the public'",
+    "role": "unknown",
+    "verbatim": "Certain laws require us to share information with regulators and third parties, such as researchers and authorised out-of-court dispute bodies."
    },
    {
     "doc": 6,
-    "verbatim": "Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text.",
-    "onde": "Doc 6, abertura",
-    "por_que": "Página que documenta os experimentos não menciona qualquer revisão ética ou avaliação de risco — ausência no registro onde o método é nomeado.",
     "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "onde": "Doc 6, abertura",
+    "role": "non-binding",
+    "verbatim": "Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text."
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "Your use of Google Play and the apps (including Android Instant Apps), system services, games, movies, books, magazines, or other digital content or services (referred to as \"Content\" ) available through it is subject to these Google Play Terms of Service (“ Play ToS ”) and the Google Terms of Service ( \"Google ToS\" ) (together referred to as the “Terms” ).",
-    "onde": "Doc 1 (Play ToS), seção 1 'Introduction'",
-    "por_que": "Autodeclara função contratual: ToS/conditions, registro vinculante.",
     "file": "google-play/01-about-play-terms.md",
-    "role": "binding"
+    "onde": "Doc 1 (Play ToS), seção 1 'Introduction'",
+    "role": "binding",
+    "verbatim": "Your use of Google Play and the apps (including Android Instant Apps), system services, games, movies, books, magazines, or other digital content or services (referred to as \"Content\" ) available through it is subject to these Google Play Terms of Service (“ Play ToS ”) and the Google Terms of Service ( \"Google ToS\" ) (together referred to as the “Terms” )."
    },
    {
     "doc": 3,
-    "verbatim": "Understanding these terms is important because, to use our services, you must accept these terms.",
+    "file": "google-play/03-terms.md",
     "onde": "Doc 3 (Google ToS), 'What’s covered in these terms'",
-    "por_que": "Documento se declara parte do acordo — vinculante; contém a linguagem de 'product research programme'.",
-    "file": "google-play/03-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Understanding these terms is important because, to use our services, you must accept these terms."
    },
    {
     "doc": 3,
-    "verbatim": "Besides these terms, we also publish a Privacy Policy . Although it’s not part of these terms, we encourage you to read it to better understand how you can update, manage, export and delete your information .",
-    "onde": "Doc 3, introdução",
-    "por_que": "Afirmação explícita sobre o status da Privacy Policy face aos ToS — relevante para classificar o registro do Doc 2.",
     "file": "google-play/03-terms.md",
-    "role": "unknown"
+    "onde": "Doc 3, introdução",
+    "role": "unknown",
+    "verbatim": "Besides these terms, we also publish a Privacy Policy . Although it’s not part of these terms, we encourage you to read it to better understand how you can update, manage, export and delete your information ."
    },
    {
     "doc": 2,
-    "verbatim": "This Privacy Policy applies to all of the services offered by Google LLC and its affiliates , including YouTube, Android, and services offered on third-party sites, such as advertising services.",
-    "onde": "Doc 2, 'About this policy' > 'When this policy applies'",
-    "por_que": "Define escopo da privacy policy — local de divulgação das finalidades de melhoria/pesquisa.",
     "file": "google-play/02-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 2, 'About this policy' > 'When this policy applies'",
+    "role": "unknown",
+    "verbatim": "This Privacy Policy applies to all of the services offered by Google LLC and its affiliates , including YouTube, Android, and services offered on third-party sites, such as advertising services."
    },
    {
     "doc": 4,
-    "verbatim": "This page describes the purposes for which Google uses cookies and similar technologies. It also explains how Google and our partners use cookies in advertising .",
-    "onde": "Doc 4, abertura",
-    "por_que": "Página de tecnologias, anexa às políticas; contém a menção a rollout de features — classificar local e registro.",
     "file": "google-play/04-technologies-cookies.md",
-    "role": "unknown"
+    "onde": "Doc 4, abertura",
+    "role": "unknown",
+    "verbatim": "This page describes the purposes for which Google uses cookies and similar technologies. It also explains how Google and our partners use cookies in advertising ."
    },
    {
     "doc": 5,
-    "verbatim": "To get user feedback, some developers make new apps or features available before their official release.",
-    "onde": "Doc 5 (support.google.com/googleplay), introdução",
-    "por_que": "Divulgação de testagem em help centre — local distinto do contrato.",
     "file": "google-play/05-googleplay-answer.md",
-    "role": "unknown"
+    "onde": "Doc 5 (support.google.com/googleplay), introdução",
+    "role": "unknown",
+    "verbatim": "To get user feedback, some developers make new apps or features available before their official release."
    },
    {
     "doc": 6,
-    "verbatim": "Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text.",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
     "onde": "Doc 6 (play.google.com/console/about/...), abertura",
-    "por_que": "O reconhecimento mais forte de experimentação vive em site institucional do Play Console (não-vinculante, público de desenvolvedores).",
-    "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text."
    },
    {
     "doc": 6,
-    "verbatim": "Sign up for Google Play developer updates",
-    "onde": "Doc 6, rodapé",
-    "por_que": "Confirma que a página é material de marketing/dev relations, não documento contratual ao usuário.",
     "file": "google-play/06-console-about-store-listing-experiments.md",
-    "role": "non-binding"
+    "onde": "Doc 6, rodapé",
+    "role": "non-binding",
+    "verbatim": "Sign up for Google Play developer updates"
    }
   ]
  },
@@ -562,5 +496,6 @@
  "uso": {
   "input": 56401,
   "output": 8839
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

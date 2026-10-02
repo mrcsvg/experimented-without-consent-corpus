@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "TikTok",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -14,418 +14,368 @@
   "V1": [
    {
     "doc": 1,
-    "verbatim": "Review, improve, and develop the Platform, including by monitoring interactions and usage across your devices, analysing how people are using it, and by training, testing, and improving our technology, such as our machine learning models and algorithms.",
-    "onde": "Doc 1, seção \"How We Use Your Information\", item da lista de finalidades",
-    "por_que": "Única menção a \"testing\" no registro vinculante; testar é de tecnologia/modelos, sem nomear grupos, variantes ou aleatorização — material para decidir entre 1 e 2 no registro vinculante.",
     "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, seção \"How We Use Your Information\", item da lista de finalidades",
+    "role": "binding",
+    "verbatim": "Review, improve, and develop the Platform, including by monitoring interactions and usage across your devices, analysing how people are using it, and by training, testing, and improving our technology, such as our machine learning models and algorithms."
    },
    {
     "doc": 1,
-    "verbatim": "We use the information we have to understand how people are using the Platform and to develop, test, and make improvements to the Platform, including to develop and improve our technology, such as our machine learning models and algorithms.",
-    "onde": "Doc 1, seção \"Legitimate Interests\", subitem \"Review, improve, promote, and develop the Platform\"",
-    "por_que": "Repete \"test\" ligado a melhoria do serviço na base legal; ainda sem método nomeado.",
     "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, seção \"Legitimate Interests\", subitem \"Review, improve, promote, and develop the Platform\"",
+    "role": "binding",
+    "verbatim": "We use the information we have to understand how people are using the Platform and to develop, test, and make improvements to the Platform, including to develop and improve our technology, such as our machine learning models and algorithms."
    },
    {
     "doc": 3,
-    "verbatim": "We also use the information obtained through these cookies to test design ideas.",
-    "onde": "Doc 3, Cookies Policy, seção \"Analytics and research\"",
-    "por_que": "\"Test design ideas\" sugere testar sobre usuários (nível 2), sem nomear A/B ou grupos.",
     "file": "tiktok/03-global-tiktok-website-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Doc 3, Cookies Policy, seção \"Analytics and research\"",
+    "role": "unknown",
+    "verbatim": "We also use the information obtained through these cookies to test design ideas."
    },
    {
     "doc": 6,
-    "verbatim": "That's why we're testing ways to avoid recommending a series of similar content – such as around extreme dieting or fitness, sadness, or breakups – to protect against viewing too much of a content category that may be fine as a single video but problematic if viewed in clusters.",
-    "onde": "Doc 6, newsroom, seção \"Diversifying recommendations\"",
-    "por_que": "Reconhecimento explícito de testar sobre usuários em produção, em registro não-vinculante, sem nomear método (candidato a 2).",
     "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
-    "role": "non-binding"
+    "onde": "Doc 6, newsroom, seção \"Diversifying recommendations\"",
+    "role": "non-binding",
+    "verbatim": "That's why we're testing ways to avoid recommending a series of similar content – such as around extreme dieting or fitness, sadness, or breakups – to protect against viewing too much of a content category that may be fine as a single video but problematic if viewed in clusters."
    },
    {
     "doc": 5,
-    "verbatim": "Split testing in TikTok Ads Manager allows you to test two different versions of your ads to determine which one performs best.",
+    "file": "tiktok/05-help-article-split-testing.md",
     "onde": "Doc 5, Business Help Centre, parágrafo de abertura",
-    "por_que": "Nomeia split testing; porém a ferramenta é oferecida a anunciantes — evaluator precisa decidir se conta como experimentação sobre usuários.",
-    "file": "tiktok/05-help-article-split-testing.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Split testing in TikTok Ads Manager allows you to test two different versions of your ads to determine which one performs best."
    },
    {
     "doc": 5,
-    "verbatim": "You can use split tests to keep the other variables the same and split your audience into two equal groups, with each group seeing only one ad group in order to draw a statistical conclusion about your ad performance and optimize future campaigns.",
+    "file": "tiktok/05-help-article-split-testing.md",
     "onde": "Doc 5, parágrafo de abertura, continuação",
-    "por_que": "Descreve divisão da audiência em grupos com variantes distintas — critério literal do nível 3 (variantes servidas a usuários distintos).",
-    "file": "tiktok/05-help-article-split-testing.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "You can use split tests to keep the other variables the same and split your audience into two equal groups, with each group seeing only one ad group in order to draw a statistical conclusion about your ad performance and optimize future campaigns."
    },
    {
     "doc": 5,
-    "verbatim": "Split testing is scientifically designed to perform an accurate A/B test with a 90% confidence rate to determine which ad group performs better.",
-    "onde": "Doc 5, seção \"Benefits\", bullet \"Learn from accurate and statistically significant results\"",
-    "por_que": "Nomeia \"A/B test\" explicitamente — teto potencial 3, localizado fora dos documentos contratuais ao usuário.",
     "file": "tiktok/05-help-article-split-testing.md",
-    "role": "unknown"
+    "onde": "Doc 5, seção \"Benefits\", bullet \"Learn from accurate and statistically significant results\"",
+    "role": "unknown",
+    "verbatim": "Split testing is scientifically designed to perform an accurate A/B test with a 90% confidence rate to determine which ad group performs better."
    },
    {
     "doc": 2,
-    "verbatim": "changes we make to the Platform in the usual course of developing our product;",
-    "onde": "Doc 2, ToS, seção 7.2 \"Reasons for changes\"",
-    "por_que": "Mostra que o ToS (vinculante) só fala em desenvolver/alterar o produto, sem qualquer linguagem de teste — evidência do nível do registro vinculante sozinho.",
     "file": "tiktok/02-eea-terms-of-service.md",
-    "role": "unknown"
+    "onde": "Doc 2, ToS, seção 7.2 \"Reasons for changes\"",
+    "role": "unknown",
+    "verbatim": "changes we make to the Platform in the usual course of developing our product;"
    }
   ],
   "V2": [
    {
     "doc": 1,
-    "verbatim": "We use your information to operate, provide, develop, and improve the Platform, including for the following purposes.",
+    "file": "tiktok/01-eea-privacy-policy.md",
     "onde": "Doc 1, abertura de \"How We Use Your Information\"",
-    "por_que": "Enquadramento de service improvement no registro vinculante.",
-    "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We use your information to operate, provide, develop, and improve the Platform, including for the following purposes."
    },
    {
     "doc": 1,
-    "verbatim": "Facilitate research conducted by independent researchers that meets certain criteria.",
+    "file": "tiktok/01-eea-privacy-policy.md",
     "onde": "Doc 1, lista de finalidades em \"How We Use Your Information\"",
-    "por_que": "Enquadramento de research explicitamente nomeado.",
-    "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Facilitate research conducted by independent researchers that meets certain criteria."
    },
    {
     "doc": 1,
-    "verbatim": "We share your information with independent researchers to facilitate research that meets certain criteria, including where such researchers have demonstrable experience and expertise in their area.",
+    "file": "tiktok/01-eea-privacy-policy.md",
     "onde": "Doc 1, \"Legitimate Interests\", subitem \"Facilitate independent research\"",
-    "por_que": "Research envolvendo dados de usuários compartilhados com pesquisadores — relevante para human-subjects research.",
-    "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We share your information with independent researchers to facilitate research that meets certain criteria, including where such researchers have demonstrable experience and expertise in their area."
    },
    {
     "doc": 1,
-    "verbatim": "Legitimate Interest relied upon : To facilitate independent research that aims to develop society’s collective knowledge, including in the areas of misinformation and disinformation, violence, cybercrime, and social trends.",
+    "file": "tiktok/01-eea-privacy-policy.md",
     "onde": "Doc 1, \"Legitimate Interests\", subitem \"Facilitate independent research\"",
-    "por_que": "Co-ocorrência research + bem público (\"society's collective knowledge\").",
-    "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Legitimate Interest relied upon : To facilitate independent research that aims to develop society’s collective knowledge, including in the areas of misinformation and disinformation, violence, cybercrime, and social trends."
    },
    {
     "doc": 1,
-    "verbatim": "We use your information to ensure the safety and well-being of our community, including by reviewing User Content",
+    "file": "tiktok/01-eea-privacy-policy.md",
     "onde": "Doc 1, \"Legitimate Interests\", subitem \"Ensure the safety and well-being of our community\"",
-    "por_que": "Linguagem de bem-estar da comunidade — âncora do enquadramento social-good/community.",
-    "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We use your information to ensure the safety and well-being of our community, including by reviewing User Content"
    },
    {
     "doc": 6,
-    "verbatim": "Our goal is to foster an environment where people feel safe and supported being exactly who they are, whether they're creating videos for our community or watching them.",
+    "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
     "onde": "Doc 6, newsroom, primeiro parágrafo",
-    "por_que": "Enquadramento social-good/community no registro não-vinculante, justificando o trabalho de recomendação/teste.",
-    "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Our goal is to foster an environment where people feel safe and supported being exactly who they are, whether they're creating videos for our community or watching them."
    },
    {
     "doc": 6,
-    "verbatim": "This work is being informed by ongoing conversations with experts across medicine, clinical psychology, and AI ethics, members of our Content Advisory Council, and our community.",
-    "onde": "Doc 6, fim da seção \"Diversifying recommendations\"",
-    "por_que": "Enquadramento de bem-estar/saúde mental associado aos testes de recomendação.",
     "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
-    "role": "non-binding"
+    "onde": "Doc 6, fim da seção \"Diversifying recommendations\"",
+    "role": "non-binding",
+    "verbatim": "This work is being informed by ongoing conversations with experts across medicine, clinical psychology, and AI ethics, members of our Content Advisory Council, and our community."
    },
    {
     "doc": 4,
-    "verbatim": "Developing and maintaining TikTok's recommendation system is a continuous process as we work to refine accuracy, adjust models, and reassess the factors and weights that contribute to recommendations based on feedback from users, research, and data.",
-    "onde": "Doc 4, seção \"Improving For You\"",
-    "por_que": "Co-ocorrência service improvement + research em registro não-vinculante.",
     "file": "tiktok/04-us-how-tiktok-recommends-videos-for-you.md",
-    "role": "unknown"
+    "onde": "Doc 4, seção \"Improving For You\"",
+    "role": "unknown",
+    "verbatim": "Developing and maintaining TikTok's recommendation system is a continuous process as we work to refine accuracy, adjust models, and reassess the factors and weights that contribute to recommendations based on feedback from users, research, and data."
    }
   ],
   "V3": [
    {
     "doc": 1,
-    "verbatim": "Review, improve, and develop the Platform, including by monitoring interactions and usage across your devices, analysing how people are using it, and by training, testing, and improving our technology, such as our machine learning models and algorithms.",
-    "onde": "Doc 1, \"How We Use Your Information\"",
-    "por_que": "V3a: nomeia superfície testada de forma genérica (tecnologia, modelos de machine learning e algoritmos).",
     "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, \"How We Use Your Information\"",
+    "role": "binding",
+    "verbatim": "Review, improve, and develop the Platform, including by monitoring interactions and usage across your devices, analysing how people are using it, and by training, testing, and improving our technology, such as our machine learning models and algorithms."
    },
    {
     "doc": 3,
-    "verbatim": "We also use the information obtained through these cookies to test design ideas.",
-    "onde": "Doc 3, seção \"Analytics and research\"",
-    "por_que": "V3a: \"design ideas\" como objeto de teste.",
     "file": "tiktok/03-global-tiktok-website-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Doc 3, seção \"Analytics and research\"",
+    "role": "unknown",
+    "verbatim": "We also use the information obtained through these cookies to test design ideas."
    },
    {
     "doc": 6,
-    "verbatim": "That's why we're testing ways to avoid recommending a series of similar content – such as around extreme dieting or fitness, sadness, or breakups – to protect against viewing too much of a content category that may be fine as a single video but problematic if viewed in clusters.",
-    "onde": "Doc 6, \"Diversifying recommendations\"",
-    "por_que": "V3b/V3c: alvo é a sequência de recomendação (ranking) e categorias de conteúdo com carga afetiva (sadness, breakups); descreve um teste em andamento.",
     "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
-    "role": "non-binding"
-   },
-   {
-    "doc": 6,
-    "verbatim": "For example, our systems won't recommend two videos in a row made by the same creator or with the same sound.",
     "onde": "Doc 6, \"Diversifying recommendations\"",
-    "por_que": "Regra de ranking descrita como feature — útil para distinguir personalização declarada de alvo de experimento.",
-    "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "That's why we're testing ways to avoid recommending a series of similar content – such as around extreme dieting or fitness, sadness, or breakups – to protect against viewing too much of a content category that may be fine as a single video but problematic if viewed in clusters."
    },
    {
     "doc": 6,
-    "verbatim": "For example, we're working on a feature that would let people choose words or hashtags associated with content they don't want to see in their For You feed.",
+    "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
+    "onde": "Doc 6, \"Diversifying recommendations\"",
+    "role": "non-binding",
+    "verbatim": "For example, our systems won't recommend two videos in a row made by the same creator or with the same sound."
+   },
+   {
+    "doc": 6,
+    "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
     "onde": "Doc 6, seção \"A new way to shape what you see\"",
-    "por_que": "V3c: feature específica em desenvolvimento; evaluator decide se \"working on a feature\" equivale a experimento ativo divulgado.",
-    "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "For example, we're working on a feature that would let people choose words or hashtags associated with content they don't want to see in their For You feed."
    },
    {
     "doc": 5,
-    "verbatim": "You can use split tests to keep the other variables the same and split your audience into two equal groups, with each group seeing only one ad group in order to draw a statistical conclusion about your ad performance and optimize future campaigns.",
+    "file": "tiktok/05-help-article-split-testing.md",
     "onde": "Doc 5, parágrafo de abertura",
-    "por_que": "V3a/V3b: variáveis testáveis explicitamente enumeradas no contexto de anúncios.",
-    "file": "tiktok/05-help-article-split-testing.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "You can use split tests to keep the other variables the same and split your audience into two equal groups, with each group seeing only one ad group in order to draw a statistical conclusion about your ad performance and optimize future campaigns."
    },
    {
     "doc": 5,
-    "verbatim": "Bidding and Optimization",
-    "onde": "Doc 5, lista \"You can test the following variables\"",
-    "por_que": "V3-pricing: única menção próxima de preço é bidding de anunciante, não preço ao consumidor nem personalização de preço — evidência para provável \"No\".",
     "file": "tiktok/05-help-article-split-testing.md",
-    "role": "unknown"
+    "onde": "Doc 5, lista \"You can test the following variables\"",
+    "role": "unknown",
+    "verbatim": "Bidding and Optimization"
    },
    {
     "doc": 4,
-    "verbatim": "All these factors are processed by our recommendation system and weighted based on their value to a user.",
-    "onde": "Doc 4, seção \"What factors contribute to For You?\"",
-    "por_que": "Descrição de personalização algorítmica como feature, não como alvo de experimento — contraste exigido pelo critério.",
     "file": "tiktok/04-us-how-tiktok-recommends-videos-for-you.md",
-    "role": "unknown"
+    "onde": "Doc 4, seção \"What factors contribute to For You?\"",
+    "role": "unknown",
+    "verbatim": "All these factors are processed by our recommendation system and weighted based on their value to a user."
    }
   ],
   "V4": [
    {
     "doc": 1,
-    "verbatim": "We may only use your information when we have a “legal basis” to do so. We use different legal bases depending on why we use your information (in other words, the “purpose” of our processing). These legal bases are contractual necessity, legitimate interests (ours, yours or those of another party), consent, compliance with a legal obligation, performing a task in the public interest, and protection of vital interests.",
+    "file": "tiktok/01-eea-privacy-policy.md",
     "onde": "Doc 1, abertura de \"Our Legal Bases and How We Process Your Information\"",
-    "por_que": "Lista de bases legais disponíveis; nenhuma finalidade chamada \"experimentação\".",
-    "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We may only use your information when we have a “legal basis” to do so. We use different legal bases depending on why we use your information (in other words, the “purpose” of our processing). These legal bases are contractual necessity, legitimate interests (ours, yours or those of another party), consent, compliance with a legal obligation, performing a task in the public interest, and protection of vital interests."
    },
    {
     "doc": 1,
-    "verbatim": "Review, improve, promote, and develop the Platform .",
+    "file": "tiktok/01-eea-privacy-policy.md",
     "onde": "Doc 1, \"Legitimate Interests\", título do subitem",
-    "por_que": "Finalidade declarada que plausivelmente cobre experimentação (mapeamento \"improve services\").",
-    "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Review, improve, promote, and develop the Platform ."
    },
    {
     "doc": 1,
-    "verbatim": "Legitimate Interest relied upon : To improve, promote, and develop the Platform in an informed way.",
+    "file": "tiktok/01-eea-privacy-policy.md",
     "onde": "Doc 1, \"Legitimate Interests\", subitem \"Review, improve, promote, and develop the Platform\"",
-    "por_que": "Base legal explícita (legitimate interest) atrelada à finalidade de testar/desenvolver a Plataforma.",
-    "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Legitimate Interest relied upon : To improve, promote, and develop the Platform in an informed way."
    },
    {
     "doc": 1,
-    "verbatim": "If you have the legal capacity to enter into an enforceable contract, we use Information You Provide , Automatically Collected Information , and Information From Other Sources where it is necessary to perform the contract you enter into (our Terms) when you register for, access, or use the Platform.",
+    "file": "tiktok/01-eea-privacy-policy.md",
     "onde": "Doc 1, seção \"Contractual Necessity\"",
-    "por_que": "Base contratual cobre \"Personalise features and content\" (For You feed) — alternativa de mapeamento.",
-    "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "If you have the legal capacity to enter into an enforceable contract, we use Information You Provide , Automatically Collected Information , and Information From Other Sources where it is necessary to perform the contract you enter into (our Terms) when you register for, access, or use the Platform."
    },
    {
     "doc": 1,
-    "verbatim": "With your consent, we serve you personalised ads on the Platform based on your activity on and off the Platform.",
+    "file": "tiktok/01-eea-privacy-policy.md",
     "onde": "Doc 1, seção \"Your Consent\", subitem \"Personalised advertising\"",
-    "por_que": "Consentimento aparece apenas para ads/pagamento/permissões de dispositivo, não para experimentação.",
-    "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "With your consent, we serve you personalised ads on the Platform based on your activity on and off the Platform."
    },
    {
     "doc": 1,
-    "verbatim": "This privacy policy (\" Privacy Policy \") applies to the personal information that TikTok processes in connection with TikTok apps, websites, software and related services (the “ Platform ”), that link to or reference this Privacy Policy.",
-    "onde": "Doc 1, Introdução (página rotulada EEA/UK/CH)",
-    "por_que": "Documento é a versão EEA/UK/CH — evidência para avaliar region gating da tabela de bases legais.",
     "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, Introdução (página rotulada EEA/UK/CH)",
+    "role": "binding",
+    "verbatim": "This privacy policy (\" Privacy Policy \") applies to the personal information that TikTok processes in connection with TikTok apps, websites, software and related services (the “ Platform ”), that link to or reference this Privacy Policy."
    },
    {
     "doc": 2,
-    "verbatim": "(These terms apply if you live or have your principal place of business in the European Economic Area, Switzerland or the UK)",
-    "onde": "Doc 2, subtítulo do ToS",
-    "por_que": "Confirma que o conjunto documental analisado é o regionalizado para a UE/UK/CH.",
     "file": "tiktok/02-eea-terms-of-service.md",
-    "role": "unknown"
+    "onde": "Doc 2, subtítulo do ToS",
+    "role": "unknown",
+    "verbatim": "(These terms apply if you live or have your principal place of business in the European Economic Area, Switzerland or the UK)"
    }
   ],
   "V5": [
    {
     "doc": 1,
-    "verbatim": "Your Rights : Whenever we use your information on the basis that it is necessary for legitimate interests, you can object to, and request restriction of, such usage.",
-    "onde": "Doc 1, fim do bloco \"Legitimate Interests\"",
-    "por_que": "Direito genérico de objeção do GDPR; é o único mecanismo que alcançaria a finalidade de melhorar/testar a Plataforma.",
     "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, fim do bloco \"Legitimate Interests\"",
+    "role": "binding",
+    "verbatim": "Your Rights : Whenever we use your information on the basis that it is necessary for legitimate interests, you can object to, and request restriction of, such usage."
    },
    {
     "doc": 1,
-    "verbatim": "You also have the right to object to the processing of your information in certain circumstances. This right applies when we are performing a task in the public interest, pursuing our legitimate interests or those of a third party, or when your data is processed for the purpose of facilitating scientific or historical research in certain circumstances.",
-    "onde": "Doc 1, \"Your Rights and Choices\", item \"Object to the processing of your information\"",
-    "por_que": "Objeção inclui pesquisa científica, mas continua sendo direito genérico, sem controle dedicado a experimentos.",
     "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, \"Your Rights and Choices\", item \"Object to the processing of your information\"",
+    "role": "binding",
+    "verbatim": "You also have the right to object to the processing of your information in certain circumstances. This right applies when we are performing a task in the public interest, pursuing our legitimate interests or those of a third party, or when your data is processed for the purpose of facilitating scientific or historical research in certain circumstances."
    },
    {
     "doc": 3,
-    "verbatim": "You can manage your cookie settings any time and accept or refuse optional cookies.",
+    "file": "tiktok/03-global-tiktok-website-cookies-policy.md",
     "onde": "Doc 3, seção \"Platform Cookie settings\"",
-    "por_que": "Falso positivo clássico: controle de cookies (incl. analytics) não é opt-out de experimentação.",
-    "file": "tiktok/03-global-tiktok-website-cookies-policy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "You can manage your cookie settings any time and accept or refuse optional cookies."
    },
    {
     "doc": 3,
-    "verbatim": "Some of the cookies that we use are essential to operate the Platform. As a result, you cannot control the use of such cookies.",
-    "onde": "Doc 3, seção \"How can you control cookies?\"",
-    "por_que": "Delimita o escopo do controle disponível — ads/medição/analytics, não experimentos.",
     "file": "tiktok/03-global-tiktok-website-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Doc 3, seção \"How can you control cookies?\"",
+    "role": "unknown",
+    "verbatim": "Some of the cookies that we use are essential to operate the Platform. As a result, you cannot control the use of such cookies."
    },
    {
     "doc": 6,
-    "verbatim": "We already enable people to tap any video and select \"Not interested\" to automatically skip future videos from that same creator or using the same audio.",
-    "onde": "Doc 6, seção \"A new way to shape what you see\"",
-    "por_que": "Controle de personalização do feed, não opt-out de participação em testes — evidência para descartar como dedicated.",
     "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
-    "role": "non-binding"
+    "onde": "Doc 6, seção \"A new way to shape what you see\"",
+    "role": "non-binding",
+    "verbatim": "We already enable people to tap any video and select \"Not interested\" to automatically skip future videos from that same creator or using the same audio."
    }
   ],
   "V6": [],
   "V7": [
    {
     "doc": 2,
-    "verbatim": "We will give you reasonable advance notice of significant changes which will impact you and confirm the date they will come into force.",
-    "onde": "Doc 2, seção 7.1 \"What happens when we make changes\"",
-    "por_que": "Aviso de mudança de serviço — explicitamente excluído pelo critério como falso positivo de debriefing; nenhum aviso posterior de participação em experimento aparece em qualquer documento.",
     "file": "tiktok/02-eea-terms-of-service.md",
-    "role": "unknown"
+    "onde": "Doc 2, seção 7.1 \"What happens when we make changes\"",
+    "role": "unknown",
+    "verbatim": "We will give you reasonable advance notice of significant changes which will impact you and confirm the date they will come into force."
    },
    {
     "doc": 1,
-    "verbatim": "We may amend or update this Privacy Policy from time to time. We will notify you of any material changes to this policy by a notice provided through the Platform or by other means.",
-    "onde": "Doc 1, seção \"Privacy Policy Updates\"",
-    "por_que": "Aviso de alteração de política, não debriefing — registrado para documentar que o tema de notificação existe, mas nunca sobre experimentos.",
     "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, seção \"Privacy Policy Updates\"",
+    "role": "binding",
+    "verbatim": "We may amend or update this Privacy Policy from time to time. We will notify you of any material changes to this policy by a notice provided through the Platform or by other means."
    }
   ],
   "V8": [
    {
     "doc": 6,
-    "verbatim": "This work is being informed by ongoing conversations with experts across medicine, clinical psychology, and AI ethics, members of our Content Advisory Council, and our community.",
-    "onde": "Doc 6, fim da seção \"Diversifying recommendations\"",
-    "por_que": "Menção a ética (AI ethics) e a um conselho consultivo ligada ao trabalho de recomendação/testes; borderline — consulta, não revisão ética de experimentos, e em registro não-vinculante.",
     "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
-    "role": "non-binding"
+    "onde": "Doc 6, fim da seção \"Diversifying recommendations\"",
+    "role": "non-binding",
+    "verbatim": "This work is being informed by ongoing conversations with experts across medicine, clinical psychology, and AI ethics, members of our Content Advisory Council, and our community."
    },
    {
     "doc": 6,
-    "verbatim": "Our safety team takes additional precautions to review videos as they rise in popularity to reduce the likelihood of content that may not be appropriate for a general audience entering our recommended system.",
-    "onde": "Doc 6, seção \"Building safety into recommendations\"",
-    "por_que": "Revisão de conteúdo por equipe de segurança, não avaliação de risco de experimento — evidência para separar moderação de ética de pesquisa.",
     "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
-    "role": "non-binding"
+    "onde": "Doc 6, seção \"Building safety into recommendations\"",
+    "role": "non-binding",
+    "verbatim": "Our safety team takes additional precautions to review videos as they rise in popularity to reduce the likelihood of content that may not be appropriate for a general audience entering our recommended system."
    },
    {
     "doc": 4,
-    "verbatim": "Note: At the TikTok Transparency Center in Los Angeles, invited experts will have the opportunity to learn how our algorithm operates along with reviewing TikTok source code, which will be made available at the center for testing and evaluation.",
-    "onde": "Doc 4, nota final",
-    "por_que": "Escrutínio externo do algoritmo por especialistas; avaliador decide se equivale a revisão/avaliação de risco de experimentos (provável No).",
     "file": "tiktok/04-us-how-tiktok-recommends-videos-for-you.md",
-    "role": "unknown"
+    "onde": "Doc 4, nota final",
+    "role": "unknown",
+    "verbatim": "Note: At the TikTok Transparency Center in Los Angeles, invited experts will have the opportunity to learn how our algorithm operates along with reviewing TikTok source code, which will be made available at the center for testing and evaluation."
    },
    {
     "doc": 1,
-    "verbatim": "We maintain appropriate technical, administrative, and physical security measures that are designed to protect your information from unauthorised access, theft, disclosure, modification, or loss.",
-    "onde": "Doc 1, seção \"Data Security and Retention\"",
-    "por_que": "Única linguagem de salvaguarda no registro vinculante é de segurança da informação — nenhuma menção a comitê, revisão ética ou avaliação de risco de experimentos.",
     "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, seção \"Data Security and Retention\"",
+    "role": "binding",
+    "verbatim": "We maintain appropriate technical, administrative, and physical security measures that are designed to protect your information from unauthorised access, theft, disclosure, modification, or loss."
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "This privacy policy (\" Privacy Policy \") applies to the personal information that TikTok processes in connection with TikTok apps, websites, software and related services (the “ Platform ”), that link to or reference this Privacy Policy.",
-    "onde": "Doc 1, Introdução",
-    "por_que": "Confirma o local \"privacy policy\" e sua função de documento de privacidade aplicável ao uso da Plataforma.",
     "file": "tiktok/01-eea-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, Introdução",
+    "role": "binding",
+    "verbatim": "This privacy policy (\" Privacy Policy \") applies to the personal information that TikTok processes in connection with TikTok apps, websites, software and related services (the “ Platform ”), that link to or reference this Privacy Policy."
    },
    {
     "doc": 2,
-    "verbatim": "These Terms of Service and the other additional terms and policies which may apply to you (see Section 3) (“ Terms ”) contain the agreement between you and TikTok in respect of the Platform (defined below).",
+    "file": "tiktok/02-eea-terms-of-service.md",
     "onde": "Doc 2, abertura",
-    "por_que": "Auto-declaração de que o documento é o acordo com o usuário — teste de registro vinculante do critério.",
-    "file": "tiktok/02-eea-terms-of-service.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "These Terms of Service and the other additional terms and policies which may apply to you (see Section 3) (“ Terms ”) contain the agreement between you and TikTok in respect of the Platform (defined below)."
    },
    {
     "doc": 2,
-    "verbatim": "Learn more about the recommendation system and the tools you can use to customise your feed here (this information forms part of these Terms).",
+    "file": "tiktok/02-eea-terms-of-service.md",
     "onde": "Doc 2, seção 4.1 \"Our Platform and business model\"",
-    "por_que": "Incorpora explicitamente a página sobre o sistema de recomendação ao contrato — decisivo para atribuir registro vinculante a material hospedado fora do ToS.",
-    "file": "tiktok/02-eea-terms-of-service.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Learn more about the recommendation system and the tools you can use to customise your feed here (this information forms part of these Terms)."
    },
    {
     "doc": 2,
-    "verbatim": "Information on how we use data we collect about you can be found in our Privacy Policy and Cookies Policy . These do not form part of these Terms but are important documents which we strongly recommend that you read.",
-    "onde": "Doc 2, seção 4.1",
-    "por_que": "O próprio ToS declara que Privacy e Cookies Policy não fazem parte dos Termos — informação relevante (e contraintuitiva) para a decisão de registro.",
     "file": "tiktok/02-eea-terms-of-service.md",
-    "role": "unknown"
+    "onde": "Doc 2, seção 4.1",
+    "role": "unknown",
+    "verbatim": "Information on how we use data we collect about you can be found in our Privacy Policy and Cookies Policy . These do not form part of these Terms but are important documents which we strongly recommend that you read."
    },
    {
     "doc": 3,
-    "verbatim": "This Cookies Policy explains how TikTok and our partners use cookies and similar technologies. It applies to TikTok’s apps, websites, software and related services (together, the “Platform”).",
-    "onde": "Doc 3, abertura",
-    "por_que": "Identifica o local \"cookies policy\" e seu escopo.",
     "file": "tiktok/03-global-tiktok-website-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Doc 3, abertura",
+    "role": "unknown",
+    "verbatim": "This Cookies Policy explains how TikTok and our partners use cookies and similar technologies. It applies to TikTok’s apps, websites, software and related services (together, the “Platform”)."
    },
    {
     "doc": 5,
-    "verbatim": "About Split Testing | TikTok Ads Manager\nBusiness Help Centre",
-    "onde": "Doc 5, título e cabeçalho da página",
-    "por_que": "Identifica o local como help centre de negócios (Ads Manager), não documento ao usuário consumidor.",
     "file": "tiktok/05-help-article-split-testing.md",
-    "role": "unknown"
+    "onde": "Doc 5, título e cabeçalho da página",
+    "role": "unknown",
+    "verbatim": "About Split Testing | TikTok Ads Manager\nBusiness Help Centre"
    },
    {
     "doc": 4,
-    "verbatim": "How TikTok recommends videos #ForYou - Newsroom | TikTok",
-    "onde": "Doc 4, título da página",
-    "por_que": "Identifica o local blog/PR (Newsroom) — registro presumivelmente não-vinculante, salvo pela incorporação citada no Doc 2.",
     "file": "tiktok/04-us-how-tiktok-recommends-videos-for-you.md",
-    "role": "unknown"
+    "onde": "Doc 4, título da página",
+    "role": "unknown",
+    "verbatim": "How TikTok recommends videos #ForYou - Newsroom | TikTok"
    },
    {
     "doc": 6,
-    "verbatim": "An update on our work to safeguard and diversify recommendations - Newsroom | TikTok",
-    "onde": "Doc 6, título da página",
-    "por_que": "Segundo local blog/PR onde vive o reconhecimento de testes sobre usuários.",
     "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
-    "role": "non-binding"
+    "onde": "Doc 6, título da página",
+    "role": "non-binding",
+    "verbatim": "An update on our work to safeguard and diversify recommendations - Newsroom | TikTok"
    }
   ]
  },
@@ -433,5 +383,6 @@
  "uso": {
   "input": 33176,
   "output": 12425
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

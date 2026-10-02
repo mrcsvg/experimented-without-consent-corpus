@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Instagram",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -14,619 +14,544 @@
   "V1": [
    {
     "doc": 1,
-    "verbatim": "Build and test out new products and features to see if they work",
-    "onde": "Seção 'How do we use your information?' > 'How we use information to improve Meta Products'",
-    "por_que": "Menção explícita a testar novos produtos/features com informação de usuários, sem nomear método (A/B, randomização, grupos) — fronteira típica entre nível 2 e 3.",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Seção 'How do we use your information?' > 'How we use information to improve Meta Products'",
+    "role": "unknown",
+    "verbatim": "Build and test out new products and features to see if they work"
    },
    {
     "doc": 1,
-    "verbatim": "Develop and improve products and features",
-    "onde": "Seção 'How do we use your information?' > 'How we use information to improve Meta Products'",
-    "por_que": "Linguagem de melhoria de serviço, patamar mínimo da escada (nível 1).",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Seção 'How do we use your information?' > 'How we use information to improve Meta Products'",
+    "role": "unknown",
+    "verbatim": "Develop and improve products and features"
    },
    {
     "doc": 1,
-    "verbatim": "Conduct surveys and other research on what we can do better for Meta Products and brands",
-    "onde": "Seção 'How do we use your information?' > 'How we use information to improve Meta Products'",
-    "por_que": "Pesquisa com usuários declarada, mas por surveys — não nomeia experimento controlado.",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Seção 'How do we use your information?' > 'How we use information to improve Meta Products'",
+    "role": "unknown",
+    "verbatim": "Conduct surveys and other research on what we can do better for Meta Products and brands"
    },
    {
     "doc": 1,
-    "verbatim": "We also use manual review to analyse content to train our algorithms to review content the same way a person would. This improves our automatic processing, which in turn helps us improve our products.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Nota de rodapé 28 'Manual review' > 'Examples of when we use manual review'",
-    "por_que": "Processamento para melhoria de produto sem nomear experimentação.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We also use manual review to analyse content to train our algorithms to review content the same way a person would. This improves our automatic processing, which in turn helps us improve our products."
    },
    {
     "doc": 1,
-    "verbatim": "Build and test out new products and features to see if they work,",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Legal basis information > Performance of a contract > 'Providing Meta Products'",
-    "por_que": "Repetição da linguagem de teste dentro do registro vinculante (base legal contratual), relevante para o campo v1_register.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Build and test out new products and features to see if they work,"
    },
    {
     "doc": 1,
-    "verbatim": "Improve Meta Products by developing new features or updating existing features. We use information that we collect to:\nConduct research and analytics to evaluate the impact of new products and features,",
-    "onde": "Legal basis information > Legitimate interests > 'Improving Meta Products'",
-    "por_que": "Avaliação do impacto de novos produtos/features sobre usuários — linguagem próxima de teste, ainda sem método nomeado.",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Legal basis information > Legitimate interests > 'Improving Meta Products'",
+    "role": "unknown",
+    "verbatim": "Improve Meta Products by developing new features or updating existing features. We use information that we collect to:\nConduct research and analytics to evaluate the impact of new products and features,"
    },
    {
     "doc": 4,
-    "verbatim": "We use the information we have to develop, test and improve our Service and collaborate with others on research to make our Service better and contribute to the well-being of our community. This includes analysing the information that we have about our users and understanding how people use our Services, for example, by conducting surveys and testing and troubleshooting new features.",
-    "onde": "Terms of Use, item 1 'The Instagram Service' > 'Providing and improving Meta Products'",
-    "por_que": "Documento vinculante (Termos de Uso) declara 'test' e 'testing ... new features' com usuários; núcleo da decisão entre nível 2 e 3 no registro vinculante.",
     "file": "instagram/04-help-instagram-com.md",
-    "role": "unknown"
+    "onde": "Terms of Use, item 1 'The Instagram Service' > 'Providing and improving Meta Products'",
+    "role": "unknown",
+    "verbatim": "We use the information we have to develop, test and improve our Service and collaborate with others on research to make our Service better and contribute to the well-being of our community. This includes analysing the information that we have about our users and understanding how people use our Services, for example, by conducting surveys and testing and troubleshooting new features."
    },
    {
     "doc": 5,
-    "verbatim": "These models and their input signals are dynamic, and they change frequently as the system learns and improves over time.",
-    "onde": "Instagram Feed AI system, parágrafo de abertura",
-    "por_que": "Registro não-vinculante fala de sistema que muda/aprende, mas sem nomear experimentos ou variantes — relevante para fixar o teto.",
     "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "onde": "Instagram Feed AI system, parágrafo de abertura",
+    "role": "unknown",
+    "verbatim": "These models and their input signals are dynamic, and they change frequently as the system learns and improves over time."
    },
    {
     "doc": 6,
-    "verbatim": "Build and test out new products and features to see if they work",
-    "onde": "Legal basis information > Performance of a contract > 'Providing Meta Products'",
-    "por_que": "Confirma a mesma formulação de teste na versão da política vigente a partir de 23/07/2026 (registro vinculante).",
     "file": "instagram/06-policy.md",
-    "role": "unknown"
+    "onde": "Legal basis information > Performance of a contract > 'Providing Meta Products'",
+    "role": "unknown",
+    "verbatim": "Build and test out new products and features to see if they work"
    }
   ],
   "V2": [
    {
     "doc": 1,
-    "verbatim": "We research for the good of people around the world, for instance to advance technology or to help out in a crisis",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'How do we use your information?' > Highlights",
-    "por_que": "Enquadramento simultâneo de research e social-good.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We research for the good of people around the world, for instance to advance technology or to help out in a crisis"
    },
    {
     "doc": 1,
-    "verbatim": "To research and innovate for social good\nWe use information we have, information from researchers and datasets from publicly available sources, professional groups and charitable groups to conduct and support research.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'How do we use your information?' > 'To research and innovate for social good'",
-    "por_que": "Enquadramento explícito de research + social-good.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "To research and innovate for social good\nWe use information we have, information from researchers and datasets from publicly available sources, professional groups and charitable groups to conduct and support research."
    },
    {
     "doc": 1,
-    "verbatim": "Contributing to social good and areas of public interest\nAdvancing technology\nImproving safety, health and well-being",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'Researching and innovating for social good' > goals",
-    "por_que": "Linguagem de bem-estar/interesse público — ancoragem do enquadramento social-good/community.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Contributing to social good and areas of public interest\nAdvancing technology\nImproving safety, health and well-being"
    },
    {
     "doc": 1,
-    "verbatim": "We work with independent researchers to better understand the impact that social media might have on elections and democratic processes",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'Researching and innovating for social good' > exemplos",
-    "por_que": "Research com sujeitos humanos implícita, conduzida com pesquisadores externos.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We work with independent researchers to better understand the impact that social media might have on elections and democratic processes"
    },
    {
     "doc": 1,
-    "verbatim": "We provide information to external researchers. They use it to conduct research that advances scholarship and innovation, and to promote safety, security and integrity.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'How do we share information with third parties?' > 'External researchers'",
-    "por_que": "Research acadêmica declarada; relevante para o enquadramento 'human-subjects research'.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We provide information to external researchers. They use it to conduct research that advances scholarship and innovation, and to promote safety, security and integrity."
    },
    {
     "doc": 1,
-    "verbatim": "Engage with research survey respondents who choose to participate in additional conversations",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Nota 22 'Third-party public sources'",
-    "por_que": "Participação de respondentes em pesquisa — aproximação de human-subjects research.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Engage with research survey respondents who choose to participate in additional conversations"
    },
    {
     "doc": 1,
-    "verbatim": "We're always trying to make Meta Products better and create new ones with the features that you want. Information that we collect from you helps us learn how.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'How we use information to improve Meta Products'",
-    "por_que": "Enquadramento clássico de service improvement.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We're always trying to make Meta Products better and create new ones with the features that you want. Information that we collect from you helps us learn how."
    },
    {
     "doc": 1,
-    "verbatim": "In our interest and those of the general public to further the state-of-the-art or academic understanding on important social issues that affect our society and world in a positive way.",
-    "onde": "Legal basis information > Legitimate interests > 'Undertaking research and innovation for social good'",
-    "por_que": "Combina research acadêmica e social-good dentro do registro vinculante de base legal.",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Legal basis information > Legitimate interests > 'Undertaking research and innovation for social good'",
+    "role": "unknown",
+    "verbatim": "In our interest and those of the general public to further the state-of-the-art or academic understanding on important social issues that affect our society and world in a positive way."
    },
    {
     "doc": 4,
-    "verbatim": "We use the information we have to develop, test and improve our Service and collaborate with others on research to make our Service better and contribute to the well-being of our community.",
-    "onde": "Terms of Use, item 1 > 'Providing and improving Meta Products'",
-    "por_que": "Co-ocorrência dos três enquadramentos (service improvement, research, well-being da comunidade) em documento vinculante.",
     "file": "instagram/04-help-instagram-com.md",
-    "role": "unknown"
+    "onde": "Terms of Use, item 1 > 'Providing and improving Meta Products'",
+    "role": "unknown",
+    "verbatim": "We use the information we have to develop, test and improve our Service and collaborate with others on research to make our Service better and contribute to the well-being of our community."
    },
    {
     "doc": 6,
-    "verbatim": "We carry out surveys and use information (including from researchers that we collaborate with) to conduct and support research and innovation on topics of general social welfare, technological advancement, public interest, health and well-being.",
-    "onde": "Legal basis information > Legitimate interests > 'Undertaking research and innovation for social good'",
-    "por_que": "Enquadramento de research + social good/bem-estar, com base legal declarada.",
     "file": "instagram/06-policy.md",
-    "role": "unknown"
+    "onde": "Legal basis information > Legitimate interests > 'Undertaking research and innovation for social good'",
+    "role": "unknown",
+    "verbatim": "We carry out surveys and use information (including from researchers that we collaborate with) to conduct and support research and innovation on topics of general social welfare, technological advancement, public interest, health and well-being."
    }
   ],
   "V3": [
    {
     "doc": 1,
-    "verbatim": "Personalising features, content and recommendations , such as your Facebook Feed , Instagram Feed , AI at Meta , Stories and ads (if we show you ads).",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'How do we use your information?' > 'To provide, personalise and improve our Products'",
-    "por_que": "Nomeia superfícies (Feed, Stories, ads) — mas como personalização declarada, não necessariamente como alvo de experimento (V3a vs V3b).",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Personalising features, content and recommendations , such as your Facebook Feed , Instagram Feed , AI at Meta , Stories and ads (if we show you ads)."
    },
    {
     "doc": 1,
-    "verbatim": "Develop and improve products and features\nBuild and test out new products and features to see if they work\nGet feedback on our ideas for products or features\nConduct surveys and other research on what we can do better for Meta Products and brands",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'How we use information to improve Meta Products'",
-    "por_que": "Atividades testadas nomeadas em nível genérico ('products and features'); base para V3a.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Develop and improve products and features\nBuild and test out new products and features to see if they work\nGet feedback on our ideas for products or features\nConduct surveys and other research on what we can do better for Meta Products and brands"
    },
    {
     "doc": 1,
-    "verbatim": "Conduct research and analytics to evaluate the impact of new products and features,",
-    "onde": "Legal basis information > Legitimate interests > 'Improving Meta Products'",
-    "por_que": "Atividade avaliada nomeada, sem especificar alvo (ranking, preço, afeto).",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Legal basis information > Legitimate interests > 'Improving Meta Products'",
+    "role": "unknown",
+    "verbatim": "Conduct research and analytics to evaluate the impact of new products and features,"
    },
    {
     "doc": 4,
-    "verbatim": "This includes analysing the information that we have about our users and understanding how people use our Services, for example, by conducting surveys and testing and troubleshooting new features.",
+    "file": "instagram/04-help-instagram-com.md",
     "onde": "Terms of Use, item 1 > 'Providing and improving Meta Products'",
-    "por_que": "Nomeia 'features' como objeto de teste; suporta V3a.",
-    "file": "instagram/04-help-instagram-com.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "This includes analysing the information that we have about our users and understanding how people use our Services, for example, by conducting surveys and testing and troubleshooting new features."
    },
    {
     "doc": 4,
-    "verbatim": "The details of price, currency and payment period for the subscription for no ads will be provided to you before you complete your purchase.",
-    "onde": "Terms of Use, item 2 'How our service is funded'",
-    "por_que": "Única menção a preço; é divulgação de preço de assinatura, não preço como alvo de experimento — evidência contra v3_pricing=Yes.",
     "file": "instagram/04-help-instagram-com.md",
-    "role": "unknown"
+    "onde": "Terms of Use, item 2 'How our service is funded'",
+    "role": "unknown",
+    "verbatim": "The details of price, currency and payment period for the subscription for no ads will be provided to you before you complete your purchase."
    },
    {
     "doc": 5,
-    "verbatim": "The Instagram Feed AI system automatically orders the posts in your feed by predicting what you will find most valuable and relevant.",
+    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
     "onde": "Instagram Feed AI system > 'How Instagram Feed works'",
-    "por_que": "Ranking nomeado explicitamente como superfície algorítmica; avaliar se conta como alvo de experimento ou mera personalização declarada.",
-    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "The Instagram Feed AI system automatically orders the posts in your feed by predicting what you will find most valuable and relevant."
    },
    {
     "doc": 5,
-    "verbatim": "Finally, the system calculates a relevance score for about 500 posts and puts them in order by this score.",
+    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
     "onde": "Instagram Feed AI system > 'Rank posts by score'",
-    "por_que": "Detalhe operacional de ranking, com números específicos — mais próximo de divulgação de sistema ativo do que de experimento específico.",
-    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Finally, the system calculates a relevance score for about 500 posts and puts them in order by this score."
    },
    {
     "doc": 5,
-    "verbatim": "A lightweight model is run to select approximately 700 of the most relevant posts.",
+    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
     "onde": "Instagram Feed AI system > 'Leverage signals'",
-    "por_que": "Especificidade numérica sobre o sistema em produção; relevante para V3c (divulgação de algo específico/ativo, ainda que não um experimento).",
-    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "A lightweight model is run to select approximately 700 of the most relevant posts."
    },
    {
     "doc": 5,
-    "verbatim": "Whether the carousel was reordered in your Feed",
+    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
     "onde": "Instagram Feed AI system > 'How likely you are to swipe through the whole carousel' > sinais",
-    "por_que": "Sinal que envolve reordenação de conteúdo — borderline entre operação de ranking e manipulação experimental.",
-    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Whether the carousel was reordered in your Feed"
    },
    {
     "doc": 5,
-    "verbatim": "How likely you are to enjoy this post",
+    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
     "onde": "Instagram Feed AI system > predições",
-    "por_que": "Predição sobre reação afetiva do usuário; borderline para alvo de afeto/emoção.",
-    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "How likely you are to enjoy this post"
    },
    {
     "doc": 5,
-    "verbatim": "UPDATED 29 JUN 2026",
-    "onde": "Instagram Feed AI system, cabeçalho",
-    "por_que": "Data/versionamento do documento não-vinculante, relevante para verificação do manifesto (vantage).",
     "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "onde": "Instagram Feed AI system, cabeçalho",
+    "role": "unknown",
+    "verbatim": "UPDATED 29 JUN 2026"
    }
   ],
   "V4": [
    {
     "doc": 1,
-    "verbatim": "We rely on different legal bases to process your information for the purposes described in this Privacy Policy. Depending on the circumstances, we rely on different legal bases when processing your same information for different purposes.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'What is our legal basis for processing your information, and what are your rights?'",
-    "por_que": "Declaração geral de múltiplas bases legais por finalidade.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We rely on different legal bases to process your information for the purposes described in this Privacy Policy. Depending on the circumstances, we rely on different legal bases when processing your same information for different purposes."
    },
    {
     "doc": 1,
-    "verbatim": "Improving Meta Products\nⓘ For registered users of the Meta Products ⓘ For all registered users, including those under the age of majority\nWhy and how we process your information:\nImprove Meta Products by developing new features or updating existing features.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Legal basis information > Legitimate interests > 'Improving Meta Products'",
-    "por_que": "Mapeia a finalidade de melhoria/teste de produto para legítimo interesse — base legal mais próxima da experimentação.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Improving Meta Products\nⓘ For registered users of the Meta Products ⓘ For all registered users, including those under the age of majority\nWhy and how we process your information:\nImprove Meta Products by developing new features or updating existing features."
    },
    {
     "doc": 1,
-    "verbatim": "Providing Meta Products: The provision of the Meta Products includes collecting, storing and, where relevant, sharing, profiling, reviewing and curating, and in some instances not only automated processing, but also manual (human) reviewing, to:",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Legal basis information > Performance of a contract > 'Providing Meta Products'",
-    "por_que": "A cláusula contratual que abriga 'Build and test out new products and features' — mapeamento de contrato para atividade de teste.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Providing Meta Products: The provision of the Meta Products includes collecting, storing and, where relevant, sharing, profiling, reviewing and curating, and in some instances not only automated processing, but also manual (human) reviewing, to:"
    },
    {
     "doc": 1,
-    "verbatim": "In our interest to evaluate the use of Meta Products and adoption of new features to inform the development of future features and improve product direction and development.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Legal basis information > Legitimate interests > 'Improving Meta Products' > 'Legitimate interests relied on'",
-    "por_que": "Interesse legítimo explicitamente declarado para avaliação de novas features.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "In our interest to evaluate the use of Meta Products and adoption of new features to inform the development of future features and improve product direction and development."
    },
    {
     "doc": 1,
-    "verbatim": "We process information as described below when you have given us your consent to do so, which we may ask through in-product experiences, to enable particular features or to enable device-based settings.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Legal basis information > Consent",
-    "por_que": "Consentimento declarado apenas para categorias específicas (dados sensíveis, ads, device settings) — não para experimentação.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We process information as described below when you have given us your consent to do so, which we may ask through in-product experiences, to enable particular features or to enable device-based settings."
    },
    {
     "doc": 1,
-    "verbatim": "Undertaking research for social good: We collect, store, combine, analyse and apply automatic processing techniques, such as aggregation to information, as well as manual (human) review as necessary to undertake research and other tasks in the public interest, such as sharing relevant research data with third parties, for example, international organisations and academics both in and outside the EEA.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Legal basis information > Tasks carried out in the public interest",
-    "por_que": "Base de interesse público declarada para pesquisa — base legal alternativa relevante.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Undertaking research for social good: We collect, store, combine, analyse and apply automatic processing techniques, such as aggregation to information, as well as manual (human) review as necessary to undertake research and other tasks in the public interest, such as sharing relevant research data with third parties, for example, international organisations and academics both in and outside the EEA."
    },
    {
     "doc": 1,
-    "verbatim": "This Policy describes the information that we, Meta Platforms Ireland Limited, process to provide Meta Products , which we also call \"Products\".",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Nota 1 'What Products does this Policy cover?'",
-    "por_que": "Controlador é a entidade irlandesa; indício de que a estrutura de bases legais é do regime UE/GDPR — insumo para v4_region_gated.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "This Policy describes the information that we, Meta Platforms Ireland Limited, process to provide Meta Products , which we also call \"Products\"."
    },
    {
     "doc": 1,
-    "verbatim": "You also can lodge a complaint with Meta Platforms Ireland Limited's lead supervisory authority, the Irish Data Protection Commission or your local supervisory authority.",
-    "onde": "Seção 'Make a complaint'",
-    "por_que": "Confirma enquadramento GDPR/UE do documento, relevante para avaliar se a tabela de bases é específica de região.",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Seção 'Make a complaint'",
+    "role": "unknown",
+    "verbatim": "You also can lodge a complaint with Meta Platforms Ireland Limited's lead supervisory authority, the Irish Data Protection Commission or your local supervisory authority."
    },
    {
     "doc": 6,
-    "verbatim": "Under applicable data protection law, companies must have a legal basis to process personal data. When we talk about \"processing personal data\", we mean the ways we collect, use and share your information, as we described in the other sections of this Policy above.",
+    "file": "instagram/06-policy.md",
     "onde": "Seção 'What is our legal basis for processing your information, and what are your rights?' > Highlights",
-    "por_que": "Versão vigente de 23/07/2026 mantém a mesma arquitetura de bases legais.",
-    "file": "instagram/06-policy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Under applicable data protection law, companies must have a legal basis to process personal data. When we talk about \"processing personal data\", we mean the ways we collect, use and share your information, as we described in the other sections of this Policy above."
    },
    {
     "doc": 6,
-    "verbatim": "Effective from 23 July 2026 | View printable version | See previous versions",
-    "onde": "Cabeçalho da Privacy Policy no Privacy Centre do Instagram",
-    "por_que": "Data de vigência divergente da versão impressa do doc 1 — registrar para checagem de manifesto/vantage.",
     "file": "instagram/06-policy.md",
-    "role": "unknown"
+    "onde": "Cabeçalho da Privacy Policy no Privacy Centre do Instagram",
+    "role": "unknown",
+    "verbatim": "Effective from 23 July 2026 | View printable version | See previous versions"
    }
   ],
   "V5": [
    {
     "doc": 1,
-    "verbatim": "You can object to our processing of your information when we rely on legitimate interests or perform a task in the public interest. We will consider several factors when assessing an objection, including:",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'Object'",
-    "por_que": "Direito genérico de objeção do Art. 21, sem controle específico de experimentação — ancora o nível 'GDPR-objection-only'.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "You can object to our processing of your information when we rely on legitimate interests or perform a task in the public interest. We will consider several factors when assessing an objection, including:"
    },
    {
     "doc": 1,
-    "verbatim": "When we process your information as necessary to pursue our legitimate interests or those of a third party, you have the right to object to, and seek restriction of, such processing; to exercise your right, visit the Facebook settings and the Help Centre and Instagram settings .",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Legal basis information > final da seção 'Legitimate interests'",
-    "por_que": "Objeção aplicável à base que cobre 'Improving Meta Products' — o caminho mais próximo de um opt-out de experimentação.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "When we process your information as necessary to pursue our legitimate interests or those of a third party, you have the right to object to, and seek restriction of, such processing; to exercise your right, visit the Facebook settings and the Help Centre and Instagram settings ."
    },
    {
     "doc": 1,
-    "verbatim": "You can withdraw consent at any time in Ad preferences .",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'What is our legal basis...' > Consent",
-    "por_que": "Controle existente governa ads, não experimentação — falso positivo clássico a excluir.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "You can withdraw consent at any time in Ad preferences ."
    },
    {
     "doc": 1,
-    "verbatim": "You can adjust your Cookie settings to control how we use certain information from partners to provide and personalise content and ads for you.",
-    "onde": "Seção 'Information from partners, vendors and other third parties'",
-    "por_que": "Controle de cookies restrito a conteúdo/ads; não é opt-out de experimento.",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Seção 'Information from partners, vendors and other third parties'",
+    "role": "unknown",
+    "verbatim": "You can adjust your Cookie settings to control how we use certain information from partners to provide and personalise content and ads for you."
    },
    {
     "doc": 2,
-    "verbatim": "We use cookies to help personalise and improve content and services, provide a safer experience and to show you useful and relevant ads on and off Meta Products. You can control how we use data to show you ads and more by using the tools described below.",
-    "onde": "Cookies Policy > 'How can you control your information?'",
-    "por_que": "Controles disponíveis são de ads/cookies — evidência para o nível 'cookie/ads-only' e não 'dedicated'.",
     "file": "instagram/02-cookies.md",
-    "role": "unknown"
+    "onde": "Cookies Policy > 'How can you control your information?'",
+    "role": "unknown",
+    "verbatim": "We use cookies to help personalise and improve content and services, provide a safer experience and to show you useful and relevant ads on and off Meta Products. You can control how we use data to show you ads and more by using the tools described below."
    },
    {
     "doc": 3,
-    "verbatim": "In your Ad preferences , you can choose whether we show you ads on Meta products and make choices about the information we use to show you ads.",
-    "onde": "Cookies Policy > 'How can you control your information?' > 'If you have an Instagram account'",
-    "por_que": "Escopo do controle é publicitário, não experimental.",
     "file": "instagram/03-cookies-printable.md",
-    "role": "unknown"
+    "onde": "Cookies Policy > 'How can you control your information?' > 'If you have an Instagram account'",
+    "role": "unknown",
+    "verbatim": "In your Ad preferences , you can choose whether we show you ads on Meta products and make choices about the information we use to show you ads."
    },
    {
     "doc": 5,
-    "verbatim": "Your experience on Instagram Feed is personalised based on your activity, and you have options to control or customise what you see.",
+    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
     "onde": "Instagram Feed AI system > 'How to customise what you see'",
-    "por_que": "Controles de personalização de feed (mute, hide, favourites) — não constituem opt-out de experimentação; avaliar como falso positivo.",
-    "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Your experience on Instagram Feed is personalised based on your activity, and you have options to control or customise what you see."
    },
    {
     "doc": 5,
-    "verbatim": "To see content from accounts that you follow in reverse chronological order, click \"Following\" on the home screen. Learn more .",
-    "onde": "Instagram Feed AI system > 'See newest content first'",
-    "por_que": "Opção de sair do ranking algorítmico; borderline, mas governa exibição, não participação em experimentos.",
     "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "onde": "Instagram Feed AI system > 'See newest content first'",
+    "role": "unknown",
+    "verbatim": "To see content from accounts that you follow in reverse chronological order, click \"Following\" on the home screen. Learn more ."
    },
    {
     "doc": 6,
-    "verbatim": "When we process your information as necessary to pursue our legitimate interests or those of a third party, you have the right to object to, and seek restriction of, such processing; to exercise your right, visit the Facebook settings and the Help Centre and Instagram settings .",
-    "onde": "Legal basis information > fim da seção 'Legitimate interests'",
-    "por_que": "Confirma que o único mecanismo aplicável permanece a objeção genérica do GDPR.",
     "file": "instagram/06-policy.md",
-    "role": "unknown"
+    "onde": "Legal basis information > fim da seção 'Legitimate interests'",
+    "role": "unknown",
+    "verbatim": "When we process your information as necessary to pursue our legitimate interests or those of a third party, you have the right to object to, and seek restriction of, such processing; to exercise your right, visit the Facebook settings and the Help Centre and Instagram settings ."
    }
   ],
   "V6": [
    {
     "doc": 1,
-    "verbatim": "Engage with research survey respondents who choose to participate in additional conversations",
-    "onde": "Nota 22 'Third-party public sources'",
-    "por_que": "Única menção a participação voluntária; é pesquisa por survey, não canal beta de acesso antecipado — provável No.",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Nota 22 'Third-party public sources'",
+    "role": "unknown",
+    "verbatim": "Engage with research survey respondents who choose to participate in additional conversations"
    },
    {
     "doc": 1,
-    "verbatim": "Conduct surveys and other research on what we can do better for Meta Products and brands",
-    "onde": "Seção 'How we use information to improve Meta Products'",
-    "por_que": "Surveys não constituem programa de opt-in beta; evidência da ausência do mecanismo.",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Seção 'How we use information to improve Meta Products'",
+    "role": "unknown",
+    "verbatim": "Conduct surveys and other research on what we can do better for Meta Products and brands"
    },
    {
     "doc": 4,
-    "verbatim": "You agree that we can download and install updates to the Service on your device.",
-    "onde": "Terms of Use, item 4.3 'Permissions you give to us'",
-    "por_que": "Atualizações são impostas, não opcionais via canal beta — reforça ausência de programa opt-in de teste.",
     "file": "instagram/04-help-instagram-com.md",
-    "role": "unknown"
+    "onde": "Terms of Use, item 4.3 'Permissions you give to us'",
+    "role": "unknown",
+    "verbatim": "You agree that we can download and install updates to the Service on your device."
    }
   ],
   "V7": [
    {
     "doc": 1,
-    "verbatim": "We'll notify you before we make material changes to this Policy. You'll have the opportunity to review the revised Policy before you choose to continue using our products.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'How will you know that the Policy has changed?'",
-    "por_que": "Aviso de mudança de política — explicitamente excluído como debriefing pelo codebook; falso positivo a registrar.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We'll notify you before we make material changes to this Policy. You'll have the opportunity to review the revised Policy before you choose to continue using our products."
    },
    {
     "doc": 1,
-    "verbatim": "We communicate with you using information you've given us, such as contact information you've entered on your profile.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'To communicate with you'",
-    "por_que": "Comunicação declarada é sobre produtos, pesquisa e termos — sem menção a informar participação em experimento.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We communicate with you using information you've given us, such as contact information you've entered on your profile."
    },
    {
     "doc": 1,
-    "verbatim": "We ask you to participate in research based on things such as how you use our Products",
-    "onde": "Seção 'Communicating with you'",
-    "por_que": "Convite prévio para pesquisa, não aviso posterior de participação — distingue de debriefing.",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Seção 'Communicating with you'",
+    "role": "unknown",
+    "verbatim": "We ask you to participate in research based on things such as how you use our Products"
    },
    {
     "doc": 4,
-    "verbatim": "We may need to send you communications, such as emails or in-product notices, to respond to you or inform you about any product-related issues, research or our terms and policies.",
+    "file": "instagram/04-help-instagram-com.md",
     "onde": "Terms of Use, item 1 > 'Communicating with you'",
-    "por_que": "Menciona comunicação sobre 'research', mas sem indicar notificação de participação em experimento — núcleo da decisão Yes/No.",
-    "file": "instagram/04-help-instagram-com.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We may need to send you communications, such as emails or in-product notices, to respond to you or inform you about any product-related issues, research or our terms and policies."
    },
    {
     "doc": 4,
-    "verbatim": "Unless otherwise required by law, we will notify you (for example, through our Service) at least 30 days before we make changes to these Terms and give you an opportunity to review them before they go into effect.",
-    "onde": "Terms of Use, item 8 'Updating these Terms'",
-    "por_que": "Aviso de mudança de serviço/termos — excluído explicitamente como debriefing.",
     "file": "instagram/04-help-instagram-com.md",
-    "role": "unknown"
+    "onde": "Terms of Use, item 8 'Updating these Terms'",
+    "role": "unknown",
+    "verbatim": "Unless otherwise required by law, we will notify you (for example, through our Service) at least 30 days before we make changes to these Terms and give you an opportunity to review them before they go into effect."
    },
    {
     "doc": 5,
-    "verbatim": "The content that you see on your Instagram Feed is selected, ranked and delivered to you by an artificial intelligence (AI) system.",
-    "onde": "Instagram Feed AI system, abertura",
-    "por_que": "Aviso de processamento algorítmico — excluído como debriefing pelo codebook.",
     "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "onde": "Instagram Feed AI system, abertura",
+    "role": "unknown",
+    "verbatim": "The content that you see on your Instagram Feed is selected, ranked and delivered to you by an artificial intelligence (AI) system."
    }
   ],
   "V8": [
    {
     "doc": 1,
-    "verbatim": "When sharing information with external researchers, we ensure that the privacy of our users is protected. Learn more about the privacy-safe research that we support.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'How do we share information with third parties?' > 'External researchers'",
-    "por_que": "Salvaguarda de privacidade em pesquisa, mas sem comitê ético, revisão ou avaliação de risco de experimento — borderline a codificar como No com nota.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "When sharing information with external researchers, we ensure that the privacy of our users is protected. Learn more about the privacy-safe research that we support."
    },
    {
     "doc": 1,
-    "verbatim": "In some cases, the decisions we make about violations are reviewed by the Oversight Board . They may use the information we have when they review our decisions.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'Promoting safety, security and integrity'",
-    "por_que": "Existe um board, mas seu escopo é moderação de conteúdo, não revisão ética de experimentos — falso positivo a distinguir.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "In some cases, the decisions we make about violations are reviewed by the Oversight Board . They may use the information we have when they review our decisions."
    },
    {
     "doc": 1,
-    "verbatim": "We will consider several factors when assessing an objection, including:\nOur users' reasonable expectations\nThe benefits and risks to you, us, other users or third parties [62]",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Seção 'Object'",
-    "por_que": "Linguagem de 'benefits and risks' atada à avaliação de objeção, não a experimentos — exatamente o borderline de 'impacto' previsto no critério.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We will consider several factors when assessing an objection, including:\nOur users' reasonable expectations\nThe benefits and risks to you, us, other users or third parties [62]"
    },
    {
     "doc": 1,
-    "verbatim": "In our interest, and in the interests of users and third parties, to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Legal basis information > Legitimate interests > 'Developing and improving AI at Meta'",
-    "por_que": "Menção genérica a 'appropriate safeguards' sem estrutura de revisão ética ou avaliação de risco de experimento.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "In our interest, and in the interests of users and third parties, to develop and improve artificial intelligence technology while ensuring appropriate safeguards, such as improving model responses for safety and accuracy."
    },
    {
     "doc": 1,
-    "verbatim": "If you are under the age of majority in your country and there is no enforceable contract in place, we will take particular account of the fact that you are below the age of majority when conducting our assessment of our legitimate interests and the balancing of your interests and rights.",
+    "file": "instagram/01-policy-printable-version.md",
     "onde": "Legal basis information > fim da seção 'Legitimate interests'",
-    "por_que": "Teste de balanceamento de interesse legítimo é a coisa mais próxima de avaliação de risco no documento, mas não é revisão ética de experimento.",
-    "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "If you are under the age of majority in your country and there is no enforceable contract in place, we will take particular account of the fact that you are below the age of majority when conducting our assessment of our legitimate interests and the balancing of your interests and rights."
    },
    {
     "doc": 1,
-    "verbatim": "We require every reviewer who's allowed access to your information to meet privacy and security standards.",
-    "onde": "Nota 28 'Manual review' > 'Who reviews this information'",
-    "por_que": "Padrões de privacidade para revisores, não revisão ética de pesquisa.",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Nota 28 'Manual review' > 'Who reviews this information'",
+    "role": "unknown",
+    "verbatim": "We require every reviewer who's allowed access to your information to meet privacy and security standards."
    },
    {
     "doc": 5,
-    "verbatim": "The system also applies certain integrity processes to help reduce the distribution of problematic content.",
-    "onde": "Instagram Feed AI system > 'Leverage signals'",
-    "por_que": "'Integrity processes' é mitigação de conteúdo, não avaliação de risco de experimento — borderline a registrar como No.",
     "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "onde": "Instagram Feed AI system > 'Leverage signals'",
+    "role": "unknown",
+    "verbatim": "The system also applies certain integrity processes to help reduce the distribution of problematic content."
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "This Privacy Policy explains how we collect, use and share your information. It also describes how long we keep your information for and how we keep it safe when we transfer it.",
-    "onde": "Seção 'What is the Privacy Policy and what does it cover?' > Highlights",
-    "por_que": "Localiza a divulgação na Privacy Policy (registro vinculante).",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Seção 'What is the Privacy Policy and what does it cover?' > Highlights",
+    "role": "unknown",
+    "verbatim": "This Privacy Policy explains how we collect, use and share your information. It also describes how long we keep your information for and how we keep it safe when we transfer it."
    },
    {
     "doc": 1,
-    "verbatim": "This Policy describes the information that we, Meta Platforms Ireland Limited, process to provide Meta Products , which we also call \"Products\".",
-    "onde": "Nota 1",
-    "por_que": "Documento se declara o instrumento de processamento do controlador — indício de função legal vinculante.",
     "file": "instagram/01-policy-printable-version.md",
-    "role": "unknown"
+    "onde": "Nota 1",
+    "role": "unknown",
+    "verbatim": "This Policy describes the information that we, Meta Platforms Ireland Limited, process to provide Meta Products , which we also call \"Products\"."
    },
    {
     "doc": 4,
-    "verbatim": "These Terms of Use (or \"Terms\") govern your access and use of Instagram, except where we expressly state that separate terms (and not these) apply and provide information about the Instagram Service (the \"Service\"), outlined below.",
-    "onde": "Terms of Use, abertura",
-    "por_que": "Auto-declaração de que o documento governa o uso — teste de vinculação do codebook (ToS/conditions, binding).",
     "file": "instagram/04-help-instagram-com.md",
-    "role": "unknown"
-   },
-   {
-    "doc": 4,
-    "verbatim": "The Instagram Service is one of the Meta Products , which is provided by Meta Platforms Ireland Limited. These Terms of Use therefore constitute an agreement between you and Meta Platforms Ireland Limited.",
     "onde": "Terms of Use, abertura",
-    "por_que": "Declaração explícita de que o documento é um acordo — confirma registro vinculante.",
-    "file": "instagram/04-help-instagram-com.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "These Terms of Use (or \"Terms\") govern your access and use of Instagram, except where we expressly state that separate terms (and not these) apply and provide information about the Instagram Service (the \"Service\"), outlined below."
    },
    {
     "doc": 4,
-    "verbatim": "Terms of Use | Instagram Help Centre",
+    "file": "instagram/04-help-instagram-com.md",
+    "onde": "Terms of Use, abertura",
+    "role": "unknown",
+    "verbatim": "The Instagram Service is one of the Meta Products , which is provided by Meta Platforms Ireland Limited. These Terms of Use therefore constitute an agreement between you and Meta Platforms Ireland Limited."
+   },
+   {
+    "doc": 4,
+    "file": "instagram/04-help-instagram-com.md",
     "onde": "Título da página",
-    "por_que": "Hospedado no Help Centre, mas vinculante por função — exemplo direto da regra 'registro ≠ hospedagem'.",
-    "file": "instagram/04-help-instagram-com.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Terms of Use | Instagram Help Centre"
    },
    {
     "doc": 4,
-    "verbatim": "Please see our recommender systems' system cards for information on how our various recommender systems prioritise signals to determine which content and suggestions to show you, as well as options for customising your experience.",
-    "onde": "Terms of Use, item 1 > 'Offering personalised opportunities...'",
-    "por_que": "O documento vinculante remete ao microsite de transparência (doc 5), ligando os dois registros.",
     "file": "instagram/04-help-instagram-com.md",
-    "role": "unknown"
+    "onde": "Terms of Use, item 1 > 'Offering personalised opportunities...'",
+    "role": "unknown",
+    "verbatim": "Please see our recommender systems' system cards for information on how our various recommender systems prioritise signals to determine which content and suggestions to show you, as well as options for customising your experience."
    },
    {
     "doc": 5,
-    "verbatim": "Transparency Centre\nPolicies\nEnforcement\nSecurity\nFeatures\nGovernance\nResearch tools\nReports",
-    "onde": "Instagram Feed AI system, navegação do site",
-    "por_que": "Microsite institucional de transparência — registro não-vinculante, análogo ao 'How Search Works' do Google.",
     "file": "instagram/05-features-explaining-ranking-ig-feed.md",
-    "role": "unknown"
+    "onde": "Instagram Feed AI system, navegação do site",
+    "role": "unknown",
+    "verbatim": "Transparency Centre\nPolicies\nEnforcement\nSecurity\nFeatures\nGovernance\nResearch tools\nReports"
    },
    {
     "doc": 2,
-    "verbatim": "Except as otherwise stated in this policy, the Privacy Policy will apply to our processing of the data that we collect via cookies.",
-    "onde": "Cookies Policy > 'What are cookies and what does this policy cover?'",
-    "por_que": "Cookies Policy se posiciona como anexo da Privacy Policy — registro vinculante, local adicional de divulgação.",
     "file": "instagram/02-cookies.md",
-    "role": "unknown"
+    "onde": "Cookies Policy > 'What are cookies and what does this policy cover?'",
+    "role": "unknown",
+    "verbatim": "Except as otherwise stated in this policy, the Privacy Policy will apply to our processing of the data that we collect via cookies."
    },
    {
     "doc": 3,
-    "verbatim": "Effective from 12 December 2023",
-    "onde": "Cookies Policy printable > cabeçalho",
-    "por_que": "Data de vigência para verificação do manifesto e do local de divulgação.",
     "file": "instagram/03-cookies-printable.md",
-    "role": "unknown"
+    "onde": "Cookies Policy printable > cabeçalho",
+    "role": "unknown",
+    "verbatim": "Effective from 12 December 2023"
    },
    {
     "doc": 6,
-    "verbatim": "Privacy Centre\nPrivacy Centre home\nSearch\nPrivacy topics\nMore privacy resources\nPrivacy Policy",
-    "onde": "Navegação do Privacy Centre do Instagram",
-    "por_que": "Mesmo conteúdo vinculante hospedado em hub de privacidade — múltiplos locais de divulgação para a multi-seleção de v9_where.",
     "file": "instagram/06-policy.md",
-    "role": "unknown"
+    "onde": "Navegação do Privacy Centre do Instagram",
+    "role": "unknown",
+    "verbatim": "Privacy Centre\nPrivacy Centre home\nSearch\nPrivacy topics\nMore privacy resources\nPrivacy Policy"
    }
   ]
  },
@@ -634,5 +559,6 @@
  "uso": {
   "input": 103587,
   "output": 10043
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

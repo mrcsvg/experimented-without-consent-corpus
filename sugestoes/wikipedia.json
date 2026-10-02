@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Wikipedia",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -10,443 +10,390 @@
   "V1": [
    {
     "doc": 1,
-    "verbatim": "optimize mobile applications, customize content and set language preferences, test features to see what works, and improve performance",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"Information We Receive Automatically\", parágrafo que começa com \"Put simply, we use this information to enhance your experience\"",
-    "por_que": "Menção a \"test features to see what works\" sem indicar grupos, variantes ou aleatorização — é o material típico de fronteira 2 vs 3 no registro vinculante.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "optimize mobile applications, customize content and set language preferences, test features to see what works, and improve performance"
    },
    {
     "doc": 1,
-    "verbatim": "To test features to see what works, understand how users interact with the Wikimedia Sites, track and study use of various features, gain understanding about the demographics of the different Wikimedia Sites and analyze trends.",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"How We Use Information We Receive From You\" > bullet \"Improving the Wikimedia Sites and making your user experience safer and better\"",
-    "por_que": "Repete o reconhecimento de testar usuários no corpo vinculante da política, novamente sem nomear método experimental.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "To test features to see what works, understand how users interact with the Wikimedia Sites, track and study use of various features, gain understanding about the demographics of the different Wikimedia Sites and analyze trends."
    },
    {
     "doc": 1,
-    "verbatim": "To Understand & Experiment",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Título de subseção em \"When May We Share Your Information?\" (Sharing)",
-    "por_que": "Uso da palavra \"Experiment\" como cabeçalho de seção no registro vinculante; o avaliador precisa julgar se o sentido é experimental ou de compartilhamento para pesquisa.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "To Understand & Experiment"
    },
    {
     "doc": 1,
-    "verbatim": "We give volunteer developers and researchers access to systems that contain your Personal Information to allow them to protect, develop, and contribute to the Wikimedia Sites.",
-    "onde": "Seção \"To Understand & Experiment\", resumo em destaque",
-    "por_que": "Esclarece o conteúdo da seção \"Experiment\": acesso de pesquisadores/desenvolvedores, não descrição de teste A/B.",
     "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "onde": "Seção \"To Understand & Experiment\", resumo em destaque",
+    "role": "binding",
+    "verbatim": "We give volunteer developers and researchers access to systems that contain your Personal Information to allow them to protect, develop, and contribute to the Wikimedia Sites."
    },
    {
     "doc": 3,
-    "verbatim": "Helps us count the number of site visitors, run A/B tests, and mitigate DDoS attacks.",
-    "onde": "Tabela de cookies, categoria \"Performance and Analysis\", linha do cookie WMF-Uniq",
-    "por_que": "Menção explícita a \"A/B tests\" em documento de política aprovado pelo Board — sustenta teto 3 e é decisivo para v1_register.",
     "file": "wikipedia/03-wiki-policy-cookie-statement.md",
-    "role": "unknown"
+    "onde": "Tabela de cookies, categoria \"Performance and Analysis\", linha do cookie WMF-Uniq",
+    "role": "unknown",
+    "verbatim": "Helps us count the number of site visitors, run A/B tests, and mitigate DDoS attacks."
    },
    {
     "doc": 5,
-    "verbatim": "In the Wikimedia platform, the impact of many new features are tested using controlled experiments.",
+    "file": "wikipedia/05-wiki-a-b-testing.md",
     "onde": "Primeira linha do corpo da página A/B testing (Wikitech)",
-    "por_que": "Nomeia experimentos controlados explicitamente, em registro não-vinculante.",
-    "file": "wikipedia/05-wiki-a-b-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "In the Wikimedia platform, the impact of many new features are tested using controlled experiments."
    },
    {
     "doc": 5,
-    "verbatim": "The most common way to bucket editors for A/B tests has been on their user ID.",
-    "onde": "Seção \"Bucketing\"",
-    "por_que": "Descreve alocação de usuários em buckets (variantes) — nível 3 inequívoco, registro não-vinculante.",
     "file": "wikipedia/05-wiki-a-b-testing.md",
-    "role": "non-binding"
+    "onde": "Seção \"Bucketing\"",
+    "role": "non-binding",
+    "verbatim": "The most common way to bucket editors for A/B tests has been on their user ID."
    },
    {
     "doc": 6,
-    "verbatim": "The Wikimedia Foundation has been testing new ways of making human knowledge even more accessible. Known as experiments, these short, time-bound projects help us better understand how Wikipedia can reach new audiences, respond to global trends, and meet the evolving needs of internet users.",
-    "onde": "Página \"Wikipedia experiments\", parágrafo introdutório",
-    "por_que": "Uso institucional do termo \"experiments\" em site não-vinculante; o avaliador deve decidir se é sentido experimental ou de \"projeto piloto de produto\".",
     "file": "wikipedia/06-wikipedia-experiments.md",
-    "role": "non-binding"
+    "onde": "Página \"Wikipedia experiments\", parágrafo introdutório",
+    "role": "non-binding",
+    "verbatim": "The Wikimedia Foundation has been testing new ways of making human knowledge even more accessible. Known as experiments, these short, time-bound projects help us better understand how Wikipedia can reach new audiences, respond to global trends, and meet the evolving needs of internet users."
    }
   ],
   "V2": [
    {
     "doc": 1,
-    "verbatim": "We and our service providers use your information for the legitimate purpose of pursuing our charitable mission, including:",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"How We Use Information We Receive From You\" > \"General\"",
-    "por_que": "Enquadramento de missão caritativa/bem público envolvendo todos os usos, inclusive os de teste listados adiante.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We and our service providers use your information for the legitimate purpose of pursuing our charitable mission, including:"
    },
    {
     "doc": 1,
-    "verbatim": "We use this information to make your experience with the Wikimedia Sites safer and better, to gain a greater understanding of user preferences and their interaction with the Wikimedia Sites, and to generally improve our services.",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"Information We Collect\" (cookies e tecnologias)",
-    "por_que": "Enquadramento clássico de service improvement.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We use this information to make your experience with the Wikimedia Sites safer and better, to gain a greater understanding of user preferences and their interaction with the Wikimedia Sites, and to generally improve our services."
    },
    {
     "doc": 1,
-    "verbatim": "Similarly, we share non-Personal Information or aggregated information with researchers, scholars, academics, and other interested third parties who wish to study the Wikimedia Sites.",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"To Understand & Experiment\"",
-    "por_que": "Enquadramento de pesquisa acadêmica explícito.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Similarly, we share non-Personal Information or aggregated information with researchers, scholars, academics, and other interested third parties who wish to study the Wikimedia Sites."
    },
    {
     "doc": 1,
-    "verbatim": "As part of our commitment to education and research around the world, we occasionally release public information and aggregated or non-personal information to the general public through data dumps and data sets.",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Resumo (\"Be aware\") no topo da Privacy Policy",
-    "por_que": "Liga a coleta a compromisso de educação e pesquisa — co-ocorrência research + bem público.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "As part of our commitment to education and research around the world, we occasionally release public information and aggregated or non-personal information to the general public through data dumps and data sets."
    },
    {
     "doc": 1,
-    "verbatim": "We cannot work collectively without gathering, sharing, and analyzing information about our users as we seek new ways to make the Wikimedia Sites more usable, safer, and more beneficial.",
-    "onde": "Introdução, \"Welcome!\"",
-    "por_que": "Justificativa comunitária/coletiva para análise de usuários — candidata a social-good/community.",
     "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "onde": "Introdução, \"Welcome!\"",
+    "role": "binding",
+    "verbatim": "We cannot work collectively without gathering, sharing, and analyzing information about our users as we seek new ways to make the Wikimedia Sites more usable, safer, and more beneficial."
    },
    {
     "doc": 5,
-    "verbatim": "This generally applies for any study that might affect our users. An experiment, a survey, or a large-scale interview study, etc.",
-    "onde": "Seção \"A/B testing on wiki\" (Wikitech)",
-    "por_que": "Trata experimentos como estudos com usuários, o que aproxima de human-subjects research — porém em registro não-vinculante.",
     "file": "wikipedia/05-wiki-a-b-testing.md",
-    "role": "non-binding"
+    "onde": "Seção \"A/B testing on wiki\" (Wikitech)",
+    "role": "non-binding",
+    "verbatim": "This generally applies for any study that might affect our users. An experiment, a survey, or a large-scale interview study, etc."
    },
    {
     "doc": 6,
-    "verbatim": "Give our experiments a go!",
-    "onde": "Página \"Wikipedia experiments\", chamada abaixo do título",
-    "por_que": "Enquadramento de engajamento/acesso ao conhecimento, não de pesquisa formal.",
     "file": "wikipedia/06-wikipedia-experiments.md",
-    "role": "non-binding"
+    "onde": "Página \"Wikipedia experiments\", chamada abaixo do título",
+    "role": "non-binding",
+    "verbatim": "Give our experiments a go!"
    }
   ],
   "V3": [
    {
     "doc": 1,
-    "verbatim": "To test features to see what works, understand how users interact with the Wikimedia Sites, track and study use of various features, gain understanding about the demographics of the different Wikimedia Sites and analyze trends.",
-    "onde": "Seção \"How We Use Information We Receive From You\" > bullet de melhoria",
-    "por_que": "Nomeia a superfície testada de forma genérica (\"features\") — base para V3a.",
     "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "onde": "Seção \"How We Use Information We Receive From You\" > bullet de melhoria",
+    "role": "binding",
+    "verbatim": "To test features to see what works, understand how users interact with the Wikimedia Sites, track and study use of various features, gain understanding about the demographics of the different Wikimedia Sites and analyze trends."
    },
    {
     "doc": 3,
-    "verbatim": "Helps us count the number of site visitors, run A/B tests, and mitigate DDoS attacks.",
+    "file": "wikipedia/03-wiki-policy-cookie-statement.md",
     "onde": "Tabela de cookies, linha WMF-Uniq (Performance and Analysis)",
-    "por_que": "Liga um cookie nomeado à execução de testes A/B: atividade e mecanismo identificados, mas sem experimento concreto.",
-    "file": "wikipedia/03-wiki-policy-cookie-statement.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Helps us count the number of site visitors, run A/B tests, and mitigate DDoS attacks."
    },
    {
     "doc": 3,
-    "verbatim": "Stores user preferences for client-side settings, such as font size, dark mode, and width (wide or standard). This cookie ensures a customized browsing experience for anonymous users. For more details, see the decision record .",
-    "onde": "Tabela de cookies, linha mwclientpreferences (Preferences)",
-    "por_que": "Personalização de interface declarada como preferência do usuário — útil para distinguir personalização de alvo de experimento.",
     "file": "wikipedia/03-wiki-policy-cookie-statement.md",
-    "role": "unknown"
+    "onde": "Tabela de cookies, linha mwclientpreferences (Preferences)",
+    "role": "unknown",
+    "verbatim": "Stores user preferences for client-side settings, such as font size, dark mode, and width (wide or standard). This cookie ensures a customized browsing experience for anonymous users. For more details, see the decision record ."
    },
    {
     "doc": 4,
-    "verbatim": "Beginning in 2025, an improved system using hCaptcha services began rolling out on Wikimedia Sites. The FancyCaptcha system challenged all users, whereas the new system only challenges users that are likely bots.",
-    "onde": "FAQ, pergunta \"Does the Wikimedia Foundation use a CAPTCHA on its sites?\"",
-    "por_que": "Mudança específica e datada em fricção de conta/edição; o avaliador decide se é rollout ou experimento específico (V3c).",
     "file": "wikipedia/04-wiki-policy-privacy-policy-frequently-asked-question.md",
-    "role": "unknown"
+    "onde": "FAQ, pergunta \"Does the Wikimedia Foundation use a CAPTCHA on its sites?\"",
+    "role": "unknown",
+    "verbatim": "Beginning in 2025, an improved system using hCaptcha services began rolling out on Wikimedia Sites. The FancyCaptcha system challenged all users, whereas the new system only challenges users that are likely bots."
    },
    {
     "doc": 5,
-    "verbatim": "Some Wikimedia A/B tests are hard-coded, such as A/B testing used for the skin Vector 2022.",
+    "file": "wikipedia/05-wiki-a-b-testing.md",
     "onde": "Seção \"Software\" (Wikitech)",
-    "por_que": "Experimento específico nomeado (skin Vector 2022) — mas em registro não-vinculante.",
-    "file": "wikipedia/05-wiki-a-b-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Some Wikimedia A/B tests are hard-coded, such as A/B testing used for the skin Vector 2022."
    },
    {
     "doc": 5,
-    "verbatim": "The \"bucket\" field is the standard for recording buckets in EventLogging data.",
-    "onde": "Seção \"Infrastructure\" (Wikitech)",
-    "por_que": "Detalha infraestrutura de alocação de variantes; evidência de especificidade técnica fora dos documentos ao usuário.",
     "file": "wikipedia/05-wiki-a-b-testing.md",
-    "role": "non-binding"
+    "onde": "Seção \"Infrastructure\" (Wikitech)",
+    "role": "non-binding",
+    "verbatim": "The \"bucket\" field is the standard for recording buckets in EventLogging data."
    },
    {
     "doc": 6,
-    "verbatim": "Short social content\nDiscover something new where AI-assisted videos and Wikipedia meet.\nPlatform: TikTok, Instagram Reels, Facebook Reels, and YouTube Shorts\nLanguage: English",
-    "onde": "Página \"Wikipedia experiments\", cartão de experimento ativo",
-    "por_que": "Lista de experimentos ativos nomeados com plataforma e idioma — candidato forte a V3c em registro não-vinculante.",
     "file": "wikipedia/06-wikipedia-experiments.md",
-    "role": "non-binding"
+    "onde": "Página \"Wikipedia experiments\", cartão de experimento ativo",
+    "role": "non-binding",
+    "verbatim": "Short social content\nDiscover something new where AI-assisted videos and Wikipedia meet.\nPlatform: TikTok, Instagram Reels, Facebook Reels, and YouTube Shorts\nLanguage: English"
    }
   ],
   "V4": [
    {
     "doc": 1,
-    "verbatim": "We and our service providers use your information for the legitimate purpose of pursuing our charitable mission, including:",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"How We Use Information We Receive From You\" > \"General\", frase de abertura",
-    "por_que": "Declara \"legitimate purpose\" como guarda-chuva de todas as finalidades listadas, entre elas o teste de features.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We and our service providers use your information for the legitimate purpose of pursuing our charitable mission, including:"
    },
    {
     "doc": 1,
-    "verbatim": "We engage in these activities to further our legitimate interest and/or to comply with our legal obligations.",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Final do bullet \"Improving the Wikimedia Sites and making your user experience safer and better\"",
-    "por_que": "É a base legal declarada exatamente no bullet que contém \"To test features to see what works\" — mapeamento direto finalidade→base.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We engage in these activities to further our legitimate interest and/or to comply with our legal obligations."
    },
    {
     "doc": 1,
-    "verbatim": "We will customize the Services, in some instances, with your consent; or in keeping with our legitimate interest.",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Bullet \"Providing customized Services\"",
-    "por_que": "Mostra consentimento como base alternativa para customização, não para testes.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We will customize the Services, in some instances, with your consent; or in keeping with our legitimate interest."
    },
    {
     "doc": 1,
-    "verbatim": "If you consent, we can use GPS (and other technologies commonly used to determine location) to show you more relevant content.",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"GPS & Other Location Technologies\"",
-    "por_que": "Único uso de consentimento explícito para coleta ativa; não cobre experimentação.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "If you consent, we can use GPS (and other technologies commonly used to determine location) to show you more relevant content."
    },
    {
     "doc": 1,
-    "verbatim": "We will never use third-party cookies, unless we get your permission to do so.",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"Information We Collect\"",
-    "por_que": "Consentimento restrito a cookies de terceiros; os cookies próprios que rodam testes A/B não são condicionados a consentimento.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We will never use third-party cookies, unless we get your permission to do so."
    },
    {
     "doc": 1,
-    "verbatim": "If you are located in the European Economic Area and have questions about your personal data or would like to request to access, update, or delete it, you may contact our representative via email at EUrepresentative.Wikimedia@twobirds.com",
-    "onde": "Seção \"Contact Us\"",
-    "por_que": "Única diferenciação regional visível; não há tabela de bases legais por finalidade condicionada a IP/locale — relevante para v4_region_gated.",
     "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "onde": "Seção \"Contact Us\"",
+    "role": "binding",
+    "verbatim": "If you are located in the European Economic Area and have questions about your personal data or would like to request to access, update, or delete it, you may contact our representative via email at EUrepresentative.Wikimedia@twobirds.com"
    }
   ],
   "V5": [
    {
     "doc": 1,
-    "verbatim": "We believe this data collection helps improve your user experience, but you may remove or disable some or all locally stored data through your browser settings, depending on your browser.",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"Information We Collect\" > \"More on Locally Stored Data\"",
-    "por_que": "Único controle oferecido que alcança o cookie usado para A/B tests; é controle de dados locais, não opt-out de experimentação.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We believe this data collection helps improve your user experience, but you may remove or disable some or all locally stored data through your browser settings, depending on your browser."
    },
    {
     "doc": 3,
-    "verbatim": "While this is not a comprehensive list, below are some of the things that you can do to limit use of cookies and other locally stored data technologies on your device. While cookies and other locally stored data technologies may not be necessary to use our sites, some features may not function properly if you disable them.",
+    "file": "wikipedia/03-wiki-policy-cookie-statement.md",
     "onde": "Cookie Statement, seção \"What are my cookie options?\"",
-    "por_que": "Escopo do controle disponível: cookies/medição, sem qualquer menção a sair de experimentos.",
-    "file": "wikipedia/03-wiki-policy-cookie-statement.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "While this is not a comprehensive list, below are some of the things that you can do to limit use of cookies and other locally stored data technologies on your device. While cookies and other locally stored data technologies may not be necessary to use our sites, some features may not function properly if you disable them."
    },
    {
     "doc": 3,
-    "verbatim": "Our implementation includes TikTok's limited data use feature and the ability to opt-out of data sharing with TikTok through your cookie preferences.",
-    "onde": "Cookie Statement, nota sobre sites não-wiki (Wikipedia Store / TikTok Shop)",
-    "por_que": "Único \"opt-out\" nomeado no corpus; refere-se a compartilhamento com terceiro na loja, não a experimentação — falso positivo clássico.",
     "file": "wikipedia/03-wiki-policy-cookie-statement.md",
-    "role": "unknown"
+    "onde": "Cookie Statement, nota sobre sites não-wiki (Wikipedia Store / TikTok Shop)",
+    "role": "unknown",
+    "verbatim": "Our implementation includes TikTok's limited data use feature and the ability to opt-out of data sharing with TikTok through your cookie preferences."
    },
    {
     "doc": 1,
-    "verbatim": "If you would like to request to access, update or restrict/object to the processing of Personal Information, or receive a copy of your Personal Information for purposes of transmitting it to another organization, you may Contact Us",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"Your rights\"",
-    "por_que": "Direito genérico de objeção/restrição, sem controle específico de experimento — sustenta o degrau GDPR-objection-only.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "If you would like to request to access, update or restrict/object to the processing of Personal Information, or receive a copy of your Personal Information for purposes of transmitting it to another organization, you may Contact Us"
    },
    {
     "doc": 1,
-    "verbatim": "Because we protect all users in accordance with this Privacy Policy, we do not change our behavior in response to a web browser's \"do not track\" signal.",
-    "onde": "Seção \"Our Response to Do Not Track (DNT) signals\"",
-    "por_que": "Recusa explícita de honrar sinal de não-rastreamento, reduzindo as vias de opt-out disponíveis.",
     "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "onde": "Seção \"Our Response to Do Not Track (DNT) signals\"",
+    "role": "binding",
+    "verbatim": "Because we protect all users in accordance with this Privacy Policy, we do not change our behavior in response to a web browser's \"do not track\" signal."
    },
    {
     "doc": 4,
-    "verbatim": "Because of this commitment, we protect everyone, and do not change our behavior in response to a web browser's DNT signal.",
-    "onde": "FAQ, pergunta sobre Do Not Track",
-    "por_que": "Confirma a mesma recusa no documento de apoio.",
     "file": "wikipedia/04-wiki-policy-privacy-policy-frequently-asked-question.md",
-    "role": "unknown"
+    "onde": "FAQ, pergunta sobre Do Not Track",
+    "role": "unknown",
+    "verbatim": "Because of this commitment, we protect everyone, and do not change our behavior in response to a web browser's DNT signal."
    }
   ],
   "V6": [
    {
     "doc": 1,
-    "verbatim": "This information includes the type of device you are using (possibly including unique device identification numbers, for some beta versions of our mobile applications), the type and version of your browser",
-    "onde": "Seção \"Information We Receive Automatically\"",
-    "por_que": "Confirma existência de versões beta de apps, mas não descreve programa de inscrição voluntária.",
     "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "onde": "Seção \"Information We Receive Automatically\"",
+    "role": "binding",
+    "verbatim": "This information includes the type of device you are using (possibly including unique device identification numbers, for some beta versions of our mobile applications), the type and version of your browser"
    },
    {
     "doc": 6,
-    "verbatim": "Give our experiments a go!",
+    "file": "wikipedia/06-wikipedia-experiments.md",
     "onde": "Página \"Wikipedia experiments\", chamada principal",
-    "por_que": "Convite voluntário a usar produtos experimentais — mais próximo de opt-in beta que qualquer coisa nos documentos vinculantes.",
-    "file": "wikipedia/06-wikipedia-experiments.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Give our experiments a go!"
    },
    {
     "doc": 6,
-    "verbatim": "Get our newsletter to hear the latest about upcoming experiments and find out how you can get involved in the process.",
-    "onde": "Página \"Wikipedia experiments\", seção \"Keep up with WIKI_WIP\"",
-    "por_que": "Canal de inscrição para saber de experimentos futuros e \"se envolver\"; o avaliador decide se equivale a canal beta.",
     "file": "wikipedia/06-wikipedia-experiments.md",
-    "role": "non-binding"
+    "onde": "Página \"Wikipedia experiments\", seção \"Keep up with WIKI_WIP\"",
+    "role": "non-binding",
+    "verbatim": "Get our newsletter to hear the latest about upcoming experiments and find out how you can get involved in the process."
    }
   ],
   "V7": [
    {
     "doc": 1,
-    "verbatim": "To send administrative information to you, such as changes to our policies.",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"How We Use Information We Receive From You\" > \"General\"",
-    "por_que": "Aviso de mudança de política — tipo explicitamente excluído como debriefing; incluído para evitar falso positivo.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "To send administrative information to you, such as changes to our policies."
    },
    {
     "doc": 1,
-    "verbatim": "We are committed to notifying you via email at least ten (10) calendar days, when possible, before we disclose your Personal Information in response to a legal demand.",
+    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
     "onde": "Seção \"For Legal Reasons\"",
-    "por_que": "Único compromisso de notificação individual do documento, e é sobre divulgação legal, não sobre participação em experimento.",
-    "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We are committed to notifying you via email at least ten (10) calendar days, when possible, before we disclose your Personal Information in response to a legal demand."
    },
    {
     "doc": 1,
-    "verbatim": "If these developers or researchers later publish their work or findings, we ask that they not disclose your Personal Information.",
-    "onde": "Seção \"To Understand & Experiment\"",
-    "por_que": "Trata de publicação de resultados de pesquisa sem prever qualquer aviso posterior ao usuário participante — ausência substantiva no ponto em que caberia debriefing.",
     "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "onde": "Seção \"To Understand & Experiment\"",
+    "role": "binding",
+    "verbatim": "If these developers or researchers later publish their work or findings, we ask that they not disclose your Personal Information."
    },
    {
     "doc": 5,
-    "verbatim": "Assuming the discussion went well, do the study. Update the meta page with results and discussion.",
-    "onde": "Seção \"A/B testing on wiki\" (Wikitech)",
-    "por_que": "Divulgação pública de resultados na comunidade, em registro não-vinculante; não é aviso individual de participação.",
     "file": "wikipedia/05-wiki-a-b-testing.md",
-    "role": "non-binding"
+    "onde": "Seção \"A/B testing on wiki\" (Wikitech)",
+    "role": "non-binding",
+    "verbatim": "Assuming the discussion went well, do the study. Update the meta page with results and discussion."
    }
   ],
   "V8": [
    {
     "doc": 1,
-    "verbatim": "When we give access to Personal Information to third-party developers or researchers, we put requirements, such as reasonable technical and contractual protections, in place to help ensure that these service providers treat your Personal Information consistently with the principles of this Policy and in accordance with our instructions.",
-    "onde": "Seção \"To Understand & Experiment\"",
-    "por_que": "Salvaguardas contratuais/técnicas para pesquisa, mas sem revisão ética, comitê ou avaliação de risco de experimento.",
     "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "onde": "Seção \"To Understand & Experiment\"",
+    "role": "binding",
+    "verbatim": "When we give access to Personal Information to third-party developers or researchers, we put requirements, such as reasonable technical and contractual protections, in place to help ensure that these service providers treat your Personal Information consistently with the principles of this Policy and in accordance with our instructions."
    },
    {
     "doc": 1,
-    "verbatim": "Please note that, despite the obligations we impose on developers and researchers, we cannot guarantee that they will abide by our agreement, nor do we guarantee that we will regularly screen or audit their projects.",
-    "onde": "Seção \"To Understand & Experiment\"",
-    "por_que": "Negação explícita de auditoria/triagem regular de projetos de pesquisa — ausência substantiva de mecanismo de revisão.",
     "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "onde": "Seção \"To Understand & Experiment\"",
+    "role": "binding",
+    "verbatim": "Please note that, despite the obligations we impose on developers and researchers, we cannot guarantee that they will abide by our agreement, nor do we guarantee that we will regularly screen or audit their projects."
    },
    {
     "doc": 4,
-    "verbatim": "A group of experienced users called the Ombuds Commission has the power and authority to investigate violations and alleged violations of this Privacy Policy and make recommendations to us on how to address a violation or alleged violation.",
-    "onde": "FAQ, pergunta \"Is there a community body in charge of investigating alleged privacy violations?\"",
-    "por_que": "Órgão de revisão existente, porém com mandato de violações de privacidade — o avaliador deve decidir se cobre revisão ética de experimentos.",
     "file": "wikipedia/04-wiki-policy-privacy-policy-frequently-asked-question.md",
-    "role": "unknown"
+    "onde": "FAQ, pergunta \"Is there a community body in charge of investigating alleged privacy violations?\"",
+    "role": "unknown",
+    "verbatim": "A group of experienced users called the Ombuds Commission has the power and authority to investigate violations and alleged violations of this Privacy Policy and make recommendations to us on how to address a violation or alleged violation."
    },
    {
     "doc": 5,
-    "verbatim": "Make sure to clear describe the goals of the study and any disruption it might cause.",
-    "onde": "Seção \"A/B testing on wiki\" (Wikitech)",
-    "por_que": "Avaliação de potencial dano/disrupção do estudo — o mais próximo de risco, mas em documento técnico não-vinculante e não voltado ao usuário.",
     "file": "wikipedia/05-wiki-a-b-testing.md",
-    "role": "non-binding"
+    "onde": "Seção \"A/B testing on wiki\" (Wikitech)",
+    "role": "non-binding",
+    "verbatim": "Make sure to clear describe the goals of the study and any disruption it might cause."
    },
    {
     "doc": 5,
-    "verbatim": "Sometimes there will be a negative response. Try your best to address concerns and make modifications to the study design. If the negative response persists, consider rescheduling or fundamentally redesigning the study.",
-    "onde": "Seção \"A/B testing on wiki\" (Wikitech)",
-    "por_que": "Processo de consulta comunitária funcionando como revisão informal de estudos; relevante para nota de gap registro-vinculante vs. prática documentada.",
     "file": "wikipedia/05-wiki-a-b-testing.md",
-    "role": "non-binding"
+    "onde": "Seção \"A/B testing on wiki\" (Wikitech)",
+    "role": "non-binding",
+    "verbatim": "Sometimes there will be a negative response. Try your best to address concerns and make modifications to the study design. If the negative response persists, consider rescheduling or fundamentally redesigning the study."
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "This policy is approved by the Wikimedia Foundation Board of Trustees .\nIt may not be circumvented, eroded, or ignored by Wikimedia Foundation officers or staff nor local policies of any Wikimedia project .",
-    "onde": "Cabeçalho da Privacy Policy",
-    "por_que": "Estabelece o caráter vinculante do documento onde aparece a linguagem de teste de features.",
     "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "onde": "Cabeçalho da Privacy Policy",
+    "role": "binding",
+    "verbatim": "This policy is approved by the Wikimedia Foundation Board of Trustees .\nIt may not be circumvented, eroded, or ignored by Wikimedia Foundation officers or staff nor local policies of any Wikimedia project ."
    },
    {
     "doc": 1,
-    "verbatim": "To test features to see what works, understand how users interact with the Wikimedia Sites, track and study use of various features, gain understanding about the demographics of the different Wikimedia Sites and analyze trends.",
-    "onde": "Privacy Policy, bullet de melhoria",
-    "por_que": "Localiza o reconhecimento de teste dentro da política de privacidade (local 1).",
     "file": "wikipedia/01-wiki-policy-privacy-policy.md",
-    "role": "binding"
+    "onde": "Privacy Policy, bullet de melhoria",
+    "role": "binding",
+    "verbatim": "To test features to see what works, understand how users interact with the Wikimedia Sites, track and study use of various features, gain understanding about the demographics of the different Wikimedia Sites and analyze trends."
    },
    {
     "doc": 2,
-    "verbatim": "We ask that you review the terms of our Privacy Policy , so that you are aware of how we collect and use your information.",
-    "onde": "Terms of Use, seção \"2. Privacy Policy\"",
-    "por_que": "Os ToS não tratam de experimentação e apenas remetem à política de privacidade — evidência de ausência nesse local.",
     "file": "wikipedia/02-wiki-policy-terms-of-use.md",
-    "role": "binding"
+    "onde": "Terms of Use, seção \"2. Privacy Policy\"",
+    "role": "binding",
+    "verbatim": "We ask that you review the terms of our Privacy Policy , so that you are aware of how we collect and use your information."
    },
    {
     "doc": 3,
-    "verbatim": "Helps us count the number of site visitors, run A/B tests, and mitigate DDoS attacks.",
-    "onde": "Cookie Statement, tabela de cookies (WMF-Uniq)",
-    "por_que": "Divulgação de A/B testing vive no Cookie Statement, documento-política aprovado pelo Board — decisivo para v9_register.",
     "file": "wikipedia/03-wiki-policy-cookie-statement.md",
-    "role": "unknown"
+    "onde": "Cookie Statement, tabela de cookies (WMF-Uniq)",
+    "role": "unknown",
+    "verbatim": "Helps us count the number of site visitors, run A/B tests, and mitigate DDoS attacks."
    },
    {
     "doc": 4,
-    "verbatim": "This page lists some frequently asked questions (FAQ) about the Wikimedia Foundation Privacy Policy . This FAQ is not part of the Wikimedia Foundation Privacy Policy. It is not even a legal document and it is not legal advice.",
-    "onde": "Topo do FAQ da Privacy Policy",
-    "por_que": "Auto-declaração de que o FAQ não integra o acordo — local tipo help centre, registro não-vinculante.",
     "file": "wikipedia/04-wiki-policy-privacy-policy-frequently-asked-question.md",
-    "role": "unknown"
+    "onde": "Topo do FAQ da Privacy Policy",
+    "role": "unknown",
+    "verbatim": "This page lists some frequently asked questions (FAQ) about the Wikimedia Foundation Privacy Policy . This FAQ is not part of the Wikimedia Foundation Privacy Policy. It is not even a legal document and it is not legal advice."
    },
    {
     "doc": 5,
-    "verbatim": "From Wikitech",
-    "onde": "Cabeçalho da página A/B testing",
-    "por_que": "Identifica a hospedagem da documentação técnica de A/B testing, fora dos documentos ao usuário.",
     "file": "wikipedia/05-wiki-a-b-testing.md",
-    "role": "non-binding"
+    "onde": "Cabeçalho da página A/B testing",
+    "role": "non-binding",
+    "verbatim": "From Wikitech"
    },
    {
     "doc": 6,
-    "verbatim": "Explore our past experiments",
-    "onde": "Página \"Wikipedia experiments\" (wikimediafoundation.org)",
-    "por_que": "Divulgação de experimentos em microsite institucional — local blog/PR, registro não-vinculante.",
     "file": "wikipedia/06-wikipedia-experiments.md",
-    "role": "non-binding"
+    "onde": "Página \"Wikipedia experiments\" (wikimediafoundation.org)",
+    "role": "non-binding",
+    "verbatim": "Explore our past experiments"
    }
   ]
  },
@@ -459,5 +406,6 @@
   "max_tokens": 16000,
   "thinking": "adaptive",
   "nota": "teto anterior; JSON completo, sem truncamento"
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

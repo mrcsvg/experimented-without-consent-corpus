@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Stripchat",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -14,314 +14,277 @@
   "V1": [
    {
     "doc": 3,
-    "verbatim": "We use these cookies to track our sites and plugins performance across the globe. Similarly, we may also use these analytics cookies to test new advertisements, pages, or features to gauge users’ reactions.",
+    "file": "stripchat/03-cookies-policy.md",
     "onde": "Cookies Policy, seção 4 “Cookie Categories”, subseção Performance cookies",
-    "por_que": "Reconhecimento explícito de testar anúncios, páginas e features em usuários para medir reações — candidato a nível 2 (testa usuários, sem nomear método).",
-    "file": "stripchat/03-cookies-policy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We use these cookies to track our sites and plugins performance across the globe. Similarly, we may also use these analytics cookies to test new advertisements, pages, or features to gauge users’ reactions."
    },
    {
     "doc": 3,
-    "verbatim": "The analytics cookies we use may be our own (i.e. first-party cookies) or third-party cookies and include among others, ABTest_playerOnThumbHover_key and firstVisit.",
+    "file": "stripchat/03-cookies-policy.md",
     "onde": "Cookies Policy, seção 4, fim da subseção Performance cookies",
-    "por_que": "Nome de cookie contém “ABTest”, menção literal a teste A/B servido ao usuário — possível gatilho de nível 3; avaliador decide se nome de cookie basta.",
-    "file": "stripchat/03-cookies-policy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "The analytics cookies we use may be our own (i.e. first-party cookies) or third-party cookies and include among others, ABTest_playerOnThumbHover_key and firstVisit."
    },
    {
     "doc": 1,
-    "verbatim": "We may collect and process your personal data where it is necessary in order to perform research and analysis about your use or, or interest in, our Website content and/or services, so as to develop and display content and advertising tailored to your interests on our Website.",
+    "file": "stripchat/01-privacy.md",
     "onde": "Privacy Policy, seção 7(b)(1) “Customization of content (Members Only)”",
-    "por_que": "Linguagem de “research and analysis” sobre o uso dos usuários no registro vinculante; sem nomear experimento/A-B.",
-    "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We may collect and process your personal data where it is necessary in order to perform research and analysis about your use or, or interest in, our Website content and/or services, so as to develop and display content and advertising tailored to your interests on our Website."
    },
    {
     "doc": 1,
-    "verbatim": "1) develop new services on our Website as well as analyze and target new markets;",
-    "onde": "Privacy Policy, seção 7(b)(4) “Other legitimate interests”",
-    "por_que": "Linguagem de desenvolvimento/melhoria (nível 1) na política de privacidade vinculante, útil para comparar teto vs. registro vinculante.",
     "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Policy, seção 7(b)(4) “Other legitimate interests”",
+    "role": "unknown",
+    "verbatim": "1) develop new services on our Website as well as analyze and target new markets;"
    },
    {
     "doc": 3,
-    "verbatim": "to collect information about its use by users, to distinguish between users, to help us provide you with the best possible experience and to allow us to improve the Website and the service we offer.",
-    "onde": "Cookies Policy, parágrafo introdutório",
-    "por_que": "Piso de “melhorar o serviço” (nível 1), contraste com o teto do mesmo documento.",
     "file": "stripchat/03-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Cookies Policy, parágrafo introdutório",
+    "role": "unknown",
+    "verbatim": "to collect information about its use by users, to distinguish between users, to help us provide you with the best possible experience and to allow us to improve the Website and the service we offer."
    },
    {
     "doc": 4,
-    "verbatim": "research and analysis about your use",
-    "onde": "Privacy Policy Stripcash (afiliados), seção 7 “Legitimate interests — Customization of content”",
-    "por_que": "Mesma fórmula de pesquisa/análise no documento do programa de afiliados; nenhuma menção a teste ou experimento.",
     "file": "stripchat/04-privacy-4.md",
-    "role": "unknown"
+    "onde": "Privacy Policy Stripcash (afiliados), seção 7 “Legitimate interests — Customization of content”",
+    "role": "unknown",
+    "verbatim": "research and analysis about your use"
    }
   ],
   "V2": [
    {
     "doc": 3,
-    "verbatim": "to help us provide you with the best possible experience and to allow us to improve the Website and the service we offer",
-    "onde": "Cookies Policy, parágrafo introdutório",
-    "por_que": "Enquadramento clássico de service improvement.",
     "file": "stripchat/03-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Cookies Policy, parágrafo introdutório",
+    "role": "unknown",
+    "verbatim": "to help us provide you with the best possible experience and to allow us to improve the Website and the service we offer"
    },
    {
     "doc": 1,
-    "verbatim": "3) monitor, maintain and improve internal business processes, information and data, technology and communication solutions and services;",
+    "file": "stripchat/01-privacy.md",
     "onde": "Privacy Policy, seção 7(b)(4)",
-    "por_que": "Service improvement no registro vinculante.",
-    "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "3) monitor, maintain and improve internal business processes, information and data, technology and communication solutions and services;"
    },
    {
     "doc": 1,
-    "verbatim": "We may collect and process your personal data where it is necessary in order to perform research and analysis about your use or, or interest in, our Website content and/or services, so as to develop and display content and advertising tailored to your interests on our Website.",
-    "onde": "Privacy Policy, seção 7(b)(1)",
-    "por_que": "Co-ocorrência de “research” com melhoria/customização de serviço.",
     "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Policy, seção 7(b)(1)",
+    "role": "unknown",
+    "verbatim": "We may collect and process your personal data where it is necessary in order to perform research and analysis about your use or, or interest in, our Website content and/or services, so as to develop and display content and advertising tailored to your interests on our Website."
    },
    {
     "doc": 3,
-    "verbatim": "We use this type of cookie to understand and analyze how visitors use and explore our Website and look for ways to improve it.",
-    "onde": "Cookies Policy, seção 4, Performance cookies",
-    "por_que": "Análise de comportamento enquadrada como melhoria do serviço.",
     "file": "stripchat/03-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Cookies Policy, seção 4, Performance cookies",
+    "role": "unknown",
+    "verbatim": "We use this type of cookie to understand and analyze how visitors use and explore our Website and look for ways to improve it."
    },
    {
     "doc": 2,
-    "verbatim": "We care deeply about maintaining a healthy community at our Website.",
+    "file": "stripchat/02-terms.md",
     "onde": "Terms of Use, seção 10 “Trust & Safety”",
-    "por_que": "Linguagem de bem-estar da comunidade; avaliador decide se está atada a experimentação ou apenas a moderação.",
-    "file": "stripchat/02-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We care deeply about maintaining a healthy community at our Website."
    },
    {
     "doc": 2,
-    "verbatim": "Our mission is to provide a safe, pleasurable, and engaging experience to all our users. To achieve this, we employ recommendation systems that personalize your experience.",
-    "onde": "Terms of Use, seção 11 “Recommendation Systems”",
-    "por_que": "Enquadramento de segurança/experiência do usuário associado a sistemas algorítmicos.",
     "file": "stripchat/02-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Use, seção 11 “Recommendation Systems”",
+    "role": "unknown",
+    "verbatim": "Our mission is to provide a safe, pleasurable, and engaging experience to all our users. To achieve this, we employ recommendation systems that personalize your experience."
    }
   ],
   "V3": [
    {
     "doc": 3,
-    "verbatim": "Similarly, we may also use these analytics cookies to test new advertisements, pages, or features to gauge users’ reactions.",
-    "onde": "Cookies Policy, seção 4, Performance cookies",
-    "por_que": "Nomeia superfícies testadas: anúncios, páginas, features (V3a).",
     "file": "stripchat/03-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Cookies Policy, seção 4, Performance cookies",
+    "role": "unknown",
+    "verbatim": "Similarly, we may also use these analytics cookies to test new advertisements, pages, or features to gauge users’ reactions."
    },
    {
     "doc": 3,
-    "verbatim": "ABTest_playerOnThumbHover_key",
-    "onde": "Cookies Policy, seção 4, lista de cookies de performance",
-    "por_que": "Identificador de um teste específico (player on thumb hover) potencialmente ativo — relevante para V3c.",
     "file": "stripchat/03-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Cookies Policy, seção 4, lista de cookies de performance",
+    "role": "unknown",
+    "verbatim": "ABTest_playerOnThumbHover_key"
    },
    {
     "doc": 2,
-    "verbatim": "General Sorting: General sorting refers to recommending content in all sections of the platform that are using recommendation systems except as otherwise mentioned in this document. The recommendations are influenced by various factors, including the popularity of a model, viewers' location, as well as the success of the show.",
+    "file": "stripchat/02-terms.md",
     "onde": "Terms of Use, seção 11 “Recommendation Systems used”",
-    "por_que": "Ranking/recomendação descrito como feature de personalização declarada — segundo o codebook não conta como alvo de experimento; útil para evitar falso positivo.",
-    "file": "stripchat/02-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "General Sorting: General sorting refers to recommending content in all sections of the platform that are using recommendation systems except as otherwise mentioned in this document. The recommendations are influenced by various factors, including the popularity of a model, viewers' location, as well as the success of the show."
    },
    {
     "doc": 2,
-    "verbatim": "Prices for tokens will be posted on the Website and may change from time to time in our sole discretion. Prices are subject to change and may vary due to various reasons, including special and limited promotional offers.",
+    "file": "stripchat/02-terms.md",
     "onde": "Terms of Use, seção 8 “Tokens and Payments”",
-    "por_que": "Preço variável mencionado, mas sem vínculo com teste/experimento — evidência para V3-pricing = No.",
-    "file": "stripchat/02-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Prices for tokens will be posted on the Website and may change from time to time in our sole discretion. Prices are subject to change and may vary due to various reasons, including special and limited promotional offers."
    },
    {
     "doc": 2,
-    "verbatim": "Our “Promos” algorithm uses data related to user-model interaction, interest that a user shows for the show, a user’s preferences, and history with the platform, as well as location and platform settings. This recommendation system is used on promo campaigns.",
-    "onde": "Terms of Use, seção 11, item “Promos”",
-    "por_que": "Personalização de campanhas promocionais por usuário — fronteira com personalização de oferta/preço; avaliador decide.",
     "file": "stripchat/02-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Use, seção 11, item “Promos”",
+    "role": "unknown",
+    "verbatim": "Our “Promos” algorithm uses data related to user-model interaction, interest that a user shows for the show, a user’s preferences, and history with the platform, as well as location and platform settings. This recommendation system is used on promo campaigns."
    }
   ],
   "V4": [
    {
     "doc": 1,
-    "verbatim": "b) where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests;",
-    "onde": "Privacy Policy, seção 7, lista de circunstâncias",
-    "por_que": "Base legal genérica sob a qual caem análise, desenvolvimento e customização — nenhuma base é declarada especificamente para experimentação.",
     "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Policy, seção 7, lista de circunstâncias",
+    "role": "unknown",
+    "verbatim": "b) where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests;"
    },
    {
     "doc": 1,
-    "verbatim": "We may collect and process your personal data where it is necessary in order to determine whether users of the Website are unique, or whether the same user is using the Website on multiple occasions, and to monitor aggregate metrics such as total number of visitors, pages viewed and demographic patterns.",
+    "file": "stripchat/01-privacy.md",
     "onde": "Privacy Policy, seção 7(b)(2) “Analytics”",
-    "por_que": "Finalidade declarada (analytics/legitimate interest) que mais se aproxima de cobrir experimentação.",
-    "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We may collect and process your personal data where it is necessary in order to determine whether users of the Website are unique, or whether the same user is using the Website on multiple occasions, and to monitor aggregate metrics such as total number of visitors, pages viewed and demographic patterns."
    },
    {
     "doc": 1,
-    "verbatim": "d) where you have given us your consent.",
-    "onde": "Privacy Policy, seção 7, lista de circunstâncias",
-    "por_que": "Consentimento aparece como base, mas ligado a marketing e dados sensíveis, não a testes.",
     "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Policy, seção 7, lista de circunstâncias",
+    "role": "unknown",
+    "verbatim": "d) where you have given us your consent."
    },
    {
     "doc": 3,
-    "verbatim": "Some of our cookies collect data for more than one use. We will only use these cookies for their essential purposes unless you have given your consent to any other uses they have.",
-    "onde": "Cookies Policy, seção 6 “Keep in mind”",
-    "por_que": "Consentimento como base para cookies não essenciais (inclui os de performance/AB test).",
     "file": "stripchat/03-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Cookies Policy, seção 6 “Keep in mind”",
+    "role": "unknown",
+    "verbatim": "Some of our cookies collect data for more than one use. We will only use these cookies for their essential purposes unless you have given your consent to any other uses they have."
    },
    {
     "doc": 1,
-    "verbatim": "You also have the right to complain to the data protection supervisory authority of the country in which you reside, provided that such country is a Member State of the European Union or is located within the EEA.",
-    "onde": "Privacy Policy, seção 20 “Right to complain”",
-    "por_que": "Indica moldura GDPR aplicada com referência à UE/EEA; relevante para avaliar region-gating das bases legais.",
     "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Policy, seção 20 “Right to complain”",
+    "role": "unknown",
+    "verbatim": "You also have the right to complain to the data protection supervisory authority of the country in which you reside, provided that such country is a Member State of the European Union or is located within the EEA."
    }
   ],
   "V5": [
    {
     "doc": 1,
-    "verbatim": "Right to object: You have the right to object to processing of your personal data where we are relying on a legitimate interest and there is something about your particular situation which makes you want to object to processing on this ground.",
-    "onde": "Privacy Policy, seção 16 “Your data protection rights”",
-    "por_que": "Direito genérico de objeção do Art. 21, sem controle específico de experimentação.",
     "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Policy, seção 16 “Your data protection rights”",
+    "role": "unknown",
+    "verbatim": "Right to object: You have the right to object to processing of your personal data where we are relying on a legitimate interest and there is something about your particular situation which makes you want to object to processing on this ground."
    },
    {
     "doc": 3,
-    "verbatim": "However, you can set up your browser to delete or refuse some or all of them, or to be notified when you are sent a cookie and therefore, choose whether or not to accept it.",
+    "file": "stripchat/03-cookies-policy.md",
     "onde": "Cookies Policy, seção 7 “How to control and delete cookies”",
-    "por_que": "Controle de cookies (inclui analytics/AB test) — segundo o codebook não é opt-out de experimentação.",
-    "file": "stripchat/03-cookies-policy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "However, you can set up your browser to delete or refuse some or all of them, or to be notified when you are sent a cookie and therefore, choose whether or not to accept it."
    },
    {
     "doc": 3,
-    "verbatim": "You may also opt out of third-party cookies by following the instructions provided by each third party in its privacy policy.",
-    "onde": "Cookies Policy, seção 7",
-    "por_que": "Opt-out limitado a cookies de terceiros/publicidade.",
     "file": "stripchat/03-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Cookies Policy, seção 7",
+    "role": "unknown",
+    "verbatim": "You may also opt out of third-party cookies by following the instructions provided by each third party in its privacy policy."
    },
    {
     "doc": 2,
-    "verbatim": "You have the ability to disable some of our recommendation systems. To do this, simply go down to our homepage and look for the disable option at the bottom of the left sidebar.",
-    "onde": "Terms of Use, seção 11 “Recommendation Systems with Optional Disable Feature for EEA Citizens”",
-    "por_que": "Opt-out de personalização/recomendação (só EEA); não é opt-out de experimentação — falso positivo a documentar.",
     "file": "stripchat/02-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Use, seção 11 “Recommendation Systems with Optional Disable Feature for EEA Citizens”",
+    "role": "unknown",
+    "verbatim": "You have the ability to disable some of our recommendation systems. To do this, simply go down to our homepage and look for the disable option at the bottom of the left sidebar."
    },
    {
     "doc": 1,
-    "verbatim": "You may opt out of interest-based advertising on mobile devices by activating the “Limit Ad Tracking” or equivalent feature offered by your mobile platform.",
-    "onde": "Privacy Policy, seção 18 “Choices About How We Collect, Use and Disclose Your Personal Information”",
-    "por_que": "Opt-out explicitamente de publicidade baseada em interesses, não de testes.",
     "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Policy, seção 18 “Choices About How We Collect, Use and Disclose Your Personal Information”",
+    "role": "unknown",
+    "verbatim": "You may opt out of interest-based advertising on mobile devices by activating the “Limit Ad Tracking” or equivalent feature offered by your mobile platform."
    }
   ],
   "V6": [],
   "V7": [
    {
     "doc": 1,
-    "verbatim": "We may send you other types of transactional and relationship e-mail communications, such as service announcements, administrative notices, and surveys, without offering you the opportunity to opt out of receiving them.",
-    "onde": "Privacy Policy, seção 18",
-    "por_que": "Único aviso posterior previsto é de serviço/administrativo — explicitamente excluído como debriefing pelo codebook; serve para registrar “No” substantivo.",
     "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Policy, seção 18",
+    "role": "unknown",
+    "verbatim": "We may send you other types of transactional and relationship e-mail communications, such as service announcements, administrative notices, and surveys, without offering you the opportunity to opt out of receiving them."
    },
    {
     "doc": 2,
-    "verbatim": "We reserve the right to amend these Terms at any time by posting such amended Terms to the Website. No other notification may be made to you about any amendments.",
-    "onde": "Terms of Use, seção 15 “Modification of These Terms”",
-    "por_que": "Aviso de mudança de termos/serviço, não debriefing — confirma ausência do mecanismo.",
     "file": "stripchat/02-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Use, seção 15 “Modification of These Terms”",
+    "role": "unknown",
+    "verbatim": "We reserve the right to amend these Terms at any time by posting such amended Terms to the Website. No other notification may be made to you about any amendments."
    }
   ],
   "V8": [
    {
     "doc": 2,
-    "verbatim": "We rely on a risk-based approach with the help of our guidelines specified in the previous section to judge whether a piece of content is harmful or not, as well as the severity of the harm.",
-    "onde": "Terms of Use, seção 10 “Trust & Safety”, subitem “Judging ‘Harm’”",
-    "por_que": "Avaliação de risco existe, mas referida a conteúdo/moderação, não a experimentos — borderline que o codebook manda anotar como No com nota.",
     "file": "stripchat/02-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Use, seção 10 “Trust & Safety”, subitem “Judging ‘Harm’”",
+    "role": "unknown",
+    "verbatim": "We rely on a risk-based approach with the help of our guidelines specified in the previous section to judge whether a piece of content is harmful or not, as well as the severity of the harm."
    },
    {
     "doc": 2,
-    "verbatim": "Our recommendation systems prioritize safety and we take measures to remove content that is illegal and/or violates our guidelines.",
-    "onde": "Terms of Use, seção 11 “Ensuring your safety”",
-    "por_que": "Linguagem de segurança aplicada a recomendação; nenhuma revisão ética ou comitê para testes.",
     "file": "stripchat/02-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Use, seção 11 “Ensuring your safety”",
+    "role": "unknown",
+    "verbatim": "Our recommendation systems prioritize safety and we take measures to remove content that is illegal and/or violates our guidelines."
    },
    {
     "doc": 1,
-    "verbatim": "We take appropriate security measures (including physical, electronic and procedural measures) to safeguard your personal data from unauthorized access and disclosure.",
-    "onde": "Privacy Policy, seção 12 “Security of your personal data”",
-    "por_que": "Medidas procedimentais são de segurança de dados, não revisão ética de experimentos — evita falso positivo.",
     "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Policy, seção 12 “Security of your personal data”",
+    "role": "unknown",
+    "verbatim": "We take appropriate security measures (including physical, electronic and procedural measures) to safeguard your personal data from unauthorized access and disclosure."
    }
   ],
   "V9": [
    {
     "doc": 3,
-    "verbatim": "Similarly, we may also use these analytics cookies to test new advertisements, pages, or features to gauge users’ reactions.",
-    "onde": "Cookies Policy (stripchat.com/cookies-policy), seção 4",
-    "por_que": "O reconhecimento mais forte de teste vive na Cookies Policy — determina o local de divulgação.",
     "file": "stripchat/03-cookies-policy.md",
-    "role": "unknown"
+    "onde": "Cookies Policy (stripchat.com/cookies-policy), seção 4",
+    "role": "unknown",
+    "verbatim": "Similarly, we may also use these analytics cookies to test new advertisements, pages, or features to gauge users’ reactions."
    },
    {
     "doc": 1,
-    "verbatim": "To find out more about how we use cookies, please see our Cookies Policy .",
+    "file": "stripchat/01-privacy.md",
     "onde": "Privacy Policy, seção 26 “Cookies”",
-    "por_que": "A Privacy Policy incorpora a Cookies Policy por referência — relevante para o registro (vinculante vs. não).",
-    "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "To find out more about how we use cookies, please see our Cookies Policy ."
    },
    {
     "doc": 2,
-    "verbatim": "We retain a separate Privacy Policy and your assent to these Terms also signifies your assent to the Privacy Policy.",
+    "file": "stripchat/02-terms.md",
     "onde": "Terms of Use, seção 13 “Privacy Policy”",
-    "por_que": "Estabelece que a Privacy Policy faz parte do acordo com o usuário — registro vinculante.",
-    "file": "stripchat/02-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We retain a separate Privacy Policy and your assent to these Terms also signifies your assent to the Privacy Policy."
    },
    {
     "doc": 2,
-    "verbatim": "These Terms constitute a contractual agreement between you and us. By visiting, accessing, using, and/or joining (collectively “using”) the Website, you express your understanding and acceptance of these Terms.",
-    "onde": "Terms of Use, seção 1 “Eligibility” (preâmbulo)",
-    "por_que": "Confirma natureza contratual dos Termos, onde vivem as seções 10 e 11 (Trust & Safety, Recommendation Systems).",
     "file": "stripchat/02-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Use, seção 1 “Eligibility” (preâmbulo)",
+    "role": "unknown",
+    "verbatim": "These Terms constitute a contractual agreement between you and us. By visiting, accessing, using, and/or joining (collectively “using”) the Website, you express your understanding and acceptance of these Terms."
    },
    {
     "doc": 1,
-    "verbatim": "Privacy Policy\nEffective date: July 31st, 2026\nLast modified: July 24th, 2025",
-    "onde": "Cabeçalho da Privacy Policy",
-    "por_que": "Identifica o documento e sua vigência para registro do local de divulgação.",
     "file": "stripchat/01-privacy.md",
-    "role": "unknown"
+    "onde": "Cabeçalho da Privacy Policy",
+    "role": "unknown",
+    "verbatim": "Privacy Policy\nEffective date: July 31st, 2026\nLast modified: July 24th, 2025"
    }
   ]
  },
@@ -329,5 +292,6 @@
  "uso": {
   "input": 49835,
   "output": 9409
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

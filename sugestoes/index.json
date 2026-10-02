@@ -1,11 +1,11 @@
 {
- "formato": 1,
- "gerado_em": "2026-09-25T03:17:07+00:00",
+ "formato": 2,
+ "gerado_em": "2026-10-02T15:41:14+00:00",
  "arquivos": [
   {
    "file": "aliexpress.json",
    "servico": "AliExpress",
-   "sha256": "511a0e5ff413ac841a06525310e2ffec7b1382dbdd88d5787a4b58f55a0146dd",
+   "sha256": "fc65e69c60d6b48c19e1356c86548e475ebd46e087127b7abdbf40b0f99faef8",
    "citacoes": 53,
    "gerado_em": "2026-09-25T03:17:07+00:00",
    "modelo": "claude-opus-5",
@@ -14,7 +14,7 @@
   {
    "file": "amazon-store.json",
    "servico": "Amazon Store",
-   "sha256": "2f6c7c41ec379f946bcc22113965ecc27725b6bce1f08bfd490215e45045030b",
+   "sha256": "71c7fb4fe350d41015339d9b58a4f8501c5eff79525234c88952ec5d1ac58557",
    "citacoes": 46,
    "gerado_em": "2026-09-25T02:46:40+00:00",
    "modelo": "claude-opus-5",
@@ -23,7 +23,7 @@
   {
    "file": "app-store.json",
    "servico": "App Store",
-   "sha256": "dd6be73b234a015e75d0c4b9da6e29e79da94f1117c69038fb23e3720c96b961",
+   "sha256": "c48eaeaffc289ec278f1e30b4f390a150a43db69b646810314507a8dfc59a260",
    "citacoes": 66,
    "gerado_em": "2026-09-25T03:07:00+00:00",
    "modelo": "claude-opus-5",
@@ -32,7 +32,7 @@
   {
    "file": "bing.json",
    "servico": "Bing",
-   "sha256": "7158d8e3261e2f7b3ea22aa70e939213f936aa29c5f562b423a4980e42c7b217",
+   "sha256": "411bd5c12f4c8d67259b29f3b0aca9d4aa77904a74640378f6c1328a32020000",
    "citacoes": 67,
    "gerado_em": "2026-09-25T02:55:29+00:00",
    "modelo": "claude-opus-5",
@@ -41,7 +41,7 @@
   {
    "file": "booking-com.json",
    "servico": "Booking.com",
-   "sha256": "94645a0251d47418d28c1921665312ad1e0212369ecb6d75366f2bcdbf79ece6",
+   "sha256": "b4851b378c0b1a1697bd26faba7c0d94ae73cd606bad1920623b9238d8cc8ce1",
    "citacoes": 49,
    "gerado_em": "2026-09-25T02:41:52+00:00",
    "modelo": "claude-opus-5",
@@ -50,7 +50,7 @@
   {
    "file": "facebook.json",
    "servico": "Facebook",
-   "sha256": "43fca54601d4303aec3d3ed55909e91b5a93bdfd24670787aec560372bbc0a78",
+   "sha256": "e1554367a9b23d889ce63ac28c252481142d0220afc6d585f1f6c9c1a18a9d1f",
    "citacoes": 61,
    "gerado_em": "2026-09-25T02:35:44+00:00",
    "modelo": "claude-opus-5",
@@ -59,7 +59,7 @@
   {
    "file": "google-maps.json",
    "servico": "Google Maps",
-   "sha256": "cd1fe3fa9142320069a4aa1146059734a4f1075aa93931b9f87bf2287ee96ae1",
+   "sha256": "aff7d334fcd6fee84e1369541167291a606c5295d445289d9cf170d418545ffa",
    "citacoes": 60,
    "gerado_em": "2026-09-25T02:44:05+00:00",
    "modelo": "claude-opus-5",
@@ -68,7 +68,7 @@
   {
    "file": "google-play.json",
    "servico": "Google Play",
-   "sha256": "6117669cf3e8f40e26db41eb5e54fdad82a76a586f761a90baaef66d0d842ddf",
+   "sha256": "62a2697a30792850ed3b35f5529645b7a0c0be16bd1f90dfd377ef262b73f893",
    "citacoes": 66,
    "gerado_em": "2026-09-25T03:10:06+00:00",
    "modelo": "claude-opus-5",
@@ -77,7 +77,7 @@
   {
    "file": "google-search.json",
    "servico": "Google Search",
-   "sha256": "13b501527fef2f932dc1fe38163045528c197e72b4ca36e99ece23232bcdfe10",
+   "sha256": "867f6e10a954f4056236d38a9019b2effbade56cc10fc4666ecdb8ed525222a0",
    "citacoes": 73,
    "gerado_em": "2026-09-25T02:39:13+00:00",
    "modelo": "claude-opus-5",
@@ -86,7 +86,7 @@
   {
    "file": "google-shopping.json",
    "servico": "Google Shopping",
-   "sha256": "fa1ef7f6d66210d857f11b5e76afc0dfac9a0788313c883c51e8f1989bfaf3db",
+   "sha256": "b986e779c956b56011232d35cb3a2bae63fa26d898e72f95ded35b2661823ee8",
    "citacoes": 53,
    "gerado_em": "2026-09-25T03:13:31+00:00",
    "modelo": "claude-opus-5",
@@ -95,7 +95,7 @@
   {
    "file": "instagram.json",
    "servico": "Instagram",
-   "sha256": "677374e00818179fb9c5aca657b4fbff5d726d0eefdd7c378a95c471fbb7d203",
+   "sha256": "deda7bc2aba254063e804d49841252eee4f414320d268479fb6b355024327d20",
    "citacoes": 75,
    "gerado_em": "2026-09-25T03:08:39+00:00",
    "modelo": "claude-opus-5",
@@ -104,7 +104,7 @@
   {
    "file": "linkedin.json",
    "servico": "LinkedIn",
-   "sha256": "a1be547b2e1ea5f46485eb7339cdfa4ebb4c537cc8d42febeaf245c7c0ef6341",
+   "sha256": "dda0370885a38c9725704e73a4e65e83e64b79c077f14153853fad1dd0bae7d5",
    "citacoes": 56,
    "gerado_em": "2026-09-25T02:49:08+00:00",
    "modelo": "claude-opus-5",
@@ -113,7 +113,7 @@
   {
    "file": "pinterest.json",
    "servico": "Pinterest",
-   "sha256": "4851d0219814e90b33e7fcd77afeb79db7c7a8326e5bfac8df89825bd90bafd8",
+   "sha256": "54e3646adf15807ed9dd455f608fe6344ff47d2ab1b88e580805f3d901ccc5ac",
    "citacoes": 54,
    "gerado_em": "2026-09-25T03:11:23+00:00",
    "modelo": "claude-opus-5",
@@ -122,7 +122,7 @@
   {
    "file": "pornhub.json",
    "servico": "Pornhub",
-   "sha256": "02e297cace2194480f5f00f94d690f8bd96778d73e290620d7414965bbc74e53",
+   "sha256": "2fc6b3803022531e58025b22d1bf35efac979bfa75f43f01b5a3e346a1888c91",
    "citacoes": 66,
    "gerado_em": "2026-09-25T02:45:35+00:00",
    "modelo": "claude-opus-5",
@@ -131,7 +131,7 @@
   {
    "file": "shein.json",
    "servico": "Shein",
-   "sha256": "497883e752036ed948a5f1641802ebe5269118b2d152526757be4b5bb65e05ef",
+   "sha256": "52b96611d31383ff27084644220a770f01a074f539dafeeabde58a070b9b7456",
    "citacoes": 46,
    "gerado_em": "2026-09-25T02:58:05+00:00",
    "modelo": "claude-opus-5",
@@ -140,7 +140,7 @@
   {
    "file": "snapchat.json",
    "servico": "Snapchat",
-   "sha256": "c504e07bdabf1f3256cf4bf595b4b336856891d1d0e107f7febd1812ead78518",
+   "sha256": "6aab25788a4e4838be6b9c5979805619e8d75215a6ba748e093eda55b8066338",
    "citacoes": 73,
    "gerado_em": "2026-09-25T03:04:03+00:00",
    "modelo": "claude-opus-5",
@@ -149,7 +149,7 @@
   {
    "file": "stripchat.json",
    "servico": "Stripchat",
-   "sha256": "c6490ba170cbaa89271cb5ef48d1073c4ccad53e8fedd7d3c0eeedd8dbfd8099",
+   "sha256": "49cce0331392ecce61bf2f139b8063478289f9d3e6cbce371d7fe72e4a25c529",
    "citacoes": 37,
    "gerado_em": "2026-09-25T03:05:35+00:00",
    "modelo": "claude-opus-5",
@@ -158,7 +158,7 @@
   {
    "file": "temu.json",
    "servico": "Temu",
-   "sha256": "a622fe294b9be18a587f3acfda39621773d800af70b8b78a057ed22f5fbf2afa",
+   "sha256": "392dce6697a61c0b3d18bffe926cc9d3775af0eaf6f9f26425a3ede5b413ace6",
    "citacoes": 36,
    "gerado_em": "2026-09-25T02:34:00+00:00",
    "modelo": "claude-opus-5",
@@ -167,7 +167,7 @@
   {
    "file": "tiktok.json",
    "servico": "TikTok",
-   "sha256": "6ececc191828566d2414f17761e0c1cbced7c4f0c75c68f482b5d060207f36ab",
+   "sha256": "a952299f3c05ec3f23da89930f3c766d0bb00bc5b05afaa56e5a87e3a5e859d3",
    "citacoes": 50,
    "gerado_em": "2026-09-25T03:15:32+00:00",
    "modelo": "claude-opus-5",
@@ -176,7 +176,7 @@
   {
    "file": "whatsapp.json",
    "servico": "WhatsApp",
-   "sha256": "2fc248ff2254976f76c9ad22c92eb906fdefe58da0d1d3841b5b13d05dc1f54b",
+   "sha256": "b3b067a46f4196132c451be928772a6b300afdd484c17ca1bffc9da9a8042e40",
    "citacoes": 50,
    "gerado_em": "2026-09-25T02:40:32+00:00",
    "modelo": "claude-opus-5",
@@ -185,7 +185,7 @@
   {
    "file": "wikipedia.json",
    "servico": "Wikipedia",
-   "sha256": "3cb4618b3a7b475f7822e74fd34d4a81607d83a56644fd54b94d750d3b763d86",
+   "sha256": "8c95ea2440b2e8991f1d053b18dd7845dc653e5b66421a062afab73540516abf",
    "citacoes": 53,
    "gerado_em": "2026-09-25T02:32:16+00:00",
    "modelo": "claude-opus-5",
@@ -194,7 +194,7 @@
   {
    "file": "x.json",
    "servico": "X",
-   "sha256": "e5e52c1888c76ea8a635cba36f13aa001c7f07faf071d17f1f07642c131fb694",
+   "sha256": "509a70ea6c0fbceeab5804ad67743cc5be3c6d8669949a503940382a33986e25",
    "citacoes": 57,
    "gerado_em": "2026-09-25T02:59:18+00:00",
    "modelo": "claude-opus-5",
@@ -203,7 +203,7 @@
   {
    "file": "xnxx.json",
    "servico": "XNXX",
-   "sha256": "bce06559f501802b2b7bad6eeaa02edd9604ae3786974b5ec0c7923d6bc1e356",
+   "sha256": "e029ac7fde4387be8dd3ab05fd2e4277be73acb589f835e1404f57312b1b5242",
    "citacoes": 43,
    "gerado_em": "2026-09-25T03:00:22+00:00",
    "modelo": "claude-opus-5",
@@ -212,7 +212,7 @@
   {
    "file": "xvideos.json",
    "servico": "XVideos",
-   "sha256": "061351ab4d7a8bcb5a8a7da7c9d7d6e22959bf088d0f1cfea17b03d3559db20d",
+   "sha256": "7a42bc8feb3bb61775b43b426de5a0aac63c35b0041b6e0defa8fbfd2265c62e",
    "citacoes": 40,
    "gerado_em": "2026-09-25T02:56:37+00:00",
    "modelo": "claude-opus-5",
@@ -221,7 +221,7 @@
   {
    "file": "youtube.json",
    "servico": "YouTube",
-   "sha256": "a9ac542fb1593bc10a9f771abbbbb9d7e6c0f645a6e762b8a9665289e480e589",
+   "sha256": "061aca0e120e6d3867ff5cb119c824bc35492594415f49419a6fa4ce4dc38e14",
    "citacoes": 70,
    "gerado_em": "2026-09-25T02:37:33+00:00",
    "modelo": "claude-opus-5",
@@ -230,7 +230,7 @@
   {
    "file": "zalando.json",
    "servico": "Zalando",
-   "sha256": "e4b95c6ebbb9de031a9d8dc1e389b693fa8c2fea96ceefce34d225a7e356ee0d",
+   "sha256": "4d521504f602eb6cf31ff75b0a820197c3ea268792a2acc9d041594de226c4bd",
    "citacoes": 40,
    "gerado_em": "2026-09-25T03:02:27+00:00",
    "modelo": "claude-opus-5",

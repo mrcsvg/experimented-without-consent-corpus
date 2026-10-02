@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "XNXX",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -14,362 +14,319 @@
   "V1": [
    {
     "doc": 1,
-    "verbatim": "We use, store, and process information, including personal information, about you to provide, understand, improve, and develop the Website, to protect us and our users and to comply with our legal obligations. We also use this information to offer you tailored content – like giving you more relevant search results.",
+    "file": "xnxx/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2 'HOW WE USE INFORMATION WE COLLECT', parágrafo de abertura",
-    "por_que": "Linguagem de 'improve and develop' sem menção a testar usuários — sustenta nível 1.",
-    "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We use, store, and process information, including personal information, about you to provide, understand, improve, and develop the Website, to protect us and our users and to comply with our legal obligations. We also use this information to offer you tailored content – like giving you more relevant search results."
    },
    {
     "doc": 1,
-    "verbatim": "Operate, protect, improve, and optimize the Website, such as by performing analytics and conducting research.",
+    "file": "xnxx/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1 'Provide, Improve, and Develop the Website', lista de finalidades",
-    "por_que": "Menciona 'conducting research' e analytics, mas sem nomear testes, variantes ou grupos; relevante para decidir entre 1 e 2.",
-    "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Operate, protect, improve, and optimize the Website, such as by performing analytics and conducting research."
    },
    {
     "doc": 1,
-    "verbatim": "To operate, protect, improve, and optimize the Website, and personalize and customize your experience (such as making suggestions or ranking search results), we conduct basic profiling (customer segmentation) based on your interactions with the Website, your search and viewing history, your profile information and preferences, and other content you submit to the Website.",
+    "file": "xnxx/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1, parágrafo sobre profiling",
-    "por_que": "Descreve profiling/segmentação e personalização — personalização declarada, não experimentação; ajuda o avaliador a evitar falso positivo de nível 2/3.",
-    "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "To operate, protect, improve, and optimize the Website, and personalize and customize your experience (such as making suggestions or ranking search results), we conduct basic profiling (customer segmentation) based on your interactions with the Website, your search and viewing history, your profile information and preferences, and other content you submit to the Website."
    },
    {
     "doc": 1,
-    "verbatim": "our legitimate business interests in processing your personal data, specifically for the purpose of improving the Website and our users’ experience with it, which we have determined can only be achieved by processing your personal data.",
-    "onde": "Doc 1, Privacy Policy, seção 2.1, 'Lawful bases'",
-    "por_que": "Confirma que o único enquadramento é de 'melhoria', sem vocabulário de teste/experimento, no registro vinculante.",
     "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 2.1, 'Lawful bases'",
+    "role": "unknown",
+    "verbatim": "our legitimate business interests in processing your personal data, specifically for the purpose of improving the Website and our users’ experience with it, which we have determined can only be achieved by processing your personal data."
    },
    {
     "doc": 2,
-    "verbatim": "This section describes how the recommender systems on the Website function.",
+    "file": "xnxx/02-tos.md",
     "onde": "Doc 2, ToS, Sumário, item 'Recommender System Transparency'",
-    "por_que": "O ToS descreve sistemas de recomendação, mas sem linguagem de teste/experimento — evidência negativa relevante.",
-    "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "This section describes how the recommender systems on the Website function."
    },
    {
     "doc": 2,
-    "verbatim": "The Website also provides a feature of suggesting 'related' videos which is based on viewing history of all users. When 'view history' is enabled, the system suggests more relevant videos based on the context of the respective video, considering criteria such as ‘popularity’, 'categories' or 'tags'.",
-    "onde": "Doc 2, ToS, seção 9 'Recommender System Transparency', segundo parágrafo",
-    "por_que": "Descrição detalhada do recomendador sem qualquer menção a variantes, A/B ou grupos de controle — reforça ausência de nível 2/3.",
     "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "onde": "Doc 2, ToS, seção 9 'Recommender System Transparency', segundo parágrafo",
+    "role": "unknown",
+    "verbatim": "The Website also provides a feature of suggesting 'related' videos which is based on viewing history of all users. When 'view history' is enabled, the system suggests more relevant videos based on the context of the respective video, considering criteria such as ‘popularity’, 'categories' or 'tags'."
    }
   ],
   "V2": [
    {
     "doc": 1,
-    "verbatim": "We use, store, and process information, including personal information, about you to provide, understand, improve, and develop the Website, to protect us and our users and to comply with our legal obligations.",
-    "onde": "Doc 1, Privacy Policy, seção 2, abertura",
-    "por_que": "Enquadramento explícito de service improvement.",
     "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 2, abertura",
+    "role": "unknown",
+    "verbatim": "We use, store, and process information, including personal information, about you to provide, understand, improve, and develop the Website, to protect us and our users and to comply with our legal obligations."
    },
    {
     "doc": 1,
-    "verbatim": "Operate, protect, improve, and optimize the Website, such as by performing analytics and conducting research.",
-    "onde": "Doc 1, Privacy Policy, seção 2.1, lista de finalidades",
-    "por_que": "Co-ocorrência de service improvement + research ('conducting research').",
     "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 2.1, lista de finalidades",
+    "role": "unknown",
+    "verbatim": "Operate, protect, improve, and optimize the Website, such as by performing analytics and conducting research."
    },
    {
     "doc": 2,
-    "verbatim": "NKL Associates is committed to fostering a safe and secure online environment for users of the Website.",
+    "file": "xnxx/02-tos.md",
     "onde": "Doc 2, ToS, seção 8.A 'Content Moderation', primeira frase",
-    "por_que": "Possível enquadramento social-good/community, embora ligado a moderação e não a pesquisa/experimentação.",
-    "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "NKL Associates is committed to fostering a safe and secure online environment for users of the Website."
    },
    {
     "doc": 2,
-    "verbatim": "This cooperative effort reflects our commitment to upholding the highest standards of user safety and promoting a positive online experience for all. Through this collaborative approach, we aim to continuously improve our content moderation processes and maintain a platform that prioritizes the well-being of our users and the integrity of our online community.",
-    "onde": "Doc 2, ToS, seção 8.A, parágrafo sobre Trusted Flaggers",
-    "por_que": "Linguagem de 'well-being of our users' e 'online community' — candidata a social-good/community, ainda que fora de contexto de experimentação.",
     "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "onde": "Doc 2, ToS, seção 8.A, parágrafo sobre Trusted Flaggers",
+    "role": "unknown",
+    "verbatim": "This cooperative effort reflects our commitment to upholding the highest standards of user safety and promoting a positive online experience for all. Through this collaborative approach, we aim to continuously improve our content moderation processes and maintain a platform that prioritizes the well-being of our users and the integrity of our online community."
    },
    {
     "doc": 4,
-    "verbatim": "Purpose of research supported: Detection and understanding of systemic risks; assessment of mitigation measures.",
+    "file": "xnxx/04-dsa-data-catalogue.md",
     "onde": "Doc 4, DSA Data Catalogue, entrada 'Video database'",
-    "por_que": "Enquadramento de research (acesso de pesquisadores a dados), em documento não-vinculante.",
-    "file": "xnxx/04-dsa-data-catalogue.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Purpose of research supported: Detection and understanding of systemic risks; assessment of mitigation measures."
    },
    {
     "doc": 4,
-    "verbatim": "Description: User-level interaction logs (likes, comments) to study amplification effects and exposure patterns.",
-    "onde": "Doc 4, DSA Data Catalogue, entrada 'User interaction dataset (pseudonymised)'",
-    "por_que": "Linguagem de pesquisa sobre usuários ('study amplification effects') — pode sustentar research e, para alguns avaliadores, aproximar-se de human-subjects research.",
     "file": "xnxx/04-dsa-data-catalogue.md",
-    "role": "unknown"
+    "onde": "Doc 4, DSA Data Catalogue, entrada 'User interaction dataset (pseudonymised)'",
+    "role": "unknown",
+    "verbatim": "Description: User-level interaction logs (likes, comments) to study amplification effects and exposure patterns."
    }
   ],
   "V3": [
    {
     "doc": 1,
-    "verbatim": "To operate, protect, improve, and optimize the Website, and personalize and customize your experience (such as making suggestions or ranking search results), we conduct basic profiling (customer segmentation) based on your interactions with the Website, your search and viewing history, your profile information and preferences, and other content you submit to the Website.",
-    "onde": "Doc 1, Privacy Policy, seção 2.1",
-    "por_que": "Nomeia superfícies ('suggestions', 'ranking search results') mas como personalização declarada, não como alvo de experimento — central para V3a e V3b.",
     "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 2.1",
+    "role": "unknown",
+    "verbatim": "To operate, protect, improve, and optimize the Website, and personalize and customize your experience (such as making suggestions or ranking search results), we conduct basic profiling (customer segmentation) based on your interactions with the Website, your search and viewing history, your profile information and preferences, and other content you submit to the Website."
    },
    {
     "doc": 2,
-    "verbatim": "On the main page, key factors include (i) the user's chosen location (country) and, within that location, (ii) the video's popularity, determined by the total number of clicks from recipients.",
+    "file": "xnxx/02-tos.md",
     "onde": "Doc 2, ToS, seção 9 'Recommender System Transparency'",
-    "por_que": "Detalha critérios de ranking, mas sem descrever teste ou variantes; evidência para V3b (ranking como feature, não como alvo experimental).",
-    "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "On the main page, key factors include (i) the user's chosen location (country) and, within that location, (ii) the video's popularity, determined by the total number of clicks from recipients."
    },
    {
     "doc": 2,
-    "verbatim": "Users can easily modify these parameters by selecting a different location on the Website’ online interface.",
-    "onde": "Doc 2, ToS, seção 9",
-    "por_que": "Controle do usuário sobre parâmetros do recomendador; relevante como contraste com alvo de experimento.",
     "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "onde": "Doc 2, ToS, seção 9",
+    "role": "unknown",
+    "verbatim": "Users can easily modify these parameters by selecting a different location on the Website’ online interface."
    },
    {
     "doc": 4,
-    "verbatim": "Description: Show for how long a video has been displayed on home listing for each Geographic zone.",
-    "onde": "Doc 4, DSA Data Catalogue, entrada 'Videos home exposure'",
-    "por_que": "Divulgação de dados sobre exposição na home; o avaliador deve decidir se isso é atividade testada (provavelmente não) para V3a/V3c.",
     "file": "xnxx/04-dsa-data-catalogue.md",
-    "role": "unknown"
+    "onde": "Doc 4, DSA Data Catalogue, entrada 'Videos home exposure'",
+    "role": "unknown",
+    "verbatim": "Description: Show for how long a video has been displayed on home listing for each Geographic zone."
    },
    {
     "doc": 2,
-    "verbatim": "These efforts include employing avant-garde automated detection technologies capable of identifying various types of illegal content, supplemented by manual review conducted by our well-trained team of human content moderators.",
-    "onde": "Doc 2, ToS, seção 8.A",
-    "por_que": "Descreve tecnologia de detecção, não experimento; útil para evitar falso positivo em V3c.",
     "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "onde": "Doc 2, ToS, seção 8.A",
+    "role": "unknown",
+    "verbatim": "These efforts include employing avant-garde automated detection technologies capable of identifying various types of illegal content, supplemented by manual review conducted by our well-trained team of human content moderators."
    }
   ],
   "V4": [
    {
     "doc": 1,
-    "verbatim": "Lawful bases : we rely on the following three lawful bases to process your personal data for the specific purpose of providing, improving and developing the Website as described above.",
+    "file": "xnxx/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1, 'Lawful bases'",
-    "por_que": "É a finalidade declarada mais próxima de cobrir experimentação ('improving and developing the Website') e introduz as bases legais.",
-    "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Lawful bases : we rely on the following three lawful bases to process your personal data for the specific purpose of providing, improving and developing the Website as described above."
    },
    {
     "doc": 1,
-    "verbatim": "we process this information in order to adequately perform the contract with you;",
+    "file": "xnxx/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1, primeira base listada",
-    "por_que": "Base legal: contract.",
-    "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "we process this information in order to adequately perform the contract with you;"
    },
    {
     "doc": 1,
-    "verbatim": "our legitimate business interests in processing your personal data, specifically for the purpose of improving the Website and our users’ experience with it, which we have determined can only be achieved by processing your personal data. We consider the processing of your personal data to be proportionate with your interests, rights and freedoms;",
+    "file": "xnxx/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1, segunda base listada",
-    "por_que": "Base legal: legitimate interest, atrelada explicitamente à melhoria do serviço.",
-    "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "our legitimate business interests in processing your personal data, specifically for the purpose of improving the Website and our users’ experience with it, which we have determined can only be achieved by processing your personal data. We consider the processing of your personal data to be proportionate with your interests, rights and freedoms;"
    },
    {
     "doc": 1,
-    "verbatim": "to the extent necessary to perform our contract with you and customise your experience, consent to process special categories of data.",
+    "file": "xnxx/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1, terceira base listada",
-    "por_que": "Base legal: consent (para categorias especiais), ligada a customização da experiência.",
-    "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "to the extent necessary to perform our contract with you and customise your experience, consent to process special categories of data."
    },
    {
     "doc": 1,
-    "verbatim": "For the individuals who fall within the remaining three categories of users listed above (i.e., Category 2; Category 3; and Category 4), personal data is processed in line with this Privacy Policy (hereinafter referred to as the “Privacy Policy” ).",
+    "file": "xnxx/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, preâmbulo, após a lista de categorias de usuários",
-    "por_que": "Mostra que a aplicação das bases é gatilhada por categoria de usuário (conta), não por região/IP — relevante para v4_region_gated.",
-    "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "For the individuals who fall within the remaining three categories of users listed above (i.e., Category 2; Category 3; and Category 4), personal data is processed in line with this Privacy Policy (hereinafter referred to as the “Privacy Policy” )."
    },
    {
     "doc": 1,
-    "verbatim": "Where we transfer, store and process your personal data outside of the EEA we have ensured that appropriate safeguards are in place to ensure adequate level of data protection.",
-    "onde": "Doc 1, Privacy Policy, seção 6 'OPERATING GLOBALLY'",
-    "por_que": "Única referência a geografia no tratamento; não condiciona a tabela de bases legais a IP/locale da UE.",
     "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 6 'OPERATING GLOBALLY'",
+    "role": "unknown",
+    "verbatim": "Where we transfer, store and process your personal data outside of the EEA we have ensured that appropriate safeguards are in place to ensure adequate level of data protection."
    },
    {
     "doc": 3,
-    "verbatim": "We use cookies which are not essential for operation of our Website, such as functionality and analytical cookies, only with your prior express consent.",
-    "onde": "Doc 3, Cookie Policy, seção 4 'How can you manage Cookies?'",
-    "por_que": "Base de consentimento para cookies não essenciais, aplicada sem restrição regional explícita.",
     "file": "xnxx/03-cookiepolicy.md",
-    "role": "unknown"
+    "onde": "Doc 3, Cookie Policy, seção 4 'How can you manage Cookies?'",
+    "role": "unknown",
+    "verbatim": "We use cookies which are not essential for operation of our Website, such as functionality and analytical cookies, only with your prior express consent."
    }
   ],
   "V5": [
    {
     "doc": 1,
-    "verbatim": "You have a right to require us not to process your personal information for certain specific purposes (including profiling) where such processing is based on legitimate interest. If you object to such processing we will no longer process your personal information for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the establishment, exercise or defence of legal claims.",
-    "onde": "Doc 1, Privacy Policy, seção 5.6 'Objection to Processing'",
-    "por_que": "Direito genérico de objeção do GDPR (incluindo profiling), sem controle específico de experimentação — âncora para 'GDPR-objection-only'.",
     "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 5.6 'Objection to Processing'",
+    "role": "unknown",
+    "verbatim": "You have a right to require us not to process your personal information for certain specific purposes (including profiling) where such processing is based on legitimate interest. If you object to such processing we will no longer process your personal information for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the establishment, exercise or defence of legal claims."
    },
    {
     "doc": 1,
-    "verbatim": "Where you have provided your consent to the processing of your personal information by us, you may withdraw your consent at any time by changing your account settings.",
-    "onde": "Doc 1, Privacy Policy, seção 5.5 'Withdrawing Consent and Restriction of Processing'",
-    "por_que": "Retirada de consentimento genérica, não específica a experimentos.",
     "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 5.5 'Withdrawing Consent and Restriction of Processing'",
+    "role": "unknown",
+    "verbatim": "Where you have provided your consent to the processing of your personal information by us, you may withdraw your consent at any time by changing your account settings."
    },
    {
     "doc": 3,
-    "verbatim": "You can manage your consent preferences or revoke your consent at any time using our cookie banner .",
+    "file": "xnxx/03-cookiepolicy.md",
     "onde": "Doc 3, Cookie Policy, seção 4",
-    "por_que": "Banner de cookies — falso positivo clássico; governa cookies/ads, não experimentação.",
-    "file": "xnxx/03-cookiepolicy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "You can manage your consent preferences or revoke your consent at any time using our cookie banner ."
    },
    {
     "doc": 3,
-    "verbatim": "Only with your prior consent, Partner(s) may use their third-party cookies to carry out retargeting. This data is used solely to deliver more relevant advertising and is not intended to personally identify you.",
-    "onde": "Doc 3, Cookie Policy, seção 3 'Third parties'",
-    "por_que": "Confirma que o consentimento do banner rege publicidade/retargeting, não testes.",
     "file": "xnxx/03-cookiepolicy.md",
-    "role": "unknown"
+    "onde": "Doc 3, Cookie Policy, seção 3 'Third parties'",
+    "role": "unknown",
+    "verbatim": "Only with your prior consent, Partner(s) may use their third-party cookies to carry out retargeting. This data is used solely to deliver more relevant advertising and is not intended to personally identify you."
    },
    {
     "doc": 2,
-    "verbatim": "Users can easily impact this by selecting a different category or choosing another content creator within the Website’s online interface.",
-    "onde": "Doc 2, ToS, seção 9",
-    "por_que": "Controle sobre recomendação, não opt-out de experimentação; útil para descartar 'dedicated'.",
     "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "onde": "Doc 2, ToS, seção 9",
+    "role": "unknown",
+    "verbatim": "Users can easily impact this by selecting a different category or choosing another content creator within the Website’s online interface."
    }
   ],
   "V6": [],
   "V7": [
    {
     "doc": 1,
-    "verbatim": "Send you service or support messages, updates, security alerts, and account notifications.",
-    "onde": "Doc 1, Privacy Policy, seção 2.1, lista de finalidades",
-    "por_que": "Avisos de serviço — explicitamente excluídos como debriefing pelo codebook; evidência de que o tema de aviso posterior de experimento não é tratado.",
     "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 2.1, lista de finalidades",
+    "role": "unknown",
+    "verbatim": "Send you service or support messages, updates, security alerts, and account notifications."
    },
    {
     "doc": 2,
-    "verbatim": "We will notify you of major changes made to these Terms of Service, such as those relating to the characteristics of the service provided, or when we modify the rules on information that is permitted on the Website, or other such changes which could directly impact your ability to make use of the Website.",
-    "onde": "Doc 2, ToS, seção 16 'General'",
-    "por_que": "Aviso de mudança de serviço — falso positivo listado no codebook; ajuda o avaliador a marcar 'No' substantivo.",
     "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "onde": "Doc 2, ToS, seção 16 'General'",
+    "role": "unknown",
+    "verbatim": "We will notify you of major changes made to these Terms of Service, such as those relating to the characteristics of the service provided, or when we modify the rules on information that is permitted on the Website, or other such changes which could directly impact your ability to make use of the Website."
    },
    {
     "doc": 1,
-    "verbatim": "For the individuals who have created an account on or through this Website (i.e., those individuals who fall within the Category 2, Category 3, or Category 4 of users listed on page 1 of this Privacy Policy), we will also send you an email to inform you of any changes.",
-    "onde": "Doc 1, Privacy Policy, seção 7 'CHANGES TO THIS PRIVACY POLICY'",
-    "por_que": "Notificação de mudança de política, não debriefing de experimento.",
     "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 7 'CHANGES TO THIS PRIVACY POLICY'",
+    "role": "unknown",
+    "verbatim": "For the individuals who have created an account on or through this Website (i.e., those individuals who fall within the Category 2, Category 3, or Category 4 of users listed on page 1 of this Privacy Policy), we will also send you an email to inform you of any changes."
    }
   ],
   "V8": [
    {
     "doc": 1,
-    "verbatim": "Conduct security investigations and risk assessments, including any reports third parties may file about you or the content you have uploaded pursuant to the Terms of Service.",
+    "file": "xnxx/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.2 'Protect us and our Users and Comply with Legal Obligations'",
-    "por_que": "Única menção a 'risk assessments' nos documentos ao usuário, mas ligada a segurança/abuso, não a experimentos — candidato a borderline/No com nota.",
-    "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Conduct security investigations and risk assessments, including any reports third parties may file about you or the content you have uploaded pursuant to the Terms of Service."
    },
    {
     "doc": 1,
-    "verbatim": "We review our information collection, storage and processing practices regularly, including physical security measures, to guard against unauthorised access to systems.",
+    "file": "xnxx/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 4 'SECURITY'",
-    "por_que": "Revisão de práticas em sentido de segurança, não revisão ética de experimentos.",
-    "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We review our information collection, storage and processing practices regularly, including physical security measures, to guard against unauthorised access to systems."
    },
    {
     "doc": 1,
-    "verbatim": "We have appointed a data protection officer (“ DPO ”) .",
-    "onde": "Doc 1, Privacy Policy, seção 8 'CONTACT US'",
-    "por_que": "Órgão/função de supervisão nomeado, mas de proteção de dados e não comitê de ética de pesquisa — relevante para decidir No.",
     "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 8 'CONTACT US'",
+    "role": "unknown",
+    "verbatim": "We have appointed a data protection officer (“ DPO ”) ."
    },
    {
     "doc": 4,
-    "verbatim": "Purpose of research supported: Detection and understanding of systemic risks; assessment of mitigation measures.",
-    "onde": "Doc 4, DSA Data Catalogue, entrada 'Video database'",
-    "por_que": "Avaliação de risco sistêmico do DSA aparece em documento não voltado ao consumidor — base para a nota de gap regulatório-vs-documento.",
     "file": "xnxx/04-dsa-data-catalogue.md",
-    "role": "unknown"
+    "onde": "Doc 4, DSA Data Catalogue, entrada 'Video database'",
+    "role": "unknown",
+    "verbatim": "Purpose of research supported: Detection and understanding of systemic risks; assessment of mitigation measures."
    },
    {
     "doc": 2,
-    "verbatim": "NKL Associates shall handle such complaints submitted through its internal complaint-handling system in a timely, diligent, non-discriminatory and non-arbitrary manner, under the supervision of qualified content moderators, and not solely on the basis of automated means.",
-    "onde": "Doc 2, ToS, seção 13.1 'Handling complaints internally'",
-    "por_que": "Supervisão humana de decisões de moderação — não é revisão ética de experimentos; útil para descartar Yes.",
     "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "onde": "Doc 2, ToS, seção 13.1 'Handling complaints internally'",
+    "role": "unknown",
+    "verbatim": "NKL Associates shall handle such complaints submitted through its internal complaint-handling system in a timely, diligent, non-discriminatory and non-arbitrary manner, under the supervision of qualified content moderators, and not solely on the basis of automated means."
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "This Privacy Policy for Categories 2, 3 and 4 above describes how we collect, use, process, and disclose your information, including personal information, in conjunction with your access to and use of the Website.",
-    "onde": "Doc 1, Privacy Policy, preâmbulo",
-    "por_que": "Identifica o documento como privacy policy, e o conteúdo de 'improve and develop' vive nele.",
     "file": "xnxx/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, preâmbulo",
+    "role": "unknown",
+    "verbatim": "This Privacy Policy for Categories 2, 3 and 4 above describes how we collect, use, process, and disclose your information, including personal information, in conjunction with your access to and use of the Website."
    },
    {
     "doc": 2,
-    "verbatim": "You must agree to the terms of our privacy policy before you may create an account or access certain services and functionalities described in the privacy policy.",
-    "onde": "Doc 2, ToS, seção 1 'Preamble'",
-    "por_que": "Estabelece que a privacy policy é incorporada ao acordo — sustenta registro 'binding' para o Doc 1.",
     "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "onde": "Doc 2, ToS, seção 1 'Preamble'",
+    "role": "unknown",
+    "verbatim": "You must agree to the terms of our privacy policy before you may create an account or access certain services and functionalities described in the privacy policy."
    },
    {
     "doc": 2,
-    "verbatim": "To the extent permitted by law, such rules, guidelines, statements and policies are hereby incorporated by reference into these Terms of Service.",
-    "onde": "Doc 2, ToS, seção 1 'Preamble'",
-    "por_que": "Cookie policy e demais políticas são incorporadas por referência ao ToS — relevante para classificar o registro do Doc 3.",
     "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "onde": "Doc 2, ToS, seção 1 'Preamble'",
+    "role": "unknown",
+    "verbatim": "To the extent permitted by law, such rules, guidelines, statements and policies are hereby incorporated by reference into these Terms of Service."
    },
    {
     "doc": 2,
-    "verbatim": "These are official terms and conditions and form a legally binding agreement between you and NKL Associates s.r.o.",
-    "onde": "Doc 2, ToS, seção 1 'Preamble'",
-    "por_que": "Declara natureza vinculante do ToS (v9_where: ToS/conditions; v9_register: binding).",
     "file": "xnxx/02-tos.md",
-    "role": "unknown"
+    "onde": "Doc 2, ToS, seção 1 'Preamble'",
+    "role": "unknown",
+    "verbatim": "These are official terms and conditions and form a legally binding agreement between you and NKL Associates s.r.o."
    },
    {
     "doc": 4,
-    "verbatim": "This data dictionary describes the available data names.",
-    "onde": "Doc 4, DSA Data Catalogue, linha de abertura",
-    "por_que": "Catálogo de dados DSA é documento informativo/regulatório, não se declara parte do acordo com o usuário — candidato a não-vinculante.",
     "file": "xnxx/04-dsa-data-catalogue.md",
-    "role": "unknown"
+    "onde": "Doc 4, DSA Data Catalogue, linha de abertura",
+    "role": "unknown",
+    "verbatim": "This data dictionary describes the available data names."
    },
    {
     "doc": 3,
-    "verbatim": "We reserve the right to modify this Cookie Policy at any time in accordance with this provision.",
-    "onde": "Doc 3, Cookie Policy, seção 6",
-    "por_que": "Cookie policy como política própria da plataforma, incorporada ao ToS; ajuda a fixar o conjunto de locais de divulgação.",
     "file": "xnxx/03-cookiepolicy.md",
-    "role": "unknown"
+    "onde": "Doc 3, Cookie Policy, seção 6",
+    "role": "unknown",
+    "verbatim": "We reserve the right to modify this Cookie Policy at any time in accordance with this provision."
    }
   ]
  },
@@ -377,5 +334,6 @@
  "uso": {
   "input": 39487,
   "output": 6565
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

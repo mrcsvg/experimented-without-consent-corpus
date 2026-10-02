@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "WhatsApp",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -10,419 +10,369 @@
   "V1": [
    {
     "doc": 1,
-    "verbatim": "test out and experiment with new features to see if they work as expected.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'How and Why We Process Your Information', tabela 'Processing necessary to perform our contract with you', item 'To generally operate and provide our Services, we:'",
-    "por_que": "Uso explícito do verbo 'experiment' aplicado a novas features no registro vinculante; avaliador deve decidir se 'experiment with new features' sem menção a variantes/grupos ultrapassa a fronteira 2 vs 3.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "test out and experiment with new features to see if they work as expected."
    },
    {
     "doc": 1,
-    "verbatim": "undertake experiments to evaluate the impact of new features.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Legitimate Interests', linha 'To improve the WhatsApp Service by developing new features or updating existing features, we:'",
-    "por_que": "Nomeia 'experiments' em sentido experimental (avaliar impacto de novas features) dentro da política de privacidade vinculante — evidência central para V1 nível 3 e para v1_register.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "undertake experiments to evaluate the impact of new features."
    },
    {
     "doc": 1,
-    "verbatim": "product research and testing (features of) services to help us improve our Services; and",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'How We Work With Other Meta Companies', lista de serviços prestados por Meta Companies no Reino Unido e Estados Unidos",
-    "por_que": "Combina 'research' e 'testing' de features como atividade declarada, reforçando reconhecimento de teste com usuários.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "product research and testing (features of) services to help us improve our Services; and"
    },
    {
     "doc": 1,
-    "verbatim": "generate and validate metrics to understand how and how often our Services are used and how this compares to usage across the Meta Companies, in order to inform and improve product direction and development and forecast future adoption of the service or features.",
-    "onde": "Doc 1, seção 'Legitimate Interests', linha 'To improve the WhatsApp Service by developing new features or updating existing features'",
-    "por_que": "Contexto imediato do item 'undertake experiments'; mostra o enquadramento de melhoria de produto em que o experimento é declarado.",
     "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "onde": "Doc 1, seção 'Legitimate Interests', linha 'To improve the WhatsApp Service by developing new features or updating existing features'",
+    "role": "binding",
+    "verbatim": "generate and validate metrics to understand how and how often our Services are used and how this compares to usage across the Meta Companies, in order to inform and improve product direction and development and forecast future adoption of the service or features."
    },
    {
     "doc": 2,
-    "verbatim": "We are always trying to improve our Services. That means we may expand, add, or remove our Services, features, functionalities, and the support of certain devices and platforms.",
+    "file": "whatsapp/02-terms-of-service-eea.md",
     "onde": "Doc 2, seção 'Availability And Termination Of Our Services', subitem 'Availability Of Our Services'",
-    "por_que": "Nos Termos (vinculante) só há linguagem de 'improve' sem menção a teste — relevante para comparar o nível por registro.",
-    "file": "whatsapp/02-terms-of-service-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We are always trying to improve our Services. That means we may expand, add, or remove our Services, features, functionalities, and the support of certain devices and platforms."
    },
    {
     "doc": 2,
-    "verbatim": "We are constantly working to improve our Services and develop new features to make our products even better for you and our community.",
-    "onde": "Doc 2, seção 'Other', parágrafo sobre atualização dos Termos",
-    "por_que": "Confirma que os ToS ficam apenas no patamar de 'melhorar', ao contrário da Política de Privacidade.",
     "file": "whatsapp/02-terms-of-service-eea.md",
-    "role": "binding"
+    "onde": "Doc 2, seção 'Other', parágrafo sobre atualização dos Termos",
+    "role": "binding",
+    "verbatim": "We are constantly working to improve our Services and develop new features to make our products even better for you and our community."
    }
   ],
   "V2": [
    {
     "doc": 1,
-    "verbatim": "To improve the WhatsApp Service by developing new features or updating existing features, we:",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Legitimate Interests', cabeçalho da linha da tabela",
-    "por_que": "Enquadramento explícito de service improvement associado diretamente à menção de experimentos.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "To improve the WhatsApp Service by developing new features or updating existing features, we:"
    },
    {
     "doc": 1,
-    "verbatim": "product research and testing (features of) services to help us improve our Services; and",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'How We Work With Other Meta Companies'",
-    "por_que": "Co-ocorrência de 'research' com 'improve our Services' — sustenta marcação dupla (service improvement + research).",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "product research and testing (features of) services to help us improve our Services; and"
    },
    {
     "doc": 1,
-    "verbatim": "invite you to take surveys or provide feedback and analyse your responses to gain insights into users’ views (for example, about the Service and Meta Companies).",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Legitimate Interests', linha 'To improve the WhatsApp Service by developing new features or updating existing features'",
-    "por_que": "Pesquisa com usuários via surveys; avaliador decide se configura 'research' e/ou aproxima de human-subjects research.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "invite you to take surveys or provide feedback and analyse your responses to gain insights into users’ views (for example, about the Service and Meta Companies)."
    },
    {
     "doc": 1,
-    "verbatim": "It is in our interest and in the interest of WhatsApp users to evaluate the use of the services and adoption of new features to inform the development of future features and improve product direction and development.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Legitimate Interests', coluna 'Legitimate Interests Relied On' da linha de melhoria do serviço",
-    "por_que": "Justificativa declarada; mistura interesse da empresa e dos usuários, sem linguagem de bem-estar comunitário.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "It is in our interest and in the interest of WhatsApp users to evaluate the use of the services and adoption of new features to inform the development of future features and improve product direction and development."
    },
    {
     "doc": 1,
-    "verbatim": "In our interest to measure the use of our Services and count the people who interact with the WhatsApp services in order to inform business decisions and to enable provision of accurate and reliable reporting.",
-    "onde": "Doc 1, seção 'Legitimate Interests', linha 'Business intelligence and analytics'",
-    "por_que": "Enquadramento de business intelligence/analytics, distinto de bem-estar social; útil para descartar social-good.",
     "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "onde": "Doc 1, seção 'Legitimate Interests', linha 'Business intelligence and analytics'",
+    "role": "binding",
+    "verbatim": "In our interest to measure the use of our Services and count the people who interact with the WhatsApp services in order to inform business decisions and to enable provision of accurate and reliable reporting."
    },
    {
     "doc": 2,
-    "verbatim": "We are constantly working to improve our Services and develop new features to make our products even better for you and our community.",
-    "onde": "Doc 2, seção 'Other'",
-    "por_que": "Única menção a 'community' nos documentos; avaliador deve julgar se é linguagem de social-good/community ou apenas retórica de melhoria.",
     "file": "whatsapp/02-terms-of-service-eea.md",
-    "role": "binding"
+    "onde": "Doc 2, seção 'Other'",
+    "role": "binding",
+    "verbatim": "We are constantly working to improve our Services and develop new features to make our products even better for you and our community."
    }
   ],
   "V3": [
    {
     "doc": 1,
-    "verbatim": "test out and experiment with new features to see if they work as expected.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, tabela 'Processing necessary to perform our contract with you', item 'To generally operate and provide our Services'",
-    "por_que": "Nomeia a superfície testada ('new features'), sustentando V3a=Yes, mas sem alvo específico (ranking, preço, afeto).",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "test out and experiment with new features to see if they work as expected."
    },
    {
     "doc": 1,
-    "verbatim": "undertake experiments to evaluate the impact of new features.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Legitimate Interests', linha de melhoria do serviço",
-    "por_que": "Atividade nomeada de forma genérica; não identifica experimento específico ou ativo (V3c).",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "undertake experiments to evaluate the impact of new features."
    },
    {
     "doc": 1,
-    "verbatim": "facilitate and provide access to exclusive features when you choose to sign up for subscription features.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, tabela de contrato, item 'To generally operate and provide our Services'",
-    "por_que": "Menção a assinatura/features exclusivas; relevante para verificar se há alvo de preço — aqui não há teste de preço.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "facilitate and provide access to exclusive features when you choose to sign up for subscription features."
    },
    {
     "doc": 1,
-    "verbatim": "If you choose to sign up for subscription features , for example, Meta One, Meta receives Device And Connection Information (e.g. an identifier used for your subscription, app version), Usage Information (e.g. which entry point you use for subscriptions), and User Choices (e.g. whether you have added your WhatsApp account to an Accounts Centre and your subscription status) to provide the subscription.",
-    "onde": "Doc 1, seção 'How We Work With Other Meta Companies', subseção 'Where Meta provides optional experiences through WhatsApp'",
-    "por_que": "Única referência a assinatura paga; não descreve preço como alvo de experimento — apoia v3_pricing=No.",
     "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "onde": "Doc 1, seção 'How We Work With Other Meta Companies', subseção 'Where Meta provides optional experiences through WhatsApp'",
+    "role": "binding",
+    "verbatim": "If you choose to sign up for subscription features , for example, Meta One, Meta receives Device And Connection Information (e.g. an identifier used for your subscription, app version), Usage Information (e.g. which entry point you use for subscriptions), and User Choices (e.g. whether you have added your WhatsApp account to an Accounts Centre and your subscription status) to provide the subscription."
    },
    {
     "doc": 3,
-    "verbatim": "Advertising. We use cookies when you use Status and Channels, which are optional, to help show you ads and measure how they perform. For example, we use a unique user identifier that allows us to display the ad correctly to users.",
-    "onde": "Doc 3, seção 'How we use cookies', item 'Advertising'",
-    "por_que": "Medição de performance de anúncios pode ser confundida com alvo de experimento; útil para o avaliador descartar falso positivo.",
     "file": "whatsapp/03-cookies.md",
-    "role": "unknown"
+    "onde": "Doc 3, seção 'How we use cookies', item 'Advertising'",
+    "role": "unknown",
+    "verbatim": "Advertising. We use cookies when you use Status and Channels, which are optional, to help show you ads and measure how they perform. For example, we use a unique user identifier that allows us to display the ad correctly to users."
    }
   ],
   "V4": [
    {
     "doc": 1,
-    "verbatim": "To improve the WhatsApp Service by developing new features or updating existing features, we:",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Legitimate Interests', cabeçalho da linha",
-    "por_que": "A finalidade que cobre experimentação está listada sob o cabeçalho 'Legitimate Interests', indicando a base legal declarada.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "To improve the WhatsApp Service by developing new features or updating existing features, we:"
    },
    {
     "doc": 1,
-    "verbatim": "We rely on our legitimate interests or the legitimate interests of a third-party, such as our users, where they are not outweighed by your interests or fundamental rights and freedoms (\"legitimate interests\"):",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Legitimate Interests', parágrafo introdutório",
-    "por_que": "Declaração explícita da base legal de interesse legítimo aplicável às finalidades listadas, incluindo melhoria/experimentos.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We rely on our legitimate interests or the legitimate interests of a third-party, such as our users, where they are not outweighed by your interests or fundamental rights and freedoms (\"legitimate interests\"):"
    },
    {
     "doc": 1,
-    "verbatim": "test out and experiment with new features to see if they work as expected.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, tabela 'Processing necessary to perform our contract with you'",
-    "por_que": "O mesmo item aparece também sob 'necessary to perform our contract' — evidência de que 'contract' também é base declarada.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "test out and experiment with new features to see if they work as expected."
    },
    {
     "doc": 1,
-    "verbatim": "For all users who have the legal capacity to enter into an enforceable contract (for example, by being the age of majority or above in their country of residence), we process information as necessary to conclude and perform our contract with you, our Terms .",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Processing necessary to perform our contract with you'",
-    "por_que": "Define a base contratual para as finalidades daquela tabela, onde consta 'test out and experiment with new features'.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "For all users who have the legal capacity to enter into an enforceable contract (for example, by being the age of majority or above in their country of residence), we process information as necessary to conclude and perform our contract with you, our Terms ."
    },
    {
     "doc": 1,
-    "verbatim": "Under applicable data protection law in the European Region (such as the GDPR), companies must have a legal basis to process information. We rely on different legal bases to process your information for the various purposes described in this Privacy Policy.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'How and Why We Process Your Information and Our Legal Basis For Processing'",
-    "por_que": "Indica que a tabela de bases legais é específica do documento EEA; relevante para v4_region_gated.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Under applicable data protection law in the European Region (such as the GDPR), companies must have a legal basis to process information. We rely on different legal bases to process your information for the various purposes described in this Privacy Policy."
    },
    {
     "doc": 1,
-    "verbatim": "If you live in the European Region , WhatsApp Ireland Limited (\" WhatsApp ,\" \" our ,\" \" we ,\" or \" us \") provides our Services to you under the Terms of Service and this Privacy Policy.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'WhatsApp Legal Info'",
-    "por_que": "Confirma que este documento se aplica apenas à Região Europeia (gating regional por residência declarada).",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "If you live in the European Region , WhatsApp Ireland Limited (\" WhatsApp ,\" \" our ,\" \" we ,\" or \" us \") provides our Services to you under the Terms of Service and this Privacy Policy."
    },
    {
     "doc": 1,
-    "verbatim": "Even if you do not choose to use our precise location-related features (see Information Shared by You and by WhatsApp with Third Parties ), we use IP addresses and other information like phone number area codes, to estimate your general location (e.g., country/region).",
-    "onde": "Doc 1, seção 'Information We Collect', item 'General Location Information'",
-    "por_que": "Mostra o mecanismo de determinação de localização (IP/área do número), pertinente à checagem de gating por IP/locale.",
     "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "onde": "Doc 1, seção 'Information We Collect', item 'General Location Information'",
+    "role": "binding",
+    "verbatim": "Even if you do not choose to use our precise location-related features (see Information Shared by You and by WhatsApp with Third Parties ), we use IP addresses and other information like phone number area codes, to estimate your general location (e.g., country/region)."
    },
    {
     "doc": 2,
-    "verbatim": "If you live outside the UK or the European Region , WhatsApp LLC provides the Services to you under this Terms of Service and Privacy Policy .",
-    "onde": "Doc 2, cabeçalho antes de 'About Our Services'",
-    "por_que": "Evidencia a existência de versões distintas por região, elemento do julgamento de v4_region_gated.",
     "file": "whatsapp/02-terms-of-service-eea.md",
-    "role": "binding"
+    "onde": "Doc 2, cabeçalho antes de 'About Our Services'",
+    "role": "binding",
+    "verbatim": "If you live outside the UK or the European Region , WhatsApp LLC provides the Services to you under this Terms of Service and Privacy Policy ."
    }
   ],
   "V5": [
    {
     "doc": 1,
-    "verbatim": "You have the right to object to and restrict our processing of your information. To submit an objection use this form and select “How can I make an objection to the processing of my information”.",
-    "onde": "Doc 1, seção 'How To Exercise Your Rights'",
-    "por_que": "Direito genérico de objeção do GDPR, sem controle específico de experimentação — âncora para 'GDPR-objection-only'.",
     "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "onde": "Doc 1, seção 'How To Exercise Your Rights'",
+    "role": "binding",
+    "verbatim": "You have the right to object to and restrict our processing of your information. To submit an objection use this form and select “How can I make an objection to the processing of my information”."
    },
    {
     "doc": 1,
-    "verbatim": "You have the right to object to, and seek restriction of, this processing. To exercise your rights, visit the How To Exercise Your Rights section of this Privacy Policy.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, logo após a tabela de 'Legitimate Interests' (que inclui a linha de experimentos)",
-    "por_que": "Liga explicitamente o direito de objeção ao conjunto de processamentos por interesse legítimo, que inclui 'undertake experiments'.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "You have the right to object to, and seek restriction of, this processing. To exercise your rights, visit the How To Exercise Your Rights section of this Privacy Policy."
    },
    {
     "doc": 1,
-    "verbatim": "This includes the right to object to our processing of your information for direct marketing and the right to object to our processing of your information where we are pursuing our legitimate interests or those of a third-party. We will consider several factors when assessing an objection including: your reasonable expectations; the benefits and risks to you, us, other users, third parties; and other available means to achieve the same purpose that may be less invasive and do not require disproportionate effort.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'How To Exercise Your Rights'",
-    "por_que": "Detalha o escopo e as condições da objeção; nenhum controle dedicado a experimentos é oferecido.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "This includes the right to object to our processing of your information for direct marketing and the right to object to our processing of your information where we are pursuing our legitimate interests or those of a third-party. We will consider several factors when assessing an objection including: your reasonable expectations; the benefits and risks to you, us, other users, third parties; and other available means to achieve the same purpose that may be less invasive and do not require disproportionate effort."
    },
    {
     "doc": 1,
-    "verbatim": "We collect information about your in-app settings, privacy settings and records about when you accepted terms. Only you are in control of your privacy settings which can be used to change, for example, who can see your \"last seen and online\", profile photo, \"about\" information, Status Updates, read receipts or add you to groups.",
-    "onde": "Doc 1, seção 'Information We Collect', item 'User Choices'",
-    "por_que": "Enumera os controles de privacidade disponíveis; nenhum deles cobre experimentação — apoia ausência de opt-out dedicado.",
     "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "onde": "Doc 1, seção 'Information We Collect', item 'User Choices'",
+    "role": "binding",
+    "verbatim": "We collect information about your in-app settings, privacy settings and records about when you accepted terms. Only you are in control of your privacy settings which can be used to change, for example, who can see your \"last seen and online\", profile photo, \"about\" information, Status Updates, read receipts or add you to groups."
    },
    {
     "doc": 3,
-    "verbatim": "You can follow the instructions provided by your browser or device (usually located under \"Settings\" or \"Preferences\") to modify your cookie settings.",
-    "onde": "Doc 3, seção 'How to control cookies'",
-    "por_que": "Controle disponível é de cookies (incl. analytics/ads), não de experimentação — falso positivo clássico a ser descartado.",
     "file": "whatsapp/03-cookies.md",
-    "role": "unknown"
+    "onde": "Doc 3, seção 'How to control cookies'",
+    "role": "unknown",
+    "verbatim": "You can follow the instructions provided by your browser or device (usually located under \"Settings\" or \"Preferences\") to modify your cookie settings."
    },
    {
     "doc": 3,
-    "verbatim": "You can make choices about the information used to show you ads in your Ads preferences .",
-    "onde": "Doc 3, seção 'How to control cookies'",
-    "por_que": "Preferências de anúncios governam publicidade, não experimentos — relevante para distinguir 'cookie/ads-only'.",
     "file": "whatsapp/03-cookies.md",
-    "role": "unknown"
+    "onde": "Doc 3, seção 'How to control cookies'",
+    "role": "unknown",
+    "verbatim": "You can make choices about the information used to show you ads in your Ads preferences ."
    }
   ],
   "V6": [
    {
     "doc": 1,
-    "verbatim": "test out and experiment with new features to see if they work as expected.",
-    "onde": "Doc 1, tabela 'Processing necessary to perform our contract with you'",
-    "por_que": "Testes de features são descritos como atividade da empresa, sem qualquer convite de inscrição voluntária em programa beta.",
     "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "onde": "Doc 1, tabela 'Processing necessary to perform our contract with you'",
+    "role": "binding",
+    "verbatim": "test out and experiment with new features to see if they work as expected."
    },
    {
     "doc": 2,
-    "verbatim": "In order to use our Services, you consent to manually or automatically download and install updates to our Services.",
-    "onde": "Doc 2, seção 'About Our Services', item 'Devices And Software'",
-    "por_que": "Atualizações são automáticas/obrigatórias; não há canal beta opcional descrito nos documentos vinculantes.",
     "file": "whatsapp/02-terms-of-service-eea.md",
-    "role": "binding"
+    "onde": "Doc 2, seção 'About Our Services', item 'Devices And Software'",
+    "role": "binding",
+    "verbatim": "In order to use our Services, you consent to manually or automatically download and install updates to our Services."
    },
    {
     "doc": 4,
-    "verbatim": "Sign in - Google Accounts",
+    "file": "whatsapp/04-testing-whatsapp-join.md",
     "onde": "Doc 4, título da página em play.google.com/apps/testing/com.whatsapp/join",
-    "por_que": "A URL de programa de teste do Google Play está atrás de login e não exibe conteúdo sobre inscrição em beta — conteúdo não verificável no documento congelado.",
-    "file": "whatsapp/04-testing-whatsapp-join.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Sign in - Google Accounts"
    },
    {
     "doc": 4,
-    "verbatim": "Not your computer? Use Guest mode to sign in privately. Learn more about using Guest mode",
-    "onde": "Doc 4, corpo da página de login",
-    "por_que": "Confirma que o documento capturado contém apenas tela de autenticação, sem texto do programa de testes.",
     "file": "whatsapp/04-testing-whatsapp-join.md",
-    "role": "non-binding"
+    "onde": "Doc 4, corpo da página de login",
+    "role": "non-binding",
+    "verbatim": "Not your computer? Use Guest mode to sign in privately. Learn more about using Guest mode"
    }
   ],
   "V7": [
    {
     "doc": 1,
-    "verbatim": "identify relevant Service-related notifications for you, send them to you on WhatsApp and keep a log when you have received the notification. For example, when our Terms are updated we’ll provide a notification about the update (as appropriate).",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Processing necessary to perform our contract with you', linha 'Communicate with you on Services-related issues'",
-    "por_que": "É aviso de mudança de serviço, explicitamente excluído como debriefing pelo codebook — falso positivo a descartar.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "identify relevant Service-related notifications for you, send them to you on WhatsApp and keep a log when you have received the notification. For example, when our Terms are updated we’ll provide a notification about the update (as appropriate)."
    },
    {
     "doc": 1,
-    "verbatim": "Our Services have optional features which, if used by you, require us to collect additional information to provide such features. You will be notified of such a collection, as appropriate.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Information We Collect', parágrafo introdutório",
-    "por_que": "Aviso de processamento/coleta, não aviso posterior de participação em experimento.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Our Services have optional features which, if used by you, require us to collect additional information to provide such features. You will be notified of such a collection, as appropriate."
    },
    {
     "doc": 1,
-    "verbatim": "undertake experiments to evaluate the impact of new features.",
-    "onde": "Doc 1, seção 'Legitimate Interests'",
-    "por_que": "Ponto do documento em que experimentos são tratados; nenhuma menção a notificar o usuário depois — ausência substantiva.",
     "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "onde": "Doc 1, seção 'Legitimate Interests'",
+    "role": "binding",
+    "verbatim": "undertake experiments to evaluate the impact of new features."
    },
    {
     "doc": 2,
-    "verbatim": "We will only make changes if the provisions are no longer appropriate or incomplete. Unless otherwise required by law, we will provide you at least 30 days' advance notice of changes to our Terms (e.g., by e-mail or through the Services), which will give you the opportunity to review the revised Terms before they become effective",
-    "onde": "Doc 2, seção 'Other'",
-    "por_que": "Aviso prévio de mudança contratual; não é debriefing de experimento.",
     "file": "whatsapp/02-terms-of-service-eea.md",
-    "role": "binding"
+    "onde": "Doc 2, seção 'Other'",
+    "role": "binding",
+    "verbatim": "We will only make changes if the provisions are no longer appropriate or incomplete. Unless otherwise required by law, we will provide you at least 30 days' advance notice of changes to our Terms (e.g., by e-mail or through the Services), which will give you the opportunity to review the revised Terms before they become effective"
    }
   ],
   "V8": [
    {
     "doc": 1,
-    "verbatim": "undertake experiments to evaluate the impact of new features.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Legitimate Interests', linha de melhoria do serviço",
-    "por_que": "Linguagem borderline de 'impact' ligada a avaliação de features; pelo codebook isso não configura revisão ética ou avaliação de risco.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "undertake experiments to evaluate the impact of new features."
    },
    {
     "doc": 1,
-    "verbatim": "We rely on our legitimate interests or the legitimate interests of a third-party, such as our users, where they are not outweighed by your interests or fundamental rights and freedoms (\"legitimate interests\"):",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Legitimate Interests', introdução",
-    "por_que": "Balanceamento de interesses do GDPR pode ser lido como avaliação de risco genérica; avaliador deve decidir se conta (provável No).",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We rely on our legitimate interests or the legitimate interests of a third-party, such as our users, where they are not outweighed by your interests or fundamental rights and freedoms (\"legitimate interests\"):"
    },
    {
     "doc": 1,
-    "verbatim": "We will consider several factors when assessing an objection including: your reasonable expectations; the benefits and risks to you, us, other users, third parties; and other available means to achieve the same purpose that may be less invasive and do not require disproportionate effort.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'How To Exercise Your Rights'",
-    "por_que": "Menciona 'benefits and risks', mas atrelado à análise de objeções, não a revisão ética de experimentos.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We will consider several factors when assessing an objection including: your reasonable expectations; the benefits and risks to you, us, other users, third parties; and other available means to achieve the same purpose that may be less invasive and do not require disproportionate effort."
    },
    {
     "doc": 1,
-    "verbatim": "We use information we have and apply automated data processing techniques and, in some instances, conduct manual (human) review to:",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1, seção 'Legitimate Interests', linha 'To ensure safety, security, and integrity of our Services'",
-    "por_que": "'Human review' refere-se a moderação/segurança, não a comitê de ética ou revisão de experimentos — falso positivo a descartar.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We use information we have and apply automated data processing techniques and, in some instances, conduct manual (human) review to:"
    },
    {
     "doc": 1,
-    "verbatim": "Information security : to implement appropriate technical and organisational security measures, such as under the General Data Protection Regulation, EU Directive 2002/58/EC and the European Electronic Communications Code established under Directive (EU) 2018/1972.",
-    "onde": "Doc 1, seção 'Compliance With A Legal Obligation'",
-    "por_que": "Medidas de segurança por obrigação regulatória; não é avaliação de risco de experimento nos documentos ao usuário.",
     "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "onde": "Doc 1, seção 'Compliance With A Legal Obligation'",
+    "role": "binding",
+    "verbatim": "Information security : to implement appropriate technical and organisational security measures, such as under the General Data Protection Regulation, EU Directive 2002/58/EC and the European Electronic Communications Code established under Directive (EU) 2018/1972."
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "test out and experiment with new features to see if they work as expected.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1 (Privacy Policy - EEA), tabela 'Processing necessary to perform our contract with you'",
-    "por_que": "Localiza a divulgação de experimentação dentro da política de privacidade, documento vinculante.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "test out and experiment with new features to see if they work as expected."
    },
    {
     "doc": 1,
-    "verbatim": "undertake experiments to evaluate the impact of new features.",
+    "file": "whatsapp/01-privacy-policy-eea.md",
     "onde": "Doc 1 (Privacy Policy - EEA), seção 'Legitimate Interests'",
-    "por_que": "Segunda ocorrência, também na política de privacidade — confirma o local de divulgação.",
-    "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "undertake experiments to evaluate the impact of new features."
    },
    {
     "doc": 1,
-    "verbatim": "Our Privacy Policy (\" Privacy Policy \") explains our data practices, including the information we process to provide our Services .",
-    "onde": "Doc 1, seção 'WhatsApp Legal Info'",
-    "por_que": "O documento se declara a política que rege as práticas de dados, sustentando classificação como registro vinculante.",
     "file": "whatsapp/01-privacy-policy-eea.md",
-    "role": "binding"
+    "onde": "Doc 1, seção 'WhatsApp Legal Info'",
+    "role": "binding",
+    "verbatim": "Our Privacy Policy (\" Privacy Policy \") explains our data practices, including the information we process to provide our Services ."
    },
    {
     "doc": 2,
-    "verbatim": "In order to provide our Services (as defined below) through our apps, services, features, software, or website, we need to obtain your agreement to our Terms of Service (\"Terms\").",
+    "file": "whatsapp/02-terms-of-service-eea.md",
     "onde": "Doc 2, parágrafo introdutório antes de 'About Our Services'",
-    "por_que": "O documento se declara acordo com o usuário — critério do codebook para registro vinculante.",
-    "file": "whatsapp/02-terms-of-service-eea.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "In order to provide our Services (as defined below) through our apps, services, features, software, or website, we need to obtain your agreement to our Terms of Service (\"Terms\")."
    },
    {
     "doc": 2,
-    "verbatim": "WhatsApp cares about your privacy. WhatsApp's Privacy Policy describes our data (including message) practices, including the types of information we receive and collect from you, how we use and share this information, and your rights in relation to the processing of information about you.",
-    "onde": "Doc 2, seção 'Privacy Policy And User Data'",
-    "por_que": "Os ToS incorporam a Política de Privacidade por referência, reforçando o caráter vinculante do Doc 1.",
     "file": "whatsapp/02-terms-of-service-eea.md",
-    "role": "binding"
+    "onde": "Doc 2, seção 'Privacy Policy And User Data'",
+    "role": "binding",
+    "verbatim": "WhatsApp cares about your privacy. WhatsApp's Privacy Policy describes our data (including message) practices, including the types of information we receive and collect from you, how we use and share this information, and your rights in relation to the processing of information about you."
    },
    {
     "doc": 3,
-    "verbatim": "This policy explains how we use cookies and the choices you have, when you use our web-based Services, our website or our optional features on our Services such as Status and Channels. The Privacy Policy and any supplemental policy which is relevant to your use of our Services applies to our processing of the information we collect through cookies.",
-    "onde": "Doc 3, seção 'What does this policy cover'",
-    "por_que": "Política de cookies se declara complementar à Privacy Policy; ajuda a decidir seu registro, embora não contenha menção a experimentação.",
     "file": "whatsapp/03-cookies.md",
-    "role": "unknown"
+    "onde": "Doc 3, seção 'What does this policy cover'",
+    "role": "unknown",
+    "verbatim": "This policy explains how we use cookies and the choices you have, when you use our web-based Services, our website or our optional features on our Services such as Status and Channels. The Privacy Policy and any supplemental policy which is relevant to your use of our Services applies to our processing of the information we collect through cookies."
    }
   ]
  },
@@ -435,5 +385,6 @@
   "max_tokens": 16000,
   "thinking": "adaptive",
   "nota": "teto anterior; JSON completo, sem truncamento"
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

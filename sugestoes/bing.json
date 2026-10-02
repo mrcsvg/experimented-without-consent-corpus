@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Bing",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -14,555 +14,488 @@
   "V1": [
    {
     "doc": 4,
-    "verbatim": "To compare the two versions of Bing, one option is to do a controlled experiment, which is also known as an A/B test. Each person in the experiment is assigned either to a control group that sees system A or a treatment group that sees system B.",
-    "onde": "Doc 4, blog 'Experimentation and Continuous Improvement at Bing', seção 'Using Online Evaluation'",
-    "por_que": "Nomeia explicitamente experimento controlado, teste A/B e grupos de controle/tratamento — nível 3 da escada, em registro de blog (não-vinculante).",
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
-    "role": "unknown"
+    "onde": "Doc 4, blog 'Experimentation and Continuous Improvement at Bing', seção 'Using Online Evaluation'",
+    "role": "unknown",
+    "verbatim": "To compare the two versions of Bing, one option is to do a controlled experiment, which is also known as an A/B test. Each person in the experiment is assigned either to a control group that sees system A or a treatment group that sees system B."
    },
    {
     "doc": 4,
-    "verbatim": "As a Bing user, you have probably taken part in both A/B and paired evaluations many times.",
-    "onde": "Doc 4, parágrafo final antes das referências",
-    "por_que": "Afirma diretamente que usuários são incluídos em experimentos A/B, reforçando nível 3 fora do contrato.",
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
-    "role": "unknown"
+    "onde": "Doc 4, parágrafo final antes das referências",
+    "role": "unknown",
+    "verbatim": "As a Bing user, you have probably taken part in both A/B and paired evaluations many times."
    },
    {
     "doc": 5,
-    "verbatim": "What is an online controlled experiment? In its simplest form, called an A/B test , we randomly split our users into two groups as shown in the diagram below. Their experiences are exactly the same, except for a change introduced to the Treatment (or B group).",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
     "onde": "Doc 5, blog 'Large Scale Experimentation at Bing', corpo",
-    "por_que": "Randomização explícita de usuários em grupos — teto 3 inequívoco, registro não-vinculante.",
-    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "What is an online controlled experiment? In its simplest form, called an A/B test , we randomly split our users into two groups as shown in the diagram below. Their experiences are exactly the same, except for a change introduced to the Treatment (or B group)."
    },
    {
     "doc": 5,
-    "verbatim": "Almost every user is in some experiment when they visit Bing. In fact, almost every user is in about 15 different experiments. There is no single Bing any more, but rather each user falls into one of the 30B possible experiment combinations.",
-    "onde": "Doc 5, lista de pontos do paper KDD",
-    "por_que": "Quantifica participação universal dos usuários em experimentos; evidência máxima de nível 3 em registro não-vinculante.",
     "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "onde": "Doc 5, lista de pontos do paper KDD",
+    "role": "unknown",
+    "verbatim": "Almost every user is in some experiment when they visit Bing. In fact, almost every user is in about 15 different experiments. There is no single Bing any more, but rather each user falls into one of the 30B possible experiment combinations."
    },
    {
     "doc": 1,
-    "verbatim": "We continuously work to improve the Services and may change the Services or delete features or stop providing access to Third-Party Apps and Services in that respect at any time",
+    "file": "bing/01-gb-servicesagreement.md",
     "onde": "Doc 1 (MSA, vinculante), seção 7.c",
-    "por_que": "No registro vinculante só aparece linguagem de 'melhorar o serviço' — sustenta nível 1 para o binding isolado.",
-    "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We continuously work to improve the Services and may change the Services or delete features or stop providing access to Third-Party Apps and Services in that respect at any time"
    },
    {
     "doc": 1,
-    "verbatim": "To the extent necessary to provide the Services to you and others (which may include changing the size, shape or format of Your Content to better store or display it to you), to protect you and the Services and to improve Microsoft products and services, you grant Microsoft a worldwide and royalty free intellectual property licence to use Your Content",
-    "onde": "Doc 1 (MSA, vinculante), seção 2.b",
-    "por_que": "Outra cláusula vinculante de 'improve products and services' sem menção a teste ou experimento.",
     "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "onde": "Doc 1 (MSA, vinculante), seção 2.b",
+    "role": "binding",
+    "verbatim": "To the extent necessary to provide the Services to you and others (which may include changing the size, shape or format of Your Content to better store or display it to you), to protect you and the Services and to improve Microsoft products and services, you grant Microsoft a worldwide and royalty free intellectual property licence to use Your Content"
    },
    {
     "doc": 2,
-    "verbatim": "Product improvement . We use data to improve our products, including adding new features and capabilities. For example, we use error reports to improve security features, queries and clicks in Bing to improve search results, and voice data to develop and improve speech recognition accuracy.",
-    "onde": "Doc 2 (Privacy Statement), seção 'How we use personal data' > 'Product Improvement and Development'",
-    "por_que": "Registro de privacidade permanece em linguagem de melhoria, sem nomear teste/experimento — relevante para o nível do registro vinculante/privacidade.",
     "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "onde": "Doc 2 (Privacy Statement), seção 'How we use personal data' > 'Product Improvement and Development'",
+    "role": "unknown",
+    "verbatim": "Product improvement . We use data to improve our products, including adding new features and capabilities. For example, we use error reports to improve security features, queries and clicks in Bing to improve search results, and voice data to develop and improve speech recognition accuracy."
    },
    {
     "doc": 6,
-    "verbatim": "Our researchers often recruit users to try out new features and give us their opinions. Once they’re satisfied, we release the feature to a small set of real users to see how they interact with it.",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
     "onde": "Doc 6 ('How Bing delivers search results', marcado non-binding), seção 'Improving Search Results' > 'Research and Testing'",
-    "por_que": "Reconhece testar com usuários reais sem nomear A/B ou randomização — nível 2 neste documento; útil para avaliar o teto por registro.",
-    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Our researchers often recruit users to try out new features and give us their opinions. Once they’re satisfied, we release the feature to a small set of real users to see how they interact with it."
    },
    {
     "doc": 6,
-    "verbatim": "The metrics are used for new feature evaluation as a part of Responsible AI reviews as well as ongoing monitoring for features post launch.",
-    "onde": "Doc 6, seção 'Measure'",
-    "por_que": "Avaliação de features com usuários pós-lançamento, sem método experimental nomeado — apoia leitura de nível 2 no help centre.",
     "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "onde": "Doc 6, seção 'Measure'",
+    "role": "non-binding",
+    "verbatim": "The metrics are used for new feature evaluation as a part of Responsible AI reviews as well as ongoing monitoring for features post launch."
    }
   ],
   "V2": [
    {
     "doc": 1,
-    "verbatim": "To the extent necessary to provide the Services to you and others (which may include changing the size, shape or format of Your Content to better store or display it to you), to protect you and the Services and to improve Microsoft products and services",
-    "onde": "Doc 1 (MSA), seção 2.b",
-    "por_que": "Enquadramento de service improvement no registro vinculante.",
     "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "onde": "Doc 1 (MSA), seção 2.b",
+    "role": "binding",
+    "verbatim": "To the extent necessary to provide the Services to you and others (which may include changing the size, shape or format of Your Content to better store or display it to you), to protect you and the Services and to improve Microsoft products and services"
    },
    {
     "doc": 2,
-    "verbatim": "Improve and develop our products. As part of our efforts to improve and develop our products, we may use your data to develop and train our AI models.",
+    "file": "bing/02-gb-privacy-privacystatement.md",
     "onde": "Doc 2, seção 'How we use personal data' (resumo)",
-    "por_que": "Service improvement explícito no Privacy Statement.",
-    "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Improve and develop our products. As part of our efforts to improve and develop our products, we may use your data to develop and train our AI models."
    },
    {
     "doc": 2,
-    "verbatim": "Research . With appropriate safeguards for individuals’ rights and freedoms, we use data for research, including AI and machine learning, for public interest and scientific purposes.",
-    "onde": "Doc 2, seção 'How we use personal data' > 'Business Operations'",
-    "por_que": "Enquadramento de research (inclusive 'public interest and scientific purposes') no registro de privacidade.",
     "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "onde": "Doc 2, seção 'How we use personal data' > 'Business Operations'",
+    "role": "unknown",
+    "verbatim": "Research . With appropriate safeguards for individuals’ rights and freedoms, we use data for research, including AI and machine learning, for public interest and scientific purposes."
    },
    {
     "doc": 4,
-    "verbatim": "As members of a research team at Bing, we get to work on a large range of interesting problems in machine learning, data mining and information retrieval.",
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
     "onde": "Doc 4, primeiro parágrafo do corpo",
-    "por_que": "Enquadramento de pesquisa científica (equipe de research, paper em conferência).",
-    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "As members of a research team at Bing, we get to work on a large range of interesting problems in machine learning, data mining and information retrieval."
    },
    {
     "doc": 4,
-    "verbatim": "Our WSDM-2013 paper [ 4 ] proposes a new way of performing unbiased and informative paired evaluations.",
-    "onde": "Doc 4, seção 'Using Online Evaluation'",
-    "por_que": "Reforça enquadramento research (publicação acadêmica sobre experimentos com usuários).",
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
-    "role": "unknown"
+    "onde": "Doc 4, seção 'Using Online Evaluation'",
+    "role": "unknown",
+    "verbatim": "Our WSDM-2013 paper [ 4 ] proposes a new way of performing unbiased and informative paired evaluations."
    },
    {
     "doc": 5,
-    "verbatim": "Ronny’s blog is a brief summary of a research paper titled Online Controlled Experiments at Large Scale which will he will present next week at the international conference on Knowledge Discovery and Data Mining ( KDD 2013 ).",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
     "onde": "Doc 5, introdução assinada por Harry Shum",
-    "por_que": "Enquadramento de pesquisa acadêmica associado diretamente aos experimentos com usuários.",
-    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Ronny’s blog is a brief summary of a research paper titled Online Controlled Experiments at Large Scale which will he will present next week at the international conference on Knowledge Discovery and Data Mining ( KDD 2013 )."
    },
    {
     "doc": 5,
-    "verbatim": "The idea is to expose our changes to real users and see if their experiences improve",
-    "onde": "Doc 5, corpo",
-    "por_que": "Co-ocorrência de service improvement com research no mesmo documento.",
     "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "onde": "Doc 5, corpo",
+    "role": "unknown",
+    "verbatim": "The idea is to expose our changes to real users and see if their experiences improve"
    },
    {
     "doc": 6,
-    "verbatim": "Search engines like Bing play a vital role in upholding the fundamental right to free and open access to information and free expression, and we strive to help users find the most useful and relevant information that they seek.",
-    "onde": "Doc 6, 'Our Approach to Search'",
-    "por_que": "Linguagem de bem público/direitos fundamentais — candidata a social-good, embora não atrelada explicitamente a experimentos.",
     "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "onde": "Doc 6, 'Our Approach to Search'",
+    "role": "non-binding",
+    "verbatim": "Search engines like Bing play a vital role in upholding the fundamental right to free and open access to information and free expression, and we strive to help users find the most useful and relevant information that they seek."
    },
    {
     "doc": 6,
-    "verbatim": "We take steps to protect users from harmful and unexpected offensive content.",
-    "onde": "Doc 6, 'Our Approach to Search'",
-    "por_que": "Enquadramento de proteção/segurança da comunidade, possivelmente codificável como social-good; avaliador decide se atrelado à experimentação.",
     "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "onde": "Doc 6, 'Our Approach to Search'",
+    "role": "non-binding",
+    "verbatim": "We take steps to protect users from harmful and unexpected offensive content."
    }
   ],
   "V3": [
    {
     "doc": 5,
-    "verbatim": "A real example of an A/B test is as follows. We wanted to add a feature allowing advertisers to provide links to the target site.",
-    "onde": "Doc 5, corpo",
-    "por_que": "V3c: divulga um experimento específico (site links em anúncios), com layout de anúncios como superfície testada.",
     "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "onde": "Doc 5, corpo",
+    "role": "unknown",
+    "verbatim": "A real example of an A/B test is as follows. We wanted to add a feature allowing advertisers to provide links to the target site."
    },
    {
     "doc": 5,
-    "verbatim": "Ads with site link experiment. Treatment (bottom) has site links. The difference might not be obvious at first but it is worth tens of millions of dollars",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
     "onde": "Doc 5, legenda da figura",
-    "por_que": "Experimento específico nomeado e quantificado — sustenta V3a e V3c.",
-    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Ads with site link experiment. Treatment (bottom) has site links. The difference might not be obvious at first but it is worth tens of millions of dollars"
    },
    {
     "doc": 5,
-    "verbatim": "In this experiment, the evaluation criterion was simple: increase average revenue per user without degrading key user engagement metrics.",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
     "onde": "Doc 5, corpo",
-    "por_que": "Alvo do experimento: receita por usuário e engajamento — relevante para V3b (e para julgar se preço/monetização está em jogo).",
-    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "In this experiment, the evaluation criterion was simple: increase average revenue per user without degrading key user engagement metrics."
    },
    {
     "doc": 5,
-    "verbatim": "Even after reducing the extra space consumed by the new feature by lowering the average number of ads shown per query, this feature improved revenue by tens of millions of dollars per year with neutral user impact",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
     "onde": "Doc 5, corpo",
-    "por_que": "Detalha manipulação de densidade de anúncios (fricção/layout) como alvo experimental.",
-    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Even after reducing the extra space consumed by the new feature by lowering the average number of ads shown per query, this feature improved revenue by tens of millions of dollars per year with neutral user impact"
    },
    {
     "doc": 5,
-    "verbatim": "On a typical day, there are over 250 experiments running on Bing.",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
     "onde": "Doc 5, lista de pontos",
-    "por_que": "Indica experimentos ativos no momento da publicação — relevante para V3c (específico/ativo).",
-    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "On a typical day, there are over 250 experiments running on Bing."
    },
    {
     "doc": 4,
-    "verbatim": "Our powerful machine learning systems correct the spelling of your query , interpret your search intent, differentiate quality pages from junk , rank documents from our index of tens of billions of documents, and optimize whole-page layout .",
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
     "onde": "Doc 4, primeiro parágrafo",
-    "por_que": "V3a/V3b: nomeia ranking e layout de página como sistemas otimizados por medição de usuários.",
-    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Our powerful machine learning systems correct the spelling of your query , interpret your search intent, differentiate quality pages from junk , rank documents from our index of tens of billions of documents, and optimize whole-page layout ."
    },
    {
     "doc": 4,
-    "verbatim": "A typical online experiment compares some new version of Bing to the existing version, to see whether the new idea is an improvement on average.",
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
     "onde": "Doc 4, seção 'Using Online Evaluation'",
-    "por_que": "Atividade testada = versões do produto; base para V3a.",
-    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "A typical online experiment compares some new version of Bing to the existing version, to see whether the new idea is an improvement on average."
    },
    {
     "doc": 4,
-    "verbatim": "For example, if the selected result is at rank 4 in A and rank 2 in B, perhaps this gives 2 points to B, rewarding based on the difference in rank.",
-    "onde": "Doc 4, descrição da função de recompensa",
-    "por_que": "Ranking explicitamente manipulado entre variantes — alvo de experimento (V3b).",
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
-    "role": "unknown"
+    "onde": "Doc 4, descrição da função de recompensa",
+    "role": "unknown",
+    "verbatim": "For example, if the selected result is at rank 4 in A and rank 2 in B, perhaps this gives 2 points to B, rewarding based on the difference in rank."
    },
    {
     "doc": 6,
-    "verbatim": "Before users ever see an improvement or new feature at Bing, we’ve been hard at work behind the scenes.",
-    "onde": "Doc 6, 'Research and Testing'",
-    "por_que": "Atividades testadas descritas genericamente como features (V3a) no help centre.",
     "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "onde": "Doc 6, 'Research and Testing'",
+    "role": "non-binding",
+    "verbatim": "Before users ever see an improvement or new feature at Bing, we’ve been hard at work behind the scenes."
    },
    {
     "doc": 1,
-    "verbatim": "Microsoft may change the rates for calling phones and premium rate numbers, as well as calling destinations, that are not part of a subscription.",
+    "file": "bing/01-gb-servicesagreement.md",
     "onde": "Doc 1 (MSA), seção 13.e.ix",
-    "por_que": "Menção a mudança de preços contratual — NÃO é alvo de experimento de preço; incluída para o avaliador descartar falso positivo em V3-pricing.",
-    "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Microsoft may change the rates for calling phones and premium rate numbers, as well as calling destinations, that are not part of a subscription."
    },
    {
     "doc": 1,
-    "verbatim": "we may change the price of the Services if we change, add new or improve Service features, to the extent the costs of providing the Service have changed accordingly, or in response to market changes",
-    "onde": "Doc 1 (MSA), seção 9.j 'Price Changes'",
-    "por_que": "Cláusula de alteração de preço sem qualquer indicação de teste/variação entre usuários — relevante para decidir V3-pricing como No.",
     "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "onde": "Doc 1 (MSA), seção 9.j 'Price Changes'",
+    "role": "binding",
+    "verbatim": "we may change the price of the Services if we change, add new or improve Service features, to the extent the costs of providing the Service have changed accordingly, or in response to market changes"
    }
   ],
   "V4": [
    {
     "doc": 2,
-    "verbatim": "We process your personal data with your consent and/or when it’s necessary to provide the products you use, operate our business, meet our contractual and legal obligations, protect the security and safety of our systems and our customers, or pursue our legitimate interests or those of third parties.",
+    "file": "bing/02-gb-privacy-privacystatement.md",
     "onde": "Doc 2, seção 'How we use personal data' > 'Legal bases for processing'",
-    "por_que": "Enumera bases legais (consentimento, contrato, obrigação legal, interesse legítimo) de forma genérica, sem atribuir base específica a experimentação.",
-    "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We process your personal data with your consent and/or when it’s necessary to provide the products you use, operate our business, meet our contractual and legal obligations, protect the security and safety of our systems and our customers, or pursue our legitimate interests or those of third parties."
    },
    {
     "doc": 2,
-    "verbatim": "Our legal basis for processing may vary depending on how and across what products or services we process your data. When we rely on legitimate interests, we consider and balance those interests against your rights and freedoms and will only process your data if these interests are not outweighed by your own.",
+    "file": "bing/02-gb-privacy-privacystatement.md",
     "onde": "Doc 2, 'Legal bases for processing'",
-    "por_que": "Confirma ausência de tabela base-por-finalidade; base para experimentação teria de ser inferida da cláusula de melhoria.",
-    "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Our legal basis for processing may vary depending on how and across what products or services we process your data. When we rely on legitimate interests, we consider and balance those interests against your rights and freedoms and will only process your data if these interests are not outweighed by your own."
    },
    {
     "doc": 2,
-    "verbatim": "Product improvement . We use data to improve our products, including adding new features and capabilities. For example, we use error reports to improve security features, queries and clicks in Bing to improve search results",
+    "file": "bing/02-gb-privacy-privacystatement.md",
     "onde": "Doc 2, 'Product Improvement and Development'",
-    "por_que": "É a finalidade declarada que mais plausivelmente cobre experimentação (queries e cliques no Bing para melhorar resultados).",
-    "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Product improvement . We use data to improve our products, including adding new features and capabilities. For example, we use error reports to improve security features, queries and clicks in Bing to improve search results"
    },
    {
     "doc": 2,
-    "verbatim": "Research . With appropriate safeguards for individuals’ rights and freedoms, we use data for research, including AI and machine learning, for public interest and scientific purposes.",
+    "file": "bing/02-gb-privacy-privacystatement.md",
     "onde": "Doc 2, 'Business Operations'",
-    "por_que": "Segunda finalidade candidata a cobrir experimentação; 'safeguards' sugere interesse legítimo/interesse público sem nomear a base.",
-    "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Research . With appropriate safeguards for individuals’ rights and freedoms, we use data for research, including AI and machine learning, for public interest and scientific purposes."
    },
    {
     "doc": 2,
-    "verbatim": "Microsoft receives and responds to the Global Privacy Control (GPC) browser opt-out signal in certain jurisdictions.",
-    "onde": "Doc 2, 'Browser-based controls' > 'Universal Opt-Outs'",
-    "por_que": "Exemplo de gating por jurisdição para publicidade — relevante para avaliar v4_region_gated (aplicado a ads, não a experimentação).",
     "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "onde": "Doc 2, 'Browser-based controls' > 'Universal Opt-Outs'",
+    "role": "unknown",
+    "verbatim": "Microsoft receives and responds to the Global Privacy Control (GPC) browser opt-out signal in certain jurisdictions."
    },
    {
     "doc": 1,
-    "verbatim": "The laws of Ireland govern all claims related to cost-free and paid Services, but this shall not deprive you of the mandatory consumer protections under the law of the country to which we direct your Services where you have your habitual residence",
-    "onde": "Doc 1 (MSA), seção 10",
-    "por_que": "Mostra estrutura jurisdicional do contrato (entidade irlandesa para UE/UK), útil para julgar region-gating documental.",
     "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "onde": "Doc 1 (MSA), seção 10",
+    "role": "binding",
+    "verbatim": "The laws of Ireland govern all claims related to cost-free and paid Services, but this shall not deprive you of the mandatory consumer protections under the law of the country to which we direct your Services where you have your habitual residence"
    }
   ],
   "V5": [
    {
     "doc": 2,
-    "verbatim": "You can also object to or restrict the use of your personal data by Microsoft. For example, you can object at any time to our use of your personal data for direct marketing purposes or where we are performing a task in the public interest or pursuing our legitimate interests or those of a third party.",
+    "file": "bing/02-gb-privacy-privacystatement.md",
     "onde": "Doc 2, 'How to access and control your personal data'",
-    "por_que": "Direito genérico de objeção (Art. 21-like), sem controle específico de experimentação — candidato a GDPR-objection-only.",
-    "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "You can also object to or restrict the use of your personal data by Microsoft. For example, you can object at any time to our use of your personal data for direct marketing purposes or where we are performing a task in the public interest or pursuing our legitimate interests or those of a third party."
    },
    {
     "doc": 2,
-    "verbatim": "Where required, we obtain your consent prior to placing or using optional cookies that are not (i) strictly necessary to provide the website or service; or (ii) for the purpose of facilitating a communication.",
+    "file": "bing/02-gb-privacy-privacystatement.md",
     "onde": "Doc 2, 'Cookies and similar technologies'",
-    "por_que": "Consentimento de cookies rege publicidade/analytics, não experimentação — falso positivo a descartar.",
-    "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Where required, we obtain your consent prior to placing or using optional cookies that are not (i) strictly necessary to provide the website or service; or (ii) for the purpose of facilitating a communication."
    },
    {
     "doc": 2,
-    "verbatim": "To opt out of receiving personalised advertising from Microsoft (including Xandr) visit our Personalised ads and offers page .",
+    "file": "bing/02-gb-privacy-privacystatement.md",
     "onde": "Doc 2, 'Your advertising choices'",
-    "por_que": "Opt-out existente é de anúncios personalizados, não de experimentos — evidência de cookie/ads-only.",
-    "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "To opt out of receiving personalised advertising from Microsoft (including Xandr) visit our Personalised ads and offers page ."
    },
    {
     "doc": 2,
-    "verbatim": "Bing. If you are signed into Bing with your Microsoft account, you can view and clear your stored search and chat history on your privacy dashboard . If you are not signed in, you can view and clear stored search history associated with your device in your Bing settings .",
-    "onde": "Doc 2, lista de ferramentas de controle",
-    "por_que": "Controle disponível para Bing é histórico de busca, não participação em experimentos — mostra ausência de opt-out dedicado.",
     "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "onde": "Doc 2, lista de ferramentas de controle",
+    "role": "unknown",
+    "verbatim": "Bing. If you are signed into Bing with your Microsoft account, you can view and clear your stored search and chat history on your privacy dashboard . If you are not signed in, you can view and clear stored search history associated with your device in your Bing settings ."
    },
    {
     "doc": 6,
-    "verbatim": "Users can update their location, language, and other settings via Bing Settings , and delete search history on the Privacy Dashboard .",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
     "onde": "Doc 6, 'Use of personal data'",
-    "por_que": "Controles de Bing enumerados não incluem opt-out de experimentação.",
-    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Users can update their location, language, and other settings via Bing Settings , and delete search history on the Privacy Dashboard ."
    },
    {
     "doc": 6,
-    "verbatim": "You may turn on and off autosuggest feature in the Bing Setting page ( Search - Settings (bing.com)) by selecting or unselecting the “See search suggestions as you type” checkbox.",
-    "onde": "Doc 6, 'Providing helpful search suggestions'",
-    "por_que": "Controle de feature específica (sugestões), não de participação em testes — avaliador deve verificar que não constitui opt-out de experimento.",
     "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "onde": "Doc 6, 'Providing helpful search suggestions'",
+    "role": "non-binding",
+    "verbatim": "You may turn on and off autosuggest feature in the Bing Setting page ( Search - Settings (bing.com)) by selecting or unselecting the “See search suggestions as you type” checkbox."
    },
    {
     "doc": 5,
-    "verbatim": "Almost every user is in some experiment when they visit Bing.",
-    "onde": "Doc 5, lista de pontos",
-    "por_que": "Participação universal declarada sem qualquer menção a mecanismo de recusa, reforçando ausência de opt-out dedicado.",
     "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "onde": "Doc 5, lista de pontos",
+    "role": "unknown",
+    "verbatim": "Almost every user is in some experiment when they visit Bing."
    }
   ],
   "V6": [
    {
     "doc": 1,
-    "verbatim": "Support may not be available for preview or beta versions of features or Services.",
-    "onde": "Doc 1 (MSA), seção 4.f",
-    "por_que": "Reconhece existência de versões preview/beta, mas sem descrever inscrição voluntária.",
     "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "onde": "Doc 1 (MSA), seção 4.f",
+    "role": "binding",
+    "verbatim": "Support may not be available for preview or beta versions of features or Services."
    },
    {
     "doc": 2,
-    "verbatim": "Microsoft offers preview, insider, beta or other free-of-charge products and features (\"previews\") to enable you to evaluate them while providing data about your use of the product, including feedback and device and usage data.",
+    "file": "bing/02-gb-privacy-privacystatement.md",
     "onde": "Doc 2, 'Preview or free-of-charge releases'",
-    "por_que": "Descreve programa de previews/insider em que o usuário opta por avaliar features antecipadamente — evidência central para V6.",
-    "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Microsoft offers preview, insider, beta or other free-of-charge products and features (\"previews\") to enable you to evaluate them while providing data about your use of the product, including feedback and device and usage data."
    },
    {
     "doc": 2,
-    "verbatim": "Data about the operating system and its configuration such as the OS version and build number, region and language settings, diagnostics data settings, and whether the device is part of the Windows Insider Programme.",
-    "onde": "Doc 2, seção Windows > Diagnostics (dados requeridos)",
-    "por_que": "Confirma existência do Windows Insider Programme como canal de participação voluntária.",
     "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "onde": "Doc 2, seção Windows > Diagnostics (dados requeridos)",
+    "role": "unknown",
+    "verbatim": "Data about the operating system and its configuration such as the OS version and build number, region and language settings, diagnostics data settings, and whether the device is part of the Windows Insider Programme."
    },
    {
     "doc": 6,
-    "verbatim": "Our researchers often recruit users to try out new features and give us their opinions.",
-    "onde": "Doc 6, 'Research and Testing'",
-    "por_que": "Recrutamento de usuários para testar features; avaliador decide se equivale a canal beta opt-in para Bing.",
     "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "onde": "Doc 6, 'Research and Testing'",
+    "role": "non-binding",
+    "verbatim": "Our researchers often recruit users to try out new features and give us their opinions."
    }
   ],
   "V7": [
    {
     "doc": 4,
-    "verbatim": "Ideally you would not even know that you are in an experiment.",
-    "onde": "Doc 4, seção 'Using Online Evaluation'",
-    "por_que": "Declaração explícita de que o desejável é o usuário não saber que participa — nega frontalmente qualquer debriefing; 'No' substantivo.",
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
-    "role": "unknown"
+    "onde": "Doc 4, seção 'Using Online Evaluation'",
+    "role": "unknown",
+    "verbatim": "Ideally you would not even know that you are in an experiment."
    },
    {
     "doc": 4,
-    "verbatim": "It is a blind experiment, meaning that you can’t tell which came from Bing today, and which came from our new idea.",
-    "onde": "Doc 4, seção 'Using Online Evaluation'",
-    "por_que": "Cegamento declarado, sem menção a aviso posterior.",
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
-    "role": "unknown"
+    "onde": "Doc 4, seção 'Using Online Evaluation'",
+    "role": "unknown",
+    "verbatim": "It is a blind experiment, meaning that you can’t tell which came from Bing today, and which came from our new idea."
    },
    {
     "doc": 4,
-    "verbatim": "Since there is no questionnaire, the main thing we can observe is your search behavior:",
-    "onde": "Doc 4, seção 'Using Online Evaluation'",
-    "por_que": "Confirma ausência de qualquer interação informativa com o participante.",
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
-    "role": "unknown"
+    "onde": "Doc 4, seção 'Using Online Evaluation'",
+    "role": "unknown",
+    "verbatim": "Since there is no questionnaire, the main thing we can observe is your search behavior:"
    },
    {
     "doc": 1,
-    "verbatim": "We'll inform you of the intended change before it takes effect, either through the user interface, in an email message or through other reasonable means.",
-    "onde": "Doc 1 (MSA), seção 7.a",
-    "por_que": "Aviso de mudança de termos/serviço — falso positivo explicitamente excluído pelo critério; incluído para o avaliador descartar.",
     "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "onde": "Doc 1 (MSA), seção 7.a",
+    "role": "binding",
+    "verbatim": "We'll inform you of the intended change before it takes effect, either through the user interface, in an email message or through other reasonable means."
    },
    {
     "doc": 2,
-    "verbatim": "Communications . We may use your data to contact you for various reasons, such as to inform you about your subscriptions, tell you when product updates are available, or contact you about your account.",
-    "onde": "Doc 2, 'Provide our products'",
-    "por_que": "Comunicações previstas são de serviço/conta, não debriefing experimental.",
     "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "onde": "Doc 2, 'Provide our products'",
+    "role": "unknown",
+    "verbatim": "Communications . We may use your data to contact you for various reasons, such as to inform you about your subscriptions, tell you when product updates are available, or contact you about your account."
    }
   ],
   "V8": [
    {
     "doc": 6,
-    "verbatim": "Bing's generative AI experiences has been developed in line with Microsoft’s AI Principles , Microsoft’s Responsible AI Standard , and in partnership with responsible AI experts across the company, including Microsoft’s Office of Responsible AI, our engineering teams, Microsoft Research, and Aether.",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
     "onde": "Doc 6, 'Generative AI Features'",
-    "por_que": "Menciona órgão de revisão interno (Office of Responsible AI, Aether) e padrão de IA responsável — candidato forte a Yes, embora referido a features de IA, não a experimentos A/B.",
-    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Bing's generative AI experiences has been developed in line with Microsoft’s AI Principles , Microsoft’s Responsible AI Standard , and in partnership with responsible AI experts across the company, including Microsoft’s Office of Responsible AI, our engineering teams, Microsoft Research, and Aether."
    },
    {
     "doc": 6,
-    "verbatim": "The metrics are used for new feature evaluation as a part of Responsible AI reviews as well as ongoing monitoring for features post launch.",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
     "onde": "Doc 6, 'Measure'",
-    "por_que": "Descreve revisão formal (Responsible AI reviews) aplicada a avaliação de novas features — aproxima-se de revisão ética/risco de experimentos.",
-    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "The metrics are used for new feature evaluation as a part of Responsible AI reviews as well as ongoing monitoring for features post launch."
    },
    {
     "doc": 6,
-    "verbatim": "Guided by our AI Principles and our Responsible AI Standard, we sought to identify, measure, and mitigate potential risks while securing the transformative and beneficial uses that the new experience provides.",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
     "onde": "Doc 6, 'Identifying, measuring, and mitigating Risks'",
-    "por_que": "Avaliação de risco explícita em documento ao usuário (registro não-vinculante).",
-    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Guided by our AI Principles and our Responsible AI Standard, we sought to identify, measure, and mitigate potential risks while securing the transformative and beneficial uses that the new experience provides."
    },
    {
     "doc": 6,
-    "verbatim": "These features are designed, built and tested in accordance of Microsoft Responsible AI standard.",
-    "onde": "Doc 6, 'Shopping'",
-    "por_que": "Liga teste de features a um padrão de revisão responsável.",
     "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "onde": "Doc 6, 'Shopping'",
+    "role": "non-binding",
+    "verbatim": "These features are designed, built and tested in accordance of Microsoft Responsible AI standard."
    },
    {
     "doc": 5,
-    "verbatim": "Statistical tests are run regularly to detect badly performing experiments and interacting experiments; alerts are e-mailed to the experiment owners for underperforming experiments, and those impacting key metrics more severely are shut down automatically.",
-    "onde": "Doc 5, lista de pontos",
-    "por_que": "Controle de risco de experimentos, porém métrico/operacional e não ético — avaliador decide se conta.",
     "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "onde": "Doc 5, lista de pontos",
+    "role": "unknown",
+    "verbatim": "Statistical tests are run regularly to detect badly performing experiments and interacting experiments; alerts are e-mailed to the experiment owners for underperforming experiments, and those impacting key metrics more severely are shut down automatically."
    },
    {
     "doc": 1,
-    "verbatim": "To make decisions or take actions without appropriate human oversight that may have a consequential impact on any person’s legal position, financial position, life opportunities, employment opportunities or human rights",
-    "onde": "Doc 1 (MSA), seção 13.s.ix.1",
-    "por_que": "Linguagem de 'impacto' e supervisão humana, mas dirigida a restrições de uso do usuário, não a revisão ética de experimentos — borderline a marcar No com nota.",
     "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "onde": "Doc 1 (MSA), seção 13.s.ix.1",
+    "role": "binding",
+    "verbatim": "To make decisions or take actions without appropriate human oversight that may have a consequential impact on any person’s legal position, financial position, life opportunities, employment opportunities or human rights"
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "These terms (\" Terms \") cover the use of those Microsoft consumer products, websites, related support and services listed at the end of these Terms here",
+    "file": "bing/01-gb-servicesagreement.md",
     "onde": "Doc 1, abertura do Microsoft Services Agreement",
-    "por_que": "Documento se declara os termos que regem o uso — registro vinculante (ToS/conditions).",
-    "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "These terms (\" Terms \") cover the use of those Microsoft consumer products, websites, related support and services listed at the end of these Terms here"
    },
    {
     "doc": 1,
-    "verbatim": "Bing.com",
+    "file": "bing/01-gb-servicesagreement.md",
     "onde": "Doc 1, lista 'Covered Services'",
-    "por_que": "Confirma que o Bing está coberto pelo contrato vinculante.",
-    "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Bing.com"
    },
    {
     "doc": 1,
-    "verbatim": "f. Bing and MSN. Click here (https://go.microsoft.com/fwlink/?linkid=2300807) for a summary of the terms governing Bing.",
-    "onde": "Doc 1, seção 13.f",
-    "por_que": "Localiza os termos específicos de Bing dentro do ToS vinculante.",
     "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "onde": "Doc 1, seção 13.f",
+    "role": "binding",
+    "verbatim": "f. Bing and MSN. Click here (https://go.microsoft.com/fwlink/?linkid=2300807) for a summary of the terms governing Bing."
    },
    {
     "doc": 2,
-    "verbatim": "Your privacy is important to Microsoft. This privacy statement explains the personal data we process, how we process it, and for what purposes.",
-    "onde": "Doc 2, abertura do Microsoft Privacy Statement",
-    "por_que": "Privacy policy como local de divulgação; sua função legal é incorporada por referência pelo MSA.",
     "file": "bing/02-gb-privacy-privacystatement.md",
-    "role": "unknown"
+    "onde": "Doc 2, abertura do Microsoft Privacy Statement",
+    "role": "unknown",
+    "verbatim": "Your privacy is important to Microsoft. This privacy statement explains the personal data we process, how we process it, and for what purposes."
    },
    {
     "doc": 1,
-    "verbatim": "Please read the Microsoft Privacy Statement (https://go.microsoft.com/fwlink/?LinkId=521839) (the \" Privacy Statement \") as it describes the types of data we collect from you and your devices (“ Data ”)",
-    "onde": "Doc 1, seção 1",
-    "por_que": "Mostra incorporação do Privacy Statement ao contrato — relevante para classificar seu registro.",
     "file": "bing/01-gb-servicesagreement.md",
-    "role": "binding"
+    "onde": "Doc 1, seção 1",
+    "role": "binding",
+    "verbatim": "Please read the Microsoft Privacy Statement (https://go.microsoft.com/fwlink/?LinkId=521839) (the \" Privacy Statement \") as it describes the types of data we collect from you and your devices (“ Data ”)"
    },
    {
     "doc": 3,
-    "verbatim": "Microsoft is committed to helping protect your security and privacy while you're using Bing products. For more information, see the Microsoft Privacy Statement and the Microsoft Services Agreement .",
-    "onde": "Doc 3, página de suporte 'About Microsoft privacy and security policy'",
-    "por_que": "Help centre como local de divulgação, apontando para os documentos vinculantes.",
     "file": "bing/03-us-bing-about-microsoft-privacy-and-security-policy.md",
-    "role": "unknown"
+    "onde": "Doc 3, página de suporte 'About Microsoft privacy and security policy'",
+    "role": "unknown",
+    "verbatim": "Microsoft is committed to helping protect your security and privacy while you're using Bing products. For more information, see the Microsoft Privacy Statement and the Microsoft Services Agreement ."
    },
    {
     "doc": 6,
-    "verbatim": "How Bing delivers search results\nLast updated: March 2025",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
     "onde": "Doc 6, título e data no support.microsoft.com",
-    "por_que": "Documento de help centre (marcado non-binding) que contém as descrições de teste e revisão de risco.",
-    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "How Bing delivers search results\nLast updated: March 2025"
    },
    {
     "doc": 6,
-    "verbatim": "Use of all Bing products and features are governed by Microsoft Services Agreement .",
-    "onde": "Doc 6, seção 'User Appeals'",
-    "por_que": "O próprio documento remete a governança ao MSA, indicando que ele mesmo não é o instrumento vinculante.",
     "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
-    "role": "non-binding"
+    "onde": "Doc 6, seção 'User Appeals'",
+    "role": "non-binding",
+    "verbatim": "Use of all Bing products and features are governed by Microsoft Services Agreement ."
    },
    {
     "doc": 4,
-    "verbatim": "This is a place devoted to giving you deeper insight into the news, trends, people and technology behind Bing.",
-    "onde": "Doc 4, cabeçalho do blog Search Quality Insights",
-    "por_que": "Identifica o local como blog institucional — registro não-vinculante.",
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
-    "role": "unknown"
+    "onde": "Doc 4, cabeçalho do blog Search Quality Insights",
+    "role": "unknown",
+    "verbatim": "This is a place devoted to giving you deeper insight into the news, trends, people and technology behind Bing."
    },
    {
     "doc": 5,
-    "verbatim": "Last June, we published a blog in this Search Quality Insights series titled Experimentation and Continuous Improvement at Bing",
-    "onde": "Doc 5, introdução",
-    "por_que": "Confirma que a divulgação de experimentação vive em série de blog/PR, não em documento contratual.",
     "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
-    "role": "unknown"
+    "onde": "Doc 5, introdução",
+    "role": "unknown",
+    "verbatim": "Last June, we published a blog in this Search Quality Insights series titled Experimentation and Continuous Improvement at Bing"
    }
   ]
  },
@@ -570,5 +503,6 @@
  "uso": {
   "input": 126813,
   "output": 9228
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

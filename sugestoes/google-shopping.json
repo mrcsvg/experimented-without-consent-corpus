@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Google Shopping",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -14,443 +14,390 @@
   "V1": [
    {
     "doc": 5,
-    "verbatim": "We put all possible changes to Search through a rigorous evaluation process to analyze metrics and decide whether to implement a proposed change.",
+    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "onde": "Doc 5, seção 'Testing for usefulness', 2º parágrafo",
-    "por_que": "Reconhece processo de avaliação/teste de mudanças antes do lançamento; base mínima para nível 2.",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "We put all possible changes to Search through a rigorous evaluation process to analyze metrics and decide whether to implement a proposed change."
    },
    {
     "doc": 5,
-    "verbatim": "In 2023, we ran over 700,000 experiments that resulted in more than 4,000 improvements to Search.",
+    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "onde": "Doc 5, 'Testing for usefulness', fim do 2º parágrafo",
-    "por_que": "Usa 'experiments' em sentido experimental e quantifica — candidato a nível 3, em registro não-vinculante (microsite How Search Works).",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "In 2023, we ran over 700,000 experiments that resulted in more than 4,000 improvements to Search."
    },
    {
     "doc": 5,
-    "verbatim": "We conduct live traffic experiments to see how real people interact with a feature before launching it to everyone.",
+    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "onde": "Doc 5, bloco '16,871 live traffic experiments'",
-    "por_que": "Experimentos em tráfego real com usuários reais, explicitamente nomeados como 'experiments'.",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "We conduct live traffic experiments to see how real people interact with a feature before launching it to everyone."
    },
    {
     "doc": 5,
-    "verbatim": "First, we enable the feature in question to just a small percentage of people, usually starting at 0.1%. We then compare the experiment group to a control group that did not have the feature enabled.",
+    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "onde": "Doc 5, subseção 'Running experiments'",
-    "por_que": "Grupo de experimento vs. grupo de controle e variante servida a fração de usuários — satisfaz explicitamente a regra de fronteira 2 vs 3.",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "First, we enable the feature in question to just a small percentage of people, usually starting at 0.1%. We then compare the experiment group to a control group that did not have the feature enabled."
    },
    {
     "doc": 5,
-    "verbatim": "In a side-by-side experiment, we show Raters two different sets of Search results: one with the proposed change already implemented and one without. We ask them which results they prefer and why.",
-    "onde": "Doc 5, bloco '124,942 side-by-side experiments'",
-    "por_que": "Duas variantes comparadas; reforça nível 3, embora com avaliadores externos e não usuários comuns.",
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "onde": "Doc 5, bloco '124,942 side-by-side experiments'",
+    "role": "non-binding",
+    "verbatim": "In a side-by-side experiment, we show Raters two different sets of Search results: one with the proposed change already implemented and one without. We ask them which results they prefer and why."
    },
    {
     "doc": 2,
-    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others.",
+    "file": "google-shopping/02-terms.md",
     "onde": "Doc 2 (ToS, vinculante), seção 'Develop, improve, and update Google services'",
-    "por_que": "Única menção no registro vinculante a um 'product research program'; não nomeia método, grupos ou variantes — relevante para fixar o nível do registro vinculante sozinho.",
-    "file": "google-shopping/02-terms.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others."
    },
    {
     "doc": 2,
-    "verbatim": "We’re constantly developing new technologies and features to improve our services.",
-    "onde": "Doc 2 (ToS), 'Develop, improve, and update Google services'",
-    "por_que": "Linguagem de melhoria sem testar usuários — sustenta nível baixo no vinculante.",
     "file": "google-shopping/02-terms.md",
-    "role": "binding"
+    "onde": "Doc 2 (ToS), 'Develop, improve, and update Google services'",
+    "role": "binding",
+    "verbatim": "We’re constantly developing new technologies and features to improve our services."
    },
    {
     "doc": 1,
-    "verbatim": "We analyze data about your interactions with our services to help us build better products. For example, it may help us discover that it’s taking people too long to complete a certain task or that they have trouble finishing steps at all. We can then redesign that feature and improve the product for everyone.",
-    "onde": "Doc 1 (Privacy Policy, vinculante), tabela 'To maintain and improve Google services, products, and features'",
-    "por_que": "Análise observacional de interações para melhorar produto; não descreve manipulação experimental — ajuda a separar nível 1/2 do vinculante.",
     "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "onde": "Doc 1 (Privacy Policy, vinculante), tabela 'To maintain and improve Google services, products, and features'",
+    "role": "binding",
+    "verbatim": "We analyze data about your interactions with our services to help us build better products. For example, it may help us discover that it’s taking people too long to complete a certain task or that they have trouble finishing steps at all. We can then redesign that feature and improve the product for everyone."
    }
   ],
   "V2": [
    {
     "doc": 1,
-    "verbatim": "We use data to build better services",
+    "file": "google-shopping/01-privacy.md",
     "onde": "Doc 1, cabeçalho da seção 'Why Google collects data'",
-    "por_que": "Enquadramento de melhoria do serviço (service improvement).",
-    "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We use data to build better services"
    },
    {
     "doc": 1,
-    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages.",
+    "file": "google-shopping/01-privacy.md",
     "onde": "Doc 1, 'Legal grounds' da finalidade 'To maintain and improve Google services, products, and features'",
-    "por_que": "Co-ocorrência explícita: 'research' + 'improves our services' + 'benefits the public' (candidato a research e a social-good/community).",
-    "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages."
    },
    {
     "doc": 1,
-    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, processing information about requests to remove content from our services to educate the public, facilitate research, and provide transparency about these requests.",
-    "onde": "Doc 1, 'Legal grounds' da finalidade 'To protect Google, our users, and the public'",
-    "por_que": "Segunda ocorrência do enquadramento de pesquisa com apelo ao benefício público.",
     "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "onde": "Doc 1, 'Legal grounds' da finalidade 'To protect Google, our users, and the public'",
+    "role": "binding",
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, processing information about requests to remove content from our services to educate the public, facilitate research, and provide transparency about these requests."
    },
    {
     "doc": 2,
-    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others.",
-    "onde": "Doc 2 (ToS), 'Develop, improve, and update Google services'",
-    "por_que": "Enquadramento de 'research' dentro do registro vinculante, atado a mudança/descontinuação de serviço.",
     "file": "google-shopping/02-terms.md",
-    "role": "binding"
+    "onde": "Doc 2 (ToS), 'Develop, improve, and update Google services'",
+    "role": "binding",
+    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others."
    },
    {
     "doc": 5,
-    "verbatim": "Our goal is always to provide you with the most useful and relevant information. Any changes we make to Search are always to improve the usefulness of results you see.",
+    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "onde": "Doc 5, abertura 'Improving Search with rigorous testing'",
-    "por_que": "Enquadramento de melhoria do serviço para a experimentação descrita no documento.",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Our goal is always to provide you with the most useful and relevant information. Any changes we make to Search are always to improve the usefulness of results you see."
    },
    {
     "doc": 5,
-    "verbatim": "Finally, we use these results to measure whether engagement with the new feature is positive, to ensure that the changes we make are increasing the relevance and usefulness of our results for everyone.",
-    "onde": "Doc 5, subseção 'Measuring engagement'",
-    "por_que": "Justificativa de utilidade coletiva ('for everyone') — fronteira entre service improvement e social-good/community; avaliador decide.",
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "onde": "Doc 5, subseção 'Measuring engagement'",
+    "role": "non-binding",
+    "verbatim": "Finally, we use these results to measure whether engagement with the new feature is positive, to ensure that the changes we make are increasing the relevance and usefulness of our results for everyone."
    },
    {
     "doc": 3,
-    "verbatim": "Maintaining or improving our services for everyone",
-    "onde": "Doc 3, lista 'How we use this data'",
-    "por_que": "Enquadramento de melhoria de serviço no aviso específico do Google Shopping.",
     "file": "google-shopping/03-privacy-google-services-shopping.md",
-    "role": "binding"
+    "onde": "Doc 3, lista 'How we use this data'",
+    "role": "binding",
+    "verbatim": "Maintaining or improving our services for everyone"
    }
   ],
   "V3": [
    {
     "doc": 5,
-    "verbatim": "We conduct live traffic experiments to see how real people interact with a feature before launching it to everyone.",
+    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "onde": "Doc 5, bloco '16,871 live traffic experiments'",
-    "por_que": "V3a: nomeia 'feature' como superfície testada.",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "We conduct live traffic experiments to see how real people interact with a feature before launching it to everyone."
    },
    {
     "doc": 5,
-    "verbatim": "Next, we look at a very long list of metrics, such as what people click on, how many queries were done, whether queries were abandoned, or how long it took for people to click on a result.",
+    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "onde": "Doc 5, subseção 'Analyzing metrics'",
-    "por_que": "V3a/V3b: nomeia métricas comportamentais medidas nos experimentos (cliques, abandono de consulta, latência de clique).",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Next, we look at a very long list of metrics, such as what people click on, how many queries were done, whether queries were abandoned, or how long it took for people to click on a result."
    },
    {
     "doc": 5,
-    "verbatim": "In a side-by-side experiment, we show Raters two different sets of Search results: one with the proposed change already implemented and one without.",
+    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "onde": "Doc 5, bloco '124,942 side-by-side experiments'",
-    "por_que": "V3b: resultados de busca (ranking/apresentação) como objeto de variação testada.",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "In a side-by-side experiment, we show Raters two different sets of Search results: one with the proposed change already implemented and one without."
    },
    {
     "doc": 5,
-    "verbatim": "Search has changed over the years to meet the evolving needs and expectations of the people who use Google. From innovations like the Knowledge Graph , to updates to our systems that ensure we’re continuing to highlight relevant content, our goal is always to improve the usefulness of your results.",
+    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "onde": "Doc 5, 'Testing for usefulness', 1º parágrafo",
-    "por_que": "V3c: descreve categorias de mudança, mas sem identificar nenhum experimento específico ou ativo.",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Search has changed over the years to meet the evolving needs and expectations of the people who use Google. From innovations like the Knowledge Graph , to updates to our systems that ensure we’re continuing to highlight relevant content, our goal is always to improve the usefulness of your results."
    },
    {
     "doc": 5,
-    "verbatim": "That is why, while advertisers can pay and be displayed in clearly marked ad sections, no one can buy better placement in the Search results .",
-    "onde": "Doc 5, 'Testing for usefulness'",
-    "por_que": "Única aproximação de 'preço' no documento, e trata de venda de posicionamento publicitário — não é preço como alvo de experimento (checar falso positivo do V3-pricing).",
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "onde": "Doc 5, 'Testing for usefulness'",
+    "role": "non-binding",
+    "verbatim": "That is why, while advertisers can pay and be displayed in clearly marked ad sections, no one can buy better placement in the Search results ."
    },
    {
     "doc": 1,
-    "verbatim": "We analyze queries on Google Shopping in order to determine which products, merchants, and brands are relevant to different kinds of queries.",
-    "onde": "Doc 1, exemplos de 'To maintain and improve Google services, products, and features'",
-    "por_que": "Atividade nomeada específica do serviço em análise (Shopping), mas descrita como análise de relevância, não como experimento — útil para separar V3a de alvo experimental.",
     "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "onde": "Doc 1, exemplos de 'To maintain and improve Google services, products, and features'",
+    "role": "binding",
+    "verbatim": "We analyze queries on Google Shopping in order to determine which products, merchants, and brands are relevant to different kinds of queries."
    },
    {
     "doc": 2,
-    "verbatim": "to customize our services for you, such as providing recommendations and personalized search results, content, and ads (which you can change or turn off in Ads Settings )",
-    "onde": "Doc 2 (ToS), seção 'Purpose' da licença de conteúdo",
-    "por_que": "Personalização declarada como feature — pela regra do codebook não conta como alvo de experimento.",
     "file": "google-shopping/02-terms.md",
-    "role": "binding"
+    "onde": "Doc 2 (ToS), seção 'Purpose' da licença de conteúdo",
+    "role": "binding",
+    "verbatim": "to customize our services for you, such as providing recommendations and personalized search results, content, and ads (which you can change or turn off in Ads Settings )"
    }
   ],
   "V4": [
    {
     "doc": 1,
-    "verbatim": "We process your data for our legitimate interests and those of third parties while applying appropriate safeguards that protect your privacy.",
+    "file": "google-shopping/01-privacy.md",
     "onde": "Doc 1, 'European requirements' > 'Legal bases of processing'",
-    "por_que": "Base de interesse legítimo declarada genericamente.",
-    "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We process your data for our legitimate interests and those of third parties while applying appropriate safeguards that protect your privacy."
    },
    {
     "doc": 1,
-    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages.",
+    "file": "google-shopping/01-privacy.md",
     "onde": "Doc 1, coluna 'Legal grounds' da finalidade 'To maintain and improve Google services, products, and features'",
-    "por_que": "Finalidade declarada ('research'/'improve services') sob interesse legítimo — é a cláusula que mapeia para experimentação, já que esta não é nomeada.",
-    "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Perform research that improves our services for our users and benefits the public. For example, improving Google Translate’s translation quality and increasing the availability of Translate in more languages."
    },
    {
     "doc": 1,
-    "verbatim": "Provide, maintain, and improve services to meet the needs of our users. For example, analyzing which search terms are most frequently misspelled to help us improve spell-check features used across our services.",
+    "file": "google-shopping/01-privacy.md",
     "onde": "Doc 1, mesma coluna 'Legal grounds'",
-    "por_que": "Segunda finalidade declarada que cobriria testes/melhoria de features, também sob interesse legítimo.",
-    "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Provide, maintain, and improve services to meet the needs of our users. For example, analyzing which search terms are most frequently misspelled to help us improve spell-check features used across our services."
    },
    {
     "doc": 1,
-    "verbatim": "We process your data in order to provide a service you’ve asked for under a contract.",
+    "file": "google-shopping/01-privacy.md",
     "onde": "Doc 1, 'Legal bases of processing'",
-    "por_que": "Base contratual declarada no rol geral.",
-    "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We process your data in order to provide a service you’ve asked for under a contract."
    },
    {
     "doc": 1,
-    "verbatim": "We ask for your consent to process your data for specific purposes and you have the right to withdraw your consent at any time.",
+    "file": "google-shopping/01-privacy.md",
     "onde": "Doc 1, 'Legal bases of processing'",
-    "por_que": "Base de consentimento declarada, mas para finalidades específicas (ex.: ads personalizados), não para experimentação.",
-    "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We ask for your consent to process your data for specific purposes and you have the right to withdraw your consent at any time."
    },
    {
     "doc": 1,
-    "verbatim": "If European Union or United Kingdom data protection law applies to the processing of your information, you can review the European requirements section below to learn more about your rights and Google’s compliance with these laws.",
+    "file": "google-shopping/01-privacy.md",
     "onde": "Doc 1, introdução da Privacy Policy",
-    "por_que": "Evidência de que a tabela de bases legais por finalidade só é acionada para usuários sob lei UE/UK (region gating).",
-    "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "If European Union or United Kingdom data protection law applies to the processing of your information, you can review the European requirements section below to learn more about your rights and Google’s compliance with these laws."
    },
    {
     "doc": 1,
-    "verbatim": "How you use Google services and your privacy settings will determine what data is processed, the purposes for which this data is processed, and the legal bases for processing data. The table below explains these processing purposes, the kinds of data processed, and the legal grounds for processing this data, in more detail.",
-    "onde": "Doc 1, fim de 'Legal bases of processing', antes da tabela",
-    "por_que": "Confirma que a tabela de bases por finalidade é o único local onde bases legais aparecem, dentro da seção europeia.",
     "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "onde": "Doc 1, fim de 'Legal bases of processing', antes da tabela",
+    "role": "binding",
+    "verbatim": "How you use Google services and your privacy settings will determine what data is processed, the purposes for which this data is processed, and the legal bases for processing data. The table below explains these processing purposes, the kinds of data processed, and the legal grounds for processing this data, in more detail."
    },
    {
     "doc": 5,
-    "verbatim": "Data from these search evaluations and experiments go through a thorough review by experienced engineers and search analysts, as well as other legal and privacy experts, who then determine if the change is approved to launch.",
-    "onde": "Doc 5, 'Testing for usefulness'",
-    "por_que": "O documento que descreve os experimentos não declara qualquer base legal para eles — relevante para 'not stated' quanto à experimentação.",
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "onde": "Doc 5, 'Testing for usefulness'",
+    "role": "non-binding",
+    "verbatim": "Data from these search evaluations and experiments go through a thorough review by experienced engineers and search analysts, as well as other legal and privacy experts, who then determine if the change is approved to launch."
    }
   ],
   "V5": [
    {
     "doc": 1,
-    "verbatim": "You also have the right to object to the processing of your information or export your information to another service.",
+    "file": "google-shopping/01-privacy.md",
     "onde": "Doc 1, 'European requirements' > 'How to exercise your rights and contact Google'",
-    "por_que": "Direito genérico de objeção (Art. 21), sem controle específico de experimentação.",
-    "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "You also have the right to object to the processing of your information or export your information to another service."
    },
    {
     "doc": 1,
-    "verbatim": "Decide what types of activity you’d like saved in your account.",
+    "file": "google-shopping/01-privacy.md",
     "onde": "Doc 1, 'Your privacy controls' > 'Activity Controls'",
-    "por_que": "Controle sobre salvamento de atividade, não sobre participação em experimentos — checar falso positivo.",
-    "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Decide what types of activity you’d like saved in your account."
    },
    {
     "doc": 1,
-    "verbatim": "Manage your preferences about the ads shown to you on Google and on sites and apps that partner with Google to show ads. You can modify your interests, choose whether your personal information is used to make ads more relevant to you, and turn on or off certain advertising services.",
-    "onde": "Doc 1, 'Your privacy controls' > 'Ad settings'",
-    "por_que": "Controle existente governa publicidade/personalização, não experimentação — enquadra o degrau 'cookie/ads-only'.",
     "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "onde": "Doc 1, 'Your privacy controls' > 'Ad settings'",
+    "role": "binding",
+    "verbatim": "Manage your preferences about the ads shown to you on Google and on sites and apps that partner with Google to show ads. You can modify your interests, choose whether your personal information is used to make ads more relevant to you, and turn on or off certain advertising services."
    },
    {
     "doc": 4,
-    "verbatim": "Google may store or use some or all of the cookies or similar technologies in your browser, app, or device for the purposes described below. To manage how cookies are used, including rejecting the use of cookies for certain purposes, you can visit g.co/privacytools .",
+    "file": "google-shopping/04-technologies-cookies.md",
     "onde": "Doc 4, 'Purposes of cookies and similar technologies used by Google', 1º parágrafo",
-    "por_que": "Controle de cookies por finalidade (funcionalidade, analytics, ads, personalização); não há finalidade 'experimentação' passível de rejeição.",
-    "file": "google-shopping/04-technologies-cookies.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Google may store or use some or all of the cookies or similar technologies in your browser, app, or device for the purposes described below. To manage how cookies are used, including rejecting the use of cookies for certain purposes, you can visit g.co/privacytools ."
    },
    {
     "doc": 4,
-    "verbatim": "YouTube uses the `__Secure-ROLLOUT_TOKEN` cookie to launch new features and measure related impact when other existing cookies and identifiers cannot be used for the same purpose.",
-    "onde": "Doc 4, seção 'Analytics'",
-    "por_que": "Cookie ligado a rollout/medição de novas features fica sob o guarda-chuva de analytics — reforça que o controle disponível é de analytics/ads, não de experimento.",
     "file": "google-shopping/04-technologies-cookies.md",
-    "role": "unknown"
+    "onde": "Doc 4, seção 'Analytics'",
+    "role": "unknown",
+    "verbatim": "YouTube uses the `__Secure-ROLLOUT_TOKEN` cookie to launch new features and measure related impact when other existing cookies and identifiers cannot be used for the same purpose."
    },
    {
     "doc": 3,
-    "verbatim": "Starting March 2024, Google will need your consent to link Google Shopping with other Google services if you want them to continue sharing data with each other as they do today.",
-    "onde": "Doc 3, parágrafo de abertura sobre DMA",
-    "por_que": "Consentimento específico do DMA para vinculação de serviços; é sobre compartilhamento de dados, não sobre participação em experimentos.",
     "file": "google-shopping/03-privacy-google-services-shopping.md",
-    "role": "binding"
+    "onde": "Doc 3, parágrafo de abertura sobre DMA",
+    "role": "binding",
+    "verbatim": "Starting March 2024, Google will need your consent to link Google Shopping with other Google services if you want them to continue sharing data with each other as they do today."
    },
    {
     "doc": 5,
-    "verbatim": "First, we enable the feature in question to just a small percentage of people, usually starting at 0.1%. We then compare the experiment group to a control group that did not have the feature enabled.",
-    "onde": "Doc 5, 'Running experiments'",
-    "por_que": "Descrição do mecanismo de alocação sem qualquer menção a escolha, recusa ou saída do usuário.",
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "onde": "Doc 5, 'Running experiments'",
+    "role": "non-binding",
+    "verbatim": "First, we enable the feature in question to just a small percentage of people, usually starting at 0.1%. We then compare the experiment group to a control group that did not have the feature enabled."
    }
   ],
   "V6": [
    {
     "doc": 2,
-    "verbatim": "We may automatically install updates that address significant safety or security risks. For other updates, you can choose whether you want them installed.",
-    "onde": "Doc 2 (ToS), 'Develop, improve, and update Google services'",
-    "por_que": "Candidato mais próximo nos documentos: escolha sobre instalar atualizações. Não é inscrição voluntária em beta/acesso antecipado, portanto não sustenta 'Yes'.",
     "file": "google-shopping/02-terms.md",
-    "role": "binding"
+    "onde": "Doc 2 (ToS), 'Develop, improve, and update Google services'",
+    "role": "binding",
+    "verbatim": "We may automatically install updates that address significant safety or security risks. For other updates, you can choose whether you want them installed."
    }
   ],
   "V7": [
    {
     "doc": 2,
-    "verbatim": "If a modification negatively affects your ability to access or use our digital content or services, or if we stop offering a service altogether, we’ll provide you with reasonable advance notice by email — including a description of the changes, when they’ll take place, and your right to end your contract with us if our modifications create more than a minor negative impact — except in urgent situations such as preventing abuse or harm, responding to legal requirements, or addressing security and operability issues.",
-    "onde": "Doc 2 (ToS), 'Develop, improve, and update Google services'",
-    "por_que": "Aviso de mudança de serviço — excluído explicitamente pelo codebook como falso positivo de debriefing.",
     "file": "google-shopping/02-terms.md",
-    "role": "binding"
+    "onde": "Doc 2 (ToS), 'Develop, improve, and update Google services'",
+    "role": "binding",
+    "verbatim": "If a modification negatively affects your ability to access or use our digital content or services, or if we stop offering a service altogether, we’ll provide you with reasonable advance notice by email — including a description of the changes, when they’ll take place, and your right to end your contract with us if our modifications create more than a minor negative impact — except in urgent situations such as preventing abuse or harm, responding to legal requirements, or addressing security and operability issues."
    },
    {
     "doc": 2,
-    "verbatim": "To provide you with our services, we sometimes send you service announcements and other information. To learn more about how we communicate with you, see Google’s Privacy Policy .",
-    "onde": "Doc 2 (ToS), 'Service-related communications'",
-    "por_que": "Comunicações de serviço genéricas; nenhuma promessa de informar participação em experimento.",
     "file": "google-shopping/02-terms.md",
-    "role": "binding"
+    "onde": "Doc 2 (ToS), 'Service-related communications'",
+    "role": "binding",
+    "verbatim": "To provide you with our services, we sometimes send you service announcements and other information. To learn more about how we communicate with you, see Google’s Privacy Policy ."
    },
    {
     "doc": 1,
-    "verbatim": "We may let you know about upcoming changes or improvements to our services.",
-    "onde": "Doc 1, 'Communicate with you'",
-    "por_que": "Aviso de mudança/melhoria, não aviso posterior de participação em experimento.",
     "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "onde": "Doc 1, 'Communicate with you'",
+    "role": "binding",
+    "verbatim": "We may let you know about upcoming changes or improvements to our services."
    },
    {
     "doc": 5,
-    "verbatim": "We conduct live traffic experiments to see how real people interact with a feature before launching it to everyone.",
-    "onde": "Doc 5, bloco '16,871 live traffic experiments'",
-    "por_que": "O documento que admite experimentos com usuários reais não prevê qualquer notificação posterior aos participantes — ausência substantiva ('No') no registro que trata do tema.",
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "onde": "Doc 5, bloco '16,871 live traffic experiments'",
+    "role": "non-binding",
+    "verbatim": "We conduct live traffic experiments to see how real people interact with a feature before launching it to everyone."
    }
   ],
   "V8": [
    {
     "doc": 5,
-    "verbatim": "Data from these search evaluations and experiments go through a thorough review by experienced engineers and search analysts, as well as other legal and privacy experts, who then determine if the change is approved to launch.",
-    "onde": "Doc 5, 'Testing for usefulness', 2º parágrafo",
-    "por_que": "Menciona revisão de experimentos por especialistas jurídicos e de privacidade antes do lançamento; é o candidato mais forte a 'Yes', mas não nomeia revisão ética, comitê/board nem avaliação de risco — decisão do avaliador.",
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "onde": "Doc 5, 'Testing for usefulness', 2º parágrafo",
+    "role": "non-binding",
+    "verbatim": "Data from these search evaluations and experiments go through a thorough review by experienced engineers and search analysts, as well as other legal and privacy experts, who then determine if the change is approved to launch."
    },
    {
     "doc": 5,
-    "verbatim": "Every single proposed change to Search goes through a review by our most experienced engineers and data scientists, who carefully review the data from all the different experiments to decide if the change is approved to launch.",
-    "onde": "Doc 5, bloco '4,781 launches'",
-    "por_que": "Revisão descrita como controle de qualidade/métricas, não como revisão ética ou de risco para sujeitos.",
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "onde": "Doc 5, bloco '4,781 launches'",
+    "role": "non-binding",
+    "verbatim": "Every single proposed change to Search goes through a review by our most experienced engineers and data scientists, who carefully review the data from all the different experiments to decide if the change is approved to launch."
    },
    {
     "doc": 2,
-    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others.",
-    "onde": "Doc 2 (ToS), 'Develop, improve, and update Google services'",
-    "por_que": "Linguagem borderline de 'impact on you and others' atada a mudança/descontinuação de serviço — o codebook manda codificar como No com nota.",
     "file": "google-shopping/02-terms.md",
-    "role": "binding"
+    "onde": "Doc 2 (ToS), 'Develop, improve, and update Google services'",
+    "role": "binding",
+    "verbatim": "We maintain a rigorous product research program, so before we change or stop offering a service, we carefully consider your interests as a user, your reasonable expectations, and the potential impact on you and others."
    },
    {
     "doc": 1,
-    "verbatim": "We regularly review this Privacy Policy and make sure that we process your information in ways that comply with it.",
-    "onde": "Doc 1, 'Compliance & cooperation with regulators'",
-    "por_que": "Revisão de conformidade documental, não revisão ética ou avaliação de risco de experimentos.",
     "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "onde": "Doc 1, 'Compliance & cooperation with regulators'",
+    "role": "binding",
+    "verbatim": "We regularly review this Privacy Policy and make sure that we process your information in ways that comply with it."
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information.",
-    "onde": "Doc 1, introdução da Google Privacy Policy (policies.google.com/privacy)",
-    "por_que": "Identifica o local 'privacy policy'; documento vinculante que hospeda as finalidades de pesquisa/melhoria.",
     "file": "google-shopping/01-privacy.md",
-    "role": "binding"
+    "onde": "Doc 1, introdução da Google Privacy Policy (policies.google.com/privacy)",
+    "role": "binding",
+    "verbatim": "This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information."
    },
    {
     "doc": 2,
-    "verbatim": "Understanding these terms is important because, to use our services, you must accept these terms.",
+    "file": "google-shopping/02-terms.md",
     "onde": "Doc 2, 'What’s covered in these terms'",
-    "por_que": "Autodeclaração de que o documento integra o acordo com o usuário — confirma registro vinculante do ToS.",
-    "file": "google-shopping/02-terms.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Understanding these terms is important because, to use our services, you must accept these terms."
    },
    {
     "doc": 2,
-    "verbatim": "platforms (like Google Shopping)",
-    "onde": "Doc 2, 'Provide a broad range of useful services' e definição de 'services'",
-    "por_que": "Confirma que o ToS vinculante cobre o serviço analisado (Google Shopping).",
     "file": "google-shopping/02-terms.md",
-    "role": "binding"
+    "onde": "Doc 2, 'Provide a broad range of useful services' e definição de 'services'",
+    "role": "binding",
+    "verbatim": "platforms (like Google Shopping)"
    },
    {
     "doc": 3,
-    "verbatim": "Data use in Google Shopping for the European Economic Area (EEA)",
-    "onde": "Doc 3, título da página em business.safety.google/privacy/google-services/shopping/",
-    "por_que": "Aviso específico do serviço, hospedado fora de policies.google.com — local distinto (aviso/ centro de ajuda de privacidade) a ser classificado pelo avaliador.",
     "file": "google-shopping/03-privacy-google-services-shopping.md",
-    "role": "binding"
+    "onde": "Doc 3, título da página em business.safety.google/privacy/google-services/shopping/",
+    "role": "binding",
+    "verbatim": "Data use in Google Shopping for the European Economic Area (EEA)"
    },
    {
     "doc": 4,
-    "verbatim": "This page describes the purposes for which Google uses cookies and similar technologies. It also explains how Google and our partners use cookies in advertising .",
-    "onde": "Doc 4, abertura de 'How Google uses cookies'",
-    "por_que": "Página de tecnologias vinculada à Privacy Policy; registro indeterminado no manifesto ('unknown').",
     "file": "google-shopping/04-technologies-cookies.md",
-    "role": "unknown"
+    "onde": "Doc 4, abertura de 'How Google uses cookies'",
+    "role": "unknown",
+    "verbatim": "This page describes the purposes for which Google uses cookies and similar technologies. It also explains how Google and our partners use cookies in advertising ."
    },
    {
     "doc": 5,
-    "verbatim": "Improving Search with rigorous testing",
+    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "onde": "Doc 5, título da seção principal do microsite 'How Search Works'",
-    "por_que": "Todo o conteúdo experimental de nível 3 vive neste microsite institucional, que não se declara parte do acordo com o usuário — local 'blog/PR/site de pesquisa', registro não-vinculante.",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "Improving Search with rigorous testing"
    },
    {
     "doc": 5,
-    "verbatim": "You can learn more about our policies that apply to Google Search\nhere\n.",
-    "onde": "Doc 5, seção 'Surfacing Google Search results'",
-    "por_que": "O microsite remete às políticas como documentos separados, reforçando que ele próprio não é registro vinculante.",
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "role": "non-binding"
+    "onde": "Doc 5, seção 'Surfacing Google Search results'",
+    "role": "non-binding",
+    "verbatim": "You can learn more about our policies that apply to Google Search\nhere\n."
    }
   ]
  },
@@ -458,5 +405,6 @@
  "uso": {
   "input": 47429,
   "output": 13357
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

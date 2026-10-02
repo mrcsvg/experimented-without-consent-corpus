@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "XVideos",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -14,338 +14,298 @@
   "V1": [
    {
     "doc": 1,
-    "verbatim": "Operate, protect, improve, and optimize the Website, such as by performing analytics and conducting research.",
+    "file": "xvideos/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1 'Provide, Improve, and Develop the Website'",
-    "por_que": "Linguagem de melhoria/otimização e 'conducting research', mas sem menção a testes com usuários, variantes ou aleatorização — candidato a nível 1 (ou discussão 1 vs 2).",
-    "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Operate, protect, improve, and optimize the Website, such as by performing analytics and conducting research."
    },
    {
     "doc": 1,
-    "verbatim": "IP address\nProvide, Improve, and Develop the Website : generating internal statistics and reports as part of the controller's business activities, improving the controller's services; conducting analytics and research (in order to find out how visitors use the website and to improve their user experience).",
+    "file": "xvideos/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, tabela de dados pessoais (linha 'IP address')",
-    "por_que": "Repete a finalidade de 'analytics and research' para melhorar a experiência; nenhuma menção a experimento/teste A/B.",
-    "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "IP address\nProvide, Improve, and Develop the Website : generating internal statistics and reports as part of the controller's business activities, improving the controller's services; conducting analytics and research (in order to find out how visitors use the website and to improve their user experience)."
    },
    {
     "doc": 1,
-    "verbatim": "To operate, protect, improve, and optimize the Website, and personalize and customize your experience (such as making suggestions or ranking search results), we conduct basic profiling (customer segmentation) based on your interactions with the Website and your viewing history on the Website.",
-    "onde": "Doc 1, Privacy Policy, seção 2.1",
-    "por_que": "Descreve perfilamento/segmentação e personalização — mas isso é personalização declarada, não teste de usuários; relevante para a fronteira 1 vs 2.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 2.1",
+    "role": "unknown",
+    "verbatim": "To operate, protect, improve, and optimize the Website, and personalize and customize your experience (such as making suggestions or ranking search results), we conduct basic profiling (customer segmentation) based on your interactions with the Website and your viewing history on the Website."
    },
    {
     "doc": 3,
-    "verbatim": "These efforts include employing avant-garde automated detection technologies capable of identifying various types of illegal content, supplemented by manual review conducted by our well-trained team of human content moderators.",
-    "onde": "Doc 3, ToS, seção 8.A 'Content Moderation'",
-    "por_que": "Única menção a tecnologias automatizadas no registro vinculante; não é experimentação — útil para descartar falso positivo.",
     "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "onde": "Doc 3, ToS, seção 8.A 'Content Moderation'",
+    "role": "unknown",
+    "verbatim": "These efforts include employing avant-garde automated detection technologies capable of identifying various types of illegal content, supplemented by manual review conducted by our well-trained team of human content moderators."
    }
   ],
   "V2": [
    {
     "doc": 1,
-    "verbatim": "Operate, protect, improve, and optimize the Website, such as by performing analytics and conducting research.",
+    "file": "xvideos/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1",
-    "por_que": "Co-ocorrência de 'improve/optimize' (service improvement) e 'conducting research' (research) na mesma frase.",
-    "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Operate, protect, improve, and optimize the Website, such as by performing analytics and conducting research."
    },
    {
     "doc": 1,
-    "verbatim": "conducting analytics and research (in order to find out how visitors use the website and to improve their user experience)",
+    "file": "xvideos/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, tabela (linhas IP address, date and time of login, device information)",
-    "por_que": "Enquadramento explícito de research atrelado a melhoria da experiência do usuário.",
-    "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "conducting analytics and research (in order to find out how visitors use the website and to improve their user experience)"
    },
    {
     "doc": 1,
-    "verbatim": "our legitimate business interests in processing your personal data, specifically for the purpose of improving the Website and our users’ experience with it, which we have determined can only be achieved by processing your personal data.",
-    "onde": "Doc 1, Privacy Policy, seção 2.1 'Lawful bases'",
-    "por_que": "Enquadramento de service improvement como justificativa central.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 2.1 'Lawful bases'",
+    "role": "unknown",
+    "verbatim": "our legitimate business interests in processing your personal data, specifically for the purpose of improving the Website and our users’ experience with it, which we have determined can only be achieved by processing your personal data."
    },
    {
     "doc": 3,
-    "verbatim": "WebGroup is committed to fostering a safe and secure online environment for users of the Website.",
+    "file": "xvideos/03-tos.md",
     "onde": "Doc 3, ToS, seção 8.A",
-    "por_que": "Possível candidato a social-good/community, embora ligado a moderação de conteúdo e não a pesquisa/experimentação.",
-    "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "WebGroup is committed to fostering a safe and secure online environment for users of the Website."
    },
    {
     "doc": 3,
-    "verbatim": "This cooperative effort reflects our commitment to upholding the highest standards of user safety and promoting a positive online experience for all.",
-    "onde": "Doc 3, ToS, seção 8.A (Trusted Flaggers)",
-    "por_que": "Linguagem de bem-estar/comunidade; avaliador decide se conta como social-good/community dado que não está atrelada a experimentação.",
     "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "onde": "Doc 3, ToS, seção 8.A (Trusted Flaggers)",
+    "role": "unknown",
+    "verbatim": "This cooperative effort reflects our commitment to upholding the highest standards of user safety and promoting a positive online experience for all."
    }
   ],
   "V3": [
    {
     "doc": 1,
-    "verbatim": "personalisation and customisation of the user experience (for example, offering suggestions for other videos you might be interested in or sorting search results).",
-    "onde": "Doc 1, Privacy Policy, tabela (linha 'data about your interactions with the Website, (e.g. records of videos viewed)')",
-    "por_que": "Nomeia superfícies (sugestões, ordenação de resultados), mas como personalização declarada — a regra do codebook manda distinguir de alvo de experimento.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, tabela (linha 'data about your interactions with the Website, (e.g. records of videos viewed)')",
+    "role": "unknown",
+    "verbatim": "personalisation and customisation of the user experience (for example, offering suggestions for other videos you might be interested in or sorting search results)."
    },
    {
     "doc": 1,
-    "verbatim": "basic customer segmentation (displaying content corresponding to the selected sexual orientation); personalize and customize your experience (such as making suggestions or ranking search results).",
-    "onde": "Doc 1, Privacy Policy, tabela (linha 'sexual orientation (\"category\")')",
-    "por_que": "Menciona ranking/segmentação — relevante para V3a/V3b, mas novamente como personalização, não como teste.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, tabela (linha 'sexual orientation (\"category\")')",
+    "role": "unknown",
+    "verbatim": "basic customer segmentation (displaying content corresponding to the selected sexual orientation); personalize and customize your experience (such as making suggestions or ranking search results)."
    },
    {
     "doc": 3,
-    "verbatim": "The criteria influencing the display of videos on the Website vary depending on the specific section of the Website visited by the user. On the main page, key factors include (i) the user's chosen location (country) and, within that location, (ii) the video's popularity, determined by the total number of clicks from recipients.",
+    "file": "xvideos/03-tos.md",
     "onde": "Doc 3, ToS, seção 9 'Recommender System Transparency'",
-    "por_que": "Descrição detalhada do sistema de recomendação (ranking) — é transparência algorítmica, não divulgação de experimento; ajuda a decidir V3b/V3c.",
-    "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "The criteria influencing the display of videos on the Website vary depending on the specific section of the Website visited by the user. On the main page, key factors include (i) the user's chosen location (country) and, within that location, (ii) the video's popularity, determined by the total number of clicks from recipients."
    },
    {
     "doc": 3,
-    "verbatim": "The Website also provides a feature of suggesting 'related' videos which is based on viewing history of all users. When 'view history' is enabled, the system suggests more relevant videos based on the context of the respective video, considering criteria such as 'popularity', 'categories' or 'tags'.",
+    "file": "xvideos/03-tos.md",
     "onde": "Doc 3, ToS, seção 9",
-    "por_que": "Superfície nomeada e controlável ('view history'), mas sem qualquer referência a experimento ativo ou variantes.",
-    "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "The Website also provides a feature of suggesting 'related' videos which is based on viewing history of all users. When 'view history' is enabled, the system suggests more relevant videos based on the context of the respective video, considering criteria such as 'popularity', 'categories' or 'tags'."
    },
    {
     "doc": 3,
-    "verbatim": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE TOTAL LIABILITY OF WEBGROUP, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS FOR ANY CLAIMS UNDER THESE TERMS OF SERVICE, INCLUDING FOR ANY IMPLIED WARRANTIES, IS LIMITED TO THE AMOUNT YOU PAID US (IF ANY) TO USE THE SERVICES",
-    "onde": "Doc 3, ToS, seção 11",
-    "por_que": "Única aparição relevante de pagamento nos ToS; não há cláusula de preço ou personalização de preço — sustenta V3-pricing = No.",
     "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "onde": "Doc 3, ToS, seção 11",
+    "role": "unknown",
+    "verbatim": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE TOTAL LIABILITY OF WEBGROUP, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS FOR ANY CLAIMS UNDER THESE TERMS OF SERVICE, INCLUDING FOR ANY IMPLIED WARRANTIES, IS LIMITED TO THE AMOUNT YOU PAID US (IF ANY) TO USE THE SERVICES"
    }
   ],
   "V4": [
    {
     "doc": 1,
-    "verbatim": "Lawful bases : we rely on the following three lawful bases to process your personal data for the specific purpose of providing, improving and developing the Website as described above.",
+    "file": "xvideos/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1",
-    "por_que": "Introduz as bases legais para a finalidade de melhoria/desenvolvimento — a finalidade que mais se aproxima de cobrir experimentação.",
-    "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Lawful bases : we rely on the following three lawful bases to process your personal data for the specific purpose of providing, improving and developing the Website as described above."
    },
    {
     "doc": 1,
-    "verbatim": "we process this information in order to adequately perform the contract with you;",
+    "file": "xvideos/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1 (lista de bases)",
-    "por_que": "Base 'contract' declarada para a finalidade de melhoria.",
-    "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "we process this information in order to adequately perform the contract with you;"
    },
    {
     "doc": 1,
-    "verbatim": "our legitimate business interests in processing your personal data, specifically for the purpose of improving the Website and our users’ experience with it, which we have determined can only be achieved by processing your personal data. We consider the processing of your personal data to be proportionate with your interests, rights and freedoms;",
+    "file": "xvideos/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1 (lista de bases)",
-    "por_que": "Base 'legitimate interest' declarada explicitamente para melhoria do site.",
-    "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "our legitimate business interests in processing your personal data, specifically for the purpose of improving the Website and our users’ experience with it, which we have determined can only be achieved by processing your personal data. We consider the processing of your personal data to be proportionate with your interests, rights and freedoms;"
    },
    {
     "doc": 1,
-    "verbatim": "to the extent necessary to perform our contract with you and customise your experience, consent to process special categories of data.",
+    "file": "xvideos/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, seção 2.1 (lista de bases)",
-    "por_que": "Base 'consent' para categorias especiais na customização da experiência.",
-    "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "to the extent necessary to perform our contract with you and customise your experience, consent to process special categories of data."
    },
    {
     "doc": 1,
-    "verbatim": "IP address\nProvide, Improve, and Develop the Website : generating internal statistics and reports as part of the controller's business activities, improving the controller's services; conducting analytics and research (in order to find out how visitors use the website and to improve their user experience).\nregistered user of the website\nthe legitimate interests of the controller",
+    "file": "xvideos/01-privacy.md",
     "onde": "Doc 1, Privacy Policy, tabela de finalidades/bases",
-    "por_que": "Mostra a base por finalidade na tabela (legitimate interest para analytics/research).",
-    "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "IP address\nProvide, Improve, and Develop the Website : generating internal statistics and reports as part of the controller's business activities, improving the controller's services; conducting analytics and research (in order to find out how visitors use the website and to improve their user experience).\nregistered user of the website\nthe legitimate interests of the controller"
    },
    {
     "doc": 1,
-    "verbatim": "We process personal data only in accordance with this Privacy Policy and the relevant legislation, in particular GDPR.",
-    "onde": "Doc 1, Privacy Policy, introdução",
-    "por_que": "Relevante para v4_region_gated: a política se apresenta como GDPR-based sem indicar gating por IP/locale — não há texto que restrinja a aplicação à UE.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, introdução",
+    "role": "unknown",
+    "verbatim": "We process personal data only in accordance with this Privacy Policy and the relevant legislation, in particular GDPR."
    },
    {
     "doc": 1,
-    "verbatim": "Subject to our Terms of Service at https://info.xvideos.com/legal/tos (hereinafter referred to as “ Terms of Service ”) and as explained in the Privacy Notice at https://info.xvideos.com/legal/privacynotice (hereinafter referred to as the “ Privacy Notice ”), we do not process personal data of the Category 1 users (i.e., the visitors of the Website who have not created an account).",
-    "onde": "Doc 1, Privacy Policy, introdução",
-    "por_que": "O gating declarado é por categoria de usuário (conta/sem conta), não por região — evidência para v4_region_gated = No.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, introdução",
+    "role": "unknown",
+    "verbatim": "Subject to our Terms of Service at https://info.xvideos.com/legal/tos (hereinafter referred to as “ Terms of Service ”) and as explained in the Privacy Notice at https://info.xvideos.com/legal/privacynotice (hereinafter referred to as the “ Privacy Notice ”), we do not process personal data of the Category 1 users (i.e., the visitors of the Website who have not created an account)."
    }
   ],
   "V5": [
    {
     "doc": 1,
-    "verbatim": "You have a right to require us not to process your personal information for certain specific purposes (including profiling) where such processing is based on legitimate interest. If you object to such processing we will no longer process your personal information for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the establishment, exercise or defence of legal claims.",
-    "onde": "Doc 1, Privacy Policy, seção 5.6 'Objection to Processing'",
-    "por_que": "Direito genérico de objeção do GDPR (inclui profiling), sem controle específico de experimentação — âncora para 'GDPR-objection-only'.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 5.6 'Objection to Processing'",
+    "role": "unknown",
+    "verbatim": "You have a right to require us not to process your personal information for certain specific purposes (including profiling) where such processing is based on legitimate interest. If you object to such processing we will no longer process your personal information for these purposes unless we can demonstrate compelling legitimate grounds for such processing or such processing is required for the establishment, exercise or defence of legal claims."
    },
    {
     "doc": 1,
-    "verbatim": "Where you have provided your consent to the processing of your personal information by us, you may withdraw your consent at any time by changing your account settings.",
-    "onde": "Doc 1, Privacy Policy, seção 5.5",
-    "por_que": "Retirada de consentimento genérica; não é opt-out de experimentação.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 5.5",
+    "role": "unknown",
+    "verbatim": "Where you have provided your consent to the processing of your personal information by us, you may withdraw your consent at any time by changing your account settings."
    },
    {
     "doc": 4,
-    "verbatim": "We use cookies which are not essential for operation of our Website, such as functionality cookies, only with your prior express consent. It is your choice whether to accept these cookies. You can manage your consent preferences or revoke your consent at any time using our cookie banner.",
-    "onde": "Doc 4, Cookie Policy, seção 4 'Manage your preferences'",
-    "por_que": "Banner de cookies — falso positivo clássico; governa cookies, não experimentação.",
     "file": "xvideos/04-cookiepolicy.md",
-    "role": "unknown"
+    "onde": "Doc 4, Cookie Policy, seção 4 'Manage your preferences'",
+    "role": "unknown",
+    "verbatim": "We use cookies which are not essential for operation of our Website, such as functionality cookies, only with your prior express consent. It is your choice whether to accept these cookies. You can manage your consent preferences or revoke your consent at any time using our cookie banner."
    },
    {
     "doc": 1,
-    "verbatim": "last_views\nOffering more relevant content. It allows us to suggest similar videos to those previously watched by a user on the Website.\nvisitor/user of the website\nconsent from the data subject\n3 months",
-    "onde": "Doc 1, Privacy Policy, tabela de cookies",
-    "por_que": "Consentimento para cookie de recomendação — controle sobre personalização, não sobre experimentos.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, tabela de cookies",
+    "role": "unknown",
+    "verbatim": "last_views\nOffering more relevant content. It allows us to suggest similar videos to those previously watched by a user on the Website.\nvisitor/user of the website\nconsent from the data subject\n3 months"
    },
    {
     "doc": 3,
-    "verbatim": "When 'view history' is enabled, the system suggests more relevant videos based on the context of the respective video, considering criteria such as 'popularity', 'categories' or 'tags'.",
-    "onde": "Doc 3, ToS, seção 9",
-    "por_que": "Sugere um controle de usuário sobre histórico de visualização (recomendação), que o avaliador pode querer distinguir de opt-out de experimentação.",
     "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "onde": "Doc 3, ToS, seção 9",
+    "role": "unknown",
+    "verbatim": "When 'view history' is enabled, the system suggests more relevant videos based on the context of the respective video, considering criteria such as 'popularity', 'categories' or 'tags'."
    }
   ],
   "V6": [],
   "V7": [
    {
     "doc": 1,
-    "verbatim": "Send you service or support messages, updates, security alerts, and account notifications.",
-    "onde": "Doc 1, Privacy Policy, seção 2.1",
-    "por_que": "Único mecanismo de notificação ao usuário; é aviso de serviço, explicitamente excluído como debriefing pelo codebook.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 2.1",
+    "role": "unknown",
+    "verbatim": "Send you service or support messages, updates, security alerts, and account notifications."
    },
    {
     "doc": 1,
-    "verbatim": "If we make changes to this Privacy Policy, we will post the revised Privacy Policy on the Website and update the “Last Updated” date at the top of this Privacy Policy.",
-    "onde": "Doc 1, Privacy Policy, seção 7",
-    "por_que": "Aviso de mudança de política — falso positivo a ser descartado.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 7",
+    "role": "unknown",
+    "verbatim": "If we make changes to this Privacy Policy, we will post the revised Privacy Policy on the Website and update the “Last Updated” date at the top of this Privacy Policy."
    },
    {
     "doc": 3,
-    "verbatim": "We will notify you of major changes made to these Terms of Service, such as those relating to the characteristics of the service provided, or when we modify the rules on information that is permitted on the Website, or other such changes which could directly impact your ability to make use of the Website.",
-    "onde": "Doc 3, ToS, seção 16 'General'",
-    "por_que": "Aviso de mudança de serviço, não debriefing de experimento.",
     "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "onde": "Doc 3, ToS, seção 16 'General'",
+    "role": "unknown",
+    "verbatim": "We will notify you of major changes made to these Terms of Service, such as those relating to the characteristics of the service provided, or when we modify the rules on information that is permitted on the Website, or other such changes which could directly impact your ability to make use of the Website."
    }
   ],
   "V8": [
    {
     "doc": 1,
-    "verbatim": "conduct security investigations and risk assessments.",
-    "onde": "Doc 1, Privacy Policy, seção 2.2 e tabela (linhas IP address / device information / date and time of login)",
-    "por_que": "Única menção a 'risk assessments' — é avaliação de risco de segurança/fraude, não revisão ética de experimentos; borderline a ser codificado como No com nota.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 2.2 e tabela (linhas IP address / device information / date and time of login)",
+    "role": "unknown",
+    "verbatim": "conduct security investigations and risk assessments."
    },
    {
     "doc": 1,
-    "verbatim": "We review our information collection, storage and processing practices regularly, including physical security measures, to guard against unauthorised access to systems.",
-    "onde": "Doc 1, Privacy Policy, seção 4 'Security'",
-    "por_que": "Revisão interna de práticas, de natureza securitária, não ética/comitê.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 4 'Security'",
+    "role": "unknown",
+    "verbatim": "We review our information collection, storage and processing practices regularly, including physical security measures, to guard against unauthorised access to systems."
    },
    {
     "doc": 3,
-    "verbatim": "Ultimately, the decision to remove a Submission, rests with the human content moderator. WebGroup does not utilize algorithmic decision-making for content moderation.",
-    "onde": "Doc 3, ToS, seção 8.A",
-    "por_que": "Supervisão humana em moderação — não é comitê de ética nem avaliação de risco para experimentos; útil para descartar falso positivo.",
     "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "onde": "Doc 3, ToS, seção 8.A",
+    "role": "unknown",
+    "verbatim": "Ultimately, the decision to remove a Submission, rests with the human content moderator. WebGroup does not utilize algorithmic decision-making for content moderation."
    },
    {
     "doc": 1,
-    "verbatim": "We have appointed a data protection officer (“ DPO ”) .",
-    "onde": "Doc 1, Privacy Policy, seção 8 'Contact Us'",
-    "por_que": "DPO é figura de compliance de dados, não board de revisão ética de pesquisa; avaliador deve confirmar que não conta.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, seção 8 'Contact Us'",
+    "role": "unknown",
+    "verbatim": "We have appointed a data protection officer (“ DPO ”) ."
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "This Privacy Policy for Categories 2, 3 and 4 above describes how we collect, use, process, and disclose your information, including personal information, in conjunction with your access to and use of the Website.",
-    "onde": "Doc 1, Privacy Policy, introdução",
-    "por_que": "Identifica o documento como Privacy Policy — local de divulgação da linguagem de research/improvement.",
     "file": "xvideos/01-privacy.md",
-    "role": "unknown"
+    "onde": "Doc 1, Privacy Policy, introdução",
+    "role": "unknown",
+    "verbatim": "This Privacy Policy for Categories 2, 3 and 4 above describes how we collect, use, process, and disclose your information, including personal information, in conjunction with your access to and use of the Website."
    },
    {
     "doc": 3,
-    "verbatim": "our privacy notice**, if you do not have an account, available at https://info.xvideos.com/legal/privacynotice ; our privacy policy , if you do have an account, available at https://info.xvideos.com/legal/privacy ; and our cookie policy available at https://info.xvideos.net/legal/cookiepolicy . To the extent permitted by law, such rules, guidelines, statements and policies are hereby incorporated by reference into these Terms of Service.",
-    "onde": "Doc 3, ToS, seção 1 'Preamble'",
-    "por_que": "Incorporação por referência: torna Privacy Policy, Privacy Notice e Cookie Policy parte do contrato — determina o registro vinculante.",
     "file": "xvideos/03-tos.md",
-    "role": "unknown"
-   },
-   {
-    "doc": 3,
-    "verbatim": "These are official terms and conditions and form a legally binding agreement between you and WebGroup Czech Republic, a.s.",
     "onde": "Doc 3, ToS, seção 1 'Preamble'",
-    "por_que": "Declaração explícita de natureza vinculante dos ToS.",
-    "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "our privacy notice**, if you do not have an account, available at https://info.xvideos.com/legal/privacynotice ; our privacy policy , if you do have an account, available at https://info.xvideos.com/legal/privacy ; and our cookie policy available at https://info.xvideos.net/legal/cookiepolicy . To the extent permitted by law, such rules, guidelines, statements and policies are hereby incorporated by reference into these Terms of Service."
    },
    {
     "doc": 3,
-    "verbatim": "You must agree to the terms of our privacy policy before you may create an account or access certain services and functionalities described in the privacy policy.",
+    "file": "xvideos/03-tos.md",
     "onde": "Doc 3, ToS, seção 1 'Preamble'",
-    "por_que": "Confirma que a Privacy Policy é condição contratual — registro binding.",
-    "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "These are official terms and conditions and form a legally binding agreement between you and WebGroup Czech Republic, a.s."
    },
    {
     "doc": 3,
-    "verbatim": "These Terms of Service, the privacy policy, the rules as written on the upload form, and any other legal notices published on the Website, shall constitute the entire agreement between you and WebGroup.",
+    "file": "xvideos/03-tos.md",
+    "onde": "Doc 3, ToS, seção 1 'Preamble'",
+    "role": "unknown",
+    "verbatim": "You must agree to the terms of our privacy policy before you may create an account or access certain services and functionalities described in the privacy policy."
+   },
+   {
+    "doc": 3,
+    "file": "xvideos/03-tos.md",
     "onde": "Doc 3, ToS, seção 16 'General'",
-    "por_que": "Cláusula de integralidade do acordo — reforça que todos os documentos relevantes são vinculantes.",
-    "file": "xvideos/03-tos.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "These Terms of Service, the privacy policy, the rules as written on the upload form, and any other legal notices published on the Website, shall constitute the entire agreement between you and WebGroup."
    },
    {
     "doc": 5,
-    "verbatim": "Este projeto está arquivado. Seus dados são somente leitura .",
-    "onde": "Doc 5, GitLab (code.europa.eu), cabeçalho do repositório",
-    "por_que": "O Doc 5 é um espelho arquivado dos ToS em repositório da Comissão Europeia; hospedagem não-oficial do mesmo texto vinculante — relevante para separar registro de hospedagem.",
     "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
-    "role": "unknown"
+    "onde": "Doc 5, GitLab (code.europa.eu), cabeçalho do repositório",
+    "role": "unknown",
+    "verbatim": "Este projeto está arquivado. Seus dados são somente leitura ."
    },
    {
     "doc": 4,
-    "verbatim": "In connection with the use of cookies, some of your personal data may be processed. For more information about which personal data we process, how we process it and about your rights related to processing of personal data, please see our:",
-    "onde": "Doc 4, Cookie Policy, seção 5",
-    "por_que": "Cookie Policy remete à Privacy Policy/Notice; é documento incorporado aos ToS, portanto vinculante.",
     "file": "xvideos/04-cookiepolicy.md",
-    "role": "unknown"
+    "onde": "Doc 4, Cookie Policy, seção 5",
+    "role": "unknown",
+    "verbatim": "In connection with the use of cookies, some of your personal data may be processed. For more information about which personal data we process, how we process it and about your rights related to processing of personal data, please see our:"
    }
   ]
  },
@@ -353,5 +313,6 @@
  "uso": {
   "input": 74001,
   "output": 6393
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

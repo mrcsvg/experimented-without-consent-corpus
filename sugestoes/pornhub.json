@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Pornhub",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -10,547 +10,481 @@
   "V1": [
    {
     "doc": 1,
-    "verbatim": "Functionality and security: We may process any of the categories of data mentioned herein to diagnose or fix technology problems, to detect, prevent, and respond to actual or potential fraud, illegal activities, or intellectual property infringement.",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 5 (Purposes for Which We Process Your Personal Information)",
-    "por_que": "Linguagem de diagnóstico/correção — nível de 'melhorar o serviço', sem menção a teste de usuários.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Functionality and security: We may process any of the categories of data mentioned herein to diagnose or fix technology problems, to detect, prevent, and respond to actual or potential fraud, illegal activities, or intellectual property infringement."
    },
    {
     "doc": 1,
-    "verbatim": "Transfers are necessary for a variety of reasons, including our operation and provision of the services stated in our Terms & Conditions and this Privacy Notice to fix, analyse, and improve our Website, products and services.",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 14 (Transfers of Your Personal Information to Other Countries)",
-    "por_que": "Única formulação explícita de 'improve our Website, products and services' — candidata a V1=1.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Transfers are necessary for a variety of reasons, including our operation and provision of the services stated in our Terms & Conditions and this Privacy Notice to fix, analyse, and improve our Website, products and services."
    },
    {
     "doc": 1,
-    "verbatim": "Where we provide personalised services, we may analyse the information you supply, as well as your activity on Pornhub so that we can offer a more relevant, tailored service.",
-    "onde": "Privacy Notice, seção 9 (Your Choices...)",
-    "por_que": "Personalização declarada, não experimentação; relevante para descartar falso positivo.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, seção 9 (Your Choices...)",
+    "role": "unknown",
+    "verbatim": "Where we provide personalised services, we may analyse the information you supply, as well as your activity on Pornhub so that we can offer a more relevant, tailored service."
    },
    {
     "doc": 3,
-    "verbatim": "the Content may be used for training purposes;",
+    "file": "pornhub/03-information-terms.md",
     "onde": "Terms of Service, 'Rules Applicable to All Content and Uploaders on this Website'",
-    "por_que": "Menção a 'training' de modelos, não a teste/experimento com usuários; avaliador precisa ver para descartar.",
-    "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "the Content may be used for training purposes;"
    },
    {
     "doc": 3,
-    "verbatim": "This Website reserves the right to hash any uploaded Content for training purposes including, but not limited to, training for identifying, or combating illegal activities",
-    "onde": "Terms of Service, 'Additional Information Applicable to All Users'",
-    "por_que": "Outro uso de 'training' sem sentido experimental.",
     "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Service, 'Additional Information Applicable to All Users'",
+    "role": "unknown",
+    "verbatim": "This Website reserves the right to hash any uploaded Content for training purposes including, but not limited to, training for identifying, or combating illegal activities"
    },
    {
     "doc": 5,
-    "verbatim": "Pornhub.com\nfg_*\nIt is used for roll out a new feature to users\nFirst Party\n10 days",
-    "onde": "Cookie Notice, tabela de Functional Cookies",
-    "por_que": "Cookie de 'feature flag' para roll out de nova feature a usuários — evidência mais próxima de teste/variante servida a usuários distintos; borderline entre V1=2 e V1=3.",
     "file": "pornhub/05-information-cookie-notice.md",
-    "role": "unknown"
+    "onde": "Cookie Notice, tabela de Functional Cookies",
+    "role": "unknown",
+    "verbatim": "Pornhub.com\nfg_*\nIt is used for roll out a new feature to users\nFirst Party\n10 days"
    },
    {
     "doc": 6,
-    "verbatim": "Pornhub.com\nfg_*\nIt is used for roll out a new feature to users\nFirst Party\n10 days",
-    "onde": "Cookie Notice arquivado, tabela de Functional Cookies",
-    "por_que": "Confirma persistência do mesmo item no registro arquivado.",
     "file": "pornhub/06-pornhub-information-cookie-notice.md",
-    "role": "unknown"
+    "onde": "Cookie Notice arquivado, tabela de Functional Cookies",
+    "role": "unknown",
+    "verbatim": "Pornhub.com\nfg_*\nIt is used for roll out a new feature to users\nFirst Party\n10 days"
    },
    {
     "doc": 5,
-    "verbatim": "Pornhub.com\ncomp_*\nProvides user with option of essential or nonessential & the option to select via the cookie banner\nFirst Party\n30 days",
-    "onde": "Cookie Notice, tabela de Essential Cookies",
-    "por_que": "Contexto para avaliar se há outros cookies de experimentação; não menciona experimento.",
     "file": "pornhub/05-information-cookie-notice.md",
-    "role": "unknown"
+    "onde": "Cookie Notice, tabela de Essential Cookies",
+    "role": "unknown",
+    "verbatim": "Pornhub.com\ncomp_*\nProvides user with option of essential or nonessential & the option to select via the cookie banner\nFirst Party\n30 days"
    },
    {
     "doc": 3,
-    "verbatim": "Start Free Week of Pornhub Premium",
-    "onde": "Terms of Service, bloco promocional de cabeçalho/rodapé",
-    "por_que": "'Trial' de assinatura — falso positivo comum explicitamente excluído pelo critério.",
     "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Service, bloco promocional de cabeçalho/rodapé",
+    "role": "unknown",
+    "verbatim": "Start Free Week of Pornhub Premium"
    },
    {
     "doc": 5,
-    "verbatim": "Pornhub.com\npremiumTrialAccepted\nIt is used to determine if the user accepted or not the trial for PornHub Premium\nFirst Party\n30 days",
-    "onde": "Cookie Notice, Functional Cookies",
-    "por_que": "'Trial' de assinatura, não experimentação — deve ser descartado.",
     "file": "pornhub/05-information-cookie-notice.md",
-    "role": "unknown"
+    "onde": "Cookie Notice, Functional Cookies",
+    "role": "unknown",
+    "verbatim": "Pornhub.com\npremiumTrialAccepted\nIt is used to determine if the user accepted or not the trial for PornHub Premium\nFirst Party\n30 days"
    }
   ],
   "V2": [
    {
     "doc": 1,
-    "verbatim": "Transfers are necessary for a variety of reasons, including our operation and provision of the services stated in our Terms & Conditions and this Privacy Notice to fix, analyse, and improve our Website, products and services.",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 14",
-    "por_que": "Enquadramento de service improvement.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Transfers are necessary for a variety of reasons, including our operation and provision of the services stated in our Terms & Conditions and this Privacy Notice to fix, analyse, and improve our Website, products and services."
    },
    {
     "doc": 1,
-    "verbatim": "Analytics: We process identifiers and website activity data to determine whether users of Pornhub are unique, or whether the same user is using Pornhub on multiple occasions, and to monitor aggregate metrics such as total number of visitors, pages viewed, demographic patterns.",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 5",
-    "por_que": "Enquadramento analítico/mensuração; avaliador decide se conta como 'research'.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Analytics: We process identifiers and website activity data to determine whether users of Pornhub are unique, or whether the same user is using Pornhub on multiple occasions, and to monitor aggregate metrics such as total number of visitors, pages viewed, demographic patterns."
    },
    {
     "doc": 1,
-    "verbatim": "Researchers and Digital Services Coordinators: We share information with researchers where this is legally required to comply with data access requirements under the DSA. This may include all categories of personal data that are necessary for the purpose of conducting the research.",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 7 (Disclosure of Your Personal Information)",
-    "por_que": "Única aparição de 'research' — mas é acesso de pesquisadores externos sob DSA, não pesquisa própria da plataforma; decisivo para V2.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Researchers and Digital Services Coordinators: We share information with researchers where this is legally required to comply with data access requirements under the DSA. This may include all categories of personal data that are necessary for the purpose of conducting the research."
    },
    {
     "doc": 1,
-    "verbatim": "obligations to provide information to researchers under the EU Digital Services Act ( DSA )",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 5 (Compliance)",
-    "por_que": "Reforça que 'research' aparece só como obrigação regulatória de divulgação a terceiros.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "obligations to provide information to researchers under the EU Digital Services Act ( DSA )"
    },
    {
     "doc": 1,
-    "verbatim": "Platform Safety : To promote safety and security on Pornhub. We use the information we collect to help protect Pornhub users from harm and provide safe, secure product.",
-    "onde": "Privacy Notice, seção 5",
-    "por_que": "Candidata mais próxima de social-good/community: proteção de usuários contra dano.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, seção 5",
+    "role": "unknown",
+    "verbatim": "Platform Safety : To promote safety and security on Pornhub. We use the information we collect to help protect Pornhub users from harm and provide safe, secure product."
    },
    {
     "doc": 7,
-    "verbatim": "Given the nature of our services, this means we want to get tailored content, like videos, photos, and GIFs, to you while respecting your privacy, safety, and the laws and regulations in your jurisdiction.",
+    "file": "pornhub/07-information-recommender.md",
     "onde": "Recommender System Guidelines, 'Who and what our recommendations are for and why we do it'",
-    "por_que": "Enquadramento de melhoria da experiência + segurança, em registro não-vinculante.",
-    "file": "pornhub/07-information-recommender.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Given the nature of our services, this means we want to get tailored content, like videos, photos, and GIFs, to you while respecting your privacy, safety, and the laws and regulations in your jurisdiction."
    },
    {
     "doc": 7,
-    "verbatim": "We want to make sure that you always see the content that you enjoy most. To enhance your user experience, we provide a variety of sorting options for you to choose from.",
-    "onde": "Recommender System Guidelines, 'How the sorting of content works'",
-    "por_que": "Service improvement explícito ligado a ranking.",
     "file": "pornhub/07-information-recommender.md",
-    "role": "unknown"
+    "onde": "Recommender System Guidelines, 'How the sorting of content works'",
+    "role": "unknown",
+    "verbatim": "We want to make sure that you always see the content that you enjoy most. To enhance your user experience, we provide a variety of sorting options for you to choose from."
    },
    {
     "doc": 3,
-    "verbatim": "- Trust and Safety Initiatives : This section provides a list of the measures and initiatives we take to prevent and respond to illegal Content on the Website and to ensure user safety.",
-    "onde": "Terms of Service, Summary, seção Trust & Safety",
-    "por_que": "Linguagem de segurança da comunidade; borderline para social-good.",
     "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Service, Summary, seção Trust & Safety",
+    "role": "unknown",
+    "verbatim": "- Trust and Safety Initiatives : This section provides a list of the measures and initiatives we take to prevent and respond to illegal Content on the Website and to ensure user safety."
    }
   ],
   "V3": [
    {
     "doc": 5,
-    "verbatim": "Pornhub.com\nfg_*\nIt is used for roll out a new feature to users\nFirst Party\n10 days",
-    "onde": "Cookie Notice, Functional Cookies",
-    "por_que": "Nomeia 'feature' como superfície de roll out — evidência para V3a.",
     "file": "pornhub/05-information-cookie-notice.md",
-    "role": "unknown"
+    "onde": "Cookie Notice, Functional Cookies",
+    "role": "unknown",
+    "verbatim": "Pornhub.com\nfg_*\nIt is used for roll out a new feature to users\nFirst Party\n10 days"
    },
    {
     "doc": 7,
-    "verbatim": "To feature videos, we consider per country, the video’s views, ratings, comments, favorite markings, and total time watched.",
+    "file": "pornhub/07-information-recommender.md",
     "onde": "Recommender System Guidelines, 'Hot, hottest, and featured videos'",
-    "por_que": "Descreve ranking como personalização/curadoria declarada — o critério manda distinguir isso de alvo de experimento.",
-    "file": "pornhub/07-information-recommender.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "To feature videos, we consider per country, the video’s views, ratings, comments, favorite markings, and total time watched."
    },
    {
     "doc": 7,
-    "verbatim": "Our recommendations are based on metadata of the videos you watched, how you interacted with these videos, and popular videos in your region based on views, ratings, comments, favoriting, and total time watched.",
+    "file": "pornhub/07-information-recommender.md",
     "onde": "Recommender System Guidelines, 'Recommended'",
-    "por_que": "Recomendação como feature, não como experimento; relevante para negar V3b.",
-    "file": "pornhub/07-information-recommender.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Our recommendations are based on metadata of the videos you watched, how you interacted with these videos, and popular videos in your region based on views, ratings, comments, favoriting, and total time watched."
    },
    {
     "doc": 7,
-    "verbatim": "Where we deliver dynamic advertising, we use the following factors to identify advertisements that we believe may be most relevant to you:\nGeographic location,\nDate and time,\nContext the ad is placed in,\nDemographics,\nPrevious interactions with ads or content,",
-    "onde": "Recommender System Guidelines, 'TrafficJunky ads'",
-    "por_que": "Segmentação de anúncios detalhada; não é experimento nem preço.",
     "file": "pornhub/07-information-recommender.md",
-    "role": "unknown"
+    "onde": "Recommender System Guidelines, 'TrafficJunky ads'",
+    "role": "unknown",
+    "verbatim": "Where we deliver dynamic advertising, we use the following factors to identify advertisements that we believe may be most relevant to you:\nGeographic location,\nDate and time,\nContext the ad is placed in,\nDemographics,\nPrevious interactions with ads or content,"
    },
    {
     "doc": 1,
-    "verbatim": "Offering exclusive content not available on Pornhub.com. Super affordable at only €9.99/month.",
-    "onde": "Privacy Notice, bloco promocional",
-    "por_que": "Preço fixo anunciado, sem qualquer menção a teste ou personalização de preço — relevante para V3-pricing = No.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, bloco promocional",
+    "role": "unknown",
+    "verbatim": "Offering exclusive content not available on Pornhub.com. Super affordable at only €9.99/month."
    },
    {
     "doc": 2,
-    "verbatim": "Offering exclusive content not available on Pornhub.com. Super affordable at only $9.99/month.",
-    "onde": "Privacy Notice arquivado, bloco promocional",
-    "por_que": "Mesmo preço em moeda distinta por geografia; avaliador pode querer ver se isso é apenas localização de moeda e não personalização de preço declarada.",
     "file": "pornhub/02-pornhub-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice arquivado, bloco promocional",
+    "role": "unknown",
+    "verbatim": "Offering exclusive content not available on Pornhub.com. Super affordable at only $9.99/month."
    },
    {
     "doc": 3,
-    "verbatim": "Where applicable, sales tax may be added to your purchase.",
+    "file": "pornhub/03-information-terms.md",
     "onde": "Terms of Service, bloco de upgrade",
-    "por_que": "Única variação de preço declarada, de natureza fiscal — não é alvo de experimento.",
-    "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Where applicable, sales tax may be added to your purchase."
    },
    {
     "doc": 3,
-    "verbatim": "We may make available certain paid features in exchange for one-time or recurring fees (each a “Paid Service”).",
-    "onde": "Terms of Service, 'Use of Paid Services'",
-    "por_que": "Preço tratado só como cláusula contratual, sem personalização/teste.",
     "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Service, 'Use of Paid Services'",
+    "role": "unknown",
+    "verbatim": "We may make available certain paid features in exchange for one-time or recurring fees (each a “Paid Service”)."
    },
    {
     "doc": 5,
-    "verbatim": "Pornhub.com hideShortiesHomepage This cookie is used to determine whether to show or hide the Shorties video carousel based on user preferences First Party Session",
-    "onde": "Cookie Notice, Functional Cookies",
-    "por_que": "Superfície de UI nomeada (carrossel), mas atrelada a preferência do usuário, não a variante experimental.",
     "file": "pornhub/05-information-cookie-notice.md",
-    "role": "unknown"
+    "onde": "Cookie Notice, Functional Cookies",
+    "role": "unknown",
+    "verbatim": "Pornhub.com hideShortiesHomepage This cookie is used to determine whether to show or hide the Shorties video carousel based on user preferences First Party Session"
    },
    {
     "doc": 5,
-    "verbatim": "Pornhub.com\nquickiesDDSeed\nUsed for surfacing content in Shorties\nFirst Party\n1 day",
-    "onde": "Cookie Notice, Functional Cookies",
-    "por_que": "Cookie de 'seed' para surfacing de conteúdo; borderline para alvo de experimento de ranking.",
     "file": "pornhub/05-information-cookie-notice.md",
-    "role": "unknown"
+    "onde": "Cookie Notice, Functional Cookies",
+    "role": "unknown",
+    "verbatim": "Pornhub.com\nquickiesDDSeed\nUsed for surfacing content in Shorties\nFirst Party\n1 day"
    }
   ],
   "V4": [
    {
     "doc": 1,
-    "verbatim": "It satisfies a legitimate interest which is not overridden by your data protection interests: for example, to keep Pornhub safe and secure from fraud and illegal activities.",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 6 (Our Legal Bases under Canadian, UK and European Union (EU) Privacy Law)",
-    "por_que": "Base de interesse legítimo declarada, mas exemplificada com segurança, não com experimentação.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "It satisfies a legitimate interest which is not overridden by your data protection interests: for example, to keep Pornhub safe and secure from fraud and illegal activities."
    },
    {
     "doc": 1,
-    "verbatim": "You provide your consent for a specific purpose: for example, when you allow us to show you personalized ads or to send you e-mail marketing. You may withdraw your consent at any time.",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 6",
-    "por_que": "Consentimento vinculado a ads personalizados; avaliador decide se cobre experimentação.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "You provide your consent for a specific purpose: for example, when you allow us to show you personalized ads or to send you e-mail marketing. You may withdraw your consent at any time."
    },
    {
     "doc": 1,
-    "verbatim": "It is necessary to perform our contractual obligations as per our Terms & Conditions on Pornhub: for example, to create your account.",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 6",
-    "por_que": "Base contratual declarada, exemplo limitado à criação de conta.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "It is necessary to perform our contractual obligations as per our Terms & Conditions on Pornhub: for example, to create your account."
    },
    {
     "doc": 1,
-    "verbatim": "Depending on the circumstances, we may rely on different legal bases when processing your same information for different purposes. If you reside outside the European Economic Area (“EEA”), Switzerland or the United Kingdom (“UK”), the legal bases on which we rely may differ from those listed above.",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 6",
-    "por_que": "Declara explicitamente que as bases legais são region-gated (EEA/Suíça/UK) — decisivo para v4_region_gated.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Depending on the circumstances, we may rely on different legal bases when processing your same information for different purposes. If you reside outside the European Economic Area (“EEA”), Switzerland or the United Kingdom (“UK”), the legal bases on which we rely may differ from those listed above."
    },
    {
     "doc": 1,
-    "verbatim": "6. Our Legal Bases under Canadian, UK and European Union (EU) Privacy Law",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, título da seção 6",
-    "por_que": "O próprio título limita as bases legais a jurisdições específicas.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "6. Our Legal Bases under Canadian, UK and European Union (EU) Privacy Law"
    },
    {
     "doc": 1,
-    "verbatim": "To the extent required by applicable laws, we process your personal data only when:",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, abertura da seção 6",
-    "por_que": "Condicionamento a 'applicable laws' reforça gating regional.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "To the extent required by applicable laws, we process your personal data only when:"
    },
    {
     "doc": 1,
-    "verbatim": "Functionality and security: We may process any of the categories of data mentioned herein to diagnose or fix technology problems",
-    "onde": "Privacy Notice, seção 5",
-    "por_que": "Finalidade declarada que mais plausivelmente cobriria experimentação/teste — a base legal teria de ser inferida daqui.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, seção 5",
+    "role": "unknown",
+    "verbatim": "Functionality and security: We may process any of the categories of data mentioned herein to diagnose or fix technology problems"
    }
   ],
   "V5": [
    {
     "doc": 1,
-    "verbatim": "Right to object : you have the right to object to the use of your personal data where such use is based on our legitimate interests or on public interests;",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 18 (Your Rights Related to Your Personal Information)",
-    "por_que": "Direito genérico de objeção do Art. 21 — candidato a GDPR-objection-only.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Right to object : you have the right to object to the use of your personal data where such use is based on our legitimate interests or on public interests;"
    },
    {
     "doc": 1,
-    "verbatim": "The Cookie Banner specifically controls the functionality, analytics, and advertising cookies set by using Pornhub. Strictly necessary cookies cannot be disabled, nor can the tool be used to block cookies on third party websites linked from our website.",
-    "onde": "Privacy Notice, seção 9",
-    "por_que": "Escopo do banner é ads/analytics/funcionalidade — falso positivo clássico a ser descartado.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, seção 9",
+    "role": "unknown",
+    "verbatim": "The Cookie Banner specifically controls the functionality, analytics, and advertising cookies set by using Pornhub. Strictly necessary cookies cannot be disabled, nor can the tool be used to block cookies on third party websites linked from our website."
    },
    {
     "doc": 1,
-    "verbatim": "If you do not want to receive these services, you can switch off the recommendations toggle on the “recommended” page or via the bar at the left of our page.",
-    "onde": "Privacy Notice, seção 9",
-    "por_que": "Toggle existente, mas de recomendações personalizadas, não de experimentação.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, seção 9",
+    "role": "unknown",
+    "verbatim": "If you do not want to receive these services, you can switch off the recommendations toggle on the “recommended” page or via the bar at the left of our page."
    },
    {
     "doc": 7,
-    "verbatim": "On the homepage for Pornhub, you can select the Hamburger menu icon, and you can turn on or off Personalized Recommendations . If you turn off this feature, the videos you watched and how you interacted with these videos don’t influence any content recommendations we show you.",
+    "file": "pornhub/07-information-recommender.md",
     "onde": "Recommender System Guidelines, 'More options on how you can customize our recommendations'",
-    "por_que": "Controle mais específico disponível; governa personalização, não participação em experimentos.",
-    "file": "pornhub/07-information-recommender.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "On the homepage for Pornhub, you can select the Hamburger menu icon, and you can turn on or off Personalized Recommendations . If you turn off this feature, the videos you watched and how you interacted with these videos don’t influence any content recommendations we show you."
    },
    {
     "doc": 7,
-    "verbatim": "If you deactivate Targeting/Advertising Cookies , we do not use demographics or previous interactions with ads or content to find the most relevant advertising for you.",
-    "onde": "Recommender System Guidelines, 'TrafficJunky ads'",
-    "por_que": "Opt-out de publicidade — escopo de ads, não de experimento.",
     "file": "pornhub/07-information-recommender.md",
-    "role": "unknown"
+    "onde": "Recommender System Guidelines, 'TrafficJunky ads'",
+    "role": "unknown",
+    "verbatim": "If you deactivate Targeting/Advertising Cookies , we do not use demographics or previous interactions with ads or content to find the most relevant advertising for you."
    },
    {
     "doc": 5,
-    "verbatim": "Analytics, Functional and Targeting cookies can be switched on or off at any time by accessing the 'Manage Cookies' option located at the footer of the Website.",
-    "onde": "Cookie Notice, 'Manage Cookies Option'",
-    "por_que": "Define o alcance do controle disponível: categorias de cookies, não experimentação.",
     "file": "pornhub/05-information-cookie-notice.md",
-    "role": "unknown"
+    "onde": "Cookie Notice, 'Manage Cookies Option'",
+    "role": "unknown",
+    "verbatim": "Analytics, Functional and Targeting cookies can be switched on or off at any time by accessing the 'Manage Cookies' option located at the footer of the Website."
    },
    {
     "doc": 1,
-    "verbatim": "You can opt out of receiving marketing emails from us using the opt-out link provided in our emails or by changing your preferences in your account settings.",
-    "onde": "Privacy Notice, seção 9",
-    "por_que": "Único 'opt-out' nomeado; é de marketing.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, seção 9",
+    "role": "unknown",
+    "verbatim": "You can opt out of receiving marketing emails from us using the opt-out link provided in our emails or by changing your preferences in your account settings."
    }
   ],
   "V6": [
    {
     "doc": 1,
-    "verbatim": "Sapphic\nBeta\nTrans",
-    "onde": "Barra de orientação no cabeçalho de navegação",
-    "por_que": "Rótulo 'Beta' aparece como marcação de seção do site, sem programa de inscrição voluntária — avaliador precisa ver para decidir se conta.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Barra de orientação no cabeçalho de navegação",
+    "role": "unknown",
+    "verbatim": "Sapphic\nBeta\nTrans"
    },
    {
     "doc": 5,
-    "verbatim": "Pornhub.com\nfg_*\nIt is used for roll out a new feature to users\nFirst Party\n10 days",
-    "onde": "Cookie Notice, Functional Cookies",
-    "por_que": "Roll out de feature sem qualquer inscrição voluntária declarada — argumento contra V6=Yes.",
     "file": "pornhub/05-information-cookie-notice.md",
-    "role": "unknown"
+    "onde": "Cookie Notice, Functional Cookies",
+    "role": "unknown",
+    "verbatim": "Pornhub.com\nfg_*\nIt is used for roll out a new feature to users\nFirst Party\n10 days"
    },
    {
     "doc": 3,
-    "verbatim": "We may make available certain paid features in exchange for one-time or recurring fees (each a “Paid Service”). Your use of Paid Services and any transactions related to the purchase of such Paid Service are subject to the Paid Service Terms .",
-    "onde": "Terms of Service, 'Use of Paid Services'",
-    "por_que": "Acesso antecipado/exclusivo aqui é comercial (premium), não programa beta.",
     "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Service, 'Use of Paid Services'",
+    "role": "unknown",
+    "verbatim": "We may make available certain paid features in exchange for one-time or recurring fees (each a “Paid Service”). Your use of Paid Services and any transactions related to the purchase of such Paid Service are subject to the Paid Service Terms ."
    }
   ],
   "V7": [
    {
     "doc": 1,
-    "verbatim": "Although we may attempt to notify you when major changes are made to this Privacy Notice, you are expected to periodically review the most up-to-date version found at this location, so you are aware of any changes, as they are binding on you.",
-    "onde": "Privacy Notice, seção 17 (Changes to Our Privacy Notice)",
-    "por_que": "Aviso de mudança de política — falso positivo explicitamente excluído pelo critério de V7.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, seção 17 (Changes to Our Privacy Notice)",
+    "role": "unknown",
+    "verbatim": "Although we may attempt to notify you when major changes are made to this Privacy Notice, you are expected to periodically review the most up-to-date version found at this location, so you are aware of any changes, as they are binding on you."
    },
    {
     "doc": 3,
-    "verbatim": "We may amend these Terms of Service, found at https://www.pornhub.com/information/terms , from time to time. If we do, we will give you reasonable, advance notice in a transparent manner, in text form, for example via a pop-up notification on the Website when logging on to your account, or via e-mail.",
+    "file": "pornhub/03-information-terms.md",
     "onde": "Terms of Service, 'Changes to the Terms of Service'",
-    "por_que": "Aviso de mudança de serviço/termos, não debriefing.",
-    "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "We may amend these Terms of Service, found at https://www.pornhub.com/information/terms , from time to time. If we do, we will give you reasonable, advance notice in a transparent manner, in text form, for example via a pop-up notification on the Website when logging on to your account, or via e-mail."
    },
    {
     "doc": 3,
-    "verbatim": "Issue a written warning to the infringer. Before we temporarily or permanently suspend an infringer’s access to our services following provision of manifestly illegal Content or action by such infringer we may issue a warning to the infringer",
-    "onde": "Terms of Service, 'Monitoring and Enforcement; Termination'",
-    "por_que": "Notificação de decisão de moderação — não é debriefing de experimento.",
     "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Service, 'Monitoring and Enforcement; Termination'",
+    "role": "unknown",
+    "verbatim": "Issue a written warning to the infringer. Before we temporarily or permanently suspend an infringer’s access to our services following provision of manifestly illegal Content or action by such infringer we may issue a warning to the infringer"
    },
    {
     "doc": 1,
-    "verbatim": "Customer management (Registered Users Only): We process identifiers and Contact Data to manage Registered Users’ account, to provide customer support and notices to the Registered Users about their account, and notices about changes to Pornhub or any products or services we offer or provide through them.",
-    "onde": "Privacy Notice, seção 5",
-    "por_que": "Todos os tipos de notificação prometidos ao usuário são de conta/mudança de serviço; nenhum de participação em estudo.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, seção 5",
+    "role": "unknown",
+    "verbatim": "Customer management (Registered Users Only): We process identifiers and Contact Data to manage Registered Users’ account, to provide customer support and notices to the Registered Users about their account, and notices about changes to Pornhub or any products or services we offer or provide through them."
    }
   ],
   "V8": [
    {
     "doc": 1,
-    "verbatim": "To determine the appropriate retention period for personal data, we consider several factors, including what personal data we are processing, the risk of harm from any unauthorized disclosure, why we are processing your personal data and whether we can achieve this outcome by another means without having to process it.",
-    "onde": "Privacy Notice, seção 15 (Retention of Personal Information)",
-    "por_que": "Linguagem de 'risk of harm' atada a retenção/divulgação, não a avaliação de risco de experimentos — borderline que o critério manda codificar como No com nota.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, seção 15 (Retention of Personal Information)",
+    "role": "unknown",
+    "verbatim": "To determine the appropriate retention period for personal data, we consider several factors, including what personal data we are processing, the risk of harm from any unauthorized disclosure, why we are processing your personal data and whether we can achieve this outcome by another means without having to process it."
    },
    {
     "doc": 3,
-    "verbatim": "When deciding on appropriate action, we consider all relevant factors such as the frequency, severity, and impact of a violation, as well as any measures previously imposed on an infringer",
-    "onde": "Terms of Service, 'Monitoring and Enforcement; Termination'",
-    "por_que": "Linguagem de 'impacto' ligada a moderação, não a revisão ética de experimento.",
     "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Service, 'Monitoring and Enforcement; Termination'",
+    "role": "unknown",
+    "verbatim": "When deciding on appropriate action, we consider all relevant factors such as the frequency, severity, and impact of a violation, as well as any measures previously imposed on an infringer"
    },
    {
     "doc": 3,
-    "verbatim": "In deciding on the appropriate and proportionate course of action, we will give due consideration to the legitimate interests of the impacted User, any other potentially affected rights holders, and our own legitimate interests.",
-    "onde": "Terms of Service, 'Monitoring and Enforcement; Termination'",
-    "por_que": "Ponderação de interesses em moderação de conteúdo; borderline de 'impacto' explicitamente listado como No no critério.",
     "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Service, 'Monitoring and Enforcement; Termination'",
+    "role": "unknown",
+    "verbatim": "In deciding on the appropriate and proportionate course of action, we will give due consideration to the legitimate interests of the impacted User, any other potentially affected rights holders, and our own legitimate interests."
    },
    {
     "doc": 3,
-    "verbatim": "We use a variety of procedures and tools to identify, review and moderate Content. This includes both human and automated review, or a combination of both, depending on what is appropriate and required in each individual case.",
-    "onde": "Terms of Service, 'Monitoring and Enforcement; Termination'",
-    "por_que": "'Review' aqui é moderação de conteúdo, não revisão ética/comitê.",
     "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Service, 'Monitoring and Enforcement; Termination'",
+    "role": "unknown",
+    "verbatim": "We use a variety of procedures and tools to identify, review and moderate Content. This includes both human and automated review, or a combination of both, depending on what is appropriate and required in each individual case."
    },
    {
     "doc": 7,
-    "verbatim": "To do this, we’ve developed methods that give you what you want while keeping you safe and within the legal parameters of where you live.",
-    "onde": "Recommender System Guidelines",
-    "por_que": "Referência a parâmetros legais/segurança, sem comitê, board ou avaliação de risco de experimentos.",
     "file": "pornhub/07-information-recommender.md",
-    "role": "unknown"
+    "onde": "Recommender System Guidelines",
+    "role": "unknown",
+    "verbatim": "To do this, we’ve developed methods that give you what you want while keeping you safe and within the legal parameters of where you live."
    },
    {
     "doc": 3,
-    "verbatim": "Recommender System Guidelines : This policy outlines how we tailor recommendations to Users, prioritizing their privacy and safety, as well as compliance with applicable laws.",
-    "onde": "Terms of Service, Summary",
-    "por_que": "Compliance e segurança mencionados, sem mecanismo de revisão ética — relevante para o gap DSA-vs-documento.",
     "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Service, Summary",
+    "role": "unknown",
+    "verbatim": "Recommender System Guidelines : This policy outlines how we tailor recommendations to Users, prioritizing their privacy and safety, as well as compliance with applicable laws."
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "Aylo Freesites Ltd (hereinafter “ we ”, “ us ” or “ our ”) operates the website www.pornhub.com (hereinafter “ Pornhub ”) and is the controller of the information collected or provided via Pornhub.",
-    "onde": "Privacy Notice, Introduction",
-    "por_que": "Identifica o Privacy Notice como documento do controlador — registro vinculante.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, Introduction",
+    "role": "unknown",
+    "verbatim": "Aylo Freesites Ltd (hereinafter “ we ”, “ us ” or “ our ”) operates the website www.pornhub.com (hereinafter “ Pornhub ”) and is the controller of the information collected or provided via Pornhub."
    },
    {
     "doc": 1,
-    "verbatim": "Please read this Privacy Notice carefully, as your access to and use of Pornhub signifies that you have read and understand all terms within this Privacy Notice.",
-    "onde": "Privacy Notice, Introduction",
-    "por_que": "Declaração de vinculação por uso — confirma registro binding.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Privacy Notice, Introduction",
+    "role": "unknown",
+    "verbatim": "Please read this Privacy Notice carefully, as your access to and use of Pornhub signifies that you have read and understand all terms within this Privacy Notice."
    },
    {
     "doc": 3,
-    "verbatim": "By accessing, using or visiting www.pornhub.com (“ we ”, “ us ”, “ our ”, or this “ Website ”), any of its Content, functionalities and services, you signify your agreement to these Terms of Service including policies and related guidelines",
+    "file": "pornhub/03-information-terms.md",
     "onde": "Terms of Service, 'Acceptance of the Terms of Service'",
-    "por_que": "ToS declara-se acordo vinculante e incorpora políticas relacionadas.",
-    "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "By accessing, using or visiting www.pornhub.com (“ we ”, “ us ”, “ our ”, or this “ Website ”), any of its Content, functionalities and services, you signify your agreement to these Terms of Service including policies and related guidelines"
    },
    {
     "doc": 3,
-    "verbatim": "The Terms of Service, our Privacy Notice, our Copyright Policy and any documents they expressly incorporate by reference constitute the sole and entire agreement between you and us with respect to this Website.",
+    "file": "pornhub/03-information-terms.md",
     "onde": "Terms of Service, 'Miscellaneous'",
-    "por_que": "Define exatamente quais documentos são vinculantes — teste decisivo do critério de V9.",
-    "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "The Terms of Service, our Privacy Notice, our Copyright Policy and any documents they expressly incorporate by reference constitute the sole and entire agreement between you and us with respect to this Website."
    },
    {
     "doc": 3,
-    "verbatim": "This is a non-binding summary of the applicable Terms of Service of the Website, that covers selected aspects of the same in a simplified manner. It is not a substitute for our binding Terms of Service, which include our policies and guidelines (“ our Terms ”). In all cases, our Terms prevail.",
+    "file": "pornhub/03-information-terms.md",
     "onde": "Terms of Service, 'SUMMARY TERMS OF SERVICE'",
-    "por_que": "O sumário se autodeclara não-vinculante — distinção de registro dentro do mesmo documento.",
-    "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "This is a non-binding summary of the applicable Terms of Service of the Website, that covers selected aspects of the same in a simplified manner. It is not a substitute for our binding Terms of Service, which include our policies and guidelines (“ our Terms ”). In all cases, our Terms prevail."
    },
    {
     "doc": 3,
-    "verbatim": "Recommender System Guidelines : This policy outlines how we tailor recommendations to Users, prioritizing their privacy and safety, as well as compliance with applicable laws.",
-    "onde": "Terms of Service, Summary, item Recommender System Guidelines",
-    "por_que": "O ToS referencia as Recommender Guidelines; avaliador decide se isso as incorpora ao registro vinculante.",
     "file": "pornhub/03-information-terms.md",
-    "role": "unknown"
+    "onde": "Terms of Service, Summary, item Recommender System Guidelines",
+    "role": "unknown",
+    "verbatim": "Recommender System Guidelines : This policy outlines how we tailor recommendations to Users, prioritizing their privacy and safety, as well as compliance with applicable laws."
    },
    {
     "doc": 5,
-    "verbatim": "This Cookie Notice applies for cookies and other similar technologies which may be placed when you visit different pages on www.pornhub.com (the “Website”) which is operated by Aylo Freesites Ltd (hereinafter “we” or “us”).",
-    "onde": "Cookie Notice, abertura",
-    "por_que": "Cookie Notice é onde vive a evidência de roll out de features; seu registro precisa ser classificado.",
     "file": "pornhub/05-information-cookie-notice.md",
-    "role": "unknown"
+    "onde": "Cookie Notice, abertura",
+    "role": "unknown",
+    "verbatim": "This Cookie Notice applies for cookies and other similar technologies which may be placed when you visit different pages on www.pornhub.com (the “Website”) which is operated by Aylo Freesites Ltd (hereinafter “we” or “us”)."
    },
    {
     "doc": 1,
-    "verbatim": "For more information on how we use cookies, please refer to our Cookie Notice, available here.",
+    "file": "pornhub/01-information-privacy.md",
     "onde": "Privacy Notice, seção 8",
-    "por_que": "Privacy Notice (vinculante) referencia o Cookie Notice — argumento de incorporação.",
-    "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "For more information on how we use cookies, please refer to our Cookie Notice, available here."
    },
    {
     "doc": 7,
-    "verbatim": "Recommendations and tailoring content to you at Pornhub\nLast Modified: March 11, 2024",
+    "file": "pornhub/07-information-recommender.md",
     "onde": "Recommender System Guidelines, cabeçalho",
-    "por_que": "Documento separado com data própria, hospedado em /information/ — hospedagem não determina registro.",
-    "file": "pornhub/07-information-recommender.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Recommendations and tailoring content to you at Pornhub\nLast Modified: March 11, 2024"
    },
    {
     "doc": 7,
-    "verbatim": "If you want safety and privacy specifics, check out our Terms & Conditions , Trust & Safety policy, Privacy Notice , and EU DSA pages.",
-    "onde": "Recommender System Guidelines",
-    "por_que": "O documento remete a outros para 'specifics', sugerindo função explicativa e não contratual.",
     "file": "pornhub/07-information-recommender.md",
-    "role": "unknown"
+    "onde": "Recommender System Guidelines",
+    "role": "unknown",
+    "verbatim": "If you want safety and privacy specifics, check out our Terms & Conditions , Trust & Safety policy, Privacy Notice , and EU DSA pages."
    },
    {
     "doc": 1,
-    "verbatim": "Information\nSitemap\nTerms & Conditions\nPrivacy Notice\nDMCA\n2257\nEU DSA\nRecommender System Guidelines\nCookie Notice\nAccessibility\nNotice to Law Enforcement",
-    "onde": "Rodapé do site",
-    "por_que": "Mostra todos os locais de divulgação disponíveis, para a multi-seleção de v9_where.",
     "file": "pornhub/01-information-privacy.md",
-    "role": "unknown"
+    "onde": "Rodapé do site",
+    "role": "unknown",
+    "verbatim": "Information\nSitemap\nTerms & Conditions\nPrivacy Notice\nDMCA\n2257\nEU DSA\nRecommender System Guidelines\nCookie Notice\nAccessibility\nNotice to Law Enforcement"
    }
   ]
  },
@@ -563,5 +497,6 @@
   "max_tokens": 16000,
   "thinking": "adaptive",
   "nota": "teto anterior; JSON completo, sem truncamento"
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

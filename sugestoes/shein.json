@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Shein",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -14,386 +14,340 @@
   "V1": [
    {
     "doc": 1,
-    "verbatim": "Conteúdo de chat de serviço ao cliente (com identidade removida antes da revisão de IA)\nAvaliação de qualidade das interações de serviço ao cliente; formação de modelos de qualidade de IA; melhoria da precisão das avaliações de qualidade de serviço",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.1, tabela de Dados Pessoais Tratados (última linha)",
-    "por_que": "Linguagem de melhoria/avaliação e formação de modelos; não menciona testar utilizadores nem método experimental — candidata a nível 1.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Conteúdo de chat de serviço ao cliente (com identidade removida antes da revisão de IA)\nAvaliação de qualidade das interações de serviço ao cliente; formação de modelos de qualidade de IA; melhoria da precisão das avaliações de qualidade de serviço"
    },
    {
     "doc": 1,
-    "verbatim": "Histórico de compras\nPara lhe sugerir produtos de que possa gostar. Recolha e análise para pesquisa de mercado e planeamento de produção.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.1, tabela (linha 'Histórico de compras')",
-    "por_que": "Menciona 'pesquisa de mercado' e análise, mas não descreve testar utilizadores nem experimentos/variantes.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Histórico de compras\nPara lhe sugerir produtos de que possa gostar. Recolha e análise para pesquisa de mercado e planeamento de produção."
    },
    {
     "doc": 1,
-    "verbatim": "Interesse legítimo na pesquisa e desenvolvimento dos nossos Serviços e produtos.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.1, tabela (base jurídica para Histórico de compras)",
-    "por_que": "Linguagem de pesquisa e desenvolvimento do serviço — relevante para decidir entre nível 1 e 2.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Interesse legítimo na pesquisa e desenvolvimento dos nossos Serviços e produtos."
    },
    {
     "doc": 1,
-    "verbatim": "As informações estatísticas são utilizadas em relatórios e para melhorar o nosso site. Por exemplo, utilizámos dados analíticos para adicionar, remover ou alterar funcionalidades do site com base na sua popularidade entre os utilizadores.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 3.3 B (Cookies de Desempenho)",
-    "por_que": "Uso de analytics para alterar funcionalidades — melhoria do serviço, sem menção a teste A/B, variantes ou grupos.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "As informações estatísticas são utilizadas em relatórios e para melhorar o nosso site. Por exemplo, utilizámos dados analíticos para adicionar, remover ou alterar funcionalidades do site com base na sua popularidade entre os utilizadores."
    },
    {
     "doc": 1,
-    "verbatim": "Interesse legítimo em garantir a segurança da sua conta e do nosso site e aplicativo e fornecer uma experiência de utilizador otimizada.",
-    "onde": "Doc 1, secção 1.1, tabela (Informações de Dispositivo)",
-    "por_que": "Linguagem de otimização da experiência, sem qualquer referência a experimentação.",
     "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "onde": "Doc 1, secção 1.1, tabela (Informações de Dispositivo)",
+    "role": "binding",
+    "verbatim": "Interesse legítimo em garantir a segurança da sua conta e do nosso site e aplicativo e fornecer uma experiência de utilizador otimizada."
    },
    {
     "doc": 2,
-    "verbatim": "A visibilidade e classificação dos produtos, dentro de uma página ou secção da Plataforma, são determinadas por uma série de fatores relacionados com o objetivo preditivo do modelo algorítmico do sistema de recomendação.",
+    "file": "shein/02-ranking-policy-a-1979.md",
     "onde": "Doc 2, secção 1 (Fatores que afetam a classificação)",
-    "por_que": "Descreve modelo algorítmico preditivo e personalização, mas não afirma testar variantes com utilizadores — útil para excluir nível 2/3.",
-    "file": "shein/02-ranking-policy-a-1979.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "A visibilidade e classificação dos produtos, dentro de uma página ou secção da Plataforma, são determinadas por uma série de fatores relacionados com o objetivo preditivo do modelo algorítmico do sistema de recomendação."
    },
    {
     "doc": 2,
-    "verbatim": "Estes fatores podem afetar dinamicamente os principais parâmetros utilizados pelo sistema de recomendação e, consequentemente, influenciar a proeminência da classificação dos produtos.",
-    "onde": "Doc 2, secção 1",
-    "por_que": "Ajuste dinâmico de parâmetros pode ser confundido com experimentação; avaliador precisa ver o texto exato para decidir.",
     "file": "shein/02-ranking-policy-a-1979.md",
-    "role": "unknown"
+    "onde": "Doc 2, secção 1",
+    "role": "unknown",
+    "verbatim": "Estes fatores podem afetar dinamicamente os principais parâmetros utilizados pelo sistema de recomendação e, consequentemente, influenciar a proeminência da classificação dos produtos."
    }
   ],
   "V2": [
    {
     "doc": 1,
-    "verbatim": "Avaliação de qualidade das interações de serviço ao cliente; formação de modelos de qualidade de IA; melhoria da precisão das avaliações de qualidade de serviço",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.1, tabela (conteúdo de chat)",
-    "por_que": "Enquadramento explícito de melhoria do serviço.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Avaliação de qualidade das interações de serviço ao cliente; formação de modelos de qualidade de IA; melhoria da precisão das avaliações de qualidade de serviço"
    },
    {
     "doc": 1,
-    "verbatim": "Tratamos o conteúdo de chat anonimizado para estes fins de melhoria de qualidade com base no nosso interesse legítimo em manter e melhorar a qualidade das nossas operações de serviço ao cliente, garantir padrões de serviço consistentes e melhorar a sua experiência.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.4 (Base Jurídica)",
-    "por_que": "Service improvement em linguagem direta.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Tratamos o conteúdo de chat anonimizado para estes fins de melhoria de qualidade com base no nosso interesse legítimo em manter e melhorar a qualidade das nossas operações de serviço ao cliente, garantir padrões de serviço consistentes e melhorar a sua experiência."
    },
    {
     "doc": 1,
-    "verbatim": "Recolha e análise para pesquisa de mercado e planeamento de produção.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.1, tabela (Histórico de compras)",
-    "por_que": "Enquadramento de 'research' (pesquisa de mercado).",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Recolha e análise para pesquisa de mercado e planeamento de produção."
    },
    {
     "doc": 1,
-    "verbatim": "Interesse legítimo na pesquisa e desenvolvimento dos nossos Serviços e produtos.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.1, tabela (base jurídica, Histórico de compras)",
-    "por_que": "Segunda ocorrência de enquadramento de pesquisa.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Interesse legítimo na pesquisa e desenvolvimento dos nossos Serviços e produtos."
    },
    {
     "doc": 1,
-    "verbatim": "Para ajudar clientes que estejam a considerar comprar o mesmo produto.",
-    "onde": "Doc 1, secção 1.1, tabela (Avaliações de produtos)",
-    "por_que": "Possível leitura de benefício comunitário; fraca, mas é o candidato mais próximo de social-good no corpus.",
     "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "onde": "Doc 1, secção 1.1, tabela (Avaliações de produtos)",
+    "role": "binding",
+    "verbatim": "Para ajudar clientes que estejam a considerar comprar o mesmo produto."
    },
    {
     "doc": 3,
-    "verbatim": "a SHEIN pode mitigar riscos contra desinformação, manipulação, infrações de conteúdo, ciberviolência contra mulheres ou menores, removendo, bloqueando ou suspendendo, ao seu exclusivo critério, qualquer Contribuição que não cumpra os T&C",
+    "file": "shein/03-terms-and-conditions-a-399.md",
     "onde": "Doc 3, CGU secção 6.4(4)(i)",
-    "por_que": "Linguagem de proteção da comunidade/bem-estar, ainda que ligada a moderação e não a experimentação.",
-    "file": "shein/03-terms-and-conditions-a-399.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "a SHEIN pode mitigar riscos contra desinformação, manipulação, infrações de conteúdo, ciberviolência contra mulheres ou menores, removendo, bloqueando ou suspendendo, ao seu exclusivo critério, qualquer Contribuição que não cumpra os T&C"
    },
    {
     "doc": 3,
-    "verbatim": "No âmbito das nossas medidas de proteção de menores e para garantir o cumprimento do Regulamento dos Serviços Digitais (DSA) e da legislação aplicável no seu território, a SHEIN poderá exigir que os clientes concluam um processo de \"Verificação de Idade\".",
-    "onde": "Doc 3, CGU secção 2.3(1)",
-    "por_que": "Enquadramento de proteção/bem-estar de menores; relevante para social-good, embora não ligado a experimentos.",
     "file": "shein/03-terms-and-conditions-a-399.md",
-    "role": "unknown"
+    "onde": "Doc 3, CGU secção 2.3(1)",
+    "role": "unknown",
+    "verbatim": "No âmbito das nossas medidas de proteção de menores e para garantir o cumprimento do Regulamento dos Serviços Digitais (DSA) e da legislação aplicável no seu território, a SHEIN poderá exigir que os clientes concluam um processo de \"Verificação de Idade\"."
    }
   ],
   "V3": [
    {
     "doc": 1,
-    "verbatim": "Por exemplo, utilizámos dados analíticos para adicionar, remover ou alterar funcionalidades do site com base na sua popularidade entre os utilizadores.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 3.3 B",
-    "por_que": "Nomeia superfície ('funcionalidades do site') alterada com base em dados — candidato a V3a.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Por exemplo, utilizámos dados analíticos para adicionar, remover ou alterar funcionalidades do site com base na sua popularidade entre os utilizadores."
    },
    {
     "doc": 1,
-    "verbatim": "Estas ferramentas ajudam-nos a medir a qualidade do serviço, identificar áreas de melhoria e formar os nossos modelos internos de qualidade de serviço.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.4",
-    "por_que": "Nomeia atividade concreta (avaliação de chats de apoio, modelos de IA) — atividade/superfície específica.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Estas ferramentas ajudam-nos a medir a qualidade do serviço, identificar áreas de melhoria e formar os nossos modelos internos de qualidade de serviço."
    },
    {
     "doc": 1,
-    "verbatim": "Para personalizar a sua experiência direcionando-o para o site local, idioma e experiência de utilizador corretos. Para estimar o tempo de entrega",
-    "onde": "Doc 1, secção 1.1, tabela (localização do IP)",
-    "por_que": "Personalização declarada, não alvo de experimento — ajuda o avaliador a aplicar a distinção do codebook.",
     "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "onde": "Doc 1, secção 1.1, tabela (localização do IP)",
+    "role": "binding",
+    "verbatim": "Para personalizar a sua experiência direcionando-o para o site local, idioma e experiência de utilizador corretos. Para estimar o tempo de entrega"
    },
    {
     "doc": 2,
-    "verbatim": "• Competitividade do Preço: Os produtos com preços competitivos ocupam posições mais elevadas.",
+    "file": "shein/02-ranking-policy-a-1979.md",
     "onde": "Doc 2, secção 1.A (Atributos da Oferta)",
-    "por_que": "Preço aparece como fator de ranking, não como alvo de experimentação nem personalização de preço — relevante para V3-pricing.",
-    "file": "shein/02-ranking-policy-a-1979.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "• Competitividade do Preço: Os produtos com preços competitivos ocupam posições mais elevadas."
    },
    {
     "doc": 2,
-    "verbatim": "•Personalização: Sujeito às suas definições de cookies e às definições personalizadas relacionadas com o nosso sistema de recomendação, o nosso algoritmo terá em consideração características como as suas preferências de produtos, o histórico de pesquisas, as compras anteriores e a localização para ajustar a visibilidade dos produtos. Estas decisões automatizadas podem influenciar os produtos que vê e a forma como são classificados.",
+    "file": "shein/02-ranking-policy-a-1979.md",
     "onde": "Doc 2, secção 1.C",
-    "por_que": "Personalização de ranking descrita como feature; o codebook manda não contar isso como alvo de experimento.",
-    "file": "shein/02-ranking-policy-a-1979.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "•Personalização: Sujeito às suas definições de cookies e às definições personalizadas relacionadas com o nosso sistema de recomendação, o nosso algoritmo terá em consideração características como as suas preferências de produtos, o histórico de pesquisas, as compras anteriores e a localização para ajustar a visibilidade dos produtos. Estas decisões automatizadas podem influenciar os produtos que vê e a forma como são classificados."
    },
    {
     "doc": 2,
-    "verbatim": "• Descontos e Promoções: Os produtos com descontos mais elevados ou que participam em campanhas de vendas (como campanhas sazonais ou vendas relâmpago) podem receber impulsos temporários na classificação.",
-    "onde": "Doc 2, secção 1.A",
-    "por_que": "Impulsos temporários de classificação ligados a promoções — pode ser confundido com experimento; avaliador deve ver o texto.",
     "file": "shein/02-ranking-policy-a-1979.md",
-    "role": "unknown"
+    "onde": "Doc 2, secção 1.A",
+    "role": "unknown",
+    "verbatim": "• Descontos e Promoções: Os produtos com descontos mais elevados ou que participam em campanhas de vendas (como campanhas sazonais ou vendas relâmpago) podem receber impulsos temporários na classificação."
    },
    {
     "doc": 3,
-    "verbatim": "O Site inclui parâmetros de sistemas de recomendação de conteúdos que são explicados na Política de Privacidade do Marketplace e na Política de Classificação .",
-    "onde": "Doc 3, CGU secção 4.2",
-    "por_que": "Confirma que a descrição algorítmica é de parâmetros de recomendação, sem divulgação de experimentos específicos.",
     "file": "shein/03-terms-and-conditions-a-399.md",
-    "role": "unknown"
+    "onde": "Doc 3, CGU secção 4.2",
+    "role": "unknown",
+    "verbatim": "O Site inclui parâmetros de sistemas de recomendação de conteúdos que são explicados na Política de Privacidade do Marketplace e na Política de Classificação ."
    }
   ],
   "V4": [
    {
     "doc": 1,
-    "verbatim": "Interesse legítimo na pesquisa e desenvolvimento dos nossos Serviços e produtos.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.1, tabela (Histórico de compras)",
-    "por_que": "Base jurídica declarada para a finalidade mais próxima de experimentação (pesquisa/desenvolvimento).",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Interesse legítimo na pesquisa e desenvolvimento dos nossos Serviços e produtos."
    },
    {
     "doc": 1,
-    "verbatim": "Tratamos o conteúdo de chat anonimizado para estes fins de melhoria de qualidade com base no nosso interesse legítimo em manter e melhorar a qualidade das nossas operações de serviço ao cliente",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.4 (Base Jurídica)",
-    "por_que": "Interesse legítimo explicitamente invocado para melhoria de qualidade e formação de modelos.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Tratamos o conteúdo de chat anonimizado para estes fins de melhoria de qualidade com base no nosso interesse legítimo em manter e melhorar a qualidade das nossas operações de serviço ao cliente"
    },
    {
     "doc": 1,
-    "verbatim": "Interesse legítimo em fornecer uma experiência de utilizador otimizada para o site e aplicativo",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.1, tabela (localização do endereço IP)",
-    "por_que": "Mostra que a tabela de bases legais associa otimização da experiência a interesse legítimo.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Interesse legítimo em fornecer uma experiência de utilizador otimizada para o site e aplicativo"
    },
    {
     "doc": 1,
-    "verbatim": "Dados de perfil incluindo a sua preferência de estilo, tamanho de roupa e tipo de corpo se os fornecer voluntariamente para fins de personalização.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.1, tabela (dados de perfil)",
-    "por_que": "Personalização baseada em consentimento — alternativa de base legal a considerar.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Dados de perfil incluindo a sua preferência de estilo, tamanho de roupa e tipo de corpo se os fornecer voluntariamente para fins de personalização."
    },
    {
     "doc": 1,
-    "verbatim": "Nos termos do Regulamento Geral sobre a Proteção de Dados (UE) 2016/679 (\"RGPD\"), dados pessoais significam qualquer informação relativa a uma pessoa singular identificada ou identificável (\"titular dos dados\")",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.1",
-    "por_que": "Confirma que a tabela de bases legais é enquadrada pelo RGPD/UE (relevante para region-gating).",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Nos termos do Regulamento Geral sobre a Proteção de Dados (UE) 2016/679 (\"RGPD\"), dados pessoais significam qualquer informação relativa a uma pessoa singular identificada ou identificável (\"titular dos dados\")"
    },
    {
     "doc": 1,
-    "verbatim": "Para clientes da UE, os Dados de Clientes da SHEIN são armazenados e em grande parte tratados dentro da UE.",
-    "onde": "Doc 1, secção 9",
-    "por_que": "Indica aplicação regional específica do aviso; ajuda a avaliar v4_region_gated.",
     "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "onde": "Doc 1, secção 9",
+    "role": "binding",
+    "verbatim": "Para clientes da UE, os Dados de Clientes da SHEIN são armazenados e em grande parte tratados dentro da UE."
    },
    {
     "doc": 3,
-    "verbatim": "Estas Condições Gerais de Utilização ( \"CGU\" ) regem a relação contratual entre (a) Infinite Styles Services Co, Ltd. , com sede social em The Sidings, 4th Floor, Grand Canal Quay, Dublin 2, D02 E7K8, Irlanda (doravante, \"SHEIN\" ou \"nós\" ) e (b) você (doravante \"Você\" ou o \"Cliente\" ), relativamente à sua utilização do Marketplace na Bulgária, Croácia (nome local: Hrvatska), Chipre, Estónia, Finlândia, Irlanda, Islândia, Noruega, Letónia, Lituânia, Malta, Eslovénia (doravante o \"Território\" ).",
-    "onde": "Doc 3, CGU, preâmbulo",
-    "por_que": "Delimita o território coberto pelos documentos — evidência sobre region-gating do conjunto documental.",
     "file": "shein/03-terms-and-conditions-a-399.md",
-    "role": "unknown"
+    "onde": "Doc 3, CGU, preâmbulo",
+    "role": "unknown",
+    "verbatim": "Estas Condições Gerais de Utilização ( \"CGU\" ) regem a relação contratual entre (a) Infinite Styles Services Co, Ltd. , com sede social em The Sidings, 4th Floor, Grand Canal Quay, Dublin 2, D02 E7K8, Irlanda (doravante, \"SHEIN\" ou \"nós\" ) e (b) você (doravante \"Você\" ou o \"Cliente\" ), relativamente à sua utilização do Marketplace na Bulgária, Croácia (nome local: Hrvatska), Chipre, Estónia, Finlândia, Irlanda, Islândia, Noruega, Letónia, Lituânia, Malta, Eslovénia (doravante o \"Território\" )."
    }
   ],
   "V5": [
    {
     "doc": 1,
-    "verbatim": "Pode optar por não utilizar o conteúdo do seu chat para estes fins de avaliação de qualidade. Se optar por não participar, os seus registos de chat não serão tratados para atividades de IA ou controlo de qualidade manual.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 1.4 (As suas Opções)",
-    "por_que": "Opt-out específico, mas para avaliação de qualidade de chat/IA — o avaliador deve decidir se isso é experimentação ou não.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Pode optar por não utilizar o conteúdo do seu chat para estes fins de avaliação de qualidade. Se optar por não participar, os seus registos de chat não serão tratados para atividades de IA ou controlo de qualidade manual."
    },
    {
     "doc": 1,
-    "verbatim": "Tem direito de se opor a qualquer momento à utilização do conteúdo do seu chat de serviço ao cliente para a nossa avaliação de qualidade de serviço, incluindo o tratamento realizado por IA ou revisores humanos para fins de formação e melhoria de qualidade. Se se opuser, deixaremos de tratar o conteúdo do seu chat para estes fins e excluiremos os seus dados dos nossos fluxos de trabalho de controlo de qualidade.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 5.7 (Direito de Oposição)",
-    "por_que": "Direito de oposição com mecanismo concreto, mas escopo limitado a QA de chat, não a experimentos.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Tem direito de se opor a qualquer momento à utilização do conteúdo do seu chat de serviço ao cliente para a nossa avaliação de qualidade de serviço, incluindo o tratamento realizado por IA ou revisores humanos para fins de formação e melhoria de qualidade. Se se opuser, deixaremos de tratar o conteúdo do seu chat para estes fins e excluiremos os seus dados dos nossos fluxos de trabalho de controlo de qualidade."
    },
    {
     "doc": 1,
-    "verbatim": "Tem direito de se opor ao tratamento dos seus dados pessoais para fins de interesse legítimo ou de interesse público utilizando autoridade oficial conferida a nós como responsável pelo tratamento. Quando se opõe, devemos ou demonstrar motivos legítimos convincentes para o tratamento ou pará-lo.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 5.7",
-    "por_que": "Direito genérico de objeção do Art. 21 — candidato a GDPR-objection-only.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Tem direito de se opor ao tratamento dos seus dados pessoais para fins de interesse legítimo ou de interesse público utilizando autoridade oficial conferida a nós como responsável pelo tratamento. Quando se opõe, devemos ou demonstrar motivos legítimos convincentes para o tratamento ou pará-lo."
    },
    {
     "doc": 1,
-    "verbatim": "Quando chega ao nosso site, ser-lhe-á apresentada uma ferramenta de gestão de cookies que pede o seu consentimento para colocar vários tipos de cookies. Pode utilizar esta ferramenta para dar ou retirar o consentimento para a utilização destes cookies.",
-    "onde": "Doc 1, secção 3.2",
-    "por_que": "Banner de cookies — falso positivo clássico; rege cookies/ads, não experimentação.",
     "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "onde": "Doc 1, secção 3.2",
+    "role": "binding",
+    "verbatim": "Quando chega ao nosso site, ser-lhe-á apresentada uma ferramenta de gestão de cookies que pede o seu consentimento para colocar vários tipos de cookies. Pode utilizar esta ferramenta para dar ou retirar o consentimento para a utilização destes cookies."
    },
    {
     "doc": 2,
-    "verbatim": "Tem o direito de ajustar estas decisões caso considere que não refletem as suas preferências ou necessidades, ajustando as suas definições de personalização em qualquer momento, clicando nas ligações \"Sistema de Recomendação e Definições Personalizadas\" e \"Gerir Cookies\", ambas localizadas no fundo desta página ou na secção \"Definições\" da Plataforma.",
-    "onde": "Doc 2, secção 1.C",
-    "por_que": "Controlo de personalização/recomendação — não é opt-out de experimentação, mas é o controlo mais próximo disponível.",
     "file": "shein/02-ranking-policy-a-1979.md",
-    "role": "unknown"
+    "onde": "Doc 2, secção 1.C",
+    "role": "unknown",
+    "verbatim": "Tem o direito de ajustar estas decisões caso considere que não refletem as suas preferências ou necessidades, ajustando as suas definições de personalização em qualquer momento, clicando nas ligações \"Sistema de Recomendação e Definições Personalizadas\" e \"Gerir Cookies\", ambas localizadas no fundo desta página ou na secção \"Definições\" da Plataforma."
    }
   ],
   "V6": [],
   "V7": [
    {
     "doc": 1,
-    "verbatim": "Quando outras decisões são tomadas apenas com base no tratamento automatizado, incluindo a definição de perfis, que produz efeitos legais em relação a si ou o afeta de modo significativo de forma semelhante, será notificado do resultado e ser-lhe-á dada a oportunidade pela SHEIN de obter intervenção humana, expressar o seu ponto de vista e contestar a decisão.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, secção 5.8",
-    "por_que": "Aviso de decisão automatizada — explicitamente excluído como debriefing pelo codebook; avaliador precisa ver para não marcar Yes.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Quando outras decisões são tomadas apenas com base no tratamento automatizado, incluindo a definição de perfis, que produz efeitos legais em relação a si ou o afeta de modo significativo de forma semelhante, será notificado do resultado e ser-lhe-á dada a oportunidade pela SHEIN de obter intervenção humana, expressar o seu ponto de vista e contestar a decisão."
    },
    {
     "doc": 1,
-    "verbatim": "Se fizermos alterações materiais que afetem materialmente os seus direitos de privacidade, forneceremos aviso prévio e tornaremos isso evidente no Site ou no Aplicativo, ou através de outro canal de comunicação como o e-mail, para que possa rever as alterações antes de continuar a utilizar os Serviços.",
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
     "onde": "Doc 1, Introdução (Alterações neste Aviso)",
-    "por_que": "Aviso de mudança de política — outro falso positivo excluído pelo codebook.",
-    "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Se fizermos alterações materiais que afetem materialmente os seus direitos de privacidade, forneceremos aviso prévio e tornaremos isso evidente no Site ou no Aplicativo, ou através de outro canal de comunicação como o e-mail, para que possa rever as alterações antes de continuar a utilizar os Serviços."
    },
    {
     "doc": 1,
-    "verbatim": "Mais informações sobre este tratamento ser-lhe-ão fornecidas antes de ocorrer.",
-    "onde": "Doc 1, secção 5.8 (Verificação de Idade)",
-    "por_que": "Aviso prévio de tratamento, não posterior a experimento — excluído.",
     "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "onde": "Doc 1, secção 5.8 (Verificação de Idade)",
+    "role": "binding",
+    "verbatim": "Mais informações sobre este tratamento ser-lhe-ão fornecidas antes de ocorrer."
    }
   ],
   "V8": [
    {
     "doc": 1,
-    "verbatim": "Certas transcrições de chat também podem ser revistas por pessoal de serviço ao cliente treinado localizado em certas jurisdições (incluindo China e Filipinas) para validar resultados de IA e garantir precisão de qualidade. O acesso é estritamente controlado e sujeito a minimização de dados e proteções de privacidade.",
-    "onde": "Doc 1, secção 1.4 (Revisão Humana)",
-    "por_que": "Revisão humana e salvaguardas de privacidade — mas é controlo de qualidade operacional, não revisão ética de experimentos; borderline a documentar.",
     "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "onde": "Doc 1, secção 1.4 (Revisão Humana)",
+    "role": "binding",
+    "verbatim": "Certas transcrições de chat também podem ser revistas por pessoal de serviço ao cliente treinado localizado em certas jurisdições (incluindo China e Filipinas) para validar resultados de IA e garantir precisão de qualidade. O acesso é estritamente controlado e sujeito a minimização de dados e proteções de privacidade."
    },
    {
     "doc": 1,
-    "verbatim": "Mantemos salvaguardas físicas, eletrónicas e processuais razoáveis destinadas a proteger os seus dados pessoais contra tratamento, utilização ou divulgação não autorizados.",
-    "onde": "Doc 1, secção 4 (Medidas de segurança)",
-    "por_que": "Salvaguardas de segurança, não avaliação ética ou de risco de experimentos.",
     "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "onde": "Doc 1, secção 4 (Medidas de segurança)",
+    "role": "binding",
+    "verbatim": "Mantemos salvaguardas físicas, eletrónicas e processuais razoáveis destinadas a proteger os seus dados pessoais contra tratamento, utilização ou divulgação não autorizados."
    },
    {
     "doc": 3,
-    "verbatim": "Embora o Operador possa facilitar as compras de Produtos através dos Serviços, efetue verificações de devida diligência sobre os Vendedores e remova prontamente Produtos ilegais ao tomar conhecimento dos mesmos em conformidade com a lei aplicável",
-    "onde": "Doc 3, CGV secção 1.2",
-    "por_que": "Due diligence sobre vendedores — risco de conteúdo, não risco de experimentação; evita falso positivo.",
     "file": "shein/03-terms-and-conditions-a-399.md",
-    "role": "unknown"
+    "onde": "Doc 3, CGV secção 1.2",
+    "role": "unknown",
+    "verbatim": "Embora o Operador possa facilitar as compras de Produtos através dos Serviços, efetue verificações de devida diligência sobre os Vendedores e remova prontamente Produtos ilegais ao tomar conhecimento dos mesmos em conformidade com a lei aplicável"
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "Este Aviso de Privacidade (\"Aviso\") explica como a ISSL recolhe, utiliza, partilha e trata os seus dados pessoais quando utiliza ou acede ao Site, ao Aplicativo ou a qualquer um dos nossos serviços",
-    "onde": "Doc 1, Introdução e Visão Geral",
-    "por_que": "Identifica o documento como política de privacidade (local de divulgação).",
     "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "onde": "Doc 1, Introdução e Visão Geral",
+    "role": "binding",
+    "verbatim": "Este Aviso de Privacidade (\"Aviso\") explica como a ISSL recolhe, utiliza, partilha e trata os seus dados pessoais quando utiliza ou acede ao Site, ao Aplicativo ou a qualquer um dos nossos serviços"
    },
    {
     "doc": 1,
-    "verbatim": "Por favor, leia os nossos Termos e Condições e este Aviso antes de aceder ou utilizar os nossos Serviços. Se não puder concordar com este Aviso ou com os Termos e Condições ​, por favor não aceda nem utilize os nossos Serviços.",
-    "onde": "Doc 1, Introdução",
-    "por_que": "Declara o aviso como condição de uso — evidência de registo vinculante.",
     "file": "shein/01-consumer-privacy-notice-s-101.md",
-    "role": "binding"
+    "onde": "Doc 1, Introdução",
+    "role": "binding",
+    "verbatim": "Por favor, leia os nossos Termos e Condições e este Aviso antes de aceder ou utilizar os nossos Serviços. Se não puder concordar com este Aviso ou com os Termos e Condições ​, por favor não aceda nem utilize os nossos Serviços."
    },
    {
     "doc": 2,
-    "verbatim": "Esta Política de Classificação explica por que motivo determinados produtos podem aparecer de forma mais proeminente do que outros na aplicação e no website da SHEIN (a \" Plataforma \").",
-    "onde": "Doc 2, preâmbulo",
-    "por_que": "Identifica a Política de Classificação como local separado de divulgação algorítmica.",
     "file": "shein/02-ranking-policy-a-1979.md",
-    "role": "unknown"
+    "onde": "Doc 2, preâmbulo",
+    "role": "unknown",
+    "verbatim": "Esta Política de Classificação explica por que motivo determinados produtos podem aparecer de forma mais proeminente do que outros na aplicação e no website da SHEIN (a \" Plataforma \")."
    },
    {
     "doc": 3,
-    "verbatim": "As nossas políticas do marketplace também fazem parte integrante destes T&C\n- Política de Cupões\n- Política de Pontos Bónus\n- Política de Entrega\n- Política de Devoluções\n- Política de Avaliações\n- Política de Classificação",
+    "file": "shein/03-terms-and-conditions-a-399.md",
     "onde": "Doc 3, Termos e Condições, preâmbulo",
-    "por_que": "Prova que a Política de Classificação (doc 2) é parte integrante dos T&C — logo, registo vinculante.",
-    "file": "shein/03-terms-and-conditions-a-399.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "As nossas políticas do marketplace também fazem parte integrante destes T&C\n- Política de Cupões\n- Política de Pontos Bónus\n- Política de Entrega\n- Política de Devoluções\n- Política de Avaliações\n- Política de Classificação"
    },
    {
     "doc": 3,
-    "verbatim": "O Cliente compreende e concorda que as seguintes políticas fazem parte integrante dos T&C (conforme definido na cláusula 1.3 abaixo):",
+    "file": "shein/03-terms-and-conditions-a-399.md",
     "onde": "Doc 3, CGU, antes da lista de políticas",
-    "por_que": "Reforça o caráter contratual das políticas listadas.",
-    "file": "shein/03-terms-and-conditions-a-399.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "O Cliente compreende e concorda que as seguintes políticas fazem parte integrante dos T&C (conforme definido na cláusula 1.3 abaixo):"
    },
    {
     "doc": 3,
-    "verbatim": "A UTILIZAÇÃO DO SITE IMPLICA A ACEITAÇÃO EXPRESSA DESTAS CONDIÇÕES GERAIS DE UTILIZAÇÃO.",
+    "file": "shein/03-terms-and-conditions-a-399.md",
     "onde": "Doc 3, CGU, caixa em maiúsculas",
-    "por_que": "Confirma natureza vinculante do documento de ToS.",
-    "file": "shein/03-terms-and-conditions-a-399.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "A UTILIZAÇÃO DO SITE IMPLICA A ACEITAÇÃO EXPRESSA DESTAS CONDIÇÕES GERAIS DE UTILIZAÇÃO."
    },
    {
     "doc": 3,
-    "verbatim": "4.2. O Site inclui parâmetros de sistemas de recomendação de conteúdos que são explicados na Política de Privacidade do Marketplace e na Política de Classificação .",
-    "onde": "Doc 3, CGU secção 4.2",
-    "por_que": "Mostra a distribuição da divulgação algorítmica entre política de privacidade e política de classificação, ambas vinculantes.",
     "file": "shein/03-terms-and-conditions-a-399.md",
-    "role": "unknown"
+    "onde": "Doc 3, CGU secção 4.2",
+    "role": "unknown",
+    "verbatim": "4.2. O Site inclui parâmetros de sistemas de recomendação de conteúdos que são explicados na Política de Privacidade do Marketplace e na Política de Classificação ."
    }
   ]
  },
@@ -401,5 +355,6 @@
  "uso": {
   "input": 70986,
   "output": 7929
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }

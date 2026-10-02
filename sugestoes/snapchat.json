@@ -1,5 +1,5 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Snapchat",
  "modelo": "claude-opus-5",
  "prompt": "d45b11e32988",
@@ -14,603 +14,530 @@
   "V1": [
    {
     "doc": 1,
-    "verbatim": "Our teams are constantly coming up with new ideas for features and ways to improve our Services.",
+    "file": "snapchat/01-privacy-policy.md",
     "onde": "Doc 1, Privacy Policy, seção \"Develop & Improve Features, Algorithms & Machine Learning Models\"",
-    "por_que": "Linguagem de melhoria do serviço no registro vinculante (nível 1), sem nomear teste de usuários.",
-    "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Our teams are constantly coming up with new ideas for features and ways to improve our Services."
    },
    {
     "doc": 1,
-    "verbatim": "We conduct research to better understand general consumer interests, trends and how our Services are used by you and others in our community.",
+    "file": "snapchat/01-privacy-policy.md",
     "onde": "Doc 1, Privacy Policy, seção \"Research\"",
-    "por_que": "Reconhecimento de pesquisa com usuários no registro vinculante; avaliador deve decidir se vai além de \"melhorar\" (1) e se chega a \"testar usuários\" (2).",
-    "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We conduct research to better understand general consumer interests, trends and how our Services are used by you and others in our community."
    },
    {
     "doc": 1,
-    "verbatim": "including through our research efforts (like responses to surveys, consumer panels or other research questions)",
-    "onde": "Doc 1, Privacy Policy, seção \"Information You Provide\"",
-    "por_que": "Nomeia surveys e consumer panels no registro vinculante — pesquisa com participantes, mas não experimento/A-B.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, Privacy Policy, seção \"Information You Provide\"",
+    "role": "binding",
+    "verbatim": "including through our research efforts (like responses to surveys, consumer panels or other research questions)"
    },
    {
     "doc": 6,
-    "verbatim": "Research Data (Consumer Panels, Made for Me, other research panels)",
-    "onde": "Doc 6, tabela de Data Processing Summary, linha \"Operate, Deliver & Maintain\"",
-    "por_que": "Categoria de dados de pesquisa com painéis de consumidores em documento de suporte que complementa a Privacy Policy.",
     "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "onde": "Doc 6, tabela de Data Processing Summary, linha \"Operate, Deliver & Maintain\"",
+    "role": "unknown",
+    "verbatim": "Research Data (Consumer Panels, Made for Me, other research panels)"
    },
    {
     "doc": 7,
-    "verbatim": "Models that demonstrate a significant improvement in future NCE are registered for continuous updates, put online for A/B testing, and (eventually) rolled out fully.",
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
     "onde": "Doc 7, blog de engenharia, seção \"Models\"",
-    "por_que": "Menção explícita a A/B testing em registro não-vinculante (blog de engenharia) — candidato a teto nível 3 fora do contrato.",
-    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Models that demonstrate a significant improvement in future NCE are registered for continuous updates, put online for A/B testing, and (eventually) rolled out fully."
    },
    {
     "doc": 7,
-    "verbatim": "Estimating the business impact of any change by first exposing only a small set of randomly chosen Snapchatters to that change (aka, A/B testing) is a common practice for internet companies.",
-    "onde": "Doc 7, blog de engenharia, seção \"Online budget split A/B testing\"",
-    "por_que": "Randomização explícita de usuários e nome do método — evidência mais forte de nível 3, em registro não-vinculante.",
     "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
-    "role": "unknown"
+    "onde": "Doc 7, blog de engenharia, seção \"Online budget split A/B testing\"",
+    "role": "unknown",
+    "verbatim": "Estimating the business impact of any change by first exposing only a small set of randomly chosen Snapchatters to that change (aka, A/B testing) is a common practice for internet companies."
    },
    {
     "doc": 7,
-    "verbatim": "each advertiser’s budget is split into N parts, each Snapchatter is randomly assigned to one of these N splits, and a change is applied only to one of the N splits",
-    "onde": "Doc 7, blog de engenharia, seção \"Online budget split A/B testing\"",
-    "por_que": "Descreve atribuição aleatória a variantes — critério de nível 3.",
     "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
-    "role": "unknown"
+    "onde": "Doc 7, blog de engenharia, seção \"Online budget split A/B testing\"",
+    "role": "unknown",
+    "verbatim": "each advertiser’s budget is split into N parts, each Snapchatter is randomly assigned to one of these N splits, and a change is applied only to one of the N splits"
    },
    {
     "doc": 8,
-    "verbatim": "Every new feature rolled out to Snapchat’s more than 940 million monthly active users goes through a set of controlled experiments before it’s launched. During this A/B testing cycle, the development team studies different variables with a subset of users, measuring nearly 6,000 metrics that analyze engagement, app performance and monetization.",
-    "onde": "Doc 8, blog NVIDIA, corpo do texto",
-    "por_que": "Afirma experimentos controlados e A/B testing com subconjunto de usuários — nível 3 em registro de terceiro/não-vinculante.",
     "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
-    "role": "unknown"
+    "onde": "Doc 8, blog NVIDIA, corpo do texto",
+    "role": "unknown",
+    "verbatim": "Every new feature rolled out to Snapchat’s more than 940 million monthly active users goes through a set of controlled experiments before it’s launched. During this A/B testing cycle, the development team studies different variables with a subset of users, measuring nearly 6,000 metrics that analyze engagement, app performance and monetization."
    },
    {
     "doc": 10,
-    "verbatim": "At Snap, experimentation sits at the core of how we build products. Nearly every product decision is informed by controlled experiments",
+    "file": "snapchat/10-snap-nvidia-gcp.md",
     "onde": "Doc 10, blog de engenharia, abertura",
-    "por_que": "Reconhecimento institucional de experimentação em registro marcado como non-binding.",
-    "file": "snapchat/10-snap-nvidia-gcp.md",
-    "role": "non-binding"
+    "role": "non-binding",
+    "verbatim": "At Snap, experimentation sits at the core of how we build products. Nearly every product decision is informed by controlled experiments"
    },
    {
     "doc": 10,
-    "verbatim": "backs over 1,200 active studies at any given point, and exposes more than 6,000 metrics used to evaluate product changes",
-    "onde": "Doc 10, blog de engenharia, seção \"The AB Pipeline at Snap\"",
-    "por_que": "Divulga volume de estudos ativos — evidência de experimentação em curso, registro não-vinculante.",
     "file": "snapchat/10-snap-nvidia-gcp.md",
-    "role": "non-binding"
+    "onde": "Doc 10, blog de engenharia, seção \"The AB Pipeline at Snap\"",
+    "role": "non-binding",
+    "verbatim": "backs over 1,200 active studies at any given point, and exposes more than 6,000 metrics used to evaluate product changes"
    },
    {
     "doc": 9,
-    "verbatim": "Aiutaci a testare le funzionalità di Snapchat prima che vengano rese pubbliche!",
-    "onde": "Doc 9, página Snapchat Beta",
-    "por_que": "\"Testar funcionalidades\" sem grupos/variantes/aleatorização — fronteira 2 vs 3 conforme a regra do codebook.",
     "file": "snapchat/09-beta.md",
-    "role": "unknown"
+    "onde": "Doc 9, página Snapchat Beta",
+    "role": "unknown",
+    "verbatim": "Aiutaci a testare le funzionalità di Snapchat prima che vengano rese pubbliche!"
    }
   ],
   "V2": [
    {
     "doc": 1,
-    "verbatim": "Our teams are constantly coming up with new ideas for features and ways to improve our Services.",
+    "file": "snapchat/01-privacy-policy.md",
     "onde": "Doc 1, seção \"Develop & Improve Features, Algorithms & Machine Learning Models\"",
-    "por_que": "Enquadramento de service improvement.",
-    "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Our teams are constantly coming up with new ideas for features and ways to improve our Services."
    },
    {
     "doc": 1,
-    "verbatim": "We conduct research to better understand general consumer interests, trends and how our Services are used by you and others in our community.",
+    "file": "snapchat/01-privacy-policy.md",
     "onde": "Doc 1, seção \"Research\"",
-    "por_que": "Enquadramento explícito de research.",
-    "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We conduct research to better understand general consumer interests, trends and how our Services are used by you and others in our community."
    },
    {
     "doc": 1,
-    "verbatim": "We also engage in research and development to develop new techniques and technologies (e.g. new machine learning models or hardware, such as Spectacles). The results of our research are sometimes used in features on Snapchat, and we sometimes publish papers about things like overall behaviours and consumer trends",
+    "file": "snapchat/01-privacy-policy.md",
     "onde": "Doc 1, seção \"Research\"",
-    "por_que": "Research com publicação de papers — enquadramento de pesquisa acadêmica/científica, relevante para research e possivelmente human-subjects research.",
-    "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We also engage in research and development to develop new techniques and technologies (e.g. new machine learning models or hardware, such as Spectacles). The results of our research are sometimes used in features on Snapchat, and we sometimes publish papers about things like overall behaviours and consumer trends"
    },
    {
     "doc": 1,
-    "verbatim": "including through our research efforts (like responses to surveys, consumer panels or other research questions)",
+    "file": "snapchat/01-privacy-policy.md",
     "onde": "Doc 1, seção \"Information You Provide\"",
-    "por_que": "Participação de pessoas em surveys/painéis — avaliador decide se configura human-subjects research.",
-    "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "including through our research efforts (like responses to surveys, consumer panels or other research questions)"
    },
    {
     "doc": 6,
-    "verbatim": "Conduct research to better understand Snapchatter and general consumer interests and trends, including the ways our Services are used.",
+    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
     "onde": "Doc 6, tabela, linha \"Research\"",
-    "por_que": "Confirma enquadramento research como finalidade declarada.",
-    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Conduct research to better understand Snapchatter and general consumer interests and trends, including the ways our Services are used."
    },
    {
     "doc": 6,
-    "verbatim": "Snap would not be able to keep the platform safe and enjoyable for everyone without this personalization.",
-    "onde": "Doc 6, tabela, linha \"Personalization - Content\", coluna de legítimo interesse",
-    "por_que": "Linguagem de benefício coletivo/plataforma segura para todos — candidato fraco a social-good/community.",
     "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "onde": "Doc 6, tabela, linha \"Personalization - Content\", coluna de legítimo interesse",
+    "role": "unknown",
+    "verbatim": "Snap would not be able to keep the platform safe and enjoyable for everyone without this personalization."
    },
    {
     "doc": 10,
-    "verbatim": "it unlocked a path to sustainably scale experimentation without proportional increases in cost",
-    "onde": "Doc 10, seção \"Looking Forward\"",
-    "por_que": "Enquadramento de experimentação como eficiência/melhoria de produto, não como pesquisa com sujeitos.",
     "file": "snapchat/10-snap-nvidia-gcp.md",
-    "role": "non-binding"
+    "onde": "Doc 10, seção \"Looking Forward\"",
+    "role": "non-binding",
+    "verbatim": "it unlocked a path to sustainably scale experimentation without proportional increases in cost"
    },
    {
     "doc": 8,
-    "verbatim": "The more experiments we’re able to run, the more innovative experiences we can deliver for Snapchat users.",
-    "onde": "Doc 8, citação de Prudhvi Vatala",
-    "por_que": "Experimentação enquadrada como service improvement para usuários.",
     "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
-    "role": "unknown"
+    "onde": "Doc 8, citação de Prudhvi Vatala",
+    "role": "unknown",
+    "verbatim": "The more experiments we’re able to run, the more innovative experiences we can deliver for Snapchat users."
    }
   ],
   "V3": [
    {
     "doc": 1,
-    "verbatim": "We use algorithms and machine learning models for personalisation, advertising, safety and security, fairness and inclusivity, augmented reality and to prevent abuse or other Terms of Service violations.",
+    "file": "snapchat/01-privacy-policy.md",
     "onde": "Doc 1, seção \"Develop & Improve Features, Algorithms & Machine Learning Models\"",
-    "por_que": "Nomeia superfícies/atividades de desenvolvimento (V3a), embora como personalização declarada e não explicitamente como alvo de experimento.",
-    "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "We use algorithms and machine learning models for personalisation, advertising, safety and security, fairness and inclusivity, augmented reality and to prevent abuse or other Terms of Service violations."
    },
    {
     "doc": 1,
-    "verbatim": "we monitor metadata and trends about Group Chat use to help decide whether we should change parts of the feature, like the maximum size of a Group",
+    "file": "snapchat/01-privacy-policy.md",
     "onde": "Doc 1, seção \"Analytics\"",
-    "por_que": "Atividade concreta e superfície nomeada (Group Chat, tamanho máximo) ligada a decisões de mudança de produto — relevante para V3a e possivelmente V3c.",
-    "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "we monitor metadata and trends about Group Chat use to help decide whether we should change parts of the feature, like the maximum size of a Group"
    },
    {
     "doc": 1,
-    "verbatim": "if you watch a lot of sports content, but skip content with hair and makeup tips, our recommendation algorithms will prioritise sports, but not those makeup tips",
-    "onde": "Doc 1, seção \"Personalise Your Experience & Give Context\"",
-    "por_que": "Ranking descrito como feature de personalização — o codebook alerta que isso ≠ alvo de experimento.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, seção \"Personalise Your Experience & Give Context\"",
+    "role": "binding",
+    "verbatim": "if you watch a lot of sports content, but skip content with hair and makeup tips, our recommendation algorithms will prioritise sports, but not those makeup tips"
    },
    {
     "doc": 7,
-    "verbatim": "Ad eligibility filtering: As the first stage, we perform ad targeting, budget checks and other filtering steps, including privacy and ads policy compliance.",
-    "onde": "Doc 7, seção \"Overview of the ad ranking system\"",
-    "por_que": "Descreve superfície de ad ranking submetida a modelos que passam por A/B testing — evidência de alvo (ranking).",
     "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
-    "role": "unknown"
+    "onde": "Doc 7, seção \"Overview of the ad ranking system\"",
+    "role": "unknown",
+    "verbatim": "Ad eligibility filtering: As the first stage, we perform ad targeting, budget checks and other filtering steps, including privacy and ads policy compliance."
    },
    {
     "doc": 7,
-    "verbatim": "exposing a set of Snapchatters to a new ML model can consume a nontrivial part of advertisers’ daily budgets",
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
     "onde": "Doc 7, seção \"Online budget split A/B testing\"",
-    "por_que": "Alvo de experimento nomeado: modelo de ranking de anúncios servido a subconjunto de usuários.",
-    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "exposing a set of Snapchatters to a new ML model can consume a nontrivial part of advertisers’ daily budgets"
    },
    {
     "doc": 7,
-    "verbatim": "the Snapchat ad platform bills advertisers on a per ad impressions basis while the advertiser might be bidding for a different conversion event such as swipe-up or app install",
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
     "onde": "Doc 7, seção \"Calibrated predictions\"",
-    "por_que": "Relevante para V3-pricing: preço/lances aparecem no contexto do leilão de anúncios (preço cobrado de anunciantes, não do usuário) — avaliador decide se conta.",
-    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "the Snapchat ad platform bills advertisers on a per ad impressions basis while the advertiser might be bidding for a different conversion event such as swipe-up or app install"
    },
    {
     "doc": 7,
-    "verbatim": "the scores from the ML models, advertisers’ bids for the ads, remaining budgets for the ads, and various business rules are used to run an auction that generates the final value for each ad and selects the highest value ad",
-    "onde": "Doc 7, seção \"Overview of the ad ranking system\"",
-    "por_que": "Mecanismo de precificação por leilão vinculado aos modelos testados — evidência para avaliar V3-pricing em registro não-vinculante.",
     "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
-    "role": "unknown"
+    "onde": "Doc 7, seção \"Overview of the ad ranking system\"",
+    "role": "unknown",
+    "verbatim": "the scores from the ML models, advertisers’ bids for the ads, remaining budgets for the ads, and various business rules are used to run an auction that generates the final value for each ad and selects the highest value ad"
    },
    {
     "doc": 10,
-    "verbatim": "“Daily Sum”, which works primarily to generate engagement metrics for experiments configured in the console",
-    "onde": "Doc 10, seção \"The AB Pipeline at Snap\"",
-    "por_que": "Nomeia métricas de engajamento como objeto dos experimentos (V3b).",
     "file": "snapchat/10-snap-nvidia-gcp.md",
-    "role": "non-binding"
+    "onde": "Doc 10, seção \"The AB Pipeline at Snap\"",
+    "role": "non-binding",
+    "verbatim": "“Daily Sum”, which works primarily to generate engagement metrics for experiments configured in the console"
    },
    {
     "doc": 10,
-    "verbatim": "These metrics span a wide range of advanced statistical methodologies, including variance reduction (CUPED), heterogeneous treatment effect detection, and sample ratio mismatch diagnostics",
-    "onde": "Doc 10, seção \"The AB Pipeline at Snap\"",
-    "por_que": "Detalhe metodológico dos experimentos, mas sem identificar um experimento específico e ativo sobre usuários (V3c).",
     "file": "snapchat/10-snap-nvidia-gcp.md",
-    "role": "non-binding"
+    "onde": "Doc 10, seção \"The AB Pipeline at Snap\"",
+    "role": "non-binding",
+    "verbatim": "These metrics span a wide range of advanced statistical methodologies, including variance reduction (CUPED), heterogeneous treatment effect detection, and sample ratio mismatch diagnostics"
    },
    {
     "doc": 8,
-    "verbatim": "Main image above courtesy of Snap, depicting A/B test of its Maps feature.",
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
     "onde": "Doc 8, legenda final",
-    "por_que": "Aponta um experimento específico nomeado (feature Maps) — evidência para V3c, em registro de terceiro.",
-    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Main image above courtesy of Snap, depicting A/B test of its Maps feature."
    },
    {
     "doc": 8,
-    "verbatim": "Snapchat fans frequently see new features in the app — from arrival notifications to AI-generated stickers — but Snap is also continuously rolling out behind-the-scenes updates such as performance optimizations and compatibility updates for new operating system versions.",
-    "onde": "Doc 8, corpo do texto",
-    "por_que": "Nomeia superfícies concretas testadas (notificações, stickers de IA, otimizações) — V3a/V3b.",
     "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
-    "role": "unknown"
+    "onde": "Doc 8, corpo do texto",
+    "role": "unknown",
+    "verbatim": "Snapchat fans frequently see new features in the app — from arrival notifications to AI-generated stickers — but Snap is also continuously rolling out behind-the-scenes updates such as performance optimizations and compatibility updates for new operating system versions."
    }
   ],
   "V4": [
    {
     "doc": 6,
-    "verbatim": "Develop and improve our features and Services, including algorithms and machine learning models, including for personalization, advertising, augmented reality, safety and security, fairness and inclusivity, and to prevent abuse or other Terms of Services violations",
+    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
     "onde": "Doc 6, tabela, linha \"Development\", coluna \"Purpose Description\"",
-    "por_que": "Finalidade declarada mais próxima de cobrir experimentação; avaliador deve mapear qual base legal se aplica.",
-    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Develop and improve our features and Services, including algorithms and machine learning models, including for personalization, advertising, augmented reality, safety and security, fairness and inclusivity, and to prevent abuse or other Terms of Services violations"
    },
    {
     "doc": 6,
-    "verbatim": "Contract\nLegitimate Interest\nLegal obligation",
+    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
     "onde": "Doc 6, tabela, linha \"Development\", coluna \"Legal Basis(es) for Processing\"",
-    "por_que": "Bases legais declaradas para desenvolvimento/melhoria — contrato, legítimo interesse e obrigação legal.",
-    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Contract\nLegitimate Interest\nLegal obligation"
    },
    {
     "doc": 6,
-    "verbatim": "Legitimate Interest\nLegal obligation\nConsent",
+    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
     "onde": "Doc 6, tabela, linha \"Research\", coluna \"Legal Basis(es) for Processing\"",
-    "por_que": "Bases legais para a finalidade de Research, que inclui consentimento em alguns casos.",
-    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Legitimate Interest\nLegal obligation\nConsent"
    },
    {
     "doc": 6,
-    "verbatim": "Snap, its content partners, advertisers and regulators have a legitimate interest in understanding how Snap’s Services are working to inform their business decisions.",
+    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
     "onde": "Doc 6, tabela, linha \"Analytics\", coluna de explicação de legítimo interesse",
-    "por_que": "Justificativa de legítimo interesse para analytics — finalidade candidata a cobrir experimentação.",
-    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Snap, its content partners, advertisers and regulators have a legitimate interest in understanding how Snap’s Services are working to inform their business decisions."
    },
    {
     "doc": 6,
-    "verbatim": "Some jurisdictions require that we state our legal basis for processing data for particular purposes. The table below contains a list of the purposes for which we process personal information. For data from the European Economic Area, United Kingdom, and other jurisdictions requiring a legal basis for processing, the table below contains the primary legal bases we rely on for such processing.",
-    "onde": "Doc 6, seção \"Data Processing Summary\"",
-    "por_que": "Evidência direta de que a tabela de bases legais por finalidade é condicionada a jurisdição (EEA/UK) — núcleo do campo v4_region_gated.",
     "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "onde": "Doc 6, seção \"Data Processing Summary\"",
+    "role": "unknown",
+    "verbatim": "Some jurisdictions require that we state our legal basis for processing data for particular purposes. The table below contains a list of the purposes for which we process personal information. For data from the European Economic Area, United Kingdom, and other jurisdictions requiring a legal basis for processing, the table below contains the primary legal bases we rely on for such processing."
    },
    {
     "doc": 1,
-    "verbatim": "Some jurisdictions require that we state our legal basis for processing data for particular purposes. You can find that information here .",
-    "onde": "Doc 1, seção \"Region Specific Information\"",
-    "por_que": "A Privacy Policy global remete a base legal apenas como requisito de certas jurisdições — reforça region-gating.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, seção \"Region Specific Information\"",
+    "role": "binding",
+    "verbatim": "Some jurisdictions require that we state our legal basis for processing data for particular purposes. You can find that information here ."
    },
    {
     "doc": 2,
-    "verbatim": "Legitimate interest. Another reason we might use your information is that we have – or a third party has – a legitimate interest in doing so. For instance, we need to use your information to provide and improve our services",
+    "file": "snapchat/02-privacy-policy-eea-uk-notice.md",
     "onde": "Doc 2, EEA and UK Privacy Notice, seção \"Bases for using your information\"",
-    "por_que": "Base legal de legítimo interesse explicitamente ligada a \"improve our services\" — cláusula de melhoria da qual a experimentação seria inferida.",
-    "file": "snapchat/02-privacy-policy-eea-uk-notice.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Legitimate interest. Another reason we might use your information is that we have – or a third party has – a legitimate interest in doing so. For instance, we need to use your information to provide and improve our services"
    },
    {
     "doc": 2,
-    "verbatim": "Consent . In some cases we’ll ask for consent to use your information for specific purposes. If we do, we’ll make sure you can revoke your consent in our services or through your device permissions.",
+    "file": "snapchat/02-privacy-policy-eea-uk-notice.md",
     "onde": "Doc 2, seção \"Bases for using your information\"",
-    "por_que": "Consentimento listado como base, mas sem vincular a experimentação.",
-    "file": "snapchat/02-privacy-policy-eea-uk-notice.md",
-    "role": "binding"
+    "role": "binding",
+    "verbatim": "Consent . In some cases we’ll ask for consent to use your information for specific purposes. If we do, we’ll make sure you can revoke your consent in our services or through your device permissions."
    },
    {
     "doc": 2,
-    "verbatim": "This notice provides additional information for users in the European Economic Area (EEA) and the United Kingdom (UK).",
-    "onde": "Doc 2, abertura",
-    "por_que": "Confirma que o documento de bases legais é dirigido a EEA/UK — region-gating por documento.",
     "file": "snapchat/02-privacy-policy-eea-uk-notice.md",
-    "role": "binding"
+    "onde": "Doc 2, abertura",
+    "role": "binding",
+    "verbatim": "This notice provides additional information for users in the European Economic Area (EEA) and the United Kingdom (UK)."
    },
    {
     "doc": 4,
-    "verbatim": "It is necessary for us to handle your personal information for this purpose, as we explain in our Privacy Policy . Personalisation is also a condition of our contract with you for us to be able to do so, unless you opt to receive less personalisation in the Services.",
-    "onde": "Doc 4, ToS (ambas versões), seção 5 \"Personalised Recommendations\"",
-    "por_que": "Base contratual declarada para personalização no registro vinculante — adjacente, mas não nomeia experimentação.",
     "file": "snapchat/04-gb-terms.md",
-    "role": "unknown"
+    "onde": "Doc 4, ToS (ambas versões), seção 5 \"Personalised Recommendations\"",
+    "role": "unknown",
+    "verbatim": "It is necessary for us to handle your personal information for this purpose, as we explain in our Privacy Policy . Personalisation is also a condition of our contract with you for us to be able to do so, unless you opt to receive less personalisation in the Services."
    }
   ],
   "V5": [
    {
     "doc": 1,
-    "verbatim": "Object to processing. Depending on where you live and the particular data we are processing, you may have the right to object to our processing of that information. This gets a bit technical, so we’ve explained it in more detail here .",
-    "onde": "Doc 1, seção \"Control over your information\"",
-    "por_que": "Direito genérico de objeção, sem controle específico de experimentação — candidato a GDPR-objection-only.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, seção \"Control over your information\"",
+    "role": "binding",
+    "verbatim": "Object to processing. Depending on where you live and the particular data we are processing, you may have the right to object to our processing of that information. This gets a bit technical, so we’ve explained it in more detail here ."
    },
    {
     "doc": 2,
-    "verbatim": "You have the right to object to our use of your information. With many types of data, we’ve provided you with the ability to simply delete it if you don’t want us processing it any more. For other types of data, we’ve given you the ability to stop the use of your data by disabling the feature altogether.",
-    "onde": "Doc 2, seção \"Your right to object\"",
-    "por_que": "Objeção genérica do GDPR, restrita a deletar dados ou desativar features; nenhum opt-out de experimento.",
     "file": "snapchat/02-privacy-policy-eea-uk-notice.md",
-    "role": "binding"
+    "onde": "Doc 2, seção \"Your right to object\"",
+    "role": "binding",
+    "verbatim": "You have the right to object to our use of your information. With many types of data, we’ve provided you with the ability to simply delete it if you don’t want us processing it any more. For other types of data, we’ve given you the ability to stop the use of your data by disabling the feature altogether."
    },
    {
     "doc": 6,
-    "verbatim": "If you’re based in the EEA, UK, Switzerland, or other jurisdictions with a similar right, you have the right to object to our use of your information depending on the basis under which we process it.",
-    "onde": "Doc 6, seção \"How to Object to Processing\"",
-    "por_que": "Confirma que o mecanismo de objeção é condicionado a jurisdição e é o direito genérico, não um opt-out de experimentação.",
     "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "onde": "Doc 6, seção \"How to Object to Processing\"",
+    "role": "unknown",
+    "verbatim": "If you’re based in the EEA, UK, Switzerland, or other jurisdictions with a similar right, you have the right to object to our use of your information depending on the basis under which we process it."
    },
    {
     "doc": 1,
-    "verbatim": "Set advertising preferences. We try to show you ads that we think will be relevant to your interests, but if you’d like to have a less personalised experience, you can change your advertising settings in the Snapchat app.",
-    "onde": "Doc 1, seção \"Control over your information\"",
-    "por_que": "Controle existente governa publicidade/personalização, não experimentação — falso positivo clássico descrito no codebook.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, seção \"Control over your information\"",
+    "role": "binding",
+    "verbatim": "Set advertising preferences. We try to show you ads that we think will be relevant to your interests, but if you’d like to have a less personalised experience, you can change your advertising settings in the Snapchat app."
    },
    {
     "doc": 5,
-    "verbatim": "Your browser may provide you with the option to refuse some or all non-essential browser cookies. You may also be able to remove cookies from your browser.",
-    "onde": "Doc 5, Cookie Policy, seção \"Your Choices\" / \"Browser Settings\"",
-    "por_que": "Controle de cookies (ads/analytics), que o codebook exclui explicitamente como opt-out de experimentação.",
     "file": "snapchat/05-cookie-policy.md",
-    "role": "unknown"
+    "onde": "Doc 5, Cookie Policy, seção \"Your Choices\" / \"Browser Settings\"",
+    "role": "unknown",
+    "verbatim": "Your browser may provide you with the option to refuse some or all non-essential browser cookies. You may also be able to remove cookies from your browser."
    },
    {
     "doc": 4,
-    "verbatim": "Personalisation is also a condition of our contract with you for us to be able to do so, unless you opt to receive less personalisation in the Services.",
-    "onde": "Doc 4, ToS, seção 5",
-    "por_que": "Única opção de \"opt\" no registro vinculante refere-se a menos personalização, não a sair de experimentos.",
     "file": "snapchat/04-gb-terms.md",
-    "role": "unknown"
+    "onde": "Doc 4, ToS, seção 5",
+    "role": "unknown",
+    "verbatim": "Personalisation is also a condition of our contract with you for us to be able to do so, unless you opt to receive less personalisation in the Services."
    },
    {
     "doc": 7,
-    "verbatim": "upholding Snap’s strong privacy principles and security standards, including honoring user privacy choices",
-    "onde": "Doc 7, abertura",
-    "por_que": "Referência vaga a \"privacy choices\" em contexto de ad ranking/A-B testing; não descreve opt-out de experimento.",
     "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
-    "role": "unknown"
+    "onde": "Doc 7, abertura",
+    "role": "unknown",
+    "verbatim": "upholding Snap’s strong privacy principles and security standards, including honoring user privacy choices"
    }
   ],
   "V6": [
    {
     "doc": 9,
-    "verbatim": "Aiutaci a testare le funzionalità di Snapchat prima che vengano rese pubbliche!",
+    "file": "snapchat/09-beta.md",
     "onde": "Doc 9, Snapchat Beta, chamada principal",
-    "por_que": "Convite explícito a voluntários para testar features antes do lançamento — programa beta opt-in.",
-    "file": "snapchat/09-beta.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Aiutaci a testare le funzionalità di Snapchat prima che vengano rese pubbliche!"
    },
    {
     "doc": 9,
-    "verbatim": "Al momento sono presenti 1425 inviti al programma Beta. Iscriviti oggi stesso!",
+    "file": "snapchat/09-beta.md",
     "onde": "Doc 9, Snapchat Beta",
-    "por_que": "Inscrição voluntária em programa beta com vagas limitadas.",
-    "file": "snapchat/09-beta.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Al momento sono presenti 1425 inviti al programma Beta. Iscriviti oggi stesso!"
    },
    {
     "doc": 9,
-    "verbatim": "Diventa beta tester iOS in due semplici mosse",
+    "file": "snapchat/09-beta.md",
     "onde": "Doc 9, Snapchat Beta, seção iOS",
-    "por_que": "Instruções de adesão como beta tester — confirma canal opt-in.",
-    "file": "snapchat/09-beta.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Diventa beta tester iOS in due semplici mosse"
    },
    {
     "doc": 9,
-    "verbatim": "Tutti i tester completano il ciclo tramite TestFlight.",
+    "file": "snapchat/09-beta.md",
     "onde": "Doc 9, Snapchat Beta, seção iOS",
-    "por_que": "TestFlight nomeado, exatamente o exemplo citado no critério do V6.",
-    "file": "snapchat/09-beta.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Tutti i tester completano il ciclo tramite TestFlight."
    },
    {
     "doc": 9,
-    "verbatim": "⚠️ Al momento le iscrizioni al programma Android Beta sono sospese",
+    "file": "snapchat/09-beta.md",
     "onde": "Doc 9, Snapchat Beta, seção Android",
-    "por_que": "Confirma existência de programa beta também para Android, ainda que suspenso.",
-    "file": "snapchat/09-beta.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "⚠️ Al momento le iscrizioni al programma Android Beta sono sospese"
    }
   ],
   "V7": [
    {
     "doc": 1,
-    "verbatim": "We may update our Privacy Policy from time to time, and will give you a heads-up if we make any changes we think you should know about.",
-    "onde": "Doc 1, seção \"Updates to the Privacy Policy\"",
-    "por_que": "Aviso de mudança de documento — explicitamente excluído como debriefing; útil para o avaliador descartar falso positivo.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, seção \"Updates to the Privacy Policy\"",
+    "role": "binding",
+    "verbatim": "We may update our Privacy Policy from time to time, and will give you a heads-up if we make any changes we think you should know about."
    },
    {
     "doc": 1,
-    "verbatim": "In addition to these documents, we also show in-app notices that provide you more information about our products and services.",
-    "onde": "Doc 1, abertura",
-    "por_que": "Avisos in-app sobre produtos/serviços, não notificação posterior de participação em experimento.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, abertura",
+    "role": "binding",
+    "verbatim": "In addition to these documents, we also show in-app notices that provide you more information about our products and services."
    },
    {
     "doc": 4,
-    "verbatim": "Our Services are evolving over time and we may not always notify you of every change : We may also update the Snap Terms of Service when needed, and will notify you of any significant changes.",
+    "file": "snapchat/04-gb-terms.md",
     "onde": "Doc 4, sumário do ToS",
-    "por_que": "Declara explicitamente que mudanças de serviço podem ocorrer sem notificação — contraindica qualquer mecanismo de debriefing.",
-    "file": "snapchat/04-gb-terms.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "Our Services are evolving over time and we may not always notify you of every change : We may also update the Snap Terms of Service when needed, and will notify you of any significant changes."
    },
    {
     "doc": 4,
-    "verbatim": "We may take any of these actions at any time, and when we do, we may not provide you with any notice beforehand.",
-    "onde": "Doc 4, Snap Inc. ToS, seção 15 \"Modifying the Services and These Terms\"",
-    "por_que": "Ausência de aviso sobre alterações de features — o mais próximo do tema, e ainda assim nega notificação.",
     "file": "snapchat/04-gb-terms.md",
-    "role": "unknown"
+    "onde": "Doc 4, Snap Inc. ToS, seção 15 \"Modifying the Services and These Terms\"",
+    "role": "unknown",
+    "verbatim": "We may take any of these actions at any time, and when we do, we may not provide you with any notice beforehand."
    },
    {
     "doc": 7,
-    "verbatim": "Estimating the business impact of any change by first exposing only a small set of randomly chosen Snapchatters to that change (aka, A/B testing) is a common practice for internet companies.",
-    "onde": "Doc 7, seção \"Online budget split A/B testing\"",
-    "por_que": "Documento que descreve exposição de usuários a experimentos não menciona nenhuma notificação posterior aos participantes.",
     "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
-    "role": "unknown"
+    "onde": "Doc 7, seção \"Online budget split A/B testing\"",
+    "role": "unknown",
+    "verbatim": "Estimating the business impact of any change by first exposing only a small set of randomly chosen Snapchatters to that change (aka, A/B testing) is a common practice for internet companies."
    }
   ],
   "V8": [
    {
     "doc": 1,
-    "verbatim": "Your information can help us decide what kind of improvements we should make, but we are always focused on privacy – and we don’t want to use more of your personal information than is necessary to develop our features and models.",
-    "onde": "Doc 1, seção \"Develop & Improve Features, Algorithms & Machine Learning Models\"",
-    "por_que": "Linguagem de minimização/privacidade, não revisão ética nem avaliação de risco de experimentos — borderline a ser codificado como No.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, seção \"Develop & Improve Features, Algorithms & Machine Learning Models\"",
+    "role": "binding",
+    "verbatim": "Your information can help us decide what kind of improvements we should make, but we are always focused on privacy – and we don’t want to use more of your personal information than is necessary to develop our features and models."
    },
    {
     "doc": 1,
-    "verbatim": "We believe it is critical to also balance the benefits of personalisation with our Snapchatters’ expectations of privacy.",
-    "onde": "Doc 1, seção \"Personalise Your Experience & Give Context\"",
-    "por_que": "Balanceamento declarado de benefícios vs. privacidade; não é comitê nem avaliação de risco de experimento.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, seção \"Personalise Your Experience & Give Context\"",
+    "role": "binding",
+    "verbatim": "We believe it is critical to also balance the benefits of personalisation with our Snapchatters’ expectations of privacy."
    },
    {
     "doc": 6,
-    "verbatim": "we have appropriately balanced this purpose with Snapchatters’ rights and interests and ensured the processing is within the reasonable expectation of Snapchatters (including our teenage users).",
+    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
     "onde": "Doc 6, tabela, coluna de explicação de legítimo interesse (repetido em várias linhas)",
-    "por_que": "Teste de balanceamento do legítimo interesse — avaliação de risco de processamento, não de experimentos; avaliador decide se atinge o limiar.",
-    "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "role": "unknown",
+    "verbatim": "we have appropriately balanced this purpose with Snapchatters’ rights and interests and ensured the processing is within the reasonable expectation of Snapchatters (including our teenage users)."
    },
    {
     "doc": 6,
-    "verbatim": "Our review will take into account your expectations about our use of your data, the risks and benefits of the data use to those involved (which may include us, you, our community and other Snapchatters, or other third parties), and whether there are readily available, less privacy-intrusive ways of achieving the same purpose.",
-    "onde": "Doc 6, seção \"What happens when I object to processing?\"",
-    "por_que": "Descrição de análise de riscos e benefícios, mas atrelada a pedidos de objeção, não a revisão prévia de experimentos.",
     "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "onde": "Doc 6, seção \"What happens when I object to processing?\"",
+    "role": "unknown",
+    "verbatim": "Our review will take into account your expectations about our use of your data, the risks and benefits of the data use to those involved (which may include us, you, our community and other Snapchatters, or other third parties), and whether there are readily available, less privacy-intrusive ways of achieving the same purpose."
    },
    {
     "doc": 4,
-    "verbatim": "Before we restrict, terminate or suspend your access to the Services, we will take into account all relevant facts and circumstances apparent from the information available to us, depending on the underlying reason for taking that action.",
-    "onde": "Doc 4, ToS, seção 16 \"Termination and Suspension\"",
-    "por_que": "Linguagem borderline de avaliação de impacto ligada a descontinuação de acesso — o codebook manda codificar No com nota.",
     "file": "snapchat/04-gb-terms.md",
-    "role": "unknown"
+    "onde": "Doc 4, ToS, seção 16 \"Termination and Suspension\"",
+    "role": "unknown",
+    "verbatim": "Before we restrict, terminate or suspend your access to the Services, we will take into account all relevant facts and circumstances apparent from the information available to us, depending on the underlying reason for taking that action."
    },
    {
     "doc": 1,
-    "verbatim": "Safety Advisory Board Meet Snap's Safety Advisory Board members Council for Digital Well-Being Meet Snap's Council for Digital Well-Being",
-    "onde": "Doc 1, navegação do site, seção Safety",
-    "por_que": "Existem boards consultivos citados na navegação, mas sem qualquer vínculo declarado com revisão de experimentos — avaliador deve julgar se é falso positivo.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, navegação do site, seção Safety",
+    "role": "binding",
+    "verbatim": "Safety Advisory Board Meet Snap's Safety Advisory Board members Council for Digital Well-Being Meet Snap's Council for Digital Well-Being"
    },
    {
     "doc": 7,
-    "verbatim": "This provides a framework for risk mitigation, data-driven decision making and learning by experiments.",
-    "onde": "Doc 7, seção \"Online budget split A/B testing\"",
-    "por_que": "Única menção a mitigação de risco ligada a experimentos, em registro não-vinculante e em sentido de risco de negócio, não ético.",
     "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
-    "role": "unknown"
+    "onde": "Doc 7, seção \"Online budget split A/B testing\"",
+    "role": "unknown",
+    "verbatim": "This provides a framework for risk mitigation, data-driven decision making and learning by experiments."
    }
   ],
   "V9": [
    {
     "doc": 1,
-    "verbatim": "Welcome to Snap Inc. ’s Privacy Policy. This policy explains how we collect and use your data and how you can control your information.",
-    "onde": "Doc 1, abertura da Privacy Policy (values.snap.com/privacy/privacy-policy)",
-    "por_que": "Privacy policy como local de divulgação, registro vinculante.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, abertura da Privacy Policy (values.snap.com/privacy/privacy-policy)",
+    "role": "binding",
+    "verbatim": "Welcome to Snap Inc. ’s Privacy Policy. This policy explains how we collect and use your data and how you can control your information."
    },
    {
     "doc": 1,
-    "verbatim": "Also, if you see us refer to our \"Terms\", we mean the Terms of Service that you agree to when you sign up for our services.",
-    "onde": "Doc 1, abertura",
-    "por_que": "Confirma que o ToS é o acordo aceito pelo usuário — função legal vinculante.",
     "file": "snapchat/01-privacy-policy.md",
-    "role": "binding"
+    "onde": "Doc 1, abertura",
+    "role": "binding",
+    "verbatim": "Also, if you see us refer to our \"Terms\", we mean the Terms of Service that you agree to when you sign up for our services."
    },
    {
     "doc": 4,
-    "verbatim": "The Snap Terms of Service is a contract between you and Snap. It explains the rules for using Snapchat and our other services (which we call our “Services”). These rules are legally binding",
-    "onde": "Doc 4, sumário do Terms of Service",
-    "por_que": "Auto-declaração de vinculação contratual — ToS/conditions como local, registro binding.",
     "file": "snapchat/04-gb-terms.md",
-    "role": "unknown"
+    "onde": "Doc 4, sumário do Terms of Service",
+    "role": "unknown",
+    "verbatim": "The Snap Terms of Service is a contract between you and Snap. It explains the rules for using Snapchat and our other services (which we call our “Services”). These rules are legally binding"
    },
    {
     "doc": 6,
-    "verbatim": "This page supplements our Privacy Policy to provide additional information about the purposes for which we process personal information and our legal bases for doing so.",
-    "onde": "Doc 6, help.snapchat.com, abertura",
-    "por_que": "Página de help centre que se declara suplemento da Privacy Policy — avaliador decide o registro.",
     "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
-    "role": "unknown"
+    "onde": "Doc 6, help.snapchat.com, abertura",
+    "role": "unknown",
+    "verbatim": "This page supplements our Privacy Policy to provide additional information about the purposes for which we process personal information and our legal bases for doing so."
    },
    {
     "doc": 5,
-    "verbatim": "Our Privacy Policy explains how we collect and use information from and about you when you use Snapchat and certain other Snap Inc. services. This policy explains more about how we use cookies and your related choices.",
-    "onde": "Doc 5, Cookie Policy, abertura",
-    "por_que": "Cookie Policy como documento de políticas vinculado à Privacy Policy.",
     "file": "snapchat/05-cookie-policy.md",
-    "role": "unknown"
+    "onde": "Doc 5, Cookie Policy, abertura",
+    "role": "unknown",
+    "verbatim": "Our Privacy Policy explains how we collect and use information from and about you when you use Snapchat and certain other Snap Inc. services. This policy explains more about how we use cookies and your related choices."
    },
    {
     "doc": 7,
-    "verbatim": "This post details an overview of the Snapchat ad ranking system, the challenges unique to the online ad ecosystem, and the corresponding machine learning (ML) development cycle.",
-    "onde": "Doc 7, eng.snap.com, abertura",
-    "por_que": "Blog de engenharia — local blog/PR, registro não-vinculante, onde mora a menção a A/B testing.",
     "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
-    "role": "unknown"
+    "onde": "Doc 7, eng.snap.com, abertura",
+    "role": "unknown",
+    "verbatim": "This post details an overview of the Snapchat ad ranking system, the challenges unique to the online ad ecosystem, and the corresponding machine learning (ML) development cycle."
    },
    {
     "doc": 10,
-    "verbatim": "This post details our journey of optimizing large-scale spark execution with NVIDIA GPUs on Google Cloud.",
-    "onde": "Doc 10, eng.snap.com, abertura",
-    "por_que": "Blog de engenharia (registro marcado non-binding) contendo a divulgação sobre experimentação.",
     "file": "snapchat/10-snap-nvidia-gcp.md",
-    "role": "non-binding"
+    "onde": "Doc 10, eng.snap.com, abertura",
+    "role": "non-binding",
+    "verbatim": "This post details our journey of optimizing large-scale spark execution with NVIDIA GPUs on Google Cloud."
    },
    {
     "doc": 8,
-    "verbatim": "NVIDIA cuDF accelerates Apache Spark applications on Google Cloud helps Snap engineers test and deploy new features faster while unlocking significant cost savings.",
-    "onde": "Doc 8, blog NVIDIA, subtítulo",
-    "por_que": "Divulgação em site de terceiro (PR), claramente não-vinculante.",
     "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
-    "role": "unknown"
+    "onde": "Doc 8, blog NVIDIA, subtítulo",
+    "role": "unknown",
+    "verbatim": "NVIDIA cuDF accelerates Apache Spark applications on Google Cloud helps Snap engineers test and deploy new features faster while unlocking significant cost savings."
    },
    {
     "doc": 9,
-    "verbatim": "Aiutaci a testare le funzionalità di Snapchat prima che vengano rese pubbliche!",
-    "onde": "Doc 9, snapchat.com/beta",
-    "por_que": "Página de produto/site institucional divulgando o programa de testes — local adicional de divulgação.",
     "file": "snapchat/09-beta.md",
-    "role": "unknown"
+    "onde": "Doc 9, snapchat.com/beta",
+    "role": "unknown",
+    "verbatim": "Aiutaci a testare le funzionalità di Snapchat prima che vengano rese pubbliche!"
    }
   ]
  },
@@ -618,5 +545,6 @@
  "uso": {
   "input": 77689,
   "output": 10151
- }
+ },
+ "publicacao": "citações reduzidas a doc, file, onde, role e verbatim em 2026-10-02: a justificativa do modelo dizia o código; a versão anterior está no histórico do git deste repositório"
 }
