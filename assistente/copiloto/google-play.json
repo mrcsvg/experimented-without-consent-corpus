@@ -1,0 +1,160 @@
+{
+ "formato": 1,
+ "servico": "Google Play",
+ "slug": "google-play",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "128a695c3730",
+ "gerado_em": "2026-10-03T16:33:23+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 2
+ },
+ "n_citacoes": 66,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "3",
+    "v1_register": "non-binding"
+   },
+   "razao": "O teto 3 aparece só na página de divulgação do Play Console, que nomeia testes A/B, variantes e experimentos (V1-1, V1-2, V1-3). Nos vinculantes o nível é 2, pelo cookie de rollout que mede o impacto de novos recursos (V1-8), ou 1, pela linguagem de melhoria (V1-6, V1-7); registrar isso em Notas.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-1",
+    "V1-2",
+    "V1-3",
+    "V1-6",
+    "V1-7",
+    "V1-8"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research",
+     "social-good/community"
+    ]
+   },
+   "razao": "A melhoria do serviço aparece em V2-1 e V2-3, e a pesquisa que melhora serviços aparece em V2-2. O trecho 'benefits the public' em V2-2 sustenta o enquadramento de bem social; não há linguagem de pesquisa com seres humanos.",
+   "confianca": "média",
+   "citacoes": [
+    "V2-1",
+    "V2-2",
+    "V2-3"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "Yes",
+    "v3_specific": "Yes",
+    "v3_pricing": "Yes",
+    "v3_targets": "ícones, vídeos, screenshots, gráficos, texto localizado da ficha da loja; preço"
+   },
+   "razao": "A página do Play Console nomeia superfícies testadas (V3-1, V1-1), divulga um caso específico da Tapps Games (V3-4) e lista 'Price experiments' (V3-3). O preço aparece só em registro não-vinculante, o que deve ir para Notas; V3-6 trata de mudança de preço e não conta.",
+   "confianca": "média",
+   "citacoes": [
+    "V3-1",
+    "V1-1",
+    "V3-4",
+    "V3-3",
+    "V3-6"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "legitimate interest"
+    ],
+    "v4_mapped_purpose": "Perform research that improves our services (To maintain and improve Google services)",
+    "v4_region_gated": "No"
+   },
+   "razao": "A tabela de bases legais está presente na política capturada, e nela a pesquisa para melhorar serviços aparece sob legítimo interesse (V4-1, V4-3, V1-6). Como a tabela está nos documentos, a resposta para geo-gated é No; a ligação entre V4-2 e contrato não fica explícita nas citações.",
+   "confianca": "média",
+   "citacoes": [
+    "V4-1",
+    "V4-3",
+    "V1-6",
+    "V4-2"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "Há controles de cookies e de anúncios (V5-3, V5-4) e o direito genérico de objeção (V5-1), mas nenhum controle específico de experimentação. O subcontrole de Web & App Activity rege o uso de dados para melhoria, não para experimentos (V5-2).",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V5-3",
+    "V5-4"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "Yes",
+    "v6_which": "Programas de early access e beta no Google Play: o usuário entra pelo 'Join the beta' e pode sair"
+   },
+   "razao": "A central de ajuda descreve a inscrição voluntária em programas beta e de acesso antecipado (V6-1, V6-2), com saída possível (V6-3). Isso não mitiga a V5.",
+   "confianca": "alta",
+   "citacoes": [
+    "V6-1",
+    "V6-2",
+    "V6-3"
+   ]
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "V7-1 e V7-2 são avisos de mudança de serviço, que não contam como debriefing, e V7-4 é um alerta ao desenvolvedor, não ao usuário. O tema não é endereçado: o log de palavras-chave registra debrief:0 em todos os documentos.",
+   "confianca": "alta",
+   "citacoes": [
+    "V7-1",
+    "V7-2",
+    "V7-4"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "V8-1 é linguagem de fronteira sobre 'impact on you and others' ligada a mudar ou descontinuar serviços, o que dá No com nota. O log registra ethics, IRB e risk assessment em 0, e fica a nota de gap entre a obrigação do DSA e os documentos.",
+   "confianca": "média",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-3"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "privacy policy",
+     "ToS/conditions",
+     "help centre",
+     "blog/PR/site de pesquisa"
+    ],
+    "v9_register": "both"
+   },
+   "razao": "Nos vinculantes, a divulgação aparece como pesquisa/melhoria e programa de pesquisa de produto (V1-5, V1-7, V9-1, V9-2); nos não vinculantes, como beta na central de ajuda (V9-6) e A/B na página institucional do Play Console (V9-7). O registro agregado é both, mas o nível 3 vive só no não-vinculante.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-5",
+    "V1-7",
+    "V9-1",
+    "V9-2",
+    "V9-6",
+    "V9-7"
+   ]
+  }
+ },
+ "uso": {
+  "input": 28925,
+  "output": 6918
+ }
+}

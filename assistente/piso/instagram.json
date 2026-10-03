@@ -1,0 +1,282 @@
+{
+ "servico": "Instagram",
+ "slug": "instagram",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "instagram/01-policy-printable-version.md",
+   "url": "https://mbasic.facebook.com/privacy/policy/printable/version/25862970456621906/",
+   "chars": 193942,
+   "titulo": "Meta Privacy Policy – How Meta collects and uses user data",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 4,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:4 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "instagram/02-cookies.md",
+   "url": "https://privacycenter.instagram.com/policies/cookies/",
+   "chars": 3973,
+   "titulo": "Meta Cookies Policy",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "instagram/03-cookies-printable.md",
+   "url": "https://mbasic.facebook.com/privacy/policies/cookies/printable/",
+   "chars": 17087,
+   "titulo": "Meta Cookies Policy",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "instagram/04-help-instagram-com.md",
+   "url": "https://help.instagram.com/581066165581870",
+   "chars": 26188,
+   "titulo": "Terms of Use | Instagram Help Centre",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 2,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:2 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "instagram/05-features-explaining-ranking-ig-feed.md",
+   "url": "https://transparency.meta.com/features/explaining-ranking/ig-feed/",
+   "chars": 13096,
+   "titulo": "Instagram Feed",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "instagram/06-policy.md",
+   "url": "https://privacycenter.instagram.com/policy/",
+   "chars": 108301,
+   "titulo": "Meta Privacy Policy – How Meta collects and uses user data | Privacy Centre | Manage your privacy on Facebook, Instagra…",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 3,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:3 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "test",
+    "kwic": "…e use information that we collect to: Develop and improve products and features Build and test out new products and features to see if they work Get feedback on our ideas for products…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/01-policy-printable-version.md",
+    "n": 1,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…working correctly, such as troubleshooting and fixing it when it's not working, Build and test out new products and features to see if they work, and Get feedback on Meta Products and…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/01-policy-printable-version.md",
+    "n": 1,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…g it when it's not working. We also use information that we have to develop, research and test improvements to Meta Products. We use information that we collect to: Develop and improve…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/01-policy-printable-version.md",
+    "n": 1,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…olicy . Providing and improving Meta Products. We use the information we have to develop, test and improve our Service and collaborate with others on research to make our Service bette…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/04-help-instagram-com.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…ers and understanding how people use our Services, for example, by conducting surveys and testing and troubleshooting new features. For more information about how we use your information…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/04-help-instagram-com.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…working correctly, such as troubleshooting and fixing it when it's not working Build and test out new products and features to see if they work Get feedback on Meta Products and ideas…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/06-policy.md",
+    "n": 6,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…g it when it's not working. We also use information that we have to develop, research and test improvements to Meta Products. We use information that we collect to: Develop and improve…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/06-policy.md",
+    "n": 6,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…e use information that we collect to: Develop and improve products and features Build and test out new products and features to see if they work Get feedback on our ideas for products…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/06-policy.md",
+    "n": 6,
+    "total_no_doc": 3
+   }
+  ],
+  "V6": [
+   {
+    "termo": "test",
+    "kwic": "…e use information that we collect to: Develop and improve products and features Build and test out new products and features to see if they work Get feedback on our ideas for products…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/01-policy-printable-version.md",
+    "n": 1,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…working correctly, such as troubleshooting and fixing it when it's not working, Build and test out new products and features to see if they work, and Get feedback on Meta Products and…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/01-policy-printable-version.md",
+    "n": 1,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…g it when it's not working. We also use information that we have to develop, research and test improvements to Meta Products. We use information that we collect to: Develop and improve…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/01-policy-printable-version.md",
+    "n": 1,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…olicy . Providing and improving Meta Products. We use the information we have to develop, test and improve our Service and collaborate with others on research to make our Service bette…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/04-help-instagram-com.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…ers and understanding how people use our Services, for example, by conducting surveys and testing and troubleshooting new features. For more information about how we use your information…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/04-help-instagram-com.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…working correctly, such as troubleshooting and fixing it when it's not working Build and test out new products and features to see if they work Get feedback on Meta Products and ideas…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/06-policy.md",
+    "n": 6,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…g it when it's not working. We also use information that we have to develop, research and test improvements to Meta Products. We use information that we collect to: Develop and improve…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/06-policy.md",
+    "n": 6,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…e use information that we collect to: Develop and improve products and features Build and test out new products and features to see if they work Get feedback on our ideas for products…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "instagram/06-policy.md",
+    "n": 6,
+    "total_no_doc": 3
+   }
+  ]
+ },
+ "log_sugerido": "01-policy-printable-version.md: experiment:0 / A-B:0 / randomize:0 / test:4 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-cookies.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-cookies-printable.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-help-instagram-com.md: experiment:0 / A-B:0 / randomize:0 / test:2 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-features-explaining-ranking-ig-feed.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-policy.md: experiment:0 / A-B:0 / randomize:0 / test:3 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

@@ -1,0 +1,724 @@
+{
+ "servico": "Zalando",
+ "slug": "zalando",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+   "url": "https://mosaic02.ztat.net/cnt/contentful-apps/uploads/6264a7fa-33a0-42b3-8021-da7a5fd85469.pdf",
+   "chars": 137245,
+   "titulo": "Zalando Privacy Notice As at: 09/2025",
+   "counts": {
+    "experiment": 0,
+    "A-B": 3,
+    "randomize": 0,
+    "test": 20,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 9
+   },
+   "log_line": "experiment:0 / A-B:3 / randomize:0 / test:20 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:9",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "zalando/02-contentful-apps-uploads-b8944e13-77d3-4b20-8abf-04c3.md",
+   "url": "https://mosaic02.ztat.net/cnt/contentful-apps/uploads/b8944e13-77d3-4b20-8abf-04c3bfb51d9a.pdf",
+   "chars": 32704,
+   "titulo": "Summary of our general terms and condi�ons",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "zalando/03-zalando-data-protection-statement.md",
+   "url": "https://corporate.zalando.com/en/zalando-data-protection-statement",
+   "chars": 42945,
+   "titulo": "Zalando: Zalando Privacy Notice | Zalando Corporate",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 4,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:4 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "zalando/04-terms-of-use.md",
+   "url": "https://accounts.zalando.com/terms-of-use",
+   "chars": 16042,
+   "titulo": "Zalando",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "zalando/05-zalando-privacy-policy.md",
+   "url": "https://en.zalando.de/zalando-privacy-policy/",
+   "chars": 133437,
+   "titulo": "Zalando",
+   "counts": {
+    "experiment": 0,
+    "A-B": 3,
+    "randomize": 0,
+    "test": 8,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 9
+   },
+   "log_line": "experiment:0 / A-B:3 / randomize:0 / test:8 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:9",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "zalando/06-zalando-terms.md",
+   "url": "https://en.zalando.de/zalando-terms/",
+   "chars": 35744,
+   "titulo": "Terms & Conditions | Zalando",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 7,
+   "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+   "url": "https://engineering.zalando.com/posts/2021/01/experimentation-platform-part1.html",
+   "chars": 12520,
+   "titulo": "Experimentation Platform at Zalando: Part 1 - Evolution",
+   "counts": {
+    "experiment": 31,
+    "A-B": 32,
+    "randomize": 2,
+    "test": 37,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:31 / A-B:32 / randomize:2 / test:37 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 8,
+   "file": "zalando/08-tags-experimentation.md",
+   "url": "https://engineering.zalando.com/tags/experimentation.html",
+   "chars": 1005,
+   "titulo": "Zalando Engineering Blog - Experimentation",
+   "counts": {
+    "experiment": 4,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:4 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V8": [
+   {
+    "termo": "risk assessment",
+    "kwic": "…ent to a specific user. Over the course of the order process on our website, we request a risk assessment for the user's end device from the database of providers. This risk assessment on the lik…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "risk assessment",
+    "kwic": "…request a risk assessment for the user's end device from the database of providers. This risk assessment on the likelihood of attempted fraud considers, amongst other things, whether the end dev…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "risk assessment",
+    "kwic": "…you the payment methods available for a purchase, Zalando Payments GmbH will carry out a risk assessment and include the total costs for an order with Zalando. Your previously collected purchase…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "ethics",
+    "kwic": "…Our strategy Our corporate culture Employee participation and representation Our Code of Ethics Our history What we do Go to What we do Zalando Logistics Returns at Zalando Zalando Part…",
+    "flag": "falso positivo comum: 'code of ethics' / conduta empresarial no menu ou rodapé NÃO é revisão ética de experimento (ver V8)",
+    "file": "zalando/03-zalando-data-protection-statement.md",
+    "n": 3,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "ethics",
+    "kwic": "…vate Label suppliers Services and contact Go to Services and contact Report violations of ethical and compliance policies Report a vulnerability Investor Relations Go to Investor Relation…",
+    "flag": "falso positivo comum: 'code of ethics' / conduta empresarial no menu ou rodapé NÃO é revisão ética de experimento (ver V8)",
+    "file": "zalando/03-zalando-data-protection-statement.md",
+    "n": 3,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "ethics",
+    "kwic": "…Our strategy Our corporate culture Employee participation and representation Our Code of Ethics Our history What we do Back Go to What we do Zalando Logistics Returns at Zalando Zalando…",
+    "flag": "falso positivo comum: 'code of ethics' / conduta empresarial no menu ou rodapé NÃO é revisão ética de experimento (ver V8)",
+    "file": "zalando/03-zalando-data-protection-statement.md",
+    "n": 3,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "risk assessment",
+    "kwic": "…ent to a specific user. Over the course of the order process on our website, we request a risk assessment for the user's end device from the database of providers. This risk assessment on the lik…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "risk assessment",
+    "kwic": "…request a risk assessment for the user's end device from the database of providers. This risk assessment on the likelihood of attempted fraud considers, amongst other things, whether the end dev…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "risk assessment",
+    "kwic": "…you the payment methods available for a purchase, Zalando Payments GmbH will carry out a risk assessment and include the total costs for an order with Zalando. Your previously collected purchase…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 9
+   }
+  ],
+  "V1": [
+   {
+    "termo": "test",
+    "kwic": "…re such data processing operations take place, your above-mentioned data might be used to test the efficiency of the respective procedure and/or the respective cooperation. 2.5. Transf…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 20
+   },
+   {
+    "termo": "test",
+    "kwic": "….g. by pseudonymisation, encryption and anonymisation technologies. ● The development and testing of software solutions for the optimisation of necessary business and logistics processes.…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 20
+   },
+   {
+    "termo": "test",
+    "kwic": "…ata on the basis of legal specifications, e.g. retention obligations and money laundering tests under tax law, the legal basis is Article 6 (1) c GDPR. 2.9. Enabling interactions betwee…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 20
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…d and which browsers and devices our users generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/…",
+    "flag": null,
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is…",
+    "flag": null,
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is an approach to comparing two versions of a websi…",
+    "flag": null,
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…ata on the basis of legal specifications, e.g. retention obligations and money laundering tests under tax law, the legal basis is Article 6 (1) c GDPR. 2.4 On the basis of your consent…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/03-zalando-data-protection-statement.md",
+    "n": 3,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…re such data processing operations take place, your above-mentioned data might be used to test the efficiency of the respective procedure and/or the respective cooperation. 2.5 Transfe…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "test",
+    "kwic": "…e.g. by pseudonymisation, encryption and anonymisation technologies. The development and testing of software solutions for the optimisation of necessary business and logistics processes.…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "test",
+    "kwic": "…ata on the basis of legal specifications, e.g. retention obligations and money laundering tests under tax law, the legal basis is Article 6 (1) c GDPR. 2.9 Enabling interactions between…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…d and which browsers and devices our users generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/…",
+    "flag": null,
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is…",
+    "flag": null,
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is an approach to comparing two versions of a websi…",
+    "flag": null,
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…relevance, our recommender system is monitored and updated regularly. We conduct rigorous testing to identify potential biases and continuously improve the algorithm to align with your ne…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/06-zalando-terms.md",
+    "n": 6,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Experimentation Platform at Zalando: Part 1 - Evolution Engineering Blog Categories ▼ All Posts 🔧 Backend…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 31
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ne Learning 📱 Mobile 🧑‍💻 Open Source 🧠 Science Tags Work with us About Zalando Light mode Experimentation Platform at Zalando: Part 1 - Evolution Challenges and solutions of our experimentation p…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 31
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…e Experimentation Platform at Zalando: Part 1 - Evolution Challenges and solutions of our experimentation platform at Zalando Shan Huang Applied Scientist Posted on Jan 12, 2021 Tags: Experimenta…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 31
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…imentation , Platform Engineering , Backend , Data Online controlled experimentation, aka A/B test, has been a golden standard for evaluating improvements in software systems. By chan…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 32
+   },
+   {
+    "termo": "test",
+    "kwic": "…tation , Platform Engineering , Backend , Data Online controlled experimentation, aka A/B test, has been a golden standard for evaluating improvements in software systems. By changing…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…andard for evaluating improvements in software systems. By changing one factor at a time, A/B test causally measures, from real users, whether one product variant is better than the o…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 32
+   },
+   {
+    "termo": "test",
+    "kwic": "…rd for evaluating improvements in software systems. By changing one factor at a time, A/B test causally measures, from real users, whether one product variant is better than the other.…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…decisions sound today, it’s not the focus in early stages of Zalando. In the early days, A/B tests are set up by each team individually and manually -- as well as their analyses. Soo…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 32
+   },
+   {
+    "termo": "test",
+    "kwic": "…isions sound today, it’s not the focus in early stages of Zalando. In the early days, A/B tests are set up by each team individually and manually -- as well as their analyses. Soon we d…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "randomize",
+    "kwic": "…and manage their A/B tests in one place. Another major benefit of platformization is that randomization process and analysis methods are now standardized. Octopus uses a two-sided t-test with 5…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "randomize",
+    "kwic": "…delines and software packages to help analysts to choose the right causal inference tool. Randomization engine latency . Some applications have strict requirements for latency. For example, a s…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Zalando Engineering Blog - Experimentation Engineering Blog Categories ▼ All Posts 🔧 Backend 🌍 Culture 📊 Data 🕸️ Frontend 🧑‍🤝‍🧑 Lead…",
+    "flag": null,
+    "file": "zalando/08-tags-experimentation.md",
+    "n": 8,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ne Learning 📱 Mobile 🧑‍💻 Open Source 🧠 Science Tags Work with us About Zalando Light mode Experimentation Zalando's Machine Learning Platform Architecture and tooling behind machine learning at Z…",
+    "flag": null,
+    "file": "zalando/08-tags-experimentation.md",
+    "n": 8,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…learning at Zalando Read more... Krzysztof Szafranek Senior Software Engineer Apr 19 2022 Experimentation Platform at Zalando: Part 1 - Evolution Challenges and solutions of our experimentation p…",
+    "flag": null,
+    "file": "zalando/08-tags-experimentation.md",
+    "n": 8,
+    "total_no_doc": 4
+   }
+  ],
+  "V6": [
+   {
+    "termo": "test",
+    "kwic": "…re such data processing operations take place, your above-mentioned data might be used to test the efficiency of the respective procedure and/or the respective cooperation. 2.5. Transf…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 20
+   },
+   {
+    "termo": "test",
+    "kwic": "….g. by pseudonymisation, encryption and anonymisation technologies. ● The development and testing of software solutions for the optimisation of necessary business and logistics processes.…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 20
+   },
+   {
+    "termo": "test",
+    "kwic": "…ata on the basis of legal specifications, e.g. retention obligations and money laundering tests under tax law, the legal basis is Article 6 (1) c GDPR. 2.9. Enabling interactions betwee…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 20
+   },
+   {
+    "termo": "test",
+    "kwic": "…ata on the basis of legal specifications, e.g. retention obligations and money laundering tests under tax law, the legal basis is Article 6 (1) c GDPR. 2.4 On the basis of your consent…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/03-zalando-data-protection-statement.md",
+    "n": 3,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…re such data processing operations take place, your above-mentioned data might be used to test the efficiency of the respective procedure and/or the respective cooperation. 2.5 Transfe…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "test",
+    "kwic": "…e.g. by pseudonymisation, encryption and anonymisation technologies. The development and testing of software solutions for the optimisation of necessary business and logistics processes.…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "test",
+    "kwic": "…ata on the basis of legal specifications, e.g. retention obligations and money laundering tests under tax law, the legal basis is Article 6 (1) c GDPR. 2.9 Enabling interactions between…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "test",
+    "kwic": "…relevance, our recommender system is monitored and updated regularly. We conduct rigorous testing to identify potential biases and continuously improve the algorithm to align with your ne…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/06-zalando-terms.md",
+    "n": 6,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…tation , Platform Engineering , Backend , Data Online controlled experimentation, aka A/B test, has been a golden standard for evaluating improvements in software systems. By changing…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "test",
+    "kwic": "…rd for evaluating improvements in software systems. By changing one factor at a time, A/B test causally measures, from real users, whether one product variant is better than the other.…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "test",
+    "kwic": "…isions sound today, it’s not the focus in early stages of Zalando. In the early days, A/B tests are set up by each team individually and manually -- as well as their analyses. Soon we d…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 37
+   }
+  ],
+  "V3": [
+   {
+    "termo": "A-B",
+    "kwic": "…d and which browsers and devices our users generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/…",
+    "flag": null,
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is…",
+    "flag": null,
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is an approach to comparing two versions of a websi…",
+    "flag": null,
+    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…d and which browsers and devices our users generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/…",
+    "flag": null,
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is…",
+    "flag": null,
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is an approach to comparing two versions of a websi…",
+    "flag": null,
+    "file": "zalando/05-zalando-privacy-policy.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Experimentation Platform at Zalando: Part 1 - Evolution Engineering Blog Categories ▼ All Posts 🔧 Backend…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 31
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ne Learning 📱 Mobile 🧑‍💻 Open Source 🧠 Science Tags Work with us About Zalando Light mode Experimentation Platform at Zalando: Part 1 - Evolution Challenges and solutions of our experimentation p…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 31
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…e Experimentation Platform at Zalando: Part 1 - Evolution Challenges and solutions of our experimentation platform at Zalando Shan Huang Applied Scientist Posted on Jan 12, 2021 Tags: Experimenta…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 31
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…imentation , Platform Engineering , Backend , Data Online controlled experimentation, aka A/B test, has been a golden standard for evaluating improvements in software systems. By chan…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 32
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…andard for evaluating improvements in software systems. By changing one factor at a time, A/B test causally measures, from real users, whether one product variant is better than the o…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 32
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…decisions sound today, it’s not the focus in early stages of Zalando. In the early days, A/B tests are set up by each team individually and manually -- as well as their analyses. Soo…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 32
+   },
+   {
+    "termo": "randomize",
+    "kwic": "…and manage their A/B tests in one place. Another major benefit of platformization is that randomization process and analysis methods are now standardized. Octopus uses a two-sided t-test with 5…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "randomize",
+    "kwic": "…delines and software packages to help analysts to choose the right causal inference tool. Randomization engine latency . Some applications have strict requirements for latency. For example, a s…",
+    "flag": null,
+    "file": "zalando/07-2021-01-experimentation-platform-part1.md",
+    "n": 7,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Zalando Engineering Blog - Experimentation Engineering Blog Categories ▼ All Posts 🔧 Backend 🌍 Culture 📊 Data 🕸️ Frontend 🧑‍🤝‍🧑 Lead…",
+    "flag": null,
+    "file": "zalando/08-tags-experimentation.md",
+    "n": 8,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ne Learning 📱 Mobile 🧑‍💻 Open Source 🧠 Science Tags Work with us About Zalando Light mode Experimentation Zalando's Machine Learning Platform Architecture and tooling behind machine learning at Z…",
+    "flag": null,
+    "file": "zalando/08-tags-experimentation.md",
+    "n": 8,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…learning at Zalando Read more... Krzysztof Szafranek Senior Software Engineer Apr 19 2022 Experimentation Platform at Zalando: Part 1 - Evolution Challenges and solutions of our experimentation p…",
+    "flag": null,
+    "file": "zalando/08-tags-experimentation.md",
+    "n": 8,
+    "total_no_doc": 4
+   }
+  ]
+ },
+ "log_sugerido": "01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md: experiment:0 / A-B:3 / randomize:0 / test:20 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:9\n02-contentful-apps-uploads-b8944e13-77d3-4b20-8abf-04c3.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-zalando-data-protection-statement.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:4 / review board:0 / IRB:0 / risk assessment:0\n04-terms-of-use.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-zalando-privacy-policy.md: experiment:0 / A-B:3 / randomize:0 / test:8 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:9\n06-zalando-terms.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n07-2021-01-experimentation-platform-part1.md: experiment:31 / A-B:32 / randomize:2 / test:37 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n08-tags-experimentation.md: experiment:4 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

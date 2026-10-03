@@ -1,0 +1,153 @@
+{
+ "formato": 1,
+ "servico": "Temu",
+ "slug": "temu",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "f4d8f6d70bf2",
+ "gerado_em": "2026-10-03T16:18:09+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 1
+ },
+ "n_citacoes": 36,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "1",
+    "v1_register": "binding"
+   },
+   "razao": "A política de privacidade só usa linguagem de melhorar/otimizar o serviço (V1-1, V1-2, V1-3, V1-4, V1-6), sem 'testar', e a contagem de palavras-chave é zero em todos os documentos. V1-5 trata de mudança dos Termos, não de teste.",
+   "confianca": "alta",
+   "citacoes": [
+    "V1-1",
+    "V1-2",
+    "V1-3",
+    "V1-4",
+    "V1-6",
+    "V1-5"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement"
+    ]
+   },
+   "razao": "O enquadramento é de melhoria do serviço e de interesse comercial e do usuário num serviço atualizado (V2-1, V2-2, V2-3). A personalização (V2-4) não está na lista e poderia ir em Notas; nenhuma citação sustenta research ou social-good.",
+   "confianca": "alta",
+   "citacoes": [
+    "V2-1",
+    "V2-2",
+    "V2-3",
+    "V2-4"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "No",
+    "v3_specific": "No",
+    "v3_pricing": "No",
+    "v3_targets": ""
+   },
+   "razao": "V3-1 cita 'services, features' como objeto de melhoria, não de teste, e V3-2/V3-3 descrevem personalização e anúncios como funcionalidade. V3-4 é cláusula de erro de informação/preço e V3-5 é proibição ao usuário; nenhuma citação sustenta outra resposta.",
+   "confianca": "média",
+   "citacoes": [
+    "V3-1",
+    "V3-2",
+    "V3-3",
+    "V3-4",
+    "V3-5"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "legitimate interest"
+    ],
+    "v4_mapped_purpose": "Improve and optimise services, features, analyse performance metrics, and improve the Service and our business",
+    "v4_region_gated": "No"
+   },
+   "razao": "A finalidade de melhoria/otimização está listada sob 'Legitimate Interests' (V4-1, V4-2), numa estrutura de bases por finalidade presente no documento capturado (V4-3, V4-5, V4-6), o que leva a No pela definição. A política se declara específica para EEA/Suíça (V4-4), o que pode merecer nota.",
+   "confianca": "média",
+   "citacoes": [
+    "V4-1",
+    "V4-2",
+    "V4-3",
+    "V4-4",
+    "V4-5",
+    "V4-6"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "Há painel de cookies e opt-out de produtos anunciados que regem publicidade, não experimentação (V5-3, V5-4, V5-5, V5-6). Para a finalidade de melhoria só existe o direito genérico de objeção do Art. 21 (V5-1, V5-2), então GDPR-objection-only também é uma leitura defensável.",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V5-3",
+    "V5-4",
+    "V5-5",
+    "V5-6"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "No",
+    "v6_which": ""
+   },
+   "razao": "Nenhuma citação sustenta outra resposta; a contagem de 'beta' e 'trial' é zero em todos os documentos.",
+   "confianca": "alta",
+   "citacoes": []
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "O tema não é endereçado, e o log de palavras-chave mostra 'debrief' e 'experiment' com zero ocorrências. V7-1 (decisão automatizada) e V7-2 (aviso de mudança dos Termos) são falsos positivos previstos; nenhuma citação sustenta outra resposta.",
+   "confianca": "alta",
+   "citacoes": [
+    "V7-1",
+    "V7-2"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "V8-1 trata de segurança de dados e V8-2 de moderação de conteúdo, sem relação com revisão ética de experimentos. O log mostra zero para ethics, review board, IRB e risk assessment; o tema não é endereçado, e cabe nota sobre o gap entre a obrigação do DSA e o documento.",
+   "confianca": "alta",
+   "citacoes": [
+    "V8-1",
+    "V8-2"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "privacy policy"
+    ],
+    "v9_register": "binding"
+   },
+   "razao": "A única divulgação, de nível 1 (melhoria), está na política de privacidade (V9-1), que os Termos vinculantes incorporam (V9-2, V9-3, V9-4). A central de ajuda não traz nada sobre o tema (V9-5).",
+   "confianca": "média",
+   "citacoes": [
+    "V9-1",
+    "V9-2",
+    "V9-3",
+    "V9-4",
+    "V9-5"
+   ]
+  }
+ },
+ "uso": {
+  "input": 12296,
+  "output": 2853
+ }
+}

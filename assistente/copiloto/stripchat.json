@@ -1,0 +1,154 @@
+{
+ "formato": 1,
+ "servico": "Stripchat",
+ "slug": "stripchat",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "7a431929dac9",
+ "gerado_em": "2026-10-03T16:31:14+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 2
+ },
+ "n_citacoes": 37,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "3",
+    "v1_register": "binding"
+   },
+   "razao": "A Cookies Policy diz testar anúncios, páginas e recursos (V1-1) e lista o cookie ABTest_playerOnThumbHover_key (V1-2), cujo nome indica teste A/B, o que leva ao nível 3 em documento vinculante. A Privacy Policy sozinha fica no nível 1 (V1-3, V1-4) e o 3 depende de ler o nome do cookie como método nomeado.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-1",
+    "V1-2",
+    "V1-3",
+    "V1-4",
+    "V1-5"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research"
+    ]
+   },
+   "razao": "Há melhoria do serviço (V2-1, V2-2, V2-4) e pesquisa genérica, 'research and analysis' (V2-3). A 'healthy community' (V2-5) está ligada à moderação, não a testes, por isso não foi marcada.",
+   "confianca": "média",
+   "citacoes": [
+    "V2-1",
+    "V2-2",
+    "V2-3",
+    "V2-4",
+    "V2-5"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "Yes",
+    "v3_specific": "Yes",
+    "v3_pricing": "No",
+    "v3_targets": "anúncios, páginas, recursos; player ao passar o cursor sobre a miniatura"
+   },
+   "razao": "A Cookies Policy nomeia anúncios, páginas e recursos como testados (V3-1), e o cookie ABTest_playerOnThumbHover_key (V3-2) sugere um teste específico do player na miniatura, o que é uma leitura indireta. A variação de preço por promoções (V3-4) e os sistemas de recomendação (V3-3, V3-5) não são alvos de teste.",
+   "confianca": "baixa",
+   "citacoes": [
+    "V3-1",
+    "V3-2",
+    "V3-3",
+    "V3-4",
+    "V3-5"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "legitimate interest",
+     "consent"
+    ],
+    "v4_mapped_purpose": "research and analysis / develop new services (7(b)); analytics cookies para testar recursos",
+    "v4_region_gated": "No"
+   },
+   "razao": "A seção 7(b) da Privacy Policy organiza finalidades como pesquisa e desenvolvimento de novos serviços sob legítimo interesse (V4-1, V1-3, V1-4), e os cookies para usos não essenciais dependem de consentimento (V4-3, V4-4). Essa lista por finalidade aparece nos documentos, por isso o campo geo-gated ficou No, mas se o codificador não a considerar tabela, o valor seria not-verifiable (vantage).",
+   "confianca": "média",
+   "citacoes": [
+    "V4-1",
+    "V4-2",
+    "V4-3",
+    "V4-4",
+    "V1-3",
+    "V1-4"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "Existe controle de cookies pelo navegador (V5-2, V5-3) e de publicidade (V5-5), além do direito genérico de objeção (V5-1), mas nenhum controle específico de experimentos. Desativar recomendações (V5-4) não equivale a sair de experimentos.",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V5-3",
+    "V5-4",
+    "V5-5"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "No",
+    "v6_which": ""
+   },
+   "razao": "Nenhuma citação sustenta outra resposta, e a contagem de 'beta' é zero em todos os documentos.",
+   "confianca": "alta",
+   "citacoes": []
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "O tema não é endereçado: debrief tem contagem zero em todos os documentos, e os avisos de serviço, as pesquisas por e-mail (V7-1) e as mudanças de termos (V7-2) não são debriefing.",
+   "confianca": "alta",
+   "citacoes": [
+    "V7-1",
+    "V7-2"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "A abordagem baseada em risco refere-se à moderação de conteúdo (V8-1, V8-2) e as medidas de segurança tratam de proteção de dados (V8-3), não de experimentos. Ethics, review board e IRB têm contagem zero, e o tema não é endereçado.",
+   "confianca": "alta",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-3"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "privacy policy"
+    ],
+    "v9_register": "binding"
+   },
+   "razao": "A divulgação está na Cookies Policy (V9-1), que se intitula 'Cookies - Privacy Policy' e é remetida pela Privacy Policy (V9-2), por isso foi marcada como privacy policy vinculante. Os Termos remetem à Privacy Policy (V9-3, V9-4), mas não falam de testes.",
+   "confianca": "média",
+   "citacoes": [
+    "V9-1",
+    "V9-2",
+    "V9-3",
+    "V9-4"
+   ]
+  }
+ },
+ "uso": {
+  "input": 24479,
+  "output": 6836
+ }
+}

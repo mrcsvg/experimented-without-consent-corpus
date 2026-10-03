@@ -1,0 +1,155 @@
+{
+ "formato": 1,
+ "servico": "Pornhub",
+ "slug": "pornhub",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "71caea1c706b",
+ "gerado_em": "2026-10-03T16:23:26+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 2
+ },
+ "n_citacoes": 66,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "1",
+    "v1_register": "binding"
+   },
+   "razao": "O teto é a linguagem de melhoria na Privacy Notice (V1-2); o cookie fg_* fala em liberar novo recurso, não em testar (V1-6, V1-7), e free trial é falso positivo (V1-9, V1-10). Se o codificador ler fg_* como teste de recurso, o nível subiria para 2.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-2",
+    "V1-6",
+    "V1-7",
+    "V1-9",
+    "V1-10"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement"
+    ]
+   },
+   "razao": "A Privacy Notice usa enquadramento de melhoria do serviço (V2-1). A menção a pesquisadores refere-se ao acesso a dados exigido pelo DSA, não a pesquisa da plataforma, e a linguagem de segurança (V2-5) não é bem-estar da comunidade; vale anotar em Notas.",
+   "confianca": "média",
+   "citacoes": [
+    "V2-1",
+    "V2-3",
+    "V2-5"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "No",
+    "v3_specific": "No",
+    "v3_pricing": "No",
+    "v3_targets": ""
+   },
+   "razao": "Os trechos descrevem personalização, recomendação e preços de assinatura como funcionalidades, não como alvos de teste (V3-2, V3-3, V3-5, V3-8). O cookie fg_* menciona liberação de recurso sem descrever teste (V3-1).",
+   "confianca": "média",
+   "citacoes": [
+    "V3-1",
+    "V3-2",
+    "V3-3",
+    "V3-5",
+    "V3-8"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "not stated"
+    ],
+    "v4_mapped_purpose": "fix, analyse, and improve our Website, products and services",
+    "v4_region_gated": "not-verifiable (vantage)"
+   },
+   "razao": "A seção 6 lista bases legais só com exemplos, sem tabela por finalidade, e nenhuma base é ligada à finalidade de melhoria (V4-1 a V4-6, V1-2). Sem tabela por finalidade, o campo geo-gated fica not-verifiable (vantage).",
+   "confianca": "média",
+   "citacoes": [
+    "V4-1",
+    "V4-2",
+    "V4-3",
+    "V4-4",
+    "V4-5",
+    "V4-6",
+    "V1-2"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "Existe banner de cookies que controla cookies funcionais, de analytics e de publicidade (V5-2, V5-6), além do direito genérico de objeção (V5-1). Nenhum controle é específico para experimentação.",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V5-6"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "No",
+    "v6_which": ""
+   },
+   "razao": "\"Beta\" aparece só como item da barra de navegação de categorias (V6-1), e fg_* não descreve inscrição voluntária (V6-2). Nenhuma citação sustenta outra resposta.",
+   "confianca": "média",
+   "citacoes": [
+    "V6-1",
+    "V6-2"
+   ]
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "Os avisos encontrados são de mudança de política ou serviço e de moderação, que o codebook exclui (V7-1, V7-2, V7-3, V7-4). O tema não é endereçado, e o log de palavras-chave mostra debrief:0 em todos os documentos.",
+   "confianca": "alta",
+   "citacoes": [
+    "V7-1",
+    "V7-2",
+    "V7-3",
+    "V7-4"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "As menções a risco e impacto tratam de retenção de dados e de moderação, não de experimentos (V8-1, V8-2, V8-4). O log mostra ethics, review board, IRB e risk assessment em 0; vale anotar em Notas o gap em relação ao DSA.",
+   "confianca": "alta",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-3",
+    "V8-4"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "privacy policy"
+    ],
+    "v9_register": "binding"
+   },
+   "razao": "A única linguagem próxima de experimentação (melhoria) está na Privacy Notice, que integra o acordo com o usuário (V1-2, V9-2, V9-4). O cookie fg_* está no Cookie Notice, que é referido pela política de privacidade (V9-8) e não tem opção própria na lista.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-2",
+    "V9-2",
+    "V9-4",
+    "V9-8"
+   ]
+  }
+ },
+ "uso": {
+  "input": 30877,
+  "output": 5786
+ }
+}

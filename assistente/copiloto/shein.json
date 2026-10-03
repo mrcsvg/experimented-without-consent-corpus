@@ -1,0 +1,148 @@
+{
+ "formato": 1,
+ "servico": "Shein",
+ "slug": "shein",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "d3a14c8acc34",
+ "gerado_em": "2026-10-03T16:26:26+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 1
+ },
+ "n_citacoes": 46,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "1",
+    "v1_register": "binding"
+   },
+   "razao": "O Aviso de Privacidade só fala em melhorar o site e em pesquisa e desenvolvimento dos serviços, sem dizer que testa usuários nem nomear método (V1-4, V1-3, V1-1). A contagem registra experiment:1 nos documentos 1 e 3, mas nenhuma citação fornecida mostra esse trecho; convém o codificador verificá-lo antes de fechar o nível.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-4",
+    "V1-3",
+    "V1-1"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research"
+    ]
+   },
+   "razao": "Melhoria aparece em 'manter e melhorar a qualidade das nossas operações' (V2-2), e pesquisa aparece em 'pesquisa de mercado' e 'pesquisa e desenvolvimento dos nossos Serviços' (V2-3, V2-4). V2-5 e V2-6 tratam de ajuda a clientes e moderação de conteúdo, não de enquadramento de testes.",
+   "confianca": "média",
+   "citacoes": [
+    "V2-2",
+    "V2-3",
+    "V2-4",
+    "V2-5",
+    "V2-6"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "No",
+    "v3_specific": "No",
+    "v3_pricing": "No",
+    "v3_targets": ""
+   },
+   "razao": "V3-1 menciona alterar funcionalidades do site com base na popularidade, mas como uso de analytics e não como teste; o codificador pode avaliar se isso conta como superfície nomeada. Preço aparece só como fator de classificação (V3-4) e a personalização é descrita como funcionalidade (V3-5), não como alvo de experimento.",
+   "confianca": "média",
+   "citacoes": [
+    "V3-1",
+    "V3-4",
+    "V3-5"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "legitimate interest"
+    ],
+    "v4_mapped_purpose": "pesquisa e desenvolvimento dos nossos Serviços e produtos",
+    "v4_region_gated": "No"
+   },
+   "razao": "A tabela de bases por finalidade está presente no Aviso de Privacidade e associa 'pesquisa e desenvolvimento' e 'experiência de utilizador otimizada' ao interesse legítimo (V4-1, V4-3, V4-2). Como a tabela aparece nos documentos capturados, a resposta pela definição é No para geo-gating.",
+   "confianca": "média",
+   "citacoes": [
+    "V4-1",
+    "V4-2",
+    "V4-3"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "Existem a ferramenta de cookies e as definições de personalização (V5-4, V5-5), além do direito genérico de oposição ao interesse legítimo (V5-3), mas nenhum desses controles se refere a experimentação. O opt-out de chat (V5-1, V5-2) é específico de avaliação de qualidade; se o codificador entender que o banner não sobe na escada, a alternativa é GDPR-objection-only.",
+   "confianca": "média",
+   "citacoes": [
+    "V5-3",
+    "V5-4",
+    "V5-5",
+    "V5-1",
+    "V5-2"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "No",
+    "v6_which": ""
+   },
+   "razao": "Nenhuma citação sustenta outra resposta, e a contagem registra beta:0 e trial:0 em todos os documentos.",
+   "confianca": "alta",
+   "citacoes": []
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "Os avisos encontrados são de decisão automatizada, de mudança do aviso e de tratamento (V7-1, V7-2, V7-3), que o critério exclui como debriefing. O tema não é endereçado (debrief:0 na contagem), então este é o caso de No por omissão.",
+   "confianca": "alta",
+   "citacoes": [
+    "V7-1",
+    "V7-2",
+    "V7-3"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "As citações tratam de revisão humana de chats, de segurança e de diligência sobre vendedores (V8-1, V8-2, V8-3), e nenhuma delas é revisão ética de experimentos; a contagem dá ethics, review board, IRB e risk assessment iguais a 0. Vale anotar o gap entre as avaliações de risco sistêmico do DSA e o que aparece nos documentos ao consumidor.",
+   "confianca": "alta",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-3"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "privacy policy"
+    ],
+    "v9_register": "binding"
+   },
+   "razao": "A única linguagem relacionada, que é só de melhoria e pesquisa, está no Aviso de Privacidade, documento vinculante (V1-4, V1-3, V9-1, V9-2). A Política de Classificação integra os T&C (V9-4), mas descreve fatores de ranking e não experimentação.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-4",
+    "V1-3",
+    "V9-1",
+    "V9-2",
+    "V9-4"
+   ]
+  }
+ },
+ "uso": {
+  "input": 14332,
+  "output": 2957
+ }
+}

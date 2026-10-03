@@ -1,0 +1,165 @@
+{
+ "formato": 1,
+ "servico": "YouTube",
+ "slug": "youtube",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "6b5fe7d6c648",
+ "gerado_em": "2026-10-03T16:19:46+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 1
+ },
+ "n_citacoes": 70,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "3",
+    "v1_register": "non-binding"
+   },
+   "razao": "Doc 7 (central de ajuda) nomeia teste A/B, variantes simultâneas e grupo de controle (V1-7, V1-8), e Doc 8 fala em experimentos que mostram versões diferentes a pessoas diferentes (V1-9, V1-10), ambos não vinculantes. Nos vinculantes o nível fica em 1 (V1-1, V1-3, V1-4), talvez 2 se o cookie de rollout que mede o impacto de novos recursos (V1-5) for lido como teste; registrar isso em Notas.",
+   "confianca": "alta",
+   "citacoes": [
+    "V1-1",
+    "V1-3",
+    "V1-4",
+    "V1-5",
+    "V1-7",
+    "V1-8",
+    "V1-9",
+    "V1-10"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research",
+     "social-good/community"
+    ]
+   },
+   "razao": "Melhoria do serviço aparece no ToS e na central de ajuda (V2-1, V2-7), e pesquisa aparece na tabela da política como \"research that improves our services\" (V2-3, V2-4). \"Benefits the public\" (V2-3) pode ser lido como bem social, mas é uma marcação interpretativa; a missão de community em V2-9 não trata de testes.",
+   "confianca": "média",
+   "citacoes": [
+    "V2-1",
+    "V2-3",
+    "V2-4",
+    "V2-7",
+    "V2-9"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "Yes",
+    "v3_specific": "Yes",
+    "v3_pricing": "No",
+    "v3_targets": "títulos e miniaturas; tamanho de vídeo/miniatura no feed; navegação de feeds; busca de comentários com IA; varejista de produto afiliado"
+   },
+   "razao": "Docs 7 e 8 (não vinculantes) nomeiam superfícies testadas e descrevem experimentos datados em andamento (V3-1, V3-2, V3-4 a V3-7). O teste de varejista afiliado (V3-7) não menciona preço, por isso a sugestão para preço é No; a personalização de anúncios (V3-10) é funcionalidade, não alvo de teste.",
+   "confianca": "alta",
+   "citacoes": [
+    "V3-1",
+    "V3-2",
+    "V3-4",
+    "V3-5",
+    "V3-6",
+    "V3-7",
+    "V3-10"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "legitimate interest"
+    ],
+    "v4_mapped_purpose": "To maintain and improve Google services / Perform research that improves our services",
+    "v4_region_gated": "No"
+   },
+   "razao": "A finalidade de manter e melhorar os serviços, incluindo pesquisa, está listada sob legítimo interesse na tabela de bases legais (V4-1, V4-2, V4-3). A tabela está presente nos documentos capturados (Docs 3 e 4), o que pela definição dá No.",
+   "confianca": "média",
+   "citacoes": [
+    "V4-1",
+    "V4-2",
+    "V4-3",
+    "V4-5"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "Para experimentos de rotina não há controle específico: existem o direito genérico de objeção (V5-1) e o painel de cookies (V5-3), que cobre o cookie de rollout classificado como analytics (V5-4), e controle de analytics não é opt-out de experimento. O \"Turn Off\" de youtube.com/new (V5-5) vale só para experimentos aderidos voluntariamente, ou seja, é tema da V6 e não deve ser somado aqui.",
+   "confianca": "baixa",
+   "citacoes": [
+    "V5-1",
+    "V5-3",
+    "V5-4",
+    "V5-5"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "Yes",
+    "v6_which": "youtube.com/new: membros Premium escolhem experimentos e clicam em Try it out"
+   },
+   "razao": "Doc 6 descreve adesão voluntária de membros Premium a recursos experimentais em youtube.com/new (V6-1, V6-2). Doc 8 confirma o opt-in nesse canal (V6-4).",
+   "confianca": "alta",
+   "citacoes": [
+    "V6-1",
+    "V6-2",
+    "V6-4"
+   ]
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "O tema é tratado (V7-2 diz genericamente que o usuário provavelmente está vendo um experimento), mas não há aviso posterior de participação; os resultados de V7-1 vão para o criador que roda o teste, e V7-4 e V7-5 são avisos de mudança de serviço. É um No substantivo, e a palavra-chave debrief teve 0 ocorrências em todos os documentos.",
+   "confianca": "média",
+   "citacoes": [
+    "V7-1",
+    "V7-2",
+    "V7-4",
+    "V7-5"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "\"Potential impact on you and others\" está ligado a mudar ou descontinuar o serviço (V8-1, V8-2), o que é linguagem de fronteira e dá No com nota; ethics, review board, IRB e risk assessment tiveram 0 ocorrências. Anotar o gap entre a obrigação de avaliação de risco do DSA e o que os documentos ao usuário dizem.",
+   "confianca": "média",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-3"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "help centre"
+    ],
+    "v9_register": "non-binding"
+   },
+   "razao": "A divulgação explícita de experimentação está só nas páginas de support.google.com (Docs 6, 7 e no thread da comunidade Doc 8), que não se declaram parte do acordo (V9-1, V9-5 a V9-8). A política de privacidade e o aviso de cookies trazem só melhoria e pesquisa genéricas ou o cookie de rollout (V1-4, V1-5), de modo que marcar privacy policy é uma leitura possível, mas fraca.",
+   "confianca": "média",
+   "citacoes": [
+    "V9-1",
+    "V9-5",
+    "V9-6",
+    "V9-7",
+    "V9-8",
+    "V1-4",
+    "V1-5"
+   ]
+  }
+ },
+ "uso": {
+  "input": 15583,
+  "output": 3576
+ }
+}

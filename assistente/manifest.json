@@ -1,0 +1,286 @@
+{
+ "publicado_em": "2026-10-03T16:36:41+00:00",
+ "fonte": "github.com/mrcsvg/experimented-without-consent",
+ "arquivos": [
+  {
+   "file": "codebook.json",
+   "sha256": "3ce4d572f3016060df0e6231085a3ebe8bc8b98d6bcaad3f20cdb79eb956a039",
+   "bytes": 35528
+  },
+  {
+   "file": "copiloto/aliexpress.json",
+   "sha256": "8e5315facc44ecc2ad18968c78c498d7426fe79fa71a4e223c681d0d55024560",
+   "bytes": 4599
+  },
+  {
+   "file": "copiloto/amazon-store.json",
+   "sha256": "744914768258c1bd148fdfbe4e25276a3caf72a05a401e64830f531d49227e4c",
+   "bytes": 5081
+  },
+  {
+   "file": "copiloto/app-store.json",
+   "sha256": "cd49bb170b3174f4e498e232ffc4a6243ff57148b43f9637c97aa69c43a11eaa",
+   "bytes": 5202
+  },
+  {
+   "file": "copiloto/bing.json",
+   "sha256": "7615a25cedf276c58723409f648d64d8eec468df6587c204fe006f3771829b92",
+   "bytes": 5318
+  },
+  {
+   "file": "copiloto/booking-com.json",
+   "sha256": "6e4ab6cb49002f6a454dad5c8ff2e761d0cd0843b9a1e34ed56489c9b697de9f",
+   "bytes": 5190
+  },
+  {
+   "file": "copiloto/facebook.json",
+   "sha256": "a1c6153414305f64eb46fce629a176b89a513be0d90f18216585dad7db4f6e77",
+   "bytes": 5053
+  },
+  {
+   "file": "copiloto/google-maps.json",
+   "sha256": "0b934cf21cd37c4abeccb923a18db44e51b100e8642fb28648df768b6832bc2c",
+   "bytes": 5200
+  },
+  {
+   "file": "copiloto/google-play.json",
+   "sha256": "89243fc418f7f734dd96b27a20df21b7d205c4669e97f21c7580085d1f245d5c",
+   "bytes": 5010
+  },
+  {
+   "file": "copiloto/google-search.json",
+   "sha256": "e309b920acb9ede0a7cfd50dd4469fdc280b4361f742bf6dad78e5c18918a3a3",
+   "bytes": 5261
+  },
+  {
+   "file": "copiloto/google-shopping.json",
+   "sha256": "16adf0aef391702a7ac46ee0c8dea50e674c9ada0ecb091f9c023834eca54023",
+   "bytes": 4778
+  },
+  {
+   "file": "copiloto/index.json",
+   "sha256": "a930b4918befdb9a834088cfb98a7e05067a1c24e23941f8d1c9ac89ecd94af0",
+   "bytes": 6584
+  },
+  {
+   "file": "copiloto/instagram.json",
+   "sha256": "8f129792dc94c5d2b36d99114cc8d1fd39214ddb9048ce4c527b9ccb706313a8",
+   "bytes": 5140
+  },
+  {
+   "file": "copiloto/linkedin.json",
+   "sha256": "856ff112909499ce1fd8919cd10fcba8ca36711fcb877538979c6b100a339d3d",
+   "bytes": 5276
+  },
+  {
+   "file": "copiloto/pinterest.json",
+   "sha256": "b038373730554b581a768f843b3d816b8b321e9e237cb44d66057100a580567a",
+   "bytes": 5565
+  },
+  {
+   "file": "copiloto/pornhub.json",
+   "sha256": "aeadfe7f09871512adf202527622fd90e6a0543decde27d40f1f6fa2b698a4ae",
+   "bytes": 4439
+  },
+  {
+   "file": "copiloto/prompt.md",
+   "sha256": "595b57427f851ccbfb43b66d2169c97f0d910aa362b57f42a0f14dc33dad02b9",
+   "bytes": 3582
+  },
+  {
+   "file": "copiloto/shein.json",
+   "sha256": "bf4f1c7a997ced937d0519aafd2d67349a73026925a76e843da778acac431b6e",
+   "bytes": 4884
+  },
+  {
+   "file": "copiloto/snapchat.json",
+   "sha256": "449505f432e4e40e7f041a30cb3b18459648a5dd291597d1a3122beef92daa01",
+   "bytes": 5283
+  },
+  {
+   "file": "copiloto/stripchat.json",
+   "sha256": "2dcdd413b0839be6853dcf4245aec2f204934a4b908658ced37aefbce2ba2df7",
+   "bytes": 4750
+  },
+  {
+   "file": "copiloto/temu.json",
+   "sha256": "fb891298f2b2d9df4b4aa50569166d583aafd72d7b14e0232dd74cc8889d2794",
+   "bytes": 4569
+  },
+  {
+   "file": "copiloto/tiktok.json",
+   "sha256": "a8f5e0ba5be554dd4e2860f206f69843479f76fa9470c3f246ba24f620b82782",
+   "bytes": 5002
+  },
+  {
+   "file": "copiloto/whatsapp.json",
+   "sha256": "b3e4df4d3030c1d0a01da60714b230349b6d666bc6c8184305876e65ba4b55cc",
+   "bytes": 4763
+  },
+  {
+   "file": "copiloto/wikipedia.json",
+   "sha256": "8b7a203eacf12268940c9b23b557a722870ead9c82543624eba7c93edaafa720",
+   "bytes": 5783
+  },
+  {
+   "file": "copiloto/x.json",
+   "sha256": "cc414678399c0aaec409fb937d066b4bcd8de2f7cb0a7b1c142692565710619f",
+   "bytes": 5337
+  },
+  {
+   "file": "copiloto/xnxx.json",
+   "sha256": "108cb5f62c8805b66ef431eded1189693e8b587d58da7d6459e181b42d8d66a6",
+   "bytes": 4713
+  },
+  {
+   "file": "copiloto/xvideos.json",
+   "sha256": "885c8cfc426162b90eac5e4aabbc804a2d46a2d7fcda4d16552d4da794507c4c",
+   "bytes": 5049
+  },
+  {
+   "file": "copiloto/youtube.json",
+   "sha256": "f50a4783a50ddc0d731f7abf5e22005f83101b6c0b1190857045f6826b474086",
+   "bytes": 5664
+  },
+  {
+   "file": "copiloto/zalando.json",
+   "sha256": "7eed404724d4b196908b6523929e98a822e277883c48eda291a009aafabe32bf",
+   "bytes": 4662
+  },
+  {
+   "file": "piso/aliexpress.json",
+   "sha256": "36dcb078e927a82a786ba68ddb6f703be5b9086ec364c4811d227e0f534c3eab",
+   "bytes": 7304
+  },
+  {
+   "file": "piso/amazon-store.json",
+   "sha256": "f66ed8b019711cced91e330a1751b08d028c21c63a33d094f497564214237c2a",
+   "bytes": 31669
+  },
+  {
+   "file": "piso/app-store.json",
+   "sha256": "7be6ac3f8087e1cbe43dbd59df200cc6fdae6572553efd6a3723147114b5ab7b",
+   "bytes": 28303
+  },
+  {
+   "file": "piso/bing.json",
+   "sha256": "96fc050f060af8f69fac606d017596c1b23b00f6b2ac1ddd4a3210de2d0b2a15",
+   "bytes": 28564
+  },
+  {
+   "file": "piso/booking-com.json",
+   "sha256": "46ce6f939adfa12423edf1efc8d284d7eec88470676ac2b5fda26db8c1f975b3",
+   "bytes": 10762
+  },
+  {
+   "file": "piso/facebook.json",
+   "sha256": "3b0b5ce45b0cfa1f5bd70bbca902f51e49fe9325e1134e9cb815f8b544820aac",
+   "bytes": 23380
+  },
+  {
+   "file": "piso/google-maps.json",
+   "sha256": "ebadc41e21876ef31932ccdae0b416cda3fae056fcff0ba29a51af48ee0cf7b0",
+   "bytes": 11407
+  },
+  {
+   "file": "piso/google-play.json",
+   "sha256": "85c43e41bffd0608c6a388c0e4cd3634ac123ca5f96027af40b1c465113d8b21",
+   "bytes": 18804
+  },
+  {
+   "file": "piso/google-search.json",
+   "sha256": "1be244a33be3eddb396014dc4966290e794d645445fe015dda78c7e822ddff70",
+   "bytes": 16526
+  },
+  {
+   "file": "piso/google-shopping.json",
+   "sha256": "83f3a632a2496e6f932e8a5268334a4e8dc514f29cd23d9960f5f2ec08cbad44",
+   "bytes": 11284
+  },
+  {
+   "file": "piso/index.json",
+   "sha256": "d1b93f3bff8b1440cdb0e65b3d4a20449e6033a1cc851d964767873ecde5af37",
+   "bytes": 4777
+  },
+  {
+   "file": "piso/instagram.json",
+   "sha256": "fa726003312eb0f81485e4b27de469ec7695bd9af5360022d66f16e315e7071b",
+   "bytes": 12356
+  },
+  {
+   "file": "piso/linkedin.json",
+   "sha256": "4ee97afdabfe53418db46d1a32c863be22af0ca1ed425137927789530548cb78",
+   "bytes": 10219
+  },
+  {
+   "file": "piso/pinterest.json",
+   "sha256": "c904409763b0be065f646dbbee37250f508cb557c8f5a198a5350cad520fe2f8",
+   "bytes": 17825
+  },
+  {
+   "file": "piso/pornhub.json",
+   "sha256": "8c0fa24bee1ad0fc8be4126ff390f921258cadeded82b8cd1e303406cc723d30",
+   "bytes": 22627
+  },
+  {
+   "file": "piso/shein.json",
+   "sha256": "4ded45960240fa9b31cc4d3a5cfdbf3920cd8f19ffbab1aea12b413d6d80f3fb",
+   "bytes": 4253
+  },
+  {
+   "file": "piso/snapchat.json",
+   "sha256": "1664e337a23de6f4f6bcd22976b453e364b506aaf52974e5bf098c244e2c4414",
+   "bytes": 35549
+  },
+  {
+   "file": "piso/stripchat.json",
+   "sha256": "93deb5caf3f69f0b36b515d356f763282d0e4b03ea5715aa50eaabd7c8ffa0fb",
+   "bytes": 4279
+  },
+  {
+   "file": "piso/temu.json",
+   "sha256": "04f25d155487bdf3f6301578aa94c8c1f5e5436ffc88eff90bd6390b9ec12129",
+   "bytes": 3524
+  },
+  {
+   "file": "piso/tiktok.json",
+   "sha256": "7c495df97f1d085c8bd9f090c099e1d3a7731f6cbfef23d06733e0423afce935",
+   "bytes": 13803
+  },
+  {
+   "file": "piso/whatsapp.json",
+   "sha256": "53313941fa3c071197ecbbc03de3658e718bd1d1708afb236d8dc56e96325ed1",
+   "bytes": 8224
+  },
+  {
+   "file": "piso/wikipedia.json",
+   "sha256": "0b3b32ca8157eec58dcf961f85e3a22e73c4d2eb6283be0c25b120a532a1428b",
+   "bytes": 25430
+  },
+  {
+   "file": "piso/x.json",
+   "sha256": "2794e0b4289586f8e7afb2e7610f54f7d8171908bfe958e6766fd838c2dd64a1",
+   "bytes": 27890
+  },
+  {
+   "file": "piso/xnxx.json",
+   "sha256": "1d320d1b9dcc1d6504082b98fcacd0f12a40be8c864f35f802600ef4d7a5744f",
+   "bytes": 5536
+  },
+  {
+   "file": "piso/xvideos.json",
+   "sha256": "f38c2240b11ba01214bfe671f2b40e9d09cc3cbf31089be8d77c1e3fdeb13a30",
+   "bytes": 12962
+  },
+  {
+   "file": "piso/youtube.json",
+   "sha256": "657c73db10f31872563129b81a933dbfc08e6d1d0c2ba00f5148328421d4739b",
+   "bytes": 25627
+  },
+  {
+   "file": "piso/zalando.json",
+   "sha256": "f12d8564201d41008ef7d73867f4d2c470cb12c5fd52c4bf0aee571070d02891",
+   "bytes": 33942
+  }
+ ]
+}

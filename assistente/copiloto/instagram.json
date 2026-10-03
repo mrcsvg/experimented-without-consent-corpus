@@ -1,0 +1,165 @@
+{
+ "formato": 1,
+ "servico": "Instagram",
+ "slug": "instagram",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "f6df6e5557f7",
+ "gerado_em": "2026-10-03T16:32:14+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 1
+ },
+ "n_citacoes": 75,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "2",
+    "v1_register": "binding"
+   },
+   "razao": "A política de privacidade e os termos de uso dizem que a plataforma testa novos produtos e recursos com os usuários, mas não mencionam grupos, variantes ou aleatorização (V1-1, V1-5, V1-9, V1-7). O documento não vinculante (doc. 5) só fala em melhoria do sistema, nível 1 (V1-8), então o teto 2 aparece apenas nos vinculantes.",
+   "confianca": "alta",
+   "citacoes": [
+    "V1-1",
+    "V1-5",
+    "V1-9",
+    "V1-7",
+    "V1-8"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research",
+     "social-good/community"
+    ]
+   },
+   "razao": "Os documentos enquadram o uso como melhoria do serviço (V2-7, V1-2), como pesquisa (V1-3, V2-2) e como bem social ou bem-estar da comunidade (V2-1, V2-9, V2-10). Nenhuma citação usa o enquadramento de pesquisa com seres humanos no sentido da ética em pesquisa.",
+   "confianca": "alta",
+   "citacoes": [
+    "V2-7",
+    "V1-2",
+    "V1-3",
+    "V2-2",
+    "V2-1",
+    "V2-9",
+    "V2-10"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "Yes",
+    "v3_specific": "No",
+    "v3_pricing": "No",
+    "v3_targets": "novos produtos e recursos (features)"
+   },
+   "razao": "Os textos nomeiam produtos e recursos novos como o que é testado (V3-2, V3-3, V3-4), mas não divulgam nenhum experimento específico. O ranking do feed é descrito como personalização (V3-6, V3-7), e a menção a preço trata dos detalhes da assinatura, não de preço como alvo de teste (V3-5).",
+   "confianca": "média",
+   "citacoes": [
+    "V3-2",
+    "V3-3",
+    "V3-4",
+    "V3-5",
+    "V3-6",
+    "V3-7"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "contract",
+     "legitimate interest"
+    ],
+    "v4_mapped_purpose": "Providing Meta Products (build and test new features); Improving Meta Products",
+    "v4_region_gated": "No"
+   },
+   "razao": "A tabela de bases legais está nos documentos: \"Build and test out new products and features\" aparece sob execução de contrato (V1-5, V1-9, V4-3), e \"Improving Meta Products\" aparece sob legítimo interesse (V4-2, V4-4, V1-6). Como a tabela está presente no material capturado, o campo geo-gated recebe No pela definição.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-5",
+    "V1-9",
+    "V4-3",
+    "V4-2",
+    "V4-4",
+    "V1-6"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "GDPR-objection-only"
+   },
+   "razao": "Há só o direito genérico de objeção para o que se baseia em legítimo interesse (V5-1, V5-2, V5-9). As configurações de cookies e de anúncios regem publicidade e não experimentação (V5-3, V5-4, V5-6), e a parte dos testes apoiada em contrato não tem objeção prevista.",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V5-9",
+    "V5-3",
+    "V5-4",
+    "V5-6"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "No",
+    "v6_which": ""
+   },
+   "razao": "Nenhuma citação sustenta outra resposta. Pesquisas de opinião e atualizações automáticas não são programa beta por adesão (V6-1, V6-3).",
+   "confianca": "média",
+   "citacoes": [
+    "V6-1",
+    "V6-3"
+   ]
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "Os documentos tratam de comunicações sobre pesquisa e de avisos de mudança de política, mas nenhum desses avisos diz à pessoa que ela participou de um experimento (V7-3, V7-4, V7-1, V7-5). É o caso de tema tangenciado sem o mecanismo; a palavra-chave debrief tem 0 ocorrências.",
+   "confianca": "média",
+   "citacoes": [
+    "V7-3",
+    "V7-4",
+    "V7-1",
+    "V7-5"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "O Oversight Board trata de moderação de conteúdo, e a ponderação de riscos aparece na análise de objeções e de legítimo interesse, não na revisão de experimentos (V8-2, V8-3, V8-5). As palavras-chave ethics, review board e risk assessment têm 0 ocorrências; a sugestão é anotar a diferença entre a obrigação de avaliação de riscos do DSA e o que os documentos dizem.",
+   "confianca": "média",
+   "citacoes": [
+    "V8-2",
+    "V8-3",
+    "V8-5"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "privacy policy",
+     "ToS/conditions"
+    ],
+    "v9_register": "binding"
+   },
+   "razao": "A divulgação sobre testes está na política de privacidade e nos termos de uso (V1-1, V1-7). Os termos ficam numa URL da central de ajuda, mas se declaram acordo com o usuário, por isso contam como vinculantes (V9-4, V9-5).",
+   "confianca": "alta",
+   "citacoes": [
+    "V1-1",
+    "V1-7",
+    "V9-4",
+    "V9-5"
+   ]
+  }
+ },
+ "uso": {
+  "input": 15286,
+  "output": 2837
+ }
+}

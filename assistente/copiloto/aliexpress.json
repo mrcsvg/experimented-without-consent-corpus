@@ -1,0 +1,151 @@
+{
+ "formato": 1,
+ "servico": "AliExpress",
+ "slug": "aliexpress",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "d0d675fdcfca",
+ "gerado_em": "2026-10-03T16:35:52+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 2
+ },
+ "n_citacoes": 53,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "1",
+    "v1_register": "binding"
+   },
+   "razao": "A política de privacidade fala em 'research and analytics' para melhorar conteúdo, layout e serviços, sem dizer que testa nada com usuários (V1-1, V1-2); a contagem de 'experiment', 'A-B', 'test' e 'randomize' é zero em todos os documentos. O teto 1 vive em documento vinculante.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-1",
+    "V1-2"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research"
+    ]
+   },
+   "razao": "A mesma frase combina melhoria ('to improve our Platform, product offerings and services') e pesquisa genérica ('Conducting research and analytics'), e há também 'market research' (V2-1, V2-2, V2-3). Os cookies também são justificados por melhoria (V2-4, V2-5).",
+   "confianca": "alta",
+   "citacoes": [
+    "V2-1",
+    "V2-2",
+    "V2-3",
+    "V2-4",
+    "V2-5"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "No",
+    "v3_specific": "No",
+    "v3_pricing": "No",
+    "v3_targets": ""
+   },
+   "razao": "'Content and layout' aparecem como objeto de melhoria, não de teste, e ranking e preço aparecem só como personalização ou opção de ordenação (V3-1, V3-2, V3-6). Nenhuma citação nomeia alvo de experimento nem experimento específico.",
+   "confianca": "média",
+   "citacoes": [
+    "V3-1",
+    "V3-2",
+    "V3-6"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "consent",
+     "legitimate interest"
+    ],
+    "v4_mapped_purpose": "Conducting research and analytics ... to improve the content and layout of the Platform",
+    "v4_region_gated": "No"
+   },
+   "razao": "A tabela de bases da Seção J liga a finalidade de pesquisa e analytics a 'Consent (where required)' e, de outro modo, a legítimo interesse (V4-1). A tabela está presente nos documentos lidos, embora se declare aplicável a EEE/UK (V4-3), por isso a resposta é No.",
+   "confianca": "alta",
+   "citacoes": [
+    "V4-1",
+    "V4-3"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "Os controles descritos regem cookies, recomendações personalizadas e publicidade, não experimentação (V5-1, V5-3, V5-4, V5-6, V5-7). Além deles existe só o direito genérico de objeção ao legítimo interesse (V5-2).",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V5-3",
+    "V5-4",
+    "V5-6",
+    "V5-7"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "No",
+    "v6_which": ""
+   },
+   "razao": "A contagem de 'beta' e 'test' é zero em todos os documentos. Nenhuma citação sustenta outra resposta.",
+   "confianca": "alta",
+   "citacoes": []
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "Os avisos citados tratam de mudança de política, violação de dados, processamento automatizado e produto ilegal, e nenhum deles é debriefing (V7-1, V7-2, V7-3, V7-4). O tema não é endereçado: a contagem de 'debrief' é zero e nenhuma citação sustenta outra resposta.",
+   "confianca": "alta",
+   "citacoes": [
+    "V7-1",
+    "V7-2",
+    "V7-3",
+    "V7-4",
+    "V7-5"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "As avaliações mencionadas tratam de transferências internacionais, segurança e moderação, não de experimentos (V8-1, V8-2, V8-5); os 3 acertos de 'risk assessment' no documento 1 não se referem a experimentação. Anote em Notas o gap entre a obrigação do DSA e o que os documentos ao usuário dizem.",
+   "confianca": "média",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-5"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "privacy policy"
+    ],
+    "v9_register": "binding"
+   },
+   "razao": "A única linguagem próxima de experimentação, de nível 1, está na política de privacidade (V1-1, V9-1). A política é incorporada aos termos vinculantes (V9-2, V9-4); as páginas do Transparency Center capturadas só trazem navegação (V9-8, V9-9).",
+   "confianca": "média",
+   "citacoes": [
+    "V1-1",
+    "V9-1",
+    "V9-2",
+    "V9-4",
+    "V9-8",
+    "V9-9"
+   ]
+  }
+ },
+ "uso": {
+  "input": 29963,
+  "output": 5268
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "servico": "Temu",
+ "slug": "temu",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "temu/01-no-cookie-and-similar-technologies-policy.md",
+   "url": "https://www.temu.com/no-en/cookie-and-similar-technologies-policy.html",
+   "chars": 12726,
+   "titulo": "Temu | Cookies and Similar Technologies Policy",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "temu/02-no-privacy-and-cookie-policy.md",
+   "url": "https://www.temu.com/no-en/privacy-and-cookie-policy.html",
+   "chars": 58016,
+   "titulo": "Temu | Privacy Policy",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "temu/03-no-terms-of-use.md",
+   "url": "https://www.temu.com/no-en/terms-of-use.html",
+   "chars": 47188,
+   "titulo": "Temu | Terms of use",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "temu/04-support-c2-doc-in-f-55.md",
+   "url": "https://www.temu.com/support/c2/-in-f-55.html",
+   "chars": 2785,
+   "titulo": "Temu | Support center & FAQ",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {},
+ "log_sugerido": "01-no-cookie-and-similar-technologies-policy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-no-privacy-and-cookie-policy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-no-terms-of-use.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-support-c2-doc-in-f-55.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

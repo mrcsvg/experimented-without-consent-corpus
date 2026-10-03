@@ -1,0 +1,310 @@
+{
+ "servico": "TikTok",
+ "slug": "tiktok",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "tiktok/01-eea-privacy-policy.md",
+   "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
+   "chars": 46768,
+   "titulo": "Privacy Policy | TikTok",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 2,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:2 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "tiktok/02-eea-terms-of-service.md",
+   "url": "https://www.tiktok.com/legal/page/eea/terms-of-service/en",
+   "chars": 28401,
+   "titulo": "Terms of Service | TikTok",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "tiktok/03-global-tiktok-website-cookies-policy.md",
+   "url": "https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en",
+   "chars": 10273,
+   "titulo": "TikTok Cookies Policy | TikTok",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "tiktok/04-us-how-tiktok-recommends-videos-for-you.md",
+   "url": "https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you",
+   "chars": 10030,
+   "titulo": "How TikTok recommends videos #ForYou - Newsroom | TikTok",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "tiktok/05-help-article-split-testing.md",
+   "url": "https://ads.tiktok.com/help/article/split-testing",
+   "chars": 1854,
+   "titulo": "About Split Testing | TikTok Ads Manager",
+   "counts": {
+    "experiment": 0,
+    "A-B": 1,
+    "randomize": 0,
+    "test": 15,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:1 / randomize:0 / test:15 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
+   "url": "https://newsroom.tiktok.com/an-update-on-our-work-to-safeguard-and-diversify-recommendations",
+   "chars": 5681,
+   "titulo": "An update on our work to safeguard and diversify recommendations - Newsroom | TikTok",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 1,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:1 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "test",
+    "kwic": "…ctions and usage across your devices, analysing how people are using it, and by training, testing, and improving our technology, such as our machine learning models and algorithms. Share…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/01-eea-privacy-policy.md",
+    "n": 1,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…e the information we have to understand how people are using the Platform and to develop, test, and make improvements to the Platform, including to develop and improve our technology,…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/01-eea-privacy-policy.md",
+    "n": 1,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…to improve your experience. We also use the information obtained through these cookies to test design ideas. It helps us understand user activity and patterns. This, in turn, improves…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/03-global-tiktok-website-cookies-policy.md",
+    "n": 3,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…s along with reviewing TikTok source code, which will be made available at the center for testing and evaluation. Language English (US) Company About Newsroom Store Contact Careers ByteDa…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/04-us-how-tiktok-recommends-videos-for-you.md",
+    "n": 4,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "About Split Testing | TikTok Ads Manager Business Help Centre Home What's new About Split Testing Last update…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "test",
+    "kwic": "About Split Testing | TikTok Ads Manager Business Help Centre Home What's new About Split Testing Last updated: January 2026 Split testing in TikTok Ads Manager allows you to test two dif…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "test",
+    "kwic": "…Business Help Centre Home What's new About Split Testing Last updated: January 2026 Split testing in TikTok Ads Manager allows you to test two different versions of your ads to determine…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ally significant results: Split testing is scientifically designed to perform an accurate A/B test with a 90% confidence rate to determine which ad group performs better. The model se…",
+    "flag": null,
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…better vary the kinds of content that may be recommended in a sequence. That's why we're testing ways to avoid recommending a series of similar content – such as around extreme dieting o…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
+    "n": 6,
+    "total_no_doc": 1
+   }
+  ],
+  "V6": [
+   {
+    "termo": "test",
+    "kwic": "…ctions and usage across your devices, analysing how people are using it, and by training, testing, and improving our technology, such as our machine learning models and algorithms. Share…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/01-eea-privacy-policy.md",
+    "n": 1,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…e the information we have to understand how people are using the Platform and to develop, test, and make improvements to the Platform, including to develop and improve our technology,…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/01-eea-privacy-policy.md",
+    "n": 1,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…to improve your experience. We also use the information obtained through these cookies to test design ideas. It helps us understand user activity and patterns. This, in turn, improves…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/03-global-tiktok-website-cookies-policy.md",
+    "n": 3,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…s along with reviewing TikTok source code, which will be made available at the center for testing and evaluation. Language English (US) Company About Newsroom Store Contact Careers ByteDa…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/04-us-how-tiktok-recommends-videos-for-you.md",
+    "n": 4,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "About Split Testing | TikTok Ads Manager Business Help Centre Home What's new About Split Testing Last update…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "test",
+    "kwic": "About Split Testing | TikTok Ads Manager Business Help Centre Home What's new About Split Testing Last updated: January 2026 Split testing in TikTok Ads Manager allows you to test two dif…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "test",
+    "kwic": "…Business Help Centre Home What's new About Split Testing Last updated: January 2026 Split testing in TikTok Ads Manager allows you to test two different versions of your ads to determine…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "test",
+    "kwic": "…better vary the kinds of content that may be recommended in a sequence. That's why we're testing ways to avoid recommending a series of similar content – such as around extreme dieting o…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
+    "n": 6,
+    "total_no_doc": 1
+   }
+  ],
+  "V3": [
+   {
+    "termo": "A-B",
+    "kwic": "…ally significant results: Split testing is scientifically designed to perform an accurate A/B test with a 90% confidence rate to determine which ad group performs better. The model se…",
+    "flag": null,
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 1
+   }
+  ],
+  "V8": [
+   {
+    "termo": "ethics",
+    "kwic": "…formed by ongoing conversations with experts across medicine, clinical psychology, and AI ethics, members of our Content Advisory Council, and our community. A new way to shape what you…",
+    "flag": "falso positivo comum: 'code of ethics' / conduta empresarial no menu ou rodapé NÃO é revisão ética de experimento (ver V8)",
+    "file": "tiktok/06-an-update-on-our-work-to-safeguard-and-diversify-rec.md",
+    "n": 6,
+    "total_no_doc": 1
+   }
+  ]
+ },
+ "log_sugerido": "01-eea-privacy-policy.md: experiment:0 / A-B:0 / randomize:0 / test:2 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-eea-terms-of-service.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-global-tiktok-website-cookies-policy.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-us-how-tiktok-recommends-videos-for-you.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-help-article-split-testing.md: experiment:0 / A-B:1 / randomize:0 / test:15 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-an-update-on-our-work-to-safeguard-and-diversify-rec.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:1 / review board:0 / IRB:0 / risk assessment:0"
+}

@@ -1,0 +1,387 @@
+{
+ "servico": "Google Search",
+ "slug": "google-search",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "google-search/01-privacy.md",
+   "url": "https://policies.google.com/privacy?hl=en-IE&gl=IE",
+   "chars": 90678,
+   "titulo": "Privacy Policy – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "google-search/02-privacy-2.md",
+   "url": "https://policies.google.com/privacy?hl=en",
+   "chars": 89981,
+   "titulo": "Privacy Policy – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "google-search/03-terms.md",
+   "url": "https://policies.google.com/terms?hl=en",
+   "chars": 36439,
+   "titulo": "Google Terms of Service – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "google-search/04-technologies-product-privacy.md",
+   "url": "https://policies.google.com/technologies/product-privacy?hl=en",
+   "chars": 5532,
+   "titulo": "Google Product Privacy Guide – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 1,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:1 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "google-search/05-technologies-cookies.md",
+   "url": "https://policies.google.com/technologies/cookies?hl=en",
+   "chars": 14289,
+   "titulo": "How Google uses cookies – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "google-search/06-websearch-answer.md",
+   "url": "https://support.google.com/websearch/answer/13572013",
+   "chars": 6169,
+   "titulo": "Try experiments in Labs - Computer - Google Search Help Skip to main content",
+   "counts": {
+    "experiment": 33,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:33 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 7,
+   "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+   "url": "https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing/",
+   "chars": 6327,
+   "titulo": "Search Engine Testing & Evaluation - Google Search",
+   "counts": {
+    "experiment": 11,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 7,
+    "trial": 0,
+    "beta": 0,
+    "control group": 1,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:11 / A-B:0 / randomize:0 / test:7 / trial:0 / beta:0 / control group:1 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "test",
+    "kwic": "…reaking, adversarial prompting, or prompt injection, except as part of our safety and bug testing programs accessing or using our services or content in fraudulent or deceptive ways, such…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-search/03-terms.md",
+    "n": 3,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "control group",
+    "kwic": "…pen your Google Payments account Set your payment method with a site or app Google Groups Control group permissions Edit group permissions Configure member identity settings Delete a post you a…",
+    "flag": null,
+    "file": "google-search/04-technologies-product-privacy.md",
+    "n": 4,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Try experiments in Labs - Computer - Google Search Help Skip to main content Google Search Help Sign in G…",
+    "flag": null,
+    "file": "google-search/06-websearch-answer.md",
+    "n": 6,
+    "total_no_doc": 33
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…enter experience Next Help Center Community Improve your Google Account Google Search Try experiments in Labs Labs is a program for people to experiment with early-stage Google Search experie…",
+    "flag": null,
+    "file": "google-search/06-websearch-answer.md",
+    "n": 6,
+    "total_no_doc": 33
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…your Google Account Google Search Try experiments in Labs Labs is a program for people to experiment with early-stage Google Search experiences and share feedback. If you’re eligible and int…",
+    "flag": null,
+    "file": "google-search/06-websearch-answer.md",
+    "n": 6,
+    "total_no_doc": 33
+   },
+   {
+    "termo": "test",
+    "kwic": "…t align with their school policies. This includes giving school staff and faculty time to test generative AI tools in their school environment. As we work on this, we'll continue to wo…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-search/06-websearch-answer.md",
+    "n": 6,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "Search Engine Testing & Evaluation - Google Search Jump to Content Overview Our approach Accessing info Info qu…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…& kids Helping creators How Search works Organizing information Ranking results Rigorous testing Detecting spam Features Our history Improving Search with rigorous testing Our goal is al…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…sults Rigorous testing Detecting spam Features Our history Improving Search with rigorous testing Our goal is always to provide you with the most useful and relevant information. Any chan…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…and decide whether to implement a proposed change. Data from these search evaluations and experiments go through a thorough review by experienced engineers and search analysts, as well as oth…",
+    "flag": null,
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…rts, who then determine if the change is approved to launch. In 2023, we ran over 700,000 experiments that resulted in more than 4,000 improvements to Search. We evaluate Search in multiple w…",
+    "flag": null,
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…We evaluate Search in multiple ways. In 2023, we ran: 4,781 launches 16,871 live traffic experiments 719,326 search quality tests 124,942 side-by-side experiments 4,781 launches Every single…",
+    "flag": null,
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "control group",
+    "kwic": "…percentage of people, usually starting at 0.1%. We then compare the experiment group to a control group that did not have the feature enabled. Analyzing metrics Next, we look at a very long lis…",
+    "flag": null,
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 1
+   }
+  ],
+  "V6": [
+   {
+    "termo": "test",
+    "kwic": "…reaking, adversarial prompting, or prompt injection, except as part of our safety and bug testing programs accessing or using our services or content in fraudulent or deceptive ways, such…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-search/03-terms.md",
+    "n": 3,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…t align with their school policies. This includes giving school staff and faculty time to test generative AI tools in their school environment. As we work on this, we'll continue to wo…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-search/06-websearch-answer.md",
+    "n": 6,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "Search Engine Testing & Evaluation - Google Search Jump to Content Overview Our approach Accessing info Info qu…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…& kids Helping creators How Search works Organizing information Ranking results Rigorous testing Detecting spam Features Our history Improving Search with rigorous testing Our goal is al…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…sults Rigorous testing Detecting spam Features Our history Improving Search with rigorous testing Our goal is always to provide you with the most useful and relevant information. Any chan…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 7
+   }
+  ],
+  "V3": [
+   {
+    "termo": "control group",
+    "kwic": "…pen your Google Payments account Set your payment method with a site or app Google Groups Control group permissions Edit group permissions Configure member identity settings Delete a post you a…",
+    "flag": null,
+    "file": "google-search/04-technologies-product-privacy.md",
+    "n": 4,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Try experiments in Labs - Computer - Google Search Help Skip to main content Google Search Help Sign in G…",
+    "flag": null,
+    "file": "google-search/06-websearch-answer.md",
+    "n": 6,
+    "total_no_doc": 33
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…enter experience Next Help Center Community Improve your Google Account Google Search Try experiments in Labs Labs is a program for people to experiment with early-stage Google Search experie…",
+    "flag": null,
+    "file": "google-search/06-websearch-answer.md",
+    "n": 6,
+    "total_no_doc": 33
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…your Google Account Google Search Try experiments in Labs Labs is a program for people to experiment with early-stage Google Search experiences and share feedback. If you’re eligible and int…",
+    "flag": null,
+    "file": "google-search/06-websearch-answer.md",
+    "n": 6,
+    "total_no_doc": 33
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…and decide whether to implement a proposed change. Data from these search evaluations and experiments go through a thorough review by experienced engineers and search analysts, as well as oth…",
+    "flag": null,
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…rts, who then determine if the change is approved to launch. In 2023, we ran over 700,000 experiments that resulted in more than 4,000 improvements to Search. We evaluate Search in multiple w…",
+    "flag": null,
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…We evaluate Search in multiple ways. In 2023, we ran: 4,781 launches 16,871 live traffic experiments 719,326 search quality tests 124,942 side-by-side experiments 4,781 launches Every single…",
+    "flag": null,
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "control group",
+    "kwic": "…percentage of people, usually starting at 0.1%. We then compare the experiment group to a control group that did not have the feature enabled. Analyzing metrics Next, we look at a very long lis…",
+    "flag": null,
+    "file": "google-search/07-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 7,
+    "total_no_doc": 1
+   }
+  ]
+ },
+ "log_sugerido": "01-privacy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-privacy-2.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-terms.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-technologies-product-privacy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:1 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-technologies-cookies.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-websearch-answer.md: experiment:33 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n07-howsearchworks-how-search-works-rigorous-testing.md: experiment:11 / A-B:0 / randomize:0 / test:7 / trial:0 / beta:0 / control group:1 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

@@ -1,0 +1,420 @@
+{
+ "servico": "Google Play",
+ "slug": "google-play",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "google-play/01-about-play-terms.md",
+   "url": "https://play.google.com/intl/en-US/about/play-terms/index.html",
+   "chars": 24720,
+   "titulo": "Google Play Terms of Service",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 6,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:6 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "google-play/02-privacy.md",
+   "url": "https://policies.google.com/privacy?hl=en-IE&gl=IE",
+   "chars": 90678,
+   "titulo": "Privacy Policy – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "google-play/03-terms.md",
+   "url": "https://policies.google.com/terms?hl=en-IE&gl=IE",
+   "chars": 36308,
+   "titulo": "Google Terms of Service – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "google-play/04-technologies-cookies.md",
+   "url": "https://policies.google.com/technologies/cookies?hl=en-IE&gl=IE",
+   "chars": 14380,
+   "titulo": "How Google uses cookies – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "google-play/05-googleplay-answer.md",
+   "url": "https://support.google.com/googleplay/answer/7003180?hl=en",
+   "chars": 5031,
+   "titulo": "Try new Android apps before their official release - Google Play Help Skip to main content",
+   "counts": {
+    "experiment": 1,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 0,
+    "beta": 17,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:1 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:17 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "google-play/06-console-about-store-listing-experiments.md",
+   "url": "https://play.google.com/console/about/store-listing-experiments/",
+   "chars": 6905,
+   "titulo": "Store listing experiments | Google Play Console",
+   "counts": {
+    "experiment": 16,
+    "A-B": 3,
+    "randomize": 0,
+    "test": 14,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:16 / A-B:3 / randomize:0 / test:14 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "trial",
+    "kwic": "…may be charged no earlier than 24 hours before the beginning of each billing period. (a) Trials Periods. When you subscribe to Content for a price, you may receive access to the subscri…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "google-play/01-about-play-terms.md",
+    "n": 1,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "trial",
+    "kwic": "…a price, you may receive access to the subscription benefits at no charge for a specified trial period, after which you will be charged until you cancel your subscription. To avoid bein…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "google-play/01-about-play-terms.md",
+    "n": 1,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "trial",
+    "kwic": "…u cancel your subscription. To avoid being charged, you must cancel before the end of the trial period. Once you cancel your trial, you will immediately lose access to the Content and a…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "google-play/01-about-play-terms.md",
+    "n": 1,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "test",
+    "kwic": "…breaking, adversarial prompting or prompt injection, except as part of our safety and bug testing programs accessing or using our services or content in fraudulent or deceptive ways, such…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-play/03-terms.md",
+    "n": 3,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…s Early access apps are apps that haven’t been released yet. Beta apps are newer and more experimental versions of apps that are already released. Early access and beta apps may be less stable…",
+    "flag": null,
+    "file": "google-play/05-googleplay-answer.md",
+    "n": 5,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…rs can join early access and beta programs. If it’s full, space may open later if current testers leave or if the developer lets more users join. Get early access to unreleased apps Open…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-play/05-googleplay-answer.md",
+    "n": 5,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Store listing experiments | Google Play Console Store listing experiments Optimize your Google Play store listing t…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 16
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Store listing experiments | Google Play Console Store listing experiments Optimize your Google Play store listing to help increase installs and retention. Run A/B…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 16
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ents Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text. Go to Play Console Increase…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text. Go to Play Console Increase insta…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…le Increase installs and conversion Optimize your install conversion rate by running free A/B tests on your store listing text and graphics Localized experiments for a global presence…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…ncrease installs and conversion Optimize your install conversion rate by running free A/B tests on your store listing text and graphics Localized experiments for a global presence Run e…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…nversion rate by running free A/B tests on your store listing text and graphics Localized experiments for a global presence Run experiments to see how users respond differently around the wor…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 16
+   },
+   {
+    "termo": "test",
+    "kwic": "…ore listing so you can make further improvements Best practices Get the biggest impact by testing icons, videos, and screenshots Get the clearest results by testing a single asset at a ti…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ents Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text. Go to Play Console Essentia…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 3
+   }
+  ],
+  "V6": [
+   {
+    "termo": "trial",
+    "kwic": "…may be charged no earlier than 24 hours before the beginning of each billing period. (a) Trials Periods. When you subscribe to Content for a price, you may receive access to the subscri…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "google-play/01-about-play-terms.md",
+    "n": 1,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "trial",
+    "kwic": "…a price, you may receive access to the subscription benefits at no charge for a specified trial period, after which you will be charged until you cancel your subscription. To avoid bein…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "google-play/01-about-play-terms.md",
+    "n": 1,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "trial",
+    "kwic": "…u cancel your subscription. To avoid being charged, you must cancel before the end of the trial period. Once you cancel your trial, you will immediately lose access to the Content and a…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "google-play/01-about-play-terms.md",
+    "n": 1,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "test",
+    "kwic": "…breaking, adversarial prompting or prompt injection, except as part of our safety and bug testing programs accessing or using our services or content in fraudulent or deceptive ways, such…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-play/03-terms.md",
+    "n": 3,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "beta",
+    "kwic": "…their official release. You can try these apps or features when you join early access or beta programs. Early access & beta apps Early access apps are apps that haven’t been released…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "google-play/05-googleplay-answer.md",
+    "n": 5,
+    "total_no_doc": 17
+   },
+   {
+    "termo": "beta",
+    "kwic": "…an try these apps or features when you join early access or beta programs. Early access & beta apps Early access apps are apps that haven’t been released yet. Beta apps are newer and m…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "google-play/05-googleplay-answer.md",
+    "n": 5,
+    "total_no_doc": 17
+   },
+   {
+    "termo": "beta",
+    "kwic": "…rams. Early access & beta apps Early access apps are apps that haven’t been released yet. Beta apps are newer and more experimental versions of apps that are already released. Early ac…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "google-play/05-googleplay-answer.md",
+    "n": 5,
+    "total_no_doc": 17
+   },
+   {
+    "termo": "test",
+    "kwic": "…rs can join early access and beta programs. If it’s full, space may open later if current testers leave or if the developer lets more users join. Get early access to unreleased apps Open…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-play/05-googleplay-answer.md",
+    "n": 5,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text. Go to Play Console Increase insta…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "test",
+    "kwic": "…ncrease installs and conversion Optimize your install conversion rate by running free A/B tests on your store listing text and graphics Localized experiments for a global presence Run e…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "test",
+    "kwic": "…ore listing so you can make further improvements Best practices Get the biggest impact by testing icons, videos, and screenshots Get the clearest results by testing a single asset at a ti…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 14
+   }
+  ],
+  "V3": [
+   {
+    "termo": "experiment",
+    "kwic": "…s Early access apps are apps that haven’t been released yet. Beta apps are newer and more experimental versions of apps that are already released. Early access and beta apps may be less stable…",
+    "flag": null,
+    "file": "google-play/05-googleplay-answer.md",
+    "n": 5,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Store listing experiments | Google Play Console Store listing experiments Optimize your Google Play store listing t…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 16
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Store listing experiments | Google Play Console Store listing experiments Optimize your Google Play store listing to help increase installs and retention. Run A/B…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 16
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ents Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text. Go to Play Console Increase…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…le Increase installs and conversion Optimize your install conversion rate by running free A/B tests on your store listing text and graphics Localized experiments for a global presence…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…nversion rate by running free A/B tests on your store listing text and graphics Localized experiments for a global presence Run experiments to see how users respond differently around the wor…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 16
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ents Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text. Go to Play Console Essentia…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 3
+   }
+  ]
+ },
+ "log_sugerido": "01-about-play-terms.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:6 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-privacy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-terms.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-technologies-cookies.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-googleplay-answer.md: experiment:1 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:17 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-console-about-store-listing-experiments.md: experiment:16 / A-B:3 / randomize:0 / test:14 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

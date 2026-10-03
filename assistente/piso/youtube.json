@@ -1,0 +1,625 @@
+{
+ "servico": "YouTube",
+ "slug": "youtube",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "youtube/01-t-terms.md",
+   "url": "https://www.youtube.com/t/terms?gl=IE&hl=en-GB",
+   "chars": 28606,
+   "titulo": "Terms of Service",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "youtube/02-t-terms-2.md",
+   "url": "https://www.youtube.com/t/terms",
+   "chars": 29032,
+   "titulo": "Terms of Service",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "youtube/03-privacy.md",
+   "url": "https://policies.google.com/privacy",
+   "chars": 89981,
+   "titulo": "Privacy Policy – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "youtube/04-privacy-4.md",
+   "url": "https://policies.google.com/privacy?gl=IE&hl=en-GB#europeanrequirements",
+   "chars": 90678,
+   "titulo": "Privacy Policy – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "youtube/05-technologies-cookies.md",
+   "url": "https://policies.google.com/technologies/cookies",
+   "chars": 14289,
+   "titulo": "How Google uses cookies – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "youtube/06-youtube-answer.md",
+   "url": "https://support.google.com/youtube/answer/9227818",
+   "chars": 4916,
+   "titulo": "Test feature experiments at Youtube.com/new - Computer - YouTube Help Skip to main content",
+   "counts": {
+    "experiment": 15,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 4,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:15 / A-B:0 / randomize:0 / test:4 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 7,
+   "file": "youtube/07-youtube-answer-7.md",
+   "url": "https://support.google.com/youtube/answer/16391400",
+   "chars": 12040,
+   "titulo": "A/B test titles & thumbnails - YouTube Help Skip to main content",
+   "counts": {
+    "experiment": 8,
+    "A-B": 29,
+    "randomize": 0,
+    "test": 65,
+    "trial": 0,
+    "beta": 0,
+    "control group": 7,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:8 / A-B:29 / randomize:0 / test:65 / trial:0 / beta:0 / control group:7 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 8,
+   "file": "youtube/08-youtube-thread.md",
+   "url": "https://support.google.com/youtube/thread/18138167",
+   "chars": 18479,
+   "titulo": "YouTube test features and experiments - YouTube Community Skip to main content",
+   "counts": {
+    "experiment": 43,
+    "A-B": 1,
+    "randomize": 0,
+    "test": 26,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:43 / A-B:1 / randomize:0 / test:26 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 9,
+   "file": "youtube/09-howyoutubeworks.md",
+   "url": "https://www.youtube.com/howyoutubeworks/",
+   "chars": 3197,
+   "titulo": "Come funziona YouTube: dare a tutti uno spazio per esprimersi",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "test",
+    "kwic": "Test feature experiments at Youtube.com/new - Computer - YouTube Help Skip to main content You…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Test feature experiments at Youtube.com/new - Computer - YouTube Help Skip to main content YouTube Help Sign in Go…",
+    "flag": null,
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "test",
+    "kwic": "…and safety center Copyright and rights management YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTub…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…nter Copyright and rights management YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members ca…",
+    "flag": null,
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "test",
+    "kwic": "…ement YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members can learn and try multiple…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members can learn and try multiple experimental YouTub…",
+    "flag": null,
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "A-B",
+    "kwic": "A/B test titles & thumbnails - YouTube Help Skip to main content YouTube Help Sign in Google…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 29
+   },
+   {
+    "termo": "test",
+    "kwic": "A/B test titles & thumbnails - YouTube Help Skip to main content YouTube Help Sign in Google Help…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 65
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…nt Privacy and safety center Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 29
+   },
+   {
+    "termo": "test",
+    "kwic": "…rivacy and safety center Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 di…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 65
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 different titles and thumb…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 29
+   },
+   {
+    "termo": "test",
+    "kwic": "…right and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 different titles and thumbnails…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 65
+   },
+   {
+    "termo": "control group",
+    "kwic": "…t is going,” click Manage test . Note: We may maintain a small percentage of traffic as a control group of viewers that are excluded from the experiment. The control group will only see the def…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…in a small percentage of traffic as a control group of viewers that are excluded from the experiment. The control group will only see the default thumbnail and title. The video performance f…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "control group",
+    "kwic": "…ntage of traffic as a control group of viewers that are excluded from the experiment. The control group will only see the default thumbnail and title. The video performance from the control gro…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "control group",
+    "kwic": "…ntrol group will only see the default thumbnail and title. The video performance from the control group is excluded from the experiment calculations. Understand A/B test results You can view yo…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…lt thumbnail and title. The video performance from the control group is excluded from the experiment calculations. Understand A/B test results You can view your test results on your video’s…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…r all thumbnails. If the resolution of any thumbnail is lower than 720p (1280 x 720), all experiment thumbnails will be downscaled to 480p (854 x 480). Learn more about custom thumbnail best…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "test",
+    "kwic": "YouTube test features and experiments - YouTube Community Skip to main content YouTube Help Sign in Se…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 26
+   },
+   {
+    "termo": "experiment",
+    "kwic": "YouTube test features and experiments - YouTube Community Skip to main content YouTube Help Sign in Send feedback on... This he…",
+    "flag": null,
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 43
+   },
+   {
+    "termo": "test",
+    "kwic": "…e) Google Employee • Original Poster Oct 30, 2019 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constant…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 26
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…• Original Poster Oct 30, 2019 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools…",
+    "flag": null,
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 43
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…19 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools and features to help you find…",
+    "flag": null,
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 43
+   },
+   {
+    "termo": "test",
+    "kwic": "…atures and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools and features to help you find, watch, share and create content more easily.…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 26
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…rictions for users under ... Get access to intermediate and advanced features You can now A/B test titles and thumbnails on your videos! 🥳 Learn more about how YouTube works for you Y…",
+    "flag": null,
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 1
+   }
+  ],
+  "V6": [
+   {
+    "termo": "test",
+    "kwic": "Test feature experiments at Youtube.com/new - Computer - YouTube Help Skip to main content You…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…and safety center Copyright and rights management YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTub…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…ement YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members can learn and try multiple…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "A/B test titles & thumbnails - YouTube Help Skip to main content YouTube Help Sign in Google Help…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 65
+   },
+   {
+    "termo": "test",
+    "kwic": "…rivacy and safety center Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 di…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 65
+   },
+   {
+    "termo": "test",
+    "kwic": "…right and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 different titles and thumbnails…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 65
+   },
+   {
+    "termo": "test",
+    "kwic": "YouTube test features and experiments - YouTube Community Skip to main content YouTube Help Sign in Se…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 26
+   },
+   {
+    "termo": "test",
+    "kwic": "…e) Google Employee • Original Poster Oct 30, 2019 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constant…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 26
+   },
+   {
+    "termo": "test",
+    "kwic": "…atures and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools and features to help you find, watch, share and create content more easily.…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 26
+   }
+  ],
+  "V3": [
+   {
+    "termo": "experiment",
+    "kwic": "Test feature experiments at Youtube.com/new - Computer - YouTube Help Skip to main content YouTube Help Sign in Go…",
+    "flag": null,
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…nter Copyright and rights management YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members ca…",
+    "flag": null,
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members can learn and try multiple experimental YouTub…",
+    "flag": null,
+    "file": "youtube/06-youtube-answer.md",
+    "n": 6,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "A-B",
+    "kwic": "A/B test titles & thumbnails - YouTube Help Skip to main content YouTube Help Sign in Google…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 29
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…nt Privacy and safety center Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 29
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 different titles and thumb…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 29
+   },
+   {
+    "termo": "control group",
+    "kwic": "…t is going,” click Manage test . Note: We may maintain a small percentage of traffic as a control group of viewers that are excluded from the experiment. The control group will only see the def…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…in a small percentage of traffic as a control group of viewers that are excluded from the experiment. The control group will only see the default thumbnail and title. The video performance f…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "control group",
+    "kwic": "…ntage of traffic as a control group of viewers that are excluded from the experiment. The control group will only see the default thumbnail and title. The video performance from the control gro…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "control group",
+    "kwic": "…ntrol group will only see the default thumbnail and title. The video performance from the control group is excluded from the experiment calculations. Understand A/B test results You can view yo…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…lt thumbnail and title. The video performance from the control group is excluded from the experiment calculations. Understand A/B test results You can view your test results on your video’s…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…r all thumbnails. If the resolution of any thumbnail is lower than 720p (1280 x 720), all experiment thumbnails will be downscaled to 480p (854 x 480). Learn more about custom thumbnail best…",
+    "flag": null,
+    "file": "youtube/07-youtube-answer-7.md",
+    "n": 7,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "experiment",
+    "kwic": "YouTube test features and experiments - YouTube Community Skip to main content YouTube Help Sign in Send feedback on... This he…",
+    "flag": null,
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 43
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…• Original Poster Oct 30, 2019 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools…",
+    "flag": null,
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 43
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…19 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools and features to help you find…",
+    "flag": null,
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 43
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…rictions for users under ... Get access to intermediate and advanced features You can now A/B test titles and thumbnails on your videos! 🥳 Learn more about how YouTube works for you Y…",
+    "flag": null,
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 1
+   }
+  ]
+ },
+ "log_sugerido": "01-t-terms.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-t-terms-2.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-privacy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-privacy-4.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-technologies-cookies.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-youtube-answer.md: experiment:15 / A-B:0 / randomize:0 / test:4 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n07-youtube-answer-7.md: experiment:8 / A-B:29 / randomize:0 / test:65 / trial:0 / beta:0 / control group:7 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n08-youtube-thread.md: experiment:43 / A-B:1 / randomize:0 / test:26 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n09-howyoutubeworks.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

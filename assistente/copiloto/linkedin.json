@@ -1,0 +1,160 @@
+{
+ "formato": 1,
+ "servico": "LinkedIn",
+ "slug": "linkedin",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "44809106a1fd",
+ "gerado_em": "2026-10-03T16:24:30+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 1
+ },
+ "n_citacoes": 56,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "3",
+    "v1_register": "non-binding"
+   },
+   "razao": "O teto 3 aparece só na central de ajuda de Marketing Solutions, que descreve teste A/B com a audiência de membros dividida em grupos e com grupo de controle (V1-1, V1-2, V1-3); são testes de anunciantes, não da plataforma sobre o próprio produto, o que pede interpretação. Nota: nos vinculantes, só nível 1, com linguagem de melhorar e de pesquisa e desenvolvimento, sem 'testar' (V1-5, V1-6, V1-7).",
+   "confianca": "média",
+   "citacoes": [
+    "V1-1",
+    "V1-2",
+    "V1-3",
+    "V1-5",
+    "V1-6",
+    "V1-7"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research",
+     "social-good/community"
+    ]
+   },
+   "razao": "Melhoria do serviço e pesquisa co-ocorrem em V1-5 e V2-1, e a pesquisa genérica aparece em V2-2. O enquadramento social-good/community é interpretativo: 'create economic opportunity' e a pesquisa de tendências sociais e econômicas (V2-2, V2-1) falam de bem social, mas não de bem-estar da comunidade em sentido estrito.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-5",
+    "V2-1",
+    "V2-2"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "Yes",
+    "v3_specific": "No",
+    "v3_pricing": "No",
+    "v3_targets": "criativo do anúncio (imagem), posicionamento, otimização, ad set Classic vs Accelerate (IA) — só em doc não vinculante"
+   },
+   "razao": "A central de ajuda nomeia as variáveis testadas em anúncios: criativo, posicionamento, otimização e ad set (V3-1, V3-3, V3-4, V3-5, V3-6); V3-7 trata de reprocessamento geral, não de um experimento específico divulgado. Diferenças e alterações de preço nos Termos não são preço testado (V3-9, V3-10), e o ranking do feed descrito em V3-8 é personalização, não alvo de experimento.",
+   "confianca": "média",
+   "citacoes": [
+    "V3-1",
+    "V3-3",
+    "V3-4",
+    "V3-5",
+    "V3-6",
+    "V3-7",
+    "V3-8",
+    "V3-9",
+    "V3-10"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "not stated"
+    ],
+    "v4_mapped_purpose": "improve, develop, and provide products and Services / research and development (Seção 2.6)",
+    "v4_region_gated": "not-verifiable (vantage)"
+   },
+   "razao": "A política lista as bases legais só de forma genérica, sem ligá-las à finalidade de melhoria ou de pesquisa e desenvolvimento (V4-1, V4-3, V1-5, V1-6). A tabela por finalidade é remetida ao European Regional Privacy Notice, que não está entre os documentos (V4-4), por isso o geo-gating não é verificável.",
+   "confianca": "média",
+   "citacoes": [
+    "V4-1",
+    "V4-3",
+    "V4-4",
+    "V1-5",
+    "V1-6"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "Há o direito genérico de objeção (V5-1, V5-2, V4-2) e há controles de cookies e de anúncios (V5-4, V5-5, V5-6), mas nenhum controle específico de experimentação. A configuração de Marketing Solutions só filtra resultados de medição (V5-7).",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V4-2",
+    "V5-4",
+    "V5-5",
+    "V5-6",
+    "V5-7"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "No",
+    "v6_which": ""
+   },
+   "razao": "Nenhuma citação sustenta outra resposta; a contagem de 'beta' é 0 em todos os documentos.",
+   "confianca": "alta",
+   "citacoes": []
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "V7-1 e V7-2 são avisos de mudança de serviço, e V7-3 mostra o status do teste ao anunciante, não ao membro. O tema é tratado só no doc 6, sem aviso aos membros, e não é endereçado nos vinculantes; 'debrief' tem contagem 0 em todos os documentos.",
+   "confianca": "alta",
+   "citacoes": [
+    "V7-1",
+    "V7-2",
+    "V7-3"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "V8-1 (controles de privacidade), V8-2 (princípios de IA responsável) e V8-3 (avaliação de segurança por pesquisadores) são de fronteira e não constituem revisão ética de experimentos; as palavras-chave de ética, revisão e risco têm contagem 0. Nota: lacuna entre a obrigação de avaliação de risco do DSA e o que dizem os documentos ao usuário.",
+   "confianca": "média",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-3"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "help centre"
+    ],
+    "v9_register": "non-binding"
+   },
+   "razao": "A experimentação explícita só aparece na página de ajuda de Marketing Solutions (V9-5, V1-1), não vinculante. A política e os termos, vinculantes (V9-1, V9-2), falam apenas de melhoria e de pesquisa e desenvolvimento (V1-6).",
+   "confianca": "média",
+   "citacoes": [
+    "V9-5",
+    "V1-1",
+    "V9-1",
+    "V9-2",
+    "V1-6"
+   ]
+  }
+ },
+ "uso": {
+  "input": 14060,
+  "output": 3524
+ }
+}

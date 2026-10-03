@@ -1,0 +1,159 @@
+{
+ "formato": 1,
+ "servico": "Amazon Store",
+ "slug": "amazon-store",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "1e28509da585",
+ "gerado_em": "2026-10-03T16:23:56+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 1
+ },
+ "n_citacoes": 46,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "3",
+    "v1_register": "non-binding"
+   },
+   "razao": "O blog e as páginas do Amazon Science nomeiam testes A/B, grupos de controle e randomização (V1-4, V1-5, V1-6, V1-7), o que dá teto 3 em registro não vinculante. Nota: nos vinculantes há só nível 1, com linguagem de melhoria e 'research and diagnostics' sem menção a testar (V1-1, V1-2, V1-3).",
+   "confianca": "alta",
+   "citacoes": [
+    "V1-4",
+    "V1-5",
+    "V1-6",
+    "V1-7",
+    "V1-1",
+    "V1-2",
+    "V1-3"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research"
+    ]
+   },
+   "razao": "Os vinculantes enquadram o uso como melhoria do serviço (V2-1), e o aviso de cookies une pesquisa e melhoria (V2-2). O blog enquadra os experimentos como pesquisa publicada e como melhoria de preços (V2-4, V2-5); não há enquadramento de pesquisa com seres humanos nem de bem-estar da comunidade.",
+   "confianca": "média",
+   "citacoes": [
+    "V2-1",
+    "V2-2",
+    "V2-4",
+    "V2-5"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "Yes",
+    "v3_specific": "No",
+    "v3_pricing": "Yes",
+    "v3_targets": "preço / políticas de preço (Pricing Labs)"
+   },
+   "razao": "O blog nomeia políticas de preço como alvo dos experimentos (V1-4, V3-1, V3-2), mas só em registro não vinculante; a cláusula de mispricing (V3-6) e a personalização (V3-5, V3-7) não contam. Quanto a experimento específico, o texto descreve a plataforma Pricing Labs e desenhos experimentais, e o exemplo da cadeira é hipotético (V3-3, V3-4), por isso a sugestão é No, com margem para o codificador.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-4",
+    "V3-1",
+    "V3-2",
+    "V3-3",
+    "V3-4",
+    "V3-5",
+    "V3-6",
+    "V3-7"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "legitimate interest"
+    ],
+    "v4_mapped_purpose": "Troubleshooting and improving Amazon Services",
+    "v4_region_gated": "No"
+   },
+   "razao": "A tabela de bases legais está presente nos documentos (V4-6, V4-4) e atribui legítimo interesse à finalidade de melhoria (V4-1), que foi mapeada como a que cobre experimentação. A experimentação em si não aparece como finalidade, por isso o mapeamento é interpretativo; a tabela é rotulada para a UE (V4-5), mas, pela definição do codebook, presença nos documentos equivale a No.",
+   "confianca": "média",
+   "citacoes": [
+    "V4-1",
+    "V4-4",
+    "V4-5",
+    "V4-6"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "GDPR-objection-only"
+   },
+   "razao": "Há o direito genérico de objeção, exercido via Customer Service (V5-1, V5-4). O painel de cookies rege anúncios e cookies, não experimentos (V5-2, V5-3), e não existe controle específico de experimentação.",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V5-3",
+    "V5-4"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "No",
+    "v6_which": ""
+   },
+   "razao": "Nenhuma citação sustenta outra resposta, e a contagem de 'beta' é 0 em todos os documentos.",
+   "confianca": "média",
+   "citacoes": []
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "V7-1 é aviso de decisão automatizada, V7-3 é aviso de mudança de serviço e V7-2 é aviso de compartilhamento; nenhum deles é debriefing, e 'debrief' tem contagem 0 em todos os documentos. Nota: nos vinculantes o tema nunca é endereçado, e o blog trata de experimentos sem mencionar aviso posterior.",
+   "confianca": "alta",
+   "citacoes": [
+    "V7-1",
+    "V7-2",
+    "V7-3"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "ethics, review board, IRB e risk assessment têm contagem 0 em todos os documentos; V8-3 trata de risco de crédito e fraude, e V8-1, V8-2 e V8-4 não tratam de revisão de experimentos. Nota: as avaliações de risco sistêmico exigidas pelo DSA não aparecem nos documentos ao usuário, o que é um gap entre a obrigação regulatória e o documento.",
+   "confianca": "alta",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-3",
+    "V8-4"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "blog/PR/site de pesquisa"
+    ],
+    "v9_register": "non-binding"
+   },
+   "razao": "A experimentação só é discutida no site Amazon Science (V9-6, V9-7, V1-4). O Privacy Notice, as Conditions e o aviso de cookies são vinculantes (V9-1, V9-3, V9-4), mas trazem apenas linguagem de melhoria (V1-3).",
+   "confianca": "média",
+   "citacoes": [
+    "V9-1",
+    "V9-3",
+    "V9-4",
+    "V9-6",
+    "V9-7",
+    "V1-4",
+    "V1-3"
+   ]
+  }
+ },
+ "uso": {
+  "input": 13757,
+  "output": 2924
+ }
+}

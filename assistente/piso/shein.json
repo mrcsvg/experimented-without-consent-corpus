@@ -1,0 +1,117 @@
+{
+ "servico": "Shein",
+ "slug": "shein",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "shein/01-consumer-privacy-notice-s-101.md",
+   "url": "https://eur.shein.com/Consumer-Privacy-Notice-s-101.html",
+   "chars": 52011,
+   "titulo": "Aviso de Privacidade | SHEIN EUR",
+   "counts": {
+    "experiment": 1,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:1 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "shein/02-ranking-policy-a-1979.md",
+   "url": "https://eur.shein.com/ranking-policy-a-1979.html",
+   "chars": 12737,
+   "titulo": "POLÍTICA DE CLASSIFICAÇÃO DE UTILIZADORES DO MARKETPLACE DA SHEIN | SHEIN EUR",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "shein/03-terms-and-conditions-a-399.md",
+   "url": "https://eur.shein.com/Terms-and-Conditions-a-399.html",
+   "chars": 100766,
+   "titulo": "TERMOS E CONDIÇÕES | SHEIN EUR",
+   "counts": {
+    "experiment": 1,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:1 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "experiment",
+    "kwic": "…ificação única do seu navegador e dispositivo de internet. Se não permitir estes cookies, experimentará publicidade menos direcionada. Uma vez que estes cookies não são estritamente necessários…",
+    "flag": null,
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
+    "n": 1,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…as características e o bom funcionamento dos Produtos. Por exemplo, os Produtos podem ser experimentados, conforme seria permitido numa loja física, mas não usados durante longos períodos nem ut…",
+    "flag": null,
+    "file": "shein/03-terms-and-conditions-a-399.md",
+    "n": 3,
+    "total_no_doc": 1
+   }
+  ],
+  "V3": [
+   {
+    "termo": "experiment",
+    "kwic": "…ificação única do seu navegador e dispositivo de internet. Se não permitir estes cookies, experimentará publicidade menos direcionada. Uma vez que estes cookies não são estritamente necessários…",
+    "flag": null,
+    "file": "shein/01-consumer-privacy-notice-s-101.md",
+    "n": 1,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…as características e o bom funcionamento dos Produtos. Por exemplo, os Produtos podem ser experimentados, conforme seria permitido numa loja física, mas não usados durante longos períodos nem ut…",
+    "flag": null,
+    "file": "shein/03-terms-and-conditions-a-399.md",
+    "n": 3,
+    "total_no_doc": 1
+   }
+  ]
+ },
+ "log_sugerido": "01-consumer-privacy-notice-s-101.md: experiment:1 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-ranking-policy-a-1979.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-terms-and-conditions-a-399.md: experiment:1 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

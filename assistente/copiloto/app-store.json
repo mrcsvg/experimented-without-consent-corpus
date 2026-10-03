@@ -1,0 +1,164 @@
+{
+ "formato": 1,
+ "servico": "App Store",
+ "slug": "app-store",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "5ba194e98748",
+ "gerado_em": "2026-10-03T16:31:47+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 1
+ },
+ "n_citacoes": 66,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "3",
+    "v1_register": "non-binding"
+   },
+   "razao": "O teto 3 aparece só nas páginas para desenvolvedores, que descrevem variantes mostradas a pessoas selecionadas aleatoriamente e comparadas com a página original (V1-5, V1-6, V1-7, V1-9); são testes de página de produto conduzidos por desenvolvedores com ferramenta da Apple. Nos vinculantes há só nível 1, com linguagem de melhoria (V1-1, V1-2, V1-4), o que convém registrar em Notas.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-5",
+    "V1-6",
+    "V1-7",
+    "V1-9",
+    "V1-1",
+    "V1-2",
+    "V1-4"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research"
+    ]
+   },
+   "razao": "Melhoria da loja aparece em V2-1 e V2-2, e pesquisa e desenvolvimento aparece em V2-3. A menção a estudos do Apple Health em V2-4 remete a outra política e talvez não baste para marcar human-subjects research; fica a critério do codificador.",
+   "confianca": "média",
+   "citacoes": [
+    "V2-1",
+    "V2-2",
+    "V2-3",
+    "V2-4"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "Yes",
+    "v3_specific": "Yes",
+    "v3_pricing": "No",
+    "v3_targets": "ícones, screenshots e vídeos de prévia da página de produto; proposta de valor; conteúdo sazonal"
+   },
+   "razao": "Doc 8 nomeia os elementos testados (V3-3, V3-4, V3-5, V3-11) e relata testes específicos de desenvolvedores (V3-6, V3-7), tudo em registro não vinculante. Preço não aparece como alvo: V3-10 só diz que preços podem mudar.",
+   "confianca": "média",
+   "citacoes": [
+    "V3-3",
+    "V3-4",
+    "V3-5",
+    "V3-11",
+    "V3-6",
+    "V3-7",
+    "V3-10"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "legitimate interest"
+    ],
+    "v4_mapped_purpose": "Help improve and optimize the App Store and other Apple products and services",
+    "v4_region_gated": "No"
+   },
+   "razao": "Doc 2 lista a finalidade de melhorar e otimizar a App Store sob legítimo interesse (V4-2, V4-3), e essa relação de bases por finalidade está presente no documento capturado. Se o codificador entender que essa lista não equivale a uma tabela de bases por finalidade, o campo regional passa a not-verifiable (vantage).",
+   "confianca": "média",
+   "citacoes": [
+    "V4-2",
+    "V4-3",
+    "V4-1"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "Os controles descritos regem anúncios personalizados, cookies, recomendações e o identificador de uso (V5-1, V5-2, V5-3, V5-4, V5-5); nenhum é específico para experimentos. V5-8 descreve seleção aleatória sem qualquer opção de saída.",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V5-3",
+    "V5-4",
+    "V5-5",
+    "V5-8"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "Yes",
+    "v6_which": "TestFlight: testadores convidados, por convite ou link público, instalam versões beta de apps"
+   },
+   "razao": "TestFlight permite que pessoas se inscrevam como testadoras de betas por convite ou link público (V6-1, V6-2, V6-3, V6-4). O programa é de desenvolvedores para apps de terceiros, não da própria App Store.",
+   "confianca": "média",
+   "citacoes": [
+    "V6-1",
+    "V6-2",
+    "V6-3",
+    "V6-4",
+    "V6-5"
+   ]
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "O tema é tratado em Doc 8 (V7-1), que descreve a exibição do tratamento sem aviso posterior de participação; V7-2 e V7-5 são avisos de mudança e V7-3 trata de decisão automatizada, falsos positivos excluídos. O log registra debrief:0 em todos os documentos.",
+   "confianca": "alta",
+   "citacoes": [
+    "V7-1",
+    "V7-2",
+    "V7-3",
+    "V7-5"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "V8-1 traz linguagem vaga de impacto ligada a incidentes de privacidade, e V8-5 trata de confiança estatística, não de revisão ética; o log mostra ethics, review board, IRB e risk assessment em zero. Vale anotar a lacuna entre a avaliação de risco exigida pelo DSA e o que os documentos dizem.",
+   "confianca": "alta",
+   "citacoes": [
+    "V8-1",
+    "V8-5",
+    "V8-6"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "help centre",
+     "blog/PR/site de pesquisa"
+    ],
+    "v9_register": "non-binding"
+   },
+   "razao": "A divulgação de teste com variantes está na App Store Connect Help (V9-6) e na página institucional para desenvolvedores (V9-7); a política e os termos (V9-1, V9-4) só falam em melhoria. A página de desenvolvedores não se declara parte do acordo com o usuário.",
+   "confianca": "média",
+   "citacoes": [
+    "V9-6",
+    "V9-7",
+    "V9-1",
+    "V9-4",
+    "V9-2"
+   ]
+  }
+ },
+ "uso": {
+  "input": 15337,
+  "output": 3141
+ }
+}

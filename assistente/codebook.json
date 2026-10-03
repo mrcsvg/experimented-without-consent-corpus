@@ -1,0 +1,538 @@
+{
+ "gerado_em": "2026-10-03T16:36:40+00:00",
+ "congelado_em": "2026-07-04",
+ "fonte_crit": "texto exato do codebook v2, congelado em 04/07/2026",
+ "servicos": [
+  "Wikipedia",
+  "Temu",
+  "Facebook",
+  "YouTube",
+  "Google Search",
+  "WhatsApp",
+  "Booking.com",
+  "Google Maps",
+  "Pornhub",
+  "Amazon Store",
+  "LinkedIn",
+  "Bing",
+  "XVideos",
+  "Shein",
+  "X",
+  "XNXX",
+  "Zalando",
+  "Snapchat",
+  "Stripchat",
+  "App Store",
+  "Instagram",
+  "Google Play",
+  "Pinterest",
+  "Google Shopping",
+  "TikTok",
+  "AliExpress"
+ ],
+ "variaveis": [
+  {
+   "vid": "V1",
+   "titulo": "Reconhecimento de experimentação",
+   "regra_html": "0 = nada · 1 = só \"melhorar\" · 2 = <b>testa usuários</b>, método não nomeado · 3 = <b>experimento/A-B explícito</b>. Codifique o teto e onde ele vive. \"Free trial\" não conta.",
+   "pergunta": "A plataforma admite que faz experimentos com os usuários? Com que clareza?",
+   "lembrete": "Escolha o nível mais alto, de 0 a 3, que aparecer em qualquer documento, e diga em que tipo de documento ele está. Free trial não conta.",
+   "guia_html": "\n<p><b>O que procurar.</b> Frases em que a plataforma diz que testa coisas com as pessoas\nque usam o serviço. Elas vão de vagas (\"usamos seus dados para melhorar nossos\nserviços\") a explícitas (\"fazemos testes A/B\").</p>\n<p><b>Como preencher.</b></p>\n<ul>\n<li><b>Código (teto)</b>: o nível mais alto que você encontrar em qualquer documento do\nserviço. Se um documento chega ao 2 e outro ao 3, o código é 3.<ul>\n<li><code>0</code>: nenhum reconhecimento. Os documentos não falam nem em melhorar o serviço.</li>\n<li><code>1</code>: só fala em melhorar ou aprimorar o serviço, sem dizer que testa nada.</li>\n<li><code>2</code>: diz que testa coisas com os usuários, mas não diz como. Por exemplo,\n\"para testar novos recursos\" e nada além disso.</li>\n<li><code>3</code>: nomeia o método. Basta aparecer teste A/B, versões diferentes mostradas a\npessoas diferentes, grupo de controle, randomização, ou a palavra experimento no sentido\nde teste com usuários.</li>\n</ul></li>\n<li><b>Registro do teto</b>: em que tipo de documento apareceu o nível que você escolheu.<ul>\n<li><code>binding</code>: documento vinculante (política de privacidade, termos de uso, aviso\nde cookies, tabela de bases legais).</li>\n<li><code>non-binding</code>: documento não vinculante (blog, central de ajuda, página de pesquisa).</li>\n<li><code>both</code>: o mesmo nível aparece nos dois tipos.</li>\n</ul></li>\n<li><b>Evidência</b>: a frase exata que justifica o nível, com o nome do documento.</li>\n</ul>\n<p><b>Cuidado com.</b></p>\n<ul>\n<li>\"Free trial\" e período grátis de assinatura não são experimentação. É o falso positivo\nmais comum nesta variável.</li>\n<li>A dúvida mais frequente é entre 2 e 3. Se a frase diz que testa, mas não menciona\ngrupos, versões ou aleatorização, é 2.</li>\n</ul>\n<p><b>Por que o registro importa.</b> O estudo quer saber se a plataforma admite\nexperimentar no documento que a obriga. Nível 3 que só aparece no blog significa que ela\nadmite em público, mas não no contrato. Se os documentos vinculantes, sozinhos, ficarem\nnum nível abaixo do teto, escreva isso em Notas (por exemplo, \"nos vinculantes, só\nnível 1\").</p>",
+   "crit_html": "\n    <p><b>Escada.</b> <code>0</code> nenhum reconhecimento, nem de “melhorar” · <code>1</code> só linguagem de “melhorar/aprimorar o serviço”; nem “testar” · <code>2</code> reconhece testar usuários, mas não nomeia o método · <code>3</code> nomeia experimento / teste A/B / randomização explicitamente.</p>\n    <p><b>Regra de fronteira (2 vs 3):</b> “test new features” sem menção a grupos/variantes/aleatorização = <b>2</b>. Qualquer menção a A/B, variantes servidas a usuários distintos, grupos de controle ou “experiments” em sentido experimental = <b>3</b>. <b>“Trial” de assinatura/período grátis não é experimentação</b> — falso positivo comum.</p>\n    <p>Codifique o nível de <b>teto</b> (o mais alto em qualquer registro) <b>e</b> onde esse teto vive. O achado central do estudo mora nessa combinação: teto 3 em registro não-vinculante significa “admite experimentar, mas só fora do contrato”. Registre em Notes o nível do registro vinculante sozinho quando ele diferir do teto.</p>",
+   "crit_sha": "49dc0105e1de",
+   "campos": [
+    {
+     "chave": "v1_code",
+     "rotulo": "Código (teto)",
+     "tipo": "select",
+     "opcoes": [
+      "",
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v1_register",
+     "rotulo": "Registro do teto",
+     "tipo": "select",
+     "opcoes": [
+      "",
+      "binding",
+      "non-binding",
+      "both"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v1_evidence",
+     "rotulo": "Evidência (citação verbatim + documento)",
+     "tipo": "text",
+     "opcoes": [],
+     "placeholder": "“...”: Privacy Policy, §x"
+    }
+   ]
+  },
+  {
+   "vid": "V2",
+   "titulo": "Enquadramento",
+   "regra_html": "Marque <b>todos</b> que aparecem, com citação para cada. \"Research that improves our services\" = os dois primeiros.",
+   "pergunta": "Como a plataforma apresenta o que faz: como melhoria do serviço, como pesquisa, como bem-estar?",
+   "lembrete": "Marque todos os enquadramentos que aparecerem, com uma citação para cada.",
+   "guia_html": "\n<p><b>O que procurar.</b> As palavras que a plataforma usa para apresentar o uso de dados\npara testar e desenvolver. A V1 pergunta se ela testa; esta pergunta como ela descreve\nisso.</p>\n<p><b>Como preencher.</b></p>\n<ul>\n<li><b>Enquadramentos presentes</b>: marque todos que aparecem. É comum marcar mais de um.<ul>\n<li><code>service improvement</code>: melhoria do serviço (\"para melhorar nossos produtos\").</li>\n<li><code>research</code>: pesquisa em sentido genérico (\"realizamos pesquisas\").</li>\n<li><code>human-subjects research</code>: pesquisa com seres humanos, no sentido da ética em pesquisa.</li>\n<li><code>social-good/community</code>: bem-estar da comunidade ou bem social.</li>\n</ul></li>\n<li><b>Evidência</b>: uma citação para cada enquadramento que você marcar.</li>\n</ul>\n<p><b>Cuidado com.</b></p>\n<ul>\n<li>Uma frase pode ter dois enquadramentos. \"Pesquisa que melhora nossos serviços\" é\n<code>service improvement</code> e <code>research</code> ao mesmo tempo.</li>\n<li>Se aparecer um enquadramento que não está na lista, anote em Notas.</li>\n</ul>\n<p>A opção de bem-estar da comunidade existe por um motivo histórico: foi esse o tipo de\njustificativa usado no estudo de contágio emocional de 2014.</p>",
+   "crit_html": "\n    <p>Marcar <b>todos</b> os enquadramentos que aparecem, com citação para cada. Co-ocorrência é comum: “research that improves our services” = <code>service improvement</code> + <code>research</code>.</p>\n    <p><code>social-good/community</code> captura linguagem de “bem-estar da comunidade” — ecoa a justificativa do estudo de contágio emocional de 2014.</p>",
+   "crit_sha": "bac8d56c51f6",
+   "campos": [
+    {
+     "chave": "v2_framing",
+     "rotulo": "Enquadramentos presentes",
+     "tipo": "checks",
+     "opcoes": [
+      "service improvement",
+      "research",
+      "human-subjects research",
+      "social-good/community"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v2_evidence",
+     "rotulo": "Evidência (uma citação por enquadramento)",
+     "tipo": "text",
+     "opcoes": [],
+     "placeholder": ""
+    }
+   ]
+  },
+  {
+   "vid": "V3",
+   "titulo": "Especificidade",
+   "regra_html": "Alvo <i>de experimento</i> ≠ personalização descrita como feature. Preço: cláusula de \"mispricing\" <b>não</b> conta como alvo.",
+   "pergunta": "O quanto a plataforma detalha o que testa?",
+   "lembrete": "Quatro perguntas separadas: o que é testado, quais alvos, se descreve um teste específico, e se o preço é alvo. Personalização não é alvo de teste.",
+   "guia_html": "\n<p><b>O que procurar.</b> O nível de detalhe com que a plataforma descreve os testes. São\nquatro perguntas separadas, e você pode responder sim a umas e não a outras.</p>\n<p><b>Como preencher.</b></p>\n<ul>\n<li><b>V3a, atividades ou superfícies nomeadas</b>: o texto diz <i>o que</i> é testado? Por\nexemplo, recursos, layout, ordem dos resultados. <code>Yes</code> ou <code>No</code>.</li>\n<li><b>V3b, alvos nomeados</b>: escreva os alvos de teste que o texto nomeia. A lista é\naberta: ordem dos resultados, preço, mensagem, emoção, fricção, opções padrão.</li>\n<li><b>V3c, experimento específico ou ativo divulgado</b>: o texto descreve algum teste em\nparticular, que está ou esteve acontecendo? <code>Yes</code> ou <code>No</code>.</li>\n<li><b>V3-pricing, preço nomeado como alvo</b>: o preço, ou a personalização do preço,\naparece como alvo de teste? <code>Yes</code> ou <code>No</code>.</li>\n<li><b>Evidência</b>: as frases que sustentam as respostas, com o nome do documento.</li>\n</ul>\n<p><b>Cuidado com.</b></p>\n<ul>\n<li>Alvo de teste não é personalização. \"Recomendamos conteúdo com base no que você\nassiste\" descreve uma funcionalidade, não um experimento.</li>\n<li>Cláusula sobre erro de preço (<i>mispricing</i>, quando um produto aparece com o preço\nerrado) não conta como preço testado.</li>\n<li>Se o preço aparecer como alvo só em documento não vinculante, marque <code>Yes</code> e\ndiga em Notas onde ele apareceu. Esta pergunta não tem campo próprio de registro.</li>\n</ul>",
+   "crit_html": "\n    <ul>\n      <li><b>V3a</b> — nomeia atividades/superfícies testadas? (ex.: “features”, “layout”, “ranking”)</li>\n      <li><b>V3b</b> — nomeia <b>alvos</b> de experimento? Lista aberta: ranking, preço, mensagem/copy, afeto/emoção, fricção, defaults… <b>Distinguir alvo de experimento de mera personalização declarada:</b> recomendação algorítmica descrita como feature ≠ alvo de experimento.</li>\n      <li><b>V3c</b> — divulga algum experimento <b>específico/ativo</b>?</li>\n      <li><b>V3-pricing</b> — preço/personalização de preço nomeado como alvo? Cláusula de <b>erro de precificação (mispricing) não conta</b>. Se preço aparecer só em registro não-vinculante, marcar Yes e anotar o registro em Notes — a flag não tem campo próprio de registro na v2 (limitação conhecida, candidata a v3).</li>\n    </ul>",
+   "crit_sha": "c8818742ca4b",
+   "campos": [
+    {
+     "chave": "v3_activities",
+     "rotulo": "V3a — atividades/superfícies nomeadas?",
+     "tipo": "select",
+     "opcoes": [
+      "",
+      "Yes",
+      "No"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v3_specific",
+     "rotulo": "V3c — experimento específico/ativo divulgado?",
+     "tipo": "select",
+     "opcoes": [
+      "",
+      "Yes",
+      "No"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v3_pricing",
+     "rotulo": "V3-pricing — preço nomeado como alvo?",
+     "tipo": "select",
+     "opcoes": [
+      "",
+      "Yes",
+      "No"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v3_targets",
+     "rotulo": "V3b — alvos nomeados",
+     "tipo": "line",
+     "opcoes": [],
+     "placeholder": "ranking, preço, mensagem, afeto…"
+    },
+    {
+     "chave": "v3_evidence",
+     "rotulo": "Evidência",
+     "tipo": "text",
+     "opcoes": [],
+     "placeholder": ""
+    }
+   ]
+  },
+  {
+   "vid": "V4",
+   "titulo": "Base legal",
+   "regra_html": "\"Not stated\" = nenhuma base declarada <b>para experimentação</b> (inferida da cláusula de melhoria). Se a tabela de bases não aparecer da sua vantagem (Brasil), marque <b>não-verificável</b> — não \"No\".",
+   "pergunta": "Com que base legal a plataforma usa dados para testar?",
+   "lembrete": "Ache a finalidade que cobre os testes (em geral, melhorar o serviço) e marque as bases declaradas para ela. Tabela ausente é not-verifiable, nunca No.",
+   "guia_html": "\n<p><b>O que procurar.</b> Pela lei europeia de proteção de dados (GDPR), a plataforma\nprecisa declarar o fundamento legal de cada uso que faz dos dados. Essa declaração costuma\nvir numa tabela de bases legais, dentro da política de privacidade ou num anexo dela.</p>\n<p>Quase nenhuma plataforma lista experimentação como finalidade. Por isso o caminho é\nindireto: ache a finalidade declarada que cobre os testes (em geral algo como \"melhorar\nnossos serviços\") e veja que base a plataforma declara para ela.</p>\n<p><b>Como preencher.</b></p>\n<ul>\n<li><b>Bases declaradas</b>: marque todas as bases declaradas para essa finalidade.<ul>\n<li><code>legitimate interest</code>: legítimo interesse. É a base que dispensa pedir\npermissão ao usuário; a plataforma só precisa fazer um teste interno de ponderação entre o\ninteresse dela e o do usuário.</li>\n<li><code>consent</code>: consentimento. O usuário concordou de forma explícita.</li>\n<li><code>contract</code>: execução de contrato. O uso é necessário para prestar o serviço\nque o usuário contratou.</li>\n<li><code>not stated</code>: a plataforma não declara nenhuma base para experimentação, e a\nbase só pode ser inferida da cláusula de melhoria do serviço.</li>\n</ul></li>\n<li><b>Finalidade mapeada como experimentação</b>: escreva qual finalidade declarada você\nentendeu como a que cobre os testes. Por exemplo, \"melhorar nossos serviços\".</li>\n<li><b>Tabela de bases geo-gated?</b><ul>\n<li><code>Yes</code>: a tabela de bases por finalidade só aparece para quem acessa da UE.</li>\n<li><code>No</code>: a tabela aparece normalmente nos documentos que você está lendo.</li>\n<li><code>not-verifiable (vantage)</code>: não foi possível verificar. É diferente de\n<code>No</code>.</li>\n</ul></li>\n<li><b>Evidência</b>: a linha da tabela, ou a frase, que liga a finalidade à base legal.</li>\n</ul>\n<p><b>Cuidado com.</b></p>\n<ul>\n<li>Os documentos deste notebook foram capturados de dentro da UE. Com eles dá para ver se\na tabela está presente, mas não se ela some para quem acessa de fora. Se a tabela está nos\ndocumentos, a resposta pela definição é <code>No</code>. Se ela não está, marque\n<code>not-verifiable (vantage)</code>, nunca <code>No</code>.</li>\n<li>Se o documento de que você precisa estiver ilegível ou faltando, escreva isso na\nevidência e em Notas. Não procure outra versão na internet: ler um texto diferente do\ncongelado cria uma divergência que não é sua.</li>\n</ul>",
+   "crit_html": "\n    <p>Multi-seleção. <code>not stated</code> = não declarada <b>para experimentação</b>; inferida da cláusula de melhoria.</p>\n    <p>Registrar também <b>qual finalidade declarada</b> você mapeou como cobrindo experimentação (ex.: “improve services”), e se a tabela de bases por finalidade só carrega de IP/locale da UE.</p>\n    <p><b>Atenção de vantagem:</b> leia os documentos do manifesto — mesmas URLs e datas da 1ª passada. Link morto ou conteúdo visivelmente mudado: <b>registrar e pular o campo</b>. Não substituir por versão diferente do documento; isso criaria divergência espúria.</p>",
+   "crit_sha": "990413ff6366",
+   "campos": [
+    {
+     "chave": "v4_basis",
+     "rotulo": "Bases declaradas (multi)",
+     "tipo": "checks",
+     "opcoes": [
+      "legitimate interest",
+      "consent",
+      "contract",
+      "not stated"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v4_mapped_purpose",
+     "rotulo": "Finalidade mapeada como experimentação",
+     "tipo": "line",
+     "opcoes": [],
+     "placeholder": "ex.: improve services"
+    },
+    {
+     "chave": "v4_region_gated",
+     "rotulo": "Tabela de bases geo-gated?",
+     "tipo": "select",
+     "opcoes": [
+      "",
+      "Yes",
+      "No",
+      "not-verifiable (vantage)"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v4_evidence",
+     "rotulo": "Evidência",
+     "tipo": "text",
+     "opcoes": [],
+     "placeholder": ""
+    }
+   ]
+  },
+  {
+   "vid": "V5",
+   "titulo": "Opt-out de experimentação",
+   "regra_html": "Escada. <b>Escopo estrito à experimentação</b> — banner de cookies que rege ads/medição = \"cookie/ads-only\", não \"dedicated\".",
+   "pergunta": "O usuário pode ficar fora dos experimentos?",
+   "lembrete": "Um nível, e só sobre experimentação. Banner de cookies que rege publicidade é cookie/ads-only, não dedicated.",
+   "guia_html": "\n<p><b>O que procurar.</b> Se o usuário tem algum jeito de ficar fora dos experimentos, e de\nque tipo. A pergunta é só sobre experimentação: controle sobre publicidade ou sobre\ncookies de medição não conta como saída de experimento.</p>\n<p><b>Como preencher.</b></p>\n<ul>\n<li><b>Nível</b>: escolha um. Os níveis estão em ordem, do nenhum controle até a\nparticipação só por adesão.<ul>\n<li><code>none</code>: nenhum controle.</li>\n<li><code>GDPR-objection-only</code>: só o direito genérico de se opor ao uso dos dados,\nprevisto no Art. 21 do GDPR. Esse direito vale para qualquer uso baseado em legítimo\ninteresse; não existe um controle específico para experimentos.</li>\n<li><code>cookie/ads-only</code>: existe um banner ou painel de consentimento, mas ele\ncontrola publicidade e medição, não experimentação.</li>\n<li><code>dedicated</code>: existe uma opção específica para sair dos experimentos.</li>\n<li><code>opt-in</code>: a pessoa só participa de experimentos se aderir.</li>\n</ul></li>\n<li><b>Evidência</b>: a frase que descreve o controle, com o nome do documento.</li>\n</ul>\n<p><b>Cuidado com.</b></p>\n<ul>\n<li>O falso positivo clássico é o banner de cookies. Ele parece uma forma de sair, mas rege\npublicidade e medição. Isso é <code>cookie/ads-only</code>, não <code>dedicated</code>.</li>\n<li>Desligar cookies de analytics não é sair de um experimento.</li>\n</ul>",
+   "crit_html": "\n    <p><b>Escada:</b> <code>none</code> → <code>GDPR-objection-only</code> (só o direito genérico de objeção do Art. 21, sem controle específico de experimento) → <code>cookie/ads-only</code> (banner existe, mas governa ads/medição, não experimentação) → <code>dedicated</code> (opt-out específico de experimentação) → <code>opt-in</code>.</p>\n    <p><b>Escopo estrito à experimentação.</b> Controle de cookies de analytics não é opt-out de experimento. <b>Falso positivo clássico:</b> banner de consentimento parece opt-out mas rege publicidade.</p>",
+   "crit_sha": "b7b90f255219",
+   "campos": [
+    {
+     "chave": "v5_optout",
+     "rotulo": "Nível",
+     "tipo": "select",
+     "opcoes": [
+      "",
+      "none",
+      "GDPR-objection-only",
+      "cookie/ads-only",
+      "dedicated",
+      "opt-in"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v5_evidence",
+     "rotulo": "Evidência",
+     "tipo": "text",
+     "opcoes": [],
+     "placeholder": ""
+    }
+   ]
+  },
+  {
+   "vid": "V6",
+   "titulo": "Opt-in beta/teste",
+   "regra_html": "Eixo ortogonal — <b>não mitiga o V5</b>.",
+   "pergunta": "Existe um programa em que o usuário se inscreve para testar novidades antes dos outros?",
+   "lembrete": "Beta por adesão é diferente da V5: não é saída dos experimentos, e as duas variáveis nunca se somam.",
+   "guia_html": "\n<p><b>O que procurar.</b> Programas em que o usuário se inscreve, por vontade própria, para\ntestar novidades antes dos outros. Exemplos: TestFlight, Search Labs, canais beta.</p>\n<p><b>Como preencher.</b></p>\n<ul>\n<li><b>Existe programa opt-in?</b> <code>Yes</code> ou <code>No</code>.</li>\n<li><b>Qual</b>: o nome do programa e como ele funciona, em uma linha.</li>\n</ul>\n<p><b>Cuidado com.</b> Um programa beta não é uma saída dos experimentos. Quem se inscreve\nganha acesso antecipado; todos os outros usuários continuam nos testes de rotina. Por isso\nesta variável é separada da V5, e as duas nunca se somam.</p>",
+   "crit_html": "\n    <p>TestFlight, Search Labs, canais beta etc.</p>\n    <p><b>Eixo ortogonal.</b> Inscreve voluntários em acesso antecipado a features; <b>não mitiga o V5</b> — os demais usuários continuam nos experimentos de rotina. <b>Nunca somar V6 com V5.</b></p>",
+   "crit_sha": "8b0b6ac097ca",
+   "campos": [
+    {
+     "chave": "v6_optin_beta",
+     "rotulo": "Existe programa opt-in?",
+     "tipo": "select",
+     "opcoes": [
+      "",
+      "Yes",
+      "No"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v6_which",
+     "rotulo": "Qual (nome + como funciona)",
+     "tipo": "line",
+     "opcoes": [],
+     "placeholder": "ex.: Search Labs; TestFlight"
+    }
+   ]
+  },
+  {
+   "vid": "V7",
+   "titulo": "Debriefing",
+   "regra_html": "<b>Excluir:</b> aviso de processamento, decisão automatizada, mudança de serviço — nenhum é debriefing.",
+   "pergunta": "A plataforma avisa, depois, que a pessoa participou de um experimento?",
+   "lembrete": "Aviso de tratamento de dados, de decisão automatizada ou de mudança no serviço não é debriefing. Se for No, diga qual dos dois casos.",
+   "guia_html": "\n<p><b>O que procurar.</b> Debriefing no sentido da ética em pesquisa: um aviso, depois do\nfato, de que a pessoa participou de um experimento.</p>\n<p><b>Como preencher.</b></p>\n<ul>\n<li><b>Debriefing existe?</b> <code>Yes</code> ou <code>No</code>.</li>\n<li><b>Evidência / justificativa do No</b>: se for <code>Yes</code>, a frase e o documento.\nSe for <code>No</code>, diga qual dos dois casos você encontrou e aponte o log de\npalavras-chave, que mostra o que foi procurado.</li>\n</ul>\n<p><b>Os dois casos de No.</b> O documento pode tratar do assunto e não oferecer o aviso,\nou o assunto pode nunca aparecer. Pelo texto não dá para saber se a plataforma considerou o\ndebriefing e descartou, ou se nunca pensou nele. Por isso basta registrar qual dos dois\ncasos é, na evidência ou em Notas.</p>\n<p><b>Cuidado com.</b> Três avisos parecem debriefing e não são. Os três apareceram como\nfalso positivo no piloto:</p>\n<ul>\n<li>aviso de que seus dados são tratados;</li>\n<li>aviso de que uma decisão automatizada foi tomada sobre você;</li>\n<li>aviso de que o serviço mudou.</li>\n</ul>",
+   "crit_html": "\n    <p>Aviso <i>posterior</i> de que a pessoa participou de um experimento.</p>\n    <p><b>Excluir explicitamente</b> (falsos positivos vistos no piloto): aviso de processamento; aviso de decisão automatizada; aviso de mudança de serviço. Nenhum deles é debriefing.</p>\n    <p><b>Ausência tem dois sabores.</b> “No” substantivo — o documento trata do tema e nega/omite o mecanismo — é diferente de “não endereçado no registro”, em que o tema nunca é contemplado. Na dúvida, registre “No” e anote a distinção em Notes: não dá para distinguir “considerado e rejeitado” de “nunca pensado” só pelo texto.</p>",
+   "crit_sha": "27eaf0796fa9",
+   "campos": [
+    {
+     "chave": "v7_debrief",
+     "rotulo": "Debriefing existe?",
+     "tipo": "select",
+     "opcoes": [
+      "",
+      "Yes",
+      "No"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v7_evidence",
+     "rotulo": "Evidência / justificativa do No (aponte o log)",
+     "tipo": "text",
+     "opcoes": [],
+     "placeholder": ""
+    }
+   ]
+  },
+  {
+   "vid": "V8",
+   "titulo": "Ética / revisão / risco",
+   "regra_html": "Linguagem borderline de \"impacto\" = No com nota. Risk assessment do DSA (regulador) não vira Yes.",
+   "pergunta": "Os documentos ao usuário mencionam revisão ética, comitê ou avaliação de risco de experimentos?",
+   "lembrete": "Linguagem vaga de impacto é No com nota. Avaliação de risco do DSA que não está nos documentos ao usuário também é No.",
+   "guia_html": "\n<p><b>O que procurar.</b> Alguma menção, nos documentos voltados ao usuário, a revisão\nética, comitê de ética ou avaliação de risco <i>de experimentos</i>.</p>\n<p><b>Como preencher.</b></p>\n<ul>\n<li><b>Menção a ética/revisão/risco para experimentos?</b> <code>Yes</code> ou <code>No</code>.</li>\n<li><b>Nota</b>: casos de fronteira, e diferenças entre o que a lei exige e o que o\ndocumento diz.</li>\n</ul>\n<p><b>Cuidado com.</b></p>\n<ul>\n<li>Linguagem vaga sobre \"impacto\" (por exemplo, \"impacto sobre você e outras pessoas\"\nligado ao encerramento de um serviço) é <code>No</code>, com nota.</li>\n<li>O Digital Services Act (Arts. 34 e 35) obriga as grandes plataformas a avaliar riscos\nsistêmicos. Essas avaliações existem por obrigação legal, mas não são documentos ao\nusuário. Se a avaliação de risco não aparece nos documentos ao usuário, a resposta é\n<code>No</code>. Anote como diferença entre a obrigação regulatória e o que o documento diz.</li>\n<li>\"Code of Ethics\" no menu ou no rodapé é código de conduta da empresa, não revisão ética\nde experimento. Avaliação de risco antifraude, no pagamento, também não conta. A busca por\npalavra-chave mostra esses trechos com aviso.</li>\n<li>Os dois casos de No da V7 valem aqui também.</li>\n</ul>",
+   "crit_html": "\n    <p>Menção, nos documentos ao usuário, a revisão ética, comitê/board, ou avaliação de risco <b>para experimentos</b>.</p>\n    <p>Linguagem borderline de “impacto” (ex.: “impact on you and others” atada a descontinuação de serviço) = <b>No com nota</b>.</p>\n    <p>Avaliações de risco sistêmico do DSA existem por obrigação regulatória, mas se não estão nos documentos ao consumidor <b>não viram Yes</b> — registrar como nota de gap regulatório-vs-documento.</p>\n    <p><b>Ausência tem dois sabores</b> — mesma regra do V7.</p>",
+   "crit_sha": "a65d7654af6a",
+   "campos": [
+    {
+     "chave": "v8_ethics",
+     "rotulo": "Menção a ética/revisão/risco para experimentos?",
+     "tipo": "select",
+     "opcoes": [
+      "",
+      "Yes",
+      "No"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v8_note",
+     "rotulo": "Nota (borderlines, gap regulatório)",
+     "tipo": "text",
+     "opcoes": [],
+     "placeholder": ""
+    }
+   ]
+  },
+  {
+   "vid": "V9",
+   "titulo": "Onde divulgado",
+   "regra_html": "Separe <span class=\"reg-binding\">registro legal</span> de URL/hosting — binding servido em URL de help continua binding.",
+   "pergunta": "Em que tipos de documento a plataforma fala de experimentação?",
+   "lembrete": "Marque todos os locais. Vinculante se decide pela função do documento, não pelo endereço da página.",
+   "guia_html": "\n<p><b>O que procurar.</b> Os tipos de documento em que a plataforma fala de experimentação.</p>\n<p><b>Como preencher.</b></p>\n<ul>\n<li><b>Locais</b>: marque todos os tipos de documento onde a divulgação aparece.<ul>\n<li><code>privacy policy</code>: política de privacidade.</li>\n<li><code>ToS/conditions</code>: termos de uso ou condições.</li>\n<li><code>research notice separado</code>: um aviso próprio sobre pesquisa, separado da política.</li>\n<li><code>help centre</code>: central de ajuda.</li>\n<li><code>blog/PR/site de pesquisa</code>: blog, notícia ou site institucional de pesquisa.</li>\n</ul></li>\n<li><b>Registro agregado</b>: no conjunto, a divulgação está em documento vinculante\n(<code>binding</code>), não vinculante (<code>non-binding</code>) ou nos dois (<code>both</code>)?</li>\n<li><b>Evidência / observações</b>: onde está cada uma, e qualquer observação.</li>\n</ul>\n<p><b>Cuidado com.</b> O que torna um documento vinculante é a função legal dele, não o\nendereço da página. Uma política de privacidade publicada dentro da central de ajuda\ncontinua vinculante. Um site institucional que explica como o produto funciona não é. Na\ndúvida, pergunte: o documento se declara parte do acordo com o usuário?</p>",
+   "crit_html": "\n    <p>Multi-seleção de locais + registro agregado.</p>\n    <p><b>Registro ≠ hospedagem.</b> O que torna um documento vinculante é sua função legal, não a URL. O Privacy Notice da Amazon é servido sob URL de <code>/help/</code> e é vinculante; o “How Search Works” do Google é um microsite institucional e não é. Em caso de dúvida: <i>o documento se declara parte do acordo com o usuário?</i></p>",
+   "crit_sha": "147540427538",
+   "campos": [
+    {
+     "chave": "v9_where",
+     "rotulo": "Locais (multi)",
+     "tipo": "checks",
+     "opcoes": [
+      "privacy policy",
+      "ToS/conditions",
+      "research notice separado",
+      "help centre",
+      "blog/PR/site de pesquisa"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v9_register",
+     "rotulo": "Registro agregado",
+     "tipo": "select",
+     "opcoes": [
+      "",
+      "binding",
+      "non-binding",
+      "both"
+     ],
+     "placeholder": ""
+    },
+    {
+     "chave": "v9_evidence",
+     "rotulo": "Evidência / observações",
+     "tipo": "text",
+     "opcoes": [],
+     "placeholder": ""
+    }
+   ]
+  },
+  {
+   "vid": "KW",
+   "titulo": "Log de palavras-chave (obrigatório)",
+   "regra_html": "Por documento, hits de cada termo (triados — só sentido experimental). É o que torna cada \"No\" auditável.",
+   "pergunta": "O que a busca por palavra-chave encontrou, depois da sua triagem?",
+   "lembrete": "O log já vem com a contagem bruta. Corrija os números, tirando o que você descartou como falso positivo.",
+   "guia_html": "\n<p><b>O que é.</b> Este passo registra o que a busca por palavra-chave encontrou, depois da\nsua triagem. Não há nada novo para procurar.</p>\n<p><b>Como preencher.</b> O campo <b>Log</b> já vem preenchido com a contagem bruta de cada\ntermo, documento por documento, no formato <code>termo:número</code>. Corrija os números:\ntire as ocorrências que você descartou como falso positivo e deixe só as que têm sentido de\nexperimentação.</p>\n<p><b>Por que é obrigatório.</b> O log torna cada No verificável. Sem ele, \"procurei e não\nachei\" e \"não procurei\" ficam iguais no dado.</p>",
+   "crit_html": "",
+   "crit_sha": null,
+   "campos": [
+    {
+     "chave": "keyword_log",
+     "rotulo": "Log",
+     "tipo": "text",
+     "opcoes": [],
+     "placeholder": "PP: experiment:0 / A-B:0 / test:2 (1 excluído, 'contest') ToS: …"
+    }
+   ]
+  }
+ ],
+ "termos": [
+  {
+   "term": "experiment",
+   "label": "experiment",
+   "flag": null
+  },
+  {
+   "term": "A-B",
+   "label": "A-B",
+   "flag": null
+  },
+  {
+   "term": "randomize",
+   "label": "randomize",
+   "flag": null
+  },
+  {
+   "term": "test",
+   "label": "test",
+   "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental"
+  },
+  {
+   "term": "trial",
+   "label": "trial",
+   "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)"
+  },
+  {
+   "term": "beta",
+   "label": "beta",
+   "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle"
+  },
+  {
+   "term": "control group",
+   "label": "control group",
+   "flag": null
+  },
+  {
+   "term": "debrief",
+   "label": "debrief",
+   "flag": null
+  },
+  {
+   "term": "ethics",
+   "label": "ethics",
+   "flag": "falso positivo comum: 'code of ethics' / conduta empresarial no menu ou rodapé NÃO é revisão ética de experimento (ver V8)"
+  },
+  {
+   "term": "review board",
+   "label": "review board",
+   "flag": null
+  },
+  {
+   "term": "IRB",
+   "label": "IRB",
+   "flag": null
+  },
+  {
+   "term": "risk assessment",
+   "label": "risk assessment",
+   "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)"
+  }
+ ],
+ "termo_para_variavel": {
+  "experiment": [
+   "V1",
+   "V3"
+  ],
+  "A-B": [
+   "V1",
+   "V3"
+  ],
+  "randomize": [
+   "V1",
+   "V3"
+  ],
+  "control group": [
+   "V1",
+   "V3"
+  ],
+  "test": [
+   "V1",
+   "V6"
+  ],
+  "trial": [
+   "V1",
+   "V6"
+  ],
+  "beta": [
+   "V6"
+  ],
+  "debrief": [
+   "V7"
+  ],
+  "ethics": [
+   "V8"
+  ],
+  "review board": [
+   "V8"
+  ],
+  "IRB": [
+   "V8"
+  ],
+  "risk assessment": [
+   "V8"
+  ]
+ },
+ "regras_gerais_html": "<h3>Cinco regras que valem para todas as variáveis</h3><ol><li><b>Codifique só pelo que está escrito</b> nos documentos congelados desta página. O que você sabe da plataforma por outras fontes não entra.</li><li><b>Evidência é a frase exata</b> copiada do documento, com o nome do documento de onde ela veio. O botão \"usar como evidência\" faz isso por você.</li><li><b>Vinculante ou não vinculante se decide pela função do documento.</b> Política de privacidade, termos de uso, aviso de cookies e tabela de bases legais são vinculantes. Blog, central de ajuda e páginas de pesquisa não são. Na dúvida, pergunte se o documento se declara parte do acordo com o usuário.</li><li><b>No tem dois casos.</b> O documento pode tratar do assunto e não oferecer o mecanismo, ou o assunto pode nunca aparecer. Nos dois casos a resposta é No; diga na evidência qual dos dois é.</li><li><b>Dúvida sobre a regra não trava o trabalho.</b> Codifique a sua melhor leitura e anote a dúvida no campo Notas, no fim da tela. A discussão acontece depois, quando as duas codificações forem comparadas.</li></ol>",
+ "ajuda_valores": {
+  "v1_code:0": "Nenhum reconhecimento, nem de “melhorar”.",
+  "v1_code:1": "Só linguagem de “melhorar/aprimorar o serviço”; nem “testar”.",
+  "v1_code:2": "Reconhece testar usuários, mas não nomeia o método.",
+  "v1_code:3": "Nomeia experimento / teste A/B / randomização explicitamente.",
+  "v1_register:binding": "Política de privacidade/notice, termos/condições de uso, aviso de cookies e anexo/tabela de bases legais. O conjunto autoritativo.",
+  "v1_register:non-binding": "Páginas de ajuda, blogs de engenharia, PR e sites corporativos de pesquisa. Entram na codificação, mas nunca como se fossem o contrato.",
+  "v1_register:both": "O teto aparece nos dois registros.",
+  "v2_framing:research": "Pesquisa em sentido genérico.",
+  "v2_framing:social-good/community": "Captura linguagem de “bem-estar da comunidade”. Ecoa a justificativa do estudo de contágio emocional de 2014.",
+  "v4_basis:not stated": "Não declarada para experimentação; inferida da cláusula de melhoria.",
+  "v4_region_gated:Yes": "A tabela de bases por finalidade só carrega de IP/locale da UE.",
+  "v4_region_gated:No": "A tabela carrega normalmente da sua vantagem de captura.",
+  "v4_region_gated:not-verifiable (vantage)": "Não deu para verificar da sua vantagem: diferente de “No”. É excluído do pareamento no cálculo de concordância.",
+  "v5_optout:none": "Nenhum controle.",
+  "v5_optout:GDPR-objection-only": "Só o direito genérico de objeção do Art. 21, sem controle específico de experimento.",
+  "v5_optout:cookie/ads-only": "Banner existe, mas governa ads/medição, não experimentação.",
+  "v5_optout:dedicated": "Opt-out específico de experimentação.",
+  "v5_optout:opt-in": "Participação só por adesão."
+ },
+ "ajuda_campos": {
+  "v1_code": "Codifique o nível de teto: o mais alto encontrado em qualquer registro.",
+  "v2_framing": "Marcar todos que aparecem, com citação para cada. Co-ocorrência é comum: “research that improves our services” = os dois primeiros.",
+  "v5_optout": "Escopo estrito à experimentação. Controle de cookies de analytics não é opt-out de experimento.",
+  "v9_where": "Separar registro legal de URL/hosting."
+ }
+}

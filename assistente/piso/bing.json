@@ -1,0 +1,596 @@
+{
+ "servico": "Bing",
+ "slug": "bing",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "bing/01-gb-servicesagreement.md",
+   "url": "https://www.microsoft.com/en-gb/servicesagreement/",
+   "chars": 121376,
+   "titulo": "Microsoft Services Agreement",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 7,
+    "beta": 2,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:7 / beta:2 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "bing/02-gb-privacy-privacystatement.md",
+   "url": "https://www.microsoft.com/en-gb/privacy/privacystatement",
+   "chars": 213640,
+   "titulo": "Microsoft Privacy Statement – Microsoft privacy",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 1,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "bing/03-us-bing-about-microsoft-privacy-and-security-policy.md",
+   "url": "https://support.microsoft.com/en-us/bing/about-microsoft-privacy-and-security-policy",
+   "chars": 3621,
+   "titulo": "About Microsoft privacy and security policy | Microsoft Support",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+   "url": "https://blogs.bing.com/search-quality-insights/June-2013/Experimentation-and-Continuous-Improvement-at-Bing/",
+   "chars": 10883,
+   "titulo": "Experimentation and Continuous Improvement at Bing | Search Quality...",
+   "counts": {
+    "experiment": 21,
+    "A-B": 4,
+    "randomize": 0,
+    "test": 3,
+    "trial": 0,
+    "beta": 0,
+    "control group": 1,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:21 / A-B:4 / randomize:0 / test:3 / trial:0 / beta:0 / control group:1 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+   "url": "https://blogs.bing.com/search-quality-insights/August-2013/Large-Scale-Experimentation-at-Bing",
+   "chars": 7651,
+   "titulo": "Large Scale Experimentation at Bing | Search Quality Insights",
+   "counts": {
+    "experiment": 37,
+    "A-B": 3,
+    "randomize": 0,
+    "test": 6,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:37 / A-B:3 / randomize:0 / test:6 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
+   "url": "https://support.microsoft.com/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3",
+   "chars": 48551,
+   "titulo": "How Bing delivers search results | Microsoft Support",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 14,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:14 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V6": [
+   {
+    "termo": "beta",
+    "kwic": "…ustomer support, subject to additional terms. Support may not be available for preview or beta versions of features or Services. Support may not be available for preview or beta versio…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "bing/01-gb-servicesagreement.md",
+    "n": 1,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "beta",
+    "kwic": "…iew or beta versions of features or Services. Support may not be available for preview or beta versions of features or Services. Availability of Support may vary based on the stage of…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "bing/01-gb-servicesagreement.md",
+    "n": 1,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "trial",
+    "kwic": "…rvice and/or revoke any content that was provided to you in exchange for such payment. h. Trial-Period Offers. If you are taking part in any trial-period offer, you may be required to c…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "bing/01-gb-servicesagreement.md",
+    "n": 1,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "trial",
+    "kwic": "…o you in exchange for such payment. h. Trial-Period Offers. If you are taking part in any trial-period offer, you may be required to cancel the trial Service(s) within the timeframe com…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "bing/01-gb-servicesagreement.md",
+    "n": 1,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "trial",
+    "kwic": "…fers. If you are taking part in any trial-period offer, you may be required to cancel the trial Service(s) within the timeframe communicated to you when you accepted the offer in order…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "bing/01-gb-servicesagreement.md",
+    "n": 1,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…t to the EAA are designed to conform to accessibility standard ETSI EN 301 549. Microsoft tests covered Services to assess conformance to the standard. Descriptions of individual Servic…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/01-gb-servicesagreement.md",
+    "n": 1,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "beta",
+    "kwic": "…c data. Back to top Preview or free-of-charge releases Microsoft offers preview, insider, beta or other free-of-charge products and features (\"previews\") to enable you to evaluate them…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "bing/02-gb-privacy-privacystatement.md",
+    "n": 2,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…sions of Bing, one option is to do a controlled experiment, which is also known as an A/B test. Each person in the experiment is assigned either to a control group that sees system A o…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…user responses correspond to improvements in user satisfaction. An alternative to an A/B test is called a paired comparison, where everybody is shown a mix of the results produced by…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…ck Craswell and Dr. Filip Radlinski, Applied Research, Bing R&D [ 1] M. Sanderson (2012). Test Collection Based Evaluation of Information Retrieval Systems . Vol. 4. No. 4. Foundations…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…aby is ugly. What is an online controlled experiment? In its simplest form, called an A/B test , we randomly split our users into two groups as shown in the diagram below. Their experi…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "test",
+    "kwic": "…ics for the users in the treatment versus the control and determine, based on statistical tests, if the difference is large enough to be unlikely to be seen by chance, i.e., statistical…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "test",
+    "kwic": "…wing the Customer Development Process championed by Steve Blank. A real example of an A/B test is as follows. We wanted to add a feature allowing advertisers to provide links to the ta…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "test",
+    "kwic": "…help users to efficiently make shopping decisions. These features are designed, built and tested in accordance of Microsoft Responsible AI standard. Since LLMs can occasionally make mist…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
+    "n": 6,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "test",
+    "kwic": "…analyses of GPT-4 in the late summer of 2022. This included conducting extensive red team testing in collaboration with OpenAI. This testing was designed to assess how the latest technolo…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
+    "n": 6,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "test",
+    "kwic": "…2. This included conducting extensive red team testing in collaboration with OpenAI. This testing was designed to assess how the latest technology would work without any additional safegu…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
+    "n": 6,
+    "total_no_doc": 14
+   }
+  ],
+  "V1": [
+   {
+    "termo": "trial",
+    "kwic": "…rvice and/or revoke any content that was provided to you in exchange for such payment. h. Trial-Period Offers. If you are taking part in any trial-period offer, you may be required to c…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "bing/01-gb-servicesagreement.md",
+    "n": 1,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "trial",
+    "kwic": "…o you in exchange for such payment. h. Trial-Period Offers. If you are taking part in any trial-period offer, you may be required to cancel the trial Service(s) within the timeframe com…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "bing/01-gb-servicesagreement.md",
+    "n": 1,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "trial",
+    "kwic": "…fers. If you are taking part in any trial-period offer, you may be required to cancel the trial Service(s) within the timeframe communicated to you when you accepted the offer in order…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "bing/01-gb-servicesagreement.md",
+    "n": 1,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…t to the EAA are designed to conform to accessibility standard ETSI EN 301 549. Microsoft tests covered Services to assess conformance to the standard. Descriptions of individual Servic…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/01-gb-servicesagreement.md",
+    "n": 1,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Experimentation and Continuous Improvement at Bing | Search Quality... Skip to content Menu This is a pla…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 21
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ustralia Canada China France Germany India Japan UK Follow us: Subscribe RSS June 12 2013 Experimentation and Continuous Improvement at Bing One technical problem in Web search is how best to mea…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 21
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…d their online feedback to identify the true intent. Meanwhile it is difficult for online experiments to detect subtle issues with page quality. People who see slightly the wrong page or the…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 21
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…versions of Bing, one option is to do a controlled experiment, which is also known as an A/B test. Each person in the experiment is assigned either to a control group that sees syste…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…sions of Bing, one option is to do a controlled experiment, which is also known as an A/B test. Each person in the experiment is assigned either to a control group that sees system A o…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "control group",
+    "kwic": "…which is also known as an A/B test. Each person in the experiment is assigned either to a control group that sees system A or a treatment group that sees system B. We then measure the responses…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…s in user responses correspond to improvements in user satisfaction. An alternative to an A/B test is called a paired comparison, where everybody is shown a mix of the results produce…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…user responses correspond to improvements in user satisfaction. An alternative to an A/B test is called a paired comparison, where everybody is shown a mix of the results produced by…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ference means that a paired experiment can reach its conclusion much more quickly than an A/B experiment. Another advantage of combining A and B is that it avoids the downside if one…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…ck Craswell and Dr. Filip Radlinski, Applied Research, Bing R&D [ 1] M. Sanderson (2012). Test Collection Based Evaluation of Information Retrieval Systems . Vol. 4. No. 4. Foundations…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Large Scale Experimentation at Bing | Search Quality Insights Skip to content Menu This is a place devoted to giving…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…da China France Germany India Japan UK Follow us: Subscribe RSS August 8 2013 Large Scale Experimentation at Bing Experimenting at large scale is fundamental for improving Bing. Last June, we pub…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…India Japan UK Follow us: Subscribe RSS August 8 2013 Large Scale Experimentation at Bing Experimenting at large scale is fundamental for improving Bing. Last June, we published a blog in this…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ew baby is ugly. What is an online controlled experiment? In its simplest form, called an A/B test , we randomly split our users into two groups as shown in the diagram below. Their e…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…aby is ugly. What is an online controlled experiment? In its simplest form, called an A/B test , we randomly split our users into two groups as shown in the diagram below. Their experi…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "test",
+    "kwic": "…ics for the users in the treatment versus the control and determine, based on statistical tests, if the difference is large enough to be unlikely to be seen by chance, i.e., statistical…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ollowing the Customer Development Process championed by Steve Blank. A real example of an A/B test is as follows. We wanted to add a feature allowing advertisers to provide links to t…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…wing the Customer Development Process championed by Steve Blank. A real example of an A/B test is as follows. We wanted to add a feature allowing advertisers to provide links to the ta…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 6
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…the Four Steps to the Epiphany and the Startup Owner’s Manual . Deploy all software as an A/B test, assess the value of your ideas, test everything. Years of experience went into Micr…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…help users to efficiently make shopping decisions. These features are designed, built and tested in accordance of Microsoft Responsible AI standard. Since LLMs can occasionally make mist…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
+    "n": 6,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "test",
+    "kwic": "…analyses of GPT-4 in the late summer of 2022. This included conducting extensive red team testing in collaboration with OpenAI. This testing was designed to assess how the latest technolo…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
+    "n": 6,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "test",
+    "kwic": "…2. This included conducting extensive red team testing in collaboration with OpenAI. This testing was designed to assess how the latest technology would work without any additional safegu…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "bing/06-topic-how-bing-delivers-search-results-d18fc815-ac37.md",
+    "n": 6,
+    "total_no_doc": 14
+   }
+  ],
+  "V3": [
+   {
+    "termo": "experiment",
+    "kwic": "Experimentation and Continuous Improvement at Bing | Search Quality... Skip to content Menu This is a pla…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 21
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ustralia Canada China France Germany India Japan UK Follow us: Subscribe RSS June 12 2013 Experimentation and Continuous Improvement at Bing One technical problem in Web search is how best to mea…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 21
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…d their online feedback to identify the true intent. Meanwhile it is difficult for online experiments to detect subtle issues with page quality. People who see slightly the wrong page or the…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 21
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…versions of Bing, one option is to do a controlled experiment, which is also known as an A/B test. Each person in the experiment is assigned either to a control group that sees syste…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "control group",
+    "kwic": "…which is also known as an A/B test. Each person in the experiment is assigned either to a control group that sees system A or a treatment group that sees system B. We then measure the responses…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…s in user responses correspond to improvements in user satisfaction. An alternative to an A/B test is called a paired comparison, where everybody is shown a mix of the results produce…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ference means that a paired experiment can reach its conclusion much more quickly than an A/B experiment. Another advantage of combining A and B is that it avoids the downside if one…",
+    "flag": null,
+    "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Large Scale Experimentation at Bing | Search Quality Insights Skip to content Menu This is a place devoted to giving…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…da China France Germany India Japan UK Follow us: Subscribe RSS August 8 2013 Large Scale Experimentation at Bing Experimenting at large scale is fundamental for improving Bing. Last June, we pub…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…India Japan UK Follow us: Subscribe RSS August 8 2013 Large Scale Experimentation at Bing Experimenting at large scale is fundamental for improving Bing. Last June, we published a blog in this…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ew baby is ugly. What is an online controlled experiment? In its simplest form, called an A/B test , we randomly split our users into two groups as shown in the diagram below. Their e…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ollowing the Customer Development Process championed by Steve Blank. A real example of an A/B test is as follows. We wanted to add a feature allowing advertisers to provide links to t…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…the Four Steps to the Epiphany and the Startup Owner’s Manual . Deploy all software as an A/B test, assess the value of your ideas, test everything. Years of experience went into Micr…",
+    "flag": null,
+    "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
+    "n": 5,
+    "total_no_doc": 3
+   }
+  ]
+ },
+ "log_sugerido": "01-gb-servicesagreement.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:7 / beta:2 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-gb-privacy-privacystatement.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-us-bing-about-microsoft-privacy-and-security-policy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-search-quality-insights-june-2013-experimentation-an.md: experiment:21 / A-B:4 / randomize:0 / test:3 / trial:0 / beta:0 / control group:1 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-search-quality-insights-august-2013-large-scale-expe.md: experiment:37 / A-B:3 / randomize:0 / test:6 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-topic-how-bing-delivers-search-results-d18fc815-ac37.md: experiment:0 / A-B:0 / randomize:0 / test:14 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

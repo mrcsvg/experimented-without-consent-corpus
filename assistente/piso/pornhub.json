@@ -1,0 +1,490 @@
+{
+ "servico": "Pornhub",
+ "slug": "pornhub",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "pornhub/01-information-privacy.md",
+   "url": "https://www.pornhub.com/information/privacy",
+   "chars": 45324,
+   "titulo": "Privacy Notice | Pornhub.com",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 1,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "pornhub/02-pornhub-information-privacy.md",
+   "url": "http://web.archive.org/web/20260702023921/https://www.pornhub.com/information/privacy",
+   "chars": 45496,
+   "titulo": "Privacy Notice | Pornhub.com",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 1,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "pornhub/03-information-terms.md",
+   "url": "https://www.pornhub.com/information/terms",
+   "chars": 111023,
+   "titulo": "Terms Of Service | Pornhub.com",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 2,
+    "beta": 1,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:2 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "pornhub/04-pornhub-information-terms.md",
+   "url": "http://web.archive.org/web/20260630121901/https://www.pornhub.com/information/terms",
+   "chars": 110956,
+   "titulo": "Terms Of Service | Pornhub.com",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 2,
+    "beta": 1,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:2 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "pornhub/05-information-cookie-notice.md",
+   "url": "https://www.pornhub.com/information/cookie-notice",
+   "chars": 34242,
+   "titulo": "Cookie Notice | Pornhub.com",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 1,
+    "test": 0,
+    "trial": 5,
+    "beta": 1,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:1 / test:0 / trial:5 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "pornhub/06-pornhub-information-cookie-notice.md",
+   "url": "http://web.archive.org/web/20260630121251/https://www.pornhub.com/information/cookie-notice",
+   "chars": 34503,
+   "titulo": "Cookie Notice | Pornhub.com",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 1,
+    "test": 0,
+    "trial": 5,
+    "beta": 1,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:1 / test:0 / trial:5 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 7,
+   "file": "pornhub/07-information-recommender.md",
+   "url": "https://www.pornhub.com/information/recommender",
+   "chars": 14750,
+   "titulo": "Recommender System Guidelines",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 1,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 8,
+   "file": "pornhub/08-pornhub-information-recommender.md",
+   "url": "http://web.archive.org/web/20260602163932/https://www.pornhub.com/information/recommender",
+   "chars": 14702,
+   "titulo": "Recommender System Guidelines",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 1,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V6": [
+   {
+    "termo": "beta",
+    "kwic": "…ish Swedish Russian Japanese Chinese Maltese Irish Filipino Straight Straight Gay Sapphic Beta Trans Featured Porn Videos Clips Shorties Recommended Videos Hottest in Italy Pornstars &…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "pornhub/01-information-privacy.md",
+    "n": 1,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "beta",
+    "kwic": "…ish Swedish Russian Japanese Chinese Maltese Irish Filipino Straight Straight Gay Sapphic Beta Trans Featured Porn Videos Shorties Recommended Videos Hottest in the USA Pornstars & Mod…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "pornhub/02-pornhub-information-privacy.md",
+    "n": 2,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "beta",
+    "kwic": "…ish Swedish Russian Japanese Chinese Maltese Irish Filipino Straight Straight Gay Sapphic Beta Trans Featured Porn Videos Clips Shorties Recommended Videos Hottest in Italy Pornstars &…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "pornhub/03-information-terms.md",
+    "n": 3,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "trial",
+    "kwic": "…tration instead of through court proceedings. You and we hereby waive any right to a jury trial of any Claim (defined below). All controversies, claims, counterclaims, or other disputes…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/03-information-terms.md",
+    "n": 3,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…thout limitation, any pleadings, briefs or other documents submitted or exchanged and any testimony or other oral submissions and awards) will not be disclosed beyond the arbitration procee…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "pornhub/03-information-terms.md",
+    "n": 3,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "trial",
+    "kwic": "…IMITS CERTAIN RIGHTS, INCLUDING THE RIGHT TO MAINTAIN A COURT ACTION, THE RIGHT TO A JURY TRIAL, THE RIGHT TO PARTICIPATE IN ANY FORM OF CLASS OR REPRESENTATIVE CLAIM, THE RIGHT TO ENGA…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/03-information-terms.md",
+    "n": 3,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "beta",
+    "kwic": "…ish Swedish Russian Japanese Chinese Maltese Irish Filipino Straight Straight Gay Sapphic Beta Trans Featured Porn Videos Shorties Recommended Videos Hottest in the USA Pornstars & Mod…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "pornhub/04-pornhub-information-terms.md",
+    "n": 4,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "trial",
+    "kwic": "…tration instead of through court proceedings. You and we hereby waive any right to a jury trial of any Claim (defined below). All controversies, claims, counterclaims, or other disputes…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/04-pornhub-information-terms.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…thout limitation, any pleadings, briefs or other documents submitted or exchanged and any testimony or other oral submissions and awards) will not be disclosed beyond the arbitration procee…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "pornhub/04-pornhub-information-terms.md",
+    "n": 4,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "trial",
+    "kwic": "…IMITS CERTAIN RIGHTS, INCLUDING THE RIGHT TO MAINTAIN A COURT ACTION, THE RIGHT TO A JURY TRIAL, THE RIGHT TO PARTICIPATE IN ANY FORM OF CLASS OR REPRESENTATIVE CLAIM, THE RIGHT TO ENGA…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/04-pornhub-information-terms.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "beta",
+    "kwic": "…ish Swedish Russian Japanese Chinese Maltese Irish Filipino Straight Straight Gay Sapphic Beta Trans Featured Porn Videos Clips Shorties Recommended Videos Hottest in Italy Pornstars &…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "pornhub/05-information-cookie-notice.md",
+    "n": 5,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "trial",
+    "kwic": "…at must sign a digital contract First Party 30 days Pornhub.com showModalPremiumTry Shows trial modal First Party 3 days Pornhub.com showPremiumWelcomeFromPornhub Is used to display gre…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/05-information-cookie-notice.md",
+    "n": 5,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "trial",
+    "kwic": "…Pornhub.com premiumTrialAccepted It is used to determine if the user accepted or not the trial for PornHub Premium First Party 30 days Pornhub.com sidebarExpanded Is used to enable the…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/05-information-cookie-notice.md",
+    "n": 5,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "trial",
+    "kwic": "…om tj_UUID, tj_UUID_v2 Are used to serve ads to the Users First Party 30 days pornhub.com trial-step1-modal-shown This cookie is used to track user’s interaction with a promo modal Firs…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/05-information-cookie-notice.md",
+    "n": 5,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "beta",
+    "kwic": "…ish Swedish Russian Japanese Chinese Maltese Irish Filipino Straight Straight Gay Sapphic Beta Trans Featured Porn Videos Shorties Recommended Videos Hottest in the USA Pornstars & Mod…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "pornhub/06-pornhub-information-cookie-notice.md",
+    "n": 6,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "trial",
+    "kwic": "…at must sign a digital contract First Party 30 days Pornhub.com showModalPremiumTry Shows trial modal First Party 3 days Pornhub.com showPremiumWelcomeFromPornhub Is used to display gre…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/06-pornhub-information-cookie-notice.md",
+    "n": 6,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "trial",
+    "kwic": "…Pornhub.com premiumTrialAccepted It is used to determine if the user accepted or not the trial for PornHub Premium First Party 30 days Pornhub.com sidebarExpanded Is used to enable the…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/06-pornhub-information-cookie-notice.md",
+    "n": 6,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "trial",
+    "kwic": "…om tj_UUID, tj_UUID_v2 Are used to serve ads to the Users First Party 30 days pornhub.com trial-step1-modal-shown This cookie is used to track user’s interaction with a promo modal Firs…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/06-pornhub-information-cookie-notice.md",
+    "n": 6,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "beta",
+    "kwic": "…ish Swedish Russian Japanese Chinese Maltese Irish Filipino Straight Straight Gay Sapphic Beta Trans Featured Porn Videos Clips Shorties Recommended Videos Hottest in Italy Pornstars &…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "pornhub/07-information-recommender.md",
+    "n": 7,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "beta",
+    "kwic": "…ish Swedish Russian Japanese Chinese Maltese Irish Filipino Straight Straight Gay Sapphic Beta Trans Featured Porn Videos Clips New! Shorties Recommended Videos Hottest in Canada Porns…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "pornhub/08-pornhub-information-recommender.md",
+    "n": 8,
+    "total_no_doc": 1
+   }
+  ],
+  "V1": [
+   {
+    "termo": "trial",
+    "kwic": "…tration instead of through court proceedings. You and we hereby waive any right to a jury trial of any Claim (defined below). All controversies, claims, counterclaims, or other disputes…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/03-information-terms.md",
+    "n": 3,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…thout limitation, any pleadings, briefs or other documents submitted or exchanged and any testimony or other oral submissions and awards) will not be disclosed beyond the arbitration procee…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "pornhub/03-information-terms.md",
+    "n": 3,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "trial",
+    "kwic": "…IMITS CERTAIN RIGHTS, INCLUDING THE RIGHT TO MAINTAIN A COURT ACTION, THE RIGHT TO A JURY TRIAL, THE RIGHT TO PARTICIPATE IN ANY FORM OF CLASS OR REPRESENTATIVE CLAIM, THE RIGHT TO ENGA…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/03-information-terms.md",
+    "n": 3,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "trial",
+    "kwic": "…tration instead of through court proceedings. You and we hereby waive any right to a jury trial of any Claim (defined below). All controversies, claims, counterclaims, or other disputes…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/04-pornhub-information-terms.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…thout limitation, any pleadings, briefs or other documents submitted or exchanged and any testimony or other oral submissions and awards) will not be disclosed beyond the arbitration procee…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "pornhub/04-pornhub-information-terms.md",
+    "n": 4,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "trial",
+    "kwic": "…IMITS CERTAIN RIGHTS, INCLUDING THE RIGHT TO MAINTAIN A COURT ACTION, THE RIGHT TO A JURY TRIAL, THE RIGHT TO PARTICIPATE IN ANY FORM OF CLASS OR REPRESENTATIVE CLAIM, THE RIGHT TO ENGA…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/04-pornhub-information-terms.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "trial",
+    "kwic": "…at must sign a digital contract First Party 30 days Pornhub.com showModalPremiumTry Shows trial modal First Party 3 days Pornhub.com showPremiumWelcomeFromPornhub Is used to display gre…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/05-information-cookie-notice.md",
+    "n": 5,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "trial",
+    "kwic": "…Pornhub.com premiumTrialAccepted It is used to determine if the user accepted or not the trial for PornHub Premium First Party 30 days Pornhub.com sidebarExpanded Is used to enable the…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/05-information-cookie-notice.md",
+    "n": 5,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "trial",
+    "kwic": "…om tj_UUID, tj_UUID_v2 Are used to serve ads to the Users First Party 30 days pornhub.com trial-step1-modal-shown This cookie is used to track user’s interaction with a promo modal Firs…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/05-information-cookie-notice.md",
+    "n": 5,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "randomize",
+    "kwic": "…rst Party Non-Essential www.pornhub.com 'playlist_shuffle_' + playlistId Is used to store randomized playlist video order when user uses Shuffle function in the playlist carousel First Party…",
+    "flag": null,
+    "file": "pornhub/05-information-cookie-notice.md",
+    "n": 5,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "trial",
+    "kwic": "…at must sign a digital contract First Party 30 days Pornhub.com showModalPremiumTry Shows trial modal First Party 3 days Pornhub.com showPremiumWelcomeFromPornhub Is used to display gre…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/06-pornhub-information-cookie-notice.md",
+    "n": 6,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "trial",
+    "kwic": "…Pornhub.com premiumTrialAccepted It is used to determine if the user accepted or not the trial for PornHub Premium First Party 30 days Pornhub.com sidebarExpanded Is used to enable the…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/06-pornhub-information-cookie-notice.md",
+    "n": 6,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "trial",
+    "kwic": "…om tj_UUID, tj_UUID_v2 Are used to serve ads to the Users First Party 30 days pornhub.com trial-step1-modal-shown This cookie is used to track user’s interaction with a promo modal Firs…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "pornhub/06-pornhub-information-cookie-notice.md",
+    "n": 6,
+    "total_no_doc": 5
+   },
+   {
+    "termo": "randomize",
+    "kwic": "…rst Party Non-Essential www.pornhub.com 'playlist_shuffle_' + playlistId Is used to store randomized playlist video order when user uses Shuffle function in the playlist carousel First Party…",
+    "flag": null,
+    "file": "pornhub/06-pornhub-information-cookie-notice.md",
+    "n": 6,
+    "total_no_doc": 1
+   }
+  ],
+  "V3": [
+   {
+    "termo": "randomize",
+    "kwic": "…rst Party Non-Essential www.pornhub.com 'playlist_shuffle_' + playlistId Is used to store randomized playlist video order when user uses Shuffle function in the playlist carousel First Party…",
+    "flag": null,
+    "file": "pornhub/05-information-cookie-notice.md",
+    "n": 5,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "randomize",
+    "kwic": "…rst Party Non-Essential www.pornhub.com 'playlist_shuffle_' + playlistId Is used to store randomized playlist video order when user uses Shuffle function in the playlist carousel First Party…",
+    "flag": null,
+    "file": "pornhub/06-pornhub-information-cookie-notice.md",
+    "n": 6,
+    "total_no_doc": 1
+   }
+  ]
+ },
+ "log_sugerido": "01-information-privacy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-pornhub-information-privacy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-information-terms.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:2 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-pornhub-information-terms.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:2 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-information-cookie-notice.md: experiment:0 / A-B:0 / randomize:1 / test:0 / trial:5 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-pornhub-information-cookie-notice.md: experiment:0 / A-B:0 / randomize:1 / test:0 / trial:5 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n07-information-recommender.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n08-pornhub-information-recommender.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

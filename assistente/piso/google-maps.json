@@ -1,0 +1,276 @@
+{
+ "servico": "Google Maps",
+ "slug": "google-maps",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "google-maps/01-privacy.md",
+   "url": "https://policies.google.com/privacy?hl=en&gl=IE",
+   "chars": 89981,
+   "titulo": "Privacy Policy – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "google-maps/02-terms.md",
+   "url": "https://policies.google.com/terms?hl=en&gl=IE",
+   "chars": 36174,
+   "titulo": "Google Terms of Service – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "google-maps/03-technologies-cookies.md",
+   "url": "https://policies.google.com/technologies/cookies?hl=en&gl=IE",
+   "chars": 14289,
+   "titulo": "How Google uses cookies – Privacy & Terms – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "google-maps/04-help-terms-maps.md",
+   "url": "https://www.google.com/help/terms_maps/?hl=en",
+   "chars": 5659,
+   "titulo": "Google Maps Additional Terms of Service – Google",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+   "url": "https://blog.google/products/maps/google-maps-generative-ai-local-guides/",
+   "chars": 7414,
+   "titulo": "Google Maps: New Generative AI feature coming to Local Guides",
+   "counts": {
+    "experiment": 2,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:2 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "google-maps/06-maps-answer.md",
+   "url": "https://support.google.com/maps/answer/7006449?hl=en-GB",
+   "chars": 2857,
+   "titulo": "Beta test the Google Maps app on Android - Google Maps Help Skip to main content",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 12,
+    "trial": 0,
+    "beta": 11,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:12 / trial:0 / beta:11 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "test",
+    "kwic": "…reaking, adversarial prompting, or prompt injection, except as part of our safety and bug testing programs accessing or using our services or content in fraudulent or deceptive ways, such…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-maps/02-terms.md",
+    "n": 2,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…tors to quickly make suggestions for where to go. Starting in the U.S., this early access experiment launches this week to select Local Guides , who are some of the most active and passionat…",
+    "flag": null,
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "n": 5,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ere you are, along with highlights based on reviews from people who have been there. This experimental capability introduces a whole new way for people to more easily discover places and explo…",
+    "flag": null,
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "n": 5,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "Beta test the Google Maps app on Android - Google Maps Help Skip to main content Google Maps Help S…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-maps/06-maps-answer.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "test",
+    "kwic": "…& information General Help Centre experience Next Help Center Community Google Maps Beta test the Google Maps app on Android If you have an Android device and want to test upcoming fe…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-maps/06-maps-answer.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "test",
+    "kwic": "…e Maps Beta test the Google Maps app on Android If you have an Android device and want to test upcoming features in the Google Maps app before they’re released, join the beta tester pr…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-maps/06-maps-answer.md",
+    "n": 6,
+    "total_no_doc": 12
+   }
+  ],
+  "V6": [
+   {
+    "termo": "test",
+    "kwic": "…reaking, adversarial prompting, or prompt injection, except as part of our safety and bug testing programs accessing or using our services or content in fraudulent or deceptive ways, such…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-maps/02-terms.md",
+    "n": 2,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "beta",
+    "kwic": "Beta test the Google Maps app on Android - Google Maps Help Skip to main content Google Maps H…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "google-maps/06-maps-answer.md",
+    "n": 6,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "test",
+    "kwic": "Beta test the Google Maps app on Android - Google Maps Help Skip to main content Google Maps Help S…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-maps/06-maps-answer.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "beta",
+    "kwic": "…ntent & information General Help Centre experience Next Help Center Community Google Maps Beta test the Google Maps app on Android If you have an Android device and want to test upcomi…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "google-maps/06-maps-answer.md",
+    "n": 6,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "test",
+    "kwic": "…& information General Help Centre experience Next Help Center Community Google Maps Beta test the Google Maps app on Android If you have an Android device and want to test upcoming fe…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-maps/06-maps-answer.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "test",
+    "kwic": "…e Maps Beta test the Google Maps app on Android If you have an Android device and want to test upcoming features in the Google Maps app before they’re released, join the beta tester pr…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-maps/06-maps-answer.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "beta",
+    "kwic": "…d want to test upcoming features in the Google Maps app before they’re released, join the beta tester programme. Note : You can only have one version of the app installed on your phone…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "google-maps/06-maps-answer.md",
+    "n": 6,
+    "total_no_doc": 11
+   }
+  ],
+  "V3": [
+   {
+    "termo": "experiment",
+    "kwic": "…tors to quickly make suggestions for where to go. Starting in the U.S., this early access experiment launches this week to select Local Guides , who are some of the most active and passionat…",
+    "flag": null,
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "n": 5,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ere you are, along with highlights based on reviews from people who have been there. This experimental capability introduces a whole new way for people to more easily discover places and explo…",
+    "flag": null,
+    "file": "google-maps/05-products-maps-google-generative-ai-local-guides.md",
+    "n": 5,
+    "total_no_doc": 2
+   }
+  ]
+ },
+ "log_sugerido": "01-privacy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-terms.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-technologies-cookies.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-help-terms-maps.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-products-maps-google-generative-ai-local-guides.md: experiment:2 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-maps-answer.md: experiment:0 / A-B:0 / randomize:0 / test:12 / trial:0 / beta:11 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

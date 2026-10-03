@@ -1,0 +1,268 @@
+{
+ "servico": "LinkedIn",
+ "slug": "linkedin",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "linkedin/01-privacy-policy.md",
+   "url": "https://www.linkedin.com/legal/privacy-policy",
+   "chars": 43895,
+   "titulo": "LinkedIn Privacy Policy",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "linkedin/02-user-agreement.md",
+   "url": "https://www.linkedin.com/legal/user-agreement",
+   "chars": 34467,
+   "titulo": "User Agreement | LinkedIn",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "linkedin/03-cookie-policy.md",
+   "url": "https://www.linkedin.com/legal/cookie-policy",
+   "chars": 12150,
+   "titulo": "Cookie Policy | LinkedIn",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "linkedin/04-help-linkedin-answer.md",
+   "url": "https://www.linkedin.com/help/linkedin/answer/a1338610",
+   "chars": 2172,
+   "titulo": "Data Processing Restriction and Objection | LinkedIn Help",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "linkedin/05-help-linkedin-answer-5.md",
+   "url": "https://www.linkedin.com/help/linkedin/answer/a1337820",
+   "chars": 3060,
+   "titulo": "Inferences we make about you | LinkedIn Help",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "linkedin/06-lms-answer-a529753.md",
+   "url": "https://www.linkedin.com/help/lms/answer/a529753",
+   "chars": 5316,
+   "titulo": "A/B Testing | Marketing Solutions Help",
+   "counts": {
+    "experiment": 0,
+    "A-B": 30,
+    "randomize": 0,
+    "test": 40,
+    "trial": 0,
+    "beta": 0,
+    "control group": 1,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:30 / randomize:0 / test:40 / trial:0 / beta:0 / control group:1 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "A-B",
+    "kwic": "A/B Testing | Marketing Solutions Help Attention screen reader users, you are in a mobile opt…",
+    "flag": null,
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 30
+   },
+   {
+    "termo": "test",
+    "kwic": "A/B Testing | Marketing Solutions Help Attention screen reader users, you are in a mobile optimized v…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 40
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…tions Recruiter Sales Navigator Talent Insights Go to Marketing Solutions Sign in Sign in A/B Testing Last updated: 5 months ago As an advertiser, it’s important to achieve maximum va…",
+    "flag": null,
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 30
+   },
+   {
+    "termo": "test",
+    "kwic": "…s Recruiter Sales Navigator Talent Insights Go to Marketing Solutions Sign in Sign in A/B Testing Last updated: 5 months ago As an advertiser, it’s important to achieve maximum value and…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 40
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…timize your campaigns based on statistically significant data. You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ…",
+    "flag": null,
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 30
+   },
+   {
+    "termo": "test",
+    "kwic": "…ze your campaigns based on statistically significant data. You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ by one v…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 40
+   },
+   {
+    "termo": "control group",
+    "kwic": "…e lowest cost per KPI. Important to know • Some members might appear in both the test and control groups, but our data and platform checks have shown that the effect is generally insignificant.…",
+    "flag": null,
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 1
+   }
+  ],
+  "V3": [
+   {
+    "termo": "A-B",
+    "kwic": "A/B Testing | Marketing Solutions Help Attention screen reader users, you are in a mobile opt…",
+    "flag": null,
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 30
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…tions Recruiter Sales Navigator Talent Insights Go to Marketing Solutions Sign in Sign in A/B Testing Last updated: 5 months ago As an advertiser, it’s important to achieve maximum va…",
+    "flag": null,
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 30
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…timize your campaigns based on statistically significant data. You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ…",
+    "flag": null,
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 30
+   },
+   {
+    "termo": "control group",
+    "kwic": "…e lowest cost per KPI. Important to know • Some members might appear in both the test and control groups, but our data and platform checks have shown that the effect is generally insignificant.…",
+    "flag": null,
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 1
+   }
+  ],
+  "V6": [
+   {
+    "termo": "test",
+    "kwic": "A/B Testing | Marketing Solutions Help Attention screen reader users, you are in a mobile optimized v…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 40
+   },
+   {
+    "termo": "test",
+    "kwic": "…s Recruiter Sales Navigator Talent Insights Go to Marketing Solutions Sign in Sign in A/B Testing Last updated: 5 months ago As an advertiser, it’s important to achieve maximum value and…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 40
+   },
+   {
+    "termo": "test",
+    "kwic": "…ze your campaigns based on statistically significant data. You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ by one v…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 40
+   }
+  ]
+ },
+ "log_sugerido": "01-privacy-policy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-user-agreement.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-cookie-policy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-help-linkedin-answer.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-help-linkedin-answer-5.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-lms-answer-a529753.md: experiment:0 / A-B:30 / randomize:0 / test:40 / trial:0 / beta:0 / control group:1 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

@@ -1,0 +1,154 @@
+{
+ "formato": 1,
+ "servico": "Zalando",
+ "slug": "zalando",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "fc7a2e1b51c3",
+ "gerado_em": "2026-10-03T16:29:32+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 2
+ },
+ "n_citacoes": 40,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "3",
+    "v1_register": "both"
+   },
+   "razao": "O Privacy Notice, vinculante, nomeia testes A/B com duas versões do site ou app (V1-1, V1-2), e o blog de engenharia descreve testes A/B e experimentos controlados com usuários reais (V1-3, V1-4). O teto 3 aparece nos dois registros; V1-5 (T&C) fala em testar o algoritmo, não usuários.",
+   "confianca": "alta",
+   "citacoes": [
+    "V1-1",
+    "V1-2",
+    "V1-3",
+    "V1-4",
+    "V1-5"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research"
+    ]
+   },
+   "razao": "Há enquadramento de melhoria do serviço (V2-1, V2-4) e de pesquisa científica e de mercado (V2-2, V2-3). Nenhuma citação usa linguagem de pesquisa com seres humanos ou de bem-estar da comunidade.",
+   "confianca": "alta",
+   "citacoes": [
+    "V2-1",
+    "V2-2",
+    "V2-3",
+    "V2-4"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "Yes",
+    "v3_specific": "No",
+    "v3_pricing": "No",
+    "v3_targets": "versões do website/app; serviços e conteúdo"
+   },
+   "razao": "O Privacy Notice nomeia versões do website ou app e mudanças em serviços e conteúdo como objeto dos testes A/B (V3-1, V3-2); o blog cita latência e rollouts, mas não descreve um experimento específico (V3-3, V3-4). Preço aparece só como parâmetro de ranking e personalização, não como alvo de teste (V3-5, V3-6).",
+   "confianca": "média",
+   "citacoes": [
+    "V3-1",
+    "V3-2",
+    "V3-3",
+    "V3-4",
+    "V3-5",
+    "V3-6"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "consent"
+    ],
+    "v4_mapped_purpose": "análise de uso (usage analysis) via cookies de performance e analytics",
+    "v4_region_gated": "No"
+   },
+   "razao": "Os testes A/B ficam na análise de uso por cookies de analytics, que o usuário desmarca (V4-1), e a base desses cookies é consentimento (V4-2, documento corporativo); legítimo interesse para P&D (V4-4) seria um mapeamento alternativo. As bases são declaradas por finalidade no próprio texto (V4-3, V4-4), por isso geo-gating fica em No.",
+   "confianca": "média",
+   "citacoes": [
+    "V4-1",
+    "V4-2",
+    "V4-3",
+    "V4-4"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "O único controle é desmarcar a categoria de cookies de performance e analytics, mencionado logo após os testes A/B (V5-1, V5-2, V5-3), o que o codebook não trata como opt-out dedicado. O direito de objeção genérico também existe (V5-5).",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V5-3",
+    "V5-5"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "No",
+    "v6_which": ""
+   },
+   "razao": "Nenhuma citação sustenta outra resposta; a contagem de 'beta' e 'trial' é zero em todos os documentos.",
+   "confianca": "alta",
+   "citacoes": []
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "As citações tratam de decisão automatizada, comunicações contratuais e retorno de denúncias (V7-1, V7-2, V7-3), que são falsos positivos excluídos. O tema não é endereçado: 'debrief' tem contagem zero em todos os documentos.",
+   "confianca": "alta",
+   "citacoes": [
+    "V7-1",
+    "V7-2",
+    "V7-3"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "O Privacy Notice cita padrões científicos de proteção de dados e cooperação acadêmica (V8-1, V8-2), e o blog descreve revisão por pares e auditoria de desenho dos testes A/B (V8-3, V8-4). Isso é controle de qualidade metodológica, não revisão ética ou de risco; trata-se de caso de fronteira, a anotar em Notas.",
+   "confianca": "média",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-3",
+    "V8-4"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "privacy policy",
+     "blog/PR/site de pesquisa"
+    ],
+    "v9_register": "both"
+   },
+   "razao": "A experimentação aparece no Privacy Notice vinculante (V9-1, V9-2) e no blog de engenharia (V9-3, V9-4). Os T&C regem compras (V9-5) e não falam de testes com usuários.",
+   "confianca": "alta",
+   "citacoes": [
+    "V9-1",
+    "V9-2",
+    "V9-3",
+    "V9-4",
+    "V9-5"
+   ]
+  }
+ },
+ "uso": {
+  "input": 27767,
+  "output": 6427
+ }
+}

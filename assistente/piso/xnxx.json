@@ -1,0 +1,150 @@
+{
+ "servico": "XNXX",
+ "slug": "xnxx",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "xnxx/01-privacy.md",
+   "url": "https://info.xnxx.com/legal/privacy",
+   "chars": 28632,
+   "titulo": "Privacy policy - XNXX.COM",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 1
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:1",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "xnxx/02-tos.md",
+   "url": "https://info.xnxx.com/legal/tos",
+   "chars": 69614,
+   "titulo": "XNXX Terms of service - XNXX.COM",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 2,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:2 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "xnxx/03-cookiepolicy.md",
+   "url": "https://info.xnxx.com/legal/cookiepolicy",
+   "chars": 5576,
+   "titulo": "Cookie policy - XNXX.COM",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "xnxx/04-dsa-data-catalogue.md",
+   "url": "https://info.xnxx.com/dsa-data-catalogue",
+   "chars": 4692,
+   "titulo": "DSA Data Catalogue - XNXX.COM",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V8": [
+   {
+    "termo": "risk assessment",
+    "kwic": "…buse, security incidents, and other harmful activity. Conduct security investigations and risk assessments, including any reports third parties may file about you or the content you have uploaded…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "xnxx/01-privacy.md",
+    "n": 1,
+    "total_no_doc": 1
+   }
+  ],
+  "V1": [
+   {
+    "termo": "trial",
+    "kwic": "…e contain a binding arbitration agreement whereby you agree to waive your right to a jury trial and further agree to waive your right to bring any dispute or claim as part of a class or…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xnxx/02-tos.md",
+    "n": 2,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "trial",
+    "kwic": "…accepting these Terms of Service, you and NKL Associates agree to give up the right to a trial before a judge and jury with respect to any and all claims relating to, arising out of, o…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xnxx/02-tos.md",
+    "n": 2,
+    "total_no_doc": 2
+   }
+  ],
+  "V6": [
+   {
+    "termo": "trial",
+    "kwic": "…e contain a binding arbitration agreement whereby you agree to waive your right to a jury trial and further agree to waive your right to bring any dispute or claim as part of a class or…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xnxx/02-tos.md",
+    "n": 2,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "trial",
+    "kwic": "…accepting these Terms of Service, you and NKL Associates agree to give up the right to a trial before a judge and jury with respect to any and all claims relating to, arising out of, o…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xnxx/02-tos.md",
+    "n": 2,
+    "total_no_doc": 2
+   }
+  ]
+ },
+ "log_sugerido": "01-privacy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:1\n02-tos.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:2 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-cookiepolicy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-dsa-data-catalogue.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

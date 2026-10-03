@@ -1,0 +1,176 @@
+{
+ "servico": "AliExpress",
+ "slug": "aliexpress",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+   "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress201909171350_82407.html",
+   "chars": 72890,
+   "titulo": "AliExpress.com Privacy Policy",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 3
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:3",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "aliexpress/02-terms-suit-bu1-aliexpress-aliexpress202204182115-660.md",
+   "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress202204182115_66077.html",
+   "chars": 109147,
+   "titulo": "AliExpress.com Terms of Use",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "aliexpress/03-terms-c-platform-service-agreement-20240401172006520.md",
+   "url": "https://terms.alicdn.com/legal-agreement/terms/c_platform_service_agreement/20240401172006520/20240401172006520.html",
+   "chars": 15730,
+   "titulo": "AliExpress Cookie Notice",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "aliexpress/04-p-transparencycenter.md",
+   "url": "https://www.aliexpress.com/p/transparencycenter/policies.html",
+   "chars": 1160,
+   "titulo": "Supporto",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "aliexpress/05-p-transparencycenter-dsa.md",
+   "url": "https://www.aliexpress.com/p/transparencycenter/dsa.html",
+   "chars": 1160,
+   "titulo": "Supporto",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "aliexpress/06-terms-eu-ee-uk-platform-service-agreement-2025051411.md",
+   "url": "https://cdn.contract.alibaba.com/terms/EU_EE_UK_platform_service_agreement/20250514112355975/20250514112355975.html?lng=en",
+   "chars": 64908,
+   "titulo": "EN / AliExpress.com Terms and Conditions for Platform Transactions by EU/EEA/UK Consumers",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V8": [
+   {
+    "termo": "risk assessment",
+    "kwic": "…roviders may be governed by their own privacy policies, not this Privacy Policy; · Credit risk assessment providers, to conduct risk assessment on Sellers to determine whether a Seller can be per…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "risk assessment",
+    "kwic": "…privacy policies, not this Privacy Policy; · Credit risk assessment providers, to conduct risk assessment on Sellers to determine whether a Seller can be permitted to make an advance withdrawal o…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "risk assessment",
+    "kwic": "…o determine whether a Seller can be permitted to make an advance withdrawal or to conduct risk assessment on Buyers to determine whether a Buyer can be permitted to apply for some payment service…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "aliexpress/01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md",
+    "n": 1,
+    "total_no_doc": 3
+   }
+  ]
+ },
+ "log_sugerido": "01-terms-suit-bu1-aliexpress-aliexpress201909171350-824.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:3\n02-terms-suit-bu1-aliexpress-aliexpress202204182115-660.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-terms-c-platform-service-agreement-20240401172006520.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-p-transparencycenter.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-p-transparencycenter-dsa.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-terms-eu-ee-uk-platform-service-agreement-2025051411.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

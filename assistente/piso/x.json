@@ -1,0 +1,626 @@
+{
+ "servico": "X",
+ "slug": "x",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "x/01-privacy.md",
+   "url": "https://x.com/en/privacy",
+   "chars": 38505,
+   "titulo": "X Privacy Policy",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 1,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "x/02-tos.md",
+   "url": "https://x.com/en/tos",
+   "chars": 63893,
+   "titulo": "X Terms of Service",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 2,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:2 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "x/03-rules-and-data-processing-bases.md",
+   "url": "https://help.x.com/en/rules-and-policies/data-processing-legal-bases",
+   "chars": 36281,
+   "titulo": "More information on X's data processing | X Help",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "x/04-rules-and-x-cookies.md",
+   "url": "https://help.x.com/en/rules-and-policies/x-cookies",
+   "chars": 54455,
+   "titulo": "How cookies are used on X | X Help",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 3,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:3 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "x/05-rules-and.md",
+   "url": "https://help.x.com/en/rules-and-policies#research-and-experiments",
+   "chars": 6192,
+   "titulo": "Rules and policies",
+   "counts": {
+    "experiment": 4,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 1,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:4 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+   "url": "https://blog.x.com/engineering/en_us/a/2015/the-what-and-why-of-product-experimentation-at-twitter-0",
+   "chars": 13200,
+   "titulo": "The what and why of product experimentation at Twitter",
+   "counts": {
+    "experiment": 57,
+    "A-B": 12,
+    "randomize": 0,
+    "test": 17,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:57 / A-B:12 / randomize:0 / test:17 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 7,
+   "file": "x/07-rules-and-x-beta-experiments-program.md",
+   "url": "https://help.x.com/en/rules-and-policies/x-beta-experiments-program",
+   "chars": 11947,
+   "titulo": "Welcome to the X experiments program | X Help",
+   "counts": {
+    "experiment": 37,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 7,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:37 / A-B:0 / randomize:0 / test:7 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 8,
+   "file": "x/08-rules-and-x-user-research.md",
+   "url": "https://help.x.com/en/rules-and-policies/x-user-research",
+   "chars": 3981,
+   "titulo": "User research conducted by X | X Help",
+   "counts": {
+    "experiment": 2,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:2 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "test",
+    "kwic": "…e information you share with us, or that we collect to conduct research, surveys, product testing, and troubleshooting to help us operate and improve our products and services. 3. Sharing…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/01-privacy.md",
+    "n": 1,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…omputer systems, or the technical delivery systems of our providers; (ii) probe, scan, or test the vulnerability of any system or network or breach or circumvent any security or authen…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/02-tos.md",
+    "n": 2,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…omputer systems, or the technical delivery systems of our providers; (ii) probe, scan, or test the vulnerability of any system or network or breach or circumvent any security or authen…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/02-tos.md",
+    "n": 2,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…s us detect issues, understand where we may improve, or develop new products or services. Test updates to X services, as well as build new features, functionality, and services. Person…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/04-rules-and-x-cookies.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…earn More (Privacy Policy URL) https://twitter.com/en/privacy Web Domain .scroll.com Name test_cookie Description This cookie is for doubleclick integration and/or analytics Controller Google…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/04-rules-and-x-cookies.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…s://twitter.com/privacy Web Domain proxsee.pscp.tv Name co Description This cookie is for testing functionality Controller Twitter Inc. Learn More (Privacy Policy URL) https://twitter.com…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/04-rules-and-x-cookies.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ount and settings Law enforcement guidelines Information for law enforcement Research and experiments How X conducts research and experiments on the platform Country-specific resources Articl…",
+    "flag": null,
+    "file": "x/05-rules-and.md",
+    "n": 5,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ines Information for law enforcement Research and experiments How X conducts research and experiments on the platform Country-specific resources Articles that describe how X supports applicab…",
+    "flag": null,
+    "file": "x/05-rules-and.md",
+    "n": 5,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…es Last viewed Legal request FAQs Last viewed Guidelines for law enforcement Research and Experiments Last viewed About the X Experiments Program Last viewed What is the X iOS Beta program? L…",
+    "flag": null,
+    "file": "x/05-rules-and.md",
+    "n": 5,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "The what and why of product experimentation at Twitter Engineering Back Engineering Insights Infrastructure Open source Sign Up Sign…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 57
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…gineering Insights Infrastructure Open source Sign Up Sign Up The what and why of product experimentation at Twitter Friday, 23 October 2015 Link copied successfully Experimentation is at the hea…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 57
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…hy of product experimentation at Twitter Friday, 23 October 2015 Link copied successfully Experimentation is at the heart of Twitter’s product development cycle. This culture of experimentation i…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 57
+   },
+   {
+    "termo": "test",
+    "kwic": "…Twitter invests heavily in tools, research, and training to ensure that feature teams can test and validate their ideas seamlessly and rigorously. The scale of Twitter experiments is v…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 17
+   },
+   {
+    "termo": "test",
+    "kwic": "…success and failure metrics for your experiment; consider what trade-offs are acceptable. Test hypothesis: Implement the proposed change, instrument appropriate logging, and perform sa…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 17
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…erate more hypotheses for more improvements, incorporating new ideas from the experiment. A/B Testing, decision-making, and innovation The Product Instrumentation and Experimentation…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "test",
+    "kwic": "…e more hypotheses for more improvements, incorporating new ideas from the experiment. A/B Testing, decision-making, and innovation The Product Instrumentation and Experimentation (PIE) te…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 17
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…d Experimentation (PIE) team at Twitter thinks about philosophy of experimentation a lot. A/B testing can provide many benefits, but it has well-known, easy-to-hit pitfalls . Its resu…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…and counter-intuitive . How do we avoid the pitfalls? When should we recommend running an A/B test to try out a feature or proposed change? How do we stay nimble and take big risks wh…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Welcome to the X experiments program | X Help Skip to main content Help Center Using X Managing your account Safety an…",
+    "flag": null,
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…X Recommender Systems mrcsvg @mrcsvg Go to X Sign out Contact Us Help Center Research and Experiments About the X Experiments Program About the X Experiments Program Help Center Research and…",
+    "flag": null,
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…csvg @mrcsvg Go to X Sign out Contact Us Help Center Research and Experiments About the X Experiments Program About the X Experiments Program Help Center Research and Experiments About the X…",
+    "flag": null,
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "test",
+    "kwic": "…me. Terms and Conditions X Corp. (\"X\") has designed and developed a \"X Mobile Application Testing Program\" (\"X Experiments Program\" which encompasses the programs previously known as the…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…Experiment Program\") to, among other things, allow a limited number of people to download test versions of X applications for mobile devices (the “Experimental Software”), such as the…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…iments Program, you may be required to register for third-party services, such as Apple’s TestFlight, Google Groups, or Crashlytics, and your Feedback will be submitted to X through the emai…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…X Recommender Systems mrcsvg @mrcsvg Go to X Sign out Contact Us Help Center Research and Experiments About user research at X About user research at X Help Center Research and Experiments Ab…",
+    "flag": null,
+    "file": "x/08-rules-and-x-user-research.md",
+    "n": 8,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…nd Experiments About user research at X About user research at X Help Center Research and Experiments About user research at X We conduct research to better understand our users and to improv…",
+    "flag": null,
+    "file": "x/08-rules-and-x-user-research.md",
+    "n": 8,
+    "total_no_doc": 2
+   }
+  ],
+  "V6": [
+   {
+    "termo": "test",
+    "kwic": "…e information you share with us, or that we collect to conduct research, surveys, product testing, and troubleshooting to help us operate and improve our products and services. 3. Sharing…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/01-privacy.md",
+    "n": 1,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…omputer systems, or the technical delivery systems of our providers; (ii) probe, scan, or test the vulnerability of any system or network or breach or circumvent any security or authen…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/02-tos.md",
+    "n": 2,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…omputer systems, or the technical delivery systems of our providers; (ii) probe, scan, or test the vulnerability of any system or network or breach or circumvent any security or authen…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/02-tos.md",
+    "n": 2,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…s us detect issues, understand where we may improve, or develop new products or services. Test updates to X services, as well as build new features, functionality, and services. Person…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/04-rules-and-x-cookies.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…earn More (Privacy Policy URL) https://twitter.com/en/privacy Web Domain .scroll.com Name test_cookie Description This cookie is for doubleclick integration and/or analytics Controller Google…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/04-rules-and-x-cookies.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…s://twitter.com/privacy Web Domain proxsee.pscp.tv Name co Description This cookie is for testing functionality Controller Twitter Inc. Learn More (Privacy Policy URL) https://twitter.com…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/04-rules-and-x-cookies.md",
+    "n": 4,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "beta",
+    "kwic": "…and Experiments Last viewed About the X Experiments Program Last viewed What is the X iOS Beta program? Last viewed X Voices, X Insiders, and Creator Insiders Terms of Use Last viewed…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "x/05-rules-and.md",
+    "n": 5,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…Twitter invests heavily in tools, research, and training to ensure that feature teams can test and validate their ideas seamlessly and rigorously. The scale of Twitter experiments is v…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 17
+   },
+   {
+    "termo": "test",
+    "kwic": "…success and failure metrics for your experiment; consider what trade-offs are acceptable. Test hypothesis: Implement the proposed change, instrument appropriate logging, and perform sa…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 17
+   },
+   {
+    "termo": "test",
+    "kwic": "…e more hypotheses for more improvements, incorporating new ideas from the experiment. A/B Testing, decision-making, and innovation The Product Instrumentation and Experimentation (PIE) te…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 17
+   },
+   {
+    "termo": "test",
+    "kwic": "…me. Terms and Conditions X Corp. (\"X\") has designed and developed a \"X Mobile Application Testing Program\" (\"X Experiments Program\" which encompasses the programs previously known as the…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…Experiment Program\") to, among other things, allow a limited number of people to download test versions of X applications for mobile devices (the “Experimental Software”), such as the…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…iments Program, you may be required to register for third-party services, such as Apple’s TestFlight, Google Groups, or Crashlytics, and your Feedback will be submitted to X through the emai…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 7
+   }
+  ],
+  "V3": [
+   {
+    "termo": "experiment",
+    "kwic": "…ount and settings Law enforcement guidelines Information for law enforcement Research and experiments How X conducts research and experiments on the platform Country-specific resources Articl…",
+    "flag": null,
+    "file": "x/05-rules-and.md",
+    "n": 5,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ines Information for law enforcement Research and experiments How X conducts research and experiments on the platform Country-specific resources Articles that describe how X supports applicab…",
+    "flag": null,
+    "file": "x/05-rules-and.md",
+    "n": 5,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…es Last viewed Legal request FAQs Last viewed Guidelines for law enforcement Research and Experiments Last viewed About the X Experiments Program Last viewed What is the X iOS Beta program? L…",
+    "flag": null,
+    "file": "x/05-rules-and.md",
+    "n": 5,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "The what and why of product experimentation at Twitter Engineering Back Engineering Insights Infrastructure Open source Sign Up Sign…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 57
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…gineering Insights Infrastructure Open source Sign Up Sign Up The what and why of product experimentation at Twitter Friday, 23 October 2015 Link copied successfully Experimentation is at the hea…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 57
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…hy of product experimentation at Twitter Friday, 23 October 2015 Link copied successfully Experimentation is at the heart of Twitter’s product development cycle. This culture of experimentation i…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 57
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…erate more hypotheses for more improvements, incorporating new ideas from the experiment. A/B Testing, decision-making, and innovation The Product Instrumentation and Experimentation…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…d Experimentation (PIE) team at Twitter thinks about philosophy of experimentation a lot. A/B testing can provide many benefits, but it has well-known, easy-to-hit pitfalls . Its resu…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…and counter-intuitive . How do we avoid the pitfalls? When should we recommend running an A/B test to try out a feature or proposed change? How do we stay nimble and take big risks wh…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Welcome to the X experiments program | X Help Skip to main content Help Center Using X Managing your account Safety an…",
+    "flag": null,
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…X Recommender Systems mrcsvg @mrcsvg Go to X Sign out Contact Us Help Center Research and Experiments About the X Experiments Program About the X Experiments Program Help Center Research and…",
+    "flag": null,
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…csvg @mrcsvg Go to X Sign out Contact Us Help Center Research and Experiments About the X Experiments Program About the X Experiments Program Help Center Research and Experiments About the X…",
+    "flag": null,
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 37
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…X Recommender Systems mrcsvg @mrcsvg Go to X Sign out Contact Us Help Center Research and Experiments About user research at X About user research at X Help Center Research and Experiments Ab…",
+    "flag": null,
+    "file": "x/08-rules-and-x-user-research.md",
+    "n": 8,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…nd Experiments About user research at X About user research at X Help Center Research and Experiments About user research at X We conduct research to better understand our users and to improv…",
+    "flag": null,
+    "file": "x/08-rules-and-x-user-research.md",
+    "n": 8,
+    "total_no_doc": 2
+   }
+  ]
+ },
+ "log_sugerido": "01-privacy.md: experiment:0 / A-B:0 / randomize:0 / test:1 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-tos.md: experiment:0 / A-B:0 / randomize:0 / test:2 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-rules-and-data-processing-bases.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-rules-and-x-cookies.md: experiment:0 / A-B:0 / randomize:0 / test:3 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-rules-and.md: experiment:4 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:1 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-a-2015-the-what-and-why-of-product-experimentation-a.md: experiment:57 / A-B:12 / randomize:0 / test:17 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n07-rules-and-x-beta-experiments-program.md: experiment:37 / A-B:0 / randomize:0 / test:7 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n08-rules-and-x-user-research.md: experiment:2 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

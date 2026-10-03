@@ -1,0 +1,174 @@
+{
+ "formato": 1,
+ "servico": "Bing",
+ "slug": "bing",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "096d2d57c64a",
+ "gerado_em": "2026-10-03T16:25:29+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 2
+ },
+ "n_citacoes": 67,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "3",
+    "v1_register": "non-binding"
+   },
+   "razao": "Os blogs nomeiam teste A/B, grupo de controle e divisão aleatória de usuários (V1-1, V1-3, V1-4), o que dá teto 3 em registro não vinculante; a central de ajuda chega ao nível 2 (V1-8). Nos vinculantes (MSA e Privacy Statement), só nível 1 (V1-5, V1-6, V1-7); sugiro registrar isso em Notas.",
+   "confianca": "alta",
+   "citacoes": [
+    "V1-1",
+    "V1-3",
+    "V1-4",
+    "V1-8",
+    "V1-5",
+    "V1-6",
+    "V1-7"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research"
+    ]
+   },
+   "razao": "A melhoria do serviço aparece no MSA, na Privacy Statement e no blog (V2-1, V2-2, V2-7), e a pesquisa aparece na Privacy Statement e nos blogs (V2-3, V2-4, V2-6). A linguagem de acesso à informação e de proteção (V2-8, V2-9) não está ligada a testes, por isso não foi marcada como social-good.",
+   "confianca": "média",
+   "citacoes": [
+    "V2-1",
+    "V2-2",
+    "V2-7",
+    "V2-3",
+    "V2-4",
+    "V2-6",
+    "V2-8",
+    "V2-9"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "Yes",
+    "v3_specific": "Yes",
+    "v3_pricing": "No",
+    "v3_targets": "anúncios (site links), receita por usuário, ranking de resultados, novos recursos"
+   },
+   "razao": "O blog descreve um experimento específico com site links em anúncios, avaliado por receita por usuário (V3-1 a V3-4), e comparações de versões e de ranking (V3-7, V3-8). A mudança de preço no MSA (V3-10, V3-11) não descreve preço como alvo de teste.",
+   "confianca": "média",
+   "citacoes": [
+    "V3-1",
+    "V3-2",
+    "V3-3",
+    "V3-4",
+    "V3-5",
+    "V3-7",
+    "V3-8",
+    "V3-10",
+    "V3-11"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "not stated"
+    ],
+    "v4_mapped_purpose": "Product improvement (improve our products)",
+    "v4_region_gated": "not-verifiable (vantage)"
+   },
+   "razao": "A Privacy Statement lista bases legais de forma genérica, sem tabela por finalidade (V4-1, V4-2), e a finalidade mapeada é a melhoria de produto (V4-3). Sem tabela nos documentos, o campo geo-gated fica not-verifiable (vantage).",
+   "confianca": "média",
+   "citacoes": [
+    "V4-1",
+    "V4-2",
+    "V4-3"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "GDPR-objection-only"
+   },
+   "razao": "Só aparece o direito genérico de objeção ao legítimo interesse (V5-1). Os controles de cookies, anúncios e histórico (V5-2 a V5-6) não regem experimentação, e o blog indica que quase todo usuário está em experimentos (V5-7).",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V5-3",
+    "V5-4",
+    "V5-5",
+    "V5-6",
+    "V5-7"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "Yes",
+    "v6_which": "previews/insider/beta da Microsoft (genérico; nenhum programa específico do Bing é nomeado)"
+   },
+   "razao": "A Privacy Statement menciona produtos preview, insider e beta para avaliação com envio de dados (V6-2), e a central de ajuda diz que pesquisadores recrutam usuários para testar recursos (V6-4). Como não há programa do Bing nomeado, a evidência é indireta.",
+   "confianca": "baixa",
+   "citacoes": [
+    "V6-2",
+    "V6-1",
+    "V6-4"
+   ]
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "O blog trata do tema e indica que o usuário idealmente nem sabe que está num experimento (V7-1, V7-2), o que configura No substantivo; a palavra-chave debrief tem 0 ocorrências em todos os documentos. Os avisos de mudança e as comunicações (V7-4, V7-5) não são debriefing.",
+   "confianca": "média",
+   "citacoes": [
+    "V7-1",
+    "V7-2",
+    "V7-4",
+    "V7-5"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "As revisões de Responsible AI (V8-1 a V8-4) tratam de recursos de IA e o monitoramento estatístico do blog (V8-5) é controle de desempenho, não revisão ética de experimentos; ethics, IRB e review board têm 0 ocorrências. Caso de fronteira, a anotar em Notas junto com o gap DSA (avaliação de risco sistêmico ausente nos documentos ao usuário).",
+   "confianca": "média",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-3",
+    "V8-4",
+    "V8-5"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "blog/PR/site de pesquisa",
+     "help centre"
+    ],
+    "v9_register": "non-binding"
+   },
+   "razao": "A experimentação é descrita nos blogs Search Quality Insights (V9-9, V9-10, V1-1) e na página de ajuda 'How Bing delivers search results', que remete ao MSA como documento vinculante (V9-7, V9-8, V1-8). Os vinculantes (V9-1, V9-4) só trazem linguagem de melhoria, e sugiro anotar isso.",
+   "confianca": "média",
+   "citacoes": [
+    "V9-9",
+    "V9-10",
+    "V9-7",
+    "V9-8",
+    "V9-1",
+    "V9-4",
+    "V1-1",
+    "V1-8"
+   ]
+  }
+ },
+ "uso": {
+  "input": 30211,
+  "output": 6472
+ }
+}

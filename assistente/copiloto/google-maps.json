@@ -1,0 +1,161 @@
+{
+ "formato": 1,
+ "servico": "Google Maps",
+ "slug": "google-maps",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "79cfdf186308",
+ "gerado_em": "2026-10-03T16:22:29+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 1
+ },
+ "n_citacoes": 60,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "3",
+    "v1_register": "non-binding"
+   },
+   "razao": "O teto 3 vem do blog, que chama de \"early access experiment\" o recurso liberado a Local Guides selecionados (V1-6, V1-7); a central de ajuda chega ao nível 2 com \"test upcoming features\" (V1-5). Nos vinculantes, só nível 1: melhoria, log de interações e \"product research program\" sem testar usuários (V1-2, V1-4, V1-1), com V1-8 (rollout de features no YouTube) como fronteira 1/2 a anotar em Notas.",
+   "confianca": "média",
+   "citacoes": [
+    "V1-6",
+    "V1-7",
+    "V1-5",
+    "V1-1",
+    "V1-2",
+    "V1-4",
+    "V1-8"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research",
+     "social-good/community"
+    ]
+   },
+   "razao": "Há melhoria do serviço (V2-1, V2-2) e pesquisa (V2-5, \"product research program\"). A frase \"research that improves our services for our users and benefits the public\" junta research e bem público (V2-3, V2-4); não há pesquisa com seres humanos no sentido ético.",
+   "confianca": "média",
+   "citacoes": [
+    "V2-1",
+    "V2-2",
+    "V2-3",
+    "V2-4",
+    "V2-5"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "Yes",
+    "v3_pricing": "No",
+    "v3_specific": "Yes",
+    "v3_targets": "novos recursos do app Maps; descoberta de lugares com IA generativa (blog)"
+   },
+   "razao": "A central de ajuda nomeia \"upcoming features\" do app como o que é testado (V3-1, V3-2), e o blog divulga um experimento específico em curso, a descoberta de lugares com IA generativa para Local Guides nos EUA (V3-6, V3-5). O preço não aparece como alvo; V3-8 trata só de pagamento.",
+   "confianca": "média",
+   "citacoes": [
+    "V3-1",
+    "V3-2",
+    "V3-5",
+    "V3-6",
+    "V3-8"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "legitimate interest",
+     "contract"
+    ],
+    "v4_mapped_purpose": "To maintain and improve Google services, products, and features",
+    "v4_region_gated": "No"
+   },
+   "razao": "Na tabela de bases legais, a finalidade de manter e melhorar os serviços tem legítimo interesse (V4-3) e contrato (V4-5). A tabela está presente nos documentos capturados, então a resposta é No; o consentimento aparece só para \"develop new services\" (V4-7), o que pode ser anotado em Notas.",
+   "confianca": "média",
+   "citacoes": [
+    "V4-1",
+    "V4-3",
+    "V4-5",
+    "V4-7"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "Existe o direito genérico de objeção (V5-1) e há controles de anúncios e cookies (V5-4, V5-5), mas nenhum controle específico de experimentação. O nível proposto é cookie/ads-only; se o codificador não considerar esses controles, a alternativa é GDPR-objection-only.",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-4",
+    "V5-5",
+    "V5-3"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "Yes",
+    "v6_which": "Programa beta tester do Google Maps para Android: adesão voluntária via \"Become a tester\", saída pela página de opt-out"
+   },
+   "razao": "A central de ajuda descreve a adesão voluntária ao programa beta (V6-1, V6-2) e a saída dele (V6-3). O acesso antecipado dos Local Guides (V6-4) é por seleção, não por adesão.",
+   "confianca": "alta",
+   "citacoes": [
+    "V6-1",
+    "V6-2",
+    "V6-3",
+    "V6-4"
+   ]
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "V7-1 e V7-2 são avisos de mudança de serviço, excluídos pelo critério, e nenhuma citação sustenta outra resposta. O tema não é endereçado (debrief: 0 em todos os documentos no log de palavras-chave).",
+   "confianca": "alta",
+   "citacoes": [
+    "V7-1",
+    "V7-2"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "V8-1 é linguagem de fronteira sobre \"impact on you and others\" ligada à mudança ou encerramento de serviço, e V8-5 trata do risco de uso do mapa; nenhum dos dois é revisão de experimentos. Ethics, review board, IRB e risk assessment somam 0 no log; vale anotar a diferença entre a obrigação do DSA e o que os documentos dizem.",
+   "confianca": "alta",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-5"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "help centre",
+     "blog/PR/site de pesquisa"
+    ],
+    "v9_register": "non-binding"
+   },
+   "razao": "O teste de usuários aparece na central de ajuda (V9-5, V9-6) e no blog (V9-7). Os vinculantes (V9-3, V9-4) só falam em melhoria e em \"product research program\", o que o codificador pode considerar para incluir ToS.",
+   "confianca": "média",
+   "citacoes": [
+    "V9-5",
+    "V9-6",
+    "V9-7",
+    "V9-3",
+    "V9-4"
+   ]
+  }
+ },
+ "uso": {
+  "input": 14695,
+  "output": 3320
+ }
+}

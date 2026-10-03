@@ -1,0 +1,784 @@
+{
+ "servico": "Snapchat",
+ "slug": "snapchat",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "snapchat/01-privacy-policy.md",
+   "url": "https://values.snap.com/privacy/privacy-policy",
+   "chars": 36991,
+   "titulo": "Privacy Policy | Snapchat Privacy",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "snapchat/02-privacy-policy-eea-uk-notice.md",
+   "url": "https://values.snap.com/privacy/privacy-policy/eea-uk-privacy-notice",
+   "chars": 11268,
+   "titulo": "Privacy Policy - Data Policy | Snapchat Privacy",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "snapchat/03-privacy-policy-eea-uk-notice-3.md",
+   "url": "https://values.snap.com/en-GB/privacy/privacy-policy/eea-uk-privacy-notice",
+   "chars": 11268,
+   "titulo": "Privacy Policy - Data Policy | Snapchat Privacy",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "snapchat/04-gb-terms.md",
+   "url": "https://snap.com/en-GB/terms",
+   "chars": 99108,
+   "titulo": "Terms of Service",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 2,
+    "trial": 4,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:2 / trial:4 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "snapchat/05-cookie-policy.md",
+   "url": "https://www.snap.com/cookie-policy",
+   "chars": 6377,
+   "titulo": "We are Snap Inc.",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 6,
+   "file": "snapchat/06-us-articles-22534988598676-learn-about-snap-s-data-p.md",
+   "url": "https://help.snapchat.com/hc/en-us/articles/22534988598676-Learn-About-Snap-s-Data-Processing-and-How-to-Object",
+   "chars": 26102,
+   "titulo": "Learn About Snap’s Data Processing and How to Object – Snapchat Support",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 7,
+   "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+   "url": "https://eng.snap.com/machine-learning-snap-ad-ranking",
+   "chars": 19074,
+   "titulo": "Machine Learning for Snapchat Ad Ranking",
+   "counts": {
+    "experiment": 11,
+    "A-B": 7,
+    "randomize": 0,
+    "test": 9,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:11 / A-B:7 / randomize:0 / test:9 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 8,
+   "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+   "url": "https://blogs.nvidia.com/blog/snap-accelerated-data-processing/",
+   "chars": 5685,
+   "titulo": "Open Libraries for Accelerated Data Processing Boost A/B Testing for Snap | NVIDIA Blog",
+   "counts": {
+    "experiment": 7,
+    "A-B": 7,
+    "randomize": 0,
+    "test": 8,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:7 / A-B:7 / randomize:0 / test:8 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 9,
+   "file": "snapchat/09-beta.md",
+   "url": "https://www.snapchat.com/beta",
+   "chars": 3649,
+   "titulo": "Snapchat Beta",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 9,
+    "trial": 0,
+    "beta": 12,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:9 / trial:0 / beta:12 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 10,
+   "file": "snapchat/10-snap-nvidia-gcp.md",
+   "url": "https://eng.snap.com/snap-nvidia-gcp",
+   "chars": 15748,
+   "titulo": "Inside Snap's Experimentation Platform: Leveraging NVIDIA GPUs for Accelerated Data Processing",
+   "counts": {
+    "experiment": 14,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 4,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:14 / A-B:0 / randomize:0 / test:4 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "test",
+    "kwic": "…competing product or service; state or imply that we endorse your content; probe, scan or test the vulnerability of our Services or any system or network; violate any applicable law or…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/04-gb-terms.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "trial",
+    "kwic": "…WEEN US THROUGH BINDING INDIVIDUAL ARBITRATION AND INCLUDE A CLASS ACTION WAIVER AND JURY TRIAL WAIVER. This Arbitration Agreement supersedes all prior versions. a. Applicability of Arb…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "snapchat/04-gb-terms.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "trial",
+    "kwic": "…luding all fees paid to the arbitral forum) from the time of the offer. h. Waiver of Jury Trial. YOU AND SNAP WAIVE ANY CONSTITUTIONAL AND STATUTORY RIGHTS TO GO TO COURT AND HAVE A TRI…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "snapchat/04-gb-terms.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "trial",
+    "kwic": "…ial. YOU AND SNAP WAIVE ANY CONSTITUTIONAL AND STATUTORY RIGHTS TO GO TO COURT AND HAVE A TRIAL IN FRONT OF A JUDGE OR A JURY. You and Snap are instead electing to have claims and dispu…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "snapchat/04-gb-terms.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…competing product or service; state or imply that we endorse your content; probe, scan or test the vulnerability of our Services or any system or network; violate any applicable law or…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/04-gb-terms.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…L development The ML specific development goes through many logical steps such as offline experimentation, benchmarking and deployment for online inference, online A/B testing, continuous updates…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…such as offline experimentation, benchmarking and deployment for online inference, online A/B testing, continuous updates of models and performance monitoring. These are enabled by cu…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…as offline experimentation, benchmarking and deployment for online inference, online A/B testing, continuous updates of models and performance monitoring. These are enabled by custom pla…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…Adding new features require code changes in the feature generating pipeline, case by case testing and deployment. To address these, we built an in-house platform that allows adding simple…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ation to pushing data to the online serving system. This allows for quick offline feature experimentation without waiting for the forward fill and unifies various feature pipelines. Models Ad ran…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…typically use the Normalized Cross Entropy (“NCE”, [1]) as our primary offline metric for experimentation; we also use AUC and calibration as secondary metrics to diagnose the ML model behavior.…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…gnificant improvement in future NCE are registered for continuous updates, put online for A/B testing, and (eventually) rolled out fully. Training and Deployment Distributed training…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…icant improvement in future NCE are registered for continuous updates, put online for A/B testing, and (eventually) rolled out fully. Training and Deployment Distributed training Building…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…bration loss must stay below a threshold; we treat this as a constraint metric during the A/B testing. Workflow management and model deployment ML engineers use an in-house platform f…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "A-B",
+    "kwic": "Open Libraries for Accelerated Data Processing Boost A/B Testing for Snap | NVIDIA Blog Skip to content Snap Decisions: How Open Libraries for Acc…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "Open Libraries for Accelerated Data Processing Boost A/B Testing for Snap | NVIDIA Blog Skip to content Snap Decisions: How Open Libraries for Accelerated…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…Skip to content Snap Decisions: How Open Libraries for Accelerated Data Processing Boost A/B Testing for Snapchat NVIDIA cuDF accelerates Apache Spark applications on Google Cloud he…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…p to content Snap Decisions: How Open Libraries for Accelerated Data Processing Boost A/B Testing for Snapchat NVIDIA cuDF accelerates Apache Spark applications on Google Cloud helps Snap…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "test",
+    "kwic": "…at NVIDIA cuDF accelerates Apache Spark applications on Google Cloud helps Snap engineers test and deploy new features faster while unlocking significant cost savings. March 17, 2026 b…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…to Snapchat’s more than 940 million monthly active users goes through a set of controlled experiments before it’s launched. During this A/B testing cycle, the development team studies differe…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…tive users goes through a set of controlled experiments before it’s launched. During this A/B testing cycle, the development team studies different variables with a subset of users, m…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…s that analyze engagement, app performance and monetization. Snap runs thousands of these experiments each month — processing over 10 petabytes of data within a three-hour window each morning…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ubernetes Engine, Snap is harnessing a full-stack platform for data processing at scale. “Experimentation is at the core of our company. Changing our data infrastructure from CPUs to GPUs allows…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "test",
+    "kwic": "…Al momento sono presenti 1425 inviti al programma Beta. Iscriviti oggi stesso! Aiutaci a testare le funzionalità di Snapchat prima che vengano rese pubbliche! iOS Cose da sapere sulle ve…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/09-beta.md",
+    "n": 9,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…OS Le nuove versioni Beta per iOS vengono rilasciate una o due volte a settimana. Tutti i tester completano il ciclo tramite TestFlight. I limiti dello strumento di Apple e il ritmo con…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/09-beta.md",
+    "n": 9,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…engono rilasciate una o due volte a settimana. Tutti i tester completano il ciclo tramite TestFlight. I limiti dello strumento di Apple e il ritmo con cui Snapchat ha bisogno di ricevere i f…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/09-beta.md",
+    "n": 9,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Inside Snap's Experimentation Platform: Leveraging NVIDIA GPUs for Accelerated Data Processing Engineering Blog Blog Ou…",
+    "flag": null,
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…Us for Accelerated Data Processing Engineering Blog Blog Our Values Careers Inside Snap's Experimentation Platform: Leveraging NVIDIA GPUs for Accelerated Data Processing Migrating Snapchat’s AB…",
+    "flag": null,
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…rated Data Processing Migrating Snapchat’s AB Pipelines to GPU-Accelerated Spark At Snap, experimentation sits at the core of how we build products. Nearly every product decision is informed by c…",
+    "flag": null,
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "test",
+    "kwic": "…ing the largest gains for workloads dominated by joins, shuffles, and repartitions. Early testing confirmed this aligned well with our pipelines. Non I/O-bound jobs saw significant speedu…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…vital as it removed several manual initialization steps for the RAPIDS jar. As an initial test, we transitioned a portion of our daily sum shards to GPUs: While this migration signific…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…the GPU Image Developing the GPU image itself was straightforward but required extensive testing. With help from the NVIDIA team and their official guide , we built an image that: Used C…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 4
+   }
+  ],
+  "V6": [
+   {
+    "termo": "test",
+    "kwic": "…competing product or service; state or imply that we endorse your content; probe, scan or test the vulnerability of our Services or any system or network; violate any applicable law or…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/04-gb-terms.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "trial",
+    "kwic": "…WEEN US THROUGH BINDING INDIVIDUAL ARBITRATION AND INCLUDE A CLASS ACTION WAIVER AND JURY TRIAL WAIVER. This Arbitration Agreement supersedes all prior versions. a. Applicability of Arb…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "snapchat/04-gb-terms.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "trial",
+    "kwic": "…luding all fees paid to the arbitral forum) from the time of the offer. h. Waiver of Jury Trial. YOU AND SNAP WAIVE ANY CONSTITUTIONAL AND STATUTORY RIGHTS TO GO TO COURT AND HAVE A TRI…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "snapchat/04-gb-terms.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "trial",
+    "kwic": "…ial. YOU AND SNAP WAIVE ANY CONSTITUTIONAL AND STATUTORY RIGHTS TO GO TO COURT AND HAVE A TRIAL IN FRONT OF A JUDGE OR A JURY. You and Snap are instead electing to have claims and dispu…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "snapchat/04-gb-terms.md",
+    "n": 4,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…competing product or service; state or imply that we endorse your content; probe, scan or test the vulnerability of our Services or any system or network; violate any applicable law or…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/04-gb-terms.md",
+    "n": 4,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…as offline experimentation, benchmarking and deployment for online inference, online A/B testing, continuous updates of models and performance monitoring. These are enabled by custom pla…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…Adding new features require code changes in the feature generating pipeline, case by case testing and deployment. To address these, we built an in-house platform that allows adding simple…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…icant improvement in future NCE are registered for continuous updates, put online for A/B testing, and (eventually) rolled out fully. Training and Deployment Distributed training Building…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "Open Libraries for Accelerated Data Processing Boost A/B Testing for Snap | NVIDIA Blog Skip to content Snap Decisions: How Open Libraries for Accelerated…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "test",
+    "kwic": "…p to content Snap Decisions: How Open Libraries for Accelerated Data Processing Boost A/B Testing for Snapchat NVIDIA cuDF accelerates Apache Spark applications on Google Cloud helps Snap…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "test",
+    "kwic": "…at NVIDIA cuDF accelerates Apache Spark applications on Google Cloud helps Snap engineers test and deploy new features faster while unlocking significant cost savings. March 17, 2026 b…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "beta",
+    "kwic": "Snapchat Beta Storie Spotlight Chat Lenti Snapchat+ Snapchat.com Panoramica Account Snapchat+ Assistenz…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "snapchat/09-beta.md",
+    "n": 9,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "beta",
+    "kwic": "…ectacles Panoramica Autore Spectacles Assistenza Annunci Snapchat Scarica Accedi Snapchat Beta Al momento sono presenti 1425 inviti al programma Beta. Iscriviti oggi stesso! Aiutaci a…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "snapchat/09-beta.md",
+    "n": 9,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "beta",
+    "kwic": "…i Snapchat Scarica Accedi Snapchat Beta Al momento sono presenti 1425 inviti al programma Beta. Iscriviti oggi stesso! Aiutaci a testare le funzionalità di Snapchat prima che vengano r…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "snapchat/09-beta.md",
+    "n": 9,
+    "total_no_doc": 12
+   },
+   {
+    "termo": "test",
+    "kwic": "…Al momento sono presenti 1425 inviti al programma Beta. Iscriviti oggi stesso! Aiutaci a testare le funzionalità di Snapchat prima che vengano rese pubbliche! iOS Cose da sapere sulle ve…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/09-beta.md",
+    "n": 9,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…OS Le nuove versioni Beta per iOS vengono rilasciate una o due volte a settimana. Tutti i tester completano il ciclo tramite TestFlight. I limiti dello strumento di Apple e il ritmo con…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/09-beta.md",
+    "n": 9,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…engono rilasciate una o due volte a settimana. Tutti i tester completano il ciclo tramite TestFlight. I limiti dello strumento di Apple e il ritmo con cui Snapchat ha bisogno di ricevere i f…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/09-beta.md",
+    "n": 9,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…ing the largest gains for workloads dominated by joins, shuffles, and repartitions. Early testing confirmed this aligned well with our pipelines. Non I/O-bound jobs saw significant speedu…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…vital as it removed several manual initialization steps for the RAPIDS jar. As an initial test, we transitioned a portion of our daily sum shards to GPUs: While this migration signific…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "test",
+    "kwic": "…the GPU Image Developing the GPU image itself was straightforward but required extensive testing. With help from the NVIDIA team and their official guide , we built an image that: Used C…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 4
+   }
+  ],
+  "V3": [
+   {
+    "termo": "experiment",
+    "kwic": "…L development The ML specific development goes through many logical steps such as offline experimentation, benchmarking and deployment for online inference, online A/B testing, continuous updates…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…such as offline experimentation, benchmarking and deployment for online inference, online A/B testing, continuous updates of models and performance monitoring. These are enabled by cu…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ation to pushing data to the online serving system. This allows for quick offline feature experimentation without waiting for the forward fill and unifies various feature pipelines. Models Ad ran…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…typically use the Normalized Cross Entropy (“NCE”, [1]) as our primary offline metric for experimentation; we also use AUC and calibration as secondary metrics to diagnose the ML model behavior.…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 11
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…gnificant improvement in future NCE are registered for continuous updates, put online for A/B testing, and (eventually) rolled out fully. Training and Deployment Distributed training…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…bration loss must stay below a threshold; we treat this as a constraint metric during the A/B testing. Workflow management and model deployment ML engineers use an in-house platform f…",
+    "flag": null,
+    "file": "snapchat/07-machine-learning-snap-ad-ranking.md",
+    "n": 7,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "A-B",
+    "kwic": "Open Libraries for Accelerated Data Processing Boost A/B Testing for Snap | NVIDIA Blog Skip to content Snap Decisions: How Open Libraries for Acc…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…Skip to content Snap Decisions: How Open Libraries for Accelerated Data Processing Boost A/B Testing for Snapchat NVIDIA cuDF accelerates Apache Spark applications on Google Cloud he…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…to Snapchat’s more than 940 million monthly active users goes through a set of controlled experiments before it’s launched. During this A/B testing cycle, the development team studies differe…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…tive users goes through a set of controlled experiments before it’s launched. During this A/B testing cycle, the development team studies different variables with a subset of users, m…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…s that analyze engagement, app performance and monetization. Snap runs thousands of these experiments each month — processing over 10 petabytes of data within a three-hour window each morning…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ubernetes Engine, Snap is harnessing a full-stack platform for data processing at scale. “Experimentation is at the core of our company. Changing our data infrastructure from CPUs to GPUs allows…",
+    "flag": null,
+    "file": "snapchat/08-blog-snap-accelerated-data-processing.md",
+    "n": 8,
+    "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "Inside Snap's Experimentation Platform: Leveraging NVIDIA GPUs for Accelerated Data Processing Engineering Blog Blog Ou…",
+    "flag": null,
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…Us for Accelerated Data Processing Engineering Blog Blog Our Values Careers Inside Snap's Experimentation Platform: Leveraging NVIDIA GPUs for Accelerated Data Processing Migrating Snapchat’s AB…",
+    "flag": null,
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…rated Data Processing Migrating Snapchat’s AB Pipelines to GPU-Accelerated Spark At Snap, experimentation sits at the core of how we build products. Nearly every product decision is informed by c…",
+    "flag": null,
+    "file": "snapchat/10-snap-nvidia-gcp.md",
+    "n": 10,
+    "total_no_doc": 14
+   }
+  ]
+ },
+ "log_sugerido": "01-privacy-policy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-privacy-policy-eea-uk-notice.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-privacy-policy-eea-uk-notice-3.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-gb-terms.md: experiment:0 / A-B:0 / randomize:0 / test:2 / trial:4 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-cookie-policy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n06-us-articles-22534988598676-learn-about-snap-s-data-p.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n07-machine-learning-snap-ad-ranking.md: experiment:11 / A-B:7 / randomize:0 / test:9 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n08-blog-snap-accelerated-data-processing.md: experiment:7 / A-B:7 / randomize:0 / test:8 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n09-beta.md: experiment:0 / A-B:0 / randomize:0 / test:9 / trial:0 / beta:12 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n10-snap-nvidia-gcp.md: experiment:14 / A-B:0 / randomize:0 / test:4 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

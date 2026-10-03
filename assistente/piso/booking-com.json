@@ -1,0 +1,247 @@
+{
+ "servico": "Booking.com",
+ "slug": "booking-com",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "booking-com/01-content-privacy.md",
+   "url": "https://www.booking.com/content/privacy.html",
+   "chars": 69221,
+   "titulo": "Booking.com:",
+   "counts": {
+    "experiment": 1,
+    "A-B": 1,
+    "randomize": 0,
+    "test": 3,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:1 / A-B:1 / randomize:0 / test:3 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "booking-com/02-content-privacy-gb.md",
+   "url": "https://www.booking.com/content/privacy.en-gb.html",
+   "chars": 69221,
+   "titulo": "Booking.com:",
+   "counts": {
+    "experiment": 1,
+    "A-B": 1,
+    "randomize": 0,
+    "test": 3,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:1 / A-B:1 / randomize:0 / test:3 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "booking-com/03-content-terms.md",
+   "url": "https://www.booking.com/content/terms.html",
+   "chars": 171188,
+   "titulo": "Booking.com:",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "experiment",
+    "kwic": "…dition to the statistics we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is…",
+    "flag": null,
+    "file": "booking-com/01-content-privacy.md",
+    "n": 1,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ics we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is to get insigh…",
+    "flag": null,
+    "file": "booking-com/01-content-privacy.md",
+    "n": 1,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is to get insights int…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/01-content-privacy.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…trictions to control that only authorised personnel can access personal data Maintain and test protocols to respond to reports about possible incidents and data breaches Verify and enh…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/01-content-privacy.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…minors is provided, we may in limited circumstances retain and use this personal data to test, train and improve our AI systems to meet our legal obligations or legitimate interests t…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/01-content-privacy.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…dition to the statistics we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is…",
+    "flag": null,
+    "file": "booking-com/02-content-privacy-gb.md",
+    "n": 2,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ics we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is to get insigh…",
+    "flag": null,
+    "file": "booking-com/02-content-privacy-gb.md",
+    "n": 2,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is to get insights int…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/02-content-privacy-gb.md",
+    "n": 2,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…trictions to control that only authorised personnel can access personal data Maintain and test protocols to respond to reports about possible incidents and data breaches Verify and enh…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/02-content-privacy-gb.md",
+    "n": 2,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…minors is provided, we may in limited circumstances retain and use this personal data to test, train and improve our AI systems to meet our legal obligations or legitimate interests t…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/02-content-privacy-gb.md",
+    "n": 2,
+    "total_no_doc": 3
+   }
+  ],
+  "V3": [
+   {
+    "termo": "experiment",
+    "kwic": "…dition to the statistics we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is…",
+    "flag": null,
+    "file": "booking-com/01-content-privacy.md",
+    "n": 1,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ics we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is to get insigh…",
+    "flag": null,
+    "file": "booking-com/01-content-privacy.md",
+    "n": 1,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…dition to the statistics we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is…",
+    "flag": null,
+    "file": "booking-com/02-content-privacy-gb.md",
+    "n": 2,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ics we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is to get insigh…",
+    "flag": null,
+    "file": "booking-com/02-content-privacy-gb.md",
+    "n": 2,
+    "total_no_doc": 1
+   }
+  ],
+  "V6": [
+   {
+    "termo": "test",
+    "kwic": "…we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is to get insights int…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/01-content-privacy.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…trictions to control that only authorised personnel can access personal data Maintain and test protocols to respond to reports about possible incidents and data breaches Verify and enh…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/01-content-privacy.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…minors is provided, we may in limited circumstances retain and use this personal data to test, train and improve our AI systems to meet our legal obligations or legitimate interests t…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/01-content-privacy.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…we generate regularly about our business, we use data to perform experiments (such as A/B tests) to try out and troubleshoot platform features. The main goal here is to get insights int…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/02-content-privacy-gb.md",
+    "n": 2,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…trictions to control that only authorised personnel can access personal data Maintain and test protocols to respond to reports about possible incidents and data breaches Verify and enh…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/02-content-privacy-gb.md",
+    "n": 2,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…minors is provided, we may in limited circumstances retain and use this personal data to test, train and improve our AI systems to meet our legal obligations or legitimate interests t…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "booking-com/02-content-privacy-gb.md",
+    "n": 2,
+    "total_no_doc": 3
+   }
+  ]
+ },
+ "log_sugerido": "01-content-privacy.md: experiment:1 / A-B:1 / randomize:0 / test:3 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-content-privacy-gb.md: experiment:1 / A-B:1 / randomize:0 / test:3 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-content-terms.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

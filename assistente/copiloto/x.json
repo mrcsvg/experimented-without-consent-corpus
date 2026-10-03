@@ -1,0 +1,171 @@
+{
+ "formato": 1,
+ "servico": "X",
+ "slug": "x",
+ "modelo": "claude-opus-5-5",
+ "prompt_sha": "2524e854e614",
+ "entrada_sha": "8c0ba42588b7",
+ "gerado_em": "2026-10-03T16:27:42+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "geracao": {
+  "max_tokens": 12000,
+  "thinking": "adaptive",
+  "tentativas": 2
+ },
+ "n_citacoes": 57,
+ "variaveis": {
+  "V1": {
+   "campos": {
+    "v1_code": "3",
+    "v1_register": "non-binding"
+   },
+   "razao": "O teto 3 aparece só no blog de engenharia, que nomeia experimentação, teste A/B e holdbacks com grupo retido (V1-1, V1-2, V1-3); o índice da central de ajuda também fala em 'experiments' (V1-7). Nos vinculantes, só nível 2: a política de privacidade fala em 'product testing' sem nomear o método (V1-4, V1-5).",
+   "confianca": "alta",
+   "citacoes": [
+    "V1-1",
+    "V1-2",
+    "V1-3",
+    "V1-7",
+    "V1-4",
+    "V1-5"
+   ]
+  },
+  "V2": {
+   "campos": {
+    "v2_framing": [
+     "service improvement",
+     "research"
+    ]
+   },
+   "razao": "A política de privacidade e a página de pesquisa com usuários associam pesquisa e teste a melhorar produtos (V2-1, V2-2, V2-3), e o programa de experimentos se descreve como pesquisa de usabilidade (V2-6). V2-7 fala em segurança e respeito em geral, sem ligação com testes, por isso não foi marcado como social-good/community.",
+   "confianca": "média",
+   "citacoes": [
+    "V2-1",
+    "V2-2",
+    "V2-3",
+    "V2-6",
+    "V2-7"
+   ]
+  },
+  "V3": {
+   "campos": {
+    "v3_activities": "Yes",
+    "v3_specific": "No",
+    "v3_pricing": "No",
+    "v3_targets": "mudanças de UI/UX, novos recursos, modelos de machine learning"
+   },
+   "razao": "O blog nomeia superfícies testadas: UI/UX, novos recursos e modelos de ML (V3-2, V3-4). Group DMs aparece só como exemplo do que não se testa em A/B (V3-3), e as citações não tratam preço como alvo de teste (V3-7 trata de pagamento).",
+   "confianca": "média",
+   "citacoes": [
+    "V3-2",
+    "V3-3",
+    "V3-4",
+    "V3-1",
+    "V3-7"
+   ]
+  },
+  "V4": {
+   "campos": {
+    "v4_basis": [
+     "contract",
+     "legitimate interest"
+    ],
+    "v4_mapped_purpose": "research, product testing... to operate and improve our products and services",
+    "v4_region_gated": "No"
+   },
+   "razao": "A tabela de bases legais está no documento 3 e liga 'Operating our services' a necessidade contratual (V4-1, V4-2, V4-3); o resumo de legítimo interesse menciona 'offer better services' (V4-5). Nenhuma citação mostra a linha da tabela para a finalidade de pesquisa da seção 2.5 (V4-7), então o mapeamento é incerto.",
+   "confianca": "baixa",
+   "citacoes": [
+    "V4-1",
+    "V4-2",
+    "V4-3",
+    "V4-4",
+    "V4-5",
+    "V4-7"
+   ]
+  },
+  "V5": {
+   "campos": {
+    "v5_optout": "cookie/ads-only"
+   },
+   "razao": "Os controles citados cobrem cookies, anúncios personalizados, compartilhamento com parceiros, treino de IA e e-mails de pesquisa (V5-2, V5-3, V5-6, V5-4, V5-5); nenhum é específico de experimentos. Existe ainda a seção genérica de objeção (V5-1).",
+   "confianca": "média",
+   "citacoes": [
+    "V5-1",
+    "V5-2",
+    "V5-3",
+    "V5-4",
+    "V5-5",
+    "V5-6"
+   ]
+  },
+  "V6": {
+   "campos": {
+    "v6_optin_beta": "Yes",
+    "v6_which": "X Experiments Program / X iOS Beta: versões experimentais dos apps via TestFlight etc., com saída a qualquer momento"
+   },
+   "razao": "O programa dá acesso voluntário a versões experimentais dos apps (V6-1, V6-2), permite sair a qualquer momento (V6-3) e consta no índice da central de ajuda (V6-4, V6-5).",
+   "confianca": "alta",
+   "citacoes": [
+    "V6-1",
+    "V6-2",
+    "V6-3",
+    "V6-4",
+    "V6-5"
+   ]
+  },
+  "V7": {
+   "campos": {
+    "v7_debrief": "No"
+   },
+   "razao": "O blog trata de experimentos, mas o aprendizado é compartilhado só com equipes internas (V7-3, V7-4), e V7-1 e V7-2 são avisos de mudança de serviço e de anúncio, que o codebook exclui. É um 'No' substantivo no registro não vinculante; a contagem de 'debrief' é 0 em todos os documentos.",
+   "confianca": "média",
+   "citacoes": [
+    "V7-1",
+    "V7-2",
+    "V7-3",
+    "V7-4"
+   ]
+  },
+  "V8": {
+   "campos": {
+    "v8_ethics": "No"
+   },
+   "razao": "O blog cita 'Experiment Shepherds', revisores técnicos opcionais e não vinculantes, e mitigação de riscos, mas não fala em revisão ética nem em comitê (V8-1, V8-2, V8-4); 'ethics', 'review board' e 'risk assessment' aparecem 0 vezes. É caso de fronteira e lacuna frente ao DSA, a anotar em Notas.",
+   "confianca": "baixa",
+   "citacoes": [
+    "V8-1",
+    "V8-2",
+    "V8-3",
+    "V8-4",
+    "V8-5"
+   ]
+  },
+  "V9": {
+   "campos": {
+    "v9_where": [
+     "privacy policy",
+     "help centre",
+     "blog/PR/site de pesquisa"
+    ],
+    "v9_register": "both"
+   },
+   "razao": "A política de privacidade, vinculante, fala em 'product testing' (V9-1); a central de ajuda (V9-4, V9-7) e o blog (V9-6) fazem a divulgação não vinculante. Os termos do programa de experimentos se declaram parte do acordo (V9-5), mas tratam de beta; os ToS só incorporam outras políticas (V9-2, V9-3).",
+   "confianca": "média",
+   "citacoes": [
+    "V9-1",
+    "V9-2",
+    "V9-3",
+    "V9-4",
+    "V9-5",
+    "V9-6",
+    "V9-7"
+   ]
+  }
+ },
+ "uso": {
+  "input": 28387,
+  "output": 7506
+ }
+}

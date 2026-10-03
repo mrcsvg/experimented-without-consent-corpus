@@ -1,0 +1,206 @@
+{
+ "servico": "WhatsApp",
+ "slug": "whatsapp",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "whatsapp/01-privacy-policy-eea.md",
+   "url": "https://www.whatsapp.com/legal/privacy-policy-eea",
+   "chars": 103364,
+   "titulo": "Privacy Policy - EEA",
+   "counts": {
+    "experiment": 3,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 3,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:3 / A-B:0 / randomize:0 / test:3 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "whatsapp/02-terms-of-service-eea.md",
+   "url": "https://www.whatsapp.com/legal/terms-of-service-eea",
+   "chars": 25421,
+   "titulo": "Terms of Service - EEA",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "whatsapp/03-cookies.md",
+   "url": "https://www.whatsapp.com/legal/cookies",
+   "chars": 4160,
+   "titulo": "Cookies",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "whatsapp/04-testing-whatsapp-join.md",
+   "url": "https://play.google.com/apps/testing/com.whatsapp/join",
+   "chars": 1048,
+   "titulo": "Sign in - Google Accounts",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V1": [
+   {
+    "termo": "test",
+    "kwic": "…; and carry out surveys; the UK, United States that provide us with: product research and testing (features of) services to help us improve our Services; and troubleshoot technical issues…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…performance, reliability, and efficiency, so we can ensure and optimise service quality. test out and experiment with new features to see if they work as expected. facilitate and prov…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…reliability, and efficiency, so we can ensure and optimise service quality. test out and experiment with new features to see if they work as expected. facilitate and provide access to exclu…",
+    "flag": null,
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…performance, reliability, and efficiency, so we can ensure and optimise service quality. test out and experiment with new features to see if they work as expected. facilitate and prov…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…reliability, and efficiency, so we can ensure and optimise service quality. test out and experiment with new features to see if they work as expected. facilitate and provide access to exclu…",
+    "flag": null,
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ection and development and forecast future adoption of the service or features. undertake experiments to evaluate the impact of new features. invite you to take surveys or provide feedback an…",
+    "flag": null,
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   }
+  ],
+  "V6": [
+   {
+    "termo": "test",
+    "kwic": "…; and carry out surveys; the UK, United States that provide us with: product research and testing (features of) services to help us improve our Services; and troubleshoot technical issues…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…performance, reliability, and efficiency, so we can ensure and optimise service quality. test out and experiment with new features to see if they work as expected. facilitate and prov…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…performance, reliability, and efficiency, so we can ensure and optimise service quality. test out and experiment with new features to see if they work as expected. facilitate and prov…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   }
+  ],
+  "V3": [
+   {
+    "termo": "experiment",
+    "kwic": "…reliability, and efficiency, so we can ensure and optimise service quality. test out and experiment with new features to see if they work as expected. facilitate and provide access to exclu…",
+    "flag": null,
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…reliability, and efficiency, so we can ensure and optimise service quality. test out and experiment with new features to see if they work as expected. facilitate and provide access to exclu…",
+    "flag": null,
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ection and development and forecast future adoption of the service or features. undertake experiments to evaluate the impact of new features. invite you to take surveys or provide feedback an…",
+    "flag": null,
+    "file": "whatsapp/01-privacy-policy-eea.md",
+    "n": 1,
+    "total_no_doc": 3
+   }
+  ]
+ },
+ "log_sugerido": "01-privacy-policy-eea.md: experiment:3 / A-B:0 / randomize:0 / test:3 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n02-terms-of-service-eea.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-cookies.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-testing-whatsapp-join.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}

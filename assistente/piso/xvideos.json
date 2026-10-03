@@ -1,0 +1,287 @@
+{
+ "servico": "XVideos",
+ "slug": "xvideos",
+ "gerado_em": "2026-10-03T16:36:41+00:00",
+ "corpus_built_at": "2026-10-02T15:43:06+00:00",
+ "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
+ "docs": [
+  {
+   "n": 1,
+   "file": "xvideos/01-privacy.md",
+   "url": "https://info.xvideos.com/legal/privacy",
+   "chars": 43183,
+   "titulo": "Privacy policy - Xvideos.com",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 4
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:4",
+   "quarentena": false
+  },
+  {
+   "n": 2,
+   "file": "xvideos/02-privacynotice.md",
+   "url": "https://info.xvideos.com/legal/privacynotice",
+   "chars": 20360,
+   "titulo": "Privacy notice - Xvideos.com",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 3,
+   "file": "xvideos/03-tos.md",
+   "url": "https://info.xvideos.com/legal/tos",
+   "chars": 69258,
+   "titulo": "XVideos Terms of service - Xvideos.com",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 2,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:2 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 4,
+   "file": "xvideos/04-cookiepolicy.md",
+   "url": "https://info.xvideos.com/legal/cookiepolicy",
+   "chars": 4736,
+   "titulo": "Cookie policy - Xvideos.com",
+   "counts": {
+    "experiment": 0,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 0,
+    "trial": 0,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  },
+  {
+   "n": 5,
+   "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+   "url": "https://code.europa.eu/p2b/contrib-versions/-/blob/main/Xvideos/Terms%20of%20Service.md",
+   "chars": 72760,
+   "titulo": "Xvideos/Terms of Service.md · main · Digital Services / contrib-versions · GitLab",
+   "counts": {
+    "experiment": 1,
+    "A-B": 0,
+    "randomize": 0,
+    "test": 3,
+    "trial": 2,
+    "beta": 0,
+    "control group": 0,
+    "debrief": 0,
+    "ethics": 0,
+    "review board": 0,
+    "IRB": 0,
+    "risk assessment": 0
+   },
+   "log_line": "experiment:1 / A-B:0 / randomize:0 / test:3 / trial:2 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0",
+   "quarentena": false
+  }
+ ],
+ "por_variavel": {
+  "V8": [
+   {
+    "termo": "risk assessment",
+    "kwic": "…buse, security incidents, and other harmful activity; conduct security investigations and risk assessments. registered user of the website the legitimate interests of the controller for the durati…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "xvideos/01-privacy.md",
+    "n": 1,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "risk assessment",
+    "kwic": "…buse, security incidents, and other harmful activity; conduct security investigations and risk assessments. registered user of the website the legitimate interests of the controller; performance o…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "xvideos/01-privacy.md",
+    "n": 1,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "risk assessment",
+    "kwic": "…buse, security incidents, and other harmful activity; conduct security investigations and risk assessments. registered user of the website the legitimate interests of the controller; performance o…",
+    "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+    "file": "xvideos/01-privacy.md",
+    "n": 1,
+    "total_no_doc": 4
+   }
+  ],
+  "V1": [
+   {
+    "termo": "trial",
+    "kwic": "…e contain a binding arbitration agreement whereby you agree to waive your right to a jury trial and further agree to waive your right to bring any dispute or claim as part of a class or…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xvideos/03-tos.md",
+    "n": 3,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "trial",
+    "kwic": "…tarily accepting these Terms of Service, you and WebGroup agree to give up the right to a trial before a judge and jury with respect to any and all claims relating to, arising out of, o…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xvideos/03-tos.md",
+    "n": 3,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…ce.md · main · Digital Services / contrib-versions · GitLab Esta página utiliza cookies («testemunhos de conexão»). Visite a página sobre a nossa política de «cookies» ou clique na ligação vi…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…lquer página para mais informações ou para alterar as suas preferências. Aceitar todos os testemunhos Aceitar apenas os testemunhos essenciais Code development platform for open source projec…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…ções ou para alterar as suas preferências. Aceitar todos os testemunhos Aceitar apenas os testemunhos essenciais Code development platform for open source projects from the European Union ins…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…aborador Análise do repositório Análises de revisão de código Análises de issues Insights Experimentos de modelo Ajuda Ajuda Suporte Documentação da GitLab GitLab University Comparar planos do…",
+    "flag": null,
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 1
+   },
+   {
+    "termo": "trial",
+    "kwic": "…e contain a binding arbitration agreement whereby you agree to waive your right to a jury trial and further agree to waive your right to bring any dispute or claim as part of a class or…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "trial",
+    "kwic": "…tarily accepting these Terms of Service, you and WebGroup agree to give up the right to a trial before a judge and jury with respect to any and all claims relating to, arising out of, o…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 2
+   }
+  ],
+  "V6": [
+   {
+    "termo": "trial",
+    "kwic": "…e contain a binding arbitration agreement whereby you agree to waive your right to a jury trial and further agree to waive your right to bring any dispute or claim as part of a class or…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xvideos/03-tos.md",
+    "n": 3,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "trial",
+    "kwic": "…tarily accepting these Terms of Service, you and WebGroup agree to give up the right to a trial before a judge and jury with respect to any and all claims relating to, arising out of, o…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xvideos/03-tos.md",
+    "n": 3,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "test",
+    "kwic": "…ce.md · main · Digital Services / contrib-versions · GitLab Esta página utiliza cookies («testemunhos de conexão»). Visite a página sobre a nossa política de «cookies» ou clique na ligação vi…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…lquer página para mais informações ou para alterar as suas preferências. Aceitar todos os testemunhos Aceitar apenas os testemunhos essenciais Code development platform for open source projec…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "test",
+    "kwic": "…ções ou para alterar as suas preferências. Aceitar todos os testemunhos Aceitar apenas os testemunhos essenciais Code development platform for open source projects from the European Union ins…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 3
+   },
+   {
+    "termo": "trial",
+    "kwic": "…e contain a binding arbitration agreement whereby you agree to waive your right to a jury trial and further agree to waive your right to bring any dispute or claim as part of a class or…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 2
+   },
+   {
+    "termo": "trial",
+    "kwic": "…tarily accepting these Terms of Service, you and WebGroup agree to give up the right to a trial before a judge and jury with respect to any and all claims relating to, arising out of, o…",
+    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 2
+   }
+  ],
+  "V3": [
+   {
+    "termo": "experiment",
+    "kwic": "…aborador Análise do repositório Análises de revisão de código Análises de issues Insights Experimentos de modelo Ajuda Ajuda Suporte Documentação da GitLab GitLab University Comparar planos do…",
+    "flag": null,
+    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
+    "n": 5,
+    "total_no_doc": 1
+   }
+  ]
+ },
+ "log_sugerido": "01-privacy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:4\n02-privacynotice.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n03-tos.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:2 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n04-cookiepolicy.md: experiment:0 / A-B:0 / randomize:0 / test:0 / trial:0 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0\n05-main-xvideos-terms-20of-20service-md.md: experiment:1 / A-B:0 / randomize:0 / test:3 / trial:2 / beta:0 / control group:0 / debrief:0 / ethics:0 / review board:0 / IRB:0 / risk assessment:0"
+}
