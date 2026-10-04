@@ -1,168 +1,356 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Snapchat",
  "slug": "snapchat",
  "modelo": "claude-opus-5-5",
- "prompt_sha": "2524e854e614",
- "entrada_sha": "35e7fd9ebde0",
- "gerado_em": "2026-10-03T16:30:05+00:00",
+ "prompt_sha": "edd17f9c3a0d",
+ "entrada_sha": "6446eafeafbe",
+ "gerado_em": "2026-10-04T23:41:08+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
-  "max_tokens": 12000,
+  "max_tokens": 16000,
   "thinking": "adaptive",
   "tentativas": 1
  },
- "n_citacoes": 73,
+ "n_trechos": {
+  "V1": 43,
+  "V2": 8,
+  "V3": 26,
+  "V4": 10,
+  "V5": 7,
+  "V6": 25,
+  "V7": 5,
+  "V8": 7,
+  "V9": 52
+ },
+ "documentos": {
+  "1": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "2": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "3": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "4": {
+   "tipo": "ToS/conditions",
+   "registro": "binding"
+  },
+  "5": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "6": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "7": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
+  },
+  "8": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
+  },
+  "9": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
+  },
+  "10": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
+  }
+ },
  "variaveis": {
   "V1": {
-   "campos": {
-    "v1_code": "3",
-    "v1_register": "non-binding"
+   "notas": {
+    "h:c7395122": "x",
+    "h:1b445a37": "x",
+    "h:eb44d521": "x",
+    "h:3c12056f": "x",
+    "h:ffd55c9b": "3",
+    "h:46ae169e": "3",
+    "h:4fde4457": "3",
+    "h:9e6f63ab": "x",
+    "h:fc5b51b5": "x",
+    "h:b1e2c719": "x",
+    "h:edfca9e7": "3",
+    "h:497ebc4b": "3",
+    "h:14c4b99e": "3",
+    "h:74ed3fee": "3",
+    "h:5513694c": "3",
+    "h:92c60be5": "3",
+    "h:cb163de5": "3",
+    "h:6c19abae": "2",
+    "h:49867008": "3",
+    "h:6d135dbb": "3",
+    "h:3ca71006": "3",
+    "h:fdfd3aee": "3",
+    "h:2ffc26fc": "2",
+    "h:f9900a1c": "2",
+    "h:e4da23c1": "2",
+    "h:6a4b5745": "3",
+    "h:ac923ab6": "3",
+    "h:1ce43cf0": "3",
+    "h:8af7772a": "x",
+    "h:cd413356": "x",
+    "h:42cc0032": "x",
+    "c:V1-1": "1",
+    "c:V1-2": "1",
+    "c:V1-3": "x",
+    "c:V1-4": "x",
+    "c:V1-5": "3",
+    "c:V1-6": "3",
+    "c:V1-7": "3",
+    "c:V1-8": "3",
+    "c:V1-9": "3",
+    "c:V1-10": "3",
+    "c:V1-11": "2"
    },
-   "razao": "O nível 3 (teste A/B, atribuição aleatória, experimentos controlados) aparece só nos blogs de engenharia e da NVIDIA (V1-5, V1-6, V1-7, V1-8, V1-9). Nos vinculantes, só nível 1: a política fala em melhorar e em pesquisa por questionários e painéis (V1-1, V1-2, V1-3), e o 'trial' do ToS não tem citação de experimento.",
-   "confianca": "alta",
-   "citacoes": [
-    "V1-1",
-    "V1-2",
-    "V1-3",
-    "V1-5",
-    "V1-6",
-    "V1-7",
-    "V1-8",
-    "V1-9"
-   ]
+   "extras": {},
+   "razao": "Teto 3 aparece só nos blogs (docs 7, 8, 10), com A/B e atribuição aleatória de Snapchatters. Nos vinculantes, só nível 1 (\"ways to improve our Services\"); \"trial\" do ToS é júri, falso positivo."
   },
   "V2": {
-   "campos": {
-    "v2_framing": [
-     "service improvement",
+   "notas": {
+    "c:V2-1": [
+     "service improvement"
+    ],
+    "c:V2-2": [
      "research"
+    ],
+    "c:V2-3": [
+     "research",
+     "service improvement"
+    ],
+    "c:V2-4": [
+     "research"
+    ],
+    "c:V2-5": [
+     "research"
+    ],
+    "c:V2-6": [
+     "social-good/community"
+    ],
+    "c:V2-7": "x",
+    "c:V2-8": [
+     "service improvement"
     ]
    },
-   "razao": "Há melhoria do serviço (V2-1, V2-8) e pesquisa genérica e de P&D (V2-2, V2-3, V2-5). 'Community' em V2-2 designa os usuários, e 'safe and enjoyable' (V2-6) refere-se à personalização, não a bem-estar como justificativa de teste; nenhuma citação sustenta pesquisa com seres humanos no sentido ético.",
-   "confianca": "média",
-   "citacoes": [
-    "V2-1",
-    "V2-2",
-    "V2-3",
-    "V2-5",
-    "V2-6",
-    "V2-8"
-   ]
+   "extras": {},
+   "razao": "Predominam melhoria do serviço e pesquisa genérica; não há pesquisa com seres humanos no sentido ético. V2-6 (\"safe and enjoyable for everyone\") é borderline de comunidade e está ligado a personalização, não a testes."
   },
   "V3": {
-   "campos": {
-    "v3_activities": "Yes",
-    "v3_specific": "Yes",
-    "v3_pricing": "No",
-    "v3_targets": "modelos de ML de ranking de anúncios; novos recursos (ex.: Maps)"
+   "notas": {
+    "h:ffd55c9b": [
+     "activities"
+    ],
+    "h:46ae169e": [
+     "activities"
+    ],
+    "h:fc5b51b5": "x",
+    "h:b1e2c719": "x",
+    "h:edfca9e7": [
+     "activities"
+    ],
+    "h:14c4b99e": [
+     "activities"
+    ],
+    "h:74ed3fee": "x",
+    "h:92c60be5": "x",
+    "h:49867008": [
+     "activities"
+    ],
+    "h:6d135dbb": "x",
+    "h:3ca71006": "x",
+    "h:fdfd3aee": "x",
+    "h:6a4b5745": "x",
+    "h:ac923ab6": "x",
+    "h:1ce43cf0": "x",
+    "c:V3-1": "x",
+    "c:V3-2": "x",
+    "c:V3-3": "x",
+    "c:V3-4": "x",
+    "c:V3-5": [
+     "activities"
+    ],
+    "c:V3-6": "x",
+    "c:V3-7": "x",
+    "c:V3-8": "x",
+    "c:V3-9": "x",
+    "c:V3-10": [
+     "specific"
+    ],
+    "c:V3-11": "x"
    },
-   "razao": "Os blogs nomeiam novos recursos e modelos de ranking de anúncios como objeto de teste A/B (V1-5, V1-8), e a NVIDIA mostra um teste A/B do recurso Maps (V3-10), tudo em registro não vinculante. Orçamento de anunciantes e leilão (V3-5, V3-7) descrevem método e mecânica, não preço testado com usuários.",
-   "confianca": "média",
-   "citacoes": [
-    "V1-5",
-    "V1-8",
-    "V3-10",
-    "V3-5",
-    "V3-7"
-   ]
+   "extras": {
+    "v3_targets": "modelos de ML de ranking de anúncios; novos recursos; recurso Maps"
+   },
+   "razao": "Atividades nomeadas (modelos de ranking de anúncios, novos recursos) e um teste específico (A/B do Maps) aparecem só em blogs. Preço ao consumidor não aparece como alvo; divisão de orçamento de anunciantes é desenho do teste, não preço."
   },
   "V4": {
-   "campos": {
-    "v4_basis": [
+   "notas": {
+    "c:V4-1": "x",
+    "c:V4-2": [
      "contract",
      "legitimate interest"
     ],
-    "v4_mapped_purpose": "Development: develop and improve our features and Services",
+    "c:V4-3": [
+     "legitimate interest",
+     "consent"
+    ],
+    "c:V4-4": [
+     "legitimate interest"
+    ],
+    "c:V4-5": "x",
+    "c:V4-6": "x",
+    "c:V4-7": [
+     "legitimate interest"
+    ],
+    "c:V4-8": "x",
+    "c:V4-9": "x",
+    "c:V4-10": "x"
+   },
+   "extras": {
+    "v4_mapped_purpose": "Develop and improve our features and Services, including algorithms and machine learning models (linha Development)",
     "v4_region_gated": "No"
    },
-   "razao": "A finalidade 'Development' da tabela do Doc 6 (V4-1) tem como bases Contract, Legitimate Interest e Legal obligation (V4-2); esta última não consta das opções e fica para Notas. A tabela está presente nos documentos capturados (V4-5, V4-6), por isso No.",
-   "confianca": "média",
-   "citacoes": [
-    "V4-1",
-    "V4-2",
-    "V4-5",
-    "V4-6",
-    "V4-7"
-   ]
+   "razao": "A linha Development da tabela (doc 6) declara Contract, Legitimate Interest e Legal obligation; a linha Research acrescenta Consent. A tabela está presente nos documentos congelados, logo geo-gating = No pela definição."
   },
   "V5": {
-   "campos": {
-    "v5_optout": "cookie/ads-only"
+   "notas": {
+    "c:V5-1": "GDPR-objection-only",
+    "c:V5-2": "GDPR-objection-only",
+    "c:V5-3": "GDPR-objection-only",
+    "c:V5-4": "cookie/ads-only",
+    "c:V5-5": "cookie/ads-only",
+    "c:V5-6": "x",
+    "c:V5-7": "x"
    },
-   "razao": "Há o direito genérico de objeção (V5-1, V5-2, V5-3), além de preferências de anúncios e de cookies de navegador (V5-4, V5-5), que regem publicidade e não experimentação. Nenhuma citação mostra controle dedicado a experimentos; se o codificador entender que não há banner propriamente dito, GDPR-objection-only é a alternativa.",
-   "confianca": "média",
-   "citacoes": [
-    "V5-1",
-    "V5-2",
-    "V5-3",
-    "V5-4",
-    "V5-5"
-   ]
+   "extras": {},
+   "razao": "Há direito genérico de objeção e controles de anúncios/cookies, mas nenhum controle específico de experimentação. Opção de menos personalização no ToS não trata de experimentos."
   },
   "V6": {
-   "campos": {
-    "v6_optin_beta": "Yes",
-    "v6_which": "Snapchat Beta: inscrição voluntária, iOS via TestFlight; Android com inscrições suspensas"
+   "notas": {
+    "h:c7395122": "x",
+    "h:1b445a37": "x",
+    "h:eb44d521": "x",
+    "h:3c12056f": "x",
+    "h:4fde4457": "x",
+    "h:9e6f63ab": "x",
+    "h:497ebc4b": "x",
+    "h:5513694c": "x",
+    "h:cb163de5": "x",
+    "h:6c19abae": "x",
+    "h:6413ff72": "sim",
+    "h:593ace9f": "sim",
+    "h:8f41bdb0": "sim",
+    "h:2ffc26fc": "sim",
+    "h:f9900a1c": "sim",
+    "h:e4da23c1": "sim",
+    "h:8af7772a": "x",
+    "h:cd413356": "x",
+    "h:42cc0032": "x",
+    "c:V6-1": "sim",
+    "c:V6-2": "sim",
+    "c:V6-3": "sim",
+    "c:V6-4": "sim",
+    "c:V6-5": "sim"
    },
-   "razao": "A página Snapchat Beta convida a testar funcionalidades antes do lançamento, com inscrição pelo TestFlight no iOS (V6-1, V6-2, V6-3, V6-4). As inscrições Android estão suspensas (V6-5).",
-   "confianca": "alta",
-   "citacoes": [
-    "V6-1",
-    "V6-2",
-    "V6-3",
-    "V6-4",
-    "V6-5"
-   ]
+   "extras": {
+    "v6_which": "Snapchat Beta: inscrição voluntária para testar recursos antes do lançamento (iOS via TestFlight; Android Beta com inscrições suspensas)"
+   },
+   "razao": "A página Snapchat Beta (doc 9) descreve programa opt-in de acesso antecipado. Não mitiga a V5."
   },
   "V7": {
-   "campos": {
-    "v7_debrief": "No"
+   "notas": {
+    "c:V7-1": "x",
+    "c:V7-2": "x",
+    "c:V7-3": "x",
+    "c:V7-4": "x",
+    "c:V7-5": "x"
    },
-   "razao": "Só há avisos de mudança de política ou de serviço (V7-1, V7-3, V7-4), que estão excluídos pelo critério, e 'debrief' tem 0 ocorrências em todos os documentos. O tema nunca é endereçado nos vinculantes; o blog descreve teste A/B sem aviso posterior (V7-5).",
-   "confianca": "alta",
-   "citacoes": [
-    "V7-1",
-    "V7-3",
-    "V7-4",
-    "V7-5"
-   ]
+   "extras": {},
+   "razao": "Os trechos são avisos de mudança de política/serviço ou descrição de A/B sem aviso posterior ao participante. Sugere No do tipo tema não endereçado, com 'debrief' zerado no log de palavras-chave."
   },
   "V8": {
-   "campos": {
-    "v8_ethics": "No"
+   "notas": {
+    "c:V8-1": "x",
+    "c:V8-2": "x",
+    "c:V8-3": "x",
+    "c:V8-4": "x",
+    "c:V8-5": "x",
+    "c:V8-6": "x",
+    "c:V8-7": "x"
    },
-   "razao": "As ponderações de legítimo interesse e a revisão de objeções (V8-3, V8-4) não são revisão ética de experimentos, e os conselhos de segurança e bem-estar (V8-6) não se referem a experimentação. 'Risk mitigation' (V8-7) aparece só no blog, como risco de negócio; registrar em Notas o gap em relação às avaliações do DSA.",
-   "confianca": "média",
-   "citacoes": [
-    "V8-3",
-    "V8-4",
-    "V8-6",
-    "V8-7"
-   ]
+   "extras": {},
+   "razao": "Ponderação de legítimo interesse, revisão de objeções e Safety Advisory Board não são revisão ética de experimentos; o 'risk mitigation' do blog refere-se ao orçamento de anunciantes. Sugere No, com nota de gap entre avaliação de risco do DSA e documentos ao usuário."
   },
   "V9": {
-   "campos": {
-    "v9_where": [
-     "blog/PR/site de pesquisa"
-    ],
-    "v9_register": "non-binding"
+   "notas": {
+    "c:V9-1": "x",
+    "c:V9-2": "x",
+    "c:V9-3": "x",
+    "c:V9-4": "x",
+    "c:V9-5": "x",
+    "c:V9-6": "x",
+    "c:V9-7": "x",
+    "c:V9-8": "sim",
+    "c:V9-9": "sim",
+    "h:c7395122": "x",
+    "h:1b445a37": "x",
+    "h:eb44d521": "x",
+    "h:3c12056f": "x",
+    "h:ffd55c9b": "sim",
+    "h:46ae169e": "sim",
+    "h:4fde4457": "sim",
+    "h:9e6f63ab": "x",
+    "h:fc5b51b5": "x",
+    "h:b1e2c719": "x",
+    "h:edfca9e7": "sim",
+    "h:497ebc4b": "sim",
+    "h:14c4b99e": "sim",
+    "h:74ed3fee": "sim",
+    "h:5513694c": "sim",
+    "h:92c60be5": "sim",
+    "h:cb163de5": "sim",
+    "h:6c19abae": "sim",
+    "h:49867008": "sim",
+    "h:6d135dbb": "sim",
+    "h:3ca71006": "sim",
+    "h:fdfd3aee": "sim",
+    "h:2ffc26fc": "sim",
+    "h:f9900a1c": "sim",
+    "h:e4da23c1": "sim",
+    "h:6a4b5745": "sim",
+    "h:ac923ab6": "sim",
+    "h:1ce43cf0": "sim",
+    "h:8af7772a": "x",
+    "h:cd413356": "x",
+    "h:42cc0032": "x",
+    "c:V1-1": "x",
+    "c:V1-2": "x",
+    "c:V1-3": "x",
+    "c:V1-4": "x",
+    "c:V1-5": "sim",
+    "c:V1-6": "sim",
+    "c:V1-7": "sim",
+    "c:V1-8": "sim",
+    "c:V1-9": "sim",
+    "c:V1-10": "sim",
+    "c:V1-11": "sim"
    },
-   "razao": "A experimentação é divulgada nos blogs de engenharia e da NVIDIA (V9-6, V9-7, V9-8) e na página Beta (V9-9); política e ToS (V9-1, V9-3) não falam em testar usuários. A página Beta pode ser anotada à parte em Notas.",
-   "confianca": "média",
-   "citacoes": [
-    "V9-1",
-    "V9-3",
-    "V9-6",
-    "V9-7",
-    "V9-8",
-    "V9-9"
-   ]
+   "extras": {},
+   "razao": "A divulgação de experimentação aparece só em blogs de engenharia/NVIDIA e na página Beta, todos não vinculantes. Os vinculantes falam apenas em melhorar o serviço, o que sugere registro agregado non-binding."
   }
  },
+ "avisos": [],
  "uso": {
-  "input": 16082,
-  "output": 3591
+  "input": 27863,
+  "output": 8486
  }
 }

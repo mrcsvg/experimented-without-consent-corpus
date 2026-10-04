@@ -1,160 +1,285 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Google Play",
  "slug": "google-play",
  "modelo": "claude-opus-5-5",
- "prompt_sha": "2524e854e614",
- "entrada_sha": "128a695c3730",
- "gerado_em": "2026-10-03T16:33:23+00:00",
+ "prompt_sha": "edd17f9c3a0d",
+ "entrada_sha": "31f5b20e68d3",
+ "gerado_em": "2026-10-04T23:46:14+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
-  "max_tokens": 12000,
+  "max_tokens": 16000,
   "thinking": "adaptive",
-  "tentativas": 2
+  "tentativas": 1
  },
- "n_citacoes": 66,
+ "n_trechos": {
+  "V1": 24,
+  "V2": 8,
+  "V3": 17,
+  "V4": 8,
+  "V5": 7,
+  "V6": 17,
+  "V7": 4,
+  "V8": 6,
+  "V9": 32
+ },
+ "documentos": {
+  "1": {
+   "tipo": "ToS/conditions",
+   "registro": "binding"
+  },
+  "2": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "3": {
+   "tipo": "ToS/conditions",
+   "registro": "binding"
+  },
+  "4": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "5": {
+   "tipo": "help centre",
+   "registro": "non-binding"
+  },
+  "6": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
+  }
+ },
  "variaveis": {
   "V1": {
-   "campos": {
-    "v1_code": "3",
-    "v1_register": "non-binding"
+   "notas": {
+    "h:f48ac9b8": "x",
+    "h:0d0168fa": "x",
+    "h:32a6bf5d": "x",
+    "h:1782887f": "x",
+    "h:c2d5f8ed": "2",
+    "h:9c0dc2ac": "2",
+    "h:4a518d67": "3",
+    "h:0e5dc775": "3",
+    "h:50ebb335": "3",
+    "h:8b85efc0": "3",
+    "h:50a764b0": "3",
+    "h:f85bbc4a": "3",
+    "h:7ecec389": "3",
+    "h:60015241": "3",
+    "h:e32f7b29": "3",
+    "c:V1-1": "3",
+    "c:V1-2": "3",
+    "c:V1-3": "3",
+    "c:V1-4": "3",
+    "c:V1-5": "1",
+    "c:V1-6": "1",
+    "c:V1-7": "1",
+    "c:V1-8": "2",
+    "c:V1-9": "2"
    },
-   "razao": "O teto 3 aparece só na página de divulgação do Play Console, que nomeia testes A/B, variantes e experimentos (V1-1, V1-2, V1-3). Nos vinculantes o nível é 2, pelo cookie de rollout que mede o impacto de novos recursos (V1-8), ou 1, pela linguagem de melhoria (V1-6, V1-7); registrar isso em Notas.",
-   "confianca": "média",
-   "citacoes": [
-    "V1-1",
-    "V1-2",
-    "V1-3",
-    "V1-6",
-    "V1-7",
-    "V1-8"
-   ]
+   "extras": {},
+   "razao": "Teto sugerido 3, só no doc 6 (página da Play Console, não vinculante, voltada a desenvolvedores que rodam A/B com usuários do Play). Nos vinculantes, o máximo parece ser 2 (cookie ROLLOUT_TOKEN no doc 4); o codificador pode avaliar se testes conduzidos por desenvolvedores contam como experimentação da plataforma."
   },
   "V2": {
-   "campos": {
-    "v2_framing": [
+   "notas": {
+    "c:V2-1": [
+     "service improvement"
+    ],
+    "c:V2-2": [
      "service improvement",
      "research",
      "social-good/community"
+    ],
+    "c:V2-3": [
+     "service improvement"
+    ],
+    "c:V2-4": [
+     "service improvement"
+    ],
+    "c:V2-5": "x",
+    "c:V2-6": "x",
+    "c:V2-7": "x",
+    "c:V2-8": [
+     "service improvement"
     ]
    },
-   "razao": "A melhoria do serviço aparece em V2-1 e V2-3, e a pesquisa que melhora serviços aparece em V2-2. O trecho 'benefits the public' em V2-2 sustenta o enquadramento de bem social; não há linguagem de pesquisa com seres humanos.",
-   "confianca": "média",
-   "citacoes": [
-    "V2-1",
-    "V2-2",
-    "V2-3"
-   ]
+   "extras": {},
+   "razao": "Sugestão: service improvement, research e social-good/community ('benefits the public'), com co-ocorrência no doc 2. O doc 6 usa um enquadramento de otimização comercial/conversão, fora da lista, que pode ir para Notas."
   },
   "V3": {
-   "campos": {
-    "v3_activities": "Yes",
-    "v3_specific": "Yes",
-    "v3_pricing": "Yes",
-    "v3_targets": "ícones, vídeos, screenshots, gráficos, texto localizado da ficha da loja; preço"
+   "notas": {
+    "h:c2d5f8ed": "x",
+    "h:4a518d67": [
+     "activities"
+    ],
+    "h:0e5dc775": [
+     "activities"
+    ],
+    "h:50ebb335": [
+     "activities"
+    ],
+    "h:50a764b0": [
+     "activities"
+    ],
+    "h:7ecec389": [
+     "activities"
+    ],
+    "h:e32f7b29": [
+     "activities"
+    ],
+    "c:V3-1": [
+     "activities"
+    ],
+    "c:V3-2": [
+     "activities"
+    ],
+    "c:V3-3": [
+     "pricing"
+    ],
+    "c:V3-4": [
+     "activities",
+     "specific"
+    ],
+    "c:V3-5": "x",
+    "c:V3-6": "x",
+    "c:V3-7": "x",
+    "c:V3-8": "x",
+    "c:V3-9": [
+     "activities"
+    ],
+    "c:V3-10": "x"
    },
-   "razao": "A página do Play Console nomeia superfícies testadas (V3-1, V1-1), divulga um caso específico da Tapps Games (V3-4) e lista 'Price experiments' (V3-3). O preço aparece só em registro não-vinculante, o que deve ir para Notas; V3-6 trata de mudança de preço e não conta.",
-   "confianca": "média",
-   "citacoes": [
-    "V3-1",
-    "V1-1",
-    "V3-4",
-    "V3-3",
-    "V3-6"
-   ]
+   "extras": {
+    "v3_targets": "store listing graphics; localized text; icons; videos; screenshots; price"
+   },
+   "razao": "Atividades, alvos e um caso específico (Tapps Games) aparecem quase só no doc 6, não vinculante. O preço aparece como alvo só pelo item de menu 'Price experiments' do doc 6, a anotar em Notas como registro não vinculante."
   },
   "V4": {
-   "campos": {
-    "v4_basis": [
+   "notas": {
+    "c:V4-1": [
      "legitimate interest"
     ],
-    "v4_mapped_purpose": "Perform research that improves our services (To maintain and improve Google services)",
+    "c:V4-2": [
+     "legitimate interest"
+    ],
+    "c:V4-3": [
+     "legitimate interest"
+    ],
+    "c:V4-4": "x",
+    "c:V4-5": "x",
+    "c:V4-6": "x",
+    "c:V4-7": "x",
+    "c:V4-8": "x"
+   },
+   "extras": {
+    "v4_mapped_purpose": "Perform research that improves our services / provide, maintain and improve services",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases legais está presente na política capturada, e nela a pesquisa para melhorar serviços aparece sob legítimo interesse (V4-1, V4-3, V1-6). Como a tabela está nos documentos, a resposta para geo-gated é No; a ligação entre V4-2 e contrato não fica explícita nas citações.",
-   "confianca": "média",
-   "citacoes": [
-    "V4-1",
-    "V4-3",
-    "V1-6",
-    "V4-2"
-   ]
+   "razao": "A tabela de bases legais está presente no doc 2 capturado. As finalidades de melhoria e pesquisa aparecem sob legítimo interesse; consentimento e contrato aparecem só em termos genéricos."
   },
   "V5": {
-   "campos": {
-    "v5_optout": "cookie/ads-only"
+   "notas": {
+    "c:V5-1": "GDPR-objection-only",
+    "c:V5-2": "x",
+    "c:V5-3": "cookie/ads-only",
+    "c:V5-4": "cookie/ads-only",
+    "c:V5-5": "x",
+    "c:V5-6": "x",
+    "c:V5-7": "x"
    },
-   "razao": "Há controles de cookies e de anúncios (V5-3, V5-4) e o direito genérico de objeção (V5-1), mas nenhum controle específico de experimentação. O subcontrole de Web & App Activity rege o uso de dados para melhoria, não para experimentos (V5-2).",
-   "confianca": "média",
-   "citacoes": [
-    "V5-1",
-    "V5-2",
-    "V5-3",
-    "V5-4"
-   ]
+   "extras": {},
+   "razao": "Não aparece controle específico de experimentação; os controles governam anúncios, cookies ou atividade da conta. Sugestão de nível pela escada: cookie/ads-only, com a objeção genérica do GDPR também presente; a escolha entre os dois níveis fica com o codificador."
   },
   "V6": {
-   "campos": {
-    "v6_optin_beta": "Yes",
-    "v6_which": "Programas de early access e beta no Google Play: o usuário entra pelo 'Join the beta' e pode sair"
+   "notas": {
+    "h:f48ac9b8": "x",
+    "h:0d0168fa": "x",
+    "h:32a6bf5d": "x",
+    "h:1782887f": "x",
+    "h:f0c6b193": "sim",
+    "h:ab486a1e": "sim",
+    "h:52286e33": "sim",
+    "h:9c0dc2ac": "sim",
+    "h:8b85efc0": "x",
+    "h:f85bbc4a": "x",
+    "h:60015241": "x",
+    "c:V6-1": "sim",
+    "c:V6-2": "sim",
+    "c:V6-3": "sim",
+    "c:V6-4": "sim",
+    "c:V6-5": "x",
+    "c:V6-6": "x"
    },
-   "razao": "A central de ajuda descreve a inscrição voluntária em programas beta e de acesso antecipado (V6-1, V6-2), com saída possível (V6-3). Isso não mitiga a V5.",
-   "confianca": "alta",
-   "citacoes": [
-    "V6-1",
-    "V6-2",
-    "V6-3"
-   ]
+   "extras": {
+    "v6_which": "Google Play early access and beta programs: o usuário toca 'Join the beta' na página do app; programas geridos por desenvolvedores"
+   },
+   "razao": "O doc 5 descreve programas de acesso antecipado e beta em que o usuário se inscreve. A instalação de app não lançado pode inscrever o usuário automaticamente no beta."
   },
   "V7": {
-   "campos": {
-    "v7_debrief": "No"
+   "notas": {
+    "c:V7-1": "x",
+    "c:V7-2": "x",
+    "c:V7-3": "x",
+    "c:V7-4": "x"
    },
-   "razao": "V7-1 e V7-2 são avisos de mudança de serviço, que não contam como debriefing, e V7-4 é um alerta ao desenvolvedor, não ao usuário. O tema não é endereçado: o log de palavras-chave registra debrief:0 em todos os documentos.",
-   "confianca": "alta",
-   "citacoes": [
-    "V7-1",
-    "V7-2",
-    "V7-4"
-   ]
+   "extras": {},
+   "razao": "Os trechos são avisos de mudança de serviço ou notificações ao desenvolvedor, não debriefing; 'debrief' tem zero ocorrências em todos os documentos. Sugestão: No, tema não endereçado."
   },
   "V8": {
-   "campos": {
-    "v8_ethics": "No"
+   "notas": {
+    "c:V8-1": "x",
+    "c:V8-2": "x",
+    "c:V8-3": "x",
+    "c:V8-4": "x",
+    "c:V8-5": "x",
+    "c:V8-6": "x"
    },
-   "razao": "V8-1 é linguagem de fronteira sobre 'impact on you and others' ligada a mudar ou descontinuar serviços, o que dá No com nota. O log registra ethics, IRB e risk assessment em 0, e fica a nota de gap entre a obrigação do DSA e os documentos.",
-   "confianca": "média",
-   "citacoes": [
-    "V8-1",
-    "V8-2",
-    "V8-3"
-   ]
+   "extras": {},
+   "razao": "Sugestão: No; 'potential impact on you and others' (doc 3) está atado a mudança ou descontinuação de serviço, caso de fronteira para nota. Não há menção a avaliação de risco do DSA nos documentos ao usuário (gap regulatório-vs-documento)."
   },
   "V9": {
-   "campos": {
-    "v9_where": [
-     "privacy policy",
-     "ToS/conditions",
-     "help centre",
-     "blog/PR/site de pesquisa"
-    ],
-    "v9_register": "both"
+   "notas": {
+    "c:V9-1": "x",
+    "c:V9-2": "x",
+    "c:V9-3": "x",
+    "c:V9-4": "x",
+    "c:V9-5": "x",
+    "c:V9-6": "sim",
+    "c:V9-7": "sim",
+    "c:V9-8": "x",
+    "h:f48ac9b8": "x",
+    "h:0d0168fa": "x",
+    "h:32a6bf5d": "x",
+    "h:1782887f": "x",
+    "h:c2d5f8ed": "sim",
+    "h:9c0dc2ac": "sim",
+    "h:4a518d67": "sim",
+    "h:0e5dc775": "sim",
+    "h:50ebb335": "sim",
+    "h:8b85efc0": "sim",
+    "h:50a764b0": "sim",
+    "h:f85bbc4a": "sim",
+    "h:7ecec389": "sim",
+    "h:60015241": "sim",
+    "h:e32f7b29": "sim",
+    "c:V1-1": "sim",
+    "c:V1-2": "sim",
+    "c:V1-3": "sim",
+    "c:V1-4": "sim",
+    "c:V1-5": "x",
+    "c:V1-6": "x",
+    "c:V1-7": "x",
+    "c:V1-8": "sim",
+    "c:V1-9": "sim"
    },
-   "razao": "Nos vinculantes, a divulgação aparece como pesquisa/melhoria e programa de pesquisa de produto (V1-5, V1-7, V9-1, V9-2); nos não vinculantes, como beta na central de ajuda (V9-6) e A/B na página institucional do Play Console (V9-7). O registro agregado é both, mas o nível 3 vive só no não-vinculante.",
-   "confianca": "média",
-   "citacoes": [
-    "V1-5",
-    "V1-7",
-    "V9-1",
-    "V9-2",
-    "V9-6",
-    "V9-7"
-   ]
+   "extras": {},
+   "razao": "A divulgação aparece no aviso de cookies (doc 4, vinculante, nível 2), na central de ajuda (doc 5) e na página da Play Console (doc 6). Sugestão de registro agregado: both, com o nível 3 só no não vinculante."
   }
  },
+ "avisos": [],
  "uso": {
-  "input": 28925,
-  "output": 6918
+  "input": 20235,
+  "output": 7446
  }
 }

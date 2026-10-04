@@ -1,163 +1,238 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Google Shopping",
  "slug": "google-shopping",
  "modelo": "claude-opus-5-5",
- "prompt_sha": "2524e854e614",
- "entrada_sha": "5af47f941965",
- "gerado_em": "2026-10-03T16:34:31+00:00",
+ "prompt_sha": "edd17f9c3a0d",
+ "entrada_sha": "0602a170b2c7",
+ "gerado_em": "2026-10-04T23:47:52+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
-  "max_tokens": 12000,
+  "max_tokens": 16000,
   "thinking": "adaptive",
   "tentativas": 1
  },
- "n_citacoes": 53,
+ "n_trechos": {
+  "V1": 16,
+  "V2": 7,
+  "V3": 11,
+  "V4": 8,
+  "V5": 7,
+  "V6": 5,
+  "V7": 4,
+  "V8": 4,
+  "V9": 23
+ },
+ "documentos": {
+  "1": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "2": {
+   "tipo": "ToS/conditions",
+   "registro": "binding"
+  },
+  "3": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "4": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "5": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
+  }
+ },
  "variaveis": {
   "V1": {
-   "campos": {
-    "v1_code": "3",
-    "v1_register": "non-binding"
+   "notas": {
+    "h:9683e900": "x",
+    "h:ec4966e9": "x",
+    "h:a2492aa5": "2",
+    "h:dde64840": "2",
+    "h:500b15fe": "3",
+    "h:79019f4f": "3",
+    "h:cb9eb673": "3",
+    "h:fe27915a": "3",
+    "c:V1-1": "2",
+    "c:V1-2": "3",
+    "c:V1-3": "3",
+    "c:V1-4": "3",
+    "c:V1-5": "2",
+    "c:V1-6": "1",
+    "c:V1-7": "1",
+    "c:V1-8": "1"
    },
-   "razao": "O microsite 'How Search Works' (não vinculante) nomeia experimentos, grupo de controle e versões comparadas (V1-2, V1-3, V1-4, V1-5). Nos vinculantes há só linguagem de melhoria e de 'product research program', sem dizer que testa (V1-6, V1-7, V1-8): nota sugerida 'nos vinculantes, só nível 1'.",
-   "confianca": "alta",
-   "citacoes": [
-    "V1-2",
-    "V1-3",
-    "V1-4",
-    "V1-5",
-    "V1-6",
-    "V1-7",
-    "V1-8"
-   ]
+   "extras": {},
+   "razao": "Os trechos de nível 3 (experiments, grupo de controle) estão só no microsite de Search (doc 5, não vinculante). Nos vinculantes (docs 1 e 2) os trechos não passam do nível 1; V1-5 recebeu 2 porque o teste side-by-side envolve Raters, não usuários."
   },
   "V2": {
-   "campos": {
-    "v2_framing": [
+   "notas": {
+    "c:V2-1": [
+     "service improvement"
+    ],
+    "c:V2-2": [
      "service improvement",
      "research",
      "social-good/community"
+    ],
+    "c:V2-3": [
+     "service improvement",
+     "research",
+     "social-good/community"
+    ],
+    "c:V2-4": [
+     "research"
+    ],
+    "c:V2-5": [
+     "service improvement"
+    ],
+    "c:V2-6": [
+     "service improvement"
+    ],
+    "c:V2-7": [
+     "service improvement"
     ]
    },
-   "razao": "Melhoria do serviço aparece em V2-1, V2-5, V2-6 e V2-7, e pesquisa em V2-2 e V2-4. 'Benefits the public' (V2-2, V2-3) pode ser lido como bem social, o que exige interpretação.",
-   "confianca": "média",
-   "citacoes": [
-    "V2-1",
-    "V2-2",
-    "V2-3",
-    "V2-4",
-    "V2-5",
-    "V2-6",
-    "V2-7"
-   ]
+   "extras": {},
+   "razao": "Predomina melhoria do serviço; 'research that improves our services' soma pesquisa e, com 'benefits the public', um enquadramento de bem público. Nenhum trecho fala em pesquisa com seres humanos."
   },
   "V3": {
-   "campos": {
-    "v3_activities": "Yes",
-    "v3_specific": "No",
-    "v3_pricing": "No",
-    "v3_targets": "features; conjuntos/ordem de resultados de Search"
+   "notas": {
+    "h:500b15fe": [
+     "activities"
+    ],
+    "h:79019f4f": [
+     "activities"
+    ],
+    "h:cb9eb673": [
+     "activities"
+    ],
+    "h:fe27915a": [
+     "activities"
+    ],
+    "c:V3-1": [
+     "activities"
+    ],
+    "c:V3-2": "x",
+    "c:V3-3": [
+     "activities"
+    ],
+    "c:V3-4": "x",
+    "c:V3-5": "x",
+    "c:V3-6": "x",
+    "c:V3-7": "x"
    },
-   "razao": "O documento 5 nomeia features e conjuntos de resultados de Search como objeto de teste (V3-1, V3-3, V3-2). Ele traz só contagens agregadas, sem experimento específico, e preço não aparece como alvo; V3-6 e V3-7 descrevem análise e personalização, não experimento.",
-   "confianca": "média",
-   "citacoes": [
-    "V3-1",
-    "V3-2",
-    "V3-3",
-    "V3-6",
-    "V3-7"
-   ]
+   "extras": {
+    "v3_targets": "novos recursos (features); conjuntos/ordem de resultados de Search"
+   },
+   "razao": "O doc 5 nomeia recursos e resultados de Search como objeto de teste, mas só com contagens agregadas, sem experimento específico. Preço não aparece como alvo; V3-6 e V3-7 descrevem análise e personalização, não experimento."
   },
   "V4": {
-   "campos": {
-    "v4_basis": [
+   "notas": {
+    "c:V4-1": [
      "legitimate interest"
     ],
+    "c:V4-2": [
+     "legitimate interest"
+    ],
+    "c:V4-3": [
+     "legitimate interest"
+    ],
+    "c:V4-4": "x",
+    "c:V4-5": "x",
+    "c:V4-6": "x",
+    "c:V4-7": "x",
+    "c:V4-8": "x"
+   },
+   "extras": {
     "v4_mapped_purpose": "To maintain and improve Google services, products, and features",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases legais está presente na política capturada (V4-7). A finalidade de melhoria lista como fundamento 'perform research' e 'improve services', formulações do bloco de legítimo interesse (V4-1, V4-2, V4-3); a ligação com essa base é inferida.",
-   "confianca": "média",
-   "citacoes": [
-    "V4-1",
-    "V4-2",
-    "V4-3",
-    "V4-7"
-   ]
+   "razao": "A tabela de bases legais está presente no doc 1, e a finalidade de manter e melhorar serviços aparece sob legítimo interesse. Contrato e consentimento aparecem só de forma genérica, sem ligação a essa finalidade."
   },
   "V5": {
-   "campos": {
-    "v5_optout": "GDPR-objection-only"
+   "notas": {
+    "c:V5-1": "GDPR-objection-only",
+    "c:V5-2": "x",
+    "c:V5-3": "cookie/ads-only",
+    "c:V5-4": "cookie/ads-only",
+    "c:V5-5": "x",
+    "c:V5-6": "x",
+    "c:V5-7": "x"
    },
-   "razao": "Só aparece o direito genérico de objeção (V5-1). Os controles de atividade, anúncios e cookies (V5-2, V5-3, V5-4, V5-5) não são saída específica de experimentos.",
-   "confianca": "média",
-   "citacoes": [
-    "V5-1",
-    "V5-2",
-    "V5-3",
-    "V5-4",
-    "V5-5"
-   ]
+   "extras": {},
+   "razao": "Há a objeção genérica do GDPR e controles de anúncios e cookies, mas nenhum controle específico de experimentos. V5-5 descreve um cookie de rollout, não uma opção de saída."
   },
   "V6": {
-   "campos": {
-    "v6_optin_beta": "No",
+   "notas": {
+    "h:9683e900": "x",
+    "h:ec4966e9": "x",
+    "h:a2492aa5": "x",
+    "h:dde64840": "x",
+    "c:V6-1": "x"
+   },
+   "extras": {
     "v6_which": ""
    },
-   "razao": "A escolha de instalar atualizações (V6-1) não é programa beta, e nenhuma citação sustenta outra resposta.",
-   "confianca": "alta",
-   "citacoes": [
-    "V6-1"
-   ]
+   "razao": "Nenhum trecho descreve programa de adesão a testes antecipados. 'Bug testing programs' trata de segurança, e V6-1 trata de instalação de atualizações."
   },
   "V7": {
-   "campos": {
-    "v7_debrief": "No"
+   "notas": {
+    "c:V7-1": "x",
+    "c:V7-2": "x",
+    "c:V7-3": "x",
+    "c:V7-4": "x"
    },
-   "razao": "Os avisos de mudança de serviço e as comunicações de serviço (V7-1, V7-2, V7-3) são falsos positivos excluídos. O documento 5 trata de experimentos (V7-4) sem mencionar aviso posterior, e a contagem de 'debrief' é 0 em todos os documentos, então é um 'No' por omissão num texto que trata do tema.",
-   "confianca": "alta",
-   "citacoes": [
-    "V7-1",
-    "V7-2",
-    "V7-3",
-    "V7-4"
-   ]
+   "extras": {},
+   "razao": "Os trechos são avisos de mudança de serviço ou comunicações gerais, excluídos pelo critério. Os docs 1 e 2 não abordam aviso posterior de participação, e as palavras-chave 'debrief' aparecem com zero em todos os documentos."
   },
   "V8": {
-   "campos": {
-    "v8_ethics": "No"
+   "notas": {
+    "c:V8-1": "x",
+    "c:V8-2": "x",
+    "c:V8-3": "x",
+    "c:V8-4": "x"
    },
-   "razao": "V8-1 e V8-2 descrevem revisão dos dados dos experimentos, inclusive por especialistas jurídicos e de privacidade, para decidir lançamento, mas não revisão ética nem avaliação de risco: é caso de fronteira para nota. V8-3 é linguagem de 'impacto' ligada a mudança de serviço, e ethics, review board e risk assessment têm contagem 0; anotar o gap DSA.",
-   "confianca": "baixa",
-   "citacoes": [
-    "V8-1",
-    "V8-2",
-    "V8-3",
-    "V8-4"
-   ]
+   "extras": {},
+   "razao": "V8-1 e V8-2 descrevem revisão de lançamento por engenheiros e especialistas jurídicos e de privacidade, um caso de fronteira que não é revisão ética nem avaliação de risco. V8-3 é linguagem de 'impact' ligada a mudança de serviço, que o critério manda codificar como No com nota."
   },
   "V9": {
-   "campos": {
-    "v9_where": [
-     "blog/PR/site de pesquisa"
-    ],
-    "v9_register": "non-binding"
+   "notas": {
+    "c:V9-1": "x",
+    "c:V9-2": "x",
+    "c:V9-3": "x",
+    "c:V9-4": "x",
+    "c:V9-5": "x",
+    "c:V9-6": "sim",
+    "c:V9-7": "x",
+    "h:9683e900": "x",
+    "h:ec4966e9": "sim",
+    "h:a2492aa5": "sim",
+    "h:dde64840": "sim",
+    "h:500b15fe": "sim",
+    "h:79019f4f": "sim",
+    "h:cb9eb673": "sim",
+    "h:fe27915a": "sim",
+    "c:V1-1": "sim",
+    "c:V1-2": "sim",
+    "c:V1-3": "sim",
+    "c:V1-4": "sim",
+    "c:V1-5": "sim",
+    "c:V1-6": "x",
+    "c:V1-7": "x",
+    "c:V1-8": "x"
    },
-   "razao": "A experimentação só é tratada no microsite institucional 'How Search Works' (V9-6, V1-2). A política de privacidade e os termos (V9-1, V9-2) falam apenas em melhoria e pesquisa de produto (V1-6, V1-8), o que pode ser anotado em Notes.",
-   "confianca": "média",
-   "citacoes": [
-    "V9-1",
-    "V9-2",
-    "V9-6",
-    "V1-2",
-    "V1-6",
-    "V1-8"
-   ]
+   "extras": {},
+   "razao": "Os trechos que divulgam experimentação estão todos no microsite de Search (doc 5), um documento não vinculante. Nos docs 1 e 2 os trechos tratam só de melhoria do serviço ou de pesquisa de produto, sem divulgar experimentação."
   }
  },
+ "avisos": [],
  "uso": {
-  "input": 13745,
-  "output": 3068
+  "input": 17588,
+  "output": 5619
  }
 }

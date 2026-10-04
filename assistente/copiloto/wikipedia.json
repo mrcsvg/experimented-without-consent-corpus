@@ -1,166 +1,281 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Wikipedia",
  "slug": "wikipedia",
  "modelo": "claude-opus-5-5",
- "prompt_sha": "2524e854e614",
- "entrada_sha": "4b76eebaeb95",
- "gerado_em": "2026-10-03T16:17:14+00:00",
+ "prompt_sha": "edd17f9c3a0d",
+ "entrada_sha": "0cb62e1aa5c9",
+ "gerado_em": "2026-10-04T23:24:35+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
-  "max_tokens": 12000,
+  "max_tokens": 16000,
   "thinking": "adaptive",
   "tentativas": 1
  },
- "n_citacoes": 53,
+ "n_trechos": {
+  "V1": 33,
+  "V2": 7,
+  "V3": 20,
+  "V4": 6,
+  "V5": 6,
+  "V6": 16,
+  "V7": 4,
+  "V8": 5,
+  "V9": 40
+ },
+ "documentos": {
+  "1": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "2": {
+   "tipo": "ToS/conditions",
+   "registro": "binding"
+  },
+  "3": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "4": {
+   "tipo": "help centre",
+   "registro": "non-binding"
+  },
+  "5": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
+  },
+  "6": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
+  }
+ },
  "variaveis": {
   "V1": {
-   "campos": {
-    "v1_code": "3",
-    "v1_register": "both"
+   "notas": {
+    "h:9d6ae312": "x",
+    "h:dcdefd84": "x",
+    "h:8f4d201d": "2",
+    "h:12a8e427": "2",
+    "h:2d717db4": "x",
+    "h:f77a8796": "x",
+    "h:b9a6506c": "x",
+    "h:6a5ca88d": "x",
+    "h:cd56ada4": "3",
+    "h:6e9b9ab5": "3",
+    "h:27617be1": "x",
+    "h:b32ce2cf": "3",
+    "h:2dcdb2eb": "3",
+    "h:c589f59b": "3",
+    "h:130fd3fa": "3",
+    "h:27b79b49": "3",
+    "h:2564bc94": "3",
+    "h:4a1f94b5": "3",
+    "h:9092af61": "3",
+    "h:090d0dc3": "3",
+    "h:80bc9845": "2",
+    "h:c6937ac5": "2",
+    "h:2c3a049e": "2",
+    "h:32d4a161": "2",
+    "h:20888add": "x",
+    "c:V1-1": "2",
+    "c:V1-2": "2",
+    "c:V1-3": "x",
+    "c:V1-4": "x",
+    "c:V1-5": "3",
+    "c:V1-6": "3",
+    "c:V1-7": "3",
+    "c:V1-8": "2"
    },
-   "razao": "O nível 3 aparece no Cookie Statement, documento vinculante (\"run A/B tests\", V1-5), e nas páginas não vinculantes Wikitech e Wikipedia experiments (V1-6, V1-7, V1-8). Para Notas: na Privacy Policy sozinha o nível é só 2, com \"test features to see what works\" (V1-1, V1-2); o título \"To Understand & Experiment\" (V1-3, V1-4) trata de dar acesso a pesquisadores, não de variantes servidas a usuários.",
-   "confianca": "alta",
-   "citacoes": [
-    "V1-1",
-    "V1-2",
-    "V1-3",
-    "V1-4",
-    "V1-5",
-    "V1-6",
-    "V1-7",
-    "V1-8"
-   ]
+   "extras": {},
+   "razao": "Teto sugerido 3, presente no Cookie Statement (vinculante, \"run A/B tests\") e no Wikitech (não vinculante), logo registro both; a Privacy Policy sozinha chega a 2 (\"test features to see what works\"). \"Experiment\" na Privacy Policy refere-se a desenvolvedores terceiros e as \"Wikipedia experiments\" são projetos-piloto, não testes com grupos, por isso não foram tratados como 3."
   },
   "V2": {
-   "campos": {
-    "v2_framing": [
-     "service improvement",
-     "research",
+   "notas": {
+    "c:V2-1": [
      "social-good/community"
-    ]
+    ],
+    "c:V2-2": [
+     "service improvement"
+    ],
+    "c:V2-3": [
+     "research"
+    ],
+    "c:V2-4": [
+     "research"
+    ],
+    "c:V2-5": [
+     "service improvement"
+    ],
+    "c:V2-6": [
+     "research"
+    ],
+    "c:V2-7": "x"
    },
-   "razao": "Os enquadramentos são melhoria do serviço (V2-2), pesquisa (V2-3, V2-4) e missão beneficente ou benefício coletivo (V2-1, V2-5). V2-6 (\"any study that might affect our users\", Wikitech) fica na fronteira de human-subjects research e não foi marcado; o codificador pode reavaliar.",
-   "confianca": "média",
-   "citacoes": [
-    "V2-1",
-    "V2-2",
-    "V2-3",
-    "V2-4",
-    "V2-5",
-    "V2-6"
-   ]
+   "extras": {},
+   "razao": "Aparecem melhoria do serviço, pesquisa e missão de caridade (social-good/community). O trecho do Wikitech sobre estudos que afetam usuários pode ser lido como pesquisa com humanos; fica a critério do codificador."
   },
   "V3": {
-   "campos": {
-    "v3_activities": "Yes",
-    "v3_specific": "Yes",
-    "v3_pricing": "No",
+   "notas": {
+    "h:9d6ae312": "x",
+    "h:dcdefd84": "x",
+    "h:2d717db4": "x",
+    "h:cd56ada4": "x",
+    "h:b32ce2cf": "x",
+    "h:c589f59b": "x",
+    "h:27b79b49": "x",
+    "h:4a1f94b5": [
+     "activities"
+    ],
+    "h:9092af61": "x",
+    "h:090d0dc3": "x",
+    "h:80bc9845": "x",
+    "h:c6937ac5": "x",
+    "h:2c3a049e": "x",
+    "c:V3-1": [
+     "activities"
+    ],
+    "c:V3-2": "x",
+    "c:V3-3": "x",
+    "c:V3-4": "x",
+    "c:V3-5": [
+     "activities",
+     "specific"
+    ],
+    "c:V3-6": "x",
+    "c:V3-7": [
+     "specific"
+    ]
+   },
+   "extras": {
     "v3_targets": "features; skin/layout (Vector 2022)"
    },
-   "razao": "Atividades: features são nomeadas (V3-1), e um teste A/B específico da skin Vector 2022 é divulgado na Wikitech, não vinculante (V3-5); V3-7 descreve um 'experimento' de conteúdo em redes externas, que não é teste com usuários do site. Nenhuma citação sustenta preço como alvo; preferências de cookie (V3-3) e a troca de CAPTCHA (V3-4) são funcionalidades, não alvos de teste.",
-   "confianca": "média",
-   "citacoes": [
-    "V3-1",
-    "V3-3",
-    "V3-4",
-    "V3-5",
-    "V3-7"
-   ]
+   "razao": "Atividades nomeadas (features) e um teste específico (A/B da skin Vector 2022, no Wikitech), além dos projetos da página de experiments; preço não aparece como alvo. As preferências de cookie e o hCaptcha descrevem funcionalidade ou implantação, não experimento."
   },
   "V4": {
-   "campos": {
-    "v4_basis": [
+   "notas": {
+    "c:V4-1": "x",
+    "c:V4-2": [
      "legitimate interest"
     ],
+    "c:V4-3": "x",
+    "c:V4-4": "x",
+    "c:V4-5": "x",
+    "c:V4-6": "x"
+   },
+   "extras": {
     "v4_mapped_purpose": "Improving the Wikimedia Sites and making your user experience safer and better",
     "v4_region_gated": "not-verifiable (vantage)"
    },
-   "razao": "O bullet de melhoria, que inclui \"test features\", declara \"legitimate interest and/or ... legal obligations\" (V1-2, V4-2); obrigação legal não está na lista de opções. As bases aparecem em texto corrido por finalidade, não em tabela, por isso o campo geo-gated vai como not-verifiable (vantage).",
-   "confianca": "média",
-   "citacoes": [
-    "V1-2",
-    "V4-1",
-    "V4-2"
-   ]
+   "razao": "A finalidade de melhoria, que inclui \"test features\", é atribuída a legítimo interesse e/ou obrigação legal. Não há tabela de bases por finalidade, por isso o campo geo-gated fica not-verifiable (vantage)."
   },
   "V5": {
-   "campos": {
-    "v5_optout": "GDPR-objection-only"
+   "notas": {
+    "c:V5-1": "cookie/ads-only",
+    "c:V5-2": "cookie/ads-only",
+    "c:V5-3": "x",
+    "c:V5-4": "GDPR-objection-only",
+    "c:V5-5": "x",
+    "c:V5-6": "x"
    },
-   "razao": "Há o direito genérico de \"restrict/object to the processing\" (V5-4) e controles de cookies pelo navegador (V5-1, V5-2), mas nenhuma citação traz um controle específico de experimentos. Ponto para o codificador: desligar o cookie WMF-Uniq, ligado a A/B (V1-5), conta como controle de cookie, não como opt-out dedicado.",
-   "confianca": "média",
-   "citacoes": [
-    "V5-1",
-    "V5-2",
-    "V5-4",
-    "V1-5"
-   ]
+   "extras": {},
+   "razao": "Há apenas controle genérico de cookies e dados locais pelo navegador, além do direito genérico de objeção; não há opt-out dedicado a experimentos. O trecho do TikTok trata de compartilhamento de dados na loja, não de experimentação."
   },
   "V6": {
-   "campos": {
-    "v6_optin_beta": "Yes",
-    "v6_which": "Página Wikipedia experiments/WIKI_WIP (convite e newsletter); versões beta dos apps móveis citadas na Privacy Policy"
+   "notas": {
+    "h:f89334cb": "x",
+    "h:8f4d201d": "x",
+    "h:12a8e427": "x",
+    "h:f77a8796": "x",
+    "h:b9a6506c": "x",
+    "h:6a5ca88d": "x",
+    "h:6e9b9ab5": "x",
+    "h:27617be1": "x",
+    "h:2dcdb2eb": "x",
+    "h:130fd3fa": "x",
+    "h:2564bc94": "x",
+    "h:32d4a161": "x",
+    "h:20888add": "x",
+    "c:V6-1": "x",
+    "c:V6-2": "sim",
+    "c:V6-3": "sim"
    },
-   "razao": "A página não vinculante convida o usuário a experimentar voluntariamente e a se envolver por newsletter (V6-2, V6-3), e a Privacy Policy menciona versões beta dos apps (V6-1). O mecanismo de inscrição não é detalhado, por isso a evidência é parcial.",
-   "confianca": "média",
-   "citacoes": [
-    "V6-1",
-    "V6-2",
-    "V6-3"
-   ]
+   "extras": {
+    "v6_which": "Wikipedia experiments (WIKI_WIP): convite voluntário para experimentar projetos-piloto, com newsletter para quem quer se envolver"
+   },
+   "razao": "A página Wikipedia experiments convida o usuário a experimentar projetos e a se inscrever para participar, o que parece um programa opt-in. A menção a versões beta dos apps na Privacy Policy não descreve um programa de inscrição."
   },
   "V7": {
-   "campos": {
-    "v7_debrief": "No"
+   "notas": {
+    "c:V7-1": "x",
+    "c:V7-2": "x",
+    "c:V7-3": "x",
+    "c:V7-4": "x"
    },
-   "razao": "Os documentos tratam de experimentos, mas não oferecem aviso posterior ao participante (contagem de 'debrief' = 0 em todos). V7-4 publica resultados numa página meta, e V7-1 e V7-2 são avisos de mudança de política ou de divulgação legal, falsos positivos excluídos pelo critério.",
-   "confianca": "média",
-   "citacoes": [
-    "V7-1",
-    "V7-2",
-    "V7-3",
-    "V7-4"
-   ]
+   "extras": {},
+   "razao": "Os trechos tratam de aviso de mudança de política, de aviso legal e de publicação pública de resultados, não de aviso individual de participação. O tema não é endereçado nos documentos, e o log mostra debrief:0 em todos eles."
   },
   "V8": {
-   "campos": {
-    "v8_ethics": "No"
+   "notas": {
+    "c:V8-1": "x",
+    "c:V8-2": "x",
+    "c:V8-3": "x",
+    "c:V8-4": "x",
+    "c:V8-5": "x"
    },
-   "razao": "Contagem zero para ethics, review board, IRB e risk assessment; a Ombuds Commission (V8-3) investiga violações de privacidade, não experimentos, e V8-1/V8-2 são proteções contratuais. Caso de fronteira para Notas: a Wikitech pede descrever disrupções e redesenhar estudos diante de resposta negativa da comunidade (V8-4, V8-5), o que é consulta informal em documento técnico não vinculante.",
-   "confianca": "média",
-   "citacoes": [
-    "V8-1",
-    "V8-2",
-    "V8-3",
-    "V8-4",
-    "V8-5"
-   ]
+   "extras": {},
+   "razao": "Não há revisão ética, comitê ou avaliação de risco para experimentos; a Ombuds Commission trata de violações de privacidade. Caso de fronteira: o Wikitech (não vinculante) recomenda descrever a possível perturbação e consultar a comunidade antes de um estudo, o que o codificador pode querer anotar."
   },
   "V9": {
-   "campos": {
-    "v9_where": [
-     "privacy policy",
-     "blog/PR/site de pesquisa"
-    ],
-    "v9_register": "both"
+   "notas": {
+    "c:V9-1": "x",
+    "c:V9-2": "sim",
+    "c:V9-3": "x",
+    "c:V9-4": "sim",
+    "c:V9-5": "x",
+    "c:V9-6": "x",
+    "c:V9-7": "sim",
+    "h:9d6ae312": "x",
+    "h:dcdefd84": "x",
+    "h:8f4d201d": "sim",
+    "h:12a8e427": "sim",
+    "h:2d717db4": "x",
+    "h:f77a8796": "x",
+    "h:b9a6506c": "x",
+    "h:6a5ca88d": "x",
+    "h:cd56ada4": "sim",
+    "h:6e9b9ab5": "sim",
+    "h:27617be1": "x",
+    "h:b32ce2cf": "sim",
+    "h:2dcdb2eb": "sim",
+    "h:c589f59b": "sim",
+    "h:130fd3fa": "sim",
+    "h:27b79b49": "sim",
+    "h:2564bc94": "sim",
+    "h:4a1f94b5": "sim",
+    "h:9092af61": "sim",
+    "h:090d0dc3": "sim",
+    "h:80bc9845": "sim",
+    "h:c6937ac5": "sim",
+    "h:2c3a049e": "sim",
+    "h:32d4a161": "sim",
+    "h:20888add": "x",
+    "c:V1-1": "sim",
+    "c:V1-2": "sim",
+    "c:V1-3": "x",
+    "c:V1-4": "x",
+    "c:V1-5": "sim",
+    "c:V1-6": "sim",
+    "c:V1-7": "sim",
+    "c:V1-8": "sim"
    },
-   "razao": "Vinculantes: a Privacy Policy (V9-1, V9-2) e o Cookie Statement com A/B (V9-4), que entrou em privacy policy por falta de opção própria; não vinculantes: Wikitech e a página institucional de experimentos (V9-6, V9-7), marcadas como site de pesquisa. Os ToS apenas remetem à política (V9-3), e o FAQ se declara não legal e não fala de experimentação (V9-5).",
-   "confianca": "média",
-   "citacoes": [
-    "V9-1",
-    "V9-2",
-    "V9-3",
-    "V9-4",
-    "V9-5",
-    "V9-6",
-    "V9-7"
-   ]
+   "extras": {},
+   "razao": "A divulgação aparece na Privacy Policy e no Cookie Statement (vinculantes) e também no Wikitech e na página Wikipedia experiments (não vinculantes), o que sugere registro both. Os Terms of Use e o FAQ, que se declara não legal, não divulgam experimentação."
   }
  },
+ "avisos": [],
  "uso": {
-  "input": 13780,
-  "output": 3700
+  "input": 22671,
+  "output": 7730
  }
 }

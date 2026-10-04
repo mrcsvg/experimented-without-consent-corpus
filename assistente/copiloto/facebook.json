@@ -1,168 +1,306 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Facebook",
  "slug": "facebook",
  "modelo": "claude-opus-5-5",
- "prompt_sha": "2524e854e614",
- "entrada_sha": "9c3b4561fa7e",
- "gerado_em": "2026-10-03T16:19:11+00:00",
+ "prompt_sha": "edd17f9c3a0d",
+ "entrada_sha": "f73794e098bc",
+ "gerado_em": "2026-10-04T23:27:31+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
-  "max_tokens": 12000,
+  "max_tokens": 16000,
   "thinking": "adaptive",
   "tentativas": 2
  },
- "n_citacoes": 61,
- "variaveis": {
-  "V1": {
-   "campos": {
-    "v1_code": "3",
-    "v1_register": "non-binding"
-   },
-   "razao": "O teto 3 aparece só em não-vinculantes: grupos de teste no TechCrunch (V1-7) e A/B com versões a segmentos distintos no Help Centre (V1-9, V1-10). Nos vinculantes, só nível 2, com 'test out new products and features' sem grupos ou variantes (V1-1, V1-3, V1-5).",
-   "confianca": "média",
-   "citacoes": [
-    "V1-7",
-    "V1-9",
-    "V1-10",
-    "V1-1",
-    "V1-3",
-    "V1-5"
-   ]
+ "n_trechos": {
+  "V1": 31,
+  "V2": 9,
+  "V3": 15,
+  "V4": 8,
+  "V5": 6,
+  "V6": 16,
+  "V7": 4,
+  "V8": 6,
+  "V9": 39
+ },
+ "documentos": {
+  "1": {
+   "tipo": "privacy policy",
+   "registro": "binding"
   },
-  "V2": {
-   "campos": {
-    "v2_framing": [
-     "service improvement",
-     "research",
-     "social-good/community"
-    ]
-   },
-   "razao": "Melhoria do serviço e pesquisa aparecem juntas em 'research to develop, test and improve our Products' (V2-8) e em V2-1. O enquadramento de bem social aparece em 'research and innovate for social good' e 'social welfare... well-being' (V2-2, V2-3, V2-4).",
-   "confianca": "alta",
-   "citacoes": [
-    "V2-1",
-    "V2-8",
-    "V2-2",
-    "V2-3",
-    "V2-4"
-   ]
+  "2": {
+   "tipo": "privacy policy",
+   "registro": "binding"
   },
-  "V3": {
-   "campos": {
-    "v3_activities": "Yes",
-    "v3_specific": "Yes",
-    "v3_pricing": "No",
-    "v3_targets": "ranking do News Feed; volume de conteúdo político; controles de ocultar posts"
-   },
-   "razao": "O TechCrunch divulga testes específicos de ranking do News Feed, de redução de conteúdo político e do controle de ocultar posts (V1-6, V3-5, V3-6, V3-7, V3-8); os vinculantes nomeiam só 'products and features' (V1-1). O preço aparece apenas como informação da assinatura sem anúncios (V3-10), não como alvo de teste, e o A/B do V3-9 testa anúncios de anunciantes.",
-   "confianca": "média",
-   "citacoes": [
-    "V1-6",
-    "V3-5",
-    "V3-6",
-    "V3-7",
-    "V3-8",
-    "V1-1",
-    "V3-10",
-    "V3-9"
-   ]
+  "3": {
+   "tipo": "ToS/conditions",
+   "registro": "binding"
   },
-  "V4": {
-   "campos": {
-    "v4_basis": [
-     "legitimate interest",
-     "contract"
-    ],
-    "v4_mapped_purpose": "Build and test out new products and features / Improving Meta Products",
-    "v4_region_gated": "No"
-   },
-   "razao": "A tabela de bases legais está nos documentos e liga testes de produtos a execução de contrato (V4-3, V1-1) e a legítimo interesse (V4-1, V4-2). Como a tabela está presente, o campo geo-gated fica No pela definição; o interesse público (V4-4) cobre só pesquisa para bem social.",
-   "confianca": "média",
-   "citacoes": [
-    "V4-3",
-    "V1-1",
-    "V4-1",
-    "V4-2",
-    "V4-4"
-   ]
+  "4": {
+   "tipo": "ToS/conditions",
+   "registro": "binding"
   },
-  "V5": {
-   "campos": {
-    "v5_optout": "cookie/ads-only"
-   },
-   "razao": "Os controles existentes regem anúncios e cookies (V5-3, V5-4, V5-5), e há o direito genérico de objeção ao legítimo interesse (V5-1, V5-2); nenhum controle específico de experimentação. Se o codificador preferir não contar os controles de anúncios, o nível seria GDPR-objection-only.",
-   "confianca": "média",
-   "citacoes": [
-    "V5-3",
-    "V5-4",
-    "V5-5",
-    "V5-1",
-    "V5-2"
-   ]
+  "5": {
+   "tipo": "privacy policy",
+   "registro": "binding"
   },
-  "V6": {
-   "campos": {
-    "v6_optin_beta": "No",
-    "v6_which": ""
-   },
-   "razao": "Nenhuma citação sustenta outra resposta; a contagem de 'beta' é 0 em todos os documentos.",
-   "confianca": "média",
-   "citacoes": []
+  "6": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
   },
-  "V7": {
-   "campos": {
-    "v7_debrief": "No"
-   },
-   "razao": "V7-2 e V7-3 preveem comunicações sobre 'research' e V7-1 avisa mudanças de política, mas nenhuma diz que a pessoa participou de um experimento. O tema não é endereçado nos documentos, e a contagem de 'debrief' é 0.",
-   "confianca": "média",
-   "citacoes": [
-    "V7-1",
-    "V7-2",
-    "V7-3"
-   ]
-  },
-  "V8": {
-   "campos": {
-    "v8_ethics": "No"
-   },
-   "razao": "'Appropriate safeguards' (V8-2, V8-3) e 'benefits and risks' na objeção (V8-4) são linguagem de fronteira, e o Oversight Board (V8-1) revisa moderação, não experimentos; ethics, IRB e risk assessment têm contagem 0. Há um gap regulatório: as avaliações de risco sistêmico do DSA não aparecem nos documentos ao usuário.",
-   "confianca": "média",
-   "citacoes": [
-    "V8-1",
-    "V8-2",
-    "V8-3",
-    "V8-4"
-   ]
-  },
-  "V9": {
-   "campos": {
-    "v9_where": [
-     "privacy policy",
-     "ToS/conditions",
-     "help centre",
-     "blog/PR/site de pesquisa"
-    ],
-    "v9_register": "both"
-   },
-   "razao": "A experimentação aparece na Privacy Policy (V1-1, V1-3, V9-2) e nos Termos (V1-5, V9-3), que são vinculantes. Aparece também no Business Help Centre (V1-9, V9-6) e na matéria do TechCrunch (V1-6, V9-7), que não são vinculantes.",
-   "confianca": "alta",
-   "citacoes": [
-    "V1-1",
-    "V1-3",
-    "V9-2",
-    "V1-5",
-    "V9-3",
-    "V1-9",
-    "V9-6",
-    "V1-6",
-    "V9-7"
-   ]
+  "7": {
+   "tipo": "help centre",
+   "registro": "non-binding"
   }
  },
+ "variaveis": {
+  "V1": {
+   "notas": {
+    "h:f15bb1ce": "2",
+    "h:f01bc8c4": "2",
+    "h:a6c7a78a": "2",
+    "h:f275da0d": "2",
+    "h:4950314d": "2",
+    "h:6a43bc0d": "2",
+    "h:62318a21": "2",
+    "h:024a71be": "2",
+    "h:6803e84d": "2",
+    "h:1c0c4aba": "2",
+    "h:687a432b": "2",
+    "h:3844f989": "2",
+    "h:b9aae52d": "2",
+    "h:cf1fe3cb": "3",
+    "h:ad0d1441": "3",
+    "h:a9062fb9": "3",
+    "h:4335763e": "3",
+    "h:725e3dda": "3",
+    "h:6b89a1bd": "3",
+    "h:b6a15334": "3",
+    "h:324b75d2": "3",
+    "c:V1-1": "2",
+    "c:V1-2": "1",
+    "c:V1-3": "2",
+    "c:V1-4": "2",
+    "c:V1-5": "2",
+    "c:V1-6": "2",
+    "c:V1-7": "3",
+    "c:V1-8": "2",
+    "c:V1-9": "3",
+    "c:V1-10": "3"
+   },
+   "extras": {},
+   "razao": "O nível 3 aparece só em não-vinculantes (\"test groups\" no TechCrunch; A/B de anúncios no Business Help Centre, ferramenta usada por anunciantes). Nos vinculantes (política e termos), o nível é só 2 (\"Build and test out new products and features\")."
+  },
+  "V2": {
+   "notas": {
+    "c:V2-1": [
+     "service improvement"
+    ],
+    "c:V2-2": [
+     "research",
+     "social-good/community"
+    ],
+    "c:V2-3": [
+     "research",
+     "social-good/community"
+    ],
+    "c:V2-4": [
+     "research",
+     "social-good/community"
+    ],
+    "c:V2-5": [
+     "research",
+     "social-good/community"
+    ],
+    "c:V2-6": [
+     "research"
+    ],
+    "c:V2-7": [
+     "research",
+     "social-good/community"
+    ],
+    "c:V2-8": [
+     "service improvement",
+     "research"
+    ],
+    "c:V2-9": "x"
+   },
+   "extras": {},
+   "razao": "Aparecem service improvement, research e social-good/community (\"research and innovate for social good\"); não aparece pesquisa com humanos no sentido ético. A missão de \"build community\" (V2-9) não se refere ao uso de dados para testes."
+  },
+  "V3": {
+   "notas": {
+    "h:cf1fe3cb": "x",
+    "h:a9062fb9": [
+     "activities"
+    ],
+    "h:725e3dda": [
+     "activities"
+    ],
+    "h:b6a15334": "x",
+    "h:324b75d2": "x",
+    "c:V3-1": "x",
+    "c:V3-2": "x",
+    "c:V3-3": "x",
+    "c:V3-4": [
+     "activities"
+    ],
+    "c:V3-5": [
+     "activities",
+     "specific"
+    ],
+    "c:V3-6": [
+     "activities",
+     "specific"
+    ],
+    "c:V3-7": [
+     "activities",
+     "specific"
+    ],
+    "c:V3-8": [
+     "specific"
+    ],
+    "c:V3-9": [
+     "activities"
+    ],
+    "c:V3-10": "x"
+   },
+   "extras": {
+    "v3_targets": "ranking do News Feed; conteúdo político; conteúdo inspiracional; controle de ocultar posts; anúncios (imagem, texto, público, posicionamento)"
+   },
+   "razao": "Alvos e testes específicos aparecem só em não-vinculantes (TechCrunch e Help Centre); o preço da assinatura sem anúncios não é alvo de teste. A personalização do Feed (V3-1) e as system cards (V3-3) descrevem funcionalidades, não experimentos."
+  },
+  "V4": {
+   "notas": {
+    "c:V4-1": [
+     "legitimate interest"
+    ],
+    "c:V4-2": [
+     "legitimate interest"
+    ],
+    "c:V4-3": [
+     "contract"
+    ],
+    "c:V4-4": "x",
+    "c:V4-5": "x",
+    "c:V4-6": "x",
+    "c:V4-7": "x",
+    "c:V4-8": "x"
+   },
+   "extras": {
+    "v4_mapped_purpose": "Providing / Improving Meta Products (\"Build and test out new products and features to see if they work\")",
+    "v4_region_gated": "No"
+   },
+   "razao": "A tabela de bases legais está nos documentos capturados e liga o teste de features a contrato (Providing Meta Products) e a legítimo interesse (Improving Meta Products). O interesse público (V4-4) cobre pesquisa para bem social e não é opção da variável."
+  },
+  "V5": {
+   "notas": {
+    "c:V5-1": "GDPR-objection-only",
+    "c:V5-2": "GDPR-objection-only",
+    "c:V5-3": "cookie/ads-only",
+    "c:V5-4": "cookie/ads-only",
+    "c:V5-5": "cookie/ads-only",
+    "c:V5-6": "x"
+   },
+   "extras": {},
+   "razao": "Há a objeção genérica a legítimo interesse e controles de cookies e anúncios, mas nenhum controle específico de experimentos. V5-6 fala de controles de conteúdo futuros, não de saída de testes."
+  },
+  "V6": {
+   "notas": {
+    "h:f15bb1ce": "x",
+    "h:f01bc8c4": "x",
+    "h:a6c7a78a": "x",
+    "h:f275da0d": "x",
+    "h:4950314d": "x",
+    "h:6a43bc0d": "x",
+    "h:62318a21": "x",
+    "h:024a71be": "x",
+    "h:6803e84d": "x",
+    "h:1c0c4aba": "x",
+    "h:687a432b": "x",
+    "h:3844f989": "x",
+    "h:b9aae52d": "x",
+    "h:ad0d1441": "x",
+    "h:4335763e": "x",
+    "h:6b89a1bd": "x"
+   },
+   "extras": {
+    "v6_which": ""
+   },
+   "razao": "Nenhum trecho descreve um programa beta em que o usuário se inscreve; a contagem de \"beta\" é zero em todos os documentos."
+  },
+  "V7": {
+   "notas": {
+    "c:V7-1": "x",
+    "c:V7-2": "x",
+    "c:V7-3": "x",
+    "c:V7-4": "x"
+   },
+   "extras": {},
+   "razao": "Os trechos são avisos de mudança de política, comunicações gerais ou sessões de pesquisa, não avisos posteriores de participação em experimento. É No do tipo não endereçado: \"debrief\" tem contagem zero em todos os documentos."
+  },
+  "V8": {
+   "notas": {
+    "c:V8-1": "x",
+    "c:V8-2": "x",
+    "c:V8-3": "x",
+    "c:V8-4": "x",
+    "c:V8-5": "x",
+    "c:V8-6": "x"
+   },
+   "extras": {},
+   "razao": "O Oversight Board revisa decisões de moderação, e \"appropriate safeguards\" e \"benefits and risks\" são linguagem genérica, sem revisão ética de experimentos (No com nota). As avaliações de risco do DSA não aparecem nos documentos ao usuário, o que configura gap regulatório-vs-documento."
+  },
+  "V9": {
+   "notas": {
+    "c:V9-1": "x",
+    "c:V9-2": "x",
+    "c:V9-3": "x",
+    "c:V9-4": "x",
+    "c:V9-5": "x",
+    "c:V9-6": "sim",
+    "c:V9-7": "sim",
+    "c:V9-8": "x",
+    "h:f15bb1ce": "sim",
+    "h:f01bc8c4": "sim",
+    "h:a6c7a78a": "sim",
+    "h:f275da0d": "sim",
+    "h:4950314d": "sim",
+    "h:6a43bc0d": "sim",
+    "h:62318a21": "sim",
+    "h:024a71be": "sim",
+    "h:6803e84d": "sim",
+    "h:1c0c4aba": "sim",
+    "h:687a432b": "sim",
+    "h:3844f989": "sim",
+    "h:b9aae52d": "sim",
+    "h:cf1fe3cb": "sim",
+    "h:ad0d1441": "sim",
+    "h:a9062fb9": "sim",
+    "h:4335763e": "sim",
+    "h:725e3dda": "sim",
+    "h:6b89a1bd": "sim",
+    "h:b6a15334": "sim",
+    "h:324b75d2": "sim",
+    "c:V1-1": "sim",
+    "c:V1-2": "x",
+    "c:V1-3": "sim",
+    "c:V1-4": "sim",
+    "c:V1-5": "sim",
+    "c:V1-6": "sim",
+    "c:V1-7": "sim",
+    "c:V1-8": "sim",
+    "c:V1-9": "sim",
+    "c:V1-10": "sim"
+   },
+   "extras": {},
+   "razao": "A divulgação aparece na política de privacidade e nos termos (nível 2) e no help centre e na imprensa (nível 3), o que sugere registro agregado both. Os cabeçalhos e as autodescrições dos documentos (V9-1 a V9-5, V9-8) não divulgam experimentação por si."
+  }
+ },
+ "avisos": [],
  "uso": {
-  "input": 29377,
-  "output": 6595
+  "input": 43671,
+  "output": 13755
  }
 }

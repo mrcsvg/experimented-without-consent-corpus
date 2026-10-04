@@ -1,164 +1,254 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Pinterest",
  "slug": "pinterest",
  "modelo": "claude-opus-5-5",
- "prompt_sha": "2524e854e614",
- "entrada_sha": "3cddcb4a4c5a",
- "gerado_em": "2026-10-03T16:34:01+00:00",
+ "prompt_sha": "edd17f9c3a0d",
+ "entrada_sha": "9d1ccc80c92c",
+ "gerado_em": "2026-10-04T23:47:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
-  "max_tokens": 12000,
+  "max_tokens": 16000,
   "thinking": "adaptive",
   "tentativas": 1
  },
- "n_citacoes": 54,
+ "n_trechos": {
+  "V1": 23,
+  "V2": 7,
+  "V3": 14,
+  "V4": 6,
+  "V5": 6,
+  "V6": 16,
+  "V7": 4,
+  "V8": 4,
+  "V9": 30
+ },
+ "documentos": {
+  "1": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "2": {
+   "tipo": "ToS/conditions",
+   "registro": "binding"
+  },
+  "3": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "4": {
+   "tipo": "help centre",
+   "registro": "non-binding"
+  },
+  "5": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
+  }
+ },
  "variaveis": {
   "V1": {
-   "campos": {
-    "v1_code": "3",
-    "v1_register": "both"
+   "notas": {
+    "h:e9961ecc": "x",
+    "h:854ce654": "x",
+    "h:42f0e185": "x",
+    "h:f912c9e7": "2",
+    "h:6ec33f1b": "2",
+    "h:12772446": "2",
+    "h:a64c0bd2": "3",
+    "h:49f38798": "3",
+    "h:4811fb0c": "3",
+    "h:2d0a2775": "3",
+    "h:6f353568": "3",
+    "h:c06e8d50": "3",
+    "h:20856802": "3",
+    "h:aff4efb5": "3",
+    "h:963501df": "3",
+    "c:V1-1": "3",
+    "c:V1-2": "3",
+    "c:V1-3": "1",
+    "c:V1-4": "x",
+    "c:V1-5": "2",
+    "c:V1-6": "3",
+    "c:V1-7": "3",
+    "c:V1-8": "3"
    },
-   "razao": "A Privacy Policy, vinculante, descreve comparar duas versões de um recurso entre pessoas para saber qual é melhor (V1-1, V1-2), o que se aproxima de variantes servidas a usuários distintos. O blog de engenharia nomeia explicitamente testes A/B, buckets e grupos de controle e tratamento (V1-6, V1-7, V1-8); se o codificador ler V1-1 como só nível 2, o registro passa a non-binding.",
-   "confianca": "média",
-   "citacoes": [
-    "V1-1",
-    "V1-2",
-    "V1-6",
-    "V1-7",
-    "V1-8"
-   ]
+   "extras": {},
+   "razao": "A Privacy Policy menciona 'two different versions of a feature' servidas a pessoas (variantes, nível 3), e o blog de engenharia nomeia A/B, grupos de controle e tratamento. O teto parece ser 3 em both; nos vinculantes o nível também chega a 3, e os 'trial' do ToS são júri, não experimentação."
   },
   "V2": {
-   "campos": {
-    "v2_framing": [
-     "service improvement",
+   "notas": {
+    "c:V2-1": [
      "research"
+    ],
+    "c:V2-2": [
+     "service improvement"
+    ],
+    "c:V2-3": "x",
+    "c:V2-4": [
+     "service improvement"
+    ],
+    "c:V2-5": [
+     "research",
+     "social-good/community"
+    ],
+    "c:V2-6": [
+     "research"
+    ],
+    "c:V2-7": [
+     "service improvement"
     ]
    },
-   "razao": "A Privacy Policy enquadra o uso de dados como melhoria do serviço (V2-2, V2-4) e como \"analytics and research\" (V2-1). A menção a pesquisadores independentes contra danos sociais (V2-5) trata de compartilhamento e não do teste, e \"improve the experience for everyone\" (V1-5) é fraco para social-good/community.",
-   "confianca": "média",
-   "citacoes": [
-    "V2-1",
-    "V2-2",
-    "V2-4",
-    "V2-5",
-    "V1-5"
-   ]
+   "extras": {},
+   "razao": "O teste de versões aparece sob 'analytics and research' dentro da finalidade de melhorar o serviço, então service improvement e research co-ocorrem. Os trechos V2-5 e V2-6 tratam de pesquisadores externos, não de experimentação própria; o codificador pode preferir 'x' neles."
   },
   "V3": {
-   "campos": {
-    "v3_activities": "Yes",
-    "v3_specific": "No",
-    "v3_pricing": "No",
-    "v3_targets": "versões de recursos (features); lançamento de novos produtos"
+   "notas": {
+    "h:e9961ecc": "x",
+    "h:a64c0bd2": "x",
+    "h:49f38798": "x",
+    "h:4811fb0c": "x",
+    "h:2d0a2775": "x",
+    "h:c06e8d50": "x",
+    "h:20856802": [
+     "activities"
+    ],
+    "c:V3-1": [
+     "activities"
+    ],
+    "c:V3-2": "x",
+    "c:V3-3": "x",
+    "c:V3-4": "x",
+    "c:V3-5": [
+     "activities"
+    ],
+    "c:V3-6": [
+     "activities"
+    ],
+    "c:V3-7": "x"
    },
-   "razao": "Os documentos nomeiam recursos (features) como o que é testado (V3-1, V1-6), mas o blog descreve a infraestrutura e a metodologia, sem divulgar um experimento em particular (V3-5, V3-6, V3-7). Preço não aparece como alvo, e a recomendação (V3-3) e a categorização por tipo de corpo (V3-2) são funcionalidades, não alvos de experimento.",
-   "confianca": "média",
-   "citacoes": [
-    "V3-1",
-    "V1-6",
-    "V3-2",
-    "V3-3",
-    "V3-5",
-    "V3-6",
-    "V3-7"
-   ]
+   "extras": {
+    "v3_targets": "versões de features; novos produtos/features"
+   },
+   "razao": "Os textos nomeiam features e novos produtos como objeto de teste, mas não descrevem nenhum experimento específico nem preço como alvo. Recomendações no ToS e a categorização por tipo de corpo descrevem funcionalidades, não alvos de experimento."
   },
   "V4": {
-   "campos": {
-    "v4_basis": [
+   "notas": {
+    "c:V4-1": [
      "legitimate interest"
     ],
+    "c:V4-2": [
+     "legitimate interest"
+    ],
+    "c:V4-3": "x",
+    "c:V4-4": "x",
+    "c:V4-5": "x",
+    "c:V4-6": [
+     "legitimate interest"
+    ]
+   },
+   "extras": {
     "v4_mapped_purpose": "To improve, innovate and develop our Services",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases legais da Privacy Policy coloca a comparação de duas versões sob \"To improve, innovate and develop our Services\", na seção de legítimo interesse (V4-1, V4-2, V4-6). A tabela está presente no documento congelado, ainda que se declare aplicável só a residentes do EEE, Suíça e Reino Unido (V4-3); por isso a resposta é No.",
-   "confianca": "alta",
-   "citacoes": [
-    "V4-1",
-    "V4-2",
-    "V4-3",
-    "V4-6"
-   ]
+   "razao": "A tabela de bases EEA/UK está no documento congelado e liga a finalidade 'To improve, innovate and develop our Services', que inclui o teste de duas versões, a legítimo interesse. Como a tabela aparece nos documentos lidos, o campo de geo-gating fica No pela definição, embora o texto diga que só se aplica a residentes do EEA/UK."
   },
   "V5": {
-   "campos": {
-    "v5_optout": "cookie/ads-only"
+   "notas": {
+    "c:V5-1": "GDPR-objection-only",
+    "c:V5-2": "cookie/ads-only",
+    "c:V5-3": "cookie/ads-only",
+    "c:V5-4": "x",
+    "c:V5-5": "cookie/ads-only",
+    "c:V5-6": "x"
    },
-   "razao": "Há painel de cookies e configurações que governam publicidade, analytics e recomendações (V5-2, V5-3, V5-5, V5-6), além do direito genérico de objeção do Art. 21 (V5-1). Não há controle específico de experimentação; se o codificador entender que o painel não alcança experimentos, GDPR-objection-only é a alternativa.",
-   "confianca": "média",
-   "citacoes": [
-    "V5-1",
-    "V5-2",
-    "V5-3",
-    "V5-4",
-    "V5-5",
-    "V5-6"
-   ]
+   "extras": {},
+   "razao": "O único controle aplicável ao processamento por legítimo interesse é o formulário genérico de objeção do GDPR; os demais controles regem anúncios, cookies ou recomendações. O nível sugerido é GDPR-objection-only."
   },
   "V6": {
-   "campos": {
-    "v6_optin_beta": "Yes",
-    "v6_which": "Pinterest beta tester: acesso antecipado a versões do app via TestFlight (iOS) e programa beta Android"
+   "notas": {
+    "h:854ce654": "x",
+    "h:42f0e185": "x",
+    "h:ef9db57f": "sim",
+    "h:d98ed9d8": "sim",
+    "h:f912c9e7": "sim",
+    "h:be0cc048": "sim",
+    "h:6ec33f1b": "sim",
+    "h:12772446": "sim",
+    "h:6f353568": "x",
+    "h:aff4efb5": "x",
+    "h:963501df": "x",
+    "c:V6-1": "sim",
+    "c:V6-2": "sim",
+    "c:V6-3": "sim",
+    "c:V6-4": "sim",
+    "c:V6-5": "x"
    },
-   "razao": "A página public-beta convida o usuário a se inscrever como beta tester, via TestFlight no iOS e programa de teste no Android (V6-1, V6-2, V6-3, V6-4). O programa dá acesso antecipado e não é uma saída dos experimentos de rotina.",
-   "confianca": "alta",
-   "citacoes": [
-    "V6-1",
-    "V6-2",
-    "V6-3",
-    "V6-4"
-   ]
+   "extras": {
+    "v6_which": "Pinterest Beta programme: acesso antecipado a versões do app (iOS via TestFlight; Android beta testing program)"
+   },
+   "razao": "A página public-beta descreve um programa voluntário de acesso antecipado para iOS e Android. Isso não mitiga a V5."
   },
   "V7": {
-   "campos": {
-    "v7_debrief": "No"
+   "notas": {
+    "c:V7-1": "x",
+    "c:V7-2": "x",
+    "c:V7-3": "x",
+    "c:V7-4": "x"
    },
-   "razao": "Nenhuma citação sustenta outra resposta; os avisos encontrados são de mudança de política ou dos termos e de atualizações gerais (V7-1, V7-2, V7-3), e o painel de resultados do blog é interno (V7-4). O tema nunca é abordado (debrief: 0 em todos os documentos).",
-   "confianca": "média",
-   "citacoes": [
-    "V7-1",
-    "V7-2",
-    "V7-3",
-    "V7-4"
-   ]
+   "extras": {},
+   "razao": "Os trechos são avisos de mudança de política ou dos termos, comunicações gerais e um painel interno; nenhum é debriefing. A sugestão é No, do tipo 'não endereçado': a palavra-chave debrief tem zero ocorrências em todos os documentos."
   },
   "V8": {
-   "campos": {
-    "v8_ethics": "No"
+   "notas": {
+    "c:V8-1": "x",
+    "c:V8-2": "x",
+    "c:V8-3": "x",
+    "c:V8-4": "x"
    },
-   "razao": "Nenhuma citação sustenta outra resposta; as palavras-chave ethics, review board, IRB e risk assessment somam 0, e a validação de grupos do blog (V8-4) é técnica. A menção genérica ao DSA (V8-1) indica uma diferença entre a obrigação regulatória de avaliar riscos e o que o documento diz, e a ponderação de legítimo interesse (V8-2) não é revisão ética.",
-   "confianca": "alta",
-   "citacoes": [
-    "V8-1",
-    "V8-2",
-    "V8-3",
-    "V8-4"
-   ]
+   "extras": {},
+   "razao": "Não há menção a revisão ética, comitê ou avaliação de risco de experimentos, e ethics, IRB e risk assessment têm zero ocorrências. A citação ao DSA sem avaliação de risco nos documentos ao usuário pode ser anotada como gap regulatório-vs-documento."
   },
   "V9": {
-   "campos": {
-    "v9_where": [
-     "privacy policy",
-     "blog/PR/site de pesquisa"
-    ],
-    "v9_register": "both"
+   "notas": {
+    "c:V9-1": "sim",
+    "c:V9-2": "x",
+    "c:V9-3": "x",
+    "c:V9-4": "x",
+    "c:V9-5": "x",
+    "c:V9-6": "sim",
+    "c:V9-7": "sim",
+    "h:e9961ecc": "x",
+    "h:854ce654": "x",
+    "h:42f0e185": "x",
+    "h:f912c9e7": "sim",
+    "h:6ec33f1b": "sim",
+    "h:12772446": "sim",
+    "h:a64c0bd2": "sim",
+    "h:49f38798": "sim",
+    "h:4811fb0c": "sim",
+    "h:2d0a2775": "sim",
+    "h:6f353568": "sim",
+    "h:c06e8d50": "sim",
+    "h:20856802": "sim",
+    "h:aff4efb5": "sim",
+    "h:963501df": "sim",
+    "c:V1-1": "sim",
+    "c:V1-2": "sim",
+    "c:V1-3": "x",
+    "c:V1-4": "x",
+    "c:V1-5": "sim",
+    "c:V1-6": "sim",
+    "c:V1-7": "sim",
+    "c:V1-8": "sim"
    },
-   "razao": "A experimentação aparece na Privacy Policy, vinculante (V9-1), e no blog de engenharia, não vinculante (V9-7). Os ToS só incorporam políticas por referência (V9-3), o aviso de cookies fala de analytics de uso (V9-5) e a página beta trata de acesso antecipado (V9-6), sem divulgar experimentação.",
-   "confianca": "média",
-   "citacoes": [
-    "V9-1",
-    "V9-3",
-    "V9-5",
-    "V9-6",
-    "V9-7"
-   ]
+   "extras": {},
+   "razao": "A divulgação aparece na Privacy Policy (vinculante), no blog de engenharia e, como teste voluntário em beta, na página do programa beta; o registro agregado sugerido é both. Os trechos da página beta dependem de se considerar o beta voluntário como divulgação de experimentação."
   }
  },
+ "avisos": [],
  "uso": {
-  "input": 14031,
-  "output": 3483
+  "input": 20129,
+  "output": 6379
  }
 }

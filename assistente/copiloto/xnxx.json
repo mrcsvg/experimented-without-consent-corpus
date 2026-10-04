@@ -1,154 +1,180 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "XNXX",
  "slug": "xnxx",
  "modelo": "claude-opus-5-5",
- "prompt_sha": "2524e854e614",
- "entrada_sha": "22b35e5ae0a0",
- "gerado_em": "2026-10-03T16:28:30+00:00",
+ "prompt_sha": "edd17f9c3a0d",
+ "entrada_sha": "da3bc1d15b4b",
+ "gerado_em": "2026-10-04T23:38:53+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
-  "max_tokens": 12000,
+  "max_tokens": 16000,
   "thinking": "adaptive",
-  "tentativas": 2
+  "tentativas": 1
  },
- "n_citacoes": 43,
+ "n_trechos": {
+  "V1": 8,
+  "V2": 6,
+  "V3": 5,
+  "V4": 7,
+  "V5": 5,
+  "V6": 2,
+  "V7": 3,
+  "V8": 6,
+  "V9": 14
+ },
+ "documentos": {
+  "1": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "2": {
+   "tipo": "ToS/conditions",
+   "registro": "binding"
+  },
+  "3": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "4": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
+  }
+ },
  "variaveis": {
   "V1": {
-   "campos": {
-    "v1_code": "1",
-    "v1_register": "binding"
+   "notas": {
+    "h:c8c0654c": "x",
+    "h:d8343932": "x",
+    "c:V1-1": "1",
+    "c:V1-2": "1",
+    "c:V1-3": "1",
+    "c:V1-4": "1",
+    "c:V1-5": "x",
+    "c:V1-6": "x"
    },
-   "razao": "A política de privacidade só fala em melhorar, otimizar e 'conducting research', sem dizer que testa algo com usuários (V1-1, V1-2, V1-4); a descrição do recomendador nos ToS é funcionalidade, não teste (V1-5, V1-6). As 2 ocorrências de 'trial' nos ToS não aparecem nas citações e não sustentam nível maior.",
-   "confianca": "média",
-   "citacoes": [
-    "V1-1",
-    "V1-2",
-    "V1-4",
-    "V1-5",
-    "V1-6"
-   ]
+   "extras": {},
+   "razao": "Os trechos com nota falam só em melhorar, otimizar, fazer analytics e pesquisa, sem dizer que testam nada. As ocorrências de 'trial' referem-se a julgamento por júri, e a descrição do recomendador é funcionalidade, não teste."
   },
   "V2": {
-   "campos": {
-    "v2_framing": [
+   "notas": {
+    "c:V2-1": [
+     "service improvement"
+    ],
+    "c:V2-2": [
      "service improvement",
      "research"
-    ]
+    ],
+    "c:V2-3": "x",
+    "c:V2-4": "x",
+    "c:V2-5": "x",
+    "c:V2-6": "x"
    },
-   "razao": "Melhoria do serviço aparece em V2-1 e pesquisa genérica em V2-2 ('conducting research'). A linguagem de bem-estar da comunidade (V2-4) e a pesquisa de riscos sistêmicos do DSA (V2-5, V2-6) ligam-se à moderação e ao acesso de pesquisadores, não ao uso de dados para testar; o codificador pode avaliar se social-good/community deve entrar.",
-   "confianca": "média",
-   "citacoes": [
-    "V2-1",
-    "V2-2",
-    "V2-4",
-    "V2-5",
-    "V2-6"
-   ]
+   "extras": {},
+   "razao": "Na política de privacidade aparecem melhoria do serviço e 'conducting research'. A linguagem de bem-estar da comunidade está ligada à moderação de conteúdo e os trechos do DSA Data Catalogue tratam de pesquisa de terceiros sobre riscos sistêmicos, não do uso de dados para testar; talvez caiba anotar isso."
   },
   "V3": {
-   "campos": {
-    "v3_activities": "No",
-    "v3_specific": "No",
-    "v3_pricing": "No",
+   "notas": {
+    "c:V3-1": "x",
+    "c:V3-2": "x",
+    "c:V3-3": "x",
+    "c:V3-4": "x",
+    "c:V3-5": "x"
+   },
+   "extras": {
     "v3_targets": ""
    },
-   "razao": "Ranking e sugestões aparecem como personalização e profiling (V3-1) e como fatores do recomendador (V3-2, V3-3, V3-4), não como alvos de teste. Nenhuma citação sustenta outra resposta para experimento específico ou preço.",
-   "confianca": "média",
-   "citacoes": [
-    "V3-1",
-    "V3-2",
-    "V3-3",
-    "V3-4"
-   ]
+   "razao": "Ranking e recomendação aparecem como personalização ou funcionalidade declarada, não como alvo de teste. Nenhum trecho nomeia atividade testada, experimento específico ou preço."
   },
   "V4": {
-   "campos": {
-    "v4_basis": [
-     "contract",
-     "legitimate interest",
+   "notas": {
+    "c:V4-1": "x",
+    "c:V4-2": [
+     "contract"
+    ],
+    "c:V4-3": [
+     "legitimate interest"
+    ],
+    "c:V4-4": [
      "consent"
     ],
+    "c:V4-5": "x",
+    "c:V4-6": "x",
+    "c:V4-7": "x"
+   },
+   "extras": {
     "v4_mapped_purpose": "providing, improving and developing the Website",
     "v4_region_gated": "No"
    },
-   "razao": "A política lista três bases para a finalidade de 'providing, improving and developing the Website' (V4-1): contrato (V4-2), legítimo interesse para melhoria (V4-3) e consentimento só para categorias especiais (V4-4). A declaração por finalidade está presente nos documentos lidos, por isso No; o codificador pode avaliar se essa lista equivale a uma tabela de bases.",
-   "confianca": "média",
-   "citacoes": [
-    "V4-1",
-    "V4-2",
-    "V4-3",
-    "V4-4"
-   ]
+   "razao": "A seção 2.1 liga a finalidade 'providing, improving and developing the Website' a contrato, legítimo interesse e consentimento (este só para categorias especiais de dados). Como as bases por finalidade estão nos documentos capturados, sugiro No, mas cabe ao codificador decidir se essa lista conta como tabela."
   },
   "V5": {
-   "campos": {
-    "v5_optout": "cookie/ads-only"
+   "notas": {
+    "c:V5-1": "GDPR-objection-only",
+    "c:V5-2": "x",
+    "c:V5-3": "cookie/ads-only",
+    "c:V5-4": "cookie/ads-only",
+    "c:V5-5": "x"
    },
-   "razao": "Há o direito genérico de objeção ao legítimo interesse (V5-1) e um banner de cookies que governa cookies analíticos e publicidade (V4-7, V5-3, V5-4), sem controle específico de experimentação. Pela escada, o banner leva a cookie/ads-only.",
-   "confianca": "média",
-   "citacoes": [
-    "V5-1",
-    "V5-2",
-    "V5-3",
-    "V5-4",
-    "V4-7"
-   ]
+   "extras": {},
+   "razao": "O nível mais alto encontrado é o direito genérico de objeção ao legítimo interesse; o banner de cookies rege analytics e retargeting. Não há controle específico para experimentos."
   },
   "V6": {
-   "campos": {
-    "v6_optin_beta": "No",
+   "notas": {
+    "h:c8c0654c": "x",
+    "h:d8343932": "x"
+   },
+   "extras": {
     "v6_which": ""
    },
-   "razao": "Nenhuma citação sustenta outra resposta; a contagem de 'beta' é 0 em todos os documentos.",
-   "confianca": "alta",
-   "citacoes": []
+   "razao": "Os dois trechos com 'trial' tratam de renúncia a julgamento por júri. Nenhum programa beta ou opt-in aparece."
   },
   "V7": {
-   "campos": {
-    "v7_debrief": "No"
+   "notas": {
+    "c:V7-1": "x",
+    "c:V7-2": "x",
+    "c:V7-3": "x"
    },
-   "razao": "As citações são avisos de serviço e de mudança de termos (V7-1, V7-2, V7-3), que são falsos positivos excluídos; o tema não é endereçado ('debrief' 0 em todos os documentos). Nenhuma citação sustenta outra resposta.",
-   "confianca": "alta",
-   "citacoes": [
-    "V7-1",
-    "V7-2",
-    "V7-3"
-   ]
+   "extras": {},
+   "razao": "Os trechos são avisos de conta, de mudança de termos ou de mudança de política, que o codebook exclui. A contagem de 'debrief' é 0 em todos os documentos, o que sugere tema não endereçado."
   },
   "V8": {
-   "campos": {
-    "v8_ethics": "No"
+   "notas": {
+    "h:0ad8e582": "x",
+    "c:V8-1": "x",
+    "c:V8-2": "x",
+    "c:V8-3": "x",
+    "c:V8-4": "x",
+    "c:V8-5": "x"
    },
-   "razao": "O único 'risk assessment' é investigação de segurança (V8-1); os riscos sistêmicos do catálogo DSA (V8-4) referem-se a pesquisa de terceiros, não a revisão de experimentos. Fica como nota a diferença entre a obrigação do DSA e o documento; nenhuma citação sustenta outra resposta.",
-   "confianca": "média",
-   "citacoes": [
-    "V8-1",
-    "V8-2",
-    "V8-4"
-   ]
+   "extras": {},
+   "razao": "Os trechos sobre 'risk assessments' tratam de segurança e de denúncias, não de experimentos. O DSA Data Catalogue menciona riscos sistêmicos só como finalidade de pesquisa de terceiros, o que pode ser anotado como gap regulatório-vs-documento."
   },
   "V9": {
-   "campos": {
-    "v9_where": [
-     "privacy policy"
-    ],
-    "v9_register": "binding"
+   "notas": {
+    "c:V9-1": "x",
+    "c:V9-2": "x",
+    "c:V9-3": "x",
+    "c:V9-4": "x",
+    "c:V9-5": "x",
+    "c:V9-6": "x",
+    "h:c8c0654c": "x",
+    "h:d8343932": "x",
+    "c:V1-1": "x",
+    "c:V1-2": "x",
+    "c:V1-3": "x",
+    "c:V1-4": "x",
+    "c:V1-5": "x",
+    "c:V1-6": "x"
    },
-   "razao": "A única linguagem próxima de experimentação (melhoria e pesquisa) está na política de privacidade (V1-2), que é vinculante e incorporada aos ToS (V9-2, V9-3, V9-4). Não há documentos não vinculantes com divulgação.",
-   "confianca": "média",
-   "citacoes": [
-    "V1-2",
-    "V9-1",
-    "V9-2",
-    "V9-3",
-    "V9-4"
-   ]
+   "extras": {},
+   "razao": "Nenhum trecho divulga experimentação; o máximo é linguagem de melhoria (nível 1) na política de privacidade. Se o codificador quiser registrar o local dessa linguagem, ela fica só na política de privacidade, que é vinculante."
   }
  },
+ "avisos": [],
  "uso": {
-  "input": 26297,
-  "output": 4788
+  "input": 15341,
+  "output": 3751
  }
 }

@@ -1,161 +1,281 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Google Search",
  "slug": "google-search",
  "modelo": "claude-opus-5-5",
- "prompt_sha": "2524e854e614",
- "entrada_sha": "1dfaf1098211",
- "gerado_em": "2026-10-03T16:20:56+00:00",
+ "prompt_sha": "edd17f9c3a0d",
+ "entrada_sha": "33af568f2ed8",
+ "gerado_em": "2026-10-04T23:29:44+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
-  "max_tokens": 12000,
+  "max_tokens": 16000,
   "thinking": "adaptive",
-  "tentativas": 2
+  "tentativas": 1
  },
- "n_citacoes": 73,
+ "n_trechos": {
+  "V1": 23,
+  "V2": 9,
+  "V3": 17,
+  "V4": 10,
+  "V5": 8,
+  "V6": 11,
+  "V7": 5,
+  "V8": 6,
+  "V9": 33
+ },
+ "documentos": {
+  "1": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "2": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "3": {
+   "tipo": "ToS/conditions",
+   "registro": "binding"
+  },
+  "4": {
+   "tipo": "help centre",
+   "registro": "non-binding"
+  },
+  "5": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "6": {
+   "tipo": "help centre",
+   "registro": "non-binding"
+  },
+  "7": {
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding"
+  }
+ },
  "variaveis": {
   "V1": {
-   "campos": {
-    "v1_code": "3",
-    "v1_register": "non-binding"
+   "notas": {
+    "h:e9cc7339": "x",
+    "h:c6f51f2b": "x",
+    "h:ee04ea67": "2",
+    "h:55d3d7f5": "2",
+    "h:4195c830": "2",
+    "h:d5d82cbc": "x",
+    "h:050d71b7": "2",
+    "h:eb0232df": "2",
+    "h:34e64062": "2",
+    "h:2d011374": "3",
+    "h:468a4909": "3",
+    "h:8622387d": "3",
+    "h:dc6ad938": "3",
+    "c:V1-1": "3",
+    "c:V1-2": "3",
+    "c:V1-3": "3",
+    "c:V1-4": "3",
+    "c:V1-5": "2",
+    "c:V1-6": "3",
+    "c:V1-7": "1",
+    "c:V1-8": "1",
+    "c:V1-9": "x",
+    "c:V1-10": "2"
    },
-   "razao": "O nível 3 aparece só em documentos não vinculantes: o microsite How Search Works fala em experimentos, grupo de controle e 0,1% dos usuários (V1-1, V1-2, V1-3), e a central de ajuda trata do Labs (V1-6). Nota: nos vinculantes há só nível 1 (V1-7, V1-8), ou talvez 2 se o cookie de rollout for lido como teste (V1-10).",
-   "confianca": "alta",
-   "citacoes": [
-    "V1-1",
-    "V1-2",
-    "V1-3",
-    "V1-6",
-    "V1-7",
-    "V1-8",
-    "V1-10"
-   ]
+   "extras": {},
+   "razao": "Teto 3 em registro não vinculante (Doc 7, grupo de controle e live traffic experiments; Doc 6, layouts diferentes). Nos vinculantes, sugere-se nível 2 (cookie de rollout no Doc 5), ou 1 se o codificador não aceitar o rollout como teste."
   },
   "V2": {
-   "campos": {
-    "v2_framing": [
+   "notas": {
+    "c:V2-1": [
+     "service improvement"
+    ],
+    "c:V2-2": [
+     "service improvement"
+    ],
+    "c:V2-3": [
+     "research"
+    ],
+    "c:V2-4": [
      "service improvement",
      "research",
      "social-good/community"
+    ],
+    "c:V2-5": [
+     "service improvement",
+     "research",
+     "social-good/community"
+    ],
+    "c:V2-6": "x",
+    "c:V2-7": "x",
+    "c:V2-8": "x",
+    "c:V2-9": [
+     "service improvement"
     ]
    },
-   "razao": "Os testes aparecem como melhoria do serviço (V2-1, V2-2, V1-7) e como pesquisa: há um programa de pesquisa de produto e pesquisa que melhora os serviços (V2-3, V2-4). A expressão 'benefits the public' e a menção a 'everyone' sustentam social-good/community, mas essa leitura é de fronteira (V2-4, V2-2).",
-   "confianca": "média",
-   "citacoes": [
-    "V2-1",
-    "V2-2",
-    "V2-3",
-    "V2-4",
-    "V1-7"
-   ]
+   "extras": {},
+   "razao": "Predomina melhoria do serviço, com pesquisa e 'benefits the public' co-ocorrendo na tabela de bases legais. O trecho da Lumen trata de transparência de remoções, não de testes."
   },
   "V3": {
-   "campos": {
-    "v3_activities": "Yes",
-    "v3_specific": "Yes",
-    "v3_pricing": "No",
-    "v3_targets": "recursos; layout de design; AI Overviews; conjuntos de resultados de busca"
+   "notas": {
+    "h:c6f51f2b": "x",
+    "h:ee04ea67": "x",
+    "h:55d3d7f5": "x",
+    "h:4195c830": "x",
+    "h:2d011374": "x",
+    "h:468a4909": "x",
+    "h:8622387d": "x",
+    "h:dc6ad938": [
+     "activities"
+    ],
+    "c:V3-1": [
+     "activities"
+    ],
+    "c:V3-2": "x",
+    "c:V3-3": [
+     "activities"
+    ],
+    "c:V3-4": "x",
+    "c:V3-5": "x",
+    "c:V3-6": [
+     "specific"
+    ],
+    "c:V3-7": "x",
+    "c:V3-8": [
+     "activities"
+    ],
+    "c:V3-9": "x"
    },
-   "razao": "Os textos nomeiam superfícies testadas, como layouts, AI Overview e conjuntos de resultados (V3-1, V3-3), e divulgam experimentos concretos, como o Code Tips e os números de 2023 (V3-6, V3-4). Nenhuma citação traz preço como alvo de teste.",
-   "confianca": "média",
-   "citacoes": [
-    "V3-1",
-    "V3-3",
-    "V3-4",
-    "V3-6"
-   ]
+   "extras": {
+    "v3_targets": "features; design layouts; AI Overviews; Search results"
+   },
+   "razao": "Superfícies nomeadas (features, layouts, AI Overviews, resultados) e um experimento específico (Code Tips, encerrado) no Doc 6; preço não aparece como alvo. Os números agregados de 2023 não descrevem um experimento em particular."
   },
   "V4": {
-   "campos": {
-    "v4_basis": [
-     "legitimate interest",
+   "notas": {
+    "c:V4-1": [
+     "legitimate interest"
+    ],
+    "c:V4-2": [
+     "legitimate interest"
+    ],
+    "c:V4-3": [
+     "legitimate interest"
+    ],
+    "c:V4-4": "x",
+    "c:V4-5": "x",
+    "c:V4-6": "x",
+    "c:V4-7": "x",
+    "c:V4-8": "x",
+    "c:V4-9": [
      "contract"
     ],
-    "v4_mapped_purpose": "To maintain and improve Google services / To measure performance",
+    "c:V4-10": "x"
+   },
+   "extras": {
+    "v4_mapped_purpose": "To maintain and improve Google services, products, and features (e To measure performance)",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases legais está nos documentos e liga a finalidade de manter e melhorar os serviços a legítimo interesse e a contrato (V4-1, V4-2, V4-3, V4-9). Como a tabela está presente, a resposta pela definição é No (V4-4).",
-   "confianca": "média",
-   "citacoes": [
-    "V4-1",
-    "V4-2",
-    "V4-3",
-    "V4-4",
-    "V4-9"
-   ]
+   "razao": "A tabela de bases legais está nos Docs 1 e 2, ligando a finalidade de manter e melhorar serviços a legítimo interesse e, em parte, a contrato. Experimentação não é finalidade nomeada; o mapeamento é indireto."
   },
   "V5": {
-   "campos": {
-    "v5_optout": "cookie/ads-only"
+   "notas": {
+    "c:V5-1": "GDPR-objection-only",
+    "c:V5-2": "GDPR-objection-only",
+    "c:V5-3": "x",
+    "c:V5-4": "x",
+    "c:V5-5": "cookie/ads-only",
+    "c:V5-6": "cookie/ads-only",
+    "c:V5-7": "x",
+    "c:V5-8": "x"
    },
-   "razao": "Há controles de cookies, publicidade e personalização (V5-5, V5-6, V5-4) e o direito genérico de objeção (V5-1), mas nenhum controle específico dos experimentos de tráfego. O botão de desligar do Labs vale só para experimentos que a pessoa ativou (V5-7) e pertence à V6.",
-   "confianca": "média",
-   "citacoes": [
-    "V5-1",
-    "V5-4",
-    "V5-5",
-    "V5-6",
-    "V5-7"
-   ]
+   "extras": {},
+   "razao": "Há objeção genérica do GDPR e controles de cookies/anúncios, sem controle específico para experimentos de rotina. Desligar um experimento do Labs pertence ao programa opt-in (V6) e não foi contado aqui."
   },
   "V6": {
-   "campos": {
-    "v6_optin_beta": "Yes",
-    "v6_which": "Search Labs: o usuário elegível ativa experimentos, às vezes via lista de espera, e envia feedback"
+   "notas": {
+    "h:e9cc7339": "x",
+    "h:d5d82cbc": "x",
+    "h:050d71b7": "x",
+    "h:eb0232df": "x",
+    "h:34e64062": "x",
+    "c:V6-1": "sim",
+    "c:V6-2": "sim",
+    "c:V6-3": "sim",
+    "c:V6-4": "sim",
+    "c:V6-5": "sim",
+    "c:V6-6": "sim"
    },
-   "razao": "O Search Labs é um programa voluntário em que o usuário ativa experimentos e envia feedback (V6-1, V6-2, V6-3). Ele não mitiga a V5.",
-   "confianca": "alta",
-   "citacoes": [
-    "V6-1",
-    "V6-2",
-    "V6-3"
-   ]
+   "extras": {
+    "v6_which": "Search Labs: usuários elegíveis (18+, conta pessoal) ativam experimentos iniciais pelo ícone Labs, às vezes via lista de espera"
+   },
+   "razao": "O Doc 6 descreve o Search Labs como programa voluntário de acesso antecipado. Os 'bug testing programs' do ToS tratam de testes adversariais, não de um programa beta."
   },
   "V7": {
-   "campos": {
-    "v7_debrief": "No"
+   "notas": {
+    "c:V7-1": "x",
+    "c:V7-2": "x",
+    "c:V7-3": "x",
+    "c:V7-4": "x",
+    "c:V7-5": "x"
    },
-   "razao": "Os documentos tratam de experimentos, mas não oferecem aviso posterior de participação; os avisos que existem são de lista de espera e de mudança de serviço, que estão excluídos (V7-1, V7-3). O log de palavras-chave mostra 'debrief' com 0 ocorrências em todos os documentos; é o caso de tema tratado sem o mecanismo, mas não dá para saber se foi considerado e rejeitado.",
-   "confianca": "média",
-   "citacoes": [
-    "V7-1",
-    "V7-2",
-    "V7-3",
-    "V7-5"
-   ]
+   "extras": {},
+   "razao": "Os trechos são avisos de lista de espera, de mudança de serviço ou de comunicação geral, nenhum deles um debriefing. Sugere-se No, com o Doc 7 tratando de experimentos sem aviso posterior e o log de palavras-chave registrando debrief:0."
   },
   "V8": {
-   "campos": {
-    "v8_ethics": "No"
+   "notas": {
+    "c:V8-1": "x",
+    "c:V8-2": "x",
+    "c:V8-3": "x",
+    "c:V8-4": "x",
+    "c:V8-5": "x",
+    "c:V8-6": "x"
    },
-   "razao": "Há revisão dos experimentos por engenheiros e especialistas jurídicos e de privacidade, mas para decidir o lançamento, não como revisão ética ou de risco (V8-1, V8-2). A frase 'potential impact on you and others' nos ToS é linguagem de fronteira e vale No com nota (V8-3); 'ethics', 'IRB' e 'risk assessment' têm 0 ocorrências, e fica a nota de gap entre a obrigação do DSA e os documentos.",
-   "confianca": "média",
-   "citacoes": [
-    "V8-1",
-    "V8-2",
-    "V8-3"
-   ]
+   "extras": {},
+   "razao": "A revisão por engenheiros e especialistas jurídicos e de privacidade (Doc 7) é revisão de lançamento, não revisão ética nem avaliação de risco; é um caso de fronteira para nota. 'Impact on you and others' no ToS está ligado à mudança de serviço; as avaliações do DSA não aparecem nos documentos (gap regulatório-vs-documento)."
   },
   "V9": {
-   "campos": {
-    "v9_where": [
-     "help centre",
-     "blog/PR/site de pesquisa"
-    ],
-    "v9_register": "non-binding"
+   "notas": {
+    "c:V9-1": "x",
+    "c:V9-2": "x",
+    "c:V9-3": "x",
+    "c:V9-4": "x",
+    "c:V9-5": "x",
+    "c:V9-6": "sim",
+    "c:V9-7": "sim",
+    "c:V9-8": "x",
+    "c:V9-9": "x",
+    "c:V9-10": "x",
+    "h:e9cc7339": "x",
+    "h:c6f51f2b": "x",
+    "h:ee04ea67": "sim",
+    "h:55d3d7f5": "sim",
+    "h:4195c830": "sim",
+    "h:d5d82cbc": "x",
+    "h:050d71b7": "sim",
+    "h:eb0232df": "sim",
+    "h:34e64062": "sim",
+    "h:2d011374": "sim",
+    "h:468a4909": "sim",
+    "h:8622387d": "sim",
+    "h:dc6ad938": "sim",
+    "c:V1-1": "sim",
+    "c:V1-2": "sim",
+    "c:V1-3": "sim",
+    "c:V1-4": "sim",
+    "c:V1-5": "sim",
+    "c:V1-6": "sim",
+    "c:V1-7": "x",
+    "c:V1-8": "x",
+    "c:V1-9": "x",
+    "c:V1-10": "sim"
    },
-   "razao": "A divulgação explícita de experimentação está na central de ajuda do Labs e no microsite How Search Works (V9-5, V9-7). Os vinculantes só mencionam melhoria e um 'product research program' (V1-8), o que não chega a ser divulgação de experimentação.",
-   "confianca": "média",
-   "citacoes": [
-    "V9-5",
-    "V9-7",
-    "V1-8"
-   ]
+   "extras": {},
+   "razao": "A divulgação explícita está no microsite (Doc 7) e na central de ajuda (Doc 6). No vinculante só aparece o cookie de rollout do Doc 5, um sinal fraco; o registro seria both se ele for aceito, ou non-binding se não."
   }
  },
+ "avisos": [],
  "uso": {
-  "input": 32037,
-  "output": 7049
+  "input": 21402,
+  "output": 7234
  }
 }

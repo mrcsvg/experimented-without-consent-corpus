@@ -1,156 +1,220 @@
 {
- "formato": 1,
+ "formato": 2,
  "servico": "Booking.com",
  "slug": "booking-com",
  "modelo": "claude-opus-5-5",
- "prompt_sha": "2524e854e614",
- "entrada_sha": "10235b07c90f",
- "gerado_em": "2026-10-03T16:21:55+00:00",
+ "prompt_sha": "edd17f9c3a0d",
+ "entrada_sha": "11db6829aa31",
+ "gerado_em": "2026-10-04T23:31:02+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
-  "max_tokens": 12000,
+  "max_tokens": 16000,
   "thinking": "adaptive",
   "tentativas": 1
  },
- "n_citacoes": 49,
+ "n_trechos": {
+  "V1": 16,
+  "V2": 6,
+  "V3": 12,
+  "V4": 7,
+  "V5": 6,
+  "V6": 6,
+  "V7": 4,
+  "V8": 5,
+  "V9": 23
+ },
+ "documentos": {
+  "1": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "2": {
+   "tipo": "privacy policy",
+   "registro": "binding"
+  },
+  "3": {
+   "tipo": "ToS/conditions",
+   "registro": "binding"
+  }
+ },
  "variaveis": {
   "V1": {
-   "campos": {
-    "v1_code": "3",
-    "v1_register": "binding"
+   "notas": {
+    "h:8a99ce2f": "3",
+    "h:a1efaee9": "3",
+    "h:dcf42cee": "3",
+    "h:9eb5e821": "x",
+    "h:a1cc7f1f": "x",
+    "h:a9fc21f8": "3",
+    "h:4a4f3d18": "3",
+    "h:90226053": "3",
+    "h:8e44ff32": "x",
+    "h:c42266de": "x",
+    "c:V1-1": "3",
+    "c:V1-2": "1",
+    "c:V1-3": "3",
+    "c:V1-4": "3",
+    "c:V1-5": "3",
+    "c:V1-6": "1"
    },
-   "razao": "A política de privacidade nomeia \"experiments (such as A/B tests)\" (V1-1, V1-3), e os Termos dizem que mostram \"different people different designs, phrasings, products\" (V1-4, V1-5), ambos em registro vinculante. Não há documento não vinculante no conjunto, por isso o registro é binding e não both.",
-   "confianca": "alta",
-   "citacoes": [
-    "V1-1",
-    "V1-3",
-    "V1-4",
-    "V1-5"
-   ]
+   "extras": {},
+   "razao": "A Privacy Notice nomeia 'experiments (such as A/B tests)' e os Termos descrevem versões diferentes mostradas a pessoas diferentes, ambos documentos vinculantes. Os trechos de 'test' sobre protocolos de incidentes e sistemas de IA parecem ser outro assunto."
   },
   "V2": {
-   "campos": {
-    "v2_framing": [
+   "notas": {
+    "c:V2-1": [
+     "service improvement"
+    ],
+    "c:V2-2": [
+     "research"
+    ],
+    "c:V2-3": "x",
+    "c:V2-4": "x",
+    "c:V2-5": "x",
+    "c:V2-6": [
      "service improvement"
     ]
    },
-   "razao": "Os experimentos aparecem sob a finalidade \"Improving our services\" e são justificados como compromisso de \"make our services better\" e \"improve our customers' experience\" (V1-1, V2-6, V1-4). A menção a \"market research\" (V2-2) trata de convites a pesquisas de mercado, não dos testes, e foi deixada de fora; cabe ao codificador decidir se ela conta como enquadramento research.",
-   "confianca": "média",
-   "citacoes": [
-    "V1-1",
-    "V2-6",
-    "V1-4",
-    "V2-1",
-    "V2-2"
-   ]
+   "extras": {},
+   "razao": "Predomina o enquadramento de melhoria do serviço. 'Market research' pode valer como pesquisa genérica, embora esteja ligado a convites e não aos testes A/B."
   },
   "V3": {
-   "campos": {
-    "v3_activities": "Yes",
-    "v3_specific": "No",
-    "v3_pricing": "No",
-    "v3_targets": "funcionalidades da plataforma; design; redação (phrasings); produtos"
+   "notas": {
+    "h:8a99ce2f": [
+     "activities"
+    ],
+    "h:a1efaee9": [
+     "activities"
+    ],
+    "h:a9fc21f8": [
+     "activities"
+    ],
+    "h:4a4f3d18": [
+     "activities"
+    ],
+    "c:V3-1": [
+     "activities"
+    ],
+    "c:V3-2": [
+     "activities"
+    ],
+    "c:V3-3": "x",
+    "c:V3-4": "x",
+    "c:V3-5": "x",
+    "c:V3-6": "x",
+    "c:V3-7": "x",
+    "c:V3-8": "x"
    },
-   "razao": "Os textos nomeiam o que é testado: \"platform features\" e \"designs, phrasings, products\" (V3-1, V3-2), mas não divulgam nenhum experimento específico. O preço aparece como personalização por região (V3-4, V3-5) e como cláusula de erro (V3-6), não como alvo de teste; a menção a \"conditions\" em V1-4 é ambígua.",
-   "confianca": "média",
-   "citacoes": [
-    "V3-1",
-    "V3-2",
-    "V3-4",
-    "V3-5",
-    "V3-6",
-    "V1-4"
-   ]
+   "extras": {
+    "v3_targets": "platform features; designs; phrasings; products"
+   },
+   "razao": "Os textos nomeiam superfícies testadas (features, designs, phrasings, products), mas nenhum experimento específico. O preço aparece apenas como variação por região/dispositivo, como personalização, e não como alvo de teste; o trecho de mispricing não conta."
   },
   "V4": {
-   "campos": {
-    "v4_basis": [
+   "notas": {
+    "c:V4-1": [
      "legitimate interest"
     ],
+    "c:V4-2": [
+     "legitimate interest"
+    ],
+    "c:V4-3": [
+     "legitimate interest"
+    ],
+    "c:V4-4": [
+     "consent"
+    ],
+    "c:V4-5": "x",
+    "c:V4-6": "x",
+    "c:V4-7": "x"
+   },
+   "extras": {
     "v4_mapped_purpose": "G. Improving our services",
     "v4_region_gated": "No"
    },
-   "razao": "A finalidade G (\"Improving our services\"), onde estão os A/B tests, fica no bloco C a K, que tem base em legítimo interesse (V4-1, V4-2, V1-1); o consentimento só vale \"where needed under applicable law\" para todas as finalidades (V4-4). A tabela de bases legais está presente nos documentos lidos, por isso a resposta é No.",
-   "confianca": "média",
-   "citacoes": [
-    "V4-1",
-    "V4-2",
-    "V4-4",
-    "V1-1"
-   ]
+   "razao": "A finalidade G (Improving our services), onde estão os testes A/B, está no bloco C a K, baseado em legítimo interesse. Há também uma ressalva genérica de consentimento 'where needed under applicable law'; a tabela está presente nos documentos."
   },
   "V5": {
-   "campos": {
-    "v5_optout": "cookie/ads-only"
+   "notas": {
+    "c:V5-1": "GDPR-objection-only",
+    "c:V5-2": "GDPR-objection-only",
+    "c:V5-3": "cookie/ads-only",
+    "c:V5-4": "x",
+    "c:V5-5": "x",
+    "c:V5-6": "x"
    },
-   "razao": "Há o direito genérico de objeção às finalidades C a K (V5-1, V5-2) e um banner para recusar cookies analíticos e de marketing (V5-3). Nada disso é específico de experimentação; se o codificador entender que o banner não chega a configurar o nível superior, a alternativa é GDPR-objection-only.",
-   "confianca": "média",
-   "citacoes": [
-    "V5-1",
-    "V5-2",
-    "V5-3"
-   ]
+   "extras": {},
+   "razao": "O único caminho para experimentos parece ser a objeção genérica ao processamento por legítimo interesse. As opções de cookies, AI Memory e personalização não tratam de experimentação."
   },
   "V6": {
-   "campos": {
-    "v6_optin_beta": "No",
+   "notas": {
+    "h:dcf42cee": "x",
+    "h:9eb5e821": "x",
+    "h:a1cc7f1f": "x",
+    "h:90226053": "x",
+    "h:8e44ff32": "x",
+    "h:c42266de": "x"
+   },
+   "extras": {
     "v6_which": ""
    },
-   "razao": "Nenhuma citação sustenta outra resposta. A contagem registra beta:0 e trial:0 nos três documentos.",
-   "confianca": "média",
-   "citacoes": []
+   "razao": "Nenhum trecho descreve um programa de inscrição voluntária em beta ou acesso antecipado."
   },
   "V7": {
-   "campos": {
-    "v7_debrief": "No"
+   "notas": {
+    "c:V7-1": "x",
+    "c:V7-2": "x",
+    "c:V7-3": "x",
+    "c:V7-4": "x"
    },
-   "razao": "Os documentos tratam de experimentos (V1-4, V7-1), mas só avisam de antemão que o usuário pode não ver certos serviços, sem aviso posterior de participação; avisos administrativos, de decisão automatizada e de mudança da política (V7-2, V7-3, V7-4) não são debriefing. É um caso de tema tratado sem o mecanismo, e a contagem registra debrief:0 nos três documentos.",
-   "confianca": "média",
-   "citacoes": [
-    "V1-4",
-    "V7-1",
-    "V7-2",
-    "V7-3",
-    "V7-4"
-   ]
+   "extras": {},
+   "razao": "Os trechos são avisos prévios de variação, de mensagens administrativas, de decisão automatizada e de mudança da política, e nenhum deles é debriefing. Os Termos tratam do tema dos testes sem prever aviso posterior, o que sugere um 'No' substantivo; a contagem de 'debrief' é zero."
   },
   "V8": {
-   "campos": {
-    "v8_ethics": "No"
+   "notas": {
+    "c:V8-1": "x",
+    "c:V8-2": "x",
+    "c:V8-3": "x",
+    "c:V8-4": "x",
+    "c:V8-5": "x"
    },
-   "razao": "As menções a avaliação de risco se referem a sistemas de IA (V8-1, V8-2) e à revisão humana antifraude (V8-4), e o teste de ponderação do legítimo interesse (V8-3) é genérico, não específico de experimentos. A contagem registra ethics, review board e risk assessment em 0; anotar a diferença entre a obrigação do DSA e o que os documentos dizem.",
-   "confianca": "média",
-   "citacoes": [
-    "V8-1",
-    "V8-2",
-    "V8-3",
-    "V8-4"
-   ]
+   "extras": {},
+   "razao": "As avaliações citadas se referem a sistemas de IA, ao teste de ponderação do legítimo interesse e à moderação antifraude, não a revisão ética de experimentos. Fica como caso de fronteira, a anotar, e como possível lacuna em relação às avaliações de risco do DSA."
   },
   "V9": {
-   "campos": {
-    "v9_where": [
-     "privacy policy",
-     "ToS/conditions"
-    ],
-    "v9_register": "binding"
+   "notas": {
+    "c:V9-1": "x",
+    "c:V9-2": "x",
+    "c:V9-3": "x",
+    "c:V9-4": "x",
+    "c:V9-5": "x",
+    "c:V9-6": "x",
+    "c:V9-7": "x",
+    "h:8a99ce2f": "sim",
+    "h:a1efaee9": "sim",
+    "h:dcf42cee": "sim",
+    "h:9eb5e821": "x",
+    "h:a1cc7f1f": "x",
+    "h:a9fc21f8": "sim",
+    "h:4a4f3d18": "sim",
+    "h:90226053": "sim",
+    "h:8e44ff32": "x",
+    "h:c42266de": "x",
+    "c:V1-1": "sim",
+    "c:V1-2": "x",
+    "c:V1-3": "sim",
+    "c:V1-4": "sim",
+    "c:V1-5": "sim",
+    "c:V1-6": "x"
    },
-   "razao": "A divulgação aparece no Privacy Notice (V1-1, V9-1) e nos Terms of Service, que se declaram parte do acordo (V1-4, V9-3, V9-4). Ambos são vinculantes; a página \"How we work\" é citada (V9-5, V9-7), mas não está no conjunto congelado.",
-   "confianca": "alta",
-   "citacoes": [
-    "V1-1",
-    "V1-4",
-    "V9-1",
-    "V9-3",
-    "V9-4",
-    "V9-5",
-    "V9-7"
-   ]
+   "extras": {},
+   "razao": "A divulgação aparece na Privacy Notice (docs 1 e 2) e nos Termos de Serviço (doc 3), ambos vinculantes. Os cabeçalhos e as remissões a outros documentos não divulgam experimentação."
   }
  },
+ "avisos": [],
  "uso": {
-  "input": 13436,
-  "output": 3054
+  "input": 17679,
+  "output": 4522
  }
 }
