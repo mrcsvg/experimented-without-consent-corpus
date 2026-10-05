@@ -1,7 +1,7 @@
 {
  "servico": "Stripchat",
  "slug": "stripchat",
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:47+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -11,6 +11,8 @@
    "url": "https://stripchat.com/privacy",
    "chars": 45571,
    "titulo": "Privacy policy | Stripchat",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -34,6 +36,8 @@
    "url": "https://stripchat.com/terms",
    "chars": 55506,
    "titulo": "Terms and Conditions | Stripchat",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -57,6 +61,8 @@
    "url": "https://stripchat.com/cookies-policy",
    "chars": 15781,
    "titulo": "Cookies - Privacy Policy | Stripchat — Live Sex Video Chats",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -80,6 +86,8 @@
    "url": "https://stripcash.company/privacy",
    "chars": 38258,
    "titulo": "Privacy Policy - stripcash.company",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,

@@ -1,7 +1,7 @@
 {
  "servico": "Pornhub",
  "slug": "pornhub",
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:47+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -11,6 +11,8 @@
    "url": "https://www.pornhub.com/information/privacy",
    "chars": 45324,
    "titulo": "Privacy Notice | Pornhub.com",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -34,6 +36,8 @@
    "url": "http://web.archive.org/web/20260702023921/https://www.pornhub.com/information/privacy",
    "chars": 45496,
    "titulo": "Privacy Notice | Pornhub.com",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -57,6 +61,8 @@
    "url": "https://www.pornhub.com/information/terms",
    "chars": 111023,
    "titulo": "Terms Of Service | Pornhub.com",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -80,6 +86,8 @@
    "url": "http://web.archive.org/web/20260630121901/https://www.pornhub.com/information/terms",
    "chars": 110956,
    "titulo": "Terms Of Service | Pornhub.com",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -103,6 +111,8 @@
    "url": "https://www.pornhub.com/information/cookie-notice",
    "chars": 34242,
    "titulo": "Cookie Notice | Pornhub.com",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -126,6 +136,8 @@
    "url": "http://web.archive.org/web/20260630121251/https://www.pornhub.com/information/cookie-notice",
    "chars": 34503,
    "titulo": "Cookie Notice | Pornhub.com",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -149,6 +161,8 @@
    "url": "https://www.pornhub.com/information/recommender",
    "chars": 14750,
    "titulo": "Recommender System Guidelines",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -172,6 +186,8 @@
    "url": "http://web.archive.org/web/20260602163932/https://www.pornhub.com/information/recommender",
    "chars": 14702,
    "titulo": "Recommender System Guidelines",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,

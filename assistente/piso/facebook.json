@@ -1,7 +1,7 @@
 {
  "servico": "Facebook",
  "slug": "facebook",
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:47+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -11,6 +11,8 @@
    "url": "https://www.facebook.com/privacy/policy/",
    "chars": 107895,
    "titulo": "Meta Privacy Policy – How Meta collects and uses user data",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -34,6 +36,8 @@
    "url": "https://mbasic.facebook.com/privacy/policy/printable/?locale=en_GB",
    "chars": 196346,
    "titulo": "Meta Privacy Policy – How Meta collects and uses user data",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -57,6 +61,8 @@
    "url": "https://www.facebook.com/legal/terms",
    "chars": 35267,
    "titulo": "Meta Terms of Service",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -80,6 +86,8 @@
    "url": "https://www.facebook.com/terms.php?locale=en_GB",
    "chars": 35267,
    "titulo": "Meta Terms of Service",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -103,6 +111,8 @@
    "url": "https://www.facebook.com/policies/cookies/",
    "chars": 3973,
    "titulo": "Meta Cookies Policy",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -126,6 +136,8 @@
    "url": "https://techcrunch.com/2021/04/22/facebook-launches-a-series-tests-to-inform-future-changes-to-its-news-feed-algorithms/",
    "chars": 8184,
    "titulo": "Facebook launches a series tests to inform future changes to its News Feed algorithms | TechCrunch",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -149,6 +161,8 @@
    "url": "https://www.facebook.com/business/help/1738164643098669",
    "chars": 5033,
    "titulo": "About A/B testing | Meta Business Help Centre",
+   "tipo": "help centre",
+   "registro": "non-binding",
    "counts": {
     "experiment": 2,
     "A-B": 19,

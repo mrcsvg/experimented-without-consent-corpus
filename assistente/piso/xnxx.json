@@ -1,7 +1,7 @@
 {
  "servico": "XNXX",
  "slug": "xnxx",
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:47+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -11,6 +11,8 @@
    "url": "https://info.xnxx.com/legal/privacy",
    "chars": 28632,
    "titulo": "Privacy policy - XNXX.COM",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -34,6 +36,8 @@
    "url": "https://info.xnxx.com/legal/tos",
    "chars": 69614,
    "titulo": "XNXX Terms of service - XNXX.COM",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -57,6 +61,8 @@
    "url": "https://info.xnxx.com/legal/cookiepolicy",
    "chars": 5576,
    "titulo": "Cookie policy - XNXX.COM",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -80,6 +86,8 @@
    "url": "https://info.xnxx.com/dsa-data-catalogue",
    "chars": 4692,
    "titulo": "DSA Data Catalogue - XNXX.COM",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,

@@ -1,7 +1,7 @@
 {
  "servico": "AliExpress",
  "slug": "aliexpress",
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:48+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -11,6 +11,8 @@
    "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress201909171350_82407.html",
    "chars": 72890,
    "titulo": "AliExpress.com Privacy Policy",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -34,6 +36,8 @@
    "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress202204182115_66077.html",
    "chars": 109147,
    "titulo": "AliExpress.com Terms of Use",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -57,6 +61,8 @@
    "url": "https://terms.alicdn.com/legal-agreement/terms/c_platform_service_agreement/20240401172006520/20240401172006520.html",
    "chars": 15730,
    "titulo": "AliExpress Cookie Notice",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -80,6 +86,8 @@
    "url": "https://www.aliexpress.com/p/transparencycenter/policies.html",
    "chars": 1160,
    "titulo": "Supporto",
+   "tipo": "help centre",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -103,6 +111,8 @@
    "url": "https://www.aliexpress.com/p/transparencycenter/dsa.html",
    "chars": 1160,
    "titulo": "Supporto",
+   "tipo": "help centre",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -126,6 +136,8 @@
    "url": "https://cdn.contract.alibaba.com/terms/EU_EE_UK_platform_service_agreement/20250514112355975/20250514112355975.html?lng=en",
    "chars": 64908,
    "titulo": "EN / AliExpress.com Terms and Conditions for Platform Transactions by EU/EEA/UK Consumers",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,

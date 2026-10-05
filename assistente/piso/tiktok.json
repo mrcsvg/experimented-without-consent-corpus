@@ -1,7 +1,7 @@
 {
  "servico": "TikTok",
  "slug": "tiktok",
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:48+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -11,6 +11,8 @@
    "url": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
    "chars": 46768,
    "titulo": "Privacy Policy | TikTok",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -34,6 +36,8 @@
    "url": "https://www.tiktok.com/legal/page/eea/terms-of-service/en",
    "chars": 28401,
    "titulo": "Terms of Service | TikTok",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -57,6 +61,8 @@
    "url": "https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en",
    "chars": 10273,
    "titulo": "TikTok Cookies Policy | TikTok",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -80,6 +86,8 @@
    "url": "https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you",
    "chars": 10030,
    "titulo": "How TikTok recommends videos #ForYou - Newsroom | TikTok",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -103,6 +111,8 @@
    "url": "https://ads.tiktok.com/help/article/split-testing",
    "chars": 1854,
    "titulo": "About Split Testing | TikTok Ads Manager",
+   "tipo": "help centre",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 1,
@@ -126,6 +136,8 @@
    "url": "https://newsroom.tiktok.com/an-update-on-our-work-to-safeguard-and-diversify-recommendations",
    "chars": 5681,
    "titulo": "An update on our work to safeguard and diversify recommendations - Newsroom | TikTok",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,

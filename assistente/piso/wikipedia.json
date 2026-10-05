@@ -1,7 +1,7 @@
 {
  "servico": "Wikipedia",
  "slug": "wikipedia",
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:47+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -11,6 +11,8 @@
    "url": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy",
    "chars": 54842,
    "titulo": "Wikimedia Foundation Privacy Policy - Wikimedia Foundation Governance Wiki",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 3,
     "A-B": 0,
@@ -34,6 +36,8 @@
    "url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
    "chars": 52654,
    "titulo": "Wikimedia Foundation Terms of Use - Wikimedia Foundation Governance Wiki",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -57,6 +61,8 @@
    "url": "https://foundation.wikimedia.org/wiki/Policy:Cookie_statement",
    "chars": 15159,
    "titulo": "Wikimedia Cookie Statement - Wikimedia Foundation Governance Wiki",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 1,
@@ -80,6 +86,8 @@
    "url": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/Frequently_asked_questions",
    "chars": 26562,
    "titulo": "Policy:Privacy policy/Frequently asked questions - Wikimedia Foundation Governance Wiki",
+   "tipo": "help centre",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -103,6 +111,8 @@
    "url": "https://wikitech.wikimedia.org/wiki/A/B_testing",
    "chars": 4599,
    "titulo": "A/B testing - Wikitech",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 4,
     "A-B": 15,
@@ -126,6 +136,8 @@
    "url": "https://wikimediafoundation.org/wikipedia-experiments/",
    "chars": 3871,
    "titulo": "Wikipedia experiments – Wikimedia Foundation",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 7,
     "A-B": 0,

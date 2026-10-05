@@ -1,7 +1,7 @@
 {
  "servico": "Temu",
  "slug": "temu",
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:47+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -11,6 +11,8 @@
    "url": "https://www.temu.com/no-en/cookie-and-similar-technologies-policy.html",
    "chars": 12726,
    "titulo": "Temu | Cookies and Similar Technologies Policy",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -34,6 +36,8 @@
    "url": "https://www.temu.com/no-en/privacy-and-cookie-policy.html",
    "chars": 58016,
    "titulo": "Temu | Privacy Policy",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -57,6 +61,8 @@
    "url": "https://www.temu.com/no-en/terms-of-use.html",
    "chars": 47188,
    "titulo": "Temu | Terms of use",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -80,6 +86,8 @@
    "url": "https://www.temu.com/support/c2/-in-f-55.html",
    "chars": 2785,
    "titulo": "Temu | Support center & FAQ",
+   "tipo": "help centre",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,

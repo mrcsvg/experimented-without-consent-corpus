@@ -1,7 +1,7 @@
 {
  "servico": "Amazon Store",
  "slug": "amazon-store",
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:47+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -11,6 +11,8 @@
    "url": "https://www.amazon.de/-/en/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ",
    "chars": 38346,
    "titulo": "Amazon.de Privacy Notice - Amazon Customer Service",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -34,6 +36,8 @@
    "url": "https://www.amazon.de/-/en/gp/help/customer/display.html?nodeId=TcxwSYJNmpQYGgNWkX",
    "chars": 21643,
    "titulo": "Amazon Europe Data Use Purposes, Data Categories and Legal Bases - Amazon Customer Service",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -57,6 +61,8 @@
    "url": "https://www.amazon.de/-/en/gp/help/customer/display.html?nodeId=GVASXV5UZ64R4Y25",
    "chars": 8583,
    "titulo": "Cookies - Amazon Customer Service",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -80,6 +86,8 @@
    "url": "https://www.amazon.de/-/en/gp/help/customer/display.html?nodeId=201909000",
    "chars": 57323,
    "titulo": "Amazon.de Conditions of Use and Sale - Amazon Customer Service",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -103,6 +111,8 @@
    "url": "https://www.amazon.science/tag/a-b-testing",
    "chars": 40483,
    "titulo": "A/B testing - Amazon Science",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 21,
     "A-B": 9,
@@ -126,6 +136,8 @@
    "url": "https://www.amazon.science/blog/the-science-of-price-experiments-in-the-amazon-store",
    "chars": 47188,
    "titulo": "The science of price experiments in the Amazon Store - Amazon Science",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 48,
     "A-B": 7,
@@ -149,6 +161,8 @@
    "url": "https://www.amazon.science/publications/science-of-price-experimentation-at-amazon",
    "chars": 37628,
    "titulo": "Science of price experimentation at Amazon - Amazon Science",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 20,
     "A-B": 3,

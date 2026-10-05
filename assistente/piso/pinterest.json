@@ -1,7 +1,7 @@
 {
  "servico": "Pinterest",
  "slug": "pinterest",
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:47+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -11,6 +11,8 @@
    "url": "https://policy.pinterest.com/en/privacy-policy",
    "chars": 48779,
    "titulo": "Privacy Policy | Pinterest Policy",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -34,6 +36,8 @@
    "url": "https://policy.pinterest.com/en/terms-of-service",
    "chars": 30088,
    "titulo": "Terms of Service | Pinterest Policy",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -57,6 +61,8 @@
    "url": "https://policy.pinterest.com/en/cookies",
    "chars": 7290,
    "titulo": "Cookies | Pinterest Policy",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -80,6 +86,8 @@
    "url": "https://www.pinterest.com/public-beta/",
    "chars": 1791,
    "titulo": "Pinterest",
+   "tipo": "help centre",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -103,6 +111,8 @@
    "url": "https://medium.com/pinterest-engineering/scalable-a-b-experiments-at-pinterest-1e28ddb7d22",
    "chars": 11360,
    "titulo": "Scalable A/B experiments at Pinterest | by Pinterest Engineering | Pinterest Engineering Blog | Medium Medium",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 56,
     "A-B": 5,

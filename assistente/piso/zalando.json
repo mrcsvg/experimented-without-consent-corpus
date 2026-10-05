@@ -1,7 +1,7 @@
 {
  "servico": "Zalando",
  "slug": "zalando",
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:47+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -11,6 +11,8 @@
    "url": "https://mosaic02.ztat.net/cnt/contentful-apps/uploads/6264a7fa-33a0-42b3-8021-da7a5fd85469.pdf",
    "chars": 137245,
    "titulo": "Zalando Privacy Notice As at: 09/2025",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 3,
@@ -34,6 +36,8 @@
    "url": "https://mosaic02.ztat.net/cnt/contentful-apps/uploads/b8944e13-77d3-4b20-8abf-04c3bfb51d9a.pdf",
    "chars": 32704,
    "titulo": "Summary of our general terms and condi�ons",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -57,6 +61,8 @@
    "url": "https://corporate.zalando.com/en/zalando-data-protection-statement",
    "chars": 42945,
    "titulo": "Zalando: Zalando Privacy Notice | Zalando Corporate",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -80,6 +86,8 @@
    "url": "https://accounts.zalando.com/terms-of-use",
    "chars": 16042,
    "titulo": "Zalando",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -103,6 +111,8 @@
    "url": "https://en.zalando.de/zalando-privacy-policy/",
    "chars": 133437,
    "titulo": "Zalando",
+   "tipo": "privacy policy",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 3,
@@ -126,6 +136,8 @@
    "url": "https://en.zalando.de/zalando-terms/",
    "chars": 35744,
    "titulo": "Terms & Conditions | Zalando",
+   "tipo": "ToS/conditions",
+   "registro": "binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -149,6 +161,8 @@
    "url": "https://engineering.zalando.com/posts/2021/01/experimentation-platform-part1.html",
    "chars": 12520,
    "titulo": "Experimentation Platform at Zalando: Part 1 - Evolution",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 31,
     "A-B": 32,
@@ -172,6 +186,8 @@
    "url": "https://engineering.zalando.com/tags/experimentation.html",
    "chars": 1005,
    "titulo": "Zalando Engineering Blog - Experimentation",
+   "tipo": "blog/PR/site de pesquisa",
+   "registro": "non-binding",
    "counts": {
     "experiment": 4,
     "A-B": 0,

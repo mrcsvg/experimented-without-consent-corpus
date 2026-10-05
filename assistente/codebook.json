@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-04T23:52:34+00:00",
+ "gerado_em": "2026-10-05T13:29:47+00:00",
  "congelado_em": "2026-07-04",
  "fonte_crit": "texto exato do codebook v2, congelado em 04/07/2026",
  "servicos": [
@@ -508,7 +508,7 @@
    "V8"
   ]
  },
- "regras_gerais_html": "<h3>Cinco regras que valem para todas as variáveis</h3><ol><li><b>Codifique só pelo que está escrito</b> nos documentos congelados desta página. O que você sabe da plataforma por outras fontes não entra.</li><li><b>Evidência é a frase exata</b> copiada do documento, com o nome do documento de onde ela veio. O botão \"usar como evidência\" faz isso por você.</li><li><b>Vinculante ou não vinculante se decide pela função do documento.</b> Política de privacidade, termos de uso, aviso de cookies e tabela de bases legais são vinculantes. Blog, central de ajuda e páginas de pesquisa não são. Na dúvida, pergunte se o documento se declara parte do acordo com o usuário.</li><li><b>No tem dois casos.</b> O documento pode tratar do assunto e não oferecer o mecanismo, ou o assunto pode nunca aparecer. Nos dois casos a resposta é No; diga na evidência qual dos dois é.</li><li><b>Dúvida sobre a regra não trava o trabalho.</b> Codifique a sua melhor leitura e anote a dúvida no campo Notas, no fim da tela. A discussão acontece depois, quando as duas codificações forem comparadas.</li></ol>",
+ "regras_gerais_html": "<h3>Cinco regras que valem para todas as variáveis</h3><ol><li><b>Codifique só pelo que está escrito</b> nos documentos congelados desta página. O que você sabe da plataforma por outras fontes não entra.</li><li><b>Evidência são os trechos que você marcou.</b> A página monta a evidência de cada variável com os trechos marcados, a nota e o comentário de cada um, e o nome do documento de onde vieram. Você não digita evidência.</li><li><b>Vinculante ou não vinculante já vem decidido para cada documento.</b> Política de privacidade, termos de uso, aviso de cookies e tabela de bases legais são vinculantes. Blog, central de ajuda e páginas de pesquisa não são. O tipo de cada documento aparece ao lado de cada trecho; se achar que um está errado, anote em Notas.</li><li><b>No tem dois casos.</b> O documento pode tratar do assunto e não oferecer o mecanismo, ou o assunto pode nunca aparecer. Nos dois casos a resposta é No; diga na evidência qual dos dois é.</li><li><b>Dúvida sobre a regra não trava o trabalho.</b> Codifique a sua melhor leitura e anote a dúvida no campo Notas, no fim da tela. A discussão acontece depois, quando as duas codificações forem comparadas.</li></ol>",
  "ajuda_valores": {
   "v1_code:0": "Nenhum reconhecimento, nem de “melhorar”.",
   "v1_code:1": "Só linguagem de “melhorar/aprimorar o serviço”; nem “testar”.",
