@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-06T00:24:39+00:00",
+ "gerado_em": "2026-10-06T19:47:13+00:00",
  "congelado_em": "2026-07-04",
  "fonte_crit": "texto exato do codebook v2, congelado em 04/07/2026",
  "servicos": [
@@ -52,7 +52,8 @@
       "2",
       "3"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Nível (teto)"
     },
     {
      "chave": "v1_register",
@@ -64,7 +65,8 @@
       "non-binding",
       "both"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Registro do teto"
     },
     {
      "chave": "v1_evidence",
@@ -95,7 +97,8 @@
       "human-subjects research",
       "social-good/community"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Enquadramentos presentes"
     },
     {
      "chave": "v2_evidence",
@@ -125,7 +128,8 @@
       "Yes",
       "No"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Nomeia atividades ou superfícies testadas?"
     },
     {
      "chave": "v3_specific",
@@ -136,7 +140,8 @@
       "Yes",
       "No"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Divulga um experimento específico ou ativo?"
     },
     {
      "chave": "v3_pricing",
@@ -147,14 +152,17 @@
       "Yes",
       "No"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Preço nomeado como alvo?"
     },
     {
      "chave": "v3_targets",
      "rotulo": "V3b: alvos nomeados",
      "tipo": "line",
      "opcoes": [],
-     "placeholder": "ranking, preço, mensagem, afeto…"
+     "placeholder": "ranking, preço, mensagem, afeto…",
+     "tela": "Alvos nomeados",
+     "ajuda_tela": "O que o texto diz que é testado: ordem dos resultados, preço, mensagem, emoção, fricção, opções padrão. Lista aberta; separe os itens por vírgula. Pode ficar vazio."
     },
     {
      "chave": "v3_evidence",
@@ -185,14 +193,17 @@
       "contract",
       "not stated"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Bases legais declaradas"
     },
     {
      "chave": "v4_mapped_purpose",
      "rotulo": "Finalidade mapeada como experimentação",
      "tipo": "line",
      "opcoes": [],
-     "placeholder": "ex.: improve services"
+     "placeholder": "ex.: improve services",
+     "tela": "Finalidade que cobre os testes",
+     "ajuda_tela": "Qual finalidade declarada na tabela de bases legais você entendeu como a que cobre os testes. Em geral é algo como \"melhorar nossos serviços\". Copie o nome que o documento usa."
     },
     {
      "chave": "v4_region_gated",
@@ -204,7 +215,9 @@
       "No",
       "not-verifiable (vantage)"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Tabela de bases só da UE?",
+     "ajuda_tela": "Só se testa capturando de dentro e de fora da UE. Você lê texto congelado, capturado da UE, então fica como não verificável. Fora do cálculo de concordância."
     },
     {
      "chave": "v4_evidence",
@@ -237,7 +250,8 @@
       "dedicated",
       "opt-in"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Saída dos experimentos"
     },
     {
      "chave": "v5_evidence",
@@ -267,14 +281,17 @@
       "Yes",
       "No"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Existe programa opt-in?"
     },
     {
      "chave": "v6_which",
      "rotulo": "Qual (nome + como funciona)",
      "tipo": "line",
      "opcoes": [],
-     "placeholder": "ex.: Search Labs; TestFlight"
+     "placeholder": "ex.: Search Labs; TestFlight",
+     "tela": "Qual programa",
+     "ajuda_tela": "Nome do programa e como ele funciona, em uma linha."
     }
    ]
   },
@@ -297,7 +314,8 @@
       "Yes",
       "No"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Avisa depois que a pessoa participou?"
     },
     {
      "chave": "v7_evidence",
@@ -327,7 +345,8 @@
       "Yes",
       "No"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Menciona revisão ética, comitê ou risco?"
     },
     {
      "chave": "v8_note",
@@ -359,7 +378,8 @@
       "help centre",
       "blog/PR/site de pesquisa"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Locais da divulgação"
     },
     {
      "chave": "v9_register",
@@ -371,7 +391,8 @@
       "non-binding",
       "both"
      ],
-     "placeholder": ""
+     "placeholder": "",
+     "tela": "Registro agregado"
     },
     {
      "chave": "v9_evidence",
