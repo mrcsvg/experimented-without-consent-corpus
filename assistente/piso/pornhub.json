@@ -1,7 +1,7 @@
 {
  "servico": "Pornhub",
  "slug": "pornhub",
- "gerado_em": "2026-10-07T02:07:09+00:00",
+ "gerado_em": "2026-10-07T02:12:47+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -161,8 +161,8 @@
    "url": "https://www.pornhub.com/information/recommender",
    "chars": 14750,
    "titulo": "Recommender System Guidelines",
-   "tipo": "ToS/conditions",
-   "registro": "binding",
+   "tipo": "help centre",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
@@ -186,8 +186,8 @@
    "url": "http://web.archive.org/web/20260602163932/https://www.pornhub.com/information/recommender",
    "chars": 14702,
    "titulo": "Recommender System Guidelines",
-   "tipo": "ToS/conditions",
-   "registro": "binding",
+   "tipo": "help centre",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,

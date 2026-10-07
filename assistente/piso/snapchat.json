@@ -1,7 +1,7 @@
 {
  "servico": "Snapchat",
  "slug": "snapchat",
- "gerado_em": "2026-10-07T02:07:09+00:00",
+ "gerado_em": "2026-10-07T02:12:48+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -136,8 +136,8 @@
    "url": "https://help.snapchat.com/hc/en-us/articles/22534988598676-Learn-About-Snap-s-Data-Processing-and-How-to-Object",
    "chars": 26102,
    "titulo": "Learn About Snap’s Data Processing and How to Object – Snapchat Support",
-   "tipo": "privacy policy",
-   "registro": "binding",
+   "tipo": "help centre",
+   "registro": "non-binding",
    "counts": {
     "experiment": 0,
     "A-B": 0,
