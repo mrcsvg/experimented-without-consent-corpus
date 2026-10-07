@@ -4,8 +4,8 @@
  "slug": "google-shopping",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "0602a170b2c7",
- "gerado_em": "2026-10-04T23:47:52+00:00",
+ "entrada_sha": "0415162c4464",
+ "gerado_em": "2026-10-07T02:03:14+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -14,15 +14,15 @@
   "tentativas": 1
  },
  "n_trechos": {
-  "V1": 16,
+  "V1": 14,
   "V2": 7,
   "V3": 11,
   "V4": 8,
   "V5": 7,
-  "V6": 5,
+  "V6": 3,
   "V7": 4,
   "V8": 4,
-  "V9": 23
+  "V9": 21
  },
  "documentos": {
   "1": {
@@ -50,24 +50,22 @@
   "V1": {
    "notas": {
     "h:9683e900": "x",
-    "h:ec4966e9": "x",
-    "h:a2492aa5": "2",
-    "h:dde64840": "2",
     "h:500b15fe": "3",
     "h:79019f4f": "3",
-    "h:cb9eb673": "3",
+    "h:5e0cac40": "3",
     "h:fe27915a": "3",
+    "h:a1b49bf5": "x",
     "c:V1-1": "2",
     "c:V1-2": "3",
     "c:V1-3": "3",
     "c:V1-4": "3",
-    "c:V1-5": "2",
+    "c:V1-5": "x",
     "c:V1-6": "1",
     "c:V1-7": "1",
     "c:V1-8": "1"
    },
    "extras": {},
-   "razao": "Os trechos de nível 3 (experiments, grupo de controle) estão só no microsite de Search (doc 5, não vinculante). Nos vinculantes (docs 1 e 2) os trechos não passam do nível 1; V1-5 recebeu 2 porque o teste side-by-side envolve Raters, não usuários."
+   "razao": "Teto 3 aparece só no microsite 'How Search Works' (não vinculante), com grupo de controle e live traffic experiments; nos vinculantes (Privacy Policy e ToS), só nível 1. Os testes com Raters (h:a1b49bf5, V1-5) foram marcados x por envolverem avaliadores externos, não usuários, o que o codificador pode rever."
   },
   "V2": {
    "notas": {
@@ -98,19 +96,13 @@
     ]
    },
    "extras": {},
-   "razao": "Predomina melhoria do serviço; 'research that improves our services' soma pesquisa e, com 'benefits the public', um enquadramento de bem público. Nenhum trecho fala em pesquisa com seres humanos."
+   "razao": "Predomina service improvement; research e 'benefits the public' (social-good) co-ocorrem na tabela de bases legais da Privacy Policy. Não há enquadramento de pesquisa com seres humanos."
   },
   "V3": {
    "notas": {
-    "h:500b15fe": [
-     "activities"
-    ],
-    "h:79019f4f": [
-     "activities"
-    ],
-    "h:cb9eb673": [
-     "activities"
-    ],
+    "h:500b15fe": "x",
+    "h:79019f4f": "x",
+    "h:5e0cac40": "x",
     "h:fe27915a": [
      "activities"
     ],
@@ -127,9 +119,9 @@
     "c:V3-7": "x"
    },
    "extras": {
-    "v3_targets": "novos recursos (features); conjuntos/ordem de resultados de Search"
+    "v3_targets": "features; Search results"
    },
-   "razao": "O doc 5 nomeia recursos e resultados de Search como objeto de teste, mas só com contagens agregadas, sem experimento específico. Preço não aparece como alvo; V3-6 e V3-7 descrevem análise e personalização, não experimento."
+   "razao": "O microsite nomeia features e conjuntos de resultados de Search como objeto de teste, mas só dá contagens agregadas, sem experimento específico. Preço não aparece como alvo; V3-6 e V3-7 descrevem análise e personalização, não experimentos."
   },
   "V4": {
    "notas": {
@@ -152,7 +144,7 @@
     "v4_mapped_purpose": "To maintain and improve Google services, products, and features",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases legais está presente no doc 1, e a finalidade de manter e melhorar serviços aparece sob legítimo interesse. Contrato e consentimento aparecem só de forma genérica, sem ligação a essa finalidade."
+   "razao": "A finalidade de manter e melhorar serviços aparece na tabela de bases legais com legítimo interesse ('Perform research that improves our services...'). A tabela está presente nos documentos congelados, portanto o campo geo-gated fica No."
   },
   "V5": {
    "notas": {
@@ -160,25 +152,23 @@
     "c:V5-2": "x",
     "c:V5-3": "cookie/ads-only",
     "c:V5-4": "cookie/ads-only",
-    "c:V5-5": "x",
+    "c:V5-5": "cookie/ads-only",
     "c:V5-6": "x",
     "c:V5-7": "x"
    },
    "extras": {},
-   "razao": "Há a objeção genérica do GDPR e controles de anúncios e cookies, mas nenhum controle específico de experimentos. V5-5 descreve um cookie de rollout, não uma opção de saída."
+   "razao": "Há o direito genérico de objeção e controles de cookies e anúncios; o cookie ROLLOUT_TOKEN, que é do YouTube, é gerido como analytics. Não há opt-out dedicado a experimentos."
   },
   "V6": {
    "notas": {
     "h:9683e900": "x",
-    "h:ec4966e9": "x",
-    "h:a2492aa5": "x",
-    "h:dde64840": "x",
+    "h:a1b49bf5": "x",
     "c:V6-1": "x"
    },
    "extras": {
     "v6_which": ""
    },
-   "razao": "Nenhum trecho descreve programa de adesão a testes antecipados. 'Bug testing programs' trata de segurança, e V6-1 trata de instalação de atualizações."
+   "razao": "Nenhum trecho descreve programa de inscrição voluntária para testar novidades. 'Safety and bug testing programs' trata de testes de segurança autorizados, e a escolha de atualizações não é beta."
   },
   "V7": {
    "notas": {
@@ -188,7 +178,7 @@
     "c:V7-4": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de mudança de serviço ou comunicações gerais, excluídos pelo critério. Os docs 1 e 2 não abordam aviso posterior de participação, e as palavras-chave 'debrief' aparecem com zero em todos os documentos."
+   "razao": "Os trechos são avisos de mudança de serviço ou comunicações gerais, excluídos pelo critério. Sugestão: No, com debrief:0 em todos os documentos; o tema não é endereçado."
   },
   "V8": {
    "notas": {
@@ -198,7 +188,7 @@
     "c:V8-4": "x"
    },
    "extras": {},
-   "razao": "V8-1 e V8-2 descrevem revisão de lançamento por engenheiros e especialistas jurídicos e de privacidade, um caso de fronteira que não é revisão ética nem avaliação de risco. V8-3 é linguagem de 'impact' ligada a mudança de serviço, que o critério manda codificar como No com nota."
+   "razao": "V8-1 menciona revisão por especialistas jurídicos e de privacidade antes do lançamento, mas não revisão ética ou avaliação de risco dos experimentos, e V8-3 é a linguagem borderline de 'impact'. Sugestão: No, com nota de fronteira e de gap DSA."
   },
   "V9": {
    "notas": {
@@ -210,29 +200,27 @@
     "c:V9-6": "sim",
     "c:V9-7": "x",
     "h:9683e900": "x",
-    "h:ec4966e9": "sim",
-    "h:a2492aa5": "sim",
-    "h:dde64840": "sim",
     "h:500b15fe": "sim",
     "h:79019f4f": "sim",
-    "h:cb9eb673": "sim",
+    "h:5e0cac40": "sim",
     "h:fe27915a": "sim",
+    "h:a1b49bf5": "x",
     "c:V1-1": "sim",
     "c:V1-2": "sim",
     "c:V1-3": "sim",
     "c:V1-4": "sim",
-    "c:V1-5": "sim",
+    "c:V1-5": "x",
     "c:V1-6": "x",
     "c:V1-7": "x",
     "c:V1-8": "x"
    },
    "extras": {},
-   "razao": "Os trechos que divulgam experimentação estão todos no microsite de Search (doc 5), um documento não vinculante. Nos docs 1 e 2 os trechos tratam só de melhoria do serviço ou de pesquisa de produto, sem divulgar experimentação."
+   "razao": "A divulgação de experimentação aparece só no microsite 'How Search Works' (blog/PR/site de pesquisa), o que sugere registro non-binding. Privacy Policy e ToS falam apenas em melhoria e pesquisa de produto."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 17588,
-  "output": 5619
+  "input": 17026,
+  "output": 5336
  }
 }

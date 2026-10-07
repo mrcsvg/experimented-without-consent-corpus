@@ -5,7 +5,7 @@
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
  "entrada_sha": "c5df62080255",
- "gerado_em": "2026-10-04T23:30:23+00:00",
+ "gerado_em": "2026-10-07T01:46:10+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -38,7 +38,7 @@
    "registro": "binding"
   },
   "4": {
-   "tipo": "blog/PR/site de pesquisa",
+   "tipo": "help centre",
    "registro": "non-binding"
   }
  },
@@ -46,10 +46,10 @@
   "V1": {
    "notas": {
     "h:09b12b52": "2",
-    "h:29d161ee": "2",
-    "h:639867ca": "2",
+    "h:29d161ee": "3",
+    "h:639867ca": "3",
     "h:87859bfb": "3",
-    "c:V1-1": "2",
+    "c:V1-1": "3",
     "c:V1-2": "3",
     "c:V1-3": "2",
     "c:V1-4": "1",
@@ -57,7 +57,7 @@
     "c:V1-6": "1"
    },
    "extras": {},
-   "razao": "Sugestão: teto 3 em registro vinculante (Privacy Policy, 'undertake experiments to evaluate the impact of new features'); 'experiment with new features to see if they work as expected' parece teste funcional e ficou em 2, mas é fronteira. Nos Termos, só nível 1."
+   "razao": "A política de privacidade (vinculante) diz 'undertake experiments to evaluate the impact of new features', o que sugere teto 3 em registro binding. Os Termos ficam só no nível 1; 'experiment with new features' (V1-1) pode ser lido como 2 se o codificador entender 'experiment' em sentido não experimental."
   },
   "V2": {
    "notas": {
@@ -80,7 +80,7 @@
     ]
    },
    "extras": {},
-   "razao": "Predomina melhoria do serviço, com 'product research' e pesquisas de opinião como research; V2-5 é business intelligence, fora da lista. 'for you and our community' em V2-6 é fraco para social-good, deixado ao codificador."
+   "razao": "Predomina melhoria do serviço, com 'product research' e pesquisas de opinião como pesquisa genérica. 'For you and our community' (V2-6) é fronteira para social-good; 'business intelligence and analytics' (V2-5) seria um enquadramento fora da lista, para Notas."
   },
   "V3": {
    "notas": {
@@ -103,7 +103,7 @@
    "extras": {
     "v3_targets": "new features"
    },
-   "razao": "Só 'new features' é nomeado como superfície testada; nenhum experimento específico nem preço. Assinaturas e anúncios descrevem funcionalidades, não alvos de teste."
+   "razao": "Só 'new features' aparece como superfície testada, sem experimento específico nem preço como alvo. Os trechos de assinatura e anúncios descrevem funcionalidades, não alvos de teste."
   },
   "V4": {
    "notas": {
@@ -125,10 +125,10 @@
     "c:V4-8": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "To improve the WhatsApp Service by developing new features (legitimate interest); To generally operate and provide our Services (contract)",
+    "v4_mapped_purpose": "To improve the WhatsApp Service by developing new features or updating existing features (legitimate interests); To generally operate and provide our Services (contract)",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases legais está no documento congelado e liga experimentos a legítimo interesse e, separadamente, a contrato. Como a tabela está presente, pela definição o geo-gating fica No."
+   "razao": "Experimentação aparece em duas linhas da tabela de bases: 'experiment with new features' sob contrato e 'undertake experiments' sob legítimo interesse. A tabela está nos documentos capturados, por isso a resposta sugerida para geo-gating é No."
   },
   "V5": {
    "notas": {
@@ -140,7 +140,7 @@
     "c:V5-6": "cookie/ads-only"
    },
    "extras": {},
-   "razao": "Há só o direito genérico de objeção ao legítimo interesse e controles de cookies/anúncios; nenhum controle específico de experimentos. A parte baseada em contrato não teria objeção."
+   "razao": "Há só o direito genérico de objeção ao legítimo interesse e controles de cookies e anúncios, sem opção dedicada a experimentos; o nível mais alto aplicável parece GDPR-objection-only. A experimentação baseada em contrato (V1-1) não estaria coberta pela objeção, o que pode valer uma nota."
   },
   "V6": {
    "notas": {
@@ -154,7 +154,7 @@
    "extras": {
     "v6_which": ""
    },
-   "razao": "O doc 4 tem URL de inscrição de testes do Google Play, mas o conteúdo congelado é só uma tela de login, sem descrever programa. O codificador pode decidir se a URL basta para marcar um programa beta."
+   "razao": "O conteúdo capturado do documento 4 é só uma tela de login do Google, sem descrição de programa. A URL (play.google.com/apps/testing/com.whatsapp/join) sugere um programa beta via Google Play, mas o texto congelado não o mostra; fica a critério do codificador."
   },
   "V7": {
    "notas": {
@@ -164,7 +164,7 @@
     "c:V7-4": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de mudança de termos ou de coleta, não debriefing. Experimentos são mencionados sem qualquer aviso posterior: 'No' do tipo tema tratado sem o mecanismo; debrief:0 no log."
+   "razao": "Os trechos são avisos de mudança de termos ou de coleta, não debriefing. Sugere-se No do tipo tema tratado (experimentos são mencionados) sem mecanismo de aviso; a contagem de 'debrief' é zero em todos os documentos."
   },
   "V8": {
    "notas": {
@@ -175,7 +175,7 @@
     "c:V8-5": "x"
    },
    "extras": {},
-   "razao": "Nenhuma menção a revisão ética, comitê ou avaliação de risco de experimentos; 'evaluate the impact' e 'benefits and risks' na análise de objeção são fronteira e ficaram x. ethics, IRB e risk assessment todos 0; avaliação de risco do DSA não aparece nos documentos ao usuário."
+   "razao": "'Evaluate the impact of new features' e a ponderação de riscos na análise de objeções são fronteira, mas não são revisão ética de experimentos. Sugere-se No, com nota de gap entre a obrigação do DSA e os documentos (ethics, review board, IRB e risk assessment com contagem zero)."
   },
   "V9": {
    "notas": {
@@ -197,12 +197,12 @@
     "c:V1-6": "x"
    },
    "extras": {},
-   "razao": "A divulgação de experimentação aparece só na Privacy Policy - EEA, registro vinculante. Os Termos falam apenas em melhorar o serviço."
+   "razao": "A divulgação de experimentação aparece só na política de privacidade EEA, registro binding. Os Termos falam apenas em melhorar o serviço, e o aviso de cookies não trata do tema."
   }
  },
  "avisos": [],
  "uso": {
   "input": 16745,
-  "output": 4707
+  "output": 4381
  }
 }

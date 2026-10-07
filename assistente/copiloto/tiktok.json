@@ -4,8 +4,8 @@
  "slug": "tiktok",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "6e0a06093d63",
- "gerado_em": "2026-10-04T23:49:31+00:00",
+ "entrada_sha": "c28a8169fd24",
+ "gerado_em": "2026-10-07T02:04:37+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -57,9 +57,9 @@
     "h:e5554950": "2",
     "h:916f64dd": "2",
     "h:c5432c3a": "x",
-    "h:cbb59140": "3",
-    "h:ebaf5fad": "3",
     "h:51d049e0": "3",
+    "h:a549913a": "3",
+    "h:40ed3328": "3",
     "h:6452945b": "3",
     "h:66cf1d17": "2",
     "c:V1-1": "2",
@@ -72,7 +72,7 @@
     "c:V1-8": "1"
    },
    "extras": {},
-   "razao": "O teto 3 (A/B, grupos iguais) aparece só na central de ajuda do Ads Manager, ferramenta de anunciantes; nos vinculantes (política de privacidade e cookies) o nível é 2. O codificador pode avaliar se o split testing de anunciantes conta como experimentação da plataforma."
+   "razao": "Teto 3 só no Business Help Centre (A/B e grupos iguais em split testing de anúncios, ferramenta do anunciante); nos vinculantes (Privacy Policy, Cookies Policy) o nível é 2. O codificador pode avaliar se o split testing do anunciante conta como experimentação da plataforma com usuários."
   },
   "V2": {
    "notas": {
@@ -95,16 +95,14 @@
     "c:V2-6": [
      "social-good/community"
     ],
-    "c:V2-7": [
-     "social-good/community"
-    ],
+    "c:V2-7": "x",
     "c:V2-8": [
      "service improvement",
      "research"
     ]
    },
    "extras": {},
-   "razao": "Aparecem melhoria do serviço, pesquisa (independente) e bem da comunidade/segurança; não há enquadramento de pesquisa com seres humanos."
+   "razao": "Aparecem melhoria do serviço, pesquisa (sobretudo pesquisa independente) e bem-estar da comunidade. Não há enquadramento de pesquisa com seres humanos."
   },
   "V3": {
    "notas": {
@@ -132,9 +130,9 @@
     "c:V3-8": "x"
    },
    "extras": {
-    "v3_targets": "modelos de machine learning e algoritmos; ideias de design; sequência/diversidade de recomendações (ranking); versões de anúncios; lance e otimização de anúncios"
+    "v3_targets": "sequência de recomendações (ranking); ideias de design; modelos de machine learning e algoritmos; anúncios (versões, lances e otimização, via split testing do anunciante)"
    },
-   "razao": "Há superfícies nomeadas e um teste ativo divulgado só no newsroom (diversificação de recomendações). Preço não aparece como alvo; 'Bidding' é lance do anunciante, não preço ao usuário."
+   "razao": "O newsroom divulga um teste específico de diversificação de recomendações; o preço não aparece como alvo. V3-4 e V3-8 descrevem funcionamento da recomendação, não alvo de teste."
   },
   "V4": {
    "notas": {
@@ -154,7 +152,7 @@
     "v4_mapped_purpose": "Review, improve, promote, and develop the Platform",
     "v4_region_gated": "No"
    },
-   "razao": "A finalidade que inclui 'develop, test, and make improvements' está sob Legitimate Interests na tabela de bases da política EEA. A tabela está presente nos documentos lidos, por isso No."
+   "razao": "A finalidade que inclui \"develop, test, and make improvements\" está sob legítimo interesse na tabela da Privacy Policy da EEA. A tabela está presente nos documentos congelados, por isso No."
   },
   "V5": {
    "notas": {
@@ -165,7 +163,7 @@
     "c:V5-5": "x"
    },
    "extras": {},
-   "razao": "Há objeção genérica ao legítimo interesse e controle de cookies opcionais, mas nenhum opt-out específico de experimentos. 'Not interested' é controle de feed, não saída de teste."
+   "razao": "Há a objeção genérica ao legítimo interesse e um painel de cookies, mas nenhum controle específico de experimentação. \"Not interested\" é controle de feed, não saída de teste."
   },
   "V6": {
    "notas": {
@@ -173,15 +171,15 @@
     "h:e5554950": "x",
     "h:916f64dd": "x",
     "h:c5432c3a": "x",
-    "h:cbb59140": "x",
-    "h:ebaf5fad": "x",
     "h:51d049e0": "x",
+    "h:a549913a": "x",
+    "h:40ed3328": "x",
     "h:66cf1d17": "x"
    },
    "extras": {
     "v6_which": ""
    },
-   "razao": "Nenhum trecho descreve programa beta ou de acesso antecipado para usuários; o split testing é ferramenta de anunciantes."
+   "razao": "Nenhum trecho descreve um programa de inscrição voluntária para acesso antecipado."
   },
   "V7": {
    "notas": {
@@ -189,7 +187,7 @@
     "c:V7-2": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de mudança de serviço/política, excluídos pelo critério; a contagem de 'debrief' é 0 em todos os documentos. Parece caso de tema não endereçado."
+   "razao": "Os dois trechos são avisos de mudança de serviço ou de política, que estão excluídos. A palavra-chave debrief tem zero ocorrências: o caso parece ser de tema não endereçado."
   },
   "V8": {
    "notas": {
@@ -200,7 +198,7 @@
     "c:V8-4": "x"
    },
    "extras": {},
-   "razao": "A consulta a especialistas em 'AI ethics' e ao Content Advisory Council no newsroom é fronteira, mas não é revisão ética nem avaliação de risco de experimentos. Avaliações de risco do DSA não aparecem nos documentos ao usuário (gap regulatório-vs-documento)."
+   "razao": "Caso de fronteira: o newsroom cita consulta a especialistas em ética de IA para o trabalho de diversificação, mas isso não é revisão ética nem avaliação de risco de experimentos. A avaliação de risco sistêmico do DSA não aparece nos documentos ao usuário (gap regulatório)."
   },
   "V9": {
    "notas": {
@@ -216,9 +214,9 @@
     "h:e5554950": "sim",
     "h:916f64dd": "sim",
     "h:c5432c3a": "x",
-    "h:cbb59140": "sim",
-    "h:ebaf5fad": "sim",
     "h:51d049e0": "sim",
+    "h:a549913a": "sim",
+    "h:40ed3328": "sim",
     "h:6452945b": "sim",
     "h:66cf1d17": "sim",
     "c:V1-1": "sim",
@@ -231,12 +229,12 @@
     "c:V1-8": "x"
    },
    "extras": {},
-   "razao": "A divulgação aparece na política de privacidade e de cookies (vinculantes), na central de ajuda e no newsroom (não vinculantes), resultando em registro both. O ToS só fala em mudanças de produto, sem testar."
+   "razao": "A divulgação aparece na Privacy Policy e na Cookies Policy (vinculantes), no Help Centre e no newsroom (não vinculantes), o que sugere registro both. O ToS só fala em desenvolvimento do produto, e a Privacy Policy e a Cookies Policy se declaram fora dos Terms, ponto que o codificador pode querer anotar."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 35432,
-  "output": 10968
+  "input": 35408,
+  "output": 10225
  }
 }

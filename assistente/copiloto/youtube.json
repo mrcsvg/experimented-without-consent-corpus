@@ -4,8 +4,8 @@
  "slug": "youtube",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "859e30d9bec4",
- "gerado_em": "2026-10-04T23:28:45+00:00",
+ "entrada_sha": "dc364b433e6c",
+ "gerado_em": "2026-10-07T01:44:30+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -14,15 +14,15 @@
   "tentativas": 1
  },
  "n_trechos": {
-  "V1": 36,
+  "V1": 34,
   "V2": 9,
   "V3": 26,
   "V4": 8,
   "V5": 7,
-  "V6": 14,
+  "V6": 12,
   "V7": 5,
   "V8": 6,
-  "V9": 45
+  "V9": 43
  },
  "documentos": {
   "1": {
@@ -67,28 +67,26 @@
    "notas": {
     "h:3c4971a3": "2",
     "h:ba2a0cd0": "2",
-    "h:bb8f078d": "2",
-    "h:feb62aed": "2",
-    "h:ada905bb": "2",
-    "h:82d3d871": "2",
+    "h:9438b4fb": "2",
+    "h:9c62ea29": "2",
     "h:62bc88c4": "3",
     "h:54ceb425": "3",
-    "h:043c8197": "3",
-    "h:b43b0b1b": "3",
-    "h:0965ee17": "3",
-    "h:b5bd9881": "3",
+    "h:08376daa": "3",
+    "h:805dc2e5": "3",
+    "h:63c6018c": "3",
+    "h:bfd2adfa": "3",
     "h:41283cfa": "3",
     "h:339a21c4": "3",
     "h:8dab977a": "3",
     "h:ec17f747": "3",
     "h:62e14cb0": "3",
     "h:34aa8b17": "3",
-    "h:73c1f34f": "3",
-    "h:8b815468": "3",
-    "h:da6e48a2": "3",
-    "h:135af697": "3",
-    "h:c8de0926": "3",
-    "h:b191bf04": "3",
+    "h:73c1f34f": "2",
+    "h:8b815468": "2",
+    "h:c8de0926": "2",
+    "h:b191bf04": "2",
+    "h:9028a9f6": "3",
+    "h:4a86a041": "3",
     "h:abfd0961": "3",
     "c:V1-1": "1",
     "c:V1-2": "1",
@@ -103,7 +101,7 @@
     "c:V1-11": "2"
    },
    "extras": {},
-   "razao": "Teto 3 só em documentos não vinculantes (docs 7 e 8: A/B, grupo de controle, variantes para pessoas distintas); nos vinculantes, sugere-se nível 2 pelo cookie __Secure-ROLLOUT_TOKEN (doc 5), ou 1 se o codificador não ler 'measure related impact' como teste. Os trechos do doc 6 tratam de recursos experimentais por adesão, por isso sugeridos como 2."
+   "razao": "Teto 3 (A/B, grupo de controle, variantes a usuários distintos) só nas páginas de ajuda (docs 7 e 8), registro non-binding. Nos vinculantes, o máximo parece ser nível 2 pelo cookie __Secure-ROLLOUT_TOKEN no doc 5; ToS e política ficam no nível 1."
   },
   "V2": {
    "notas": {
@@ -134,26 +132,26 @@
     "c:V2-9": "x"
    },
    "extras": {},
-   "razao": "Predomina melhoria do serviço; a tabela de bases legais acrescenta pesquisa e 'benefits the public' (bem social). A missão do doc 9 fala de comunidade, mas não se refere a uso de dados ou testes, por isso sugerida como x."
+   "razao": "Predomina melhoria do serviço; a tabela de bases legais acrescenta pesquisa e 'benefits the public' (bem social). A missão do doc 9 não se refere a experimentação, por isso parece fora."
   },
   "V3": {
    "notas": {
     "h:ba2a0cd0": [
      "activities"
     ],
-    "h:feb62aed": [
+    "h:9438b4fb": [
      "activities"
     ],
-    "h:82d3d871": [
+    "h:9c62ea29": [
      "activities"
     ],
     "h:62bc88c4": [
      "activities"
     ],
-    "h:043c8197": [
+    "h:63c6018c": [
      "activities"
     ],
-    "h:0965ee17": [
+    "h:bfd2adfa": [
      "activities"
     ],
     "h:41283cfa": [
@@ -165,18 +163,16 @@
     "h:8dab977a": [
      "activities"
     ],
-    "h:ec17f747": [
-     "activities"
-    ],
+    "h:ec17f747": "x",
     "h:62e14cb0": "x",
     "h:34aa8b17": "x",
     "h:8b815468": [
      "activities"
     ],
-    "h:135af697": [
+    "h:c8de0926": [
      "activities"
     ],
-    "h:c8de0926": [
+    "h:4a86a041": [
      "activities"
     ],
     "h:abfd0961": [
@@ -214,9 +210,9 @@
     "c:V3-10": "x"
    },
    "extras": {
-    "v3_targets": "títulos; thumbnails; tamanho de vídeo/thumbnail no feed Home; navegação de feeds no app; ferramenta de busca de comentários com IA no Studio; varejista local de produtos afiliados"
+    "v3_targets": "títulos; thumbnails; tamanho de vídeo/thumbnail no feed Home; navegação de feeds no app; busca de comentários com IA no Studio; varejista de produtos afiliados"
    },
-   "razao": "Superfícies e experimentos específicos aparecem só nos docs 7 e 8 (não vinculantes); o teste de varejista afiliado não nomeia preço, então V3-pricing sugerido como No. Mudança de features nos ToS e anúncios personalizados não são alvos de experimento."
+   "razao": "Atividades e experimentos específicos aparecem só em docs não vinculantes (7 e 8). O teste de varejista afiliado mede desempenho de compras, sem nomear preço, por isso pricing parece No."
   },
   "V4": {
    "notas": {
@@ -236,10 +232,10 @@
     "c:V4-8": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "To maintain and improve Google services (provide, maintain, and improve services; perform research that improves our services)",
+    "v4_mapped_purpose": "To maintain and improve Google services (provide, maintain and improve services; perform research that improves our services)",
     "v4_region_gated": "No"
    },
-   "razao": "A finalidade de manter e melhorar serviços aparece na tabela sob legítimo interesse; consentimento e contrato aparecem para outras finalidades. A tabela está presente nos documentos capturados, portanto No pela definição."
+   "razao": "A finalidade 'maintain and improve Google services' aparece sob legítimo interesse na tabela de bases legais. A tabela está presente nos documentos lidos, logo pela definição a resposta é No."
   },
   "V5": {
    "notas": {
@@ -252,19 +248,17 @@
     "c:V5-7": "x"
    },
    "extras": {},
-   "razao": "Há objeção genérica do GDPR e gestão de cookies por finalidade, sem controle específico para experimentos de rotina. Sair de um experimento em youtube.com/new vale só para o programa por adesão (V6) e foi sugerido como x."
+   "razao": "Só há objeção genérica do GDPR e controle de cookies; nenhum controle específico de experimentos de rotina. A saída em youtube.com/new vale só para o programa opt-in (V6), por isso sugiro não contar aqui."
   },
   "V6": {
    "notas": {
     "h:3c4971a3": "sim",
-    "h:bb8f078d": "sim",
-    "h:ada905bb": "sim",
     "h:54ceb425": "x",
-    "h:b43b0b1b": "x",
-    "h:b5bd9881": "x",
+    "h:08376daa": "x",
+    "h:805dc2e5": "x",
     "h:73c1f34f": "x",
-    "h:da6e48a2": "x",
     "h:b191bf04": "x",
+    "h:9028a9f6": "x",
     "c:V6-1": "sim",
     "c:V6-2": "sim",
     "c:V6-3": "sim",
@@ -272,9 +266,9 @@
     "c:V6-5": "sim"
    },
    "extras": {
-    "v6_which": "youtube.com/new — membros YouTube Premium aderem a recursos experimentais ('Try it out') e podem desligá-los ('Turn Off')"
+    "v6_which": "youtube.com/new — membros Premium aderem para testar recursos experimentais e podem desligá-los"
    },
-   "razao": "O doc 6 descreve um programa de adesão voluntária para membros Premium. Os trechos do doc 8 tratam dos testes de rotina e o doc 7 trata da ferramenta A/B de criadores, por isso sugeridos como x."
+   "razao": "youtube.com/new é um programa de adesão voluntária para membros Premium. Os 'betas' do doc 8 são servidos a grupos pequenos sem adesão, então não parecem opt-in."
   },
   "V7": {
    "notas": {
@@ -285,7 +279,7 @@
     "c:V7-5": "x"
    },
    "extras": {},
-   "razao": "Nenhum trecho é aviso posterior ao participante: os resultados A/B vão ao criador, não ao espectador, e os demais são avisos genéricos ou de mudança de serviço. Sugere-se No substantivo, pois os docs 7 e 8 tratam de experimentos sem oferecer debriefing (log: debrief:0 em todos)."
+   "razao": "Nenhum trecho avisa a pessoa, depois, de que participou de um experimento; são resultados para criadores, avisos genéricos ou de mudança de serviço. Parece No substantivo: o tema experimentação é tratado (docs 7 e 8), mas sem aviso posterior; contagem de 'debrief' é zero em todos os docs."
   },
   "V8": {
    "notas": {
@@ -297,7 +291,7 @@
     "c:V8-6": "x"
    },
    "extras": {},
-   "razao": "'Potential impact on you and others' está ligado a mudança ou descontinuação de serviço, caso de fronteira que leva a No com nota; ethics, review board, IRB e risk assessment têm contagem 0. Avaliações de risco do DSA não aparecem nos documentos ao usuário (gap regulatório-vs-documento)."
+   "razao": "'Potential impact on you and others' está ligado a mudança/descontinuação do serviço, caso de fronteira que o critério manda codificar No com nota. Contagens de ethics/review board/IRB/risk assessment são zero; eventual avaliação de risco do DSA não aparece nos documentos ao usuário (gap regulatório-vs-documento)."
   },
   "V9": {
    "notas": {
@@ -312,16 +306,14 @@
     "c:V9-9": "x",
     "h:3c4971a3": "sim",
     "h:ba2a0cd0": "sim",
-    "h:bb8f078d": "sim",
-    "h:feb62aed": "sim",
-    "h:ada905bb": "sim",
-    "h:82d3d871": "sim",
+    "h:9438b4fb": "sim",
+    "h:9c62ea29": "sim",
     "h:62bc88c4": "sim",
     "h:54ceb425": "sim",
-    "h:043c8197": "sim",
-    "h:b43b0b1b": "sim",
-    "h:0965ee17": "sim",
-    "h:b5bd9881": "sim",
+    "h:08376daa": "sim",
+    "h:805dc2e5": "sim",
+    "h:63c6018c": "sim",
+    "h:bfd2adfa": "sim",
     "h:41283cfa": "sim",
     "h:339a21c4": "sim",
     "h:8dab977a": "sim",
@@ -330,10 +322,10 @@
     "h:34aa8b17": "sim",
     "h:73c1f34f": "sim",
     "h:8b815468": "sim",
-    "h:da6e48a2": "sim",
-    "h:135af697": "sim",
     "h:c8de0926": "sim",
     "h:b191bf04": "sim",
+    "h:9028a9f6": "sim",
+    "h:4a86a041": "sim",
     "h:abfd0961": "sim",
     "c:V1-1": "x",
     "c:V1-2": "x",
@@ -348,12 +340,12 @@
     "c:V1-11": "sim"
    },
    "extras": {},
-   "razao": "A divulgação explícita está na central de ajuda (docs 6, 7 e 8). No aviso de cookies (doc 5) há só a menção ao cookie de rollout que mede impacto: se o codificador a aceitar, o registro agregado fica both; se não, non-binding."
+   "razao": "A divulgação explícita está na central de ajuda (docs 6, 7 e 8); no registro vinculante, só o cookie de rollout no doc 5 (aviso de cookies, contado como política de privacidade) menciona medir impacto de novos recursos. Se o codificador aceitar esse trecho, o registro agregado seria both; sem ele, non-binding."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 24319,
-  "output": 8453
+  "input": 23550,
+  "output": 8020
  }
 }

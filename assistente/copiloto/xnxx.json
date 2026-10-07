@@ -5,7 +5,7 @@
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
  "entrada_sha": "da3bc1d15b4b",
- "gerado_em": "2026-10-04T23:38:53+00:00",
+ "gerado_em": "2026-10-07T01:55:38+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -55,7 +55,7 @@
     "c:V1-6": "x"
    },
    "extras": {},
-   "razao": "Os trechos com nota falam só em melhorar, otimizar, fazer analytics e pesquisa, sem dizer que testam nada. As ocorrências de 'trial' referem-se a julgamento por júri, e a descrição do recomendador é funcionalidade, não teste."
+   "razao": "Os trechos com 'trial' tratam de julgamento por júri, não de experimentação; a Privacy Policy só usa linguagem de melhorar/otimizar o Website, incluindo 'conducting research', sem dizer que testa usuários. O teto sugerido é 1, em registro vinculante (Privacy Policy)."
   },
   "V2": {
    "notas": {
@@ -72,7 +72,7 @@
     "c:V2-6": "x"
    },
    "extras": {},
-   "razao": "Na política de privacidade aparecem melhoria do serviço e 'conducting research'. A linguagem de bem-estar da comunidade está ligada à moderação de conteúdo e os trechos do DSA Data Catalogue tratam de pesquisa de terceiros sobre riscos sistêmicos, não do uso de dados para testar; talvez caiba anotar isso."
+   "razao": "A Privacy Policy enquadra o uso de dados como melhoria do Website e, em um trecho, como pesquisa genérica. A linguagem de bem-estar da comunidade na ToS (V2-4) refere-se à moderação de conteúdo, e o DSA Data Catalogue descreve pesquisa de terceiros; por isso esses trechos receberam x, a critério do codificador."
   },
   "V3": {
    "notas": {
@@ -85,7 +85,7 @@
    "extras": {
     "v3_targets": ""
    },
-   "razao": "Ranking e recomendação aparecem como personalização ou funcionalidade declarada, não como alvo de teste. Nenhum trecho nomeia atividade testada, experimento específico ou preço."
+   "razao": "Ranking e recomendação aparecem como personalização ou funcionalidade, não como alvo de teste. Nenhum trecho nomeia atividade testada, experimento específico ou preço."
   },
   "V4": {
    "notas": {
@@ -107,7 +107,7 @@
     "v4_mapped_purpose": "providing, improving and developing the Website",
     "v4_region_gated": "No"
    },
-   "razao": "A seção 2.1 liga a finalidade 'providing, improving and developing the Website' a contrato, legítimo interesse e consentimento (este só para categorias especiais de dados). Como as bases por finalidade estão nos documentos capturados, sugiro No, mas cabe ao codificador decidir se essa lista conta como tabela."
+   "razao": "A seção 2.1 da Privacy Policy liga a finalidade de melhorar o Website a contrato, legítimo interesse e consentimento (este último só para categorias especiais), e esse mapeamento aparece no documento congelado. Ele vem em lista, não em tabela: se o codificador não o considerar tabela de bases por finalidade, o campo deveria ser 'not-verifiable (vantage)'."
   },
   "V5": {
    "notas": {
@@ -118,7 +118,7 @@
     "c:V5-5": "x"
    },
    "extras": {},
-   "razao": "O nível mais alto encontrado é o direito genérico de objeção ao legítimo interesse; o banner de cookies rege analytics e retargeting. Não há controle específico para experimentos."
+   "razao": "Há o direito genérico de objeção ao legítimo interesse e um banner de cookies que rege analytics e retargeting. Nenhum trecho traz controle específico de experimentação."
   },
   "V6": {
    "notas": {
@@ -128,7 +128,7 @@
    "extras": {
     "v6_which": ""
    },
-   "razao": "Os dois trechos com 'trial' tratam de renúncia a julgamento por júri. Nenhum programa beta ou opt-in aparece."
+   "razao": "Os dois trechos com 'trial' referem-se a julgamento por júri, não a programa beta."
   },
   "V7": {
    "notas": {
@@ -137,7 +137,7 @@
     "c:V7-3": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de conta, de mudança de termos ou de mudança de política, que o codebook exclui. A contagem de 'debrief' é 0 em todos os documentos, o que sugere tema não endereçado."
+   "razao": "Os trechos são avisos de serviço ou de mudança de termos e de política, que são falsos positivos listados no critério. O tema de debriefing não é endereçado: o log tem 'debrief' 0 em todos os documentos."
   },
   "V8": {
    "notas": {
@@ -149,7 +149,7 @@
     "c:V8-5": "x"
    },
    "extras": {},
-   "razao": "Os trechos sobre 'risk assessments' tratam de segurança e de denúncias, não de experimentos. O DSA Data Catalogue menciona riscos sistêmicos só como finalidade de pesquisa de terceiros, o que pode ser anotado como gap regulatório-vs-documento."
+   "razao": "'Risk assessments' refere-se a investigações de segurança, e a menção a riscos sistêmicos no DSA Data Catalogue descreve pesquisa de terceiros, não revisão de experimentos. A sugestão é No com nota de gap regulatório-vs-documento; o tema não é endereçado (ethics, review board e IRB têm 0 no log)."
   },
   "V9": {
    "notas": {
@@ -161,20 +161,20 @@
     "c:V9-6": "x",
     "h:c8c0654c": "x",
     "h:d8343932": "x",
-    "c:V1-1": "x",
-    "c:V1-2": "x",
-    "c:V1-3": "x",
-    "c:V1-4": "x",
+    "c:V1-1": "sim",
+    "c:V1-2": "sim",
+    "c:V1-3": "sim",
+    "c:V1-4": "sim",
     "c:V1-5": "x",
     "c:V1-6": "x"
    },
    "extras": {},
-   "razao": "Nenhum trecho divulga experimentação; o máximo é linguagem de melhoria (nível 1) na política de privacidade. Se o codificador quiser registrar o local dessa linguagem, ela fica só na política de privacidade, que é vinculante."
+   "razao": "A única divulgação, de nível 1 (melhoria), está na Privacy Policy, que é vinculante. Se o codificador entender que linguagem de melhoria não conta como divulgar experimentação, esses quatro trechos passam a x."
   }
  },
  "avisos": [],
  "uso": {
   "input": 15341,
-  "output": 3751
+  "output": 3897
  }
 }

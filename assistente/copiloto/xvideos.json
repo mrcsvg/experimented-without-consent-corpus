@@ -4,8 +4,8 @@
  "slug": "xvideos",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "3a8c68621f4b",
- "gerado_em": "2026-10-04T23:36:27+00:00",
+ "entrada_sha": "c23fa2cdd07b",
+ "gerado_em": "2026-10-07T01:52:15+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -14,15 +14,15 @@
   "tentativas": 1
  },
  "n_trechos": {
-  "V1": 12,
+  "V1": 10,
   "V2": 5,
   "V3": 6,
   "V4": 7,
   "V5": 5,
-  "V6": 7,
+  "V6": 5,
   "V7": 3,
   "V8": 7,
-  "V9": 19
+  "V9": 17
  },
  "documentos": {
   "1": {
@@ -52,8 +52,6 @@
     "h:d7f37e05": "x",
     "h:c415531d": "x",
     "h:d7b5610c": "x",
-    "h:f732af05": "x",
-    "h:611a0ee1": "x",
     "h:0db54f07": "x",
     "h:43a36ebd": "x",
     "h:23798295": "x",
@@ -63,7 +61,7 @@
     "c:V1-4": "x"
    },
    "extras": {},
-   "razao": "Os acertos de palavra-chave são júri ('jury trial'), 'testemunhos' de cookies e o menu do GitLab, todos falsos positivos. Só há linguagem de melhoria/pesquisa genérica na política de privacidade, o que sugere teto 1 em registro vinculante."
+   "razao": "Os trechos com palavra-chave são 'jury trial', 'testemunhos' e o menu 'Experimentos de modelo' do GitLab, todos falsos positivos. A política de privacidade só fala em melhorar o site e fazer 'analytics and research', o que sugere teto 1 em registro vinculante."
   },
   "V2": {
    "notas": {
@@ -82,7 +80,7 @@
     "c:V2-5": "x"
    },
    "extras": {},
-   "razao": "Melhoria do serviço e pesquisa genérica co-ocorrem na política de privacidade. Os trechos de segurança do ToS falam de moderação de conteúdo, não do uso de dados para testar, e parecem não ser enquadramento de experimentação."
+   "razao": "A política de privacidade apresenta o uso de dados como melhoria do site e como pesquisa genérica. Os trechos sobre segurança dos usuários tratam de moderação de conteúdo, não de testes."
   },
   "V3": {
    "notas": {
@@ -94,9 +92,9 @@
     "c:V3-5": "x"
    },
    "extras": {
-    "v3_targets": "nenhum"
+    "v3_targets": ""
    },
-   "razao": "Os trechos descrevem personalização e critérios do sistema de recomendação como funcionalidade, não alvos de teste. Não aparece preço nem experimento específico."
+   "razao": "Os trechos descrevem personalização e o sistema de recomendação como funcionalidade, não como alvo de teste. Nenhum trecho nomeia superfície testada, experimento específico ou preço."
   },
   "V4": {
    "notas": {
@@ -107,9 +105,7 @@
     "c:V4-3": [
      "legitimate interest"
     ],
-    "c:V4-4": [
-     "consent"
-    ],
+    "c:V4-4": "x",
     "c:V4-5": [
      "legitimate interest"
     ],
@@ -120,33 +116,31 @@
     "v4_mapped_purpose": "Provide, Improve, and Develop the Website (improving the controller's services; conducting analytics and research)",
     "v4_region_gated": "No"
    },
-   "razao": "A finalidade de melhoria/pesquisa está ligada a legítimo interesse na tabela, com contrato e consentimento (este para dados sensíveis) listados para a mesma finalidade na seção 2.1. Como a tabela está presente nos documentos capturados, a definição aponta No."
+   "razao": "A finalidade de melhoria e pesquisa aparece ligada a legítimo interesse na tabela de bases, que está nos documentos; o contrato também é listado para a mesma finalidade. O consentimento do V4-4 se refere a categorias especiais e à personalização, por isso foi marcado como fora."
   },
   "V5": {
    "notas": {
     "c:V5-1": "GDPR-objection-only",
     "c:V5-2": "x",
     "c:V5-3": "cookie/ads-only",
-    "c:V5-4": "cookie/ads-only",
+    "c:V5-4": "x",
     "c:V5-5": "x"
    },
    "extras": {},
-   "razao": "Há a objeção genérica do Art. 21 e um banner de cookies que rege cookies funcionais e de recomendação. Não aparece controle específico de experimentação; o nível mais alto parece ser cookie/ads-only."
+   "razao": "Há o direito genérico de objeção ao legítimo interesse e um banner de cookies que rege cookies não essenciais. Nenhum trecho traz controle específico para experimentos."
   },
   "V6": {
    "notas": {
     "h:d7f37e05": "x",
     "h:c415531d": "x",
     "h:d7b5610c": "x",
-    "h:f732af05": "x",
-    "h:611a0ee1": "x",
     "h:43a36ebd": "x",
     "h:23798295": "x"
    },
    "extras": {
     "v6_which": ""
    },
-   "razao": "Todos os trechos são 'jury trial' ou 'testemunhos' de cookies do GitLab. Nenhum programa beta aparece."
+   "razao": "Os trechos são 'jury trial' e o aviso de cookies do GitLab. Não aparece nenhum programa beta."
   },
   "V7": {
    "notas": {
@@ -155,7 +149,7 @@
     "c:V7-3": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de serviço e de mudança de política ou termos, excluídos pelo critério. O tema não é endereçado: o log não traz 'debrief' em nenhum documento."
+   "razao": "Os trechos são avisos de serviço e de mudança de política, que o critério exclui. O tema nunca aparece; o log de palavras-chave mostra debrief:0 em todos os documentos."
   },
   "V8": {
    "notas": {
@@ -167,7 +161,7 @@
     "c:V8-4": "x"
    },
    "extras": {},
-   "razao": "'Risk assessments' aparece ligado a investigações de segurança e abuso, não a experimentos; DPO e revisão de práticas de segurança também não contam. Sugere-se No, não endereçado, com possível nota de gap DSA versus documento."
+   "razao": "'Risk assessments' se refere a investigações de segurança e abuso, não a experimentos; não há menção a ética ou comitê. Uma possível nota é a diferença entre a avaliação de risco sistêmico do DSA e o que os documentos ao usuário dizem."
   },
   "V9": {
    "notas": {
@@ -181,23 +175,21 @@
     "h:d7f37e05": "x",
     "h:c415531d": "x",
     "h:d7b5610c": "x",
-    "h:f732af05": "x",
-    "h:611a0ee1": "x",
     "h:0db54f07": "x",
     "h:43a36ebd": "x",
     "h:23798295": "x",
-    "c:V1-1": "x",
-    "c:V1-2": "x",
-    "c:V1-3": "x",
+    "c:V1-1": "sim",
+    "c:V1-2": "sim",
+    "c:V1-3": "sim",
     "c:V1-4": "x"
    },
    "extras": {},
-   "razao": "Nenhum trecho divulga experimentação propriamente; o único reconhecimento é de nível 1 (melhoria/pesquisa) na política de privacidade, vinculante. O codificador pode decidir se marca esse local mesmo assim."
+   "razao": "A única divulgação, de nível 1 (melhoria e pesquisa), aparece na política de privacidade, que é vinculante. Os trechos do ToS e do GitLab tratam da natureza vinculante dos documentos ou são falsos positivos."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 17097,
-  "output": 4088
+  "input": 16529,
+  "output": 3819
  }
 }

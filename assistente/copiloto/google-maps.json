@@ -4,8 +4,8 @@
  "slug": "google-maps",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "1d639f44067d",
- "gerado_em": "2026-10-04T23:31:52+00:00",
+ "entrada_sha": "96e3033d3aab",
+ "gerado_em": "2026-10-07T01:47:32+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -57,8 +57,8 @@
     "h:76efc3ed": "3",
     "h:71667029": "2",
     "h:5b1c9bc5": "2",
-    "h:10f8f898": "2",
     "h:69b6d03f": "2",
+    "h:d57b1af8": "2",
     "c:V1-1": "1",
     "c:V1-2": "1",
     "c:V1-3": "x",
@@ -69,7 +69,7 @@
     "c:V1-8": "2"
    },
    "extras": {},
-   "razao": "O nível 3 depende de ler \"early access experiment\" (blog, não vinculante) como experimento com usuários, o que é fronteira com 2 por não mencionar grupos ou variantes. Nos vinculantes, o máximo parece ser 2 (cookie ROLLOUT_TOKEN para lançar recursos e medir impacto), e 1 na política e nos termos."
+   "razao": "O teto parece ser 3, só no blog (\"early access experiment\" para Local Guides selecionados), portanto em registro não-vinculante. Nos vinculantes o máximo parece ser 2 (cookie ROLLOUT_TOKEN para lançar recursos e medir impacto, citado para o YouTube), e só 1 na política e nos termos."
   },
   "V2": {
    "notas": {
@@ -100,7 +100,7 @@
     ]
    },
    "extras": {},
-   "razao": "Predomina melhoria do serviço; \"research that improves our services ... and benefits the public\" acrescenta pesquisa e bem público. Não há enquadramento de pesquisa com seres humanos."
+   "razao": "Aparecem melhoria do serviço, pesquisa e benefício ao público (\"research that improves our services... and benefits the public\"). Não há linguagem de pesquisa com seres humanos."
   },
   "V3": {
    "notas": {
@@ -108,7 +108,6 @@
      "specific"
     ],
     "h:71667029": [
-     "activities",
      "specific"
     ],
     "c:V3-1": [
@@ -118,21 +117,20 @@
      "activities"
     ],
     "c:V3-3": "x",
-    "c:V3-4": "x",
-    "c:V3-5": [
+    "c:V3-4": [
      "activities"
     ],
+    "c:V3-5": "x",
     "c:V3-6": [
-     "activities",
      "specific"
     ],
     "c:V3-7": "x",
     "c:V3-8": "x"
    },
    "extras": {
-    "v3_targets": "recursos futuros do app Maps (beta); descoberta de lugares com IA generativa/LLM para Local Guides"
+    "v3_targets": "upcoming app features; generative AI place-discovery feature; feature/task flow redesign"
    },
-   "razao": "O blog divulga um experimento específico (IA generativa para Local Guides nos EUA) e a central de ajuda nomeia recursos futuros como alvo. Preço não aparece como alvo; registro de interações e análise para redesenho foram tratados como melhoria, não teste."
+   "razao": "Atividades nomeadas de forma genérica (recursos, redesenho de etapas) e um experimento específico divulgado no blog. Preço não aparece como alvo; o trecho de pagamento do Drive é processamento de compra."
   },
   "V4": {
    "notas": {
@@ -160,7 +158,7 @@
     "v4_mapped_purpose": "To maintain and improve Google services, products, and features",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases legais está presente no documento capturado e liga a melhoria a legítimo interesse e contrato; consentimento aparece em desenvolvimento de novos serviços (gravações de voz). Experimentação não é finalidade nomeada, a base é inferida."
+   "razao": "A tabela de bases legais está presente no documento capturado e liga a finalidade de manter e melhorar serviços a legítimo interesse e a contrato. Consentimento aparece só para desenvolvimento de novos serviços com gravações de voz."
   },
   "V5": {
    "notas": {
@@ -173,26 +171,26 @@
     "c:V5-7": "x"
    },
    "extras": {},
-   "razao": "Há direito genérico de objeção e controles de cookies e anúncios, mas nenhum controle específico de experimentos. A saída do programa beta pertence à V6, não à V5."
+   "razao": "Os controles encontrados governam anúncios e cookies, além do direito genérico de objeção. Nenhum trecho mostra um opt-out específico de experimentos."
   },
   "V6": {
    "notas": {
     "h:51e372fb": "x",
     "h:d6d47c6d": "sim",
     "h:5b1c9bc5": "sim",
-    "h:047024b3": "sim",
-    "h:10f8f898": "sim",
     "h:69b6d03f": "sim",
     "h:0d357786": "sim",
+    "h:d57b1af8": "sim",
+    "h:c05c8788": "sim",
     "c:V6-1": "sim",
     "c:V6-2": "sim",
     "c:V6-3": "sim",
     "c:V6-4": "x"
    },
    "extras": {
-    "v6_which": "Google Maps beta tester programme (Android): adesão voluntária em \"Become a tester\", saída pela página de opt-out"
+    "v6_which": "Google Maps beta tester programme (Android): opt in via 'Become a tester'; leave via the opt-out page"
    },
-   "razao": "A central de ajuda descreve um programa beta de adesão voluntária com saída própria. O acesso antecipado do blog é para Local Guides selecionados, não por inscrição, e foi marcado x."
+   "razao": "A central de ajuda descreve um programa beta com adesão voluntária e saída. O acesso antecipado do blog é para Local Guides selecionados, sem adesão descrita."
   },
   "V7": {
    "notas": {
@@ -202,7 +200,7 @@
     "c:V7-4": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de mudança de serviço ou de atividade registrada, e não debriefing. O tema não aparece endereçado (debrief:0 em todos os documentos)."
+   "razao": "Os trechos são avisos de mudança de serviço ou de atividade salva, não debriefing. Sugere-se No, do tipo 'não endereçado', já que a contagem de debrief é zero em todos os documentos."
   },
   "V8": {
    "notas": {
@@ -213,7 +211,7 @@
     "c:V8-5": "x"
    },
    "extras": {},
-   "razao": "\"Potential impact on you and others\" está ligado a mudar ou descontinuar serviços, um caso de fronteira que fica em No com nota; os demais trechos são salvaguardas de privacidade e segurança ou risco de uso do mapa. Não há menção a revisão ética nem a avaliação de risco de experimentos (gap em relação ao DSA)."
+   "razao": "\"Potential impact on you and others\" está ligado a mudança ou descontinuação de serviço, o que é um caso de fronteira e pede No com nota. As contagens de ethics, review board e risk assessment são zero, um possível gap frente às avaliações do DSA."
   },
   "V9": {
    "notas": {
@@ -229,8 +227,8 @@
     "h:76efc3ed": "sim",
     "h:71667029": "sim",
     "h:5b1c9bc5": "sim",
-    "h:10f8f898": "sim",
     "h:69b6d03f": "sim",
+    "h:d57b1af8": "sim",
     "c:V1-1": "x",
     "c:V1-2": "x",
     "c:V1-3": "x",
@@ -241,12 +239,12 @@
     "c:V1-8": "sim"
    },
    "extras": {},
-   "razao": "A divulgação explícita aparece no blog e na central de ajuda; no vinculante, só o aviso de cookies (ROLLOUT_TOKEN para lançar recursos e medir impacto), que é de fronteira. Se o codificador não aceitar esse trecho, o registro agregado passa de both para non-binding."
+   "razao": "A divulgação explícita está no blog e na central de ajuda; no vinculante há apenas o aviso de cookies (ROLLOUT_TOKEN, referido ao YouTube). O registro agregado poderia ser both, mas o codificador pode considerar o trecho de cookies fraco demais e ficar com non-binding."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 18139,
-  "output": 5574
+  "input": 18134,
+  "output": 5766
  }
 }

@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-06T19:47:13+00:00",
+ "gerado_em": "2026-10-07T02:07:08+00:00",
  "congelado_em": "2026-07-04",
  "fonte_crit": "texto exato do codebook v2, congelado em 04/07/2026",
  "servicos": [
@@ -427,62 +427,86 @@
   {
    "term": "experiment",
    "label": "experiment",
-   "flag": null
+   "flag": null,
+   "regex": "\\bexperiment\\w*",
+   "case_sensitive": false
   },
   {
    "term": "A-B",
    "label": "A-B",
-   "flag": null
+   "flag": null,
+   "regex": "\\bA\\s*[/\\-]\\s*B\\b",
+   "case_sensitive": false
   },
   {
    "term": "randomize",
    "label": "randomize",
-   "flag": null
+   "flag": null,
+   "regex": "\\brandomi[sz]\\w*",
+   "case_sensitive": false
   },
   {
    "term": "test",
    "label": "test",
-   "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental"
+   "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+   "regex": "\\btest\\w*",
+   "case_sensitive": false
   },
   {
    "term": "trial",
    "label": "trial",
-   "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)"
+   "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
+   "regex": "\\btrial\\w*",
+   "case_sensitive": false
   },
   {
    "term": "beta",
    "label": "beta",
-   "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle"
+   "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+   "regex": "\\bbeta\\b",
+   "case_sensitive": false
   },
   {
    "term": "control group",
    "label": "control group",
-   "flag": null
+   "flag": null,
+   "regex": "\\bcontrol\\s+group\\w*",
+   "case_sensitive": false
   },
   {
    "term": "debrief",
    "label": "debrief",
-   "flag": null
+   "flag": null,
+   "regex": "\\bdebrief\\w*",
+   "case_sensitive": false
   },
   {
    "term": "ethics",
    "label": "ethics",
-   "flag": "falso positivo comum: 'code of ethics' / conduta empresarial no menu ou rodapé NÃO é revisão ética de experimento (ver V8)"
+   "flag": "falso positivo comum: 'code of ethics' / conduta empresarial no menu ou rodapé NÃO é revisão ética de experimento (ver V8)",
+   "regex": "\\bethic\\w*",
+   "case_sensitive": false
   },
   {
    "term": "review board",
    "label": "review board",
-   "flag": null
+   "flag": null,
+   "regex": "\\breview\\s+board\\w*",
+   "case_sensitive": false
   },
   {
    "term": "IRB",
    "label": "IRB",
-   "flag": null
+   "flag": null,
+   "regex": "\\bIRB\\b",
+   "case_sensitive": true
   },
   {
    "term": "risk assessment",
    "label": "risk assessment",
-   "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)"
+   "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
+   "regex": "\\brisk\\s+assessment\\w*",
+   "case_sensitive": false
   }
  ],
  "termo_para_variavel": {

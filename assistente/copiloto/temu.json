@@ -5,7 +5,7 @@
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
  "entrada_sha": "6544c18435e5",
- "gerado_em": "2026-10-04T23:25:29+00:00",
+ "gerado_em": "2026-10-07T01:42:34+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -53,7 +53,7 @@
     "c:V1-6": "1"
    },
    "extras": {},
-   "razao": "Os trechos da Privacy Policy só falam em melhorar ou otimizar o serviço, e a contagem de palavras-chave é zero em todos os documentos. O V1-5 trata de alterar os Termos, não de usar dados para melhoria; o teto sugerido é 1, em registro vinculante."
+   "razao": "Os trechos da política de privacidade só usam linguagem de melhorar ou otimizar, sem falar em testar, e a contagem de palavras-chave é zero em todos os documentos. O V1-5 trata da modificação dos Termos e não admite uso de dados para melhoria."
   },
   "V2": {
    "notas": {
@@ -69,7 +69,7 @@
     "c:V2-4": "x"
    },
    "extras": {},
-   "razao": "O único enquadramento que aparece é o de melhoria do serviço; não há linguagem de pesquisa nem de bem da comunidade. O V2-4 descreve personalização, não o uso de dados para testar ou desenvolver."
+   "razao": "O enquadramento encontrado é só de melhoria do serviço, para que ele seja eficiente e atualizado. O V2-4 justifica a personalização e não descreve teste nem desenvolvimento."
   },
   "V3": {
    "notas": {
@@ -82,7 +82,7 @@
    "extras": {
     "v3_targets": ""
    },
-   "razao": "O V3-1 cita 'features' como objeto de otimização, sem falar em teste; o codificador pode avaliar se isso basta para V3a. Os demais trechos são personalização, publicidade, erro de preço ou conduta proibida, e nenhum nomeia alvo de teste."
+   "razao": "Nenhum trecho descreve algo testado: o V3-1 cita 'services, features' como objeto de melhoria, não de teste (caso de fronteira), o V3-2 e o V3-3 descrevem personalização, e o V3-4 é cláusula de erro de preço. O V3-5 proíbe o usuário de manipular preços."
   },
   "V4": {
    "notas": {
@@ -101,26 +101,26 @@
     "v4_mapped_purpose": "Improve and optimise services, features, analyse performance metrics, and improve the Service and our business",
     "v4_region_gated": "No"
    },
-   "razao": "A finalidade de melhoria e otimização aparece listada sob 'Legitimate Interests', numa estrutura de bases legais por finalidade presente no documento capturado. Por isso a sugestão para o campo de geo-gating é No; o consentimento e o contrato citados cobrem outras finalidades."
+   "razao": "A finalidade de melhoria aparece na seção de bases legais (Legitimate Interests) da política, que está presente nos documentos lidos; por isso a resposta sugerida é No para geo-gating. O consentimento (V4-5) e o contrato (V4-6) referem-se a outras finalidades."
   },
   "V5": {
    "notas": {
     "c:V5-1": "GDPR-objection-only",
     "c:V5-2": "GDPR-objection-only",
     "c:V5-3": "cookie/ads-only",
-    "c:V5-4": "x",
+    "c:V5-4": "cookie/ads-only",
     "c:V5-5": "cookie/ads-only",
     "c:V5-6": "cookie/ads-only"
    },
    "extras": {},
-   "razao": "Há o direito genérico de objeção e controles de cookies e de anúncios, mas nenhum controle específico de experimentação. O V5-4 só descreve cookies de publicidade, sem oferecer controle."
+   "razao": "Os trechos mostram o direito genérico de objeção ao legítimo interesse e controles de cookies e anúncios. Nenhum controle específico de experimentação foi encontrado."
   },
   "V6": {
    "notas": {},
    "extras": {
     "v6_which": ""
    },
-   "razao": "Nenhum trecho foi localizado, e a contagem de 'beta' e 'trial' é zero. Não há programa opt-in indicado no material."
+   "razao": "Não há trechos localizados sobre programa beta ou opt-in."
   },
   "V7": {
    "notas": {
@@ -128,7 +128,7 @@
     "c:V7-2": "x"
    },
    "extras": {},
-   "razao": "Os trechos são um aviso sobre decisão automatizada e um aviso de mudança nos Termos, os dois falsos positivos previstos. O tema não é endereçado nos documentos ('debrief':0 no log)."
+   "razao": "O V7-1 trata de decisão automatizada e o V7-2 é aviso de mudança dos Termos; os dois são falsos positivos listados no codebook. O tema não é endereçado: a contagem de 'debrief' e 'experiment' é zero."
   },
   "V8": {
    "notas": {
@@ -136,29 +136,29 @@
     "c:V8-2": "x"
    },
    "extras": {},
-   "razao": "Os trechos tratam de segurança de dados e de moderação de conteúdo, não de revisão ética de experimentos. A contagem de ethics, review board, IRB e risk assessment é zero em todos os documentos; o tema não é endereçado, e o codificador pode anotar o gap em relação às obrigações do DSA."
+   "razao": "Os trechos tratam de segurança de dados e de moderação de conteúdo, não de revisão ética de experimentos; a contagem de ethics/review board/IRB/risk assessment é zero. Possível diferença entre a obrigação do DSA e o que os documentos dizem, sem menção nos documentos ao usuário."
   },
   "V9": {
    "notas": {
-    "c:V9-1": "sim",
+    "c:V9-1": "x",
     "c:V9-2": "x",
     "c:V9-3": "x",
     "c:V9-4": "x",
     "c:V9-5": "x",
-    "c:V1-1": "sim",
-    "c:V1-2": "sim",
-    "c:V1-3": "sim",
-    "c:V1-4": "sim",
+    "c:V1-1": "x",
+    "c:V1-2": "x",
+    "c:V1-3": "x",
+    "c:V1-4": "x",
     "c:V1-5": "x",
-    "c:V1-6": "sim"
+    "c:V1-6": "x"
    },
    "extras": {},
-   "razao": "Os trechos marcados 'sim' contêm apenas a linguagem de melhoria de nível 1 na Privacy Policy (vinculante), não experimentação propriamente dita; o codificador decide se isso conta como divulgação. Os trechos dos Termos e do Support Center tratam de vinculação contratual ou de navegação, não de experimentação."
+   "razao": "Os trechos herdados só trazem linguagem de melhoria, de nível 1, na política de privacidade, o que não chega a divulgar experimentação; os demais tratam do caráter vinculante ou de suporte. Se o codificador preferir registrar onde vive o teto de nível 1, esse lugar é a política de privacidade (binding)."
   }
  },
  "avisos": [],
  "uso": {
   "input": 13785,
-  "output": 3664
+  "output": 3582
  }
 }

@@ -4,8 +4,8 @@
  "slug": "google-search",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "33af568f2ed8",
- "gerado_em": "2026-10-04T23:29:44+00:00",
+ "entrada_sha": "d9e8312b0f64",
+ "gerado_em": "2026-10-07T01:45:34+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -14,15 +14,15 @@
   "tentativas": 1
  },
  "n_trechos": {
-  "V1": 23,
+  "V1": 21,
   "V2": 9,
   "V3": 17,
   "V4": 10,
   "V5": 8,
-  "V6": 11,
+  "V6": 9,
   "V7": 5,
   "V8": 6,
-  "V9": 33
+  "V9": 31
  },
  "documentos": {
   "1": {
@@ -60,29 +60,27 @@
     "h:e9cc7339": "x",
     "h:c6f51f2b": "x",
     "h:ee04ea67": "2",
-    "h:55d3d7f5": "2",
     "h:4195c830": "2",
+    "h:faf04531": "2",
     "h:d5d82cbc": "x",
-    "h:050d71b7": "2",
-    "h:eb0232df": "2",
-    "h:34e64062": "2",
     "h:2d011374": "3",
     "h:468a4909": "3",
-    "h:8622387d": "3",
+    "h:37f554c6": "3",
     "h:dc6ad938": "3",
+    "h:ef359f9f": "x",
     "c:V1-1": "3",
     "c:V1-2": "3",
     "c:V1-3": "3",
-    "c:V1-4": "3",
+    "c:V1-4": "x",
     "c:V1-5": "2",
-    "c:V1-6": "3",
+    "c:V1-6": "2",
     "c:V1-7": "1",
     "c:V1-8": "1",
     "c:V1-9": "x",
     "c:V1-10": "2"
    },
    "extras": {},
-   "razao": "Teto 3 em registro não vinculante (Doc 7, grupo de controle e live traffic experiments; Doc 6, layouts diferentes). Nos vinculantes, sugere-se nível 2 (cookie de rollout no Doc 5), ou 1 se o codificador não aceitar o rollout como teste."
+   "razao": "Teto 3 só no microsite do doc 7 (grupo experimental vs. controle, live traffic experiments), registro não-vinculante; testes com Raters marcados x por não envolverem usuários. Nos vinculantes, no máximo 2 (cookie de rollout do doc 5, sobre YouTube, fronteira 1/2), e só 1 na política e nos termos."
   },
   "V2": {
    "notas": {
@@ -113,17 +111,19 @@
     ]
    },
    "extras": {},
-   "razao": "Predomina melhoria do serviço, com pesquisa e 'benefits the public' co-ocorrendo na tabela de bases legais. O trecho da Lumen trata de transparência de remoções, não de testes."
+   "razao": "Melhoria do serviço domina; 'research that improves our services ... and benefits the public' na tabela de bases soma research e bem público. Nenhum trecho enquadra como pesquisa com seres humanos; segurança (V2-7) é enquadramento fora da lista."
   },
   "V3": {
    "notas": {
     "h:c6f51f2b": "x",
     "h:ee04ea67": "x",
-    "h:55d3d7f5": "x",
     "h:4195c830": "x",
+    "h:faf04531": [
+     "activities"
+    ],
     "h:2d011374": "x",
     "h:468a4909": "x",
-    "h:8622387d": "x",
+    "h:37f554c6": "x",
     "h:dc6ad938": [
      "activities"
     ],
@@ -146,9 +146,9 @@
     "c:V3-9": "x"
    },
    "extras": {
-    "v3_targets": "features; design layouts; AI Overviews; Search results"
+    "v3_targets": "AI Overview; layout de design; conjunto de resultados de busca (mudanças de ranking); novos recursos"
    },
-   "razao": "Superfícies nomeadas (features, layouts, AI Overviews, resultados) e um experimento específico (Code Tips, encerrado) no Doc 6; preço não aparece como alvo. Os números agregados de 2023 não descrevem um experimento em particular."
+   "razao": "Superfícies nomeadas (AI Overview, layouts, resultados, features) e um experimento específico encerrado (Code Tips, Labs, help centre); contagens anuais não foram tratadas como experimento específico. Preço não aparece como alvo."
   },
   "V4": {
    "notas": {
@@ -172,10 +172,10 @@
     "c:V4-10": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "To maintain and improve Google services, products, and features (e To measure performance)",
+    "v4_mapped_purpose": "To maintain and improve Google services, products, and features (perform research that improves our services; measure performance)",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases legais está nos Docs 1 e 2, ligando a finalidade de manter e melhorar serviços a legítimo interesse e, em parte, a contrato. Experimentação não é finalidade nomeada; o mapeamento é indireto."
+   "razao": "A tabela de bases está presente nos docs 1 e 2; a linha de manter e melhorar serviços aparece sob legítimo interesse e também sob contrato (logs de interação), mas a atribuição de V4-2/V4-3 a legítimo interesse depende do cabeçalho da coluna, que o trecho não mostra. Experimentação não é finalidade declarada."
   },
   "V5": {
    "notas": {
@@ -189,15 +189,13 @@
     "c:V5-8": "x"
    },
    "extras": {},
-   "razao": "Há objeção genérica do GDPR e controles de cookies/anúncios, sem controle específico para experimentos de rotina. Desligar um experimento do Labs pertence ao programa opt-in (V6) e não foi contado aqui."
+   "razao": "O controle mais alto é o painel de cookies/anúncios (cookie/ads-only), além da objeção genérica do GDPR; nada rege os live traffic experiments. Desligar um experimento do Labs (V5-7) pertence ao programa opt-in da V6 e não foi contado."
   },
   "V6": {
    "notas": {
     "h:e9cc7339": "x",
     "h:d5d82cbc": "x",
-    "h:050d71b7": "x",
-    "h:eb0232df": "x",
-    "h:34e64062": "x",
+    "h:ef359f9f": "x",
     "c:V6-1": "sim",
     "c:V6-2": "sim",
     "c:V6-3": "sim",
@@ -206,9 +204,9 @@
     "c:V6-6": "sim"
    },
    "extras": {
-    "v6_which": "Search Labs: usuários elegíveis (18+, conta pessoal) ativam experimentos iniciais pelo ícone Labs, às vezes via lista de espera"
+    "v6_which": "Search Labs: usuários elegíveis (18+, conta pessoal) ativam experimentos de busca em estágio inicial pelo ícone Labs, às vezes via lista de espera, e dão feedback"
    },
-   "razao": "O Doc 6 descreve o Search Labs como programa voluntário de acesso antecipado. Os 'bug testing programs' do ToS tratam de testes adversariais, não de um programa beta."
+   "razao": "O help centre descreve o Search Labs como programa voluntário de acesso antecipado. Não mitiga a V5."
   },
   "V7": {
    "notas": {
@@ -219,7 +217,7 @@
     "c:V7-5": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de lista de espera, de mudança de serviço ou de comunicação geral, nenhum deles um debriefing. Sugere-se No, com o Doc 7 tratando de experimentos sem aviso posterior e o log de palavras-chave registrando debrief:0."
+   "razao": "Nenhum trecho é debriefing: são avisos de lista de espera, de mudança de serviço ou de comunicação geral. O doc 7 trata de experimentos sem prever aviso posterior, e 'debrief' tem 0 ocorrências no log (No, tema não endereçado)."
   },
   "V8": {
    "notas": {
@@ -231,7 +229,7 @@
     "c:V8-6": "x"
    },
    "extras": {},
-   "razao": "A revisão por engenheiros e especialistas jurídicos e de privacidade (Doc 7) é revisão de lançamento, não revisão ética nem avaliação de risco; é um caso de fronteira para nota. 'Impact on you and others' no ToS está ligado à mudança de serviço; as avaliações do DSA não aparecem nos documentos (gap regulatório-vs-documento)."
+   "razao": "V8-1 é fronteira: a revisão por especialistas jurídicos e de privacidade incide sobre os dados para aprovar o lançamento, e não é revisão ética do experimento; V8-3 é linguagem de 'impacto' ligada a mudança de serviço. Ethics, review board, IRB e risk assessment têm 0 ocorrências; avaliações de risco do DSA não aparecem nos documentos ao usuário."
   },
   "V9": {
    "notas": {
@@ -248,20 +246,18 @@
     "h:e9cc7339": "x",
     "h:c6f51f2b": "x",
     "h:ee04ea67": "sim",
-    "h:55d3d7f5": "sim",
     "h:4195c830": "sim",
+    "h:faf04531": "sim",
     "h:d5d82cbc": "x",
-    "h:050d71b7": "sim",
-    "h:eb0232df": "sim",
-    "h:34e64062": "sim",
     "h:2d011374": "sim",
     "h:468a4909": "sim",
-    "h:8622387d": "sim",
+    "h:37f554c6": "sim",
     "h:dc6ad938": "sim",
+    "h:ef359f9f": "x",
     "c:V1-1": "sim",
     "c:V1-2": "sim",
     "c:V1-3": "sim",
-    "c:V1-4": "sim",
+    "c:V1-4": "x",
     "c:V1-5": "sim",
     "c:V1-6": "sim",
     "c:V1-7": "x",
@@ -270,12 +266,12 @@
     "c:V1-10": "sim"
    },
    "extras": {},
-   "razao": "A divulgação explícita está no microsite (Doc 7) e na central de ajuda (Doc 6). No vinculante só aparece o cookie de rollout do Doc 5, um sinal fraco; o registro seria both se ele for aceito, ou non-binding se não."
+   "razao": "A divulgação explícita está no microsite How Search Works (doc 7, não-vinculante) e no help centre do Labs (doc 6). No vinculante, só o cookie de rollout (doc 5, fronteira) poderia contar: se o codificador o descartar, o registro agregado fica non-binding em vez de both."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 21402,
-  "output": 7234
+  "input": 20837,
+  "output": 7598
  }
 }

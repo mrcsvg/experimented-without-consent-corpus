@@ -1,7 +1,7 @@
 {
  "servico": "Google Play",
  "slug": "google-play",
- "gerado_em": "2026-10-06T19:47:14+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -207,22 +207,6 @@
     "total_no_doc": 1
    },
    {
-    "termo": "experiment",
-    "kwic": "Store listing experiments | Google Play Console Store listing experiments Optimize your Google Play store listing t…",
-    "flag": null,
-    "file": "google-play/06-console-about-store-listing-experiments.md",
-    "n": 6,
-    "total_no_doc": 16
-   },
-   {
-    "termo": "experiment",
-    "kwic": "Store listing experiments | Google Play Console Store listing experiments Optimize your Google Play store listing to help increase installs and retention. Run A/B…",
-    "flag": null,
-    "file": "google-play/06-console-about-store-listing-experiments.md",
-    "n": 6,
-    "total_no_doc": 16
-   },
-   {
     "termo": "A-B",
     "kwic": "…ents Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text. Go to Play Console Increase…",
     "flag": null,
@@ -263,12 +247,28 @@
     "total_no_doc": 16
    },
    {
+    "termo": "experiment",
+    "kwic": "…s on your store listing text and graphics Localized experiments for a global presence Run experiments to see how users respond differently around the world Metrics to help you optimize See ac…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 16
+   },
+   {
     "termo": "test",
     "kwic": "…ore listing so you can make further improvements Best practices Get the biggest impact by testing icons, videos, and screenshots Get the clearest results by testing a single asset at a ti…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "google-play/06-console-about-store-listing-experiments.md",
     "n": 6,
     "total_no_doc": 14
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…p an experiment Visit the Play Console Help Center to learn how to set up a store listing experiment Learn more Get store listing certified Certify in store listing best practices on Google…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 16
    },
    {
     "termo": "A-B",
@@ -379,22 +379,6 @@
     "total_no_doc": 1
    },
    {
-    "termo": "experiment",
-    "kwic": "Store listing experiments | Google Play Console Store listing experiments Optimize your Google Play store listing t…",
-    "flag": null,
-    "file": "google-play/06-console-about-store-listing-experiments.md",
-    "n": 6,
-    "total_no_doc": 16
-   },
-   {
-    "termo": "experiment",
-    "kwic": "Store listing experiments | Google Play Console Store listing experiments Optimize your Google Play store listing to help increase installs and retention. Run A/B…",
-    "flag": null,
-    "file": "google-play/06-console-about-store-listing-experiments.md",
-    "n": 6,
-    "total_no_doc": 16
-   },
-   {
     "termo": "A-B",
     "kwic": "…ents Optimize your Google Play store listing to help increase installs and retention. Run A/B tests to find the most effective graphics and localized text. Go to Play Console Increase…",
     "flag": null,
@@ -413,6 +397,22 @@
    {
     "termo": "experiment",
     "kwic": "…nversion rate by running free A/B tests on your store listing text and graphics Localized experiments for a global presence Run experiments to see how users respond differently around the wor…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 16
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…s on your store listing text and graphics Localized experiments for a global presence Run experiments to see how users respond differently around the world Metrics to help you optimize See ac…",
+    "flag": null,
+    "file": "google-play/06-console-about-store-listing-experiments.md",
+    "n": 6,
+    "total_no_doc": 16
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…p an experiment Visit the Play Console Help Center to learn how to set up a store listing experiment Learn more Get store listing certified Certify in store listing best practices on Google…",
     "flag": null,
     "file": "google-play/06-console-about-store-listing-experiments.md",
     "n": 6,

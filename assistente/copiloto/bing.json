@@ -4,8 +4,8 @@
  "slug": "bing",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "88c9debd5dfc",
- "gerado_em": "2026-10-04T23:35:52+00:00",
+ "entrada_sha": "26b82c66c9a1",
+ "gerado_em": "2026-10-07T01:51:44+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -58,8 +58,8 @@
     "h:39dd75d9": "x",
     "h:78c57919": "x",
     "h:c412c641": "3",
-    "h:2e534528": "3",
     "h:75cd7ff8": "3",
+    "h:25518a15": "3",
     "h:8465697d": "3",
     "h:8f87e14d": "3",
     "h:5a31da0f": "3",
@@ -68,8 +68,8 @@
     "h:804b87c0": "3",
     "h:39e4eb23": "x",
     "h:4040ca0e": "3",
-    "h:26d360aa": "3",
     "h:d648df75": "3",
+    "h:3e2af1ec": "3",
     "h:56b0a6a1": "3",
     "h:b944705f": "3",
     "h:73f8117f": "3",
@@ -87,10 +87,10 @@
     "c:V1-6": "1",
     "c:V1-7": "1",
     "c:V1-8": "2",
-    "c:V1-9": "2"
+    "c:V1-9": "1"
    },
    "extras": {},
-   "razao": "Nível 3 aparece só nos blogs (docs 4 e 5) e nível 2 na central de ajuda (doc 6). Nos vinculantes (MSA e Privacy Statement), só nível 1; trial, teste de acessibilidade e red teaming foram marcados como x."
+   "razao": "Nível 3 aparece só nos blogs (docs 4 e 5), com A/B, grupo de controle e randomização; o help centre (doc 6) chega a 2. Nos vinculantes (MSA e Privacy Statement), só nível 1; 'trial' e testes de acessibilidade/red team parecem falsos positivos."
   },
   "V2": {
    "notas": {
@@ -101,8 +101,7 @@
      "service improvement"
     ],
     "c:V2-3": [
-     "research",
-     "social-good/community"
+     "research"
     ],
     "c:V2-4": [
      "research"
@@ -120,13 +119,13 @@
     "c:V2-9": "x"
    },
    "extras": {},
-   "razao": "Aparecem melhoria do serviço e pesquisa. O social-good em V2-3 se apoia em 'public interest' e fica para o codificador confirmar; V2-8 e V2-9 descrevem a missão de busca, não testes."
+   "razao": "Aparecem service improvement (MSA, Privacy Statement, blog) e research (Privacy Statement e blogs). A menção a 'public interest and scientific purposes' em V2-3 pode ser vista pelo codificador como vizinha de social-good."
   },
   "V3": {
    "notas": {
     "h:c412c641": "x",
-    "h:2e534528": "x",
     "h:75cd7ff8": "x",
+    "h:25518a15": "x",
     "h:8465697d": "x",
     "h:5a31da0f": "x",
     "h:e797e9ef": [
@@ -134,8 +133,8 @@
     ],
     "h:804b87c0": "x",
     "h:4040ca0e": "x",
-    "h:26d360aa": "x",
     "h:d648df75": "x",
+    "h:3e2af1ec": "x",
     "h:56b0a6a1": "x",
     "h:c80728ae": [
      "activities",
@@ -163,14 +162,16 @@
     "c:V3-8": [
      "activities"
     ],
-    "c:V3-9": "x",
+    "c:V3-9": [
+     "activities"
+    ],
     "c:V3-10": "x",
     "c:V3-11": "x"
    },
    "extras": {
-    "v3_targets": "site links em anúncios; número de anúncios por consulta; ordem dos resultados (ranking)"
+    "v3_targets": "anúncios com site links; número de anúncios por consulta; ranking dos resultados; novos recursos"
    },
-   "razao": "O experimento específico (site links em anúncios, receita por usuário) aparece só no blog doc 5; o ranking aparece nas comparações pareadas do doc 4. Mudança de preço no MSA não é preço testado, então pricing fica em No."
+   "razao": "O blog doc 5 descreve um experimento específico (site links em anúncios, critério de receita), e o doc 4 nomeia ranking como alvo; tudo em registro não vinculante. Receita é critério de avaliação, não preço testado; mudanças de preço no MSA não são alvo de teste."
   },
   "V4": {
    "notas": {
@@ -182,10 +183,10 @@
     "c:V4-6": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "Product improvement (we use data to improve our products)",
+    "v4_mapped_purpose": "Product improvement (improve our products, including adding new features)",
     "v4_region_gated": "not-verifiable (vantage)"
    },
-   "razao": "O Privacy Statement lista consentimento, contrato e legítimo interesse de forma genérica, sem ligar uma base à finalidade de melhoria do produto, o que sugere not stated. Não há tabela de bases por finalidade nos trechos."
+   "razao": "O Privacy Statement lista bases legais só de forma genérica (consentimento, contrato, legítimo interesse) sem ligá-las à finalidade de melhoria; sugere-se not stated. Sem tabela por finalidade nos documentos, geo-gating não é verificável."
   },
   "V5": {
    "notas": {
@@ -198,7 +199,7 @@
     "c:V5-7": "x"
    },
    "extras": {},
-   "razao": "Há o direito genérico de objeção e controles de cookies e anúncios, mas nenhum controle específico de experimento. Histórico de busca e autosuggest não são saída de experimentos."
+   "razao": "Há objeção genérica (Art. 21) e controles de cookies/anúncios, mas nenhum controle específico de experimentação. Histórico de busca e autosuggest não são saída de experimento."
   },
   "V6": {
    "notas": {
@@ -224,9 +225,9 @@
     "c:V6-4": "x"
    },
    "extras": {
-    "v6_which": "Microsoft previews (preview, insider, beta ou releases gratuitas) para avaliar produtos fornecendo feedback e dados de uso"
+    "v6_which": "Microsoft previews (preview, insider, beta): versões gratuitas para avaliar produtos fornecendo feedback e dados de uso (Privacy Statement)"
    },
-   "razao": "O Privacy Statement descreve as previews/insider/beta da Microsoft de forma genérica, sem nomear programa específico do Bing. V6-3 cita o Windows Insider Programme, que é de outro produto, e V6-4 descreve recrutamento por pesquisadores, não inscrição voluntária."
+   "razao": "O Privacy Statement descreve releases preview/insider/beta genéricos da Microsoft, sem programa nomeado para o Bing; Windows Insider (V6-3) é de outro produto. O recrutamento de usuários por pesquisadores (V6-4) parece pesquisa de usuário, não programa de inscrição."
   },
   "V7": {
    "notas": {
@@ -237,19 +238,19 @@
     "c:V7-5": "x"
    },
    "extras": {},
-   "razao": "Sugestão: No substantivo, porque o blog doc 4 trata do tema e diz que o usuário idealmente nem saberia que está num experimento. V7-4 e V7-5 são avisos de mudança de serviço e de comunicação, e o log não mostra 'debrief' em nenhum documento."
+   "razao": "Nenhum trecho é debriefing; aviso de mudança e comunicações são falsos positivos. O blog trata do tema e indica que o usuário idealmente nem sabe que está no experimento, o que sugere um No substantivo (palavra-chave debrief: 0)."
   },
   "V8": {
    "notas": {
     "c:V8-1": "x",
-    "c:V8-2": "x",
+    "c:V8-2": "sim",
     "c:V8-3": "x",
     "c:V8-4": "x",
     "c:V8-5": "x",
     "c:V8-6": "x"
    },
    "extras": {},
-   "razao": "As revisões de Responsible AI e a avaliação de risco do doc 6 tratam do lançamento de recursos de IA generativa, não de experimentos com usuários; são casos de fronteira (V8-2 em especial). Os documentos ao usuário não trazem as avaliações de risco sistêmico do DSA, o que é um gap entre obrigação regulatória e documento."
+   "razao": "V8-2 (Responsible AI reviews na avaliação de novos recursos, help centre) é caso de fronteira: revisão de recursos, não explicitamente de experimentos; o codificador pode preferir No com nota. Os demais tratam de princípios de IA, avaliação de risco de recursos ou monitoramento estatístico, sem revisão ética de experimentos."
   },
   "V9": {
    "notas": {
@@ -268,8 +269,8 @@
     "h:39dd75d9": "x",
     "h:78c57919": "x",
     "h:c412c641": "sim",
-    "h:2e534528": "sim",
     "h:75cd7ff8": "sim",
+    "h:25518a15": "sim",
     "h:8465697d": "sim",
     "h:8f87e14d": "sim",
     "h:5a31da0f": "sim",
@@ -278,8 +279,8 @@
     "h:804b87c0": "sim",
     "h:39e4eb23": "x",
     "h:4040ca0e": "sim",
-    "h:26d360aa": "sim",
     "h:d648df75": "sim",
+    "h:3e2af1ec": "sim",
     "h:56b0a6a1": "sim",
     "h:b944705f": "sim",
     "h:73f8117f": "sim",
@@ -297,15 +298,15 @@
     "c:V1-6": "x",
     "c:V1-7": "x",
     "c:V1-8": "sim",
-    "c:V1-9": "sim"
+    "c:V1-9": "x"
    },
    "extras": {},
-   "razao": "A experimentação aparece nos blogs (docs 4 e 5) e na central de ajuda (doc 6); o registro agregado sugerido é non-binding. O doc 6 diz que o uso é regido pelo MSA, mas não se declara parte do acordo; MSA e Privacy Statement só falam em melhoria."
+   "razao": "A divulgação de experimentação aparece nos blogs (docs 4 e 5) e no help centre (doc 6), todos não vinculantes; MSA e Privacy Statement trazem só linguagem de melhoria. Registro agregado sugerido: non-binding."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 24376,
-  "output": 8068
+  "input": 24295,
+  "output": 8478
  }
 }

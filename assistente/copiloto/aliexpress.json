@@ -5,7 +5,7 @@
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
  "entrada_sha": "84bb8711605f",
- "gerado_em": "2026-10-04T23:50:07+00:00",
+ "gerado_em": "2026-10-07T02:05:10+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -60,7 +60,7 @@
     "c:V1-5": "x"
    },
    "extras": {},
-   "razao": "Os trechos de 'research and analytics… to improve the content and layout' falam só em melhorar, sem dizer que testa, e todas as palavras-chave de teste dão zero. O teto sugerido é 1, na política de privacidade (vinculante)."
+   "razao": "Os trechos chegam no máximo a 'research and analytics... to improve', sem menção a testar usuários; teto sugerido 1, em registro vinculante (política de privacidade). Questionário de market research, profiling e algoritmo de ranking não são reconhecimento de teste."
   },
   "V2": {
    "notas": {
@@ -82,7 +82,7 @@
     ]
    },
    "extras": {},
-   "razao": "Predomina melhoria do serviço, e há pesquisa genérica em 'research and analytics' e em 'market research'. Não aparece enquadramento de pesquisa com humanos nem de bem da comunidade."
+   "razao": "Predomina melhoria do serviço, com 'research and analytics' co-ocorrendo como pesquisa genérica. Não aparecem pesquisa com humanos nem bem da comunidade."
   },
   "V3": {
    "notas": {
@@ -100,7 +100,7 @@
    "extras": {
     "v3_targets": "content; layout"
    },
-   "razao": "Só a política de privacidade nomeia superfícies ('content and layout'), e como objeto de melhoria, não de teste. Os demais trechos descrevem personalização, ordenação ou custos, e não alvos de experimento nem preço testado."
+   "razao": "Só 'content and layout' é nomeado como superfície de melhoria; os demais trechos descrevem personalização, ordenação ou custos, não alvos de teste. Não há experimento específico nem preço como alvo."
   },
   "V4": {
    "notas": {
@@ -116,10 +116,10 @@
     "c:V4-7": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "Conducting research and analytics… to improve our Platform, product offerings and services",
+    "v4_mapped_purpose": "Conducting research and analytics ... to improve our Platform, product offerings and services",
     "v4_region_gated": "No"
    },
-   "razao": "A linha da tabela EEE/UK declara consentimento quando exigido e, fora disso, interesse legítimo para melhorar a plataforma. A tabela está presente nos documentos capturados, por isso No; a seção do México (V4-5) põe o consentimento como base geral, mas não está ligada a essa finalidade."
+   "razao": "A tabela da Seção J liga a finalidade de pesquisa/melhoria a consentimento (onde exigido) ou, senão, legítimo interesse. A tabela está presente nos documentos capturados, então pela definição a resposta é No."
   },
   "V5": {
    "notas": {
@@ -134,14 +134,14 @@
     "c:V5-9": "x"
    },
    "extras": {},
-   "razao": "Os controles existentes governam cookies, anúncios e recomendações personalizadas, e há o direito genérico de objeção. Nenhum trecho mostra opção específica para sair de experimentos."
+   "razao": "Os controles existentes regem recomendações personalizadas, publicidade e cookies, além do direito genérico de objeção; nenhum é específico de experimentação. Nível sugerido: cookie/ads-only."
   },
   "V6": {
    "notas": {},
    "extras": {
     "v6_which": ""
    },
-   "razao": "Nenhum trecho localizado e a palavra-chave beta dá zero em todos os documentos. A sugestão é No."
+   "razao": "Nenhum trecho localizado e a contagem de 'beta'/'trial' é zero em todos os documentos. Sugestão: No."
   },
   "V7": {
    "notas": {
@@ -152,7 +152,7 @@
     "c:V7-5": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de mudança de política, de vazamento de dados, de processamento automatizado, de produto ilegal e de moderação, e nenhum é debriefing. O tema não é endereçado (debrief: 0 em todos os documentos)."
+   "razao": "Os trechos são avisos de mudança de política, violação de dados, processamento automatizado e moderação, não debriefing. Tema não endereçado (contagem de 'debrief' zero em todos os documentos)."
   },
   "V8": {
    "notas": {
@@ -166,7 +166,7 @@
     "c:V8-5": "x"
    },
    "extras": {},
-   "razao": "Os 'risk assessment' são avaliação de crédito de compradores e vendedores, e os demais trechos tratam de segurança, transferências ou moderação, não de revisão de experimentos. A sugestão é No, com nota de diferença entre a obrigação do DSA e o que os documentos ao usuário dizem."
+   "razao": "As ocorrências de 'risk assessment' são avaliação de crédito de sellers/buyers, e os demais trechos tratam de segurança, transferências e moderação. Sugestão No, com nota de gap entre a obrigação de avaliação de risco do DSA e os documentos ao usuário."
   },
   "V9": {
    "notas": {
@@ -186,12 +186,12 @@
     "c:V1-5": "x"
    },
    "extras": {},
-   "razao": "A única divulgação, ainda só de nível 1 (melhoria, research and analytics), está na política de privacidade, o que sugere registro binding. Se o codificador entender que linguagem de melhoria não é divulgação de experimentação, V1-1 e V1-2 passam a x."
+   "razao": "A única divulgação (nível 1, 'research and analytics... to improve') está na política de privacidade, registro vinculante. Os demais trechos são preâmbulos, incorporações por referência ou navegação, sem divulgação."
   }
  },
  "avisos": [],
  "uso": {
   "input": 16701,
-  "output": 3987
+  "output": 4061
  }
 }

@@ -67,4 +67,4 @@ CODEBOOK E TRECHOS, POR VARIÁVEL: [Vn] título / Pergunta / Critério congelado
 FORMATO DA RESPOSTA: ...
 ```
 
-Gerado em 2026-10-04T23:52:05+00:00.
+Gerado em 2026-10-07T02:06:56+00:00.

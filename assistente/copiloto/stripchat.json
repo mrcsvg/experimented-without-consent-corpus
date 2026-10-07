@@ -5,7 +5,7 @@
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
  "entrada_sha": "24cefb1f1ba4",
- "gerado_em": "2026-10-04T23:52:05+00:00",
+ "gerado_em": "2026-10-07T01:58:49+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -54,7 +54,7 @@
     "c:V1-6": "1"
    },
    "extras": {},
-   "razao": "A Cookies Policy (vinculante) diz testar anúncios, páginas e recursos (nível 2) e lista o cookie ABTest_playerOnThumbHover_key, que pode ser lido como menção a A/B (nível 3). O nível 3 depende só do nome de um cookie, um caso de fronteira para o codificador avaliar."
+   "razao": "A Cookies Policy diz testar anúncios, páginas e recursos (nível 2) e lista o cookie \"ABTest_playerOnThumbHover_key\", que pela regra de qualquer menção a A/B sugere 3, embora seja só um nome de cookie e o codificador possa preferir 2. Todos os trechos estão em documentos vinculantes, e a política de privacidade sozinha fica no nível 1."
   },
   "V2": {
    "notas": {
@@ -74,7 +74,7 @@
     "c:V2-6": "x"
    },
    "extras": {},
-   "razao": "Aparecem melhoria do serviço (Cookies Policy, Privacy Policy) e pesquisa ('research and analysis about your use', Privacy Policy). A linguagem de comunidade saudável trata de moderação, não de uso de dados para testes."
+   "razao": "Aparecem melhoria do serviço (Cookies Policy, Privacy Policy) e \"research and analysis\" (Privacy Policy 7(b)(1)). A \"healthy community\" e os sistemas de recomendação tratam de moderação e personalização, não do uso de dados para testar."
   },
   "V3": {
    "notas": {
@@ -82,7 +82,6 @@
      "activities"
     ],
     "c:V3-2": [
-     "activities",
      "specific"
     ],
     "c:V3-3": "x",
@@ -90,9 +89,9 @@
     "c:V3-5": "x"
    },
    "extras": {
-    "v3_targets": "advertisements; pages; features; player on thumbnail hover"
+    "v3_targets": "advertisements; pages; features; player on thumbnail hover (nome de cookie ABTest)"
    },
-   "razao": "A Cookies Policy nomeia anúncios, páginas e recursos como testados, e o nome do cookie ABTest_playerOnThumbHover_key sugere um teste específico. Recomendação e variação de preço de tokens são funcionalidade e política comercial, não alvos de teste."
+   "razao": "A Cookies Policy nomeia anúncios, páginas e recursos como testados, e o nome do cookie \"ABTest_playerOnThumbHover_key\" sugere um teste específico, mas isso é fraco e fica a critério do codificador. Variação de preço de tokens e as recomendações são cláusula comercial e personalização, não alvos de teste."
   },
   "V4": {
    "notas": {
@@ -109,10 +108,10 @@
     "c:V4-5": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "develop new services on our Website / analytics (legitimate interests, Privacy Policy 7(b)); analytics cookies to test new features (Cookies Policy)",
+    "v4_mapped_purpose": "research and analysis about your use / analytics (legitimate interests); analytics cookies to test new features (consent)",
     "v4_region_gated": "No"
    },
-   "razao": "A seção 7(b) da Privacy Policy vincula desenvolvimento de serviços e analytics ao legítimo interesse, e a Cookies Policy condiciona usos não essenciais de cookies ao consentimento. Como a lista de bases por finalidade está nos documentos lidos, o campo de geo-gating fica No."
+   "razao": "A seção 7 da Privacy Policy liga analytics, research and analysis ao legítimo interesse, e a Cookies Policy condiciona usos não essenciais dos cookies ao consentimento. Essa ligação entre finalidade e base aparece em lista corrida nos documentos capturados, por isso sugiro No; se o codificador não a considerar tabela, a resposta seria not-verifiable (vantage)."
   },
   "V5": {
    "notas": {
@@ -123,7 +122,7 @@
     "c:V5-5": "cookie/ads-only"
    },
    "extras": {},
-   "razao": "Há o direito genérico de objeção e controles de cookies e anúncios, sem opção específica para sair de experimentos. Desativar sistemas de recomendação não é saída de experimento."
+   "razao": "Há o direito genérico de objeção e controles de cookies e de anúncios, mas nenhuma opção específica para sair de experimentos. Desativar recomendações é controle de personalização, não saída de experimento."
   },
   "V6": {
    "notas": {
@@ -132,7 +131,7 @@
    "extras": {
     "v6_which": ""
    },
-   "razao": "O trecho descreve testes feitos pela plataforma, não um programa de adesão voluntária. Nenhum programa beta aparece no material."
+   "razao": "O trecho fala de testes via cookies de analytics, não de um programa beta em que o usuário se inscreve. Nenhum programa opt-in aparece no material."
   },
   "V7": {
    "notas": {
@@ -140,7 +139,7 @@
     "c:V7-2": "x"
    },
    "extras": {},
-   "razao": "Os trechos são comunicações transacionais e avisos de mudança dos termos, não debriefing. O tema não é endereçado, e o log de palavras-chave mostra zero ocorrências de 'debrief'."
+   "razao": "Os trechos são avisos de serviço e de mudança dos termos, que são falsos positivos excluídos pelo codebook. A contagem de palavras-chave tem debrief:0 em todos os documentos, o que sugere \"No\" do tipo tema não endereçado."
   },
   "V8": {
    "notas": {
@@ -149,7 +148,7 @@
     "c:V8-3": "x"
    },
    "extras": {},
-   "razao": "A abordagem baseada em risco se refere à moderação de conteúdo e as medidas citadas são de segurança, sem relação com experimentos. O log mostra zero ocorrências de 'ethics', 'review board', 'IRB' e 'risk assessment'."
+   "razao": "Os trechos tratam de risco de conteúdo, segurança e proteção de dados, não de revisão ética de experimentos. A contagem dá zero para ethics, review board, IRB e risk assessment, o que sugere No por tema não endereçado."
   },
   "V9": {
    "notas": {
@@ -167,12 +166,12 @@
     "c:V1-6": "x"
    },
    "extras": {},
-   "razao": "A divulgação de testes aparece só na Cookies Policy, que conta como política de privacidade e portanto é vinculante. Os demais trechos tratam de remissões, aceite contratual ou melhoria genérica."
+   "razao": "A divulgação de testes aparece só na Cookies Policy, que conta como privacy policy e é vinculante (a Privacy Policy remete a ela, e os Termos incorporam a Privacy Policy). Os demais trechos são só melhoria do serviço ou de contexto, e o registro agregado sugerido é binding."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 27923,
-  "output": 7589
+  "input": 27907,
+  "output": 7850
  }
 }

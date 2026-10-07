@@ -1,7 +1,7 @@
 {
  "servico": "X",
  "slug": "x",
- "gerado_em": "2026-10-06T19:47:14+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -241,22 +241,6 @@
     "total_no_doc": 3
    },
    {
-    "termo": "test",
-    "kwic": "…earn More (Privacy Policy URL) https://twitter.com/en/privacy Web Domain .scroll.com Name test_cookie Description This cookie is for doubleclick integration and/or analytics Controller Google…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "x/04-rules-and-x-cookies.md",
-    "n": 4,
-    "total_no_doc": 3
-   },
-   {
-    "termo": "test",
-    "kwic": "…s://twitter.com/privacy Web Domain proxsee.pscp.tv Name co Description This cookie is for testing functionality Controller Twitter Inc. Learn More (Privacy Policy URL) https://twitter.com…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "x/04-rules-and-x-cookies.md",
-    "n": 4,
-    "total_no_doc": 3
-   },
-   {
     "termo": "experiment",
     "kwic": "…ount and settings Law enforcement guidelines Information for law enforcement Research and experiments How X conducts research and experiments on the platform Country-specific resources Articl…",
     "flag": null,
@@ -274,31 +258,15 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…es Last viewed Legal request FAQs Last viewed Guidelines for law enforcement Research and Experiments Last viewed About the X Experiments Program Last viewed What is the X iOS Beta program? L…",
-    "flag": null,
-    "file": "x/05-rules-and.md",
-    "n": 5,
-    "total_no_doc": 4
-   },
-   {
-    "termo": "experiment",
-    "kwic": "The what and why of product experimentation at Twitter Engineering Back Engineering Insights Infrastructure Open source Sign Up Sign…",
-    "flag": null,
-    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
-    "n": 6,
-    "total_no_doc": 57
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…gineering Insights Infrastructure Open source Sign Up Sign Up The what and why of product experimentation at Twitter Friday, 23 October 2015 Link copied successfully Experimentation is at the hea…",
-    "flag": null,
-    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
-    "n": 6,
-    "total_no_doc": 57
-   },
-   {
-    "termo": "experiment",
     "kwic": "…hy of product experimentation at Twitter Friday, 23 October 2015 Link copied successfully Experimentation is at the heart of Twitter’s product development cycle. This culture of experimentation i…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 57
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…y Experimentation is at the heart of Twitter’s product development cycle. This culture of experimentation is possible because Twitter invests heavily in tools, research, and training to ensure th…",
     "flag": null,
     "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
     "n": 6,
@@ -311,6 +279,14 @@
     "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
     "n": 6,
     "total_no_doc": 17
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…e teams can test and validate their ideas seamlessly and rigorously. The scale of Twitter experiments is vast both in quantity and variety — from subtle UI/UX changes, to new features, to imp…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 57
    },
    {
     "termo": "test",
@@ -354,7 +330,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "Welcome to the X experiments program | X Help Skip to main content Help Center Using X Managing your account Safety an…",
+    "kwic": "…ram Thank you for taking the time to participate in and provide us feedback through the X Experiments Program. Before you get started, please read the full agreement below. Overview By partic…",
     "flag": null,
     "file": "x/07-rules-and-x-beta-experiments-program.md",
     "n": 7,
@@ -362,15 +338,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…X Recommender Systems mrcsvg @mrcsvg Go to X Sign out Contact Us Help Center Research and Experiments About the X Experiments Program About the X Experiments Program Help Center Research and…",
-    "flag": null,
-    "file": "x/07-rules-and-x-beta-experiments-program.md",
-    "n": 7,
-    "total_no_doc": 37
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…csvg @mrcsvg Go to X Sign out Contact Us Help Center Research and Experiments About the X Experiments Program About the X Experiments Program Help Center Research and Experiments About the X…",
+    "kwic": "…the full agreement below. Overview By participating in this program, you’ll get access to experimental versions of X applications for mobile devices, such as the X for Android or X for iOS app…",
     "flag": null,
     "file": "x/07-rules-and-x-beta-experiments-program.md",
     "n": 7,
@@ -383,6 +351,14 @@
     "file": "x/07-rules-and-x-beta-experiments-program.md",
     "n": 7,
     "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…ons X Corp. (\"X\") has designed and developed a \"X Mobile Application Testing Program\" (\"X Experiments Program\" which encompasses the programs previously known as the \"X for Android Experiment…",
+    "flag": null,
+    "file": "x/07-rules-and-x-beta-experiments-program.md",
+    "n": 7,
+    "total_no_doc": 37
    },
    {
     "termo": "test",
@@ -445,22 +421,6 @@
    {
     "termo": "test",
     "kwic": "…s us detect issues, understand where we may improve, or develop new products or services. Test updates to X services, as well as build new features, functionality, and services. Person…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "x/04-rules-and-x-cookies.md",
-    "n": 4,
-    "total_no_doc": 3
-   },
-   {
-    "termo": "test",
-    "kwic": "…earn More (Privacy Policy URL) https://twitter.com/en/privacy Web Domain .scroll.com Name test_cookie Description This cookie is for doubleclick integration and/or analytics Controller Google…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "x/04-rules-and-x-cookies.md",
-    "n": 4,
-    "total_no_doc": 3
-   },
-   {
-    "termo": "test",
-    "kwic": "…s://twitter.com/privacy Web Domain proxsee.pscp.tv Name co Description This cookie is for testing functionality Controller Twitter Inc. Learn More (Privacy Policy URL) https://twitter.com…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "x/04-rules-and-x-cookies.md",
     "n": 4,
@@ -542,31 +502,23 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…es Last viewed Legal request FAQs Last viewed Guidelines for law enforcement Research and Experiments Last viewed About the X Experiments Program Last viewed What is the X iOS Beta program? L…",
-    "flag": null,
-    "file": "x/05-rules-and.md",
-    "n": 5,
-    "total_no_doc": 4
-   },
-   {
-    "termo": "experiment",
-    "kwic": "The what and why of product experimentation at Twitter Engineering Back Engineering Insights Infrastructure Open source Sign Up Sign…",
-    "flag": null,
-    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
-    "n": 6,
-    "total_no_doc": 57
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…gineering Insights Infrastructure Open source Sign Up Sign Up The what and why of product experimentation at Twitter Friday, 23 October 2015 Link copied successfully Experimentation is at the hea…",
-    "flag": null,
-    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
-    "n": 6,
-    "total_no_doc": 57
-   },
-   {
-    "termo": "experiment",
     "kwic": "…hy of product experimentation at Twitter Friday, 23 October 2015 Link copied successfully Experimentation is at the heart of Twitter’s product development cycle. This culture of experimentation i…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 57
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…y Experimentation is at the heart of Twitter’s product development cycle. This culture of experimentation is possible because Twitter invests heavily in tools, research, and training to ensure th…",
+    "flag": null,
+    "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
+    "n": 6,
+    "total_no_doc": 57
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…e teams can test and validate their ideas seamlessly and rigorously. The scale of Twitter experiments is vast both in quantity and variety — from subtle UI/UX changes, to new features, to imp…",
     "flag": null,
     "file": "x/06-a-2015-the-what-and-why-of-product-experimentation-a.md",
     "n": 6,
@@ -598,7 +550,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "Welcome to the X experiments program | X Help Skip to main content Help Center Using X Managing your account Safety an…",
+    "kwic": "…ram Thank you for taking the time to participate in and provide us feedback through the X Experiments Program. Before you get started, please read the full agreement below. Overview By partic…",
     "flag": null,
     "file": "x/07-rules-and-x-beta-experiments-program.md",
     "n": 7,
@@ -606,7 +558,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…X Recommender Systems mrcsvg @mrcsvg Go to X Sign out Contact Us Help Center Research and Experiments About the X Experiments Program About the X Experiments Program Help Center Research and…",
+    "kwic": "…the full agreement below. Overview By participating in this program, you’ll get access to experimental versions of X applications for mobile devices, such as the X for Android or X for iOS app…",
     "flag": null,
     "file": "x/07-rules-and-x-beta-experiments-program.md",
     "n": 7,
@@ -614,7 +566,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…csvg @mrcsvg Go to X Sign out Contact Us Help Center Research and Experiments About the X Experiments Program About the X Experiments Program Help Center Research and Experiments About the X…",
+    "kwic": "…ons X Corp. (\"X\") has designed and developed a \"X Mobile Application Testing Program\" (\"X Experiments Program\" which encompasses the programs previously known as the \"X for Android Experiment…",
     "flag": null,
     "file": "x/07-rules-and-x-beta-experiments-program.md",
     "n": 7,

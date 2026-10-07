@@ -1,7 +1,7 @@
 {
  "servico": "XVideos",
  "slug": "xvideos",
- "gerado_em": "2026-10-06T19:47:14+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -184,22 +184,6 @@
     "total_no_doc": 3
    },
    {
-    "termo": "test",
-    "kwic": "…lquer página para mais informações ou para alterar as suas preferências. Aceitar todos os testemunhos Aceitar apenas os testemunhos essenciais Code development platform for open source projec…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
-    "n": 5,
-    "total_no_doc": 3
-   },
-   {
-    "termo": "test",
-    "kwic": "…ções ou para alterar as suas preferências. Aceitar todos os testemunhos Aceitar apenas os testemunhos essenciais Code development platform for open source projects from the European Union ins…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
-    "n": 5,
-    "total_no_doc": 3
-   },
-   {
     "termo": "experiment",
     "kwic": "…aborador Análise do repositório Análises de revisão de código Análises de issues Insights Experimentos de modelo Ajuda Ajuda Suporte Documentação da GitLab GitLab University Comparar planos do…",
     "flag": null,
@@ -244,22 +228,6 @@
    {
     "termo": "test",
     "kwic": "…ce.md · main · Digital Services / contrib-versions · GitLab Esta página utiliza cookies («testemunhos de conexão»). Visite a página sobre a nossa política de «cookies» ou clique na ligação vi…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
-    "n": 5,
-    "total_no_doc": 3
-   },
-   {
-    "termo": "test",
-    "kwic": "…lquer página para mais informações ou para alterar as suas preferências. Aceitar todos os testemunhos Aceitar apenas os testemunhos essenciais Code development platform for open source projec…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
-    "n": 5,
-    "total_no_doc": 3
-   },
-   {
-    "termo": "test",
-    "kwic": "…ções ou para alterar as suas preferências. Aceitar todos os testemunhos Aceitar apenas os testemunhos essenciais Code development platform for open source projects from the European Union ins…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "xvideos/05-main-xvideos-terms-20of-20service-md.md",
     "n": 5,

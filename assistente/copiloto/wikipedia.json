@@ -4,8 +4,8 @@
  "slug": "wikipedia",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "0cb62e1aa5c9",
- "gerado_em": "2026-10-04T23:24:35+00:00",
+ "entrada_sha": "ad2bc919b8ac",
+ "gerado_em": "2026-10-07T01:42:03+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -14,15 +14,15 @@
   "tentativas": 1
  },
  "n_trechos": {
-  "V1": 33,
+  "V1": 30,
   "V2": 7,
-  "V3": 20,
+  "V3": 18,
   "V4": 6,
   "V5": 6,
-  "V6": 16,
+  "V6": 15,
   "V7": 4,
   "V8": 5,
-  "V9": 40
+  "V9": 37
  },
  "documentos": {
   "1": {
@@ -53,31 +53,28 @@
  "variaveis": {
   "V1": {
    "notas": {
-    "h:9d6ae312": "x",
     "h:dcdefd84": "x",
     "h:8f4d201d": "2",
     "h:12a8e427": "2",
-    "h:2d717db4": "x",
     "h:f77a8796": "x",
     "h:b9a6506c": "x",
-    "h:6a5ca88d": "x",
     "h:cd56ada4": "3",
     "h:6e9b9ab5": "3",
-    "h:27617be1": "x",
-    "h:b32ce2cf": "3",
-    "h:2dcdb2eb": "3",
-    "h:c589f59b": "3",
-    "h:130fd3fa": "3",
-    "h:27b79b49": "3",
-    "h:2564bc94": "3",
+    "h:27617be1": "2",
+    "h:0f1cbc90": "3",
     "h:4a1f94b5": "3",
-    "h:9092af61": "3",
+    "h:4cb384f2": "3",
+    "h:8c1603fe": "3",
+    "h:869b82d2": "3",
+    "h:e64ca246": "3",
+    "h:902feab9": "3",
     "h:090d0dc3": "3",
-    "h:80bc9845": "2",
-    "h:c6937ac5": "2",
-    "h:2c3a049e": "2",
+    "h:658dcc0d": "3",
+    "h:67c49dc5": "2",
     "h:32d4a161": "2",
+    "h:d1a1798e": "2",
     "h:20888add": "x",
+    "h:3cbfc2d0": "2",
     "c:V1-1": "2",
     "c:V1-2": "2",
     "c:V1-3": "x",
@@ -88,7 +85,7 @@
     "c:V1-8": "2"
    },
    "extras": {},
-   "razao": "Teto sugerido 3, presente no Cookie Statement (vinculante, \"run A/B tests\") e no Wikitech (não vinculante), logo registro both; a Privacy Policy sozinha chega a 2 (\"test features to see what works\"). \"Experiment\" na Privacy Policy refere-se a desenvolvedores terceiros e as \"Wikipedia experiments\" são projetos-piloto, não testes com grupos, por isso não foram tratados como 3."
+   "razao": "Os trechos sugerem teto 3 tanto no Cookie Statement (\"run A/B tests\", vinculante) quanto no Wikitech (não vinculante); a Privacy Policy sozinha fica no nível 2 (\"test features to see what works\"). Os \"experiments\" do doc. 6 parecem projetos-piloto, não experimentos com grupos, por isso nível 2."
   },
   "V2": {
    "notas": {
@@ -102,36 +99,40 @@
      "research"
     ],
     "c:V2-4": [
-     "research"
+     "research",
+     "social-good/community"
     ],
     "c:V2-5": [
      "service improvement"
     ],
     "c:V2-6": [
-     "research"
+     "research",
+     "human-subjects research"
     ],
     "c:V2-7": "x"
    },
    "extras": {},
-   "razao": "Aparecem melhoria do serviço, pesquisa e missão de caridade (social-good/community). O trecho do Wikitech sobre estudos que afetam usuários pode ser lido como pesquisa com humanos; fica a critério do codificador."
+   "razao": "Aparecem melhoria do serviço, pesquisa e missão de caridade/educação (bem social) nos vinculantes. A noção de estudo que afeta usuários aparece só no Wikitech."
   },
   "V3": {
    "notas": {
-    "h:9d6ae312": "x",
     "h:dcdefd84": "x",
-    "h:2d717db4": "x",
     "h:cd56ada4": "x",
-    "h:b32ce2cf": "x",
-    "h:c589f59b": "x",
-    "h:27b79b49": "x",
     "h:4a1f94b5": [
      "activities"
     ],
-    "h:9092af61": "x",
+    "h:4cb384f2": [
+     "activities"
+    ],
+    "h:869b82d2": [
+     "activities"
+    ],
+    "h:902feab9": "x",
     "h:090d0dc3": "x",
-    "h:80bc9845": "x",
-    "h:c6937ac5": "x",
-    "h:2c3a049e": "x",
+    "h:658dcc0d": "x",
+    "h:67c49dc5": "x",
+    "h:d1a1798e": "x",
+    "h:3cbfc2d0": "x",
     "c:V3-1": [
      "activities"
     ],
@@ -148,9 +149,9 @@
     ]
    },
    "extras": {
-    "v3_targets": "features; skin/layout (Vector 2022)"
+    "v3_targets": "features; UI; skin Vector 2022 (layout)"
    },
-   "razao": "Atividades nomeadas (features) e um teste específico (A/B da skin Vector 2022, no Wikitech), além dos projetos da página de experiments; preço não aparece como alvo. As preferências de cookie e o hCaptcha descrevem funcionalidade ou implantação, não experimento."
+   "razao": "Features são nomeadas na Privacy Policy, e o Wikitech cita o teste A/B da skin Vector 2022 como caso específico. Preço não aparece como alvo."
   },
   "V4": {
    "notas": {
@@ -164,22 +165,22 @@
     "c:V4-6": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "Improving the Wikimedia Sites and making your user experience safer and better",
-    "v4_region_gated": "not-verifiable (vantage)"
+    "v4_mapped_purpose": "Improving the Wikimedia Sites and making your user experience safer and better (test features to see what works)",
+    "v4_region_gated": "No"
    },
-   "razao": "A finalidade de melhoria, que inclui \"test features\", é atribuída a legítimo interesse e/ou obrigação legal. Não há tabela de bases por finalidade, por isso o campo geo-gated fica not-verifiable (vantage)."
+   "razao": "A finalidade de melhoria, que inclui testar features, é ligada a legítimo interesse (e obrigação legal) na própria Privacy Policy. A base aparece por finalidade no texto, não numa tabela formal; o codificador pode preferir not-verifiable (vantage) se exigir tabela."
   },
   "V5": {
    "notas": {
     "c:V5-1": "cookie/ads-only",
     "c:V5-2": "cookie/ads-only",
-    "c:V5-3": "x",
+    "c:V5-3": "cookie/ads-only",
     "c:V5-4": "GDPR-objection-only",
     "c:V5-5": "x",
     "c:V5-6": "x"
    },
    "extras": {},
-   "razao": "Há apenas controle genérico de cookies e dados locais pelo navegador, além do direito genérico de objeção; não há opt-out dedicado a experimentos. O trecho do TikTok trata de compartilhamento de dados na loja, não de experimentação."
+   "razao": "Há controles genéricos de cookies e o direito de objeção pelo contato, mas nenhum controle específico para sair de experimentos. DNT é explicitamente ignorado."
   },
   "V6": {
    "notas": {
@@ -188,22 +189,21 @@
     "h:12a8e427": "x",
     "h:f77a8796": "x",
     "h:b9a6506c": "x",
-    "h:6a5ca88d": "x",
     "h:6e9b9ab5": "x",
     "h:27617be1": "x",
-    "h:2dcdb2eb": "x",
-    "h:130fd3fa": "x",
-    "h:2564bc94": "x",
-    "h:32d4a161": "x",
+    "h:0f1cbc90": "x",
+    "h:8c1603fe": "x",
+    "h:e64ca246": "x",
+    "h:32d4a161": "sim",
     "h:20888add": "x",
     "c:V6-1": "x",
     "c:V6-2": "sim",
     "c:V6-3": "sim"
    },
    "extras": {
-    "v6_which": "Wikipedia experiments (WIKI_WIP): convite voluntário para experimentar projetos-piloto, com newsletter para quem quer se envolver"
+    "v6_which": "Wikipedia experiments / WIKI_WIP (Wikipedia Work in Process): projetos experimentais que o usuário experimenta voluntariamente e acompanha por newsletter"
    },
-   "razao": "A página Wikipedia experiments convida o usuário a experimentar projetos e a se inscrever para participar, o que parece um programa opt-in. A menção a versões beta dos apps na Privacy Policy não descreve um programa de inscrição."
+   "razao": "A página de experiments convida o usuário a experimentar projetos novos e se envolver via newsletter, o que parece adesão voluntária. A menção a versões beta dos apps só aparece como dado coletado, sem descrever programa."
   },
   "V7": {
    "notas": {
@@ -213,18 +213,18 @@
     "c:V7-4": "x"
    },
    "extras": {},
-   "razao": "Os trechos tratam de aviso de mudança de política, de aviso legal e de publicação pública de resultados, não de aviso individual de participação. O tema não é endereçado nos documentos, e o log mostra debrief:0 em todos eles."
+   "razao": "Nenhum trecho avisa a pessoa de que participou de um experimento; são avisos de mudança de política, demanda legal ou publicação de resultados. Sugere No, do tipo tema não endereçado."
   },
   "V8": {
    "notas": {
     "c:V8-1": "x",
     "c:V8-2": "x",
     "c:V8-3": "x",
-    "c:V8-4": "x",
-    "c:V8-5": "x"
+    "c:V8-4": "sim",
+    "c:V8-5": "sim"
    },
    "extras": {},
-   "razao": "Não há revisão ética, comitê ou avaliação de risco para experimentos; a Ombuds Commission trata de violações de privacidade. Caso de fronteira: o Wikitech (não vinculante) recomenda descrever a possível perturbação e consultar a comunidade antes de um estudo, o que o codificador pode querer anotar."
+   "razao": "Só o Wikitech (não vinculante) pede descrever a disrupção do estudo e revê-lo diante de reação negativa da comunidade, o que é fronteira entre consulta comunitária e avaliação de risco. Nos vinculantes não há revisão ética de experimentos."
   },
   "V9": {
    "notas": {
@@ -235,31 +235,28 @@
     "c:V9-5": "x",
     "c:V9-6": "x",
     "c:V9-7": "sim",
-    "h:9d6ae312": "x",
     "h:dcdefd84": "x",
     "h:8f4d201d": "sim",
     "h:12a8e427": "sim",
-    "h:2d717db4": "x",
     "h:f77a8796": "x",
     "h:b9a6506c": "x",
-    "h:6a5ca88d": "x",
     "h:cd56ada4": "sim",
     "h:6e9b9ab5": "sim",
-    "h:27617be1": "x",
-    "h:b32ce2cf": "sim",
-    "h:2dcdb2eb": "sim",
-    "h:c589f59b": "sim",
-    "h:130fd3fa": "sim",
-    "h:27b79b49": "sim",
-    "h:2564bc94": "sim",
+    "h:27617be1": "sim",
+    "h:0f1cbc90": "sim",
     "h:4a1f94b5": "sim",
-    "h:9092af61": "sim",
+    "h:4cb384f2": "sim",
+    "h:8c1603fe": "sim",
+    "h:869b82d2": "sim",
+    "h:e64ca246": "sim",
+    "h:902feab9": "sim",
     "h:090d0dc3": "sim",
-    "h:80bc9845": "sim",
-    "h:c6937ac5": "sim",
-    "h:2c3a049e": "sim",
+    "h:658dcc0d": "sim",
+    "h:67c49dc5": "sim",
     "h:32d4a161": "sim",
+    "h:d1a1798e": "sim",
     "h:20888add": "x",
+    "h:3cbfc2d0": "sim",
     "c:V1-1": "sim",
     "c:V1-2": "sim",
     "c:V1-3": "x",
@@ -270,12 +267,12 @@
     "c:V1-8": "sim"
    },
    "extras": {},
-   "razao": "A divulgação aparece na Privacy Policy e no Cookie Statement (vinculantes) e também no Wikitech e na página Wikipedia experiments (não vinculantes), o que sugere registro both. Os Terms of Use e o FAQ, que se declara não legal, não divulgam experimentação."
+   "razao": "A divulgação aparece na Privacy Policy e no Cookie Statement (vinculantes) e no Wikitech e na página de experiments (não vinculantes), sugerindo registro both. O FAQ se declara fora da política e não traz trecho de experimentação."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 22671,
-  "output": 7730
+  "input": 21903,
+  "output": 8403
  }
 }

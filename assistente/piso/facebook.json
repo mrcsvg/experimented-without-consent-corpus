@@ -1,7 +1,7 @@
 {
  "servico": "Facebook",
  "slug": "facebook",
- "gerado_em": "2026-10-06T19:47:13+00:00",
+ "gerado_em": "2026-10-07T02:07:08+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -289,38 +289,6 @@
    },
    {
     "termo": "A-B",
-    "kwic": "About A/B testing | Meta Business Help Centre Log in to Meta for Business Manage your ad accounts a…",
-    "flag": null,
-    "file": "facebook/07-business-help.md",
-    "n": 7,
-    "total_no_doc": 19
-   },
-   {
-    "termo": "test",
-    "kwic": "About A/B testing | Meta Business Help Centre Log in to Meta for Business Manage your ad accounts and get p…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "facebook/07-business-help.md",
-    "n": 7,
-    "total_no_doc": 27
-   },
-   {
-    "termo": "A-B",
-    "kwic": "…onalised support. Log in with Facebook Business Help Centre Get support Get support About A/B testing A/B testing lets you compare two versions of an ad strategy by changing variables…",
-    "flag": null,
-    "file": "facebook/07-business-help.md",
-    "n": 7,
-    "total_no_doc": 19
-   },
-   {
-    "termo": "test",
-    "kwic": "…ised support. Log in with Facebook Business Help Centre Get support Get support About A/B testing A/B testing lets you compare two versions of an ad strategy by changing variables such as…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "facebook/07-business-help.md",
-    "n": 7,
-    "total_no_doc": 27
-   },
-   {
-    "termo": "A-B",
     "kwic": "…port. Log in with Facebook Business Help Centre Get support Get support About A/B testing A/B testing lets you compare two versions of an ad strategy by changing variables such as ad…",
     "flag": null,
     "file": "facebook/07-business-help.md",
@@ -336,16 +304,40 @@
     "total_no_doc": 27
    },
    {
-    "termo": "experiment",
-    "kwic": "…n lead to overlapping audiences. You can create an A/B test in Meta Ads Manager or in the Experiments tool . Learn more about the ways to create an A/B test . Learn more Create an A/B test in…",
+    "termo": "test",
+    "kwic": "…dy sees both, then determine which version performs best. Before you select a variable to test, choose a hypothesis for your test . For example, you might hypothesise that a custom aud…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "facebook/07-business-help.md",
+    "n": 7,
+    "total_no_doc": 27
+   },
+   {
+    "termo": "test",
+    "kwic": "…version performs best. Before you select a variable to test, choose a hypothesis for your test . For example, you might hypothesise that a custom audience strategy will outperform an i…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "facebook/07-business-help.md",
+    "n": 7,
+    "total_no_doc": 27
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…y will outperform an interest-based audience strategy for your business. How to create an A/B test To create an A/B test, you can either duplicate an existing campaign, ad set or ad a…",
     "flag": null,
     "file": "facebook/07-business-help.md",
     "n": 7,
-    "total_no_doc": 2
+    "total_no_doc": 19
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…nterest-based audience strategy for your business. How to create an A/B test To create an A/B test, you can either duplicate an existing campaign, ad set or ad and change a variable,…",
+    "flag": null,
+    "file": "facebook/07-business-help.md",
+    "n": 7,
+    "total_no_doc": 19
    },
    {
     "termo": "experiment",
-    "kwic": "…. Learn more about the ways to create an A/B test . Learn more Create an A/B test in the Experiments tool Create an A/B test in Ads Manager Common support topics About advertising restrictio…",
+    "kwic": "…n lead to overlapping audiences. You can create an A/B test in Meta Ads Manager or in the Experiments tool . Learn more about the ways to create an A/B test . Learn more Create an A/B test in…",
     "flag": null,
     "file": "facebook/07-business-help.md",
     "n": 7,
@@ -459,23 +451,23 @@
    },
    {
     "termo": "test",
-    "kwic": "About A/B testing | Meta Business Help Centre Log in to Meta for Business Manage your ad accounts and get p…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "facebook/07-business-help.md",
-    "n": 7,
-    "total_no_doc": 27
-   },
-   {
-    "termo": "test",
-    "kwic": "…ised support. Log in with Facebook Business Help Centre Get support Get support About A/B testing A/B testing lets you compare two versions of an ad strategy by changing variables such as…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "facebook/07-business-help.md",
-    "n": 7,
-    "total_no_doc": 27
-   },
-   {
-    "termo": "test",
     "kwic": "…. Log in with Facebook Business Help Centre Get support Get support About A/B testing A/B testing lets you compare two versions of an ad strategy by changing variables such as ad images,…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "facebook/07-business-help.md",
+    "n": 7,
+    "total_no_doc": 27
+   },
+   {
+    "termo": "test",
+    "kwic": "…dy sees both, then determine which version performs best. Before you select a variable to test, choose a hypothesis for your test . For example, you might hypothesise that a custom aud…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "facebook/07-business-help.md",
+    "n": 7,
+    "total_no_doc": 27
+   },
+   {
+    "termo": "test",
+    "kwic": "…version performs best. Before you select a variable to test, choose a hypothesis for your test . For example, you might hypothesise that a custom audience strategy will outperform an i…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "facebook/07-business-help.md",
     "n": 7,
@@ -485,23 +477,23 @@
   "V3": [
    {
     "termo": "A-B",
-    "kwic": "About A/B testing | Meta Business Help Centre Log in to Meta for Business Manage your ad accounts a…",
-    "flag": null,
-    "file": "facebook/07-business-help.md",
-    "n": 7,
-    "total_no_doc": 19
-   },
-   {
-    "termo": "A-B",
-    "kwic": "…onalised support. Log in with Facebook Business Help Centre Get support Get support About A/B testing A/B testing lets you compare two versions of an ad strategy by changing variables…",
-    "flag": null,
-    "file": "facebook/07-business-help.md",
-    "n": 7,
-    "total_no_doc": 19
-   },
-   {
-    "termo": "A-B",
     "kwic": "…port. Log in with Facebook Business Help Centre Get support Get support About A/B testing A/B testing lets you compare two versions of an ad strategy by changing variables such as ad…",
+    "flag": null,
+    "file": "facebook/07-business-help.md",
+    "n": 7,
+    "total_no_doc": 19
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…y will outperform an interest-based audience strategy for your business. How to create an A/B test To create an A/B test, you can either duplicate an existing campaign, ad set or ad a…",
+    "flag": null,
+    "file": "facebook/07-business-help.md",
+    "n": 7,
+    "total_no_doc": 19
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…nterest-based audience strategy for your business. How to create an A/B test To create an A/B test, you can either duplicate an existing campaign, ad set or ad and change a variable,…",
     "flag": null,
     "file": "facebook/07-business-help.md",
     "n": 7,
@@ -510,14 +502,6 @@
    {
     "termo": "experiment",
     "kwic": "…n lead to overlapping audiences. You can create an A/B test in Meta Ads Manager or in the Experiments tool . Learn more about the ways to create an A/B test . Learn more Create an A/B test in…",
-    "flag": null,
-    "file": "facebook/07-business-help.md",
-    "n": 7,
-    "total_no_doc": 2
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…. Learn more about the ways to create an A/B test . Learn more Create an A/B test in the Experiments tool Create an A/B test in Ads Manager Common support topics About advertising restrictio…",
     "flag": null,
     "file": "facebook/07-business-help.md",
     "n": 7,

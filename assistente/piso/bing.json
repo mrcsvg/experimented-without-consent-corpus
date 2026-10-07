@@ -1,7 +1,7 @@
 {
  "servico": "Bing",
  "slug": "bing",
- "gerado_em": "2026-10-06T19:47:14+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -330,7 +330,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…ustralia Canada China France Germany India Japan UK Follow us: Subscribe RSS June 12 2013 Experimentation and Continuous Improvement at Bing One technical problem in Web search is how best to mea…",
+    "kwic": "…d their online feedback to identify the true intent. Meanwhile it is difficult for online experiments to detect subtle issues with page quality. People who see slightly the wrong page or the…",
     "flag": null,
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
     "n": 4,
@@ -338,7 +338,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…d their online feedback to identify the true intent. Meanwhile it is difficult for online experiments to detect subtle issues with page quality. People who see slightly the wrong page or the…",
+    "kwic": "…Now let’s look at how we employ online metrics. Using Online Evaluation A typical online experiment compares some new version of Bing to the existing version, to see whether the new idea is…",
     "flag": null,
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
     "n": 4,
@@ -410,7 +410,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…da China France Germany India Japan UK Follow us: Subscribe RSS August 8 2013 Large Scale Experimentation at Bing Experimenting at large scale is fundamental for improving Bing. Last June, we pub…",
+    "kwic": "…India Japan UK Follow us: Subscribe RSS August 8 2013 Large Scale Experimentation at Bing Experimenting at large scale is fundamental for improving Bing. Last June, we published a blog in this…",
     "flag": null,
     "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
     "n": 5,
@@ -418,7 +418,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…India Japan UK Follow us: Subscribe RSS August 8 2013 Large Scale Experimentation at Bing Experimenting at large scale is fundamental for improving Bing. Last June, we published a blog in this…",
+    "kwic": "…roving Bing. Last June, we published a blog in this Search Quality Insights series titled Experimentation and Continuous Improvement at Bing , which covered a specific type of experiments known a…",
     "flag": null,
     "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
     "n": 5,
@@ -508,7 +508,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…ustralia Canada China France Germany India Japan UK Follow us: Subscribe RSS June 12 2013 Experimentation and Continuous Improvement at Bing One technical problem in Web search is how best to mea…",
+    "kwic": "…d their online feedback to identify the true intent. Meanwhile it is difficult for online experiments to detect subtle issues with page quality. People who see slightly the wrong page or the…",
     "flag": null,
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
     "n": 4,
@@ -516,7 +516,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…d their online feedback to identify the true intent. Meanwhile it is difficult for online experiments to detect subtle issues with page quality. People who see slightly the wrong page or the…",
+    "kwic": "…Now let’s look at how we employ online metrics. Using Online Evaluation A typical online experiment compares some new version of Bing to the existing version, to see whether the new idea is…",
     "flag": null,
     "file": "bing/04-search-quality-insights-june-2013-experimentation-an.md",
     "n": 4,
@@ -564,7 +564,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…da China France Germany India Japan UK Follow us: Subscribe RSS August 8 2013 Large Scale Experimentation at Bing Experimenting at large scale is fundamental for improving Bing. Last June, we pub…",
+    "kwic": "…India Japan UK Follow us: Subscribe RSS August 8 2013 Large Scale Experimentation at Bing Experimenting at large scale is fundamental for improving Bing. Last June, we published a blog in this…",
     "flag": null,
     "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
     "n": 5,
@@ -572,7 +572,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…India Japan UK Follow us: Subscribe RSS August 8 2013 Large Scale Experimentation at Bing Experimenting at large scale is fundamental for improving Bing. Last June, we published a blog in this…",
+    "kwic": "…roving Bing. Last June, we published a blog in this Search Quality Insights series titled Experimentation and Continuous Improvement at Bing , which covered a specific type of experiments known a…",
     "flag": null,
     "file": "bing/05-search-quality-insights-august-2013-large-scale-expe.md",
     "n": 5,

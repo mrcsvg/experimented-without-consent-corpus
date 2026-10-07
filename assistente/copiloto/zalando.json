@@ -4,8 +4,8 @@
  "slug": "zalando",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "f65eb8c51061",
- "gerado_em": "2026-10-04T23:40:03+00:00",
+ "entrada_sha": "b9e2c2ceff47",
+ "gerado_em": "2026-10-07T01:56:37+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -14,15 +14,15 @@
   "tentativas": 1
  },
  "n_trechos": {
-  "V1": 33,
+  "V1": 31,
   "V2": 5,
-  "V3": 23,
+  "V3": 21,
   "V4": 6,
   "V5": 6,
   "V6": 11,
   "V7": 3,
   "V8": 13,
-  "V9": 38
+  "V9": 36
  },
  "documentos": {
   "1": {
@@ -63,10 +63,9 @@
    "notas": {
     "h:dd4b04ee": "x",
     "h:6f9e2e54": "x",
-    "h:677576ed": "x",
     "h:c9037ac3": "3",
+    "h:f115766a": "3",
     "h:a86cd29b": "3",
-    "h:813e673a": "3",
     "h:9bbb7dc1": "x",
     "h:b3294cb4": "x",
     "h:3d8bb1f2": "x",
@@ -86,9 +85,8 @@
     "h:ba417332": "3",
     "h:03a3d7a4": "3",
     "h:acfa76e3": "3",
-    "h:b116151d": "3",
-    "h:a9f66a0e": "3",
     "h:d4529cb7": "3",
+    "h:5baa1fbb": "3",
     "c:V1-1": "3",
     "c:V1-2": "3",
     "c:V1-3": "3",
@@ -96,7 +94,7 @@
     "c:V1-5": "2"
    },
    "extras": {},
-   "razao": "Nível 3 aparece tanto no Privacy Notice (A/B tests na secção 4.5, docs 1 e 5) quanto no blog de engenharia (doc 7), o que sugere teto 3 com registro both. Os 'tests' de lavagem de dinheiro e de processos logísticos parecem falsos positivos; o 'rigorous testing' dos T&Cs fica em 2."
+   "razao": "Teste A/B aparece nomeado tanto no Privacy Notice (docs 1 e 5) quanto no blog de engenharia, o que sugere teto 3 com registro both. Os trechos de 'test' sobre lavagem de dinheiro, eficiência de cooperação e software logístico parecem falsos positivos; o 'rigorous testing' dos T&Cs ficou como 2, a confirmar."
   },
   "V2": {
    "notas": {
@@ -111,21 +109,18 @@
      "research"
     ],
     "c:V2-4": [
-     "research",
-     "service improvement"
+     "service improvement",
+     "research"
     ],
     "c:V2-5": "x"
    },
    "extras": {},
-   "razao": "O Privacy Notice combina melhoria do serviço com pesquisa científica/de mercado. Não se vê enquadramento de pesquisa com humanos nem de bem da comunidade."
+   "razao": "Os trechos do Privacy Notice combinam melhoria do serviço com pesquisa científica, sem linguagem de pesquisa com humanos ou de bem comunitário. O trecho do blog descreve método, não enquadramento."
   },
   "V3": {
    "notas": {
     "h:c9037ac3": "x",
     "h:a86cd29b": "x",
-    "h:813e673a": [
-     "activities"
-    ],
     "h:b087d90c": "x",
     "h:1fa51c4a": "x",
     "h:328d50b5": [
@@ -135,22 +130,21 @@
     "h:562e178a": "x",
     "h:2addf346": "x",
     "h:915d4681": "x",
-    "h:03f41d1a": [
-     "activities"
-    ],
+    "h:03f41d1a": "x",
     "h:ad3419ea": "x",
     "h:03a3d7a4": "x",
     "h:acfa76e3": "x",
-    "h:b116151d": "x",
-    "h:a9f66a0e": "x",
     "h:d4529cb7": "x",
+    "h:5baa1fbb": "x",
     "c:V3-1": [
      "activities"
     ],
     "c:V3-2": [
      "activities"
     ],
-    "c:V3-3": "x",
+    "c:V3-3": [
+     "activities"
+    ],
     "c:V3-4": [
      "activities"
     ],
@@ -158,9 +152,9 @@
     "c:V3-6": "x"
    },
    "extras": {
-    "v3_targets": "versões de website/app; serviços e conteúdo; variantes de produto; lançamento de features (controlled rollout)"
+    "v3_targets": "versões de website/app; serviços e conteúdo; páginas de detalhe de produto; lançamentos de features (rollout controlado)"
    },
-   "razao": "Superfícies testadas são nomeadas de forma genérica (versões do site/app, conteúdo, variantes de produto), sem experimento específico divulgado. Preço nos T&Cs aparece como parâmetro de ranking/personalização, não como alvo de teste."
+   "razao": "O Privacy Notice nomeia versões de website/app e conteúdo como objeto de A/B, e o blog menciona páginas de produto e lançamentos de features, mas nenhum experimento específico é descrito. Preço nos T&Cs aparece como parâmetro de ranking/personalização, não como alvo de teste."
   },
   "V4": {
    "notas": {
@@ -168,40 +162,36 @@
     "c:V4-2": [
      "consent"
     ],
-    "c:V4-3": [
-     "legitimate interest"
-    ],
+    "c:V4-3": "x",
     "c:V4-4": [
      "legitimate interest"
     ],
     "c:V4-5": "x",
-    "c:V4-6": [
-     "consent"
-    ]
+    "c:V4-6": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "usage analysis (performance and analytics cookies); secundariamente research e product and technology development",
+    "v4_mapped_purpose": "usage analysis (performance and analytics cookies); alternativa: product and technology development",
     "v4_region_gated": "No"
    },
-   "razao": "Os A/B tests estão dentro de 'usage analysis' via cookies de analytics, com base em consentimento (doc 3), enquanto pesquisa e desenvolvimento de produto usam legítimo interesse. As bases por finalidade aparecem em prosa nos próprios documentos, daí a sugestão de No; o codificador pode avaliar se isso conta como tabela."
+   "razao": "Os A/B tests estão dentro de 'usage analysis' via cookies de analytics, cuja base declarada (doc 3) é consentimento; se o codificador mapear para 'product and technology development', a base seria legítimo interesse. Os documentos trazem a base legal por finalidade em cada secção, por isso sugeri No para geo-gating."
   },
   "V5": {
    "notas": {
     "c:V5-1": "cookie/ads-only",
     "c:V5-2": "cookie/ads-only",
     "c:V5-3": "x",
-    "c:V5-4": "cookie/ads-only",
+    "c:V5-4": "GDPR-objection-only",
     "c:V5-5": "GDPR-objection-only",
     "c:V5-6": "x"
    },
    "extras": {},
-   "razao": "O controle disponível é desmarcar cookies de analytics, que pelo critério não é opt-out de experimento, mais o direito genérico de objeção do Art. 21. Não há opção dedicada a experimentação nos trechos."
+   "razao": "O único controle próximo aos A/B tests é desmarcar a categoria de cookies de analytics, o que pelo critério é cookie/ads-only e não opt-out dedicado. Os demais trechos são a objeção genérica do GDPR ou preferências de recomendação."
   },
   "V6": {
    "notas": {
     "h:dd4b04ee": "x",
     "h:6f9e2e54": "x",
-    "h:677576ed": "x",
+    "h:f115766a": "x",
     "h:9bbb7dc1": "x",
     "h:b3294cb4": "x",
     "h:3d8bb1f2": "x",
@@ -214,7 +204,7 @@
    "extras": {
     "v6_which": ""
    },
-   "razao": "Nenhum trecho descreve programa beta ou de acesso antecipado por adesão. A contagem de 'beta' é zero em todos os documentos."
+   "razao": "Nenhum trecho descreve programa beta ou de acesso antecipado por inscrição; a contagem de 'beta' é zero em todos os documentos."
   },
   "V7": {
    "notas": {
@@ -223,13 +213,13 @@
     "c:V7-3": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de decisão automatizada, comunicações contratuais e resultado de denúncia, não debriefing. Pelo log ('debrief' = 0), o tema parece não endereçado nos documentos."
+   "razao": "Os trechos são aviso de decisão automatizada, comunicação contratual e retorno de denúncia, todos excluídos pelo critério. O tema debriefing não aparece (debrief: 0 em todos os documentos), sugerindo No do tipo 'não endereçado'."
   },
   "V8": {
    "notas": {
     "h:c7218616": "x",
-    "h:c98bdd88": "x",
-    "h:16b50a39": "x",
+    "h:6b552e2a": "x",
+    "h:d163bb13": "x",
     "h:5cf58b77": "x",
     "h:7630f3b6": "x",
     "h:b8a067b9": "x",
@@ -242,7 +232,7 @@
     "c:V8-4": "x"
    },
    "extras": {},
-   "razao": "Os 'risk assessment' são antifraude/pagamento e 'ethics' é o Code of Ethics do menu; a auditoria de desenho de A/B no blog trata de qualidade metodológica, não de revisão ética ou de risco. Sugere-se No, com nota de gap entre obrigações do DSA e os documentos ao usuário."
+   "razao": "'Risk assessment' refere-se a fraude e crédito, e 'ethics' ao Code of Ethics do menu corporativo; peer review e auditoria de desenho de A/B no blog são controle de qualidade metodológica, não revisão ética. Sugestão de No, com nota de gap em relação às avaliações de risco do DSA."
   },
   "V9": {
    "notas": {
@@ -253,10 +243,9 @@
     "c:V9-5": "x",
     "h:dd4b04ee": "x",
     "h:6f9e2e54": "x",
-    "h:677576ed": "x",
     "h:c9037ac3": "sim",
+    "h:f115766a": "sim",
     "h:a86cd29b": "sim",
-    "h:813e673a": "sim",
     "h:9bbb7dc1": "x",
     "h:b3294cb4": "x",
     "h:3d8bb1f2": "x",
@@ -276,9 +265,8 @@
     "h:ba417332": "sim",
     "h:03a3d7a4": "sim",
     "h:acfa76e3": "sim",
-    "h:b116151d": "sim",
-    "h:a9f66a0e": "sim",
     "h:d4529cb7": "sim",
+    "h:5baa1fbb": "sim",
     "c:V1-1": "sim",
     "c:V1-2": "sim",
     "c:V1-3": "sim",
@@ -286,12 +274,12 @@
     "c:V1-5": "x"
    },
    "extras": {},
-   "razao": "A divulgação aparece no Privacy Notice (docs 1 e 5) e no blog de engenharia (docs 7 e 8), o que sugere registro both. O 'rigorous testing' dos T&Cs foi tratado como teste de algoritmo, não experimentação; o codificador pode reavaliar."
+   "razao": "A experimentação aparece no Privacy Notice (docs 1 e 5) e no blog de engenharia (docs 7 e 8), o que sugere locais privacy policy e blog, registro both. O 'rigorous testing' dos T&Cs ficou como x por não descrever experimento, mas o codificador pode reconsiderar."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 24129,
-  "output": 7759
+  "input": 23467,
+  "output": 7389
  }
 }

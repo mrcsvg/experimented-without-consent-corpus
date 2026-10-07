@@ -5,13 +5,13 @@
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
  "entrada_sha": "170ef9915ca7",
- "gerado_em": "2026-10-04T23:45:04+00:00",
+ "gerado_em": "2026-10-07T02:00:38+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
   "max_tokens": 16000,
   "thinking": "adaptive",
-  "tentativas": 2
+  "tentativas": 1
  },
  "n_trechos": {
   "V1": 17,
@@ -66,13 +66,13 @@
     "c:V1-3": "1",
     "c:V1-4": "1",
     "c:V1-5": "2",
-    "c:V1-6": "1",
+    "c:V1-6": "2",
     "c:V1-7": "2",
     "c:V1-8": "x",
     "c:V1-9": "2"
    },
    "extras": {},
-   "razao": "Os trechos dizem testar novos produtos e recursos ('Build and test out new products and features to see if they work') sem mencionar grupos, variantes ou aleatorização, o que sugere nível 2. Esse teto aparece na política de privacidade e nos termos de uso, ambos vinculantes."
+   "razao": "Os trechos dizem que testam produtos e recursos (\"Build and test out new products and features to see if they work\"), sem mencionar grupos, variantes ou aleatorização, o que sugere teto 2. Esse nível aparece em documentos vinculantes (política de privacidade e termos de uso); o c:V1-8 descreve aprendizado do modelo, não testes com usuários."
   },
   "V2": {
    "notas": {
@@ -114,7 +114,7 @@
     ]
    },
    "extras": {},
-   "razao": "Aparecem melhoria do serviço, pesquisa e bem da comunidade, e os três coocorrem nos termos de uso ('contribute to the well-being of our community'). Nenhum trecho enquadra a atividade como pesquisa com seres humanos no sentido da ética em pesquisa."
+   "razao": "Aparecem service improvement, research e social-good/community; o c:V2-9 (termos de uso) junta os três, com \"well-being of our community\". Nenhum trecho enquadra o uso como pesquisa com seres humanos no sentido ético."
   },
   "V3": {
    "notas": {
@@ -137,9 +137,9 @@
     "c:V3-11": "x"
    },
    "extras": {
-    "v3_targets": "new products and features; improvements to Meta Products"
+    "v3_targets": "new products; new features"
    },
-   "razao": "Os trechos nomeiam de forma genérica o que é testado (novos produtos e recursos), mas não divulgam nenhum experimento específico nem citam preço como alvo. O ranking do Feed aparece como funcionalidade de personalização, não como alvo de teste."
+   "razao": "Só \"new products and features\" são nomeados como objeto de teste; os trechos do documento 5 descrevem o ranqueamento como funcionalidade, não como alvo de experimento. O preço da assinatura (c:V3-5) não aparece como alvo de teste, e nenhum experimento específico é divulgado."
   },
   "V4": {
    "notas": {
@@ -161,10 +161,10 @@
     "c:V4-10": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "Providing Meta Products (build and test out new products and features) / Improving Meta Products",
+    "v4_mapped_purpose": "Improving Meta Products (legitimate interests); Providing Meta Products, which includes \"Build and test out new products and features\" (contract)",
     "v4_region_gated": "No"
    },
-   "razao": "Na tabela de bases legais, 'Build and test out new products and features' fica sob execução de contrato, e 'Improving Meta Products' sob legítimo interesse. A tabela está presente nos documentos capturados, o que pela definição leva a No em region_gated."
+   "razao": "A tabela de bases legais está presente nos documentos congelados: os testes aparecem sob contrato (\"Providing Meta Products\") e sob legítimo interesse (\"Improving Meta Products\"). Como a tabela aparece nos documentos lidos, a sugestão para geo-gating é No."
   },
   "V5": {
    "notas": {
@@ -179,7 +179,7 @@
     "c:V5-9": "GDPR-objection-only"
    },
    "extras": {},
-   "razao": "Os trechos mostram só o direito genérico de objeção ao legítimo interesse, além de controles de anúncios e cookies; nenhum controle é específico de experimentação. A parte de teste ligada à base contratual não parece coberta pela objeção."
+   "razao": "Há o direito genérico de objeção ao legítimo interesse e controles de cookies e anúncios, mas nenhum controle específico de experimentação. A parte dos testes baseada em contrato não parece coberta pela objeção."
   },
   "V6": {
    "notas": {
@@ -198,7 +198,7 @@
    "extras": {
     "v6_which": ""
    },
-   "razao": "Nenhum trecho descreve um programa beta ou de acesso antecipado com inscrição voluntária. A participação em pesquisas de opinião e as atualizações automáticas não são programas opt-in de teste."
+   "razao": "Nenhum trecho descreve um programa de inscrição voluntária para acesso antecipado. Participar de pesquisas de opinião e receber atualizações automáticas não são programas beta."
   },
   "V7": {
    "notas": {
@@ -210,7 +210,7 @@
     "c:V7-6": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de mudança de política ou de termos, comunicações gerais e convites para pesquisa, nenhum deles um aviso posterior de participação em experimento. O log mostra debrief:0 em todos os documentos, o que sugere o caso 'não endereçado'."
+   "razao": "Os trechos são avisos de mudança de política, comunicações gerais ou convites para pesquisa, sem aviso posterior de participação em experimento. A contagem de palavras-chave mostra debrief:0 em todos os documentos, o que sugere tema não endereçado."
   },
   "V8": {
    "notas": {
@@ -223,7 +223,7 @@
     "c:V8-7": "x"
    },
    "extras": {},
-   "razao": "O Oversight Board revisa moderação de conteúdo, e as menções a 'risks' e 'assessment' se referem à ponderação de legítimo interesse, não à revisão de experimentos. O log mostra ethics, review board, IRB e risk assessment em 0; avaliações de risco do DSA não aparecem nos documentos (gap regulatório-vs-documento)."
+   "razao": "O Oversight Board revisa decisões de moderação, e a ponderação de riscos refere-se à análise de objeções, não a experimentos; ethics, review board, IRB e risk assessment têm contagem 0. Se houver avaliação de risco do DSA, ela não aparece nos documentos ao usuário (gap regulatório-vs-documento)."
   },
   "V9": {
    "notas": {
@@ -250,18 +250,18 @@
     "c:V1-3": "x",
     "c:V1-4": "x",
     "c:V1-5": "sim",
-    "c:V1-6": "x",
+    "c:V1-6": "sim",
     "c:V1-7": "sim",
     "c:V1-8": "x",
     "c:V1-9": "sim"
    },
    "extras": {},
-   "razao": "A divulgação de teste aparece na política de privacidade (docs 1 e 6) e nos termos de uso (doc 4, vinculante apesar da URL de help centre, porque se declara 'agreement'), o que indica registro binding. O site de transparência do Feed não traz menção a testes."
+   "razao": "A divulgação de testes aparece na política de privacidade (documentos 1 e 6) e nos termos de uso (documento 4), que se declaram acordo com o usuário mesmo hospedados na Help Centre; o registro agregado sugerido é binding. O documento 5 (Transparency Centre) não traz linguagem de teste."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 37921,
-  "output": 11201
+  "input": 18916,
+  "output": 5645
  }
 }

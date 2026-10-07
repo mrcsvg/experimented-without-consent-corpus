@@ -1,7 +1,7 @@
 {
  "servico": "Google Shopping",
  "slug": "google-shopping",
- "gerado_em": "2026-10-06T19:47:14+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -142,30 +142,6 @@
     "total_no_doc": 1
    },
    {
-    "termo": "test",
-    "kwic": "Search Engine Testing & Evaluation - Google Search Jump to Content Overview Our approach Accessing info Info qu…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "n": 5,
-    "total_no_doc": 7
-   },
-   {
-    "termo": "test",
-    "kwic": "…& kids Helping creators How Search works Organizing information Ranking results Rigorous testing Detecting spam Features Our history Improving Search with rigorous testing Our goal is al…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "n": 5,
-    "total_no_doc": 7
-   },
-   {
-    "termo": "test",
-    "kwic": "…sults Rigorous testing Detecting spam Features Our history Improving Search with rigorous testing Our goal is always to provide you with the most useful and relevant information. Any chan…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "n": 5,
-    "total_no_doc": 7
-   },
-   {
     "termo": "experiment",
     "kwic": "…and decide whether to implement a proposed change. Data from these search evaluations and experiments go through a thorough review by experienced engineers and search analysts, as well as oth…",
     "flag": null,
@@ -183,7 +159,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…We evaluate Search in multiple ways. In 2023, we ran: 4,781 launches 16,871 live traffic experiments 719,326 search quality tests 124,942 side-by-side experiments 4,781 launches Every single…",
+    "kwic": "…enced engineers and data scientists, who carefully review the data from all the different experiments to decide if the change is approved to launch. If we can’t show that a change actually ma…",
     "flag": null,
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "n": 5,
@@ -196,6 +172,14 @@
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "n": 5,
     "total_no_doc": 1
+   },
+   {
+    "termo": "test",
+    "kwic": "…creasing the relevance and usefulness of our results for everyone. 719,326 search quality tests We work with external Search Quality Raters to measure the quality of Search results on a…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
+    "n": 5,
+    "total_no_doc": 7
    }
   ],
   "V6": [
@@ -209,23 +193,7 @@
    },
    {
     "termo": "test",
-    "kwic": "Search Engine Testing & Evaluation - Google Search Jump to Content Overview Our approach Accessing info Info qu…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "n": 5,
-    "total_no_doc": 7
-   },
-   {
-    "termo": "test",
-    "kwic": "…& kids Helping creators How Search works Organizing information Ranking results Rigorous testing Detecting spam Features Our history Improving Search with rigorous testing Our goal is al…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
-    "n": 5,
-    "total_no_doc": 7
-   },
-   {
-    "termo": "test",
-    "kwic": "…sults Rigorous testing Detecting spam Features Our history Improving Search with rigorous testing Our goal is always to provide you with the most useful and relevant information. Any chan…",
+    "kwic": "…creasing the relevance and usefulness of our results for everyone. 719,326 search quality tests We work with external Search Quality Raters to measure the quality of Search results on a…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "n": 5,
@@ -251,7 +219,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…We evaluate Search in multiple ways. In 2023, we ran: 4,781 launches 16,871 live traffic experiments 719,326 search quality tests 124,942 side-by-side experiments 4,781 launches Every single…",
+    "kwic": "…enced engineers and data scientists, who carefully review the data from all the different experiments to decide if the change is approved to launch. If we can’t show that a change actually ma…",
     "flag": null,
     "file": "google-shopping/05-howsearchworks-how-search-works-rigorous-testing.md",
     "n": 5,

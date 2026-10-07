@@ -4,8 +4,8 @@
  "slug": "snapchat",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "6446eafeafbe",
- "gerado_em": "2026-10-04T23:41:08+00:00",
+ "entrada_sha": "5764897d464e",
+ "gerado_em": "2026-10-07T01:57:42+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -113,7 +113,7 @@
     "c:V1-11": "2"
    },
    "extras": {},
-   "razao": "Teto 3 aparece só nos blogs (docs 7, 8, 10), com A/B e atribuição aleatória de Snapchatters. Nos vinculantes, só nível 1 (\"ways to improve our Services\"); \"trial\" do ToS é júri, falso positivo."
+   "razao": "Nível 3 (A/B, randomização, experimentos controlados) aparece só nos blogs (docs 7, 8, 10); nos vinculantes, só nível 1 (melhorar o serviço). Os 'trial' do ToS são júri/arbitragem e o 'test' é sondagem de vulnerabilidade, falsos positivos."
   },
   "V2": {
    "notas": {
@@ -142,7 +142,7 @@
     ]
    },
    "extras": {},
-   "razao": "Predominam melhoria do serviço e pesquisa genérica; não há pesquisa com seres humanos no sentido ético. V2-6 (\"safe and enjoyable for everyone\") é borderline de comunidade e está ligado a personalização, não a testes."
+   "razao": "Predominam melhoria do serviço e pesquisa genérica; nenhum trecho enquadra como pesquisa com humanos. O trecho de comunidade (V2-6) justifica personalização, não testes, e pode ser fronteiriço."
   },
   "V3": {
    "notas": {
@@ -157,15 +157,15 @@
     "h:edfca9e7": [
      "activities"
     ],
-    "h:14c4b99e": [
-     "activities"
-    ],
+    "h:14c4b99e": "x",
     "h:74ed3fee": "x",
     "h:92c60be5": "x",
     "h:49867008": [
      "activities"
     ],
-    "h:6d135dbb": "x",
+    "h:6d135dbb": [
+     "activities"
+    ],
     "h:3ca71006": "x",
     "h:fdfd3aee": "x",
     "h:6a4b5745": "x",
@@ -183,14 +183,15 @@
     "c:V3-8": "x",
     "c:V3-9": "x",
     "c:V3-10": [
+     "activities",
      "specific"
     ],
     "c:V3-11": "x"
    },
    "extras": {
-    "v3_targets": "modelos de ML de ranking de anúncios; novos recursos; recurso Maps"
+    "v3_targets": "modelos de ranking de anúncios; novos recursos; recurso Maps"
    },
-   "razao": "Atividades nomeadas (modelos de ranking de anúncios, novos recursos) e um teste específico (A/B do Maps) aparecem só em blogs. Preço ao consumidor não aparece como alvo; divisão de orçamento de anunciantes é desenho do teste, não preço."
+   "razao": "Os blogs nomeiam modelos de ranking de anúncios e novos recursos como alvos, e o doc 8 cita um A/B test do Maps (específico). Preço não aparece como alvo; personalização e leilão de anúncios foram tratados como funcionalidade."
   },
   "V4": {
    "notas": {
@@ -216,10 +217,10 @@
     "c:V4-10": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "Develop and improve our features and Services, including algorithms and machine learning models (linha Development)",
+    "v4_mapped_purpose": "Development: develop and improve our features and Services",
     "v4_region_gated": "No"
    },
-   "razao": "A linha Development da tabela (doc 6) declara Contract, Legitimate Interest e Legal obligation; a linha Research acrescenta Consent. A tabela está presente nos documentos congelados, logo geo-gating = No pela definição."
+   "razao": "A linha 'Development' da tabela do doc 6 declara contrato, legítimo interesse e obrigação legal; a linha 'Research' acrescenta consentimento. A tabela está presente nos documentos capturados, logo 'No' pela definição."
   },
   "V5": {
    "notas": {
@@ -232,7 +233,7 @@
     "c:V5-7": "x"
    },
    "extras": {},
-   "razao": "Há direito genérico de objeção e controles de anúncios/cookies, mas nenhum controle específico de experimentação. Opção de menos personalização no ToS não trata de experimentos."
+   "razao": "Há o direito genérico de objeção e controles de anúncios/cookies, mas nenhum controle específico de experimentação. O controle de menos personalização no ToS não trata de experimentos."
   },
   "V6": {
    "notas": {
@@ -246,12 +247,12 @@
     "h:5513694c": "x",
     "h:cb163de5": "x",
     "h:6c19abae": "x",
-    "h:6413ff72": "sim",
-    "h:593ace9f": "sim",
     "h:8f41bdb0": "sim",
     "h:2ffc26fc": "sim",
+    "h:6db21d0c": "sim",
     "h:f9900a1c": "sim",
     "h:e4da23c1": "sim",
+    "h:274f5ea0": "sim",
     "h:8af7772a": "x",
     "h:cd413356": "x",
     "h:42cc0032": "x",
@@ -262,9 +263,9 @@
     "c:V6-5": "sim"
    },
    "extras": {
-    "v6_which": "Snapchat Beta: inscrição voluntária para testar recursos antes do lançamento (iOS via TestFlight; Android Beta com inscrições suspensas)"
+    "v6_which": "Snapchat Beta: inscrição voluntária para testar recursos antes do lançamento (iOS via TestFlight; inscrições Android suspensas)"
    },
-   "razao": "A página Snapchat Beta (doc 9) descreve programa opt-in de acesso antecipado. Não mitiga a V5."
+   "razao": "A página Snapchat Beta (doc 9) descreve um programa de inscrição voluntária. Não mitiga a V5."
   },
   "V7": {
    "notas": {
@@ -275,7 +276,7 @@
     "c:V7-5": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de mudança de política/serviço ou descrição de A/B sem aviso posterior ao participante. Sugere No do tipo tema não endereçado, com 'debrief' zerado no log de palavras-chave."
+   "razao": "Os trechos são avisos de mudança de política ou serviço, ou descrição de A/B no blog, nenhum é debriefing. Sugestão de No do tipo 'não endereçado'; o log mostra 0 ocorrências de 'debrief'."
   },
   "V8": {
    "notas": {
@@ -288,7 +289,7 @@
     "c:V8-7": "x"
    },
    "extras": {},
-   "razao": "Ponderação de legítimo interesse, revisão de objeções e Safety Advisory Board não são revisão ética de experimentos; o 'risk mitigation' do blog refere-se ao orçamento de anunciantes. Sugere No, com nota de gap entre avaliação de risco do DSA e documentos ao usuário."
+   "razao": "A ponderação de legítimo interesse e a revisão de objeções são genéricas, e o 'risk mitigation' do blog trata de orçamento de anunciantes, não de revisão ética. Sugestão de No, com nota de gap entre a obrigação do DSA e os documentos ao usuário."
   },
   "V9": {
    "notas": {
@@ -345,12 +346,12 @@
     "c:V1-11": "sim"
    },
    "extras": {},
-   "razao": "A divulgação de experimentação aparece só em blogs de engenharia/NVIDIA e na página Beta, todos não vinculantes. Os vinculantes falam apenas em melhorar o serviço, o que sugere registro agregado non-binding."
+   "razao": "A divulgação de experimentação aparece só nos blogs de engenharia e da NVIDIA e na página Beta (non-binding). A política e o ToS só falam em melhorar o serviço ou em pesquisa genérica."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 27863,
-  "output": 8486
+  "input": 27875,
+  "output": 8526
  }
 }

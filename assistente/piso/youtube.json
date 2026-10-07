@@ -1,7 +1,7 @@
 {
  "servico": "YouTube",
  "slug": "youtube",
- "gerado_em": "2026-10-06T19:47:13+00:00",
+ "gerado_em": "2026-10-07T02:07:08+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -250,32 +250,16 @@
     "total_no_doc": 15
    },
    {
-    "termo": "test",
-    "kwic": "…and safety center Copyright and rights management YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTub…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "youtube/06-youtube-answer.md",
-    "n": 6,
-    "total_no_doc": 4
-   },
-   {
     "termo": "experiment",
-    "kwic": "…nter Copyright and rights management YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members ca…",
+    "kwic": "…feature experiments at Youtube.com/new YouTube Premium members can learn and try multiple experimental YouTube features at youtube.com/new . Some experiments are available only for a limited t…",
     "flag": null,
     "file": "youtube/06-youtube-answer.md",
     "n": 6,
     "total_no_doc": 15
    },
    {
-    "termo": "test",
-    "kwic": "…ement YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members can learn and try multiple…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "youtube/06-youtube-answer.md",
-    "n": 6,
-    "total_no_doc": 4
-   },
-   {
     "termo": "experiment",
-    "kwic": "…Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members can learn and try multiple experimental YouTub…",
+    "kwic": "…embers can learn and try multiple experimental YouTube features at youtube.com/new . Some experiments are available only for a limited time, may have limited spots, or are limited to select t…",
     "flag": null,
     "file": "youtube/06-youtube-answer.md",
     "n": 6,
@@ -298,16 +282,16 @@
     "total_no_doc": 65
    },
    {
-    "termo": "A-B",
-    "kwic": "…nt Privacy and safety center Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to…",
-    "flag": null,
+    "termo": "test",
+    "kwic": "…s & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 different titles and thumbnails. At the end of the test, the title or…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "youtube/07-youtube-answer-7.md",
     "n": 7,
-    "total_no_doc": 29
+    "total_no_doc": 65
    },
    {
     "termo": "test",
-    "kwic": "…rivacy and safety center Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 di…",
+    "kwic": "…Creators can test and compare up to 3 different titles and thumbnails. At the end of the test, the title or combination of title and thumbnail with the highest watch time will be show…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "youtube/07-youtube-answer-7.md",
     "n": 7,
@@ -315,19 +299,19 @@
    },
    {
     "termo": "A-B",
-    "kwic": "…Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 different titles and thumb…",
+    "kwic": "…eatures and how to unlock access to advanced features . Video format: You are not able to A/B test Shorts, Scheduled Lives, and Premiere videos at this time. However, you can A/B test…",
     "flag": null,
     "file": "youtube/07-youtube-answer-7.md",
     "n": 7,
     "total_no_doc": 29
    },
    {
-    "termo": "test",
-    "kwic": "…right and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 different titles and thumbnails…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "termo": "A-B",
+    "kwic": "…e to A/B test Shorts, Scheduled Lives, and Premiere videos at this time. However, you can A/B test Live Archives. Premiere videos are only eligible after the Premiere ends and the vid…",
+    "flag": null,
     "file": "youtube/07-youtube-answer-7.md",
     "n": 7,
-    "total_no_doc": 65
+    "total_no_doc": 29
    },
    {
     "termo": "control group",
@@ -394,22 +378,6 @@
     "total_no_doc": 43
    },
    {
-    "termo": "test",
-    "kwic": "…e) Google Employee • Original Poster Oct 30, 2019 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constant…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "youtube/08-youtube-thread.md",
-    "n": 8,
-    "total_no_doc": 26
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…• Original Poster Oct 30, 2019 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools…",
-    "flag": null,
-    "file": "youtube/08-youtube-thread.md",
-    "n": 8,
-    "total_no_doc": 43
-   },
-   {
     "termo": "experiment",
     "kwic": "…19 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools and features to help you find…",
     "flag": null,
@@ -424,6 +392,22 @@
     "file": "youtube/08-youtube-thread.md",
     "n": 8,
     "total_no_doc": 26
+   },
+   {
+    "termo": "test",
+    "kwic": "…w tools and features to help you find, watch, share and create content more easily. These test features (sometimes also called “betas” or “experiments”) are usually available for a sho…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 26
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…re and create content more easily. These test features (sometimes also called “betas” or “experiments”) are usually available for a short period of time and only for a small group of people.…",
+    "flag": null,
+    "file": "youtube/08-youtube-thread.md",
+    "n": 8,
+    "total_no_doc": 43
    },
    {
     "termo": "A-B",
@@ -445,22 +429,6 @@
    },
    {
     "termo": "test",
-    "kwic": "…and safety center Copyright and rights management YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTub…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "youtube/06-youtube-answer.md",
-    "n": 6,
-    "total_no_doc": 4
-   },
-   {
-    "termo": "test",
-    "kwic": "…ement YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members can learn and try multiple…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "youtube/06-youtube-answer.md",
-    "n": 6,
-    "total_no_doc": 4
-   },
-   {
-    "termo": "test",
     "kwic": "A/B test titles & thumbnails - YouTube Help Skip to main content YouTube Help Sign in Google Help…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "youtube/07-youtube-answer-7.md",
@@ -469,7 +437,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…rivacy and safety center Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 di…",
+    "kwic": "…s & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 different titles and thumbnails. At the end of the test, the title or…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "youtube/07-youtube-answer-7.md",
     "n": 7,
@@ -477,7 +445,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…right and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 different titles and thumbnails…",
+    "kwic": "…Creators can test and compare up to 3 different titles and thumbnails. At the end of the test, the title or combination of title and thumbnail with the highest watch time will be show…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "youtube/07-youtube-answer-7.md",
     "n": 7,
@@ -493,7 +461,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…e) Google Employee • Original Poster Oct 30, 2019 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constant…",
+    "kwic": "…atures and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools and features to help you find, watch, share and create content more easily.…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "youtube/08-youtube-thread.md",
     "n": 8,
@@ -501,7 +469,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…atures and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools and features to help you find, watch, share and create content more easily.…",
+    "kwic": "…w tools and features to help you find, watch, share and create content more easily. These test features (sometimes also called “betas” or “experiments”) are usually available for a sho…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "youtube/08-youtube-thread.md",
     "n": 8,
@@ -519,7 +487,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…nter Copyright and rights management YouTube Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members ca…",
+    "kwic": "…feature experiments at Youtube.com/new YouTube Premium members can learn and try multiple experimental YouTube features at youtube.com/new . Some experiments are available only for a limited t…",
     "flag": null,
     "file": "youtube/06-youtube-answer.md",
     "n": 6,
@@ -527,7 +495,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…Premium benefits Perks & offers Test feature experiments at Youtube.com/new Test feature experiments at Youtube.com/new YouTube Premium members can learn and try multiple experimental YouTub…",
+    "kwic": "…embers can learn and try multiple experimental YouTube features at youtube.com/new . Some experiments are available only for a limited time, may have limited spots, or are limited to select t…",
     "flag": null,
     "file": "youtube/06-youtube-answer.md",
     "n": 6,
@@ -543,7 +511,7 @@
    },
    {
     "termo": "A-B",
-    "kwic": "…nt Privacy and safety center Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to…",
+    "kwic": "…eatures and how to unlock access to advanced features . Video format: You are not able to A/B test Shorts, Scheduled Lives, and Premiere videos at this time. However, you can A/B test…",
     "flag": null,
     "file": "youtube/07-youtube-answer-7.md",
     "n": 7,
@@ -551,7 +519,7 @@
    },
    {
     "termo": "A-B",
-    "kwic": "…Copyright and rights management Edit videos & video settings A/B test titles & thumbnails A/B test titles & thumbnails Creators can test and compare up to 3 different titles and thumb…",
+    "kwic": "…e to A/B test Shorts, Scheduled Lives, and Premiere videos at this time. However, you can A/B test Live Archives. Premiere videos are only eligible after the Premiere ends and the vid…",
     "flag": null,
     "file": "youtube/07-youtube-answer-7.md",
     "n": 7,
@@ -615,7 +583,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…• Original Poster Oct 30, 2019 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools…",
+    "kwic": "…19 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools and features to help you find…",
     "flag": null,
     "file": "youtube/08-youtube-thread.md",
     "n": 8,
@@ -623,7 +591,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…19 10/30/2019, 7:54:25 PM Get link YouTube test features and experiments What are YouTube experiments? YouTube product teams are constantly testing out new tools and features to help you find…",
+    "kwic": "…re and create content more easily. These test features (sometimes also called “betas” or “experiments”) are usually available for a short period of time and only for a small group of people.…",
     "flag": null,
     "file": "youtube/08-youtube-thread.md",
     "n": 8,

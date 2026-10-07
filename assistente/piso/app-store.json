@@ -1,7 +1,7 @@
 {
  "servico": "App Store",
  "slug": "app-store",
- "gerado_em": "2026-10-06T19:47:14+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -274,7 +274,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…re Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer For…",
+    "kwic": "…duct page optimization Optimize your iOS or iPadOS app's product page on the App Store by testing up to three different app icons, screenshots, and previews to see which resonate best wit…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "app-store/05-app-store-connect-create-product-optimization-tests.md",
     "n": 5,
@@ -282,7 +282,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…a Manage app accessibility Manage Accessibility Nutrition Labels Manage app accessibility TestFlight Overview Test a beta version Provide test information Test a beta version Add internal te…",
+    "kwic": "…conversion rate, as well as algorithms that provide confidence in the reliability of the test results. Learn how to view product page optimization results. Note: Your app must be in t…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "app-store/05-app-store-connect-create-product-optimization-tests.md",
     "n": 5,
@@ -306,7 +306,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…re Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer For…",
+    "kwic": "…rs Filter ⌘K Create product page optimization tests Configure test treatments By default, test treatments are copies of your app’s original App Store product page. You can edit the app…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "app-store/06-app-store-connect-create-product-optimization-tests-6.md",
     "n": 6,
@@ -314,7 +314,7 @@
    },
    {
     "termo": "test",
-    "kwic": "TestFlight - Apple Developer View in English Apple Developer Get Started Explore Get Started Overvie…",
+    "kwic": "…ight Open Menu Close Menu Overview Release Notes Beta testing made simple with TestFlight TestFlight makes it easy for testers to give feedback on your apps, games, and App Clips across Appl…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "app-store/07-testflight.md",
     "n": 7,
@@ -322,7 +322,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…re Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer For…",
+    "kwic": "…rview Release Notes Beta testing made simple with TestFlight TestFlight makes it easy for testers to give feedback on your apps, games, and App Clips across Apple platforms before you pub…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "app-store/07-testflight.md",
     "n": 7,
@@ -330,19 +330,11 @@
    },
    {
     "termo": "test",
-    "kwic": "…Agreements and Guidelines System Status Quick Links Events News Forums Sample Code Videos TestFlight Open Menu Close Menu Overview Release Notes Beta testing made simple with TestFlight Test…",
+    "kwic": "…ublish. Share your beta with just your team, or the public. Learn how to get started with TestFlight. Get started To get started with TestFlight, go to the Apps section of App Store Connect…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "app-store/07-testflight.md",
     "n": 7,
     "total_no_doc": 64
-   },
-   {
-    "termo": "test",
-    "kwic": "…re Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer For…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "app-store/08-app-store-product-optimization.md",
-    "n": 8,
-    "total_no_doc": 42
    },
    {
     "termo": "test",
@@ -355,6 +347,14 @@
    {
     "termo": "test",
     "kwic": "…in higher conversion compared to only screenshots. Test details: Duration: 12 days Assets tested: App preview video Number of treatments: 1 Results: The original product page without an…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "n": 8,
+    "total_no_doc": 42
+   },
+   {
+    "termo": "test",
+    "kwic": "…ng Hypothesis: App icons with a robot design will convert better than other icon designs. Test details: Duration: 44 days Assets tested: App icons Number of treatments: 3 Results: The…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "app-store/08-app-store-product-optimization.md",
     "n": 8,
@@ -427,22 +427,6 @@
     "total_no_doc": 97
    },
    {
-    "termo": "test",
-    "kwic": "…re Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer For…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "app-store/05-app-store-connect-create-product-optimization-tests.md",
-    "n": 5,
-    "total_no_doc": 97
-   },
-   {
-    "termo": "test",
-    "kwic": "…a Manage app accessibility Manage Accessibility Nutrition Labels Manage app accessibility TestFlight Overview Test a beta version Provide test information Test a beta version Add internal te…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "app-store/05-app-store-connect-create-product-optimization-tests.md",
-    "n": 5,
-    "total_no_doc": 97
-   },
-   {
     "termo": "beta",
     "kwic": "…Manage Accessibility Nutrition Labels Manage app accessibility TestFlight Overview Test a beta version Provide test information Test a beta version Add internal testers Test a beta ver…",
     "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
@@ -465,6 +449,22 @@
     "file": "app-store/05-app-store-connect-create-product-optimization-tests.md",
     "n": 5,
     "total_no_doc": 22
+   },
+   {
+    "termo": "test",
+    "kwic": "…duct page optimization Optimize your iOS or iPadOS app's product page on the App Store by testing up to three different app icons, screenshots, and previews to see which resonate best wit…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "app-store/05-app-store-connect-create-product-optimization-tests.md",
+    "n": 5,
+    "total_no_doc": 97
+   },
+   {
+    "termo": "test",
+    "kwic": "…conversion rate, as well as algorithms that provide confidence in the reliability of the test results. Learn how to view product page optimization results. Note: Your app must be in t…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "app-store/05-app-store-connect-create-product-optimization-tests.md",
+    "n": 5,
+    "total_no_doc": 97
    },
    {
     "termo": "test",
@@ -483,14 +483,6 @@
     "total_no_doc": 101
    },
    {
-    "termo": "test",
-    "kwic": "…re Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer For…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "app-store/06-app-store-connect-create-product-optimization-tests-6.md",
-    "n": 6,
-    "total_no_doc": 101
-   },
-   {
     "termo": "beta",
     "kwic": "…Manage Accessibility Nutrition Labels Manage app accessibility TestFlight Overview Test a beta version Provide test information Test a beta version Add internal testers Test a beta ver…",
     "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
@@ -516,7 +508,15 @@
    },
    {
     "termo": "test",
-    "kwic": "TestFlight - Apple Developer View in English Apple Developer Get Started Explore Get Started Overvie…",
+    "kwic": "…rs Filter ⌘K Create product page optimization tests Configure test treatments By default, test treatments are copies of your app’s original App Store product page. You can edit the app…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "app-store/06-app-store-connect-create-product-optimization-tests-6.md",
+    "n": 6,
+    "total_no_doc": 101
+   },
+   {
+    "termo": "test",
+    "kwic": "…ight Open Menu Close Menu Overview Release Notes Beta testing made simple with TestFlight TestFlight makes it easy for testers to give feedback on your apps, games, and App Clips across Appl…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "app-store/07-testflight.md",
     "n": 7,
@@ -524,27 +524,11 @@
    },
    {
     "termo": "test",
-    "kwic": "…re Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer For…",
+    "kwic": "…rview Release Notes Beta testing made simple with TestFlight TestFlight makes it easy for testers to give feedback on your apps, games, and App Clips across Apple platforms before you pub…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "app-store/07-testflight.md",
     "n": 7,
     "total_no_doc": 64
-   },
-   {
-    "termo": "test",
-    "kwic": "…Agreements and Guidelines System Status Quick Links Events News Forums Sample Code Videos TestFlight Open Menu Close Menu Overview Release Notes Beta testing made simple with TestFlight Test…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "app-store/07-testflight.md",
-    "n": 7,
-    "total_no_doc": 64
-   },
-   {
-    "termo": "beta",
-    "kwic": "…nts News Forums Sample Code Videos TestFlight Open Menu Close Menu Overview Release Notes Beta testing made simple with TestFlight TestFlight makes it easy for testers to give feedback…",
-    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
-    "file": "app-store/07-testflight.md",
-    "n": 7,
-    "total_no_doc": 17
    },
    {
     "termo": "beta",
@@ -555,6 +539,14 @@
     "total_no_doc": 17
    },
    {
+    "termo": "test",
+    "kwic": "…ublish. Share your beta with just your team, or the public. Learn how to get started with TestFlight. Get started To get started with TestFlight, go to the Apps section of App Store Connect…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "app-store/07-testflight.md",
+    "n": 7,
+    "total_no_doc": 64
+   },
+   {
     "termo": "beta",
     "kwic": "…an email address so you can monitor and respond to any tester feedback. Keep in mind your beta app description and beta app review information are required in order to share your beta…",
     "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
@@ -563,12 +555,12 @@
     "total_no_doc": 17
    },
    {
-    "termo": "test",
-    "kwic": "…re Downloads All Downloads Operating Systems Applications Design Resources Featured Xcode TestFlight Fonts SF Symbols Icon Composer Support Explore Support Overview Help Guides Developer For…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "app-store/08-app-store-product-optimization.md",
-    "n": 8,
-    "total_no_doc": 42
+    "termo": "beta",
+    "kwic": "…an monitor and respond to any tester feedback. Keep in mind your beta app description and beta app review information are required in order to share your beta with external testers. Ne…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "app-store/07-testflight.md",
+    "n": 7,
+    "total_no_doc": 17
    },
    {
     "termo": "test",
@@ -581,6 +573,14 @@
    {
     "termo": "test",
     "kwic": "…in higher conversion compared to only screenshots. Test details: Duration: 12 days Assets tested: App preview video Number of treatments: 1 Results: The original product page without an…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "app-store/08-app-store-product-optimization.md",
+    "n": 8,
+    "total_no_doc": 42
+   },
+   {
+    "termo": "test",
+    "kwic": "…ng Hypothesis: App icons with a robot design will convert better than other icon designs. Test details: Duration: 44 days Assets tested: App icons Number of treatments: 3 Results: The…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "app-store/08-app-store-product-optimization.md",
     "n": 8,

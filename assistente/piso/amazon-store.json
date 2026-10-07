@@ -1,7 +1,7 @@
 {
  "servico": "Amazon Store",
  "slug": "amazon-store",
- "gerado_em": "2026-10-06T19:47:13+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -185,67 +185,11 @@
   "V1": [
    {
     "termo": "A-B",
-    "kwic": "A/B testing - Amazon Science Research Research Research areas Automated reasoning Cloud and s…",
+    "kwic": "…tomers see the same prices for the same products necessitates innovation in the design of A/B experiments. Economics TSMOO: Solving multi-objective experimentation with constrained Th…",
     "flag": null,
     "file": "amazon-store/05-tag-a-b-testing.md",
     "n": 5,
     "total_no_doc": 9
-   },
-   {
-    "termo": "test",
-    "kwic": "A/B testing - Amazon Science Research Research Research areas Automated reasoning Cloud and systems C…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "amazon-store/05-tag-a-b-testing.md",
-    "n": 5,
-    "total_no_doc": 9
-   },
-   {
-    "termo": "A-B",
-    "kwic": "…er research opportunities alongside experienced industry scientists. Search Submit Search A/B testing Filters Filters Applied filters Reset × Type Publication (39) Blog Post (4) Resea…",
-    "flag": null,
-    "file": "amazon-store/05-tag-a-b-testing.md",
-    "n": 5,
-    "total_no_doc": 9
-   },
-   {
-    "termo": "test",
-    "kwic": "…esearch opportunities alongside experienced industry scientists. Search Submit Search A/B testing Filters Filters Applied filters Reset × Type Publication (39) Blog Post (4) Research area…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "amazon-store/05-tag-a-b-testing.md",
-    "n": 5,
-    "total_no_doc": 9
-   },
-   {
-    "termo": "A-B",
-    "kwic": "…(3) Cloud and systems (1) Information and knowledge management (1) Sustainability (1) Tag A/B testing (43) e-commerce (10) Experimental design (8) Recommender systems (8) Causal infer…",
-    "flag": null,
-    "file": "amazon-store/05-tag-a-b-testing.md",
-    "n": 5,
-    "total_no_doc": 9
-   },
-   {
-    "termo": "test",
-    "kwic": "…Cloud and systems (1) Information and knowledge management (1) Sustainability (1) Tag A/B testing (43) e-commerce (10) Experimental design (8) Recommender systems (8) Causal inference (7)…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "amazon-store/05-tag-a-b-testing.md",
-    "n": 5,
-    "total_no_doc": 9
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…tion and knowledge management (1) Sustainability (1) Tag A/B testing (43) e-commerce (10) Experimental design (8) Recommender systems (8) Causal inference (7) × Conference Code@MIT 2025 (3) KD…",
-    "flag": null,
-    "file": "amazon-store/05-tag-a-b-testing.md",
-    "n": 5,
-    "total_no_doc": 21
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…omers get the most useful information as soon as possible. Economics The science of price experiments in the Amazon Store Joe Cooprider , Shima Nassiri April 14, 2023 The requirement that at…",
-    "flag": null,
-    "file": "amazon-store/05-tag-a-b-testing.md",
-    "n": 5,
-    "total_no_doc": 21
    },
    {
     "termo": "experiment",
@@ -257,15 +201,63 @@
    },
    {
     "termo": "experiment",
-    "kwic": "The science of price experiments in the Amazon Store - Amazon Science Research Research Research areas Automated reasoning…",
+    "kwic": "…tes innovation in the design of A/B experiments. Economics TSMOO: Solving multi-objective experimentation with constrained Thompson sampling Krishna Chaitanya Kalagarla , Yi Liu , Lin Chai , Weny…",
     "flag": null,
-    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
-    "n": 6,
-    "total_no_doc": 48
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "n": 5,
+    "total_no_doc": 21
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…Chaitanya Kalagarla , Yi Liu , Lin Chai , Wenyang Liu RecSys 2026 2026 Traditional online A/B experimentation limits the number of treatments that can be evaluated concurrently. Bandi…",
+    "flag": null,
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "n": 5,
+    "total_no_doc": 9
    },
    {
     "termo": "experiment",
-    "kwic": "…side experienced industry scientists. Search Submit Search Economics The science of price experiments in the Amazon Store The requirement that at any given time, all customers see the same pr…",
+    "kwic": "…tanya Kalagarla , Yi Liu , Lin Chai , Wenyang Liu RecSys 2026 2026 Traditional online A/B experimentation limits the number of treatments that can be evaluated concurrently. Bandit-based adaptive…",
+    "flag": null,
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "n": 5,
+    "total_no_doc": 21
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…udget with validation Qining Zhang , Tanner Fiez , Yi Liu , Wenyang Liu AISTATS 2026 2026 A/B tests in online experiments face statistical power challenges when testing multiple candi…",
+    "flag": null,
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "n": 5,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…t with validation Qining Zhang , Tanner Fiez , Yi Liu , Wenyang Liu AISTATS 2026 2026 A/B tests in online experiments face statistical power challenges when testing multiple candidates…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "n": 5,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…AISTATS 2026 2026 A/B tests in online experiments face statistical power challenges when testing multiple candidates simultaneously, while adaptive experimental designs (AED) alone fall…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "n": 5,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…deployment and updating of data-driven models for shopping personalization. - Develop and test new signals for improving recommendation models - Use supervised and uplift learning algo…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "n": 5,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "experiment",
+    "kwic": "The science of price experiments in the Amazon Store - Amazon Science Research Research Research areas Automated reasoning…",
     "flag": null,
     "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
     "n": 6,
@@ -294,6 +286,14 @@
     "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
     "n": 6,
     "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…chine learning models. With the Amazon Pricing Labs, we can conduct a range of online A/B experiments to evaluate new pricing policies. Because we practice nondiscriminatory pricing — all vis…",
+    "flag": null,
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "n": 6,
+    "total_no_doc": 48
    },
    {
     "termo": "test",
@@ -336,14 +336,6 @@
     "total_no_doc": 12
    },
    {
-    "termo": "test",
-    "kwic": "…witchback experiment. Related content Machine learning tools increase power of hypothesis testing Context vectors that capture “side information” can make experiments more informative. Th…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
-    "n": 6,
-    "total_no_doc": 12
-   },
-   {
     "termo": "control group",
     "kwic": "…dom-days experiments, in which, each day, each product is randomly assigned to either the control group or the treatment group. Our analyses indicate that random days can reduce the standard er…",
     "flag": null,
@@ -352,8 +344,16 @@
     "total_no_doc": 9
    },
    {
+    "termo": "test",
+    "kwic": "…ducts with correlated demand. Related content How to test for COVID-19 efficiently “Group testing” protocols tailored to particularities of the COVID-19 pandemic promise more-informative…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "n": 6,
+    "total_no_doc": 12
+   },
+   {
     "termo": "experiment",
-    "kwic": "Science of price experimentation at Amazon - Amazon Science Research Research Research areas Automated reasoning Cloud and…",
+    "kwic": "…t Amazon}, year = {2023}, url = {https://www.amazon.science/publications/science-of-price-experimentation-at-amazon}, } Share Share Copy link Email X LinkedIn Facebook Line Reddit QZone Sina Weib…",
     "flag": null,
     "file": "amazon-store/07-publications-science-of-price-experimentation-at-ama.md",
     "n": 7,
@@ -361,7 +361,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…ngside experienced industry scientists. Search Submit Search Publication Science of price experimentation at Amazon By Joe Cooprider , Shima Nassiri 2023 Download Copy BibTeX @Article{Cooprider20…",
+    "kwic": "…t Amazon}, year = {2023}, url = {https://www.amazon.science/publications/science-of-price-experimentation-at-amazon}, } Share Share Copy link Email X LinkedIn Facebook Line Reddit QZone Sina Weib…",
     "flag": null,
     "file": "amazon-store/07-publications-science-of-price-experimentation-at-ama.md",
     "n": 7,
@@ -369,7 +369,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…icle{Cooprider2023, author = {Joe Cooprider and Shima Nassiri}, title = {Science of price experimentation at Amazon}, year = {2023}, url = {https://www.amazon.science/publications/science-of-pric…",
+    "kwic": "…t WhatsApp 分享到微信 x In order to improve prices at Amazon, we created Pricing Labs, a price experimentation platform. Since we do not price discriminate, we must run product-randomized experiments.…",
     "flag": null,
     "file": "amazon-store/07-publications-science-of-price-experimentation-at-ama.md",
     "n": 7,
@@ -443,43 +443,11 @@
   "V3": [
    {
     "termo": "A-B",
-    "kwic": "A/B testing - Amazon Science Research Research Research areas Automated reasoning Cloud and s…",
+    "kwic": "…tomers see the same prices for the same products necessitates innovation in the design of A/B experiments. Economics TSMOO: Solving multi-objective experimentation with constrained Th…",
     "flag": null,
     "file": "amazon-store/05-tag-a-b-testing.md",
     "n": 5,
     "total_no_doc": 9
-   },
-   {
-    "termo": "A-B",
-    "kwic": "…er research opportunities alongside experienced industry scientists. Search Submit Search A/B testing Filters Filters Applied filters Reset × Type Publication (39) Blog Post (4) Resea…",
-    "flag": null,
-    "file": "amazon-store/05-tag-a-b-testing.md",
-    "n": 5,
-    "total_no_doc": 9
-   },
-   {
-    "termo": "A-B",
-    "kwic": "…(3) Cloud and systems (1) Information and knowledge management (1) Sustainability (1) Tag A/B testing (43) e-commerce (10) Experimental design (8) Recommender systems (8) Causal infer…",
-    "flag": null,
-    "file": "amazon-store/05-tag-a-b-testing.md",
-    "n": 5,
-    "total_no_doc": 9
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…tion and knowledge management (1) Sustainability (1) Tag A/B testing (43) e-commerce (10) Experimental design (8) Recommender systems (8) Causal inference (7) × Conference Code@MIT 2025 (3) KD…",
-    "flag": null,
-    "file": "amazon-store/05-tag-a-b-testing.md",
-    "n": 5,
-    "total_no_doc": 21
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…omers get the most useful information as soon as possible. Economics The science of price experiments in the Amazon Store Joe Cooprider , Shima Nassiri April 14, 2023 The requirement that at…",
-    "flag": null,
-    "file": "amazon-store/05-tag-a-b-testing.md",
-    "n": 5,
-    "total_no_doc": 21
    },
    {
     "termo": "experiment",
@@ -491,15 +459,39 @@
    },
    {
     "termo": "experiment",
-    "kwic": "The science of price experiments in the Amazon Store - Amazon Science Research Research Research areas Automated reasoning…",
+    "kwic": "…tes innovation in the design of A/B experiments. Economics TSMOO: Solving multi-objective experimentation with constrained Thompson sampling Krishna Chaitanya Kalagarla , Yi Liu , Lin Chai , Weny…",
     "flag": null,
-    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
-    "n": 6,
-    "total_no_doc": 48
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "n": 5,
+    "total_no_doc": 21
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…Chaitanya Kalagarla , Yi Liu , Lin Chai , Wenyang Liu RecSys 2026 2026 Traditional online A/B experimentation limits the number of treatments that can be evaluated concurrently. Bandi…",
+    "flag": null,
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "n": 5,
+    "total_no_doc": 9
    },
    {
     "termo": "experiment",
-    "kwic": "…side experienced industry scientists. Search Submit Search Economics The science of price experiments in the Amazon Store The requirement that at any given time, all customers see the same pr…",
+    "kwic": "…tanya Kalagarla , Yi Liu , Lin Chai , Wenyang Liu RecSys 2026 2026 Traditional online A/B experimentation limits the number of treatments that can be evaluated concurrently. Bandit-based adaptive…",
+    "flag": null,
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "n": 5,
+    "total_no_doc": 21
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…udget with validation Qining Zhang , Tanner Fiez , Yi Liu , Wenyang Liu AISTATS 2026 2026 A/B tests in online experiments face statistical power challenges when testing multiple candi…",
+    "flag": null,
+    "file": "amazon-store/05-tag-a-b-testing.md",
+    "n": 5,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "experiment",
+    "kwic": "The science of price experiments in the Amazon Store - Amazon Science Research Research Research areas Automated reasoning…",
     "flag": null,
     "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
     "n": 6,
@@ -528,6 +520,14 @@
     "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
     "n": 6,
     "total_no_doc": 7
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…chine learning models. With the Amazon Pricing Labs, we can conduct a range of online A/B experiments to evaluate new pricing policies. Because we practice nondiscriminatory pricing — all vis…",
+    "flag": null,
+    "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
+    "n": 6,
+    "total_no_doc": 48
    },
    {
     "termo": "control group",
@@ -563,7 +563,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "Science of price experimentation at Amazon - Amazon Science Research Research Research areas Automated reasoning Cloud and…",
+    "kwic": "…t Amazon}, year = {2023}, url = {https://www.amazon.science/publications/science-of-price-experimentation-at-amazon}, } Share Share Copy link Email X LinkedIn Facebook Line Reddit QZone Sina Weib…",
     "flag": null,
     "file": "amazon-store/07-publications-science-of-price-experimentation-at-ama.md",
     "n": 7,
@@ -571,7 +571,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…ngside experienced industry scientists. Search Submit Search Publication Science of price experimentation at Amazon By Joe Cooprider , Shima Nassiri 2023 Download Copy BibTeX @Article{Cooprider20…",
+    "kwic": "…t Amazon}, year = {2023}, url = {https://www.amazon.science/publications/science-of-price-experimentation-at-amazon}, } Share Share Copy link Email X LinkedIn Facebook Line Reddit QZone Sina Weib…",
     "flag": null,
     "file": "amazon-store/07-publications-science-of-price-experimentation-at-ama.md",
     "n": 7,
@@ -579,7 +579,7 @@
    },
    {
     "termo": "experiment",
-    "kwic": "…icle{Cooprider2023, author = {Joe Cooprider and Shima Nassiri}, title = {Science of price experimentation at Amazon}, year = {2023}, url = {https://www.amazon.science/publications/science-of-pric…",
+    "kwic": "…t WhatsApp 分享到微信 x In order to improve prices at Amazon, we created Pricing Labs, a price experimentation platform. Since we do not price discriminate, we must run product-randomized experiments.…",
     "flag": null,
     "file": "amazon-store/07-publications-science-of-price-experimentation-at-ama.md",
     "n": 7,
@@ -629,7 +629,7 @@
   "V6": [
    {
     "termo": "test",
-    "kwic": "A/B testing - Amazon Science Research Research Research areas Automated reasoning Cloud and systems C…",
+    "kwic": "…t with validation Qining Zhang , Tanner Fiez , Yi Liu , Wenyang Liu AISTATS 2026 2026 A/B tests in online experiments face statistical power challenges when testing multiple candidates…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "amazon-store/05-tag-a-b-testing.md",
     "n": 5,
@@ -637,7 +637,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…esearch opportunities alongside experienced industry scientists. Search Submit Search A/B testing Filters Filters Applied filters Reset × Type Publication (39) Blog Post (4) Research area…",
+    "kwic": "…AISTATS 2026 2026 A/B tests in online experiments face statistical power challenges when testing multiple candidates simultaneously, while adaptive experimental designs (AED) alone fall…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "amazon-store/05-tag-a-b-testing.md",
     "n": 5,
@@ -645,7 +645,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…Cloud and systems (1) Information and knowledge management (1) Sustainability (1) Tag A/B testing (43) e-commerce (10) Experimental design (8) Recommender systems (8) Causal inference (7)…",
+    "kwic": "…deployment and updating of data-driven models for shopping personalization. - Develop and test new signals for improving recommendation models - Use supervised and uplift learning algo…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "amazon-store/05-tag-a-b-testing.md",
     "n": 5,
@@ -669,7 +669,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…witchback experiment. Related content Machine learning tools increase power of hypothesis testing Context vectors that capture “side information” can make experiments more informative. Th…",
+    "kwic": "…ducts with correlated demand. Related content How to test for COVID-19 efficiently “Group testing” protocols tailored to particularities of the COVID-19 pandemic promise more-informative…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "amazon-store/06-blog-the-science-of-price-experiments-in-amazon-stor.md",
     "n": 6,

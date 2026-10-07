@@ -4,8 +4,8 @@
  "slug": "pornhub",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "4a052c17793f",
- "gerado_em": "2026-10-04T23:32:48+00:00",
+ "entrada_sha": "17fea461eecf",
+ "gerado_em": "2026-10-07T01:48:19+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -14,15 +14,15 @@
   "tentativas": 1
  },
  "n_trechos": {
-  "V1": 24,
+  "V1": 20,
   "V2": 8,
   "V3": 12,
   "V4": 7,
   "V5": 7,
-  "V6": 23,
+  "V6": 19,
   "V7": 4,
   "V8": 6,
-  "V9": 35
+  "V9": 31
  },
  "documentos": {
   "1": {
@@ -67,27 +67,23 @@
     "h:3d0e50ae": "x",
     "h:20ef74e9": "x",
     "h:35eea8fe": "x",
-    "h:d8fd1a08": "x",
     "h:425b7b01": "x",
-    "h:df919eb9": "x",
     "h:55b16216": "x",
-    "h:399ffde8": "x",
     "h:927c80a1": "x",
-    "h:b997a719": "x",
     "h:65c8d3b6": "x",
     "c:V1-1": "x",
     "c:V1-2": "1",
     "c:V1-3": "x",
     "c:V1-4": "x",
     "c:V1-5": "x",
-    "c:V1-6": "1",
-    "c:V1-7": "1",
+    "c:V1-6": "2",
+    "c:V1-7": "2",
     "c:V1-8": "x",
     "c:V1-9": "x",
     "c:V1-10": "x"
    },
    "extras": {},
-   "razao": "Os trechos de trial, test e randomized são jurídicos, de assinatura ou do recurso Shuffle; só há linguagem de melhoria ('improve our Website') na Privacy Notice. O cookie fg_* ('roll out a new feature to users') ficou em 1 por não usar 'test', mas o codificador pode considerá-lo 2."
+   "razao": "O cookie fg_* ('roll out a new feature to users', Cookie Notice) sugere liberação gradual de recursos, caso de fronteira entre 1 e 2 que sugiro como 2, sem menção a grupos ou variantes; fora dele só há 'improve our Website' (nível 1). Trials são de assinatura/júri e 'randomized' é a função Shuffle, falsos positivos."
   },
   "V2": {
    "notas": {
@@ -103,7 +99,7 @@
     "c:V2-8": "x"
    },
    "extras": {},
-   "razao": "Só aparece o enquadramento de melhoria do serviço, na seção 14 da Privacy Notice. As menções a 'research' tratam do acesso de pesquisadores externos exigido pelo DSA, não de pesquisa da própria plataforma; o codificador pode anotar isso em Notas."
+   "razao": "Só 'improve our Website, products and services' enquadra o uso de dados como melhoria do serviço. A menção a pesquisadores é acesso externo obrigatório pelo DSA, não enquadramento dos testes da própria plataforma (o codificador pode anotar em Notas)."
   },
   "V3": {
    "notas": {
@@ -123,9 +119,9 @@
     "c:V3-10": "x"
    },
    "extras": {
-    "v3_targets": "new features (rollout)"
+    "v3_targets": "new features"
    },
-   "razao": "A única superfície nomeada é a de 'new feature', no cookie fg_*; os demais trechos descrevem personalização ou preço promocional. A diferença €9.99/$9.99 parece regional e não aparece como teste de preço."
+   "razao": "Apenas o cookie fg_* nomeia uma superfície (novos recursos), sem experimento específico nem preço como alvo. Os trechos de recomendação descrevem personalização, e os de preço são promocionais."
   },
   "V4": {
    "notas": {
@@ -141,7 +137,7 @@
     "v4_mapped_purpose": "fix, analyse, and improve our Website, products and services",
     "v4_region_gated": "not-verifiable (vantage)"
    },
-   "razao": "A seção 6 lista bases com exemplos (segurança, anúncios, conta), mas não liga nenhuma delas à finalidade de melhoria; por isso a sugestão é not stated. Não há tabela de bases por finalidade nos documentos."
+   "razao": "A seção 6 lista bases com exemplos genéricos (segurança, anúncios, conta), sem tabela por finalidade nem base atribuída à melhoria do serviço, o que sugere 'not stated'. Sem tabela, o campo geo-gated fica not-verifiable (vantage)."
   },
   "V5": {
    "notas": {
@@ -154,7 +150,7 @@
     "c:V5-7": "x"
    },
    "extras": {},
-   "razao": "Há o direito genérico de objeção e um banner de cookies que rege funcionalidade, analytics e anúncios; não há controle específico de experimentação. Os toggles de recomendação personalizada são controle de personalização, não saída de experimento."
+   "razao": "Há o direito genérico de objeção e um painel de cookies (que inclui cookies funcionais como fg_*), mas nenhum controle específico de experimentação. O desligamento de recomendações personalizadas é controle de personalização, não de experimento."
   },
   "V6": {
    "notas": {
@@ -169,13 +165,9 @@
     "h:20ef74e9": "x",
     "h:35eea8fe": "x",
     "h:ac8b55a1": "x",
-    "h:d8fd1a08": "x",
     "h:425b7b01": "x",
-    "h:df919eb9": "x",
     "h:48329ddf": "x",
-    "h:399ffde8": "x",
     "h:927c80a1": "x",
-    "h:b997a719": "x",
     "h:e5ad9e3b": "x",
     "h:15c1f171": "x",
     "c:V6-1": "x",
@@ -185,7 +177,7 @@
    "extras": {
     "v6_which": ""
    },
-   "razao": "'Beta' aparece só como categoria de conteúdo no menu de navegação, e 'trial' refere-se a júri ou ao período grátis do Premium. Nenhum trecho descreve programa de inscrição voluntária para testar novidades."
+   "razao": "'Beta' aparece só como categoria de orientação no menu de navegação, e os demais trechos são trial de assinatura ou termos jurídicos. Nenhum programa de inscrição voluntária para testes aparece."
   },
   "V7": {
    "notas": {
@@ -195,7 +187,7 @@
     "c:V7-4": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de mudança de política ou de serviço e advertências de moderação, todos excluídos pelo critério. O tema do debriefing parece não ser endereçado, e a contagem de 'debrief' é zero em todos os documentos."
+   "razao": "Os trechos são avisos de mudança de política/serviço e advertências de moderação, excluídos pelo critério. O tema debriefing não é endereçado; o log de palavras-chave mostra debrief:0 em todos os documentos."
   },
   "V8": {
    "notas": {
@@ -207,7 +199,7 @@
     "c:V8-6": "x"
    },
    "extras": {},
-   "razao": "As menções a risco e impacto tratam de retenção de dados, moderação e segurança, não de revisão de experimentos. Pode valer anotar a diferença entre a obrigação de avaliação de risco do DSA e o que os documentos ao usuário dizem."
+   "razao": "Os trechos tratam de risco na retenção de dados, impacto de violações e revisão de conteúdo, não de revisão ética de experimentos. O tema não é endereçado (ethics, review board, IRB e risk assessment com contagem 0), o que pode ser anotado como gap em relação às avaliações de risco sistêmico do DSA."
   },
   "V9": {
    "notas": {
@@ -228,16 +220,12 @@
     "h:3d0e50ae": "x",
     "h:20ef74e9": "x",
     "h:35eea8fe": "x",
-    "h:d8fd1a08": "x",
     "h:425b7b01": "x",
-    "h:df919eb9": "x",
     "h:55b16216": "x",
-    "h:399ffde8": "x",
     "h:927c80a1": "x",
-    "h:b997a719": "x",
     "h:65c8d3b6": "x",
     "c:V1-1": "x",
-    "c:V1-2": "sim",
+    "c:V1-2": "x",
     "c:V1-3": "x",
     "c:V1-4": "x",
     "c:V1-5": "x",
@@ -248,12 +236,12 @@
     "c:V1-10": "x"
    },
    "extras": {},
-   "razao": "A divulgação, mesmo fraca, aparece só na Privacy Notice e no Cookie Notice, ambos vinculantes. Os trechos V9-1 a V9-11 informam o status dos documentos, mas não divulgam experimentação."
+   "razao": "A única divulgação próxima de experimentação é o cookie fg_* no Cookie Notice (atual e arquivado), que conta como política de privacidade e é vinculante (registro binding). Se o codificador mantiver nível 1 na V1, essas notas passam a x."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 22812,
-  "output": 6063
+  "input": 21499,
+  "output": 5866
  }
 }

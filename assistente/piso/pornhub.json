@@ -1,7 +1,7 @@
 {
  "servico": "Pornhub",
  "slug": "pornhub",
- "gerado_em": "2026-10-06T19:47:13+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -298,23 +298,7 @@
    },
    {
     "termo": "trial",
-    "kwic": "…at must sign a digital contract First Party 30 days Pornhub.com showModalPremiumTry Shows trial modal First Party 3 days Pornhub.com showPremiumWelcomeFromPornhub Is used to display gre…",
-    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
-    "file": "pornhub/05-information-cookie-notice.md",
-    "n": 5,
-    "total_no_doc": 5
-   },
-   {
-    "termo": "trial",
     "kwic": "…Pornhub.com premiumTrialAccepted It is used to determine if the user accepted or not the trial for PornHub Premium First Party 30 days Pornhub.com sidebarExpanded Is used to enable the…",
-    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
-    "file": "pornhub/05-information-cookie-notice.md",
-    "n": 5,
-    "total_no_doc": 5
-   },
-   {
-    "termo": "trial",
-    "kwic": "…om tj_UUID, tj_UUID_v2 Are used to serve ads to the Users First Party 30 days pornhub.com trial-step1-modal-shown This cookie is used to track user’s interaction with a promo modal Firs…",
     "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
     "file": "pornhub/05-information-cookie-notice.md",
     "n": 5,
@@ -330,23 +314,7 @@
    },
    {
     "termo": "trial",
-    "kwic": "…at must sign a digital contract First Party 30 days Pornhub.com showModalPremiumTry Shows trial modal First Party 3 days Pornhub.com showPremiumWelcomeFromPornhub Is used to display gre…",
-    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
-    "file": "pornhub/06-pornhub-information-cookie-notice.md",
-    "n": 6,
-    "total_no_doc": 5
-   },
-   {
-    "termo": "trial",
     "kwic": "…Pornhub.com premiumTrialAccepted It is used to determine if the user accepted or not the trial for PornHub Premium First Party 30 days Pornhub.com sidebarExpanded Is used to enable the…",
-    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
-    "file": "pornhub/06-pornhub-information-cookie-notice.md",
-    "n": 6,
-    "total_no_doc": 5
-   },
-   {
-    "termo": "trial",
-    "kwic": "…om tj_UUID, tj_UUID_v2 Are used to serve ads to the Users First Party 30 days pornhub.com trial-step1-modal-shown This cookie is used to track user’s interaction with a promo modal Firs…",
     "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
     "file": "pornhub/06-pornhub-information-cookie-notice.md",
     "n": 6,
@@ -420,23 +388,7 @@
    },
    {
     "termo": "trial",
-    "kwic": "…at must sign a digital contract First Party 30 days Pornhub.com showModalPremiumTry Shows trial modal First Party 3 days Pornhub.com showPremiumWelcomeFromPornhub Is used to display gre…",
-    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
-    "file": "pornhub/05-information-cookie-notice.md",
-    "n": 5,
-    "total_no_doc": 5
-   },
-   {
-    "termo": "trial",
     "kwic": "…Pornhub.com premiumTrialAccepted It is used to determine if the user accepted or not the trial for PornHub Premium First Party 30 days Pornhub.com sidebarExpanded Is used to enable the…",
-    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
-    "file": "pornhub/05-information-cookie-notice.md",
-    "n": 5,
-    "total_no_doc": 5
-   },
-   {
-    "termo": "trial",
-    "kwic": "…om tj_UUID, tj_UUID_v2 Are used to serve ads to the Users First Party 30 days pornhub.com trial-step1-modal-shown This cookie is used to track user’s interaction with a promo modal Firs…",
     "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
     "file": "pornhub/05-information-cookie-notice.md",
     "n": 5,
@@ -452,23 +404,7 @@
    },
    {
     "termo": "trial",
-    "kwic": "…at must sign a digital contract First Party 30 days Pornhub.com showModalPremiumTry Shows trial modal First Party 3 days Pornhub.com showPremiumWelcomeFromPornhub Is used to display gre…",
-    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
-    "file": "pornhub/06-pornhub-information-cookie-notice.md",
-    "n": 6,
-    "total_no_doc": 5
-   },
-   {
-    "termo": "trial",
     "kwic": "…Pornhub.com premiumTrialAccepted It is used to determine if the user accepted or not the trial for PornHub Premium First Party 30 days Pornhub.com sidebarExpanded Is used to enable the…",
-    "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
-    "file": "pornhub/06-pornhub-information-cookie-notice.md",
-    "n": 6,
-    "total_no_doc": 5
-   },
-   {
-    "termo": "trial",
-    "kwic": "…om tj_UUID, tj_UUID_v2 Are used to serve ads to the Users First Party 30 days pornhub.com trial-step1-modal-shown This cookie is used to track user’s interaction with a promo modal Firs…",
     "flag": "falso positivo comum: 'free trial' / período de teste de assinatura NÃO é experimentação (ver V1)",
     "file": "pornhub/06-pornhub-information-cookie-notice.md",
     "n": 6,

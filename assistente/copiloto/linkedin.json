@@ -4,14 +4,14 @@
  "slug": "linkedin",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "6937ce045127",
- "gerado_em": "2026-10-04T23:34:37+00:00",
+ "entrada_sha": "f5b0186b4e79",
+ "gerado_em": "2026-10-07T02:06:56+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
   "max_tokens": 16000,
   "thinking": "adaptive",
-  "tentativas": 1
+  "tentativas": 2
  },
  "n_trechos": {
   "V1": 16,
@@ -55,10 +55,10 @@
    "notas": {
     "h:9b693ba4": "3",
     "h:ab4efe62": "3",
-    "h:5bc8afd3": "3",
-    "h:7d917932": "3",
     "h:be648af4": "3",
     "h:a2ac17ec": "3",
+    "h:586c9352": "3",
+    "h:ebddc68f": "3",
     "h:fbb18bd4": "3",
     "c:V1-1": "3",
     "c:V1-2": "3",
@@ -71,7 +71,7 @@
     "c:V1-9": "x"
    },
    "extras": {},
-   "razao": "Teto sugerido 3 só no help centre de Marketing Solutions (A/B com audiência dividida em grupos e grupo de controle, conduzido por anunciantes sobre membros); nos vinculantes, só nível 1. O codificador pode avaliar se teste de anúncios conduzido pelo anunciante conta como experimentação da plataforma."
+   "razao": "O teto 3 (A/B, grupos de controle, audiência dividida) aparece só na central de ajuda de Marketing Solutions, numa ferramenta para anunciantes que expõe membros a variantes. Nos vinculantes (política de privacidade, termos), só nível 1."
   },
   "V2": {
    "notas": {
@@ -96,13 +96,15 @@
     "c:V2-7": "x"
    },
    "extras": {},
-   "razao": "A política combina melhoria do serviço, pesquisa e oportunidade econômica para a força de trabalho (social-good). O doc 6 enquadra o A/B como otimização de ROI do anunciante, enquadramento fora da lista, para eventual anotação em Notas."
+   "razao": "Na política de privacidade aparecem melhoria do serviço, pesquisa e oportunidade econômica como bem social. O doc 6 enquadra o A/B como otimização de ROI do anunciante, enquadramento fora da lista que pode ir em Notas."
   },
   "V3": {
    "notas": {
     "h:9b693ba4": "x",
-    "h:5bc8afd3": "x",
     "h:be648af4": [
+     "activities"
+    ],
+    "h:586c9352": [
      "activities"
     ],
     "h:fbb18bd4": "x",
@@ -130,9 +132,9 @@
     "c:V3-10": "x"
    },
    "extras": {
-    "v3_targets": "criativo do anúncio (imagem); posicionamento do anúncio; variável de otimização; tipo de ad set (Classic vs Accelerate com IA)"
+    "v3_targets": "criativo do anúncio (imagem); posicionamento do anúncio; otimização; tipo de ad set (Classic vs Accelerate)"
    },
-   "razao": "O doc 6 nomeia variáveis testadas em anúncios, mas não divulga experimento específico da plataforma nem preço como alvo. Ranking no feed (doc 5) e preço por localização (doc 2) descrevem funcionalidade, não teste."
+   "razao": "O doc 6 nomeia variáveis testadas em anúncios, mas os exemplos são hipotéticos, não um experimento específico. Ranking no doc 5 é personalização e as cláusulas de preço do doc 2 não são preço testado."
   },
   "V4": {
    "notas": {
@@ -148,7 +150,7 @@
     "v4_mapped_purpose": "improve, develop, and provide products and Services / research and development for our Services",
     "v4_region_gated": "not-verifiable (vantage)"
    },
-   "razao": "A política lista consent, contract e legitimate interests de forma genérica, sem ligá-las à finalidade de melhoria; a tabela por finalidade fica no European Regional Privacy Notice, que não está entre os documentos. Sugestão: not stated."
+   "razao": "Os trechos listam bases legais de forma genérica, sem ligá-las à finalidade de melhoria ou P&D. A tabela fica no European Regional Privacy Notice, que não está entre os documentos, então a sugestão é not stated e not-verifiable."
   },
   "V5": {
    "notas": {
@@ -162,18 +164,18 @@
     "c:V5-8": "x"
    },
    "extras": {},
-   "razao": "Há objeção genérica e controles de cookies e anúncios, inclusive a escolha de não conectar Marketing Solutions, mas nenhum controle específico de experimentação. Sugestão: cookie/ads-only."
+   "razao": "Há objeção genérica e controles de cookies e anúncios, sem opção específica para experimentos. O filtro de membros do EEE no doc 6 decorre de uma configuração de anúncios, não de um opt-out de teste."
   },
   "V6": {
    "notas": {
     "h:ab4efe62": "x",
-    "h:7d917932": "x",
-    "h:a2ac17ec": "x"
+    "h:a2ac17ec": "x",
+    "h:ebddc68f": "x"
    },
    "extras": {
     "v6_which": ""
    },
-   "razao": "Os trechos tratam da ferramenta de A/B para anunciantes, não de um programa beta em que o usuário se inscreve. Sugestão: No."
+   "razao": "Os trechos tratam de testes A/B de anunciantes, não de um programa beta voluntário. Nenhum programa opt-in aparece."
   },
   "V7": {
    "notas": {
@@ -182,7 +184,7 @@
     "c:V7-3": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de mudança e status de teste exibido ao anunciante, não aviso ao membro. Sugestão: No, tema não endereçado; o log de palavras-chave tem debrief:0 em todos os documentos."
+   "razao": "Os trechos são avisos de mudança de política ou status de teste para o anunciante, não aviso ao membro de que participou. O doc 6 trata de testes sem oferecer o aviso, e o log de palavras-chave mostra debrief:0 em todos os documentos."
   },
   "V8": {
    "notas": {
@@ -192,7 +194,7 @@
     "c:V8-4": "x"
    },
    "extras": {},
-   "razao": "Os controles de privacidade para pesquisa, os princípios de IA responsável e a avaliação de segurança por pesquisadores não são revisão ética de experimentos; ethics, review board, IRB e risk assessment aparecem com contagem 0. Sugestão: No, com nota de gap entre a obrigação do DSA e o que os documentos dizem."
+   "razao": "Controles de privacidade em pesquisa e princípios de IA responsável não são revisão ética de experimentos. O log mostra ethics, review board, IRB e risk assessment em 0, o que pode ser anotado como gap entre a obrigação do DSA e os documentos."
   },
   "V9": {
    "notas": {
@@ -206,10 +208,10 @@
     "c:V9-8": "x",
     "h:9b693ba4": "sim",
     "h:ab4efe62": "sim",
-    "h:5bc8afd3": "sim",
-    "h:7d917932": "sim",
     "h:be648af4": "sim",
     "h:a2ac17ec": "sim",
+    "h:586c9352": "sim",
+    "h:ebddc68f": "sim",
     "h:fbb18bd4": "sim",
     "c:V1-1": "sim",
     "c:V1-2": "sim",
@@ -222,12 +224,12 @@
     "c:V1-9": "x"
    },
    "extras": {},
-   "razao": "A divulgação de experimentação aparece só no help centre de Marketing Solutions (doc 6); os vinculantes ficam na linguagem de melhoria e P&D. Registro agregado sugerido: non-binding."
+   "razao": "A divulgação de experimentação aparece só no doc 6, central de ajuda não vinculante. Os documentos vinculantes trazem apenas linguagem de melhoria e P&D, que aqui não foi contada como divulgação de experimentação."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 17678,
-  "output": 5491
+  "input": 35193,
+  "output": 10123
  }
 }

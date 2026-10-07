@@ -1,7 +1,7 @@
 {
  "servico": "Pinterest",
  "slug": "pinterest",
- "gerado_em": "2026-10-06T19:47:14+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -159,14 +159,6 @@
    },
    {
     "termo": "test",
-    "kwic": "…ice users can explore by touch or with swipe gestures. Log in Sign up Be a Pinterest beta tester This programme gives you early access to upcoming versions of the Pinterest app and will…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "pinterest/04-public-beta.md",
-    "n": 4,
-    "total_no_doc": 8
-   },
-   {
-    "termo": "test",
     "kwic": "…Store to stay updated on the latest features. There are two steps to becoming an iOS beta tester: 1 Install the TestFlight Make sure notifications are enabled in TestFlight so you can be…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "pinterest/04-public-beta.md",
@@ -175,7 +167,15 @@
    },
    {
     "termo": "test",
-    "kwic": "…on the latest features. There are two steps to becoming an iOS beta tester: 1 Install the TestFlight Make sure notifications are enabled in TestFlight so you can be prompted when there`s an…",
+    "kwic": "…oming an iOS beta tester: 1 Install the TestFlight Make sure notifications are enabled in TestFlight so you can be prompted when there`s an update. Download the app 2 Join current beta Open…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "pinterest/04-public-beta.md",
+    "n": 4,
+    "total_no_doc": 8
+   },
+   {
+    "termo": "test",
+    "kwic": "…know about Pinterest Android beta The new Android beta versions is available weekly. As a tester, you'll receive an update that includes a testing version of the Pinterest app, which may…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "pinterest/04-public-beta.md",
     "n": 4,
@@ -198,44 +198,28 @@
     "total_no_doc": 56
    },
    {
-    "termo": "experiment",
-    "kwic": "…Write Search Sign up Sign in Pinterest Engineering Blog · Follow publication Building the experimentation framework Lightweight logging Batch-processing MapReduce workflow Scalable serving of exp…",
-    "flag": null,
-    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
-    "n": 5,
-    "total_no_doc": 56
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…ion framework Lightweight logging Batch-processing MapReduce workflow Scalable serving of experiment metrics Real-time data processing Powering data driven decisions Inventive engineers buil…",
-    "flag": null,
-    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
-    "n": 5,
-    "total_no_doc": 56
-   },
-   {
-    "termo": "test",
-    "kwic": "…very engine, 300 billion ideas and counting. Follow publication Top highlight Big Data Ab Testing Experimentation Engineering Data Analysis Scalable A/B experiments at Pinterest Pinterest…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
-    "n": 5,
-    "total_no_doc": 9
-   },
-   {
-    "termo": "A-B",
-    "kwic": "…tion Top highlight Big Data Ab Testing Experimentation Engineering Data Analysis Scalable A/B experiments at Pinterest Pinterest Engineering Follow 8 min read · Aug 21, 2014 95 Listen…",
-    "flag": null,
-    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
-    "n": 5,
-    "total_no_doc": 5
-   },
-   {
     "termo": "A-B",
     "kwic": "…Aug 21, 2014 95 Listen Share Chunyan Wang | Pinterest engineer, Data We have hundreds of A/B experiments running at anytime, as we launch new products and improve the quality of the…",
     "flag": null,
     "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
     "n": 5,
     "total_no_doc": 5
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…21, 2014 95 Listen Share Chunyan Wang | Pinterest engineer, Data We have hundreds of A/B experiments running at anytime, as we launch new products and improve the quality of the user experie…",
+    "flag": null,
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "n": 5,
+    "total_no_doc": 56
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…as we launch new products and improve the quality of the user experience. To power these experiments and make timely and data-driven decisions, we built a system to scale the process. Buildi…",
+    "flag": null,
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "n": 5,
+    "total_no_doc": 56
    },
    {
     "termo": "test",
@@ -252,6 +236,22 @@
     "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
     "n": 5,
     "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…ferences across experiment groups, we used unpaired t-test for num_active and num_actions test. The test relied on the assumption that the sample data was independently and identically…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "n": 5,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…types of data driven decisions at Pinterest, and has helped us to understand hundreds of A/B experimental results and deciding the launch of new features. If challenges like this int…",
+    "flag": null,
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "n": 5,
+    "total_no_doc": 5
    }
   ],
   "V3": [
@@ -280,32 +280,32 @@
     "total_no_doc": 56
    },
    {
-    "termo": "experiment",
-    "kwic": "…Write Search Sign up Sign in Pinterest Engineering Blog · Follow publication Building the experimentation framework Lightweight logging Batch-processing MapReduce workflow Scalable serving of exp…",
-    "flag": null,
-    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
-    "n": 5,
-    "total_no_doc": 56
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…ion framework Lightweight logging Batch-processing MapReduce workflow Scalable serving of experiment metrics Real-time data processing Powering data driven decisions Inventive engineers buil…",
-    "flag": null,
-    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
-    "n": 5,
-    "total_no_doc": 56
-   },
-   {
     "termo": "A-B",
-    "kwic": "…tion Top highlight Big Data Ab Testing Experimentation Engineering Data Analysis Scalable A/B experiments at Pinterest Pinterest Engineering Follow 8 min read · Aug 21, 2014 95 Listen…",
+    "kwic": "…Aug 21, 2014 95 Listen Share Chunyan Wang | Pinterest engineer, Data We have hundreds of A/B experiments running at anytime, as we launch new products and improve the quality of the…",
     "flag": null,
     "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
     "n": 5,
     "total_no_doc": 5
    },
    {
+    "termo": "experiment",
+    "kwic": "…21, 2014 95 Listen Share Chunyan Wang | Pinterest engineer, Data We have hundreds of A/B experiments running at anytime, as we launch new products and improve the quality of the user experie…",
+    "flag": null,
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "n": 5,
+    "total_no_doc": 56
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…as we launch new products and improve the quality of the user experience. To power these experiments and make timely and data-driven decisions, we built a system to scale the process. Buildi…",
+    "flag": null,
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "n": 5,
+    "total_no_doc": 56
+   },
+   {
     "termo": "A-B",
-    "kwic": "…Aug 21, 2014 95 Listen Share Chunyan Wang | Pinterest engineer, Data We have hundreds of A/B experiments running at anytime, as we launch new products and improve the quality of the…",
+    "kwic": "…types of data driven decisions at Pinterest, and has helped us to understand hundreds of A/B experimental results and deciding the launch of new features. If challenges like this int…",
     "flag": null,
     "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
     "n": 5,
@@ -331,31 +331,23 @@
    },
    {
     "termo": "beta",
-    "kwic": "Pinterest Beta programme on Pinterest Skip to content Explore When the auto-complete results are availab…",
-    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
-    "file": "pinterest/04-public-beta.md",
-    "n": 4,
-    "total_no_doc": 14
-   },
-   {
-    "termo": "beta",
-    "kwic": "…h device users can explore by touch or with swipe gestures. Log in Sign up Be a Pinterest beta tester This programme gives you early access to upcoming versions of the Pinterest app an…",
-    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
-    "file": "pinterest/04-public-beta.md",
-    "n": 4,
-    "total_no_doc": 14
-   },
-   {
-    "termo": "test",
-    "kwic": "…ice users can explore by touch or with swipe gestures. Log in Sign up Be a Pinterest beta tester This programme gives you early access to upcoming versions of the Pinterest app and will…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "pinterest/04-public-beta.md",
-    "n": 4,
-    "total_no_doc": 8
-   },
-   {
-    "termo": "beta",
     "kwic": "…today! Limited places available. Join today! Things you need to know about Pinterest iOS beta The new iOS beta versions ship weekly. If at any point keeping up with beta is challengin…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "pinterest/04-public-beta.md",
+    "n": 4,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "beta",
+    "kwic": "…laces available. Join today! Things you need to know about Pinterest iOS beta The new iOS beta versions ship weekly. If at any point keeping up with beta is challenging for you, make s…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "pinterest/04-public-beta.md",
+    "n": 4,
+    "total_no_doc": 14
+   },
+   {
+    "termo": "beta",
+    "kwic": "…Pinterest iOS beta The new iOS beta versions ship weekly. If at any point keeping up with beta is challenging for you, make sure you install the public Pinterest app from the App Store…",
     "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
     "file": "pinterest/04-public-beta.md",
     "n": 4,
@@ -371,7 +363,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…on the latest features. There are two steps to becoming an iOS beta tester: 1 Install the TestFlight Make sure notifications are enabled in TestFlight so you can be prompted when there`s an…",
+    "kwic": "…oming an iOS beta tester: 1 Install the TestFlight Make sure notifications are enabled in TestFlight so you can be prompted when there`s an update. Download the app 2 Join current beta Open…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "pinterest/04-public-beta.md",
     "n": 4,
@@ -379,11 +371,11 @@
    },
    {
     "termo": "test",
-    "kwic": "…very engine, 300 billion ideas and counting. Follow publication Top highlight Big Data Ab Testing Experimentation Engineering Data Analysis Scalable A/B experiments at Pinterest Pinterest…",
+    "kwic": "…know about Pinterest Android beta The new Android beta versions is available weekly. As a tester, you'll receive an update that includes a testing version of the Pinterest app, which may…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
-    "n": 5,
-    "total_no_doc": 9
+    "file": "pinterest/04-public-beta.md",
+    "n": 4,
+    "total_no_doc": 8
    },
    {
     "termo": "test",
@@ -396,6 +388,14 @@
    {
     "termo": "test",
     "kwic": "…guidance on the significance of differences across experiment groups, we used unpaired t-test for num_active and num_actions test. The test relied on the assumption that the sample da…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
+    "n": 5,
+    "total_no_doc": 9
+   },
+   {
+    "termo": "test",
+    "kwic": "…ferences across experiment groups, we used unpaired t-test for num_active and num_actions test. The test relied on the assumption that the sample data was independently and identically…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "pinterest/05-pinterest-engineering-scalable-a-b-experiments-at-1e.md",
     "n": 5,

@@ -4,25 +4,25 @@
  "slug": "x",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "19b4e1e87cf5",
- "gerado_em": "2026-10-04T23:38:18+00:00",
+ "entrada_sha": "bc80ca2c5f11",
+ "gerado_em": "2026-10-07T01:55:05+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
   "max_tokens": 16000,
   "thinking": "adaptive",
-  "tentativas": 1
+  "tentativas": 2
  },
  "n_trechos": {
-  "V1": 34,
+  "V1": 31,
   "V2": 7,
-  "V3": 21,
+  "V3": 20,
   "V4": 7,
   "V5": 6,
-  "V6": 18,
+  "V6": 16,
   "V7": 4,
   "V8": 5,
-  "V9": 42
+  "V9": 39
  },
  "documentos": {
   "1": {
@@ -64,28 +64,25 @@
     "h:8d16bdee": "2",
     "h:97e3c5e5": "x",
     "h:82a73284": "2",
-    "h:52dc4f23": "x",
-    "h:46e52da2": "x",
     "h:c6ab6169": "3",
     "h:46bdab99": "3",
-    "h:18087be4": "3",
-    "h:c3b59750": "3",
-    "h:34291d6b": "3",
     "h:468f665d": "3",
+    "h:889a2f92": "3",
     "h:f7f0f586": "3",
+    "h:ff72c709": "3",
     "h:a6f01e2f": "3",
     "h:96b5f73c": "3",
     "h:033f5132": "3",
     "h:93f2e2fb": "3",
     "h:07171639": "3",
-    "h:98536dbe": "2",
-    "h:a29697a7": "3",
-    "h:d6b11dbf": "3",
+    "h:6396b3ee": "2",
+    "h:c75b708d": "2",
     "h:e08ab236": "2",
+    "h:ba5d3bbb": "2",
     "h:2d260ddb": "2",
-    "h:f6c1d9af": "2",
-    "h:159831da": "3",
-    "h:2bf518fb": "3",
+    "h:f6c1d9af": "x",
+    "h:159831da": "x",
+    "h:2bf518fb": "1",
     "c:V1-1": "3",
     "c:V1-2": "3",
     "c:V1-3": "3",
@@ -96,13 +93,13 @@
     "c:V1-8": "1"
    },
    "extras": {},
-   "razao": "Teto 3 (A/B, holdbacks, 'research and experiments on the platform') aparece só no blog de 2015 e nos títulos de navegação da central de ajuda. Nos vinculantes (Privacy Policy 2.5 'product testing', cookies 'Test updates', termos do programa beta), só nível 2."
+   "razao": "Teto 3 só em registros não-vinculantes (blog de 2015 com A/B e holdbacks; índice da central de ajuda). Nos vinculantes, só nível 2 ('product testing' na Privacy Policy, 'Test updates' no aviso de cookies, versões de teste nos termos do programa)."
   },
   "V2": {
    "notas": {
     "c:V2-1": [
-     "service improvement",
-     "research"
+     "research",
+     "service improvement"
     ],
     "c:V2-2": [
      "service improvement"
@@ -118,32 +115,32 @@
      "research"
     ],
     "c:V2-6": [
-     "research",
-     "service improvement"
+     "research"
     ],
-    "c:V2-7": [
-     "social-good/community"
-    ]
+    "c:V2-7": "x"
    },
    "extras": {},
-   "razao": "Predominam melhoria do serviço e pesquisa genérica, frequentemente co-ocorrendo; 'secure and respectful for everyone' sugere enquadramento comunitário, mas está ligado à finalidade geral, não à experimentação. Nenhum trecho enquadra como pesquisa com seres humanos."
+   "razao": "Predominam melhoria do serviço e pesquisa genérica, muitas vezes na mesma frase. O trecho de 'secure and respectful for everyone' não se liga a testes, por isso sugerido como x."
   },
   "V3": {
    "notas": {
     "h:c6ab6169": "x",
     "h:46bdab99": "x",
-    "h:18087be4": "x",
-    "h:c3b59750": "x",
-    "h:34291d6b": "x",
     "h:468f665d": "x",
+    "h:889a2f92": "x",
+    "h:ff72c709": [
+     "activities"
+    ],
     "h:96b5f73c": "x",
     "h:93f2e2fb": "x",
     "h:07171639": [
      "activities"
     ],
-    "h:98536dbe": "x",
-    "h:a29697a7": "x",
-    "h:d6b11dbf": "x",
+    "h:6396b3ee": "x",
+    "h:c75b708d": [
+     "activities"
+    ],
+    "h:ba5d3bbb": "x",
     "h:159831da": "x",
     "h:2bf518fb": "x",
     "c:V3-1": "x",
@@ -161,9 +158,9 @@
     "c:V3-7": "x"
    },
    "extras": {
-    "v3_targets": "UI/UX changes; new features; machine learning models"
+    "v3_targets": "UI/UX changes; new features; machine learning models; experimental mobile app versions"
    },
-   "razao": "Atividades e alvos são nomeados só no blog (UI/UX, features, modelos de ML) e no programa beta; Group DMs aparece como exemplo hipotético, não como experimento ativo divulgado. Preço não aparece como alvo; recomendação de conteúdo nos ToS é personalização."
+   "razao": "Superfícies testadas são nomeadas no blog e nos termos do programa de experimentos; nenhum experimento ativo nem preço aparecem como alvo. Recomendação de conteúdo (V3-6) e dados de pagamento (V3-7) não são alvo de teste."
   },
   "V4": {
    "notas": {
@@ -178,10 +175,10 @@
     "c:V4-7": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "operate and improve our products and services (research, product testing)",
+    "v4_mapped_purpose": "conduct research, surveys, product testing ... to help us operate and improve our products and services (mapeada à linha 'Operating our services')",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases (Doc 3) está presente e liga 'Operating our services' a necessidade contratual, mas os trechos não mostram uma linha específica de melhoria/pesquisa; a ligação com experimentação é inferida. A análise de legítimo interesse fornecida trata de inferências e personalização, não de testes."
+   "razao": "A tabela de bases por finalidade está presente no Doc 3, e a linha 'Operating our services' indica Contractual necessity; o mapeamento da pesquisa/teste a essa linha é inferência. Convém conferir na tabela completa se há linha específica de melhoria com legítimo interesse."
   },
   "V5": {
    "notas": {
@@ -193,15 +190,13 @@
     "c:V5-6": "x"
    },
    "extras": {},
-   "razao": "Há objeção genérica e controles de cookies/anúncios, além de opt-outs para treino de IA e e-mails de pesquisa, nenhum específico de experimentação. Sugestão de nível: cookie/ads-only ou GDPR-objection-only, a critério do codificador."
+   "razao": "Os controles achados regem cookies, anúncios, partilha com parceiros, treino de IA e e-mails de pesquisa, não experimentos. Não há opt-out dedicado a experimentação nos trechos."
   },
   "V6": {
    "notas": {
     "h:8d16bdee": "x",
     "h:97e3c5e5": "x",
     "h:82a73284": "x",
-    "h:52dc4f23": "x",
-    "h:46e52da2": "x",
     "h:377f5bef": "sim",
     "h:f7f0f586": "x",
     "h:a6f01e2f": "x",
@@ -216,9 +211,9 @@
     "c:V6-5": "sim"
    },
    "extras": {
-    "v6_which": "X Experiments Program (X Mobile Application Testing Program): inscrição voluntária para baixar versões de teste dos apps móveis, via TestFlight etc.; também X iOS Beta program"
+    "v6_which": "X Experiments Program (X Mobile Application Testing Program): voluntários baixam versões experimentais dos apps Android/iOS, via TestFlight etc.; também X iOS Beta program"
    },
-   "razao": "O X Experiments Program é um programa voluntário de acesso a versões experimentais dos apps, com saída a qualquer momento. Não mitiga a V5."
+   "razao": "Há programa opt-in com inscrição voluntária e saída a qualquer momento. Não mitiga a V5."
   },
   "V7": {
    "notas": {
@@ -228,18 +223,17 @@
     "c:V7-4": "x"
    },
    "extras": {},
-   "razao": "Nenhum trecho é aviso posterior ao participante: há avisos de mudança de serviço, explicação de anúncio e aprendizado interno da equipe. Sugestão: No, tema não endereçado (debrief:0 em todos os documentos)."
+   "razao": "Os trechos são aviso de mudança de serviço, explicação de anúncio e aprendizado interno, não aviso ao participante; debrief tem 0 ocorrências no log. Sugere-se No, do tipo tema tratado (blog) sem o mecanismo."
   },
   "V8": {
    "notas": {
-    "c:V8-1": "sim",
+    "c:V8-1": "x",
     "c:V8-2": "x",
     "c:V8-3": "x",
-    "c:V8-4": "sim",
-    "c:V8-5": "x"
+    "c:V8-4": "x"
    },
    "extras": {},
-   "razao": "Caso de fronteira: o blog de 2015 menciona revisão opcional e não vinculante de hipóteses (Experiment Shepherds) e mitigação de riscos de experimentos, mas em sentido metodológico/de produto, não ético; o codificador pode preferir No com nota. Nos vinculantes não há menção, e ethics/IRB/risk assessment estão em 0 (gap frente ao DSA)."
+   "razao": "Experiment Shepherds e 'mitigate the risks' no blog são revisão metodológica opcional e não vinculante, não revisão ética; V8-1 e V8-4 são casos de fronteira para o codificador. Ethics, review board, IRB e risk assessment têm 0 ocorrências, e não há menção a avaliação de risco do DSA (gap regulatório-vs-documento)."
   },
   "V9": {
    "notas": {
@@ -254,28 +248,25 @@
     "h:8d16bdee": "sim",
     "h:97e3c5e5": "x",
     "h:82a73284": "sim",
-    "h:52dc4f23": "x",
-    "h:46e52da2": "x",
     "h:c6ab6169": "sim",
     "h:46bdab99": "sim",
-    "h:18087be4": "sim",
-    "h:c3b59750": "sim",
-    "h:34291d6b": "sim",
     "h:468f665d": "sim",
+    "h:889a2f92": "sim",
     "h:f7f0f586": "sim",
+    "h:ff72c709": "sim",
     "h:a6f01e2f": "sim",
     "h:96b5f73c": "sim",
     "h:033f5132": "sim",
     "h:93f2e2fb": "sim",
     "h:07171639": "sim",
-    "h:98536dbe": "sim",
-    "h:a29697a7": "sim",
-    "h:d6b11dbf": "sim",
+    "h:6396b3ee": "sim",
+    "h:c75b708d": "sim",
     "h:e08ab236": "sim",
+    "h:ba5d3bbb": "sim",
     "h:2d260ddb": "sim",
-    "h:f6c1d9af": "sim",
-    "h:159831da": "sim",
-    "h:2bf518fb": "sim",
+    "h:f6c1d9af": "x",
+    "h:159831da": "x",
+    "h:2bf518fb": "x",
     "c:V1-1": "sim",
     "c:V1-2": "sim",
     "c:V1-3": "sim",
@@ -286,12 +277,14 @@
     "c:V1-8": "x"
    },
    "extras": {},
-   "razao": "Divulgação aparece na política de privacidade e no aviso de cookies (teste de produto, nível 2), nos termos do programa beta, na central de ajuda/aviso de pesquisa (títulos 'Research and experiments') e no blog (A/B explícito). Registro agregado sugerido: both, com o método explícito só no não vinculante."
+   "razao": "Divulgação em privacy policy (Doc 1 e aviso de cookies), termos do programa de experimentos (Doc 7), central de ajuda (Doc 5) e blog (Doc 6), registro agregado both. Cláusulas de incorporação (V9-2, V9-3, V9-5, V9-8) indicam vínculo, mas não divulgam experimentação por si."
   }
  },
- "avisos": [],
+ "avisos": [
+  "V8: 1 trecho(s) sem nota sugerida"
+ ],
  "uso": {
-  "input": 23086,
-  "output": 8961
+  "input": 44399,
+  "output": 17092
  }
 }

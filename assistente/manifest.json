@@ -1,286 +1,286 @@
 {
- "publicado_em": "2026-10-06T19:47:14+00:00",
+ "publicado_em": "2026-10-07T02:07:09+00:00",
  "fonte": "github.com/mrcsvg/experimented-without-consent",
  "arquivos": [
   {
    "file": "codebook.json",
-   "sha256": "eb0d9944f5ef6d759e4a3cedd0ffc8c2963a2ceb42499d8a9b90e2c6a4d6ab24",
-   "bytes": 40985
+   "sha256": "7075bbecdc075998d5b0a0f9336b4f54653fb63d00ac829039226846534c48e4",
+   "bytes": 41707
   },
   {
    "file": "copiloto/aliexpress.json",
-   "sha256": "b67eadfa3b3eaf24a04a1fe8d46542c5ca0a8f11b760f1a5cb8f02f07255c7ed",
-   "bytes": 5339
+   "sha256": "bef5d306877b283459396d1fe4465d729d7771b25866e741831b227d64fdf361",
+   "bytes": 5180
   },
   {
    "file": "copiloto/amazon-store.json",
-   "sha256": "c4e3f336529c2bfb0ab09ff04b8e3ad7cb276a52ad87a551b90768bbbf1f4998",
-   "bytes": 7841
+   "sha256": "bc57f48e21cfe5322d4e58f83d3355c655dd698136c4e42b502565bae3da4fc0",
+   "bytes": 7601
   },
   {
    "file": "copiloto/app-store.json",
-   "sha256": "31d266166444ccd19db1aa6b22442b1ca8080392670f9ca2fb03928a10c10060",
-   "bytes": 7985
+   "sha256": "1979c99b8c292a88ac18123319c8d9e33d1f7bdd9f05ee502adcd78e22808969",
+   "bytes": 7884
   },
   {
    "file": "copiloto/bing.json",
-   "sha256": "092e02910f54e9b52b982706e53a7af7f942419dfdaecec62f849ca6805cd1cd",
-   "bytes": 8012
+   "sha256": "8535899247187e482f6af3356b11f4a9af17fe08c383ab2ca11f8f02da150cb6",
+   "bytes": 8142
   },
   {
    "file": "copiloto/booking-com.json",
-   "sha256": "e03e1721cfd6615b38831ea662f3b5739f3715e6338b19be124a168104b1116a",
-   "bytes": 5700
+   "sha256": "46bea3b1a1c86589097a72d32cbbe354da7cd6d852421f96f3731b255ec0cb75",
+   "bytes": 5720
   },
   {
    "file": "copiloto/facebook.json",
-   "sha256": "f7468564317d8d05a0d059fb9729f81f63fe0a38da5e92c8573d9089e9a91eec",
-   "bytes": 7806
+   "sha256": "fdfebdf6f4f34ced5f08aaa2ca3e5dc7edf8482e70a27b9f82c33e0f3e1d7949",
+   "bytes": 7875
   },
   {
    "file": "copiloto/google-maps.json",
-   "sha256": "64acb3fe7c2a3138f6b5f34d6ee715964e523efb797bfd47786c6c2370d662f7",
-   "bytes": 6635
+   "sha256": "8f19bdc3dc7967f6f1661bb5d1982b8d55c3c56212416c9bb842cc987be129aa",
+   "bytes": 6390
   },
   {
    "file": "copiloto/google-play.json",
-   "sha256": "ec47962f5626e0301f9fd8bff1587db650db0e4c61b9a24e39c0b384ea9b827d",
-   "bytes": 7282
+   "sha256": "3bfc9ff23ff955530fa05eeb7043f0e20653a1ebf58184512a7757d45ec6fa73",
+   "bytes": 7608
   },
   {
    "file": "copiloto/google-search.json",
-   "sha256": "0684033ea11526edf9ec93e80ec4c8afd1b07fbbbc5c8622a3571c920c81fe29",
-   "bytes": 7225
+   "sha256": "727ec30222c2a253d0bcd5488b889220c54b2db05809ff548b0609b48ba7fcd9",
+   "bytes": 7505
   },
   {
    "file": "copiloto/google-shopping.json",
-   "sha256": "0f8b301c637a4dcc6b69c6457755b6e6c24bd7166b9193ff056d365cd932c8b6",
-   "bytes": 6113
+   "sha256": "be05b48a8b6ce286b3b2199f22ee49b8997ed550d987f1b903b48f33a6e3deef",
+   "bytes": 5894
   },
   {
    "file": "copiloto/index.json",
-   "sha256": "00cb62a1f0128519800d26a9ec08fd60ffc288543d487011aa3a9dfdb11a7733",
+   "sha256": "20405d60db021f029eb31241ae259f94400ebb26f26347bad66a79a4044b5184",
    "bytes": 7029
   },
   {
    "file": "copiloto/instagram.json",
-   "sha256": "49dba179231cb830d2ecb8aa492c07e6ec62e093938cd83b36f7eeef760d178f",
-   "bytes": 7083
+   "sha256": "0519e727a15f34530defa00e100d6cd32976055279907ffe38719754b85a9151",
+   "bytes": 7137
   },
   {
    "file": "copiloto/linkedin.json",
-   "sha256": "fa8c4c906e7a689a424413e8ef8105ed4bbf82024498c6382e10139ec818d482",
-   "bytes": 6180
+   "sha256": "7affaf13a691e8bdd17ccaaa2de5a04e5379d95ccc3ded610b048c096f26de82",
+   "bytes": 6089
   },
   {
    "file": "copiloto/pinterest.json",
-   "sha256": "2b68ffd58b0e9235e62262ecb75ce3469d79cd56ece6da0768f62cbcc94b023b",
-   "bytes": 6950
+   "sha256": "5cbeec2f9fcc0e9aca103a6345ee3305da3e8ec66f0a7a8d2071bf419c7cf6d4",
+   "bytes": 6802
   },
   {
    "file": "copiloto/pornhub.json",
-   "sha256": "a3f370cf9d721e4c56307355e508f6fda7b507557442cba55792721fb05ee8f0",
-   "bytes": 6796
+   "sha256": "3da98e33738b5073bbb2a72b933fdd9908feaf92fde8fab665a63253457e46e8",
+   "bytes": 6660
   },
   {
    "file": "copiloto/prompt.md",
-   "sha256": "498ddf7b2cf2ed4d5549ac3b951754870facfbb1a677d7ccd937aab6236b6b91",
+   "sha256": "19a53562de84db6483cb28754c765109c55971b44ec6ee9e0dff2d70a0d7de13",
    "bytes": 4378
   },
   {
    "file": "copiloto/shein.json",
-   "sha256": "172062fca133788b79fb9933de74b14ca2146f109d7fea4582106a5d328aa6c6",
-   "bytes": 4858
+   "sha256": "2e8b2ef2eabd9afd6877de7fce3768083f3d266d4d1fae3bfe0f104222aff8fe",
+   "bytes": 5174
   },
   {
    "file": "copiloto/snapchat.json",
-   "sha256": "402f5c727fc4856695a0a8ccc35e7a13ca3dc6d5abc4d0bc1f5339bddb29325d",
-   "bytes": 8747
+   "sha256": "4e1a4f2740a8bf2a315c6c1719f16198509d918a574679d70ff647c13a22612e",
+   "bytes": 8659
   },
   {
    "file": "copiloto/stripchat.json",
-   "sha256": "d994e5216898fe4ed392582f6145945206df07963508cd1dfe3efd10fa660a90",
-   "bytes": 4971
+   "sha256": "61832bb2812aa7e99c82e2262fd055d3fb6a667331d156cb9c211d3bc56e72a4",
+   "bytes": 5371
   },
   {
    "file": "copiloto/temu.json",
-   "sha256": "47a5f0c1c5f6150a21b7fc9b27cc6aa8fadcf50c71046cc3b2b2358535ada547",
-   "bytes": 4828
+   "sha256": "1e67df90693ab38ef2462658992cce536932430db31827a766dc780d9a477de3",
+   "bytes": 4727
   },
   {
    "file": "copiloto/tiktok.json",
-   "sha256": "c48a1ceacd2ec14d4b58796af73b791be268fba6e328403be53db5f89c069b08",
-   "bytes": 6036
+   "sha256": "d27c50aacc816ab561eec9b2cb8e04efc497124fa6a5358d34d76fa360234fdf",
+   "bytes": 6121
   },
   {
    "file": "copiloto/whatsapp.json",
-   "sha256": "f6e8c39963696c46e03f89686ec489180ea96fd557a9f9f880379a2ff4a74724",
-   "bytes": 5413
+   "sha256": "4421ce0bdad1c0cacf953c581f874211f2ffe640e67faf30155b347f02e49916",
+   "bytes": 5830
   },
   {
    "file": "copiloto/wikipedia.json",
-   "sha256": "84204adcdbff7c32d27d4a28fff7a399214490b3a60caf49922eab3f1991a173",
-   "bytes": 7696
+   "sha256": "e85ea4c47ebb0477e1d182ee49351d5f13f2decf1b3bd784a61327446ec8a34b",
+   "bytes": 7238
   },
   {
    "file": "copiloto/x.json",
-   "sha256": "ad1f688340b4fde11ffb76f76b1b9f11ca5d55a9fd0b17dab623295aaa361b32",
-   "bytes": 8050
+   "sha256": "c09aecedf779726c325b87ce5b14e5099513c52822d70a7292294308180e4006",
+   "bytes": 7592
   },
   {
    "file": "copiloto/xnxx.json",
-   "sha256": "307e0acb7f3eb65f60d13625cdbdb3c9835b13cf2268cb145364a19ccac97ac5",
-   "bytes": 4943
+   "sha256": "69bf12980a673d8b21b796b8cc3180c56b5b14a8182741e759782228d07a9ccd",
+   "bytes": 5061
   },
   {
    "file": "copiloto/xvideos.json",
-   "sha256": "bee384de3b2bc1be52a56c80667f11ade509abd134dda02f3d5286b6b974cc23",
-   "bytes": 5330
+   "sha256": "ca332e2a725cc730a001fad01f9b889784250c93b1a7c1cbe1deaaa748f16fdc",
+   "bytes": 5145
   },
   {
    "file": "copiloto/youtube.json",
-   "sha256": "4cc90a5b27b7e4fd099f22fa5e9d0aaea40ad24a6e9cb160a0216d54d515750e",
-   "bytes": 8993
+   "sha256": "fd74dafc9519008682d7d152872f5f5fdd147aa45459543453247872577af350",
+   "bytes": 8618
   },
   {
    "file": "copiloto/zalando.json",
-   "sha256": "3dbe484c91d5a085035e75760899fbc65f85f0c151c41b79fe8980077f0f0fff",
-   "bytes": 7661
+   "sha256": "bc9b3aa59148bb89b7a9455f7fc480daecf9bb9c0e976d3cd9439d0d9ced6594",
+   "bytes": 7676
   },
   {
    "file": "piso/aliexpress.json",
-   "sha256": "6e8b4dc844c5f13edbb02f862d937d73ee728648da205b7791a371604b6cf1fd",
+   "sha256": "22365200b338a0018287d564b2c7a3e6d0b01217ffa8ce4eac3fca01c6afab59",
    "bytes": 7636
   },
   {
    "file": "piso/amazon-store.json",
-   "sha256": "13c4dd79b1f799096150b6438180858b5149ea15c5a017e77eaf9aadc8cbdef8",
-   "bytes": 32096
+   "sha256": "f4f5c29492383019ae7312ebb7c1ba623837b6eab11410ca6ab742693e3d24f4",
+   "bytes": 32628
   },
   {
    "file": "piso/app-store.json",
-   "sha256": "65d0c46faf999c2f5a3dffb9debe0f299ed82da6f4b1e53c7f8f8150c561be84",
-   "bytes": 28773
+   "sha256": "1f30ebfcc1303bfc3810f2203175ff84007131189c266097cd40a6f22facac75",
+   "bytes": 28913
   },
   {
    "file": "piso/bing.json",
-   "sha256": "339cd072acb672830db87282cc6cda90a123b32af0f73aa7e7be71612c0124af",
-   "bytes": 28924
+   "sha256": "1c43a451b985d0798a4618166df9bd8d6586e79680eb9f919eb02a634384a949",
+   "bytes": 28916
   },
   {
    "file": "piso/booking-com.json",
-   "sha256": "2ab3eda607182dd1828af9b410ac3d827d3717f1ab4ce131c7d1ca2a5ff2ca57",
+   "sha256": "6ac5cd4f8c4c03df338dda2dfd1acdf25f363824937435f72d2b7f319ac3269f",
    "bytes": 10927
   },
   {
    "file": "piso/facebook.json",
-   "sha256": "3242ea0b3a35a481c49cccaccbe37a971ce98047c13117559ebec1a57ba51054",
-   "bytes": 23780
+   "sha256": "31a7a5921545420c66cec4ae92777dc8276ffb2a277105e22169f55648388dc2",
+   "bytes": 23414
   },
   {
    "file": "piso/google-maps.json",
-   "sha256": "a6078643966bbea9618ff2b4727555de42d4b9fd59e5de05c6830df5d112702b",
-   "bytes": 11752
+   "sha256": "ae7fdd3d59fb13ba296725292bfbfc706de7c823e4b8487f42a3558f741ae1fc",
+   "bytes": 11766
   },
   {
    "file": "piso/google-play.json",
-   "sha256": "bb910d525f5c9ed444ec0884c8c264406ef55e31bcf3f7980188233d6b611b7c",
-   "bytes": 19149
+   "sha256": "df34b4c6d5421bb2d205c132cdd1748dbc177f40f5351b31de3f9c578300ac0f",
+   "bytes": 19367
   },
   {
    "file": "piso/google-search.json",
-   "sha256": "168d36ef9ddf2c24836a89d4f695dfea7e0b1bd323e376f7f5dafb0a55524ed6",
-   "bytes": 16927
+   "sha256": "60ff8eb75f8762e30a71bcb1f247ecb7df856934076b101cc4c1c14c42776c93",
+   "bytes": 15157
   },
   {
    "file": "piso/google-shopping.json",
-   "sha256": "e58710386f1c308933bd053d032c3dee6ded617c44c7668399c2c3267cbe5ecf",
-   "bytes": 11573
+   "sha256": "cf75be97299d28fee8752deddae8382fb2cfda4ebb8ae644b9e4e69319ac2846",
+   "bytes": 9795
   },
   {
    "file": "piso/index.json",
-   "sha256": "a48bf4739d867652ff3891d4dbdc2f15d41cd2f12a3797b22aa5511d45aea15e",
+   "sha256": "2e72ce7ab23d5c5d7c8c0c7631e2f5d86beb5a95371f0a4be7329be9653bcd3c",
    "bytes": 4777
   },
   {
    "file": "piso/instagram.json",
-   "sha256": "e75a529495af92ddaf352a615d8f7f790030ade66d3f2c4405a3eba8e6b7bc8b",
+   "sha256": "0d2c37cd98fbd1f9d3c8a41da9c732ff96e33055d328b3c6a7ea01686958787a",
    "bytes": 12700
   },
   {
    "file": "piso/linkedin.json",
-   "sha256": "01f0eb9d17b0775256e328a91ffbb8d4e5c54674a22087fff96f60fc45388241",
-   "bytes": 10552
+   "sha256": "0e22a271d5aeac557b3c671307b3f7dac23cc567eac3b2cfe95dcce1091cd4c1",
+   "bytes": 10544
   },
   {
    "file": "piso/pinterest.json",
-   "sha256": "9ab545213ac9d7b200bb7a382523c87766b50d2be922405eabdea570a47b3331",
-   "bytes": 18115
+   "sha256": "8ab363361e782cfab29156c78bd535e2548f1f642d610dbc4ca2c6a7eab4dea3",
+   "bytes": 18178
   },
   {
    "file": "piso/pornhub.json",
-   "sha256": "d29f073c32b71bdb3c987cb2f4a708b112bfcd442684147e03b8756aa8cdf650",
-   "bytes": 23067
+   "sha256": "0fe47b2f91d96769ace9edbb22505e5391d51f96fdb38b855b2bc67a974a1afa",
+   "bytes": 19451
   },
   {
    "file": "piso/shein.json",
-   "sha256": "9519e78fa69f364f51b9ab4b6426a2ac219b6d91666e542ef7474cc1c7bcf01e",
+   "sha256": "12a05276557c3f307daa29116c1fb249298f51e3c13421f55da86fb2cfb81b31",
    "bytes": 4418
   },
   {
    "file": "piso/snapchat.json",
-   "sha256": "06098a7777fd3305fb8a518bc21ffff6763a56fd276c0361d42cd85d8195a6fe",
-   "bytes": 36155
+   "sha256": "dd35259a0f980f359eefc25ff0fcc3d1c69a9165c45126a9d79d6d9036701e63",
+   "bytes": 36241
   },
   {
    "file": "piso/stripchat.json",
-   "sha256": "1f1793dc2de7a926d3579f362828a1825328654ea0e15d276567bb7c01597e58",
+   "sha256": "e5777447500572e79827a90613fa9bc6582df3aa96597f3d280b0fa30cde9237",
    "bytes": 4499
   },
   {
    "file": "piso/temu.json",
-   "sha256": "9429d489edfa64adb28a6c8badf71c9a5223b1c5d7225e76a2986ce04e233ecc",
+   "sha256": "d6aae98bfce7e0f6dd00b3675f84e279e9f8bfcf49a2e91a4ccc7adf9c9aa5b4",
    "bytes": 3745
   },
   {
    "file": "piso/tiktok.json",
-   "sha256": "db3b853cec2761190fa13f6c1bd9db2babefdf186960d831722a6536d283b3b5",
-   "bytes": 14162
+   "sha256": "2b8c1e0fc34bff6af63fd2ecf17f550a2fac8745c568871400bdd09a321f8d96",
+   "bytes": 14318
   },
   {
    "file": "piso/whatsapp.json",
-   "sha256": "7dea58783eec037e1a8c4ad7294ed6ec753c3944427997a8af88981419a6280a",
+   "sha256": "c340b789f481a41e887197e8ef89e972deb2564c993aa79ede4cb037b4f7b924",
    "bytes": 8458
   },
   {
    "file": "piso/wikipedia.json",
-   "sha256": "c6abf2b713aefd3e7cc65591f7c8ee10b447c068bc4bf5f31c67f72ad7d9a7a4",
-   "bytes": 25789
+   "sha256": "7f2c2a2e68a31f14033da999d3dc84fd65fdb58a5b187baca24c001c6c4ffbb1",
+   "bytes": 23933
   },
   {
    "file": "piso/x.json",
-   "sha256": "c11be281a094151637bc75875fcc1e63b3dddd41545045663622fbeec05a626e",
-   "bytes": 28359
+   "sha256": "acd9db3061bf489ac8a5ebc456ca251f33e7a60bb57add4a1e1f676c859755f1",
+   "bytes": 26219
   },
   {
    "file": "piso/xnxx.json",
-   "sha256": "4019d859eeb0ffc2b8b4a40ad4589d423bddff7430fe6f9cb9aeb2b13b586394",
+   "sha256": "67182494eca7f8e1e07da4e20f40772a748ea0ddd1b01e89625456ad101493b9",
    "bytes": 5770
   },
   {
    "file": "piso/xvideos.json",
-   "sha256": "d143969f0b5606d6b5d2cd27cd95d9ab1758accd7da05ff2f28d8279c15f3571",
-   "bytes": 13237
+   "sha256": "181d123eed4e2f01456070904ac018f25908316a3ada4b1503d41668cc656736",
+   "bytes": 11347
   },
   {
    "file": "piso/youtube.json",
-   "sha256": "8fbcf345d132e439551855cc148f2794e9b32abe3032c34a1990a68c73949a4e",
-   "bytes": 26139
+   "sha256": "aa3ed13896a85cda6ff638264d8091254ccd8c49d855c570cdd7c4f3c6854187",
+   "bytes": 24407
   },
   {
    "file": "piso/zalando.json",
-   "sha256": "741f30046e0c9415bb16d919d40b429f924e42dc20963da950fd753e19993303",
-   "bytes": 34410
+   "sha256": "7bde4342002c62431b85efd7f7f338f21fb4a5cbae84033fffe2044350eb7830",
+   "bytes": 33010
   }
  ]
 }

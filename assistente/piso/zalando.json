@@ -1,7 +1,7 @@
 {
  "servico": "Zalando",
  "slug": "zalando",
- "gerado_em": "2026-10-06T19:47:14+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -218,7 +218,7 @@
    },
    {
     "termo": "risk assessment",
-    "kwic": "…request a risk assessment for the user's end device from the database of providers. This risk assessment on the likelihood of attempted fraud considers, amongst other things, whether the end dev…",
+    "kwic": "…an find country-specific information on the credit agencies charged with carrying out the risk assessment and on the creditworthiness data used under “country-specific information”. When deciding…",
     "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
     "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
     "n": 1,
@@ -226,7 +226,7 @@
    },
    {
     "termo": "risk assessment",
-    "kwic": "…you the payment methods available for a purchase, Zalando Payments GmbH will carry out a risk assessment and include the total costs for an order with Zalando. Your previously collected purchase…",
+    "kwic": "…lt risk is assessed separately for each payment method in the form of an estimate. If the risk assessment yields a positive result, we can offer all the payment methods we generally offer. Otherw…",
     "flag": "falso positivo comum: escore antifraude e avaliação de risco sistêmico do DSA (Arts. 34-35) não são revisão ética por experimento (ver V8)",
     "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
     "n": 1,
@@ -299,14 +299,6 @@
     "total_no_doc": 20
    },
    {
-    "termo": "test",
-    "kwic": "…ata on the basis of legal specifications, e.g. retention obligations and money laundering tests under tax law, the legal basis is Article 6 (1) c GDPR. 2.9. Enabling interactions betwee…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
-    "n": 1,
-    "total_no_doc": 20
-   },
-   {
     "termo": "A-B",
     "kwic": "…d and which browsers and devices our users generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/…",
     "flag": null,
@@ -315,16 +307,16 @@
     "total_no_doc": 3
    },
    {
-    "termo": "A-B",
-    "kwic": "…generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is…",
-    "flag": null,
+    "termo": "test",
+    "kwic": "…d which browsers and devices our users generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B test…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
     "n": 1,
-    "total_no_doc": 3
+    "total_no_doc": 20
    },
    {
     "termo": "A-B",
-    "kwic": "…/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is an approach to comparing two versions of a websi…",
+    "kwic": "…generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is…",
     "flag": null,
     "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
     "n": 1,
@@ -484,23 +476,15 @@
    },
    {
     "termo": "experiment",
-    "kwic": "Zalando Engineering Blog - Experimentation Engineering Blog Categories ▼ All Posts 🔧 Backend 🌍 Culture 📊 Data 🕸️ Frontend 🧑‍🤝‍🧑 Lead…",
-    "flag": null,
-    "file": "zalando/08-tags-experimentation.md",
-    "n": 8,
-    "total_no_doc": 4
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…ne Learning 📱 Mobile 🧑‍💻 Open Source 🧠 Science Tags Work with us About Zalando Light mode Experimentation Zalando's Machine Learning Platform Architecture and tooling behind machine learning at Z…",
-    "flag": null,
-    "file": "zalando/08-tags-experimentation.md",
-    "n": 8,
-    "total_no_doc": 4
-   },
-   {
-    "termo": "experiment",
     "kwic": "…learning at Zalando Read more... Krzysztof Szafranek Senior Software Engineer Apr 19 2022 Experimentation Platform at Zalando: Part 1 - Evolution Challenges and solutions of our experimentation p…",
+    "flag": null,
+    "file": "zalando/08-tags-experimentation.md",
+    "n": 8,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…2 Experimentation Platform at Zalando: Part 1 - Evolution Challenges and solutions of our experimentation platform at Zalando Read more... Shan Huang Applied Scientist Jan 12 2021 Hack Week #5 –…",
     "flag": null,
     "file": "zalando/08-tags-experimentation.md",
     "n": 8,
@@ -526,7 +510,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…ata on the basis of legal specifications, e.g. retention obligations and money laundering tests under tax law, the legal basis is Article 6 (1) c GDPR. 2.9. Enabling interactions betwee…",
+    "kwic": "…d which browsers and devices our users generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B test…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
     "n": 1,
@@ -616,14 +600,6 @@
    },
    {
     "termo": "A-B",
-    "kwic": "…/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/B testing (also known as split testing) is an approach to comparing two versions of a websi…",
-    "flag": null,
-    "file": "zalando/01-contentful-apps-uploads-6264a7fa-33a0-42b3-8021-da7a.md",
-    "n": 1,
-    "total_no_doc": 3
-   },
-   {
-    "termo": "A-B",
     "kwic": "…d and which browsers and devices our users generally use. We may also carry out so-called A/B tests in the course of usage analysis. A/B tests are a special kind of usage analysis. A/…",
     "flag": null,
     "file": "zalando/05-zalando-privacy-policy.md",
@@ -712,23 +688,15 @@
    },
    {
     "termo": "experiment",
-    "kwic": "Zalando Engineering Blog - Experimentation Engineering Blog Categories ▼ All Posts 🔧 Backend 🌍 Culture 📊 Data 🕸️ Frontend 🧑‍🤝‍🧑 Lead…",
-    "flag": null,
-    "file": "zalando/08-tags-experimentation.md",
-    "n": 8,
-    "total_no_doc": 4
-   },
-   {
-    "termo": "experiment",
-    "kwic": "…ne Learning 📱 Mobile 🧑‍💻 Open Source 🧠 Science Tags Work with us About Zalando Light mode Experimentation Zalando's Machine Learning Platform Architecture and tooling behind machine learning at Z…",
-    "flag": null,
-    "file": "zalando/08-tags-experimentation.md",
-    "n": 8,
-    "total_no_doc": 4
-   },
-   {
-    "termo": "experiment",
     "kwic": "…learning at Zalando Read more... Krzysztof Szafranek Senior Software Engineer Apr 19 2022 Experimentation Platform at Zalando: Part 1 - Evolution Challenges and solutions of our experimentation p…",
+    "flag": null,
+    "file": "zalando/08-tags-experimentation.md",
+    "n": 8,
+    "total_no_doc": 4
+   },
+   {
+    "termo": "experiment",
+    "kwic": "…2 Experimentation Platform at Zalando: Part 1 - Evolution Challenges and solutions of our experimentation platform at Zalando Read more... Shan Huang Applied Scientist Jan 12 2021 Hack Week #5 –…",
     "flag": null,
     "file": "zalando/08-tags-experimentation.md",
     "n": 8,

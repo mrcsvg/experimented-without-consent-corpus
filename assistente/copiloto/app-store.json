@@ -4,8 +4,8 @@
  "slug": "app-store",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "95c2cdd41398",
- "gerado_em": "2026-10-04T23:43:23+00:00",
+ "entrada_sha": "940d09410e0b",
+ "gerado_em": "2026-10-07T01:59:55+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -68,18 +68,18 @@
     "h:efd78275": "x",
     "h:f43bfa89": "x",
     "h:7125f23e": "x",
-    "h:fb9359e1": "x",
-    "h:23245ffd": "x",
-    "h:cfd3435d": "x",
-    "h:484ddc50": "x",
-    "h:977c7fbd": "x",
-    "h:2edaaf13": "x",
-    "h:1430d4ee": "x",
-    "h:cfc6323a": "x",
-    "h:ec9adba1": "x",
-    "h:89950c5a": "x",
+    "h:fb9359e1": "2",
+    "h:28fe9922": "3",
+    "h:73865ddd": "2",
+    "h:484ddc50": "2",
+    "h:977c7fbd": "2",
+    "h:4a269839": "3",
+    "h:5b1113f6": "x",
+    "h:e1890d62": "x",
+    "h:57cbe341": "x",
     "h:60624937": "3",
     "h:28cb81d8": "3",
+    "h:f901653e": "3",
     "c:V1-1": "1",
     "c:V1-2": "1",
     "c:V1-3": "1",
@@ -92,7 +92,7 @@
     "c:V1-10": "3"
    },
    "extras": {},
-   "razao": "Nível 3 aparece só nas páginas de desenvolvedor (docs 5 e 8: variantes mostradas a usuários aleatórios da App Store, com tratamento vs. original); nos vinculantes (docs 1-4), só nível 1. Os hits de 'trial' são período grátis e os de 'TestFlight' em menus são navegação."
+   "razao": "Teto 3 só nas páginas de developer (variantes servidas aleatoriamente a usuários da App Store, configuradas por desenvolvedores); nos vinculantes, só nível 1. Trechos do TestFlight marquei x por serem beta opt-in, não experimento de rotina — cabe ao codificador confirmar."
   },
   "V2": {
    "notas": {
@@ -105,14 +105,14 @@
     "c:V2-3": [
      "research"
     ],
-    "c:V2-4": "x",
-    "c:V2-5": [
-     "service improvement"
+    "c:V2-4": [
+     "human-subjects research"
     ],
+    "c:V2-5": "x",
     "c:V2-6": "x"
    },
    "extras": {},
-   "razao": "Predomina melhoria do serviço; 'research and development' aparece no doc 1 como pesquisa genérica. O estudo de saúde (V2-4) é programa separado, não enquadramento de teste com usuários da loja, e V2-5 enquadra como otimização de engajamento (anotar em Notas)."
+   "razao": "Melhoria do serviço domina; 'research and development' e estudos do Apple Health aparecem na política, mas não ligados a testes na loja. V2-5 usa enquadramento de engajamento/conversão do desenvolvedor, fora da lista — talvez anotar em Notas."
   },
   "V3": {
    "notas": {
@@ -145,9 +145,9 @@
     ]
    },
    "extras": {
-    "v3_targets": "ícones do app; screenshots; vídeos de prévia do app; proposta de valor/personagem na página; conteúdo sazonal"
+    "v3_targets": "app icons; screenshots; app preview videos; value proposition/character showcased; seasonal content"
    },
-   "razao": "As páginas de desenvolvedor nomeiam elementos da página de produto testados e descrevem testes específicos (Simply Piano, Peak), tudo em registro não vinculante. Preço não aparece como alvo; personalização, ajuste do modelo de busca e parâmetros de ranking são descrições de funcionalidade."
+   "razao": "Superfícies e testes específicos (Simply Piano, Peak) só no Doc 8, não vinculante; preço não aparece como alvo. Ranking (V3-9) e personalização (V3-1) são descrições de funcionalidade, não alvos de teste."
   },
   "V4": {
    "notas": {
@@ -173,7 +173,7 @@
     "v4_mapped_purpose": "Help improve and optimize the App Store and other Apple products and services for you and others",
     "v4_region_gated": "No"
    },
-   "razao": "O doc 2 lista 'improve and optimize the App Store' sob legítimo interesse, numa relação de bases por finalidade presente no documento capturado. As menções a contrato e consentimento são gerais, não ligadas à finalidade de melhoria."
+   "razao": "A finalidade de melhoria aparece listada sob legítimo interesse no Doc 2, que traz uma lista de bases por finalidade, por isso sugeri No no geo-gating. Se o codificador não considerar essa lista uma tabela, a resposta seria not-verifiable (vantage)."
   },
   "V5": {
    "notas": {
@@ -187,7 +187,7 @@
     "c:V5-8": "x"
    },
    "extras": {},
-   "razao": "Os controles encontrados regem anúncios personalizados, cookies e personalização, não experimentos. Nenhum trecho oferece saída dos testes de página de produto."
+   "razao": "Controles de anúncios e cookies não regem os testes de product page; não há opt-out específico de experimentos. Desligar recomendações personalizadas ou resetar identificador também não é saída de experimento."
   },
   "V6": {
    "notas": {
@@ -199,26 +199,26 @@
     "h:f43bfa89": "x",
     "h:7125f23e": "x",
     "h:fb9359e1": "x",
-    "h:23245ffd": "x",
-    "h:cfd3435d": "x",
-    "h:f2e09145": "x",
-    "h:aa7a9400": "x",
-    "h:7517a2e7": "x",
+    "h:f2e09145": "sim",
+    "h:aa7a9400": "sim",
+    "h:7517a2e7": "sim",
+    "h:28fe9922": "x",
+    "h:73865ddd": "x",
     "h:484ddc50": "x",
     "h:977c7fbd": "x",
-    "h:2edaaf13": "x",
-    "h:1cc91d57": "x",
-    "h:274daba2": "x",
-    "h:5775339d": "x",
-    "h:1430d4ee": "x",
-    "h:cfc6323a": "x",
-    "h:ec9adba1": "sim",
-    "h:19ed8e99": "sim",
+    "h:1cc91d57": "sim",
+    "h:274daba2": "sim",
+    "h:5775339d": "sim",
+    "h:4a269839": "x",
+    "h:5b1113f6": "sim",
+    "h:e1890d62": "sim",
     "h:79d28034": "sim",
+    "h:57cbe341": "sim",
     "h:b16734de": "sim",
-    "h:89950c5a": "x",
+    "h:8a729e11": "sim",
     "h:60624937": "x",
     "h:28cb81d8": "x",
+    "h:f901653e": "x",
     "c:V6-1": "sim",
     "c:V6-2": "sim",
     "c:V6-3": "sim",
@@ -226,9 +226,9 @@
     "c:V6-5": "x"
    },
    "extras": {
-    "v6_which": "TestFlight: desenvolvedores convidam testadores internos ou externos (até 10.000, inclusive por link público) a instalar versões beta pelo app TestFlight"
+    "v6_which": "TestFlight — usuários aceitam convite ou link público e instalam betas de apps pelo app TestFlight antes do lançamento"
    },
-   "razao": "O doc 7 descreve o TestFlight como programa beta em que testadores aderem por convite ou link público. Itens de menu e rodapé que só citam o nome foram marcados como x."
+   "razao": "TestFlight é programa beta opt-in descrito no Doc 7 e nos menus da ajuda. Links de rodapé com o nome dos termos marquei x por não descreverem o programa; o codificador pode preferir marcá-los."
   },
   "V7": {
    "notas": {
@@ -239,7 +239,7 @@
     "c:V7-5": "x"
    },
    "extras": {},
-   "razao": "Os trechos são aviso de mudança de termos, de decisão automatizada ou de comunicação, e nenhum é aviso posterior de participação. Sugestão: No do tipo 'não endereçado', com contagem zero para 'debrief'."
+   "razao": "Nenhum trecho é debriefing; são avisos de mudança, decisão automatizada ou comunicação comercial. É No do tipo 'tema tratado sem o mecanismo' nas páginas de product page optimization, e 'debrief' tem 0 ocorrências no log."
   },
   "V8": {
    "notas": {
@@ -251,7 +251,7 @@
     "c:V8-6": "x"
    },
    "extras": {},
-   "razao": "Os trechos tratam de impacto de incidente de privacidade, segurança, confiança estatística e aprovação de metadados, e nenhum trata de revisão ética de experimentos. As palavras-chave ethics, review board, IRB e risk assessment têm contagem zero; possível nota de gap em relação ao DSA."
+   "razao": "Os trechos tratam de salvaguardas de privacidade, confiança estatística e aprovação de metadados, não de revisão ética ou avaliação de risco de experimentos. ethics/review board/IRB/risk assessment têm 0 ocorrências."
   },
   "V9": {
    "notas": {
@@ -260,8 +260,8 @@
     "c:V9-3": "x",
     "c:V9-4": "x",
     "c:V9-5": "x",
-    "c:V9-6": "x",
-    "c:V9-7": "x",
+    "c:V9-6": "sim",
+    "c:V9-7": "sim",
     "c:V9-8": "x",
     "c:V9-9": "x",
     "h:0d7b4925": "x",
@@ -271,18 +271,18 @@
     "h:efd78275": "x",
     "h:f43bfa89": "x",
     "h:7125f23e": "x",
-    "h:fb9359e1": "x",
-    "h:23245ffd": "x",
-    "h:cfd3435d": "x",
-    "h:484ddc50": "x",
-    "h:977c7fbd": "x",
-    "h:2edaaf13": "x",
-    "h:1430d4ee": "x",
-    "h:cfc6323a": "x",
-    "h:ec9adba1": "x",
-    "h:89950c5a": "x",
+    "h:fb9359e1": "sim",
+    "h:28fe9922": "sim",
+    "h:73865ddd": "sim",
+    "h:484ddc50": "sim",
+    "h:977c7fbd": "sim",
+    "h:4a269839": "sim",
+    "h:5b1113f6": "x",
+    "h:e1890d62": "x",
+    "h:57cbe341": "x",
     "h:60624937": "sim",
     "h:28cb81d8": "sim",
+    "h:f901653e": "sim",
     "c:V1-1": "x",
     "c:V1-2": "x",
     "c:V1-3": "x",
@@ -295,12 +295,12 @@
     "c:V1-10": "sim"
    },
    "extras": {},
-   "razao": "A divulgação de experimentação está só na central de ajuda do App Store Connect (doc 5) e na página de desenvolvedor (doc 8), portanto em registro não vinculante. Nos vinculantes há apenas linguagem de melhoria; cabeçalhos, títulos e menus foram marcados como x."
+   "razao": "Divulgação de experimentação só na ajuda do App Store Connect e na página de developer (Doc 8), ambas não vinculantes; registro agregado non-binding. Trechos de 'melhorar' nos vinculantes marquei x por serem nível 1, não divulgação de teste."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 23655,
-  "output": 7810
+  "input": 23511,
+  "output": 8171
  }
 }

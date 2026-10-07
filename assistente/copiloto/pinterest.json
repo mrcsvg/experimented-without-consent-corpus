@@ -4,8 +4,8 @@
  "slug": "pinterest",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "9d1ccc80c92c",
- "gerado_em": "2026-10-04T23:47:06+00:00",
+ "entrada_sha": "cbf9cc04fe37",
+ "gerado_em": "2026-10-07T02:02:31+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -52,18 +52,18 @@
     "h:e9961ecc": "x",
     "h:854ce654": "x",
     "h:42f0e185": "x",
-    "h:f912c9e7": "2",
     "h:6ec33f1b": "2",
-    "h:12772446": "2",
+    "h:88872ff4": "2",
+    "h:9b669b9d": "2",
     "h:a64c0bd2": "3",
     "h:49f38798": "3",
-    "h:4811fb0c": "3",
-    "h:2d0a2775": "3",
-    "h:6f353568": "3",
-    "h:c06e8d50": "3",
     "h:20856802": "3",
-    "h:aff4efb5": "3",
+    "h:a7d04dde": "3",
+    "h:bcf4c698": "3",
+    "h:aff4efb5": "x",
     "h:963501df": "3",
+    "h:7961d046": "3",
+    "h:c702820f": "3",
     "c:V1-1": "3",
     "c:V1-2": "3",
     "c:V1-3": "1",
@@ -74,7 +74,7 @@
     "c:V1-8": "3"
    },
    "extras": {},
-   "razao": "A Privacy Policy menciona 'two different versions of a feature' servidas a pessoas (variantes, nível 3), e o blog de engenharia nomeia A/B, grupos de controle e tratamento. O teto parece ser 3 em both; nos vinculantes o nível também chega a 3, e os 'trial' do ToS são júri, não experimentação."
+   "razao": "A Privacy Policy menciona 'two different versions of a feature' (variantes), o que sugere nível 3 também no registro vinculante, e o blog nomeia A/B explicitamente; o registro do teto seria both. Os 'trial' do ToS (julgamento por júri) e o 'randomized' de anúncios parecem falsos positivos."
   },
   "V2": {
    "notas": {
@@ -100,17 +100,21 @@
     ]
    },
    "extras": {},
-   "razao": "O teste de versões aparece sob 'analytics and research' dentro da finalidade de melhorar o serviço, então service improvement e research co-ocorrem. Os trechos V2-5 e V2-6 tratam de pesquisadores externos, não de experimentação própria; o codificador pode preferir 'x' neles."
+   "razao": "Predominam melhoria do serviço e 'analytics and research'. V2-5 e V2-6 tratam de pesquisadores externos (V2-5 com linguagem de 'societal harms'), e o codificador pode querer anotá-los como enquadramento de terceiros, não da própria testagem."
   },
   "V3": {
    "notas": {
     "h:e9961ecc": "x",
     "h:a64c0bd2": "x",
     "h:49f38798": "x",
-    "h:4811fb0c": "x",
-    "h:2d0a2775": "x",
-    "h:c06e8d50": "x",
     "h:20856802": [
+     "activities"
+    ],
+    "h:a7d04dde": [
+     "activities"
+    ],
+    "h:bcf4c698": "x",
+    "h:c702820f": [
      "activities"
     ],
     "c:V3-1": [
@@ -128,9 +132,9 @@
     "c:V3-7": "x"
    },
    "extras": {
-    "v3_targets": "versões de features; novos produtos/features"
+    "v3_targets": "features; new products"
    },
-   "razao": "Os textos nomeiam features e novos produtos como objeto de teste, mas não descrevem nenhum experimento específico nem preço como alvo. Recomendações no ToS e a categorização por tipo de corpo descrevem funcionalidades, não alvos de experimento."
+   "razao": "Os textos nomeiam features e novos produtos como objeto de teste, mas nenhum descreve um experimento específico nem cita preço. A recomendação do ToS e a categorização de body types parecem descrever funcionalidades, não alvos de experimento."
   },
   "V4": {
    "notas": {
@@ -151,7 +155,7 @@
     "v4_mapped_purpose": "To improve, innovate and develop our Services",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases EEA/UK está no documento congelado e liga a finalidade 'To improve, innovate and develop our Services', que inclui o teste de duas versões, a legítimo interesse. Como a tabela aparece nos documentos lidos, o campo de geo-gating fica No pela definição, embora o texto diga que só se aplica a residentes do EEA/UK."
+   "razao": "A tabela EEA/UK traz a finalidade 'To improve, innovate and develop our Services', que inclui o exemplo das duas versões, e a liga a legítimo interesse. Como a tabela está presente nos documentos capturados, pela definição seria No, embora o texto diga que a seção se aplica só a residentes EEA/UK."
   },
   "V5": {
    "notas": {
@@ -163,21 +167,21 @@
     "c:V5-6": "x"
    },
    "extras": {},
-   "razao": "O único controle aplicável ao processamento por legítimo interesse é o formulário genérico de objeção do GDPR; os demais controles regem anúncios, cookies ou recomendações. O nível sugerido é GDPR-objection-only."
+   "razao": "Os controles encontrados regem anúncios, cookies e recomendações; nenhum é específico de experimentação. O mais próximo é a objeção genérica a legítimo interesse (V5-1)."
   },
   "V6": {
    "notas": {
     "h:854ce654": "x",
     "h:42f0e185": "x",
-    "h:ef9db57f": "sim",
-    "h:d98ed9d8": "sim",
-    "h:f912c9e7": "sim",
     "h:be0cc048": "sim",
+    "h:27eebfe0": "sim",
+    "h:0e681448": "sim",
     "h:6ec33f1b": "sim",
-    "h:12772446": "sim",
-    "h:6f353568": "x",
+    "h:88872ff4": "sim",
+    "h:9b669b9d": "sim",
     "h:aff4efb5": "x",
     "h:963501df": "x",
+    "h:7961d046": "x",
     "c:V6-1": "sim",
     "c:V6-2": "sim",
     "c:V6-3": "sim",
@@ -185,9 +189,9 @@
     "c:V6-5": "x"
    },
    "extras": {
-    "v6_which": "Pinterest Beta programme: acesso antecipado a versões do app (iOS via TestFlight; Android beta testing program)"
+    "v6_which": "Pinterest beta tester programme: acesso antecipado a versões de teste do app (iOS via TestFlight; Android beta)"
    },
-   "razao": "A página public-beta descreve um programa voluntário de acesso antecipado para iOS e Android. Isso não mitiga a V5."
+   "razao": "A página public-beta descreve inscrição voluntária em versões beta semanais para iOS e Android. Não muda o V5."
   },
   "V7": {
    "notas": {
@@ -197,7 +201,7 @@
     "c:V7-4": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de mudança de política ou dos termos, comunicações gerais e um painel interno; nenhum é debriefing. A sugestão é No, do tipo 'não endereçado': a palavra-chave debrief tem zero ocorrências em todos os documentos."
+   "razao": "Os trechos são avisos de mudança de política ou de serviço, notificações genéricas ou um dashboard interno, nenhum deles debriefing. Parece o caso de tema não endereçado, e o log de palavras-chave dá debrief:0 em todos os documentos."
   },
   "V8": {
    "notas": {
@@ -207,7 +211,7 @@
     "c:V8-4": "x"
    },
    "extras": {},
-   "razao": "Não há menção a revisão ética, comitê ou avaliação de risco de experimentos, e ethics, IRB e risk assessment têm zero ocorrências. A citação ao DSA sem avaliação de risco nos documentos ao usuário pode ser anotada como gap regulatório-vs-documento."
+   "razao": "Não há menção a revisão ética, comitê ou avaliação de risco de experimentos (ethics, IRB, review board e risk assessment: 0). A Privacy Policy cita o DSA só como obrigação de conformidade, o que fica como gap regulatório-vs-documento."
   },
   "V9": {
    "notas": {
@@ -221,18 +225,18 @@
     "h:e9961ecc": "x",
     "h:854ce654": "x",
     "h:42f0e185": "x",
-    "h:f912c9e7": "sim",
     "h:6ec33f1b": "sim",
-    "h:12772446": "sim",
+    "h:88872ff4": "sim",
+    "h:9b669b9d": "sim",
     "h:a64c0bd2": "sim",
     "h:49f38798": "sim",
-    "h:4811fb0c": "sim",
-    "h:2d0a2775": "sim",
-    "h:6f353568": "sim",
-    "h:c06e8d50": "sim",
     "h:20856802": "sim",
-    "h:aff4efb5": "sim",
+    "h:a7d04dde": "sim",
+    "h:bcf4c698": "sim",
+    "h:aff4efb5": "x",
     "h:963501df": "sim",
+    "h:7961d046": "sim",
+    "h:c702820f": "sim",
     "c:V1-1": "sim",
     "c:V1-2": "sim",
     "c:V1-3": "x",
@@ -243,12 +247,12 @@
     "c:V1-8": "sim"
    },
    "extras": {},
-   "razao": "A divulgação aparece na Privacy Policy (vinculante), no blog de engenharia e, como teste voluntário em beta, na página do programa beta; o registro agregado sugerido é both. Os trechos da página beta dependem de se considerar o beta voluntário como divulgação de experimentação."
+   "razao": "Há divulgação na Privacy Policy (vinculante), no blog de engenharia e na página beta (não vinculantes), o que sugere registro both. A página beta trata de teste voluntário, e o codificador pode preferir não contá-la como divulgação de experimentação."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 20129,
-  "output": 6379
+  "input": 19949,
+  "output": 6268
  }
 }

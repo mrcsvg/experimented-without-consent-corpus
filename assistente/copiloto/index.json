@@ -2,323 +2,323 @@
  "formato": 2,
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "atualizado_em": "2026-10-04T23:52:05+00:00",
+ "atualizado_em": "2026-10-07T02:06:56+00:00",
  "servicos": [
   {
    "servico": "AliExpress",
    "slug": "aliexpress",
    "file": "aliexpress.json",
-   "sha256": "b67eadfa3b3eaf24a04a1fe8d46542c5ca0a8f11b760f1a5cb8f02f07255c7ed",
+   "sha256": "bef5d306877b283459396d1fe4465d729d7771b25866e741831b227d64fdf361",
    "formato": 2,
    "invalida": false,
    "uso": {
     "input": 16701,
-    "output": 3987
+    "output": 4061
    }
   },
   {
    "servico": "Amazon Store",
    "slug": "amazon-store",
    "file": "amazon-store.json",
-   "sha256": "c4e3f336529c2bfb0ab09ff04b8e3ad7cb276a52ad87a551b90768bbbf1f4998",
+   "sha256": "bc57f48e21cfe5322d4e58f83d3355c655dd698136c4e42b502565bae3da4fc0",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 24040,
-    "output": 7456
+    "input": 24466,
+    "output": 7464
    }
   },
   {
    "servico": "App Store",
    "slug": "app-store",
    "file": "app-store.json",
-   "sha256": "31d266166444ccd19db1aa6b22442b1ca8080392670f9ca2fb03928a10c10060",
+   "sha256": "1979c99b8c292a88ac18123319c8d9e33d1f7bdd9f05ee502adcd78e22808969",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 23655,
-    "output": 7810
+    "input": 23511,
+    "output": 8171
    }
   },
   {
    "servico": "Bing",
    "slug": "bing",
    "file": "bing.json",
-   "sha256": "092e02910f54e9b52b982706e53a7af7f942419dfdaecec62f849ca6805cd1cd",
+   "sha256": "8535899247187e482f6af3356b11f4a9af17fe08c383ab2ca11f8f02da150cb6",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 24376,
-    "output": 8068
+    "input": 24295,
+    "output": 8478
    }
   },
   {
    "servico": "Booking.com",
    "slug": "booking-com",
    "file": "booking-com.json",
-   "sha256": "e03e1721cfd6615b38831ea662f3b5739f3715e6338b19be124a168104b1116a",
+   "sha256": "46bea3b1a1c86589097a72d32cbbe354da7cd6d852421f96f3731b255ec0cb75",
    "formato": 2,
    "invalida": false,
    "uso": {
     "input": 17679,
-    "output": 4522
+    "output": 4530
    }
   },
   {
    "servico": "Facebook",
    "slug": "facebook",
    "file": "facebook.json",
-   "sha256": "f7468564317d8d05a0d059fb9729f81f63fe0a38da5e92c8573d9089e9a91eec",
+   "sha256": "fdfebdf6f4f34ced5f08aaa2ca3e5dc7edf8482e70a27b9f82c33e0f3e1d7949",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 43671,
-    "output": 13755
+    "input": 21600,
+    "output": 6810
    }
   },
   {
    "servico": "Google Maps",
    "slug": "google-maps",
    "file": "google-maps.json",
-   "sha256": "64acb3fe7c2a3138f6b5f34d6ee715964e523efb797bfd47786c6c2370d662f7",
+   "sha256": "8f19bdc3dc7967f6f1661bb5d1982b8d55c3c56212416c9bb842cc987be129aa",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 18139,
-    "output": 5574
+    "input": 18134,
+    "output": 5766
    }
   },
   {
    "servico": "Google Play",
    "slug": "google-play",
    "file": "google-play.json",
-   "sha256": "ec47962f5626e0301f9fd8bff1587db650db0e4c61b9a24e39c0b384ea9b827d",
+   "sha256": "3bfc9ff23ff955530fa05eeb7043f0e20653a1ebf58184512a7757d45ec6fa73",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 20235,
-    "output": 7446
+    "input": 20316,
+    "output": 7351
    }
   },
   {
    "servico": "Google Search",
    "slug": "google-search",
    "file": "google-search.json",
-   "sha256": "0684033ea11526edf9ec93e80ec4c8afd1b07fbbbc5c8622a3571c920c81fe29",
+   "sha256": "727ec30222c2a253d0bcd5488b889220c54b2db05809ff548b0609b48ba7fcd9",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 21402,
-    "output": 7234
+    "input": 20837,
+    "output": 7598
    }
   },
   {
    "servico": "Google Shopping",
    "slug": "google-shopping",
    "file": "google-shopping.json",
-   "sha256": "0f8b301c637a4dcc6b69c6457755b6e6c24bd7166b9193ff056d365cd932c8b6",
+   "sha256": "be05b48a8b6ce286b3b2199f22ee49b8997ed550d987f1b903b48f33a6e3deef",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 17588,
-    "output": 5619
+    "input": 17026,
+    "output": 5336
    }
   },
   {
    "servico": "Instagram",
    "slug": "instagram",
    "file": "instagram.json",
-   "sha256": "49dba179231cb830d2ecb8aa492c07e6ec62e093938cd83b36f7eeef760d178f",
+   "sha256": "0519e727a15f34530defa00e100d6cd32976055279907ffe38719754b85a9151",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 37921,
-    "output": 11201
+    "input": 18916,
+    "output": 5645
    }
   },
   {
    "servico": "LinkedIn",
    "slug": "linkedin",
    "file": "linkedin.json",
-   "sha256": "fa8c4c906e7a689a424413e8ef8105ed4bbf82024498c6382e10139ec818d482",
+   "sha256": "7affaf13a691e8bdd17ccaaa2de5a04e5379d95ccc3ded610b048c096f26de82",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 17678,
-    "output": 5491
+    "input": 35193,
+    "output": 10123
    }
   },
   {
    "servico": "Pinterest",
    "slug": "pinterest",
    "file": "pinterest.json",
-   "sha256": "2b68ffd58b0e9235e62262ecb75ce3469d79cd56ece6da0768f62cbcc94b023b",
+   "sha256": "5cbeec2f9fcc0e9aca103a6345ee3305da3e8ec66f0a7a8d2071bf419c7cf6d4",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 20129,
-    "output": 6379
+    "input": 19949,
+    "output": 6268
    }
   },
   {
    "servico": "Pornhub",
    "slug": "pornhub",
    "file": "pornhub.json",
-   "sha256": "a3f370cf9d721e4c56307355e508f6fda7b507557442cba55792721fb05ee8f0",
+   "sha256": "3da98e33738b5073bbb2a72b933fdd9908feaf92fde8fab665a63253457e46e8",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 22812,
-    "output": 6063
+    "input": 21499,
+    "output": 5866
    }
   },
   {
    "servico": "Shein",
    "slug": "shein",
    "file": "shein.json",
-   "sha256": "172062fca133788b79fb9933de74b14ca2146f109d7fea4582106a5d328aa6c6",
+   "sha256": "2e8b2ef2eabd9afd6877de7fce3768083f3d266d4d1fae3bfe0f104222aff8fe",
    "formato": 2,
    "invalida": false,
    "uso": {
     "input": 16657,
-    "output": 3542
+    "output": 3850
    }
   },
   {
    "servico": "Snapchat",
    "slug": "snapchat",
    "file": "snapchat.json",
-   "sha256": "402f5c727fc4856695a0a8ccc35e7a13ca3dc6d5abc4d0bc1f5339bddb29325d",
+   "sha256": "4e1a4f2740a8bf2a315c6c1719f16198509d918a574679d70ff647c13a22612e",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 27863,
-    "output": 8486
+    "input": 27875,
+    "output": 8526
    }
   },
   {
    "servico": "Stripchat",
    "slug": "stripchat",
    "file": "stripchat.json",
-   "sha256": "d994e5216898fe4ed392582f6145945206df07963508cd1dfe3efd10fa660a90",
+   "sha256": "61832bb2812aa7e99c82e2262fd055d3fb6a667331d156cb9c211d3bc56e72a4",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 27923,
-    "output": 7589
+    "input": 27907,
+    "output": 7850
    }
   },
   {
    "servico": "Temu",
    "slug": "temu",
    "file": "temu.json",
-   "sha256": "47a5f0c1c5f6150a21b7fc9b27cc6aa8fadcf50c71046cc3b2b2358535ada547",
+   "sha256": "1e67df90693ab38ef2462658992cce536932430db31827a766dc780d9a477de3",
    "formato": 2,
    "invalida": false,
    "uso": {
     "input": 13785,
-    "output": 3664
+    "output": 3582
    }
   },
   {
    "servico": "TikTok",
    "slug": "tiktok",
    "file": "tiktok.json",
-   "sha256": "c48a1ceacd2ec14d4b58796af73b791be268fba6e328403be53db5f89c069b08",
+   "sha256": "d27c50aacc816ab561eec9b2cb8e04efc497124fa6a5358d34d76fa360234fdf",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 35432,
-    "output": 10968
+    "input": 35408,
+    "output": 10225
    }
   },
   {
    "servico": "WhatsApp",
    "slug": "whatsapp",
    "file": "whatsapp.json",
-   "sha256": "f6e8c39963696c46e03f89686ec489180ea96fd557a9f9f880379a2ff4a74724",
+   "sha256": "4421ce0bdad1c0cacf953c581f874211f2ffe640e67faf30155b347f02e49916",
    "formato": 2,
    "invalida": false,
    "uso": {
     "input": 16745,
-    "output": 4707
+    "output": 4381
    }
   },
   {
    "servico": "Wikipedia",
    "slug": "wikipedia",
    "file": "wikipedia.json",
-   "sha256": "84204adcdbff7c32d27d4a28fff7a399214490b3a60caf49922eab3f1991a173",
+   "sha256": "e85ea4c47ebb0477e1d182ee49351d5f13f2decf1b3bd784a61327446ec8a34b",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 22671,
-    "output": 7730
+    "input": 21903,
+    "output": 8403
    }
   },
   {
    "servico": "X",
    "slug": "x",
    "file": "x.json",
-   "sha256": "ad1f688340b4fde11ffb76f76b1b9f11ca5d55a9fd0b17dab623295aaa361b32",
+   "sha256": "c09aecedf779726c325b87ce5b14e5099513c52822d70a7292294308180e4006",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 23086,
-    "output": 8961
+    "input": 44399,
+    "output": 17092
    }
   },
   {
    "servico": "XNXX",
    "slug": "xnxx",
    "file": "xnxx.json",
-   "sha256": "307e0acb7f3eb65f60d13625cdbdb3c9835b13cf2268cb145364a19ccac97ac5",
+   "sha256": "69bf12980a673d8b21b796b8cc3180c56b5b14a8182741e759782228d07a9ccd",
    "formato": 2,
    "invalida": false,
    "uso": {
     "input": 15341,
-    "output": 3751
+    "output": 3897
    }
   },
   {
    "servico": "XVideos",
    "slug": "xvideos",
    "file": "xvideos.json",
-   "sha256": "bee384de3b2bc1be52a56c80667f11ade509abd134dda02f3d5286b6b974cc23",
+   "sha256": "ca332e2a725cc730a001fad01f9b889784250c93b1a7c1cbe1deaaa748f16fdc",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 17097,
-    "output": 4088
+    "input": 16529,
+    "output": 3819
    }
   },
   {
    "servico": "YouTube",
    "slug": "youtube",
    "file": "youtube.json",
-   "sha256": "4cc90a5b27b7e4fd099f22fa5e9d0aaea40ad24a6e9cb160a0216d54d515750e",
+   "sha256": "fd74dafc9519008682d7d152872f5f5fdd147aa45459543453247872577af350",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 24319,
-    "output": 8453
+    "input": 23550,
+    "output": 8020
    }
   },
   {
    "servico": "Zalando",
    "slug": "zalando",
    "file": "zalando.json",
-   "sha256": "3dbe484c91d5a085035e75760899fbc65f85f0c151c41b79fe8980077f0f0fff",
+   "sha256": "bc9b3aa59148bb89b7a9455f7fc480daecf9bb9c0e976d3cd9439d0d9ced6594",
    "formato": 2,
    "invalida": false,
    "uso": {
-    "input": 24129,
-    "output": 7759
+    "input": 23467,
+    "output": 7389
    }
   }
  ],
  "uso_total": {
-  "input": 591074,
-  "output": 180303
+  "input": 583688,
+  "output": 180501
  }
 }

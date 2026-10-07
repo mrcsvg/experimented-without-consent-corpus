@@ -5,7 +5,7 @@
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
  "entrada_sha": "401f4b87d398",
- "gerado_em": "2026-10-04T23:36:59+00:00",
+ "gerado_em": "2026-10-07T01:52:46+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -52,7 +52,7 @@
     "c:V1-7": "x"
    },
    "extras": {},
-   "razao": "As duas ocorrências de 'experiment' significam 'vivenciar' e 'provar produtos', por isso são falsos positivos. Os demais trechos só falam em melhorar, pesquisar ou otimizar, o que sugere teto 1, no registro vinculante."
+   "razao": "Os dois hits de 'experiment' são falsos positivos ('experimentará publicidade', produtos experimentados como em loja física); o restante é linguagem de melhoria ou pesquisa e desenvolvimento, sem dizer que testa usuários. V1-4 (alterar funcionalidades com base na popularidade) é o candidato mais próximo de 2, mas não menciona teste."
   },
   "V2": {
    "notas": {
@@ -74,7 +74,7 @@
     "c:V2-7": "x"
    },
    "extras": {},
-   "razao": "Aparecem dois enquadramentos: melhoria do serviço e pesquisa ('pesquisa de mercado', 'pesquisa e desenvolvimento'). Os trechos sobre moderação e verificação de idade não enquadram o uso de dados para testar."
+   "razao": "Aparecem melhoria do serviço (qualidade do atendimento) e pesquisa (pesquisa de mercado; pesquisa e desenvolvimento dos Serviços). Os trechos de moderação de conteúdo e de verificação de idade tratam de outro assunto."
   },
   "V3": {
    "notas": {
@@ -93,7 +93,7 @@
    "extras": {
     "v3_targets": "funcionalidades do site"
    },
-   "razao": "Só V3-1 nomeia uma superfície alterada a partir de dados: as funcionalidades do site. O preço e a personalização aparecem como fatores de classificação, não como alvos de teste."
+   "razao": "Só V3-1 nomeia uma superfície (funcionalidades do site alteradas a partir de dados analíticos), e é marginal porque não fala em teste. Preço aparece apenas como fator de classificação e como personalização, não como alvo de teste."
   },
   "V4": {
    "notas": {
@@ -115,7 +115,7 @@
     "v4_mapped_purpose": "pesquisa e desenvolvimento dos nossos Serviços e produtos",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases por finalidade está presente no Aviso de Privacidade e liga pesquisa, desenvolvimento e melhoria ao interesse legítimo. Como a tabela aparece nos documentos, a resposta pela definição é No."
+   "razao": "A tabela de bases por finalidade está presente no Aviso de Privacidade; a finalidade mais próxima de experimentação (pesquisa e desenvolvimento) está ligada a interesse legítimo. Por isso, pela definição, o campo de tabela geo-gated fica em No."
   },
   "V5": {
    "notas": {
@@ -126,14 +126,14 @@
     "c:V5-5": "cookie/ads-only"
    },
    "extras": {},
-   "razao": "O opt-out do chat se restringe à avaliação de qualidade, não à experimentação. Os outros controles são a objeção genérica do Art. 21, a ferramenta de cookies e as definições de recomendação."
+   "razao": "Os opt-outs de chat valem para a avaliação de qualidade do atendimento, não para experimentação. Os controles de cookies e de personalização regem publicidade e recomendação; o único caminho é a objeção genérica do Art. 21."
   },
   "V6": {
    "notas": {},
    "extras": {
     "v6_which": ""
    },
-   "razao": "Nenhum trecho foi localizado sobre programa beta ou de opt-in."
+   "razao": "Não há trechos sobre programa beta ou opt-in, e a contagem de 'beta' e 'trial' é zero."
   },
   "V7": {
    "notas": {
@@ -142,7 +142,7 @@
     "c:V7-3": "x"
    },
    "extras": {},
-   "razao": "Os trechos são aviso de decisão automatizada, aviso de mudança do documento e aviso prévio de tratamento, e nenhum deles é debriefing. A contagem de 'debrief' é zero em todos os documentos, o que sugere tema não endereçado."
+   "razao": "Os trechos são aviso de decisão automatizada, aviso de mudança e aviso de tratamento, nenhum deles debriefing. É o caso de tema nunca contemplado: 'debrief' tem zero ocorrências no log de palavras-chave."
   },
   "V8": {
    "notas": {
@@ -151,7 +151,7 @@
     "c:V8-3": "x"
    },
    "extras": {},
-   "razao": "Os trechos tratam de revisão humana de IA, de segurança e de diligência sobre vendedores, não de revisão ética de experimentos. 'Ethics', 'review board', 'IRB' e 'risk assessment' têm contagem zero, o que pode ser anotado como diferença entre a obrigação do DSA e o documento."
+   "razao": "Os trechos tratam de revisão humana de chats, de segurança e de devida diligência sobre vendedores, não de revisão ética de experimentos. Fica em No, com nota de gap entre a obrigação do DSA e o que os documentos dizem (ethics, review board e risk assessment com zero ocorrências)."
   },
   "V9": {
    "notas": {
@@ -173,12 +173,12 @@
     "c:V1-7": "x"
    },
    "extras": {},
-   "razao": "Nenhum trecho divulga experimentação; os herdados da V1 ficam em linguagem de melhoria ou são falsos positivos. Os trechos V9-4 e V9-5 mostram que a Política de Classificação integra os T&C e, por isso, é vinculante."
+   "razao": "Nenhum trecho divulga experimentação; o teto da V1 é só linguagem de melhoria, toda no Aviso de Privacidade (vinculante). Os trechos V9-4 e V9-5 indicam que a Política de Classificação é parte integrante dos T&C, o que fundamenta o tipo vinculante do documento 2."
   }
  },
  "avisos": [],
  "uso": {
   "input": 16657,
-  "output": 3542
+  "output": 3850
  }
 }

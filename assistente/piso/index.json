@@ -1,186 +1,186 @@
 {
- "gerado_em": "2026-10-06T19:47:14+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "servicos": [
   {
    "servico": "Wikipedia",
    "slug": "wikipedia",
    "file": "wikipedia.json",
-   "sha256": "c6abf2b713aefd3e7cc65591f7c8ee10b447c068bc4bf5f31c67f72ad7d9a7a4",
-   "hits": 51
+   "sha256": "7f2c2a2e68a31f14033da999d3dc84fd65fdb58a5b187baca24c001c6c4ffbb1",
+   "hits": 45
   },
   {
    "servico": "Temu",
    "slug": "temu",
    "file": "temu.json",
-   "sha256": "9429d489edfa64adb28a6c8badf71c9a5223b1c5d7225e76a2986ce04e233ecc",
+   "sha256": "d6aae98bfce7e0f6dd00b3675f84e279e9f8bfcf49a2e91a4ccc7adf9c9aa5b4",
    "hits": 0
   },
   {
    "servico": "Facebook",
    "slug": "facebook",
    "file": "facebook.json",
-   "sha256": "3242ea0b3a35a481c49cccaccbe37a971ce98047c13117559ebec1a57ba51054",
-   "hits": 42
+   "sha256": "31a7a5921545420c66cec4ae92777dc8276ffb2a277105e22169f55648388dc2",
+   "hits": 40
   },
   {
    "servico": "YouTube",
    "slug": "youtube",
    "file": "youtube.json",
-   "sha256": "8fbcf345d132e439551855cc148f2794e9b32abe3032c34a1990a68c73949a4e",
-   "hits": 50
+   "sha256": "aa3ed13896a85cda6ff638264d8091254ccd8c49d855c570cdd7c4f3c6854187",
+   "hits": 46
   },
   {
    "servico": "Google Search",
    "slug": "google-search",
    "file": "google-search.json",
-   "sha256": "168d36ef9ddf2c24836a89d4f695dfea7e0b1bd323e376f7f5dafb0a55524ed6",
-   "hits": 26
+   "sha256": "60ff8eb75f8762e30a71bcb1f247ecb7df856934076b101cc4c1c14c42776c93",
+   "hits": 22
   },
   {
    "servico": "WhatsApp",
    "slug": "whatsapp",
    "file": "whatsapp.json",
-   "sha256": "7dea58783eec037e1a8c4ad7294ed6ec753c3944427997a8af88981419a6280a",
+   "sha256": "c340b789f481a41e887197e8ef89e972deb2564c993aa79ede4cb037b4f7b924",
    "hits": 12
   },
   {
    "servico": "Booking.com",
    "slug": "booking-com",
    "file": "booking-com.json",
-   "sha256": "2ab3eda607182dd1828af9b410ac3d827d3717f1ab4ce131c7d1ca2a5ff2ca57",
+   "sha256": "6ac5cd4f8c4c03df338dda2dfd1acdf25f363824937435f72d2b7f319ac3269f",
    "hits": 20
   },
   {
    "servico": "Google Maps",
    "slug": "google-maps",
    "file": "google-maps.json",
-   "sha256": "a6078643966bbea9618ff2b4727555de42d4b9fd59e5de05c6830df5d112702b",
+   "sha256": "ae7fdd3d59fb13ba296725292bfbfc706de7c823e4b8487f42a3558f741ae1fc",
    "hits": 15
   },
   {
    "servico": "Pornhub",
    "slug": "pornhub",
    "file": "pornhub.json",
-   "sha256": "d29f073c32b71bdb3c987cb2f4a708b112bfcd442684147e03b8756aa8cdf650",
-   "hits": 36
+   "sha256": "0fe47b2f91d96769ace9edbb22505e5391d51f96fdb38b855b2bc67a974a1afa",
+   "hits": 28
   },
   {
    "servico": "Amazon Store",
    "slug": "amazon-store",
    "file": "amazon-store.json",
-   "sha256": "13c4dd79b1f799096150b6438180858b5149ea15c5a017e77eaf9aadc8cbdef8",
+   "sha256": "f4f5c29492383019ae7312ebb7c1ba623837b6eab11410ca6ab742693e3d24f4",
    "hits": 64
   },
   {
    "servico": "LinkedIn",
    "slug": "linkedin",
    "file": "linkedin.json",
-   "sha256": "01f0eb9d17b0775256e328a91ffbb8d4e5c54674a22087fff96f60fc45388241",
+   "sha256": "0e22a271d5aeac557b3c671307b3f7dac23cc567eac3b2cfe95dcce1091cd4c1",
    "hits": 14
   },
   {
    "servico": "Bing",
    "slug": "bing",
    "file": "bing.json",
-   "sha256": "339cd072acb672830db87282cc6cda90a123b32af0f73aa7e7be71612c0124af",
+   "sha256": "1c43a451b985d0798a4618166df9bd8d6586e79680eb9f919eb02a634384a949",
    "hits": 55
   },
   {
    "servico": "XVideos",
    "slug": "xvideos",
    "file": "xvideos.json",
-   "sha256": "d143969f0b5606d6b5d2cd27cd95d9ab1758accd7da05ff2f28d8279c15f3571",
-   "hits": 19
+   "sha256": "181d123eed4e2f01456070904ac018f25908316a3ada4b1503d41668cc656736",
+   "hits": 15
   },
   {
    "servico": "Shein",
    "slug": "shein",
    "file": "shein.json",
-   "sha256": "9519e78fa69f364f51b9ab4b6426a2ac219b6d91666e542ef7474cc1c7bcf01e",
+   "sha256": "12a05276557c3f307daa29116c1fb249298f51e3c13421f55da86fb2cfb81b31",
    "hits": 4
   },
   {
    "servico": "X",
    "slug": "x",
    "file": "x.json",
-   "sha256": "c11be281a094151637bc75875fcc1e63b3dddd41545045663622fbeec05a626e",
-   "hits": 53
+   "sha256": "acd9db3061bf489ac8a5ebc456ca251f33e7a60bb57add4a1e1f676c859755f1",
+   "hits": 47
   },
   {
    "servico": "XNXX",
    "slug": "xnxx",
    "file": "xnxx.json",
-   "sha256": "4019d859eeb0ffc2b8b4a40ad4589d423bddff7430fe6f9cb9aeb2b13b586394",
+   "sha256": "67182494eca7f8e1e07da4e20f40772a748ea0ddd1b01e89625456ad101493b9",
    "hits": 5
   },
   {
    "servico": "Zalando",
    "slug": "zalando",
    "file": "zalando.json",
-   "sha256": "741f30046e0c9415bb16d919d40b429f924e42dc20963da950fd753e19993303",
-   "hits": 65
+   "sha256": "7bde4342002c62431b85efd7f7f338f21fb4a5cbae84033fffe2044350eb7830",
+   "hits": 61
   },
   {
    "servico": "Snapchat",
    "slug": "snapchat",
    "file": "snapchat.json",
-   "sha256": "06098a7777fd3305fb8a518bc21ffff6763a56fd276c0361d42cd85d8195a6fe",
+   "sha256": "dd35259a0f980f359eefc25ff0fcc3d1c69a9165c45126a9d79d6d9036701e63",
    "hits": 67
   },
   {
    "servico": "Stripchat",
    "slug": "stripchat",
    "file": "stripchat.json",
-   "sha256": "1f1793dc2de7a926d3579f362828a1825328654ea0e15d276567bb7c01597e58",
+   "sha256": "e5777447500572e79827a90613fa9bc6582df3aa96597f3d280b0fa30cde9237",
    "hits": 2
   },
   {
    "servico": "App Store",
    "slug": "app-store",
    "file": "app-store.json",
-   "sha256": "65d0c46faf999c2f5a3dffb9debe0f299ed82da6f4b1e53c7f8f8150c561be84",
+   "sha256": "1f30ebfcc1303bfc3810f2203175ff84007131189c266097cd40a6f22facac75",
    "hits": 47
   },
   {
    "servico": "Instagram",
    "slug": "instagram",
    "file": "instagram.json",
-   "sha256": "e75a529495af92ddaf352a615d8f7f790030ade66d3f2c4405a3eba8e6b7bc8b",
+   "sha256": "0d2c37cd98fbd1f9d3c8a41da9c732ff96e33055d328b3c6a7ea01686958787a",
    "hits": 16
   },
   {
    "servico": "Google Play",
    "slug": "google-play",
    "file": "google-play.json",
-   "sha256": "bb910d525f5c9ed444ec0884c8c264406ef55e31bcf3f7980188233d6b611b7c",
+   "sha256": "df34b4c6d5421bb2d205c132cdd1748dbc177f40f5351b31de3f9c578300ac0f",
    "hits": 33
   },
   {
    "servico": "Pinterest",
    "slug": "pinterest",
    "file": "pinterest.json",
-   "sha256": "9ab545213ac9d7b200bb7a382523c87766b50d2be922405eabdea570a47b3331",
+   "sha256": "8ab363361e782cfab29156c78bd535e2548f1f642d610dbc4ca2c6a7eab4dea3",
    "hits": 33
   },
   {
    "servico": "Google Shopping",
    "slug": "google-shopping",
    "file": "google-shopping.json",
-   "sha256": "e58710386f1c308933bd053d032c3dee6ded617c44c7668399c2c3267cbe5ecf",
-   "hits": 16
+   "sha256": "cf75be97299d28fee8752deddae8382fb2cfda4ebb8ae644b9e4e69319ac2846",
+   "hits": 12
   },
   {
    "servico": "TikTok",
    "slug": "tiktok",
    "file": "tiktok.json",
-   "sha256": "db3b853cec2761190fa13f6c1bd9db2babefdf186960d831722a6536d283b3b5",
+   "sha256": "2b8c1e0fc34bff6af63fd2ecf17f550a2fac8745c568871400bdd09a321f8d96",
    "hits": 19
   },
   {
    "servico": "AliExpress",
    "slug": "aliexpress",
    "file": "aliexpress.json",
-   "sha256": "6e8b4dc844c5f13edbb02f862d937d73ee728648da205b7791a371604b6cf1fd",
+   "sha256": "22365200b338a0018287d564b2c7a3e6d0b01217ffa8ce4eac3fca01c6afab59",
    "hits": 3
   }
  ]

@@ -1,7 +1,7 @@
 {
  "servico": "Snapchat",
  "slug": "snapchat",
- "gerado_em": "2026-10-06T19:47:14+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -606,22 +606,6 @@
    },
    {
     "termo": "beta",
-    "kwic": "Snapchat Beta Storie Spotlight Chat Lenti Snapchat+ Snapchat.com Panoramica Account Snapchat+ Assistenz…",
-    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
-    "file": "snapchat/09-beta.md",
-    "n": 9,
-    "total_no_doc": 12
-   },
-   {
-    "termo": "beta",
-    "kwic": "…ectacles Panoramica Autore Spectacles Assistenza Annunci Snapchat Scarica Accedi Snapchat Beta Al momento sono presenti 1425 inviti al programma Beta. Iscriviti oggi stesso! Aiutaci a…",
-    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
-    "file": "snapchat/09-beta.md",
-    "n": 9,
-    "total_no_doc": 12
-   },
-   {
-    "termo": "beta",
     "kwic": "…i Snapchat Scarica Accedi Snapchat Beta Al momento sono presenti 1425 inviti al programma Beta. Iscriviti oggi stesso! Aiutaci a testare le funzionalità di Snapchat prima che vengano r…",
     "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
     "file": "snapchat/09-beta.md",
@@ -635,6 +619,14 @@
     "file": "snapchat/09-beta.md",
     "n": 9,
     "total_no_doc": 9
+   },
+   {
+    "termo": "beta",
+    "kwic": "…e pubbliche! iOS Cose da sapere sulle versioni Beta di Snapchat per iOS Le nuove versioni Beta per iOS vengono rilasciate una o due volte a settimana. Tutti i tester completano il cicl…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "snapchat/09-beta.md",
+    "n": 9,
+    "total_no_doc": 12
    },
    {
     "termo": "test",
@@ -651,6 +643,14 @@
     "file": "snapchat/09-beta.md",
     "n": 9,
     "total_no_doc": 9
+   },
+   {
+    "termo": "beta",
+    "kwic": "…ichiedono tempi rapidi di installazione e interazione, per stare al passo con le versioni Beta rilasciate. Ciò significa che vengono resi disponibili nuovi posti circa ogni due giorni.…",
+    "flag": "verificar: 'beta' de programa de acesso antecipado ≠ experimento com grupos de controle",
+    "file": "snapchat/09-beta.md",
+    "n": 9,
+    "total_no_doc": 12
    },
    {
     "termo": "test",

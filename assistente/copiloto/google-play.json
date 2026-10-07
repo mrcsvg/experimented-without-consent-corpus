@@ -4,8 +4,8 @@
  "slug": "google-play",
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
- "entrada_sha": "31f5b20e68d3",
- "gerado_em": "2026-10-04T23:46:14+00:00",
+ "entrada_sha": "25a06e83da33",
+ "gerado_em": "2026-10-07T02:01:38+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -59,14 +59,14 @@
     "h:1782887f": "x",
     "h:c2d5f8ed": "2",
     "h:9c0dc2ac": "2",
-    "h:4a518d67": "3",
-    "h:0e5dc775": "3",
     "h:50ebb335": "3",
     "h:8b85efc0": "3",
     "h:50a764b0": "3",
     "h:f85bbc4a": "3",
     "h:7ecec389": "3",
+    "h:c9a4ad99": "3",
     "h:60015241": "3",
+    "h:3fa57bed": "3",
     "h:e32f7b29": "3",
     "c:V1-1": "3",
     "c:V1-2": "3",
@@ -79,7 +79,7 @@
     "c:V1-9": "2"
    },
    "extras": {},
-   "razao": "Teto sugerido 3, só no doc 6 (página da Play Console, não vinculante, voltada a desenvolvedores que rodam A/B com usuários do Play). Nos vinculantes, o máximo parece ser 2 (cookie ROLLOUT_TOKEN no doc 4); o codificador pode avaliar se testes conduzidos por desenvolvedores contam como experimentação da plataforma."
+   "razao": "Nível 3 aparece só no doc 6 (página de produto do Play Console, ferramenta de A/B para desenvolvedores sobre visitantes da loja), não vinculante; nos vinculantes o teto sugerido é 2 (cookie de rollout no doc 4). Os 'trial' do doc 1 são período grátis de assinatura e o 'testing' do doc 3 é programa de bugs, ambos falsos positivos."
   },
   "V2": {
    "notas": {
@@ -105,15 +105,11 @@
     ]
    },
    "extras": {},
-   "razao": "Sugestão: service improvement, research e social-good/community ('benefits the public'), com co-ocorrência no doc 2. O doc 6 usa um enquadramento de otimização comercial/conversão, fora da lista, que pode ir para Notas."
+   "razao": "Predomina melhoria do serviço, com 'research that improves our services... and benefits the public' somando pesquisa e bem público. O doc 6 enquadra A/B como otimização de conversão para desenvolvedores, enquadramento fora da lista (possível nota)."
   },
   "V3": {
    "notas": {
-    "h:c2d5f8ed": "x",
-    "h:4a518d67": [
-     "activities"
-    ],
-    "h:0e5dc775": [
+    "h:c2d5f8ed": [
      "activities"
     ],
     "h:50ebb335": [
@@ -123,6 +119,12 @@
      "activities"
     ],
     "h:7ecec389": [
+     "activities"
+    ],
+    "h:c9a4ad99": [
+     "activities"
+    ],
+    "h:3fa57bed": [
      "activities"
     ],
     "h:e32f7b29": [
@@ -148,12 +150,14 @@
     "c:V3-9": [
      "activities"
     ],
-    "c:V3-10": "x"
+    "c:V3-10": [
+     "activities"
+    ]
    },
    "extras": {
-    "v3_targets": "store listing graphics; localized text; icons; videos; screenshots; price"
+    "v3_targets": "gráficos da página da loja (ícones, vídeos, screenshots); texto localizado/copy da página; preço (só doc 6, não vinculante); novos recursos (cookie de rollout do YouTube); versões beta de apps"
    },
-   "razao": "Atividades, alvos e um caso específico (Tapps Games) aparecem quase só no doc 6, não vinculante. O preço aparece como alvo só pelo item de menu 'Price experiments' do doc 6, a anotar em Notas como registro não vinculante."
+   "razao": "Alvos e o caso Tapps Games estão quase todos no doc 6 (não vinculante), incluindo 'Price experiments', que só aparece num menu desse doc. A cláusula de preço do doc 1 e a recomendação do doc 2 são mudança de preço e personalização, não alvo de teste."
   },
   "V4": {
    "notas": {
@@ -173,10 +177,10 @@
     "c:V4-8": "x"
    },
    "extras": {
-    "v4_mapped_purpose": "Perform research that improves our services / provide, maintain and improve services",
+    "v4_mapped_purpose": "maintain and improve Google services / perform research that improves our services",
     "v4_region_gated": "No"
    },
-   "razao": "A tabela de bases legais está presente no doc 2 capturado. As finalidades de melhoria e pesquisa aparecem sob legítimo interesse; consentimento e contrato aparecem só em termos genéricos."
+   "razao": "A tabela de bases legais está no doc 2 capturado e lista a melhoria/pesquisa sob interesses legítimos; o vínculo de V4-2 à base depende do cabeçalho da tabela, a conferir. Consentimento e contrato aparecem só de forma genérica."
   },
   "V5": {
    "notas": {
@@ -189,7 +193,7 @@
     "c:V5-7": "x"
    },
    "extras": {},
-   "razao": "Não aparece controle específico de experimentação; os controles governam anúncios, cookies ou atividade da conta. Sugestão de nível pela escada: cookie/ads-only, com a objeção genérica do GDPR também presente; a escolha entre os dois níveis fica com o codificador."
+   "razao": "Há a objeção genérica do GDPR e controles de anúncios/cookies, sem opt-out específico de experimentos. O subcontrole de Web & App Activity rege armazenamento de atividade, não experimentação."
   },
   "V6": {
    "notas": {
@@ -212,9 +216,9 @@
     "c:V6-6": "x"
    },
    "extras": {
-    "v6_which": "Google Play early access and beta programs: o usuário toca 'Join the beta' na página do app; programas geridos por desenvolvedores"
+    "v6_which": "Programas de early access e beta do Google Play: o usuário entra via 'Join the beta' na página do app e pode sair para a versão pública"
    },
-   "razao": "O doc 5 descreve programas de acesso antecipado e beta em que o usuário se inscreve. A instalação de app não lançado pode inscrever o usuário automaticamente no beta."
+   "razao": "O doc 5 descreve adesão voluntária a early access e beta, com saída possível; a inscrição automática no beta ao instalar app não lançado é um detalhe a notar. 'Open testing' no menu do Console é ferramenta do desenvolvedor."
   },
   "V7": {
    "notas": {
@@ -224,7 +228,7 @@
     "c:V7-4": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos de mudança de serviço ou notificações ao desenvolvedor, não debriefing; 'debrief' tem zero ocorrências em todos os documentos. Sugestão: No, tema não endereçado."
+   "razao": "Os trechos são avisos de mudança de serviço ou alerta ao desenvolvedor sobre variante vencedora, não aviso ao participante. Sugere-se No, do tipo tema não endereçado (log sem 'debrief')."
   },
   "V8": {
    "notas": {
@@ -236,7 +240,7 @@
     "c:V8-6": "x"
    },
    "extras": {},
-   "razao": "Sugestão: No; 'potential impact on you and others' (doc 3) está atado a mudança ou descontinuação de serviço, caso de fronteira para nota. Não há menção a avaliação de risco do DSA nos documentos ao usuário (gap regulatório-vs-documento)."
+   "razao": "O 'rigorous product research programme... potential impact on you and others' está atado a mudar ou descontinuar serviço, caso de fronteira que o critério manda codificar No com nota. O log não acha ethics, review board, IRB nem risk assessment."
   },
   "V9": {
    "notas": {
@@ -254,14 +258,14 @@
     "h:1782887f": "x",
     "h:c2d5f8ed": "sim",
     "h:9c0dc2ac": "sim",
-    "h:4a518d67": "sim",
-    "h:0e5dc775": "sim",
     "h:50ebb335": "sim",
     "h:8b85efc0": "sim",
     "h:50a764b0": "sim",
     "h:f85bbc4a": "sim",
     "h:7ecec389": "sim",
+    "h:c9a4ad99": "sim",
     "h:60015241": "sim",
+    "h:3fa57bed": "sim",
     "h:e32f7b29": "sim",
     "c:V1-1": "sim",
     "c:V1-2": "sim",
@@ -274,12 +278,12 @@
     "c:V1-9": "sim"
    },
    "extras": {},
-   "razao": "A divulgação aparece no aviso de cookies (doc 4, vinculante, nível 2), na central de ajuda (doc 5) e na página da Play Console (doc 6). Sugestão de registro agregado: both, com o nível 3 só no não vinculante."
+   "razao": "A divulgação aparece no doc 6 (página de produto, não vinculante), no doc 5 (central de ajuda) e, em nível 2, no aviso de cookies (doc 4, vinculante), o que levaria a registro both. Os trechos só de melhoria/pesquisa nos docs 2 e 3 foram marcados x."
   }
  },
  "avisos": [],
  "uso": {
-  "input": 20235,
-  "output": 7446
+  "input": 20316,
+  "output": 7351
  }
 }

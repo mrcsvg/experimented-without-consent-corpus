@@ -1,7 +1,7 @@
 {
  "servico": "TikTok",
  "slug": "tiktok",
- "gerado_em": "2026-10-06T19:47:14+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -192,23 +192,23 @@
    },
    {
     "termo": "test",
-    "kwic": "About Split Testing | TikTok Ads Manager Business Help Centre Home What's new About Split Testing Last update…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "tiktok/05-help-article-split-testing.md",
-    "n": 5,
-    "total_no_doc": 15
-   },
-   {
-    "termo": "test",
-    "kwic": "About Split Testing | TikTok Ads Manager Business Help Centre Home What's new About Split Testing Last updated: January 2026 Split testing in TikTok Ads Manager allows you to test two dif…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "tiktok/05-help-article-split-testing.md",
-    "n": 5,
-    "total_no_doc": 15
-   },
-   {
-    "termo": "test",
     "kwic": "…Business Help Centre Home What's new About Split Testing Last updated: January 2026 Split testing in TikTok Ads Manager allows you to test two different versions of your ads to determine…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "test",
+    "kwic": "…plit Testing Last updated: January 2026 Split testing in TikTok Ads Manager allows you to test two different versions of your ads to determine which one performs best. You can use spli…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "test",
+    "kwic": "…wo different versions of your ads to determine which one performs best. You can use split tests to keep the other variables the same and split your audience into two equal groups, with…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "tiktok/05-help-article-split-testing.md",
     "n": 5,
@@ -266,23 +266,23 @@
    },
    {
     "termo": "test",
-    "kwic": "About Split Testing | TikTok Ads Manager Business Help Centre Home What's new About Split Testing Last update…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "tiktok/05-help-article-split-testing.md",
-    "n": 5,
-    "total_no_doc": 15
-   },
-   {
-    "termo": "test",
-    "kwic": "About Split Testing | TikTok Ads Manager Business Help Centre Home What's new About Split Testing Last updated: January 2026 Split testing in TikTok Ads Manager allows you to test two dif…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "tiktok/05-help-article-split-testing.md",
-    "n": 5,
-    "total_no_doc": 15
-   },
-   {
-    "termo": "test",
     "kwic": "…Business Help Centre Home What's new About Split Testing Last updated: January 2026 Split testing in TikTok Ads Manager allows you to test two different versions of your ads to determine…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "test",
+    "kwic": "…plit Testing Last updated: January 2026 Split testing in TikTok Ads Manager allows you to test two different versions of your ads to determine which one performs best. You can use spli…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "tiktok/05-help-article-split-testing.md",
+    "n": 5,
+    "total_no_doc": 15
+   },
+   {
+    "termo": "test",
+    "kwic": "…wo different versions of your ads to determine which one performs best. You can use split tests to keep the other variables the same and split your audience into two equal groups, with…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "tiktok/05-help-article-split-testing.md",
     "n": 5,

@@ -1,7 +1,7 @@
 {
  "servico": "LinkedIn",
  "slug": "linkedin",
- "gerado_em": "2026-10-06T19:47:13+00:00",
+ "gerado_em": "2026-10-07T02:07:09+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "docs": [
@@ -176,22 +176,6 @@
    },
    {
     "termo": "A-B",
-    "kwic": "…tions Recruiter Sales Navigator Talent Insights Go to Marketing Solutions Sign in Sign in A/B Testing Last updated: 5 months ago As an advertiser, it’s important to achieve maximum va…",
-    "flag": null,
-    "file": "linkedin/06-lms-answer-a529753.md",
-    "n": 6,
-    "total_no_doc": 30
-   },
-   {
-    "termo": "test",
-    "kwic": "…s Recruiter Sales Navigator Talent Insights Go to Marketing Solutions Sign in Sign in A/B Testing Last updated: 5 months ago As an advertiser, it’s important to achieve maximum value and…",
-    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
-    "file": "linkedin/06-lms-answer-a529753.md",
-    "n": 6,
-    "total_no_doc": 40
-   },
-   {
-    "termo": "A-B",
     "kwic": "…timize your campaigns based on statistically significant data. You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ…",
     "flag": null,
     "file": "linkedin/06-lms-answer-a529753.md",
@@ -201,6 +185,22 @@
    {
     "termo": "test",
     "kwic": "…ze your campaigns based on statistically significant data. You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ by one v…",
+    "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 40
+   },
+   {
+    "termo": "A-B",
+    "kwic": "…ompares the performance of two ad sets with separate budgets that differ by one variable. A/B Testing supports both Classic and Accelerate ad sets, which means you can test a Classic…",
+    "flag": null,
+    "file": "linkedin/06-lms-answer-a529753.md",
+    "n": 6,
+    "total_no_doc": 30
+   },
+   {
+    "termo": "test",
+    "kwic": "…res the performance of two ad sets with separate budgets that differ by one variable. A/B Testing supports both Classic and Accelerate ad sets, which means you can test a Classic ad set a…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "linkedin/06-lms-answer-a529753.md",
     "n": 6,
@@ -226,7 +226,7 @@
    },
    {
     "termo": "A-B",
-    "kwic": "…tions Recruiter Sales Navigator Talent Insights Go to Marketing Solutions Sign in Sign in A/B Testing Last updated: 5 months ago As an advertiser, it’s important to achieve maximum va…",
+    "kwic": "…timize your campaigns based on statistically significant data. You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ…",
     "flag": null,
     "file": "linkedin/06-lms-answer-a529753.md",
     "n": 6,
@@ -234,7 +234,7 @@
    },
    {
     "termo": "A-B",
-    "kwic": "…timize your campaigns based on statistically significant data. You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ…",
+    "kwic": "…ompares the performance of two ad sets with separate budgets that differ by one variable. A/B Testing supports both Classic and Accelerate ad sets, which means you can test a Classic…",
     "flag": null,
     "file": "linkedin/06-lms-answer-a529753.md",
     "n": 6,
@@ -260,7 +260,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…s Recruiter Sales Navigator Talent Insights Go to Marketing Solutions Sign in Sign in A/B Testing Last updated: 5 months ago As an advertiser, it’s important to achieve maximum value and…",
+    "kwic": "…ze your campaigns based on statistically significant data. You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ by one v…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "linkedin/06-lms-answer-a529753.md",
     "n": 6,
@@ -268,7 +268,7 @@
    },
    {
     "termo": "test",
-    "kwic": "…ze your campaigns based on statistically significant data. You can achieve this using A/B Testing, which compares the performance of two ad sets with separate budgets that differ by one v…",
+    "kwic": "…res the performance of two ad sets with separate budgets that differ by one variable. A/B Testing supports both Classic and Accelerate ad sets, which means you can test a Classic ad set a…",
     "flag": "verificar sentido: 'testimonial', 'testing' de QA e 'test account' não são experimentação comportamental",
     "file": "linkedin/06-lms-answer-a529753.md",
     "n": 6,

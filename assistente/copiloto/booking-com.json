@@ -5,7 +5,7 @@
  "modelo": "claude-opus-5-5",
  "prompt_sha": "edd17f9c3a0d",
  "entrada_sha": "11db6829aa31",
- "gerado_em": "2026-10-04T23:31:02+00:00",
+ "gerado_em": "2026-10-07T01:46:46+00:00",
  "corpus_frozen_at": "2026-08-03T01:38:14+00:00",
  "corpus_built_at": "2026-10-02T15:43:06+00:00",
  "geracao": {
@@ -59,7 +59,7 @@
     "c:V1-6": "1"
    },
    "extras": {},
-   "razao": "A Privacy Notice nomeia 'experiments (such as A/B tests)' e os Termos descrevem versões diferentes mostradas a pessoas diferentes, ambos documentos vinculantes. Os trechos de 'test' sobre protocolos de incidentes e sistemas de IA parecem ser outro assunto."
+   "razao": "A Privacy Notice nomeia 'experiments (such as A/B tests)' e os Termos dizem mostrar 'different people different designs', ambos nível 3. O teto parece estar em documentos vinculantes; os trechos de 'test protocols' e de treino de IA parecem outro assunto."
   },
   "V2": {
    "notas": {
@@ -77,7 +77,7 @@
     ]
    },
    "extras": {},
-   "razao": "Predomina o enquadramento de melhoria do serviço. 'Market research' pode valer como pesquisa genérica, embora esteja ligado a convites e não aos testes A/B."
+   "razao": "O enquadramento dominante parece ser melhoria do serviço; 'market research' aparece como pesquisa genérica, mas ligada a convites e não aos A/B tests. A menção à segurança dos viajantes refere-se a fraude, não à experimentação."
   },
   "V3": {
    "notas": {
@@ -107,9 +107,9 @@
     "c:V3-8": "x"
    },
    "extras": {
-    "v3_targets": "platform features; designs; phrasings; products"
+    "v3_targets": "platform features; designs; phrasings (copy); products"
    },
-   "razao": "Os textos nomeiam superfícies testadas (features, designs, phrasings, products), mas nenhum experimento específico. O preço aparece apenas como variação por região/dispositivo, como personalização, e não como alvo de teste; o trecho de mispricing não conta."
+   "razao": "Os textos nomeiam superfícies testadas (features, designs, phrasings, products), mas nenhum experimento específico. Preço aparece como personalização regional e cláusula de erro, não como alvo de teste."
   },
   "V4": {
    "notas": {
@@ -133,7 +133,7 @@
     "v4_mapped_purpose": "G. Improving our services",
     "v4_region_gated": "No"
    },
-   "razao": "A finalidade G (Improving our services), onde estão os testes A/B, está no bloco C a K, baseado em legítimo interesse. Há também uma ressalva genérica de consentimento 'where needed under applicable law'; a tabela está presente nos documentos."
+   "razao": "A finalidade G (Improving our services), onde estão os A/B tests, cai no bloco C a K baseado em legítimo interesse; o consentimento aparece só como ressalva genérica 'where needed under applicable law'. A tabela está presente nos documentos lidos, por isso No."
   },
   "V5": {
    "notas": {
@@ -145,7 +145,7 @@
     "c:V5-6": "x"
    },
    "extras": {},
-   "razao": "O único caminho para experimentos parece ser a objeção genérica ao processamento por legítimo interesse. As opções de cookies, AI Memory e personalização não tratam de experimentação."
+   "razao": "Há objeção genérica às finalidades C a K e um banner de cookies analíticos/marketing, mas nenhum controle específico de experimentos. Os controles de IA Memory e de personalização parecem outro assunto."
   },
   "V6": {
    "notas": {
@@ -159,7 +159,7 @@
    "extras": {
     "v6_which": ""
    },
-   "razao": "Nenhum trecho descreve um programa de inscrição voluntária em beta ou acesso antecipado."
+   "razao": "Nenhum trecho descreve programa beta ou de acesso antecipado por adesão; a palavra-chave beta tem contagem zero."
   },
   "V7": {
    "notas": {
@@ -169,7 +169,7 @@
     "c:V7-4": "x"
    },
    "extras": {},
-   "razao": "Os trechos são avisos prévios de variação, de mensagens administrativas, de decisão automatizada e de mudança da política, e nenhum deles é debriefing. Os Termos tratam do tema dos testes sem prever aviso posterior, o que sugere um 'No' substantivo; a contagem de 'debrief' é zero."
+   "razao": "Os trechos são aviso de variação, mensagens administrativas, decisão automatizada e mudança de política, nenhum deles debriefing. Parece o caso em que o tema nunca é endereçado (debrief: 0 no log)."
   },
   "V8": {
    "notas": {
@@ -180,7 +180,7 @@
     "c:V8-5": "x"
    },
    "extras": {},
-   "razao": "As avaliações citadas se referem a sistemas de IA, ao teste de ponderação do legítimo interesse e à moderação antifraude, não a revisão ética de experimentos. Fica como caso de fronteira, a anotar, e como possível lacuna em relação às avaliações de risco do DSA."
+   "razao": "As avaliações de risco mencionadas tratam de IA, ponderação de legítimo interesse e moderação, não de experimentos; ethics/review board/risk assessment têm contagem zero. Possível nota de gap entre obrigações do DSA e os documentos ao usuário."
   },
   "V9": {
    "notas": {
@@ -209,12 +209,12 @@
     "c:V1-6": "x"
    },
    "extras": {},
-   "razao": "A divulgação aparece na Privacy Notice (docs 1 e 2) e nos Termos de Serviço (doc 3), ambos vinculantes. Os cabeçalhos e as remissões a outros documentos não divulgam experimentação."
+   "razao": "A divulgação aparece na Privacy Notice (docs 1 e 2) e nos Terms of Service (doc 3, que se declaram parte do acordo), ambos vinculantes. Os trechos de cabeçalho e de remissão identificam documentos, mas não divulgam experimentação."
   }
  },
  "avisos": [],
  "uso": {
   "input": 17679,
-  "output": 4522
+  "output": 4530
  }
 }
