@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-08T01:25:11+00:00",
+ "gerado_em": "2026-10-08T01:55:25+00:00",
  "congelado_em": "2026-07-04",
  "fonte_crit": "texto exato do codebook v2, congelado em 04/07/2026",
  "servicos": [
@@ -202,8 +202,8 @@
      "tipo": "line",
      "opcoes": [],
      "placeholder": "ex.: improve services",
-     "tela": "Finalidade que cobre os testes",
-     "ajuda_tela": "Qual finalidade declarada na tabela de bases legais você entendeu como a que cobre os testes. Em geral é algo como \"melhorar nossos serviços\". Copie o nome que o documento usa."
+     "tela": "Qual finalidade da tabela cobre os testes?",
+     "ajuda_tela": "A tabela de bases legais lista finalidades, como \"melhorar nossos serviços\" ou \"pesquisa e desenvolvimento\". Escreva a que, na sua leitura, abrange os testes com usuários, com o nome que o documento usa. As bases marcadas acima são as dessa finalidade. Sem tabela, deixe em branco."
     },
     {
      "chave": "v4_region_gated",
