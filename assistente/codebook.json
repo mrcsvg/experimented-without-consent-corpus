@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-08T01:55:25+00:00",
+ "gerado_em": "2026-10-08T02:20:08+00:00",
  "congelado_em": "2026-07-04",
  "fonte_crit": "texto exato do codebook v2, congelado em 04/07/2026",
  "servicos": [
@@ -405,11 +405,11 @@
   },
   {
    "vid": "KW",
-   "titulo": "Log de palavras-chave (obrigatório)",
+   "titulo": "Log de palavras-chave (automático)",
    "regra_html": "Por documento, hits de cada termo (triados — só sentido experimental). É o que torna cada \"No\" auditável.",
-   "pergunta": "O que a busca por palavra-chave encontrou, depois da sua triagem?",
-   "lembrete": "O log já vem com a contagem bruta por documento. Corrija os números, tirando o que você marcou como \"não se aplica\".",
-   "guia_html": "\n<p><b>O que é.</b> Este passo registra o que a busca por palavra-chave encontrou, depois da\nsua triagem. Não há nada novo para procurar.</p>\n<p><b>Como preencher.</b> O campo <b>Log</b> já vem preenchido com a contagem bruta de cada\ntermo, documento por documento, no formato <code>termo:número</code>. Corrija os números:\ntire as ocorrências que você descartou como falso positivo e deixe só as que têm sentido de\nexperimentação.</p>\n<p><b>Por que é obrigatório.</b> O log torna cada No verificável. Sem ele, \"procurei e não\nachei\" e \"não procurei\" ficam iguais no dado.</p>",
+   "pergunta": "O que a busca por palavra-chave contou em cada documento?",
+   "lembrete": "Registro automático, sem tela: a contagem bruta de cada termo por documento vem do corpus, e a triagem é a nota que você deu a cada trecho.",
+   "guia_html": "<p><b>O que é.</b> A contagem de cada um dos 12 termos do protocolo, documento por documento, no texto congelado. Não é uma etapa: a página grava a contagem sozinha, do corpus.</p><p><b>Por que existe.</b> A contagem torna cada No verificável: o que a busca achou está aqui, e o que foi descartado como \"não se aplica\" está nas notas por trecho.</p>",
    "crit_html": "",
    "crit_sha": null,
    "campos": [
